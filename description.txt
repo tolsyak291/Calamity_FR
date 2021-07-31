@@ -1,0 +1,26 @@
+Unofficial Calamity mod french translation (WIP)
+Traduction non-officielle française du mod Calamity (En cours).
+
+English description (Description anglaise)
+--------------------------------------------------------------------------
+
+Aim to translate buffs, items, accessories, mounts, pets, NPCs names, weapons, global chat announcements and more eventually.
+1267+/2644 labels groups translated. 100% of accessories, NPC Dialog(except Amidias help dialog et Thief's refund option), and global chat announcement should be translated.
+Please note that some text cannot be translated, but the great majority of the text should be translatable.
+Also, this is not google translated, so typos and mistakes are likely to be found, but the translated text should make sense.
+
+Description française (French Description)
+--------------------------------------------------------------------------
+
+Vise à traduire les buffs, les objets, les accessoires, les montures, les pets, les noms des NPC (alliés et ennemis), les messages globaux dans le chat, les armes et plus si affinité.
+1267+/2644 groupes de textes traduits. 100% des accessoires, des dialogues des NPC (hors l'aide d'Amidias et le 'remboursement' du voleur) et des messages globaux dans le chat devraient être traduits.
+Certains textes ne peuvent pas être traduits, mais la grande plupart du mod devrait pouvoir être traduit.
+Aussi, ce n'est pas une google trad, ce qui veut dire qu'il y a de fortes chances que des fautes soient présentes, mais le texte traduit devrait faire sens.
+
+--------------------------------------------------------------------------
+
+V0.4 : Ajout de la plupart des dialogues des NPC et d'une icône | Added most NPC Dialog and a mod icon
+V0.3 : Ajout de 600+ labels traduits | Added 600+ translated labels
+V0.2.1 : Ajout de la page d'accueil | Added homepage
+V0.2 : Ajout des messages de chat | Added chat messages
+V0.1 : Version initiale | First Version
