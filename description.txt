@@ -5,7 +5,7 @@ English description (Description anglaise)
 --------------------------------------------------------------------------
 
 Aim to translate buffs, items, accessories, mounts, pets, NPCs names, weapons, global chat announcements and more eventually.
-1765+/2672 labels groups translated. 100% of accessories, prefixes, NPC Dialog(except Amidias help dialog et Thief's refund option), and global chat announcement should be translated.
+1974+/2753 labels groups translated. 100% of accessories, prefixes, NPC Dialog(except Amidias help dialog et Thief's refund option), and global chat announcement should be translated.
 Please note that some text cannot be translated, but the great majority of the text should be translatable.
 Also, this is not google translated, so typos and mistakes are likely to be found, but the translated text should make sense.
 
@@ -13,12 +13,13 @@ Description française (French Description)
 --------------------------------------------------------------------------
 
 Vise à traduire les buffs, les objets, les accessoires, les montures, les pets, les noms des NPC (alliés et ennemis), les messages globaux dans le chat, les armes et plus si affinité.
-1765+/2672 groupes de textes traduits. 100% des accessoires, des préfixes, des dialogues des NPC (hors l'aide d'Amidias et le 'remboursement' du voleur) et des messages globaux dans le chat devraient être traduits.
+1974+/2753 groupes de textes traduits. 100% des accessoires, des préfixes, des dialogues des NPC (hors l'aide d'Amidias et le 'remboursement' du voleur) et des messages globaux dans le chat devraient être traduits.
 Certains textes ne peuvent pas être traduits, mais la grande plupart du mod devrait pouvoir être traduit.
 Aussi, ce n'est pas une google trad, ce qui veut dire qu'il y a de fortes chances que des fautes soient présentes, mais le texte traduit devrait faire sens.
 
 --------------------------------------------------------------------------
 
+V0.7 : Ajout des bonus de set et de plus de traduction de texte | Adding set bonuses translations and more label
 V0.6 : Ajout de traductions, et traductions des objets du jeu de base modifiés par Calamity | Added translation, and translated vanilla objects modified by Calamity 
 V0.5 : Ajout des préfixes, de la traduction des dégâts des armes et d'une centaine de label | Added prefixes, weapons damage translation and around 100 text
 V0.4 : Ajout de la plupart des dialogues des NPC et d'une icône | Added most NPC Dialog and a mod icon

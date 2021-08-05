@@ -2,6 +2,8 @@
 using Terraria;
 using CalamityMod;
 using CalamityMod.Items;
+using CalamityMod.Items.Armor;
+using CalamityMod.World;
 using System.Collections.Generic;
 using Terraria.ModLoader;
 
@@ -11,11 +13,728 @@ public class CalamityGlobalItem_FR : GlobalItem
 	{
 	}
 
+	public override void UpdateArmorSet(Player player, string set)
+	{
+		string hotkey = CalamityMod.CalamityMod.TarraHotKey.TooltipHotkeyString();
+		if (set == "AerospecMagic")
+		{
+			player.setBonus = "+5% de vitesse de mouvement et de chances de coup critique magique\nPrendre plus de 25 dégâts en une seule fois fera tomber des plumes à têtes chercheuses du ciel\nVous permet de tomber plus rapidement et annule les dégâts de chute\n";
+		}
+		else if (set == "AerospecRogue")
+		{
+			player.setBonus = "+5% de vitesse de mouvement et de chances de coup critique de voleur\nPrendre plus de 25 dégâts en une seule fois fera tomber des plumes à têtes chercheuses du ciel\nVous permet de tomber plus rapidement et annule les dégâts de chute\nLa furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 100\nUne fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\nLa furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\nEn s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur\n";
+		}
+		else if (set == "AerospecMelee")
+		{
+			player.setBonus = "+5% de vitesse de mouvement et melee chances de coup critique\nPrendre plus de 25 dégâts en une seule fois fera tomber des plumes à têtes chercheuses du ciel\nVous permet de tomber plus rapidement et annule les dégâts de chute\n";
+		}
+		else if (set == "AerospecSummon")
+		{
+			player.setBonus = "+16% de dégâts des sbires\nInvoque une valkyrie pour vous protéger\nPrendre plus de 25 dégâts en une seule fois fera tomber des plumes à têtes chercheuses du ciel\nVous permet de tomber plus rapidement et annule les dégâts de chute\n";
+		}
+		else if (set == "AerospecRanged")
+		{
+			player.setBonus = "+5% de vitesse de mouvement et de chances de coup critique à distance\nPrendre plus de 25 dégâts en une seule fois fera tomber des plumes à têtes chercheuses du ciel\nVous permet de tomber plus rapidement et annule les dégâts de chute\n";
+		}
+		else if (set == "Astral")
+		{
+			player.setBonus = "+25% de vitesse de mouvement\n+28% de dégâts et +21% de chances de coup critique\nLes coups critiques font pleuvoir des étoiles déchues, sacrées et astrales\nCet effet à un temps de recharge de 1s\n";
+		}
+		else if (set == "AtaxiaRanged")
+		{
+			player.setBonus = "+5% de dégâts à distance\nEffet de la potion infernale quand vous êtes à moins de la moitié de votre vie\nVous avez 50% de chances de tirer une déflagration de chaos à tête chercheuse quand vous utilisez une arme à distance\nVous avez 20% de chances d'émettre une explosion flamboyante quand vous êtes touché\n";
+		}
+		else if (set == "AtaxiaMelee")
+		{
+			player.setBonus = "+5% de dégâts de mêlée\nEffet de la potion infernale quand vous êtes à moins de la moitié de votre vie\nLes attaques et les projectiles de mêlée créent des éruptions de flammes chaotiques quand ils touchent\nVous avez 20% de chances d'émettre une explosion flamboyante quand vous êtes touché\n";
+		}
+		else if (set == "AtaxiaSummon")
+		{
+			player.setBonus = "+40% de dégâts des sbires\nEffet de la potion infernale quand vous êtes à moins de la moitié de votre vie\nSummons a hydrothermic vent to protect you\nVous avez 20% de chances d'émettre une explosion flamboyante quand vous êtes touché\n";
+		}
+		else if (set == "AtaxiaRogue")
+		{
+			player.setBonus = "+5% de dégâts de voleur\nEffet de la potion infernale quand vous êtes à moins de la moitié de votre vie\nLes armes de voleur ont 10% de chances de relâcher une volée de flammes chaotiques autour du joueur qui pourchassent les ennemis\nVous avez 20% de chances d'émettre une explosion flamboyante quand vous êtes touché\nLa furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 110\nUne fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\nLa furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\nEn s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur\n";
+		}
+		else if (set == "AtaxiaMagic")
+		{
+			player.setBonus = "+5% de dégâts magiques\nEffet de la potion infernale quand vous êtes à moins de la moitié de votre vie\nLes attaques magiques créent des orbes de soin et de dégâts quand elles touchent\nVous avez 20% de chances d'émettre une explosion flamboyante quand vous êtes touché\n";
+		}
+		else if (set == "AuricMelee")
+		{
+			player.setBonus = "Effets des armures de mêlée d'estragon, de brûlesang, de déicide et Silva\nTous les projectiles font apparaître des orbes auriques quand vous touchez\nVitesse de course et d'accélération augmentée de 10%\nVos dégâts de mêlée sont augmentés en fonction du montant de vos points de vie; l'effet est maximal quand vous avez tous vos points de vie\n";
+		}
+		else if (set == "AuricRanged")
+		{
+			player.setBonus = "Effets des armures à distance d'estragon, de brûlesang, de déicide et Silva\nTous les projectiles font apparaître des orbes auriques quand vous touchez\nVitesse de course et d'accélération augmentée de 10%\n";
+		}
+		else if (set == "AuricRogue")
+		{
+			player.setBonus = "Effets des armures de voleur d'estragon, de brûlesang, de déicide et Silva\nTous les projectiles font apparaître des orbes auriques quand vous touchez\nVitesse de course et d'accélération augmentée de 10%\nLes coups critiques de voleur font 25% de dégâts en plus quand vous avez plus de 50% de vos points de vie\nLa furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 130\nUne fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\nLa furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\nEn s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur\n";
+		}
+		else if (set == "AuricSummon")
+		{
+			player.setBonus = "Effets des armures d'invocateur d'estragon, de brûlesang, de déicide et Silva\nTous les projectiles font apparaître des orbes auriques quand vous touchez\nVitesse de course et d'accélération augmentée de 10%\n+1 sbires max et +120% de dégâts des sbires\n";
+		}
+		else if (set == "AuricMagic")
+		{
+			player.setBonus = "Effets des armures magiques d'estragon, de brûlesang, de déicide et Silva\nTous les projectiles font apparaître des orbes auriques quand vous touchez\nVitesse de course et d'accélération augmentée de 10%\n";
+		}
+		else if (set == "BloodflareRogue")
+		{
+			player.setBonus = "Augmente grandement la régénération de vie\nLes ennemis ayant moins de 50% de leur vie ont une chance de lâcher un coeur quand ils sont frappés\nLes ennemis ayant plus de 50% de leur vie ont une chance de lâcher une étoile de mana quand ils sont frappés\nLes ennemis tués durant une lune de sang ont une bien meilleure chance de lâcher des orbes de sang\nAvoir plus de 80% de vos points de vie augmente votre défense de 30 et vos chances de coup critique de voleur de 5%\nAvoir moins de 80% de votre vie augmente vos dégâts de voleur de 10%\nLes coups critiques de voleur ont 50% de chances de vous soigner\nLa furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 120\nUne fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\nLa furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\nEn s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur\n";
+		}
+		else if (set == "BloodflareSummon")
+		{
+			player.setBonus = "+55% de dégâts des sbires\nAugmente grandement la régénération de vie\nLes ennemis ayant moins de 50% de leur vie ont une chance de lâcher un coeur quand ils sont frappés\nLes ennemis ayant plus de 50% de leur vie ont une chance de lâcher une étoile de mana quand ils sont frappés\nLes ennemis tués durant une lune de sang ont une bien meilleure chance de lâcher des orbes de sang\nInvoque des mines d'épouvantôme qui vous encerclent\nAvoir plus de 90% de votre vie augmente de 10% les dégâts des sbires\nAvoir moins de 50% de votre vie augmente votre défense de 20 et votre régénération de vie de 2\n";
+		}
+		else if (set == "BloodflareRanged")
+		{
+			player.setBonus = "Augmente grandement la régénération de vie\nLes ennemis ayant moins de 50% de leur vie ont une chance de lâcher un coeur quand ils sont frappés\nLes ennemis ayant plus de 50% de leur vie ont une chance de lâcher une étoile de mana quand ils sont frappés\nLes ennemis tués durant une lune de sang ont une bien meilleure chance de lâcher des orbes de sang\nAppuyez sur " + hotkey + " pour libérer les âmes perdues de l'épouvantôme pour détruire vos ennemis\nCet effet a 30s de temps de recharge\nLes armes à distance ont une chance de tirer des orbes d'explosion de sang\n";
+		}
+		else if (set == "BloodflareMagic")
+		{
+			player.setBonus = "Augmente grandement la régénération de vie\nLes ennemis ayant moins de 50% de leur vie ont une chance de lâcher un coeur quand ils sont frappés\nLes ennemis ayant plus de 50% de leur vie ont une chance de lâcher une étoile de mana quand ils sont frappés\nLes ennemis tués durant une lune de sang ont une bien meilleure chance de lâcher des orbes de sang\nLes armes magiques tirerons parfois des décharges fantômatiques\nLes coups critiques magiques provoquent des explosions de flammes toutes les 2 secondes\n";
+		}
+		else if (set == "BloodflareMelee")
+		{
+			player.setBonus = "Augmente grandement la régénération de vie\nLes ennemis ont plus de chances de vous cibler\nLes ennemis ayant moins de 50% de leur vie ont une chance de lâcher un coeur quand ils sont frappés\nLes ennemis ayant plus de 50% de leur vie ont une chance de lâcher une étoile de mana quand ils sont frappés\nLes ennemis tués durant une lune de sang ont une bien meilleure chance de lâcher des orbes de sang\nLes attaques de vraie mêlée vous soignent\nAprès 15 attaques de vraie mêlée réussies, vous entrerez en fureur de sang pendant 5 secondes\nLa fureur vous fera gagner 25% de dégâts et de chances de coup critique en mêlée, et les dégâts de contact sont réduit de moitié\nCet effet à 30s de temps de recharge\n";
+		}
+		else if (set == "Brimflame")
+		{
+			player.setBonus = "+15% de dégâts et de chances de coup critique magique\nAppuyez sur " + hotkey + " pour déclencher une fureur flammesouffre\nDurant cet effet, vos dégâts sont significativement augmentés\nCependant, votre vie diminue rapidement et votre mana ne se régénère pas durant la fureur\nCet effet peut être interrompu, la fureur flammesouffre a un temps de recharge de 30s\n";
+		}
+		else if (set == "DaedalusMagic")
+		{
+			player.setBonus = "+5% de dégâts magiques\nVous avez 10% de cahnce d'absorber les attaques et les projectiles physiques quand vous êtes touché\nSi vous absorbez une attaque, vous êtes soigné pour la moitié des dégâts de cette attaque\n";
+		}
+		else if (set == "DaedalusSummon")
+		{
+			player.setBonus = "+20% de dégâts des sbires\nUn cristal de Dédale flotte au-dessus de vous pour vous protéger\n";
+		}
+		else if (set == "DaedalusMelee")
+		{
+			player.setBonus = "+5% de dégâts de mêlée\nVous avez 33% de chances de renvoyer les projectiles sur les ennemis\nSi vous renvoyez un projectile, vous êtes également soigné pour 20% des dégâts de ce projectile\n";
+		}
+		else if (set == "DaedalusRanged")
+		{
+			player.setBonus = "+5% de dégâts à distance\nÊtre touché vous fait émettre une décharge d'éclats de cristaux\n";
+		}
+		else if (set == "DaedalusRogue")
+		{
+			player.setBonus = "+5% de dégâts de voleur\nLes projectiles de voleur émettent des éclats de cristaux sur leur trajectoire\nLa furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 105\nUne fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\nLa furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\nEn s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur\n";
+		}
+		else if (set == "Demonshade")
+		{
+			player.setBonus = "+100% de dégâts des sbires\nToutes les attaques infligent les flammes démoniaques\nDes rayons d'ombre et des faux démoniaques pleuvront quand vous serez touché\nUne diable rouge amical vous suivra\nAppuyez sur " + hotkey + " pour enrager les ennemis proches avec un sort de magie noire pendant 10s\nIl feront alors 25% de dégâts supplémentaires, mais subiront 125% de dégâts supplémentaires\n";
+		}
+		else if (set == "DesertProwler")
+		{
+			player.setBonus = "Les attaques à distance font 1 dégât supplémentaire\nLes coups critiques à distance peuvent rarement conjurer une tempête de sable\n";
+		}
+		else if (set == "FathomSwarmer")
+		{
+			player.setBonus = "+10% de dégâts des sbires et +1 sbires max\nPermet de grimper aux murs\n+30% de dégâts des sbires quand vous êtes immergé\nDonne une quantité de modérée de lumière et réduit de façon modérée la perte de respiration dans les abysses\n";
+		}
+		else if (set == "Fearmonger")
+		{
+			player.setBonus = "+30% de dégâts des sbires\nLa réduction des dégâts infligés par les sbires est réduite quand vous tenez une arme\nImmunité à toutes les formes de flamme et de givre\nToutes les attaques de sbires augmentent colossalement la régénération de vie\n+15% de réduction de dégâts durant les lunes citrouilles et de givre\nCette réduction de dégâts ignore la limitation normale\nProtège contre le froid en mode Mort\n";
+		}
+		else if (set == "ForbiddenCalam")
+		{
+			int stormMana = (int)(60f * player.manaCost);
+			player.setBonus = "Appuyez sur " + hotkey + " pour convoquer une tornade ancienne à l'emplacement du curseur\nLa tornade ancienne coûte " + stormMana + " mana et profite à la fois des améliorations d'invocateur et de voleur\nLes attaques furtives créent des dévoreurs à tête chercheuse quand vous touchez\nLes attaques de voleur et d'invocateur utiliserons le bonus de statistiques le plus élevé des deux\nLa furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 40\nUne fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\nLa furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\nEn s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur\n";
+		}
+		else if (set == "GodSlayerMelee")
+		{
+			player.setBonus = "Vous survivrez à des dégâts mortels et serez soigné de 150 points de vie si une attaque vous serait fatale\nCet effet a un temps de recharge de 45s\nLa régénération de vie est réduite de moitié quand cet effet se recharge\nPrendre plus de 80 dégâts en une fois vous fera relâcher une nuée de fléchettes déicides infligeant des dégâts importants\nLes ennemis subissent beaucoup de dégâts quand ils vous touchent\nUne attaque qui inflige moins de 80 dégâts vera ses dégâts réduits à 1\n";
+		}
+		else if (set == "GodSlayerRanged")
+		{
+			player.setBonus = "Vous survivrez à des dégâts mortels et serez soigné de 150 points de vie si une attaque vous serait fatale\nCet effet a un temps de recharge de 45s\nLa régénération de vie est réduite de moitié quand cet effet se recharge\nVos attaques critiques à distance ont une chance de double critique, infligeant 4 fois les dégâts normaux\nVous avez une chance de tirer une cartouche à éclat déicide quand vous tirez avec une arme à distance\n";
+		}
+		else if (set == "GodSlayerSummon")
+		{
+			player.setBonus = "+65% de dégâts des sbires\nVous survivrez à des dégâts mortels et serez soigné de 150 points de vie si une attaque vous serait fatale\nCet effet a un temps de recharge de 45s\nLa régénération de vie est réduite de moitié quand cet effet se recharge\nToucher les ennemis invoquera des fantômes déicides\nInvoque un ver mécanique dévoreur de dieux pour combattre à vos côtés\n";
+		}
+		else if (set == "GodSlayerRogue")
+		{
+			player.setBonus = "Vous survivrez à des dégâts mortels et serez soigné de 150 points de vie si une attaque vous serait fatale\nCet effet a un temps de recharge de 45s\nLa régénération de vie est réduite de moitié quand cet effet se recharge\nQuand vous êtes à 100% de votre vie, toutes vos statistiques de voleur sont augmentées de 10%\nSi vous prenez plus de 80 dégâts en un coup, vous obtiendrez une période d'invulnérabilité plus longue\nLa furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 120\nUne fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\nLa furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\nEn s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur\n";
+		}
+		else if (set == "GodSlayerMagic")
+		{
+			player.setBonus = "Vous survivrez à des dégâts mortels et serez soigné de 150 points de vie si une attaque vous serait fatale\nCet effet a un temps de recharge de 45s\nLa régénération de vie est réduite de moitié quand cet effet se recharge\nLes ennemis relâchent des flammes déicides et des flammes de soin quand ils sont touchés par des attaques magiques\nPrendre des dégâts vous fera émettre une explosion magique déicide\n";
+		}
+		else if (set == "Mollusk")
+		{
+			player.setBonus = "Deux crustacés vous assisteront au combat\n+10% de dégâts\nVotre mouvement horizontal est réduit\n";
+		}
+		else if (set == "OmegaBlue")
+		{
+			player.setBonus = "Augmente la pénétration d'armure de 50\n+10% de dégâts et de chances de coup critique\nDes tentacules à faible portée vous soigneront en aspirant la vie des ennemis\nAppuyez sur " + hotkey + " pour activer la folie abyssale pendant 5 secondes\nLa folie abyssale augmentent les dégâts, les chances de coup critique, et l'aggressivité et la portée des tentacules\nCet effet à 25s de temps de recharge\n";
+		}
+		else if (set == "PlaguebringerSummon")
+		{
+			player.setBonus = "Accorde une ruée pestiférée pour charger les ennemis et leur infliger la peste\nInvoque un ptit colporte-peste pour vous protéger et renforcer les sbires proches\n";
+		}
+		else if (set == "PlaguebringerRanged")
+		{
+			player.setBonus = "25% de réduction de consommation de munitions et +5% de temps de vol\nLes ennemis subissent 10% de dégâts supplémentaires des projectiles à distance quand ils sont affectés par la peste\nÊtre touché fait pleuvoir des cendres de peste\nAppuyer sur " + hotkey + " pour vous aveugler pendant 5 secondes mais augmenter massivement vos dégâts à distance\nCet effet a 25s de temps de recharge.\n";
+		}
+		else if (set == "Prismatic")
+		{
+			player.setBonus = "+40 mana maximum et +15% de réduction du coût en mana\nRégénération de mana augmentée\nAppuyez sur " + hotkey + " pour relâcher un barrage de lasers mortels sur le curseur pendant 5 secondes\nCet effet a 30s de temps de recharge\n";
+		}
+		else if (set == "ReaverRogue")
+		{
+			player.setBonus = "5% de dégâts de voleur\nYou emit a cloud of spores when you are hit\nLa furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 110\nUne fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\nLa furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\nEn s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur\n";
+		}
+		else if (set == "ReaverMelee")
+		{
+			player.setBonus = "+5% de dégâts de mêlée\nLes projectiles de mêlée explosent quand vous touchez\nÉpines de saccageur\nLa rage s'active quand vous subissez des dégâts\n";
+		}
+		else if (set == "ReaverSummon")
+		{
+			player.setBonus = "+16% de dégâts des sbires\nInvoque une orbe de saccageur qui émet du gaz sporieux quand les ennemis sont proches\n";
+		}
+		else if (set == "ReaverMagic")
+		{
+			player.setBonus = "+5% de dégâts magiques\nVos projectiles magiques émettent une déflagration de gaz sporieux quand vous touchez\n";
+		}
+		else if (set == "ReaverRanged")
+		{
+			player.setBonus = "+5% de dégâts à distance\n10% de chances de tirer une puissante roquette quand vous utilisez une arme à distance\n";
+		}
+		else if (set == "ShroomiteCalam")
+		{
+			player.setBonus = "Furtivité à distance quand vous restez immobile\n";
+		}
+		else if (set == "SilvaMelee")
+		{
+			player.setBonus = "Tous vos projectiles créent des orbes feuillues de soin quand elle touchent\nVitesse de course et d'accélération maximale augmentée de 5%\nSi vous tombez à 1 point de vie vous ne mourrez pas si vous subissez d'autres dégâts pendant 10s\nSi vous retombez à 1 point de vie pendant que cet effet est actif, vous perdrez 100 points de vie maximum\nCet effet ne s'active qu'une fois par vie et ne fonctionne que si votre vie maximum est supérieure à 400\nVotre vie maximale sera restaurée si vous mourrez\nLes attaques de vrai mêlée ont 25% de chances de faire 5 fois plus de dégâts\nAprès l'invicibilité Silva, les dégâts de contact seront réduits de 20%\nLes projectiles de mêlée ont 25% de chances de stopper brièvement les ennemis\n";
+		}
+		else if (set == "SilvaSummon")
+		{
+			player.setBonus = "+75% de dégâts des sbires\nTous vos projectiles créent des orbes feuillues de soin quand elle touchent\nVitesse de course et d'accélération maximale augmentée de 5%\nSi vous tombez à 1 point de vie vous ne mourrez pas si vous subissez d'autres dégâts pendant 10s\nSi vous retombez à 1 point de vie pendant que cet effet est actif, vous perdrez 100 points de vie maximum\nCet effet ne s'active qu'une fois par vie et ne fonctionne que si votre vie maximum est supérieure à 400\nVotre vie maximale sera restaurée si vous mourrez\nInvoque une ancien prisme feuillu pour anéantir vos ennemis avec de l'énergie vitale\nAprès l'invincibilité Silva, vos sbires infligerons 10% de dégâts supplémentaires\n";
+		}
+		else if (set == "SilvaRanged")
+		{
+			player.setBonus = "Tous vos projectiles créent des orbes feuillues de soin quand elle touchent\nVitesse de course et d'accélération maximale augmentée de 5%\nSi vous tombez à 1 point de vie vous ne mourrez pas si vous subissez d'autres dégâts pendant 10s\nSi vous retombez à 1 point de vie pendant que cet effet est actif, vous perdrez 100 points de vie maximum\nCet effet ne s'active qu'une fois par vie et ne fonctionne que si votre vie maximum est supérieure à 400\nVotre vie maximale sera restaurée si vous mourrez\nAugmente la vitesse de tir de toutes les armes à distance\nAprès l'invincibilité Silva, toutes les armes à distance infligerons 10% de dégâts supplémentaires\n";
+		}
+		else if (set == "SilvaRogue")
+		{
+			player.setBonus = "Tous vos projectiles créent des orbes feuillues de soin quand elle touchent\nVitesse de course et d'accélération maximale augmentée de 5%\nSi vous tombez à 1 point de vie vous ne mourrez pas si vous subissez d'autres dégâts pendant 10s\nSi vous retombez à 1 point de vie pendant que cet effet est actif, vous perdrez 100 points de vie maximum\nCet effet ne s'active qu'une fois par vie et ne fonctionne que si votre vie maximum est supérieure à 400\nVotre vie maximale sera restaurée si vous mourrez\nLes armes de voleur se jettent plus vite quand vous avez plus de la moitié de votre vie\nAprès l'invincibilité Silva, les armes de voleur infligerons 10% de dégâts supplémentaires\nLa furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 125\nUne fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\nLa furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\nEn s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur\n";
+		}
+		else if (set == "SilvaMagic")
+		{
+			player.setBonus = "Tous vos projectiles créent des orbes feuillues de soin quand elle touchent\nVitesse de course et d'accélération maximale augmentée de 5%\nSi vous tombez à 1 point de vie vous ne mourrez pas si vous subissez d'autres dégâts pendant 10s\nSi vous retombez à 1 point de vie pendant que cet effet est actif, vous perdrez 100 points de vie maximum\nCet effet ne s'active qu'une fois par vie et ne fonctionne que si votre vie maximum est supérieure à 400\nVotre vie maximale sera restaurée si vous mourrez\nLes projectiles magiques ont 10% de chances de créer une explosion massive quand ils touchent\nAprès l'invincibilité Silva, les armes magiques infligeront 10% de dégâts supplémentaires\n";
+		}
+		else if (set == "SnowRuffian")
+		{
+			player.setBonus = "+5% de dégâts de voleur\nVous pouvez flotter pour annuler les dégâts de chute\nLa furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 50\nUne fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\nLa furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\nEn s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur\n";
+		}
+		else if (set == "StatigelMagic")
+		{
+			player.setBonus = "Si vous prenez 100 dégâts en un seul coup, votre période d'invulnérabilité est prolongée\nAccorde un saut additionnel et une hauteur de saut accrue\n+30% de vitesse de saut\n";
+		}
+		else if (set == "StatigelRanged")
+		{
+			player.setBonus = "Si vous prenez 100 dégâts en un seul coup, votre période d'invulnérabilité est prolongée\nAccorde un saut additionnel et une hauteur de saut accrue\n+30% de vitesse de saut\n";
+		}
+		else if (set == "StatigelMelee")
+		{
+			player.setBonus = "Si vous prenez 100 dégâts en un seul coup, votre période d'invulnérabilité est prolongée\nAccorde un saut additionnel et une hauteur de saut accrue\n+30% de vitesse de saut\n";
+		}
+		else if (set == "StatigelSummon")
+		{
+			player.setBonus = "+18% de dégâts des sbires\nInvoque un dieu des gelées miniature pour combattre à vos côtés, en fonction du biome maléfique présent dans votre monde\nSi vous prenez 100 dégâts en un seul coup, votre période d'invulnérabilité est prolongée\nAccorde un saut additionnel et une hauteur de saut accrue\n+30% de vitesse de saut\n";
+		}
+		else if (set == "StatigelRogue")
+		{
+			player.setBonus = "Si vous prenez 100 dégâts en un seul coup, votre période d'invulnérabilité est prolongée\nAccorde un saut additionnel et une hauteur de saut accrue\n+30% de vitesse de saut\nLa furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 100\nUne fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\nLa furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\nEn s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur\n";
+		}
+		else if (set == "Sulfur")
+		{
+			player.setBonus = "Attaquer et être attaqué par les ennemis inflige l'empoisonnement\nAccorde un saut additionnel qui invoque une bulle sulfurique\nAccorde une meilleure mobilité sous l'eau et réduit la sévérité des eaux sulfuriques\nLa furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 100\nUne fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\nLa furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\nEn s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur\n";
+		}
+		else if (set == "TarragonMelee")
+		{
+			player.setBonus = "Augmente la portée de collecte des coeurs\nLes ennemis ont une chance de lâcher plus de coeurs quand ils meurent\nVous avez 25% de chances de gagner une amélioration de régénération de vie quand vous prenez des dégâts\nAppuyez sur " + hotkey + " pour vous draper dans de l'énergie vitale qui réduit énormément les dégâts de contact ennemis pendant 10s\nCet effet à 30s de temps de recharge\n";
+		}
+		else if (set == "TarragonRogue")
+		{
+			player.setBonus = "Réduit le taux d'apparition des ennemis\nAugmente la portée de collecte des coeurs\nLes ennemis ont une chance de lâcher plus de coeurs quand ils meurent\nTous les 25 coups critiques de voleur, vous gagnerez 5 secondes d'invincibilité\nCet effet à un temps de recharge de 30s\n+10% de dégâts de voleur quand vous êtes sous l'effet d'une altération d'état\nLa furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 115\nUne fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\nLa furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\nEn s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur\n";
+		}
+		else if (set == "TarragonSummon")
+		{
+			player.setBonus = "+55% de dégâts des sbires\nRéduit le taux d'apparition des ennemis\nAugmente la portée de collecte des coeurs\nLes ennemis ont une chance de lâcher plus de coeurs quand ils meurent\nInvoque une aura vitale autour de vous qui inflige des dégâts aux ennemis proches\n";
+		}
+		else if (set == "TarragonMagic")
+		{
+			player.setBonus = "Réduit le taux d'apparition des ennemis\nAugmente la portée de collecte des coeurs\nLes ennemis ont une chance de lâcher plus de coeurs quand ils meurent\nTous les 5 coups critiques, vous libèrerez une tempête de feuilles\nLes projectiles magiques vous soignent quand vous touchez\nLa quantité de soin dépend des dégâts infligés par le projectile\n";
+		}
+		else if (set == "TarragonRanged")
+		{
+			player.setBonus = "Réduit le taux d'apparition des ennemis\nAugmente la portée de collecte des coeurs\nLes ennemis ont une chance de lâcher plus de coeurs quand ils meurent\nLes coups critiques à distance provoqueront une explosion de feuilles\nLes projectiles à distance ont une chance de se diviser en énergie vitale en touchant un ennemi\n";
+		}
+		else if (set == "TitanHeart")
+		{
+			player.setBonus = "+20% de dégâts et de recul de voleur\nLes attaques furtives ont deux fois plus de recul et provoquent une explosion astrale\nLa furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 100\nUne fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\nLa furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\nEn s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur\n";
+		}
+		else if (set == "Umbraphile")
+		{
+			player.setBonus = "Les armes de voleur ont une chance de créer une explosion quand elles touchent\nLes attaques furtives créent toujours une explosion\nLes potions de pénombre augmentent toujours la furtivité avec une efficacité maximale\nLa furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 110\nUne fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\nLa furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\nEn s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur\n";
+		}
+		else if (set == "VictideRogue")
+		{
+			player.setBonus = "Augmente la régénération de vie et les dégâts de voleur quand vous êtes immergé\nVous avez 10% de chances de jeter un boomerang coquillage quand vous attaquez\nLe coquillage fait des dégâts brut et ne bénéficie pas des bonus de classes\nAugmente la mobilité sous l'eau et réduit légèrement la perte de respiration dans les abysses\nLa furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 90\nUne fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\nLa furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\nEn s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur\n";
+		}
+		else if (set == "VictideMelee")
+		{
+			player.setBonus = "Augmente la régénération de vie et les dégâts de mêlée quand vous êtes immergé\nVous avez 10% de chances de jeter un boomerang coquillage quand vous attaquez\nLe coquillage fait des dégâts brut et ne bénéficie pas des bonus de classes\nAugmente la mobilité sous l'eau et réduit légèrement la perte de respiration dans les abysses\n";
+		}
+		else if (set == "VictideSummon")
+		{
+			player.setBonus = "Augmente la régénération de vie et les dégâts des sbires quand vous êtes immergé\nInvoque un oursin des mer pour vous protéger\nVous avez 10% de chances de jeter un boomerang coquillage quand vous attaquez\nLe coquillage fait des dégâts brut et ne bénéficie pas des bonus de classes\nAugmente la mobilité sous l'eau et réduit légèrement la perte de respiration dans les abysses\n";
+		}
+		else if (set == "VictideMagic")
+		{
+			player.setBonus = "Augmente la régénération de vie et les dégâts magiques quand vous êtes immergé\nVous avez 10% de chances de jeter un boomerang coquillage quand vous attaquez\nLe coquillage fait des dégâts brut et ne bénéficie pas des bonus de classes\nAugmente la mobilité sous l'eau et réduit légèrement la perte de respiration dans les abysses\n";
+		}
+		else if (set == "VictideRanged")
+		{
+			player.setBonus = "Augmente la régénération de vie et les dégâts à distance quand vous êtes immergé\nVous avez 10% de chances de jeter un boomerang coquillage quand vous attaquez\nLe coquillage fait des dégâts brut et ne bénéficie pas des bonus de classes\nAugmente la mobilité sous l'eau et réduit légèrement la perte de respiration dans les abysses\n";
+		}
+		else if (set == "WulfrumRanged")
+		{
+			player.setBonus = "+3 défense\n+5 défense quand vous avez moins de la moitié de vos points de vie\n";
+		}
+		else if (set == "WulfrumMelee")
+		{
+			player.setBonus = "+3 défense\n+5 défense quand vous avez moins de la moitié de vos points de vie\n";
+		}
+		else if (set == "WulfrumSummon")
+		{
+			player.setBonus = "+3 défense\n+5 défense quand vous avez moins de la moitié de vos points de vie\n";
+		}
+		else if (set == "WulfrumMagic")
+		{
+			player.setBonus = "+3 défense\n+5 défense quand vous avez moins de la moitié de vos points de vie\n";
+		}
+		else if (set == "WulfrumRogue")
+		{
+			player.setBonus = "+3 défense\n+5 défense quand vous avez moins de la moitié de vos points de vie\nLa furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 50\nUne fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\nLa furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\nEn s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur\n";
+		}
+		else if (set == "Xeroc")
+		{
+			player.setBonus = "+9% de dégâts et de vitesse des projectiles de voleur\nLes projectiles de voleur ont des effets spéciaux quand ils touchent\nVous êtes imprégné d'îre et de rage cosmique quand vous subissez des dégâts\nLa furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 115\nUne fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\nLa furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\nEn s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur\n";
+		}
+		//TODO -- Retrieve world state for death mode and remove cold and heat protection description accordingly
+		else if (set == "Gladiator")
+		{
+			player.setBonus = "+3 défense\n+5% de dégâts de voleur et +10% de vitesse des projectiles de voleur\nLa furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 70\nUne fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\nLa furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\nEn s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur\n";
+		}
+		else if (set == "Obsidian")
+		{
+			player.setBonus = "+2 défense\n+5% de dégâts et de chances de critique de voleur\nImmunise contre les blocs de feu et immunité temporaire à la lave\nLa furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 80\nUne fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\nLa furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\nEn s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur\nProtège de la chaleur en mode Mort\n";
+		}
+		else if (set == "Eskimo")
+		{
+			player.setBonus = "+10% de dégâts pour les armes de glace\nLes ennemis du froid infligent moins de dégâts de contact\nImmunise contre le brûlegivre et l'état glacial\nProtège du froid en mode Mort\n";
+		}
+	}
+
+	public override string IsArmorSet(Item head, Item body, Item legs) {
+		if (head.type == ModContent.ItemType<AerospecHat>() && body.type == ModContent.ItemType<AerospecBreastplate>() && legs.type == ModContent.ItemType<AerospecLeggings>())
+		{
+			return "AerospecMagic";
+		}
+		if (head.type == ModContent.ItemType<AerospecHeadgear>() && body.type == ModContent.ItemType<AerospecBreastplate>() && legs.type == ModContent.ItemType<AerospecLeggings>())
+		{
+			return "AerospecRogue";
+		}
+		if (head.type == ModContent.ItemType<AerospecHelm>() && body.type == ModContent.ItemType<AerospecBreastplate>() && legs.type == ModContent.ItemType<AerospecLeggings>())
+		{
+			return "AerospecMelee";
+		}
+		if (head.type == ModContent.ItemType<AerospecHelmet>() && body.type == ModContent.ItemType<AerospecBreastplate>() && legs.type == ModContent.ItemType<AerospecLeggings>())
+		{
+			return "AerospecSummon";
+		}
+		if (head.type == ModContent.ItemType<AerospecHood>() && body.type == ModContent.ItemType<AerospecBreastplate>() && legs.type == ModContent.ItemType<AerospecLeggings>())
+		{
+			return "AerospecRanged";
+		}
+		if (head.type == ModContent.ItemType<AstralHelm>() && body.type == ModContent.ItemType<AstralBreastplate>() && legs.type == ModContent.ItemType<AstralLeggings>())
+		{
+			return "Astral";
+		}
+		if (head.type == ModContent.ItemType<AtaxiaHeadgear>() && body.type == ModContent.ItemType<AtaxiaArmor>() && legs.type == ModContent.ItemType<AtaxiaSubligar>())
+		{
+			return "AtaxiaRanged";
+		}
+		if (head.type == ModContent.ItemType<AtaxiaHelm>() && body.type == ModContent.ItemType<AtaxiaArmor>() && legs.type == ModContent.ItemType<AtaxiaSubligar>())
+		{
+			return "AtaxiaMelee";
+		}
+		if (head.type == ModContent.ItemType<AtaxiaHelmet>() && body.type == ModContent.ItemType<AtaxiaArmor>() && legs.type == ModContent.ItemType<AtaxiaSubligar>())
+		{
+			return "AtaxiaSummon";
+		}
+		if (head.type == ModContent.ItemType<AtaxiaHood>() && body.type == ModContent.ItemType<AtaxiaArmor>() && legs.type == ModContent.ItemType<AtaxiaSubligar>())
+		{
+			return "AtaxiaRogue";
+		}
+		if (head.type == ModContent.ItemType<AtaxiaMask>() && body.type == ModContent.ItemType<AtaxiaArmor>() && legs.type == ModContent.ItemType<AtaxiaSubligar>())
+		{
+			return "AtaxiaMagic";
+		}
+		if (head.type == ModContent.ItemType<AuricTeslaHelm>() && body.type == ModContent.ItemType<AuricTeslaBodyArmor>() && legs.type == ModContent.ItemType<AuricTeslaCuisses>())
+		{
+			return "AuricMelee";
+		}
+		if (head.type == ModContent.ItemType<AuricTeslaHoodedFacemask>() && body.type == ModContent.ItemType<AuricTeslaBodyArmor>() && legs.type == ModContent.ItemType<AuricTeslaCuisses>())
+		{
+			return "AuricRanged";
+		}
+		if (head.type == ModContent.ItemType<AuricTeslaPlumedHelm>() && body.type == ModContent.ItemType<AuricTeslaBodyArmor>() && legs.type == ModContent.ItemType<AuricTeslaCuisses>())
+		{
+			return "AuricRogue";
+		}
+		if (head.type == ModContent.ItemType<AuricTeslaSpaceHelmet>() && body.type == ModContent.ItemType<AuricTeslaBodyArmor>() && legs.type == ModContent.ItemType<AuricTeslaCuisses>())
+		{
+			return "AuricSummon";
+		}
+		if (head.type == ModContent.ItemType<AuricTeslaWireHemmedVisage>() && body.type == ModContent.ItemType<AuricTeslaBodyArmor>() && legs.type == ModContent.ItemType<AuricTeslaCuisses>())
+		{
+			return "AuricMagic";
+		}
+		if (head.type == ModContent.ItemType<BloodflareHelm>() && body.type == ModContent.ItemType<BloodflareBodyArmor>() && legs.type == ModContent.ItemType<BloodflareCuisses>())
+		{
+			return "BloodflareRogue";
+		}
+		if (head.type == ModContent.ItemType<BloodflareHelmet>() && body.type == ModContent.ItemType<BloodflareBodyArmor>() && legs.type == ModContent.ItemType<BloodflareCuisses>())
+		{
+			return "BloodflareSummon";
+		}
+		if (head.type == ModContent.ItemType<BloodflareHornedHelm>() && body.type == ModContent.ItemType<BloodflareBodyArmor>() && legs.type == ModContent.ItemType<BloodflareCuisses>())
+		{
+			return "BloodflareRanged";
+		}
+		if (head.type == ModContent.ItemType<BloodflareHornedMask>() && body.type == ModContent.ItemType<BloodflareBodyArmor>() && legs.type == ModContent.ItemType<BloodflareCuisses>())
+		{
+			return "BloodflareMagic";
+		}
+		if (head.type == ModContent.ItemType<BloodflareMask>() && body.type == ModContent.ItemType<BloodflareBodyArmor>() && legs.type == ModContent.ItemType<BloodflareCuisses>())
+		{
+			return "BloodflareMelee";
+		}
+		if (head.type == ModContent.ItemType<BrimflameScowl>() && body.type == ModContent.ItemType<BrimflameRobes>() && legs.type == ModContent.ItemType<BrimflameBoots>())
+		{
+			return "Brimflame";
+		}
+		if (head.type == ModContent.ItemType<DaedalusHat>() && body.type == ModContent.ItemType<DaedalusBreastplate>() && legs.type == ModContent.ItemType<DaedalusLeggings>())
+		{
+			return "DaedalusMagic";
+		}
+		if (head.type == ModContent.ItemType<DaedalusHeadgear>() && body.type == ModContent.ItemType<DaedalusBreastplate>() && legs.type == ModContent.ItemType<DaedalusLeggings>())
+		{
+			return "DaedalusSummon";
+		}
+		if (head.type == ModContent.ItemType<DaedalusHelm>() && body.type == ModContent.ItemType<DaedalusBreastplate>() && legs.type == ModContent.ItemType<DaedalusLeggings>())
+		{
+			return "DaedalusMelee";
+		}
+		if (head.type == ModContent.ItemType<DaedalusHelmet>() && body.type == ModContent.ItemType<DaedalusBreastplate>() && legs.type == ModContent.ItemType<DaedalusLeggings>())
+		{
+			return "DaedalusRanged";
+		}
+		if (head.type == ModContent.ItemType<DaedalusVisor>() && body.type == ModContent.ItemType<DaedalusBreastplate>() && legs.type == ModContent.ItemType<DaedalusLeggings>())
+		{
+			return "DaedalusRogue";
+		}
+		if (head.type == ModContent.ItemType<DemonshadeHelm>() && body.type == ModContent.ItemType<DemonshadeBreastplate>() && legs.type == ModContent.ItemType<DemonshadeGreaves>())
+		{
+			return "Demonshade";
+		}
+		if (head.type == ModContent.ItemType<DesertProwlerHat>() && body.type == ModContent.ItemType<DesertProwlerShirt>() && legs.type == ModContent.ItemType<DesertProwlerPants>())
+		{
+			return "DesertProwler";
+		}
+		if (head.type == ModContent.ItemType<FathomSwarmerVisage>() && body.type == ModContent.ItemType<FathomSwarmerBreastplate>() && legs.type == ModContent.ItemType<FathomSwarmerBoots>())
+		{
+			return "FathomSwarmer";
+		}
+		if (head.type == ModContent.ItemType<FearmongerGreathelm>() && body.type == ModContent.ItemType<FearmongerPlateMail>() && legs.type == ModContent.ItemType<FearmongerGreaves>())
+		{
+			return "Fearmonger";
+		}
+		if (head.type == ModContent.ItemType<ForbiddenCirclet>() && body.type == 3777 && legs.type == 3778)
+		{
+			return "ForbiddenCalam";
+		}
+		if (head.type == ModContent.ItemType<GodSlayerHelm>() && body.type == ModContent.ItemType<GodSlayerChestplate>() && legs.type == ModContent.ItemType<GodSlayerLeggings>())
+		{
+			return "GodSlayerMelee";
+		}
+		if (head.type == ModContent.ItemType<GodSlayerHelmet>() && body.type == ModContent.ItemType<GodSlayerChestplate>() && legs.type == ModContent.ItemType<GodSlayerLeggings>())
+		{
+			return "GodSlayerRanged";
+		}
+		if (head.type == ModContent.ItemType<GodSlayerHornedHelm>() && body.type == ModContent.ItemType<GodSlayerChestplate>() && legs.type == ModContent.ItemType<GodSlayerLeggings>())
+		{
+			return "GodSlayerSummon";
+		}
+		if (head.type == ModContent.ItemType<GodSlayerMask>() && body.type == ModContent.ItemType<GodSlayerChestplate>() && legs.type == ModContent.ItemType<GodSlayerLeggings>())
+		{
+			return "GodSlayerRogue";
+		}
+		if (head.type == ModContent.ItemType<GodSlayerVisage>() && body.type == ModContent.ItemType<GodSlayerChestplate>() && legs.type == ModContent.ItemType<GodSlayerLeggings>())
+		{
+			return "GodSlayerMagic";
+		}
+		if (head.type == ModContent.ItemType<MolluskShellmet>() && body.type == ModContent.ItemType<MolluskShellplate>() && legs.type == ModContent.ItemType<MolluskShelleggings>())
+		{
+			return "Mollusk";
+		}
+		if (head.type == ModContent.ItemType<OmegaBlueHelmet>() && body.type == ModContent.ItemType<OmegaBlueChestplate>() && legs.type == ModContent.ItemType<OmegaBlueLeggings>())
+		{
+			return "OmegaBlue";
+		}
+		if (head.type == ModContent.ItemType<PlaguebringerVisor>() && body.type == ModContent.ItemType<PlaguebringerCarapace>() && legs.type == ModContent.ItemType<PlaguebringerPistons>())
+		{
+			return "PlaguebringerSummon";
+		}
+		if (head.type == ModContent.ItemType<PlagueReaperMask>() && body.type == ModContent.ItemType<PlaguebringerCarapace>() && legs.type == ModContent.ItemType<PlaguebringerPistons>())
+		{
+			return "PlaguebringerRanged";
+		}
+		if (head.type == ModContent.ItemType<PrismaticHelmet>() && body.type == ModContent.ItemType<PrismaticRegalia>() && legs.type == ModContent.ItemType<PrismaticGreaves>())
+		{
+			return "Prismatic";
+		}
+		if (head.type == ModContent.ItemType<ReaverCap>() && body.type == ModContent.ItemType<ReaverScaleMail>() && legs.type == ModContent.ItemType<ReaverCuisses>())
+		{
+			return "ReaverRogue";
+		}
+		if (head.type == ModContent.ItemType<ReaverHelm>() && body.type == ModContent.ItemType<ReaverScaleMail>() && legs.type == ModContent.ItemType<ReaverCuisses>())
+		{
+			return "ReaverMelee";
+		}
+		if (head.type == ModContent.ItemType<ReaverHelmet>() && body.type == ModContent.ItemType<ReaverScaleMail>() && legs.type == ModContent.ItemType<ReaverCuisses>())
+		{
+			return "ReaverSummon";
+		}
+		if (head.type == ModContent.ItemType<ReaverMask>() && body.type == ModContent.ItemType<ReaverScaleMail>() && legs.type == ModContent.ItemType<ReaverCuisses>())
+		{
+			return "ReaverMagic";
+		}
+		if (head.type == ModContent.ItemType<ReaverVisage>() && body.type == ModContent.ItemType<ReaverScaleMail>() && legs.type == ModContent.ItemType<ReaverCuisses>())
+		{
+			return "ReaverRanged";
+		}
+		if (head.type == ModContent.ItemType<ShroomiteVisage>() && body.type == 1549 && legs.type == 1550)
+		{
+			return "ShroomiteCalam";
+		}
+		if (head.type == ModContent.ItemType<SilvaHelm>() && body.type == ModContent.ItemType<SilvaArmor>() && legs.type == ModContent.ItemType<SilvaLeggings>())
+		{
+			return "SilvaMelee";
+		}
+		if (head.type == ModContent.ItemType<SilvaHelmet>() && body.type == ModContent.ItemType<SilvaArmor>() && legs.type == ModContent.ItemType<SilvaLeggings>())
+		{
+			return "SilvaSummon";
+		}
+		if (head.type == ModContent.ItemType<SilvaHornedHelm>() && body.type == ModContent.ItemType<SilvaArmor>() && legs.type == ModContent.ItemType<SilvaLeggings>())
+		{
+			return "SilvaRanged";
+		}
+		if (head.type == ModContent.ItemType<SilvaMask>() && body.type == ModContent.ItemType<SilvaArmor>() && legs.type == ModContent.ItemType<SilvaLeggings>())
+		{
+			return "SilvaRogue";
+		}
+		if (head.type == ModContent.ItemType<SilvaMaskedCap>() && body.type == ModContent.ItemType<SilvaArmor>() && legs.type == ModContent.ItemType<SilvaLeggings>())
+		{
+			return "SilvaMagic";
+		}
+		if (head.type == ModContent.ItemType<SnowRuffianMask>() && body.type == ModContent.ItemType<SnowRuffianChestplate>() && legs.type == ModContent.ItemType<SnowRuffianGreaves>())
+		{
+			return "SnowRuffian";
+		}
+		if (head.type == ModContent.ItemType<StatigelCap>() && body.type == ModContent.ItemType<StatigelArmor>() && legs.type == ModContent.ItemType<StatigelGreaves>())
+		{
+			return "StatigelMagic";
+		}
+		if (head.type == ModContent.ItemType<StatigelHeadgear>() && body.type == ModContent.ItemType<StatigelArmor>() && legs.type == ModContent.ItemType<StatigelGreaves>())
+		{
+			return "StatigelRanged";
+		}
+		if (head.type == ModContent.ItemType<StatigelHelm>() && body.type == ModContent.ItemType<StatigelArmor>() && legs.type == ModContent.ItemType<StatigelGreaves>())
+		{
+			return "StatigelMelee";
+		}
+		if (head.type == ModContent.ItemType<StatigelHood>() && body.type == ModContent.ItemType<StatigelArmor>() && legs.type == ModContent.ItemType<StatigelGreaves>())
+		{
+			return "StatigelSummon";
+		}
+		if (head.type == ModContent.ItemType<StatigelMask>() && body.type == ModContent.ItemType<StatigelArmor>() && legs.type == ModContent.ItemType<StatigelGreaves>())
+		{
+			return "StatigelRogue";
+		}
+		if (head.type == ModContent.ItemType<SulfurHelmet>() && body.type == ModContent.ItemType<SulfurBreastplate>() && legs.type == ModContent.ItemType<SulfurLeggings>())
+		{
+			return "Sulfur";
+		}
+		if (head.type == ModContent.ItemType<TarragonHelm>() && body.type == ModContent.ItemType<TarragonBreastplate>() && legs.type == ModContent.ItemType<TarragonLeggings>())
+		{
+			return "TarragonMelee";
+		}
+		if (head.type == ModContent.ItemType<TarragonHelmet>() && body.type == ModContent.ItemType<TarragonBreastplate>() && legs.type == ModContent.ItemType<TarragonLeggings>())
+		{
+			return "TarragonRogue";
+		}
+		if (head.type == ModContent.ItemType<TarragonHornedHelm>() && body.type == ModContent.ItemType<TarragonBreastplate>() && legs.type == ModContent.ItemType<TarragonLeggings>())
+		{
+			return "TarragonSummon";
+		}
+		if (head.type == ModContent.ItemType<TarragonMask>() && body.type == ModContent.ItemType<TarragonBreastplate>() && legs.type == ModContent.ItemType<TarragonLeggings>())
+		{
+			return "TarragonMagic";
+		}
+		if (head.type == ModContent.ItemType<TarragonVisage>() && body.type == ModContent.ItemType<TarragonBreastplate>() && legs.type == ModContent.ItemType<TarragonLeggings>())
+		{
+			return "TarragonRanged";
+		}
+		if (head.type == ModContent.ItemType<TitanHeartMask>() && body.type == ModContent.ItemType<TitanHeartMantle>() && legs.type == ModContent.ItemType<TitanHeartBoots>())
+		{
+			return "TitanHeart";
+		}
+		if (head.type == ModContent.ItemType<UmbraphileHood>() && body.type == ModContent.ItemType<UmbraphileRegalia>() && legs.type == ModContent.ItemType<UmbraphileBoots>())
+		{
+			return "Umbraphile";
+		}
+		if (head.type == ModContent.ItemType<VictideHeadgear>() && body.type == ModContent.ItemType<VictideBreastplate>() && legs.type == ModContent.ItemType<VictideLeggings>())
+		{
+			return "VictideRogue";
+		}
+		if (head.type == ModContent.ItemType<VictideHelm>() && body.type == ModContent.ItemType<VictideBreastplate>() && legs.type == ModContent.ItemType<VictideLeggings>())
+		{
+			return "VictideMelee";
+		}
+		if (head.type == ModContent.ItemType<VictideHelmet>() && body.type == ModContent.ItemType<VictideBreastplate>() && legs.type == ModContent.ItemType<VictideLeggings>())
+		{
+			return "VictideSummon";
+		}
+		if (head.type == ModContent.ItemType<VictideMask>() && body.type == ModContent.ItemType<VictideBreastplate>() && legs.type == ModContent.ItemType<VictideLeggings>())
+		{
+			return "VictideMagic";
+		}
+		if (head.type == ModContent.ItemType<VictideVisage>() && body.type == ModContent.ItemType<VictideBreastplate>() && legs.type == ModContent.ItemType<VictideLeggings>())
+		{
+			return "VictideRanged";
+		}
+		if (head.type == ModContent.ItemType<WulfrumHeadgear>() && body.type == ModContent.ItemType<WulfrumArmor>() && legs.type == ModContent.ItemType<WulfrumLeggings>())
+		{
+			return "WulfrumRanged";
+		}
+		if (head.type == ModContent.ItemType<WulfrumHelm>() && body.type == ModContent.ItemType<WulfrumArmor>() && legs.type == ModContent.ItemType<WulfrumLeggings>())
+		{
+			return "WulfrumMelee";
+		}
+		if (head.type == ModContent.ItemType<WulfrumHelmet>() && body.type == ModContent.ItemType<WulfrumArmor>() && legs.type == ModContent.ItemType<WulfrumLeggings>())
+		{
+			return "WulfrumSummon";
+		}
+		if (head.type == ModContent.ItemType<WulfrumHood>() && body.type == ModContent.ItemType<WulfrumArmor>() && legs.type == ModContent.ItemType<WulfrumLeggings>())
+		{
+			return "WulfrumMagic";
+		}
+		if (head.type == ModContent.ItemType<WulfrumMask>() && body.type == ModContent.ItemType<WulfrumArmor>() && legs.type == ModContent.ItemType<WulfrumLeggings>())
+		{
+			return "WulfrumRogue";
+		}
+		if (head.type == ModContent.ItemType<XerocMask>() && body.type == ModContent.ItemType<XerocPlateMail>() && legs.type == ModContent.ItemType<XerocCuisses>())
+		{
+			return "Xeroc";
+		}
+		//Original Code from Calamity - May be unneccesary
+		if (head.type == 89 && body.type == 80 && legs.type == 76)
+		{
+			return "Copper";
+		}
+		if (head.type == 687 && body.type == 688 && legs.type == 689)
+		{
+			return "Tin";
+		}
+		if ((head.type == 90 || head.type == 954) && body.type == 81 && legs.type == 77)
+		{
+			return "Iron";
+		}
+		if (head.type == 690 && body.type == 691 && legs.type == 692)
+		{
+			return "Lead";
+		}
+		if (head.type == 91 && body.type == 82 && legs.type == 78)
+		{
+			return "Silver";
+		}
+		if (head.type == 693 && body.type == 694 && legs.type == 695)
+		{
+			return "Tungsten";
+		}
+		if ((head.type == 92 || head.type == 955) && body.type == 83 && legs.type == 79)
+		{
+			return "Gold";
+		}
+		if (head.type == 696 && body.type == 697 && legs.type == 698)
+		{
+			return "Platinum";
+		}
+		if (head.type == 3187 && body.type == 3188 && legs.type == 3189)
+		{
+			return "Gladiator";
+		}
+		if (head.type == 3266 && body.type == 3267 && legs.type == 3268)
+		{
+			return "Obsidian";
+		}
+		if (head.type == 231 && body.type == 232 && legs.type == 233)
+		{
+			return "Molten";
+		}
+		if ((head.type == 803 || head.type == 978) && (body.type == 804 || body.type == 979) && (legs.type == 805 || legs.type == 980))
+		{
+			return "Eskimo";
+		}
+		if (head.type == 123 && body.type == 124 && legs.type == 125)
+		{
+			return "Meteor";
+		}
+		if (head.type == 736 && body.type == 737 && legs.type == 738)
+		{
+			return "Pearlwood";
+		}
+		return "";
+	}
+
 	public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
 	{
 		//Horrible code, will change later but will do for now
 		foreach (TooltipLine line in tooltips)
 		{
+			//Specific Item Modification
+			/* Generic lines for death mode
+				line.text = line.text.Replace("Provides heat and cold protection in Death Mode", "Protège contre le froid et la chaleur en mode Mort");
+				line.text = line.text.Replace("Provides cold protection in Death Mode", "Protège contre le froid en mode Mort");
+				line.text = line.text.Replace("Provides heat protection in Death Mode", "Protège contre la chaleur en mode Mort");
+			
+			if (CalamityWorld.death) { 
+			
+			}
+
+			*/
+			//Global Item Modifications
+
 			if (item.melee)
 			{
 				line.text = line.text.Replace("true melee damage", "dégâts de vraie mêlée");
@@ -59,10 +778,10 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.text = line.text.Contains("Cloaked") ? line.text.Replace("Cloaked", "").Trim() + " (Voilé)" : line.text;
 				line.text = line.text.Contains("Camouflaged") ? line.text.Replace("Camouflaged", "").Trim() + " (Camouflé)" : line.text;
 				line.text = line.text.Contains("Silent") ? line.text.Replace("Silent", "").Trim() + " (Silencieux)" : line.text;
-				line.text = line.text.Replace("damage reduction", "réduction des dégâts");
-				line.text = line.text.Replace("critical strike chance", "chances de coup critique");
+				line.text = line.text.Replace("damage reduction", "de réduction des dégâts");
+				line.text = line.text.Replace("critical strike chance", "de chances de coup critique");
 				line.text = line.text.Replace("defense", "défense");
-				line.text = line.text.Replace("stealth generation", "génération de furtivité");
+				line.text = line.text.Replace("stealth generation", "de génération de furtivité");
 
 			}
 
@@ -197,9 +916,13 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.text = line.text.Replace("Material", "Matériau");
 				line.text = line.text.Replace("Can mine Uelibloom Ore", "Peut extraire du minerai d'ueliclosion");
 			}
-			if (item.type == 123 || item.type == 124 || item.type == 125)
+			if (item.type == 89 || item.type == 80 || item.type == 76)
 			{
 				line.text = line.text.Replace("Set Bonus: +2 defense and 15% increased mining speed", "Bonus d'ensemble: +2 défense et +15% de vitesse de minage");
+			}
+			if (item.type == 123 || item.type == 124 || item.type == 125)
+			{
+				line.text = line.text.Replace("Set Bonus: Reduces the mana cost of the Space Gun by 50%", "Bonus d'ensemble: réduit le coût en mana du pistolet spatial de 50%");
 			}
 			if (item.type == 687 || item.type == 688 || item.type == 689)
 			{

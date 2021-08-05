@@ -15,6 +15,7 @@ public class CalamityGlobalNPC_FR : GlobalNPC
 
 	}
 
+
 	public override void GetChat(NPC npc, ref string chat)
 	{
 		int fapsol = NPC.FindFirstNPC(ModContent.NPCType<FAP>());
@@ -29,7 +30,6 @@ public class CalamityGlobalNPC_FR : GlobalNPC
 		int waifu = NPC.FindFirstNPC(353);
 		int partyGirl = NPC.FindFirstNPC(208);
 		int lilBitch = NPC.FindFirstNPC(369);
-
 		/*
 			Setting NPC names to avoid AOOB when evaluated at -1
 			Maybe write a dedicated function someday because this is dirty
