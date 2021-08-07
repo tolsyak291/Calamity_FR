@@ -1,6 +1,7 @@
 ﻿using System;
 using Terraria;
 using Terraria.ModLoader;
+using Terraria.Localization;
 using CalamityMod.Items.Weapons.Rogue;
 using CalamityMod.NPCs.TownNPCs;
 using CalamityMod.World;
@@ -15,6 +16,123 @@ public class CalamityGlobalNPC_FR : GlobalNPC
 
 	}
 
+	public override void OnChatButtonClicked(NPC npc, bool firstButton)
+	{
+		if (npc.type == ModContent.NPCType<FAP>() && !firstButton)
+		{
+			Main.npcChatText = "Tu es mort " + Main.player[Main.myPlayer].Calamity().deathCount + " fois.";
+		}
+		if (npc.type == ModContent.NPCType<THIEF>() && !firstButton)
+		{
+			int goblinIndex = NPC.FindFirstNPC(107);
+			if (goblinIndex != -1)
+			{
+				NPC goblin = Main.npc[goblinIndex];
+				Main.npcChatText = Main.npcChatText.Replace("Want in on a little secret? Since " + goblin.GivenName + " always gets so much cash from you, I've been stealing some of it as we go. I need you to keep quiet about it, so here.", "Tu veux savoir un petit secret? Vu que tu payes autant d'argent à " + goblin.GivenName + ", j'en ai volé un peu en passant. J'ai besoin que tu gardes le silence, alors prends ça.");
+				Main.npcChatText = Main.npcChatText.Replace("Hey, if government officials can get tax, why can't I? The heck do you mean that these two things are nothing alike?", "Hey, si le gouvernement peut nous prélever des impôts, pourquoi je pourrais pas? Comment ça ce que je fais n'a rien à voir?");
+			}
+			Main.npcChatText = Main.npcChatText.Replace("Sorry, I got nothing. Perhaps you could reforge something and come back later...", "Désolée, j'ai rien. Peut être que si tu reforges quelque chose et que tu reviens plus tard...");
+		}
+		if (npc.type == ModContent.NPCType<SEAHOE>() && !firstButton)
+		{
+			string[][] seahoeQuotes = new string[][]
+			{
+				new string[2]{ "Draedon's style of confrontation is very...alien and hands-off. You may be more likely to fight any one of his mechs before taking him down.",
+					"Le style de combat de Draedon et très...étrange et délégatif. Tu vas très probablement devoir combattre l'un de ses mechas avant de pouvoir l'abattre."},
+				new string[2]{ "Lord Yharim possesses god-like strength. He may not even fight you at full power which is fortunate for you. His attacks may just kill you in one hit, so be careful.", 
+					"Le seigneur Yharim possède une force égale comparable à celle des dieux. Il pourrait même te combattre sans employer sa pleine puissance, ce qui est une aubaine pour toi. Ses attaques pourraient bien te tuer en un coup, alors sois prudent."},
+				new string[2]{ "Pockets of ore have appeared once more in the land. This will allow you to create the most powerful weaponry and armor imagined!", 
+					"Des veines de minerai sont apparues à nouveau sous la terre. Cela te permettra de créer les plus puissants armements et armures imaginables!"},
+				new string[2]{ "Ah, the dragon Yharon is fickle. You may find that he will refuse to use his full power unless you are strong enough to unleash the power of the Dark Sun.", 
+					"Ah, le dragon Yharon est capricieux. Il pourrait bien refuser d'employer sa pleine puissance avant que tu ne sois suffisament fort pour libérer le pouvoir du Sombresoleil."},
+				new string[2]{ "The Devourer of Gods is extremely powerful. However, he is young, foolhardy, and very lazy. Perhaps if he had been given time to develop he would have turned into quite the threat.", 
+					"Le dévoreur de dieux est extrêmement puissant. Cependant, il est jeune, téméraire, et très feignant. Peut-être qui s'il avait eu le temps de se développer il serait devenu une sacrée menace."},
+				new string[2]{ "With the cosmic steel you can fashion many of your weapons into much more powerful forms.", 
+					"Grace à l'acier cosmique, tu peux faire évoluer beaucoup de tes armes dans des formes bien plus puissantes."},
+				new string[2]{ "The Devourer of God's cosmic armor is unique in that it is capable of not only protecting his body from tearing itself apart when ripping through the fabric of space and time, but also allows him to control his powers.", 
+					"L'armure cosmique du dévoreur de dieux est unique car elle est non seulement capable de protéger son corps quand il déchire l'espace-temps, mais également capable de lui permettre de contrôler ses pouvoirs."},
+				new string[2]{ "Ah...I can sense a powerful change in the weather. You may want to venture to the Sulphurous Seas once more during the rain to experience it.", 
+					"Ah...je sens un puissant changement dans le temps. Tu pourrais peut-être t'aventurer à nouveau dans les mers sulfurées durant la pluie pour en faire l'expérience."},
+				new string[2]{ "The Abyss holds many secrets revealed with time. Checking it out again may not be a bad idea.", 
+					"Les abysses contiennent de nombreux secrets révélés par le temps. L'explorer à nouveau n'est peut-être pas une mauvaise idée."},
+				new string[2]{ "The Dungeon seems to be more active now. You may hear the faint whisperings of angry spirits who have not left to the Void...I would recommend searching there before taking on the Sentinels.", 
+					"La donjon à l'air d'être plus actif maintenant. Tu peux entendre les faibles chuchotements des esprits en colère qui ne sont pas allé dans l'au-delà...Je recommenderai de fouiller de ce côté avant d'affronter les sentinelles."},
+				new string[2]{ "Ironic, is it not, that Statis was defeated by the very Sentinel his people fashioned their art of stealth from. Fate so often weaves cruel tales.", 
+					"C'est ironique, n'est-ce pas? Que Statis ait été vaincu par la même sentinelle que son peuple a imité pour créer leur art de la discrétion. Le destin écrit souvent des contes cruels."},
+				new string[2]{ "The Rune of Kos holds a significant portion of Providence's brand of magic, easily distinguishable from all others. Activating it in certain places would have some...risky consequences.", 
+					"La rune de Kos contient une partie significative de la magie de Providence, aisément différenciable de toutes les autres magies. L'utiliser à certains endroits pourrait avoir des conséquences...risquées"},
+				new string[2]{ "The stories have it that when Providence faced and defeated Yharim and his forces she lost a lot of energy and reverted to a more skeletal form. She's merely a fraction of the power she was before.", 
+					"Les histoires content que Providence a perdu une grande quantité d'énergie quand elle a affronté et vaincu Yharim et ses forces, ce qui l'a fait regresser en une forme plus primaire. Elle n'est qu'une fraction du pouvoir de ce qu'elle était autrefois."},
+				new string[2]{ "Providence is as much the sun goddess as much as the Moon Lord is the moon god. They are two sides of the same coin, choosing to remain neutral amongst our petty squabbles.", 
+					"Providence est la déesse du soleil tout comme le seigneur de la lune est le dieu de la lune. Ils sont les deux côtés d'une même pièce, choisissant de rester neutres au milieu de nos insignifiantes querelles."},
+				new string[2]{ "Touching Providence's offerings is usually a death wish. Shame that Yharim didn't think to just mess with her things to get her out of hiding.", 
+					"Toucher les offrandes de Providence équivaut habituellement à mourir. C'est bien dommage que Yharim n'ai pas pensé à simplement s'en prendre à ses affaires pour la faire sortir de sa cachette."},
+				new string[2]{ "The Profaned Guardians will do anything to protect their goddess. Makes sense they would die for her since they can be revived just as quickly.", 
+					"Les gardiens profanés feront tout pour protéger leur déesse. C'est assez logique qu'ils aillent jusqu'a mourir pour elle puisqu'ils peuvent revenir à la vie aussitôt"},
+				new string[2]{ "Profaned creatures now lurk in the Hallow and in Hell. If you destroy enough and gather their essence together you shall be able to capture the attention of the Profaned Guardians.", 
+					"Des créatures profanées rôdent maintenant dans le sacré et en enfer. Si tu en détruit suffisament et que tu récoltes leurs essences, tu devrais pouvoir attirer l'attention des gardiens profanés."},
+				new string[2]{ "Your adventure focuses to the jungle it seems. The Dragonfolly and its swarming offspring should be eliminated before their numbers spiral out of control.", 
+					"Tes aventures se focalisent sur la jungle, on dirait. La folie draconique et ses rejetons devraient être éliminés avec que leur nombre échappe à tout contrôle."},
+				new string[2]{ "The plague was just one of the many experiments authorized by Yharim to raze towns to the ground. This is probably one of the few he shelved for being too terrible.", 
+					"La peste n'est qu'une des nombreuses expériences autorisées par Yharin pour raser des villes. C'est probablement l'une des rares qu'il a jugé trop terrible pour être employée."},
+				new string[2]{ "The Abyss has become far more active than before. You might be able to mine some of the volcanic rubble contained within.", 
+					"Les abysses sont devenues beaucoup plus actives qu'avant. Tu devrais pouvoir miner quelques-uns des débris volcaniques qu'elles contiennent."},
+				new string[2]{ "The men at the front of the dungeon are performing a ritual to keep the Moon Lord contained in his prison. In order to gain Yharim's attention, however, you may need to defeat them.", 
+					"Les personnes devant le donjon accomplissent un rituel pour empêcher le seigneur de la lune de se libérer de sa prison. Mais pour attirer l'attention de Yharim, tu vas devoir les vaincre."},
+				new string[2]{ "When exploring the jungle temple be careful. You may not wish to disturb the Lihzard's idol, the Golem. It's quite the destructive force.", 
+					"Sois prudent en explorant le temple de la jungle. Tu ne devrais peut-être pas déranger l'idole des Lihzard, le golem. C'est une force de destruction considérable."},
+				new string[2]{ "Be careful when defeating Plantera and the Golem. You might accidentally unleash a new threat in the jungle that needs to be quelled.", 
+					"Sois prudent après avoir vaincu Platera et le golem. Tu libèreras peut-être une nouvelle menace dans la jungle qui devra être jugulée."},
+				new string[2]{ "If you've gathered the souls used to power those automatons head once more to the jungle. You will find a powerful enemy to fight, which will unleash the full fervor of the jungle once defeated. Do not underestimate it!", 
+					"Si tu as récolté les âmes utilisées pour alimenter ces automates, rends toi de nouveau à la jungle. Tu y trouveras un pussant ennemi à combattre, qui libèrera la pleine ferveur de la jungle une fois vaincu. Ne le sous-estime pas!"},
+				new string[2]{ "The Brimstone Crags...Yharim despised that place, and did everything he could to raze it to the ground. It might explain a few things about him.", 
+					"Les vestiges de souffre...Yharim détestait cet endroit, et a fait tout ce qu'il a pu pour le raser. Ca en dit peut-être long à son sujet."},
+				new string[2]{ "If you take an idol down to the Brimstone Crags you might be able to see just what is lurking in the shadows.", 
+					"Si tu amènes une idole jusqu'au vestiges de souffre, tu pourras peut-être voir ce qui se tapi dans les ombres."},
+				new string[2]{ "Once those mechanical creations have been defeated you would do well to seek out the crippled clone of the witch, Calamitas. It might provide some useful weaponry.", 
+					"Une fois ces créations mécaniques vaincus, tu devrais te mettre à la recherche du clone mutilé de la sorcière, Calamitas. Il pourrait fournir de l'armement utile."},
+				new string[2]{ "I would recommend saving some of your old items. You never know if you can engineer them into stronger weapons in the future.", 
+					"Je te recommande de conserver certains de tes vieux objets. Ils pourraient bien être améliorés et devenir plus puissants dans le futur."},
+				new string[2]{ "Have you heard of the story of Archmage Permafrost? Rumor has it he's been locked away in an icy prison by Lord Yharim. Perhaps you would be able to free him if Cryogen was destroyed.", 
+					"As-tu entendu l'histoire de l'archimage Permafrost? La rumeur dit qu'il a été enfermé dans une prison glaciale par le seigneru Yharim. Peut-être que tu pourrais le libérer si tu arrivais à détruire Cryogène."},
+				new string[2]{ "You will find more ores have been unlocked due to the magic sealing them away being dispelled. Some of them may require more than just the ore itself to create.", 
+					"Tu verras que de nouveaux minerais ont été libérés au vu du sort de sceau ayant été rompu. Certains d'entre eux nécessiterons peut-être plus que le minerai lui-même pour être transformé"},
+				new string[2]{ "Throughout the world lie various structures left behind by Draedon. Archaic defenses may remain, but the goods inside may be worth your while.", 
+					"De nombreuses structures laissées à l'abandon par Draedon jonchent ce monde. Des défenses archaïques peuvent subsister, mais le butin à l'intérieur peut valoir qu'on s'y attarde."},
+				new string[2]{ "The Crimson used to be easily manageable and controlled by nature. However, the recent wars and pollution have tipped the balance out of favor.", 
+					"Le carmin était facilement gérable et controlé par la nature. Cependant, les récentes guerres et la pollution ont penché la balance en sa faveur."},
+				new string[2]{ "The Corruption used to be easily manageable and controlled by nature. However, the recent wars and pollution have tipped the balance out of favor.",
+					"La corruption était facilement gérable et controlée par la nature. Cependant, les récentes guerres et la pollution ont penché la balance en sa faveur."},
+				new string[2]{ "The dungeon is a dark place. None of us know of its true purpose, however, the ancient Eidolist cultists used it for worship before Lord Yharim took it over.", 
+					"Le donjon est un sombre lieu. Aucun d'entre nous ne connait sa vraie nature, en revance, les anciens cultistes Eidolistes l'utilisaient comme lieu de culte avant que Yharim ne s'en empare."},
+				new string[2]{ "I'm assuming you've heard the legends that speak of the ninja, Statis? There are some who say that if you were able to defeat the gods which his clan once worshipped you would be able to harness some of his powers.", 
+					"Je suppose que tu n'as jamais entendu les légendes de Statis, le ninja? Certains racontent que si tu es capable de vaincre les dieux que son clan vénéraient autrefois, tu seras capable de maîtriser une partie de ses pouvoirs."},
+				new string[2]{ "Scattered across the lands are shrines dedicated to the gods. You can take whatever is in them, but a few items you may not be able to use until much later.", 
+					"Dispersés au travers des terres se trouvent des temples dédiés aux dieux. Tu peux prendre ce qu'ils contiennent, mais tu ne pourras utiliser certains objets que bien plus tard."},
+				new string[2]{ "Be careful what you attack in the Crimson. You might just unveil a greater threat than what was there before.", 
+					"Fait attention à ce que tu attaques dans le carmin. Tu pourrais révéler une menace plus grande que ce que tu auras affronté."},
+				new string[2]{ "Be careful what you attack in the Corruption. You might just unveil a greater threat than what was there before.",
+					"Fait attention à ce que tu attaques dans la corruption. Tu pourrais révéler une menace plus grande que ce que tu auras affronté."},
+				new string[2]{ "The Sulphurous Seas were created long ago, when Yharim's dungeon could no longer hold as many corpses as it needed to. Many of the bodies were dumped into the ocean. This, along with severe pollution from the heydays of Draedon's experiments have turned a paradise into a wasteland.", 
+					"Les mers sulfureuses ont été crées il y a longtems, quand le donjon ne Yharim ne pouvait plus contenir autant de corps qu'il lui était nécessaire. Beaucoup des corps furent jetés dans l'océan. Ca, avec la pollution sévère engendrée par l'apogée des expériences de Draedon ont tranformé un paradis en un désert"},
+				new string[2]{ "The Sulphurous Seas are dangerous. The toxic waters will burn your skin, but if you can brave them you will be able to reach the Abyss, where there are powerful weapons and dangers aplenty.", 
+					"Les mers sulfureuses sont dangeureuses. Les eaux toxiques brûleront ta peau, mais si tu peux les endurer tu pourras atteindre les abysses, ou de puissantes armes et une myriade de dangers t'attendent."},
+				new string[2]{ "Ah yes, the Abyss. That trench is full of powerful creatures that could devour you in a heartbeat. I would explore the dungeon first.", 
+					"Ah oui, les abysses. Cette fosse est pleine de créatures qui peuvent te dévorer en un claquement de doigts. J'explorerais le donjon avant de m'y rendre."},
+				new string[2]{ "Have you heard of the Brimstone Crags? It was once a grand kingdom, not too different from my own. However, it also met a similar fate. I would not advise going down there, unless you seek a painful death.", 
+					"As-tu entendu parler des vestiges de souffre? C'était autrefois un grand royaume, pas si différent du mien. Cependant, ils ont rencontré un destin similaire. Je te déconseille de te rendre là-bas, à moins que tu ne recherches une mort douleureuse."},
+				new string[2]{ "There are rumors of ores that lay in latency. When you defeat certain bosses you will undo the ancient magic which conceals those materials.", 
+					"Des rumeurs disent que des minerais existent à l'état latent. Quand tu vaincras certains boss, tu annuleras l'ancienne magie qui scelle ces matériaux."}
+			};
+			foreach(string[] chat in seahoeQuotes)
+            {
+				if (!chat[1].Equals(""))
+				{
+					Main.npcChatText = Main.npcChatText.Replace(chat[0], chat[1]);
+				}
+			}
+		}
+	}
 
 	public override void GetChat(NPC npc, ref string chat)
 	{
@@ -30,6 +148,7 @@ public class CalamityGlobalNPC_FR : GlobalNPC
 		int waifu = NPC.FindFirstNPC(353);
 		int partyGirl = NPC.FindFirstNPC(208);
 		int lilBitch = NPC.FindFirstNPC(369);
+        
 		/*
 			Setting NPC names to avoid AOOB when evaluated at -1
 			Maybe write a dedicated function someday because this is dirty
@@ -543,19 +662,19 @@ public class CalamityGlobalNPC_FR : GlobalNPC
 			},
 			new string[2]{
 				"Why are you talking to me right now? Either way, I expect you to turn in a perfect performance!",
-				"T'es en train de me parler là? De toute façon, j'attends de toi une performance parfaite!"
+				"Pourquoi t'es en train de me parler là? Quoi qu'il arrive, j'attends de toi une performance parfaite!"
 			},
 			new string[2]{
 				"I could smell my vodka from MILES away!",
-				"J'ai senti ma vodka à des KILOMÈTRES"
+				"J'ai senti ma vodka à des KILOMÈTRES!"
 			},
 			new string[2]{
 				"Have any spare rooms available? Preferably candle-lit with a hefty supply of booze.",
-				"Tu as des chambres de libre? Éclairée à la bougie de préférence, avec un stock massif d'alcool"
+				"Tu as des chambres de libre? Éclairée à la bougie de préférence, avec un stock massif d'alcool."
 			},
 			new string[2]{
 				"Hey, nice night! I'm gonna make some Bloody Marys, celery included. Want one?",
-				"Hey, belle nuit! Je vais me faire des Bloody Marys, avec du cèleri. T'en veux un?"
+				"Hey, belle nuit! Je vais me faire des Bloody Marys, avec du céleri. T'en veux un?"
 			},
 			new string[2]{
 				"More blood for the blood gods!",
@@ -571,7 +690,7 @@ public class CalamityGlobalNPC_FR : GlobalNPC
 			},
 			new string[2]{
 				"Nothard/10, if I fight bosses I wanna feel like screaming 'OH YES DADDY!' while I die repeatedly.",
-				"Facile/20, si je combats des boss je veux me sentir comme si je criais 'PLUS FORT, PAPA' tout en mourant en boucle"
+				"pasdur/20, si je combats des boss je veux me sentir comme si je criais 'PLUS FORT, PAPA' tout en mourant en boucle"
 			},
 			new string[2]{
 				"Like I always say, when you're drunk you can tolerate annoying people a lot more easily...",
@@ -579,7 +698,7 @@ public class CalamityGlobalNPC_FR : GlobalNPC
 			},
 			new string[2]{
 				"I'm literally balls drunk off my sass right now.",
-				"Je suis tellement bourrée que je me sens aimable"
+				"Je suis tellement bourrée que je me sens aimable."
 			},
 			new string[2]{
 				"I'm either laughing because I'm drunk or because I've lost my mind. Probably both.",
@@ -595,7 +714,7 @@ public class CalamityGlobalNPC_FR : GlobalNPC
 			},
 			new string[2]{
 				"What a great day, might just drink so much that I get poisoned again.",
-				"Quelle belle journée, j'ai presque encore envie de boire jusqu'a coma éthyllique"
+				"Quelle belle journée, j'ai presque encore envie de boire jusqu'au coma éthyllique"
 			},
 			new string[2]{
 				"A perfect night...for alcohol! First drinks are on me!",
@@ -607,7 +726,7 @@ public class CalamityGlobalNPC_FR : GlobalNPC
 			},
 			new string[2]{
 				"Well I was planning to light some candles in order to relax...ah well, time to code while drunk.",
-				"Bon, j'allais allumer quelques bougies pour me relaxer...tant pis, codons bourrée"
+				"Bon, j'allais allumer quelques bougies pour me relaxer...tant pis, codons bourrée."
 			},
 			new string[2]{
 				"Yes, everyone knows the mechworm is buggy. Well, not so much anymore, but still.",
@@ -623,19 +742,19 @@ public class CalamityGlobalNPC_FR : GlobalNPC
 			},
 			new string[2]{
 				"Drink something that turns you into a magical flying unicorn so you can be super gay.",
-				"Boie quelque chose qui te transforme en licorne volante magique, comme ça tu seras super gay."
+				"Bois quelque chose qui te transforme en licorne magique volante, comme ça tu seras super gay."
 			},
 			new string[2]{
 				"Did anyone ever tell you that large assets cause back pain? Well, they were right.",
-				"Quelqu'un t'as déjà dit que de gros arguments causent des maux de dos? Et bien, ils avaient raison."
+				"Quelqu'un t'as déjà dit que de gros arguments causent des maux de dos? Et bien, ils ont raison."
 			},
 			new string[2]{
 				"You'll always find me at parties where booze is involved...well, you'll always find booze where I'm involved.",
-				"Tu me trouveras toujours aux fêtes ou il y a de l'alcool...en fait, tu me trouveras partout ou il y a de l'alcool."
+				"Tu me trouveras toujours aux fêtes où il y a de l'alcool...en fait, tu me trouveras partout où il y a de l'alcool."
 			},
 			new string[2]{
 				"Shoot down the space invaders! Sexy time will be postponed if we are invaded by UFOs!",
-				"Tire sur les envahisseurs de l'espace! Le moment coquin sera reporté si on est envahi par les OVNIs!"
+				"Descends les envahisseurs de l'espace! Le moment coquin sera reporté si on est envahi par les OVNIs!"
 			},
 			new string[2]{
 				"God I can't wait to beat on some ice again!",
@@ -643,7 +762,7 @@ public class CalamityGlobalNPC_FR : GlobalNPC
 			},
 			new string[2]{
 				"The only things I'm attracted to are fish women, women, men who look like women and that's it.",
-				"La seule chose qui m'attire c'est les femmes-poissons, les femmes, et les hommes qui ressemblent à des femmes et c'est tout."
+				"La seule chose qui m'attire c'est les femmes-poissons, les femmes, les hommes qui ressemblent à des femmes et c'est tout."
 			},
 			new string[2]{
 				"I'll always be watching.",
@@ -663,7 +782,7 @@ public class CalamityGlobalNPC_FR : GlobalNPC
 			},
 			new string[2]{
 				"I hear it's amazing when the famous purple-stuffed worm out in flap-jaw space, with the tuning fork, does a raw blink on Hara-kiri rock. I need scissors! 61!",
-				"J'ai entendu dire que c'est genial quand le célèbre ver fourré au de violet dans l'espace de battement-machoire, avec la fourchette tuning, fait un clignement cru sur un rocher Harakiri. J'ai besoin de ciseaux! 61!"
+				"J'ai entendu dire que c'est genial quand le célèbre ver fourré de violet dans l'espace de battement-machoire, avec la fourchette tuning, fait un clignement cru sur un rocher Harakiri. J'ai besoin de ciseaux! 61!"
 			},
 			new string[2]{
 				"Tell " + givenNames[8] + " to stop calling me. He's not wanted.",
@@ -691,7 +810,7 @@ public class CalamityGlobalNPC_FR : GlobalNPC
 			},
 			new string[2]{
 				"Ever since " + givenNames[6] + " moved in I haven't been drinking as much...it's a weird feeling.",
-				"Depuis que " + givenNames[6] + " est arrivée, je ne bois plus autant...c'est un sentiment étrange."
+				"Depuis que " + givenNames[6] + " est arrivée, je ne bois plus autant...c'est un sentiment bizarre."
 			},
 			new string[2]{
 				"Is that a toy? Looks like something I'd carry around if I was 5 years old.",
@@ -923,7 +1042,7 @@ public class CalamityGlobalNPC_FR : GlobalNPC
 			},
 			new string[2]{
 				"I tried looting Storm Weaver's armor once. Before I could get a chunk of the stuff... well let's just say the bigger, fatter cosmic worm arrived and it didn't end well.",
-				"J'ai essayé de subtiliser l'armure du Tisse-Tempête une fois. Avant que j'ai pu en récupérer un morceau... et bien disons juste que le plus gros ver s'est ramené et que ça s'est mal fini"
+				"J'ai essayé de subtiliser l'armure du Tisse-Tempête une fois. Avant que j'ai pu en récupérer un morceau... et bien disons juste que le plus gros ver s'est ramené et que ça s'est mal fini."
 			},
 			new string[2]{
 				"I'd rather not be here. This place has bad vibes, y'know? It brings back some unpleasant memories.",
