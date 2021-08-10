@@ -1,31 +1,12 @@
-Unofficial Calamity mod french translation (WIP)
-Traduction non-officielle française du mod Calamity (En cours).
+Traduction française non-officielle du mod Calamity
+Unofficial Calamity mod french translation
 
-English description (Description anglaise)
---------------------------------------------------------------------------
+A l'exception du texte impossible à traduire, tout est traduit
+Visitez le forum pour plus d'informations
 
-Aim to translate buffs, items, accessories, mounts, pets, NPCs names, weapons, global chat announcements and more eventually.
-2411+/2800 labels groups translated. 100% of accessories, prefixes, NPC Dialog and global chat announcement should be translated.
-Please note that some text cannot be translated, but the great majority of the text should be translatable.
-Also, this is not google translated, so typos and mistakes are likely to be found, but the translated text should make sense.
+Besides untranslatable texts, everything is translated
+Please visit the forum for more information
 
-Description française (French Description)
---------------------------------------------------------------------------
+Si vous relevez des fautes et/ou des problèmes de traduction, signalez le sur le forum que je puisse le corriger.
 
-Vise à traduire les buffs, les objets, les accessoires, les montures, les pets, les noms des NPC (alliés et ennemis), les messages globaux dans le chat, les armes et plus si affinité.
-2411+/2800 groupes de textes traduits. 100% des accessoires, des préfixes, des dialogues des NPC et des messages globaux dans le chat devraient être traduits.
-Certains textes ne peuvent pas être traduits, mais la grande plupart du mod devrait pouvoir être traduit.
-Aussi, ce n'est pas une google trad, ce qui veut dire qu'il y a de fortes chances que des fautes soient présentes, mais le texte traduit devrait faire sens.
 
---------------------------------------------------------------------------
-
-V0.9 : Ajout de plus de texte traduit et optimisation du code | Adding more text and code optimisation
-v0.8 : Ajout des textes dynamiques (ex : Arcanum Astral) et de plus de traduction | Adding dynamic tooltip translation (ex : Astral Arcanum) and more translated text
-V0.7 : Ajout des bonus de set et de plus de traduction de texte | Adding set bonuses translations and more label
-V0.6 : Ajout de traductions, et traductions des objets du jeu de base modifiés par Calamity | Added translation, and translated vanilla objects modified by Calamity 
-V0.5 : Ajout des préfixes, de la traduction des dégâts des armes et d'une centaine de label | Added prefixes, weapons damage translation and around 100 text
-V0.4 : Ajout de la plupart des dialogues des NPC et d'une icône | Added most NPC Dialog and a mod icon
-V0.3 : Ajout de 600+ labels traduits | Added 600+ translated labels
-V0.2.1 : Ajout de la page d'accueil | Added homepage
-V0.2 : Ajout des messages de chat | Added chat messages
-V0.1 : Version initiale | First Version

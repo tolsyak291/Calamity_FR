@@ -230,7 +230,7 @@ public class CalamityGlobalNPC_FR : GlobalNPC
 			},
 			new string[2]{
 				"The dungeon seems even more restless than usual, watch out for the powerful abominations stirring up in there.",
-				"Le donjon à l'air d'être encore plus agité que d'habitude, fait attention aux puissantes abominations qui rôdent là-dessous."
+				"Le donjon a l'air d'être encore plus agité que d'habitude, fait attention aux puissantes abominations qui rôdent là-dessous."
 			},
 			new string[2]{
 				"Seems like extinguishing that butterfly caused its life to seep into the hallowed areas, try taking a peek there and see what you can find!",
