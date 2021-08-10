@@ -114,7 +114,7 @@ public class CalamityGlobalItem_FR : GlobalItem
 		}
 		else if (set == "Brimflame")
 		{
-			player.setBonus = "+15% de dégâts et de chances de coup critique magique\nAppuyez sur " + hotkey + " pour déclencher une fureur flammesouffre\nDurant cet effet, vos dégâts sont significativement augmentés\nCependant, votre vie diminue rapidement et votre mana ne se régénère pas durant la fureur\nCet effet peut être interrompu, la fureur flammesouffre a un temps de recharge de 30s";
+			player.setBonus = "+15% de dégâts et de chances de coup critique magique\nAppuyez sur " + hotkey + " pour déclencher une fureur flammesoufre\nDurant cet effet, vos dégâts sont significativement augmentés\nCependant, votre vie diminue rapidement et votre mana ne se régénère pas durant la fureur\nCet effet peut être interrompu, la fureur flammesoufre a un temps de recharge de 30s";
 		}
 		else if (set == "DaedalusMagic")
 		{
@@ -730,301 +730,450 @@ public class CalamityGlobalItem_FR : GlobalItem
 
 	public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
 	{
-		//Horrible code, will change later but will do for now
-		foreach (TooltipLine line in tooltips)
+		//Specific Item Modification
+		if (CalamityWorld.death)
 		{
-			//Specific Item Modification
-			/* Generic lines for death mode
-				line.text = line.text.Replace("Provides heat and cold protection in Death Mode", "Protège contre le froid et la chaleur en mode Mort");
-				line.text = line.text.Replace("Provides cold protection in Death Mode", "Protège contre le froid en mode Mort");
-				line.text = line.text.Replace("Provides heat protection in Death Mode", "Protège contre la chaleur en mode Mort");
-
-
-				line.text = line.text.Replace("Provides a moderate amount of light in the abyss", "Émet une quantité modérée de lumière dans les abysses");
-			
-
-			
-
-			*/
-			if (CalamityWorld.death)
+			if (item.type == ModContent.ItemType<XerocMask>())
 			{
-				if (item.type == ModContent.ItemType<XerocMask>())
+				foreach (TooltipLine line in tooltips)
 				{
 					line.text = line.text.Replace("Temporary immunity to lava", "Immunité temporaire à la lave");
 					line.text = line.text.Replace("Provides heat protection in Death Mode", "Protège contre la chaleur en mode Mort");
 				}
-				if (item.type == ModContent.ItemType<TarragonHelm>())
+			}
+			if (item.type == ModContent.ItemType<TarragonHelm>())
+			{
+				foreach (TooltipLine line in tooltips)
 				{
 					line.text = line.text.Replace("10% increased melee damage and critical strike chance", "+10% de dégâts et de chances de coup critique de mêlée");
 					line.text = line.text.Replace("Provides heat protection in Death Mode", "Protège contre la chaleur en mode Mort");
 				}
-				if (item.type == ModContent.ItemType<TarragonHornedHelm>())
+			}
+			if (item.type == ModContent.ItemType<TarragonHornedHelm>())
+			{
+				foreach (TooltipLine line in tooltips)
 				{
 					line.text = line.text.Replace("5% increased damage reduction and +3 max minions", "+5% de réduction de dégâts et +3 sbires max");
 					line.text = line.text.Replace("Provides heat protection in Death Mode", "Protège contre la chaleur en mode Mort");
 				}
-				if (item.type == ModContent.ItemType<TarragonMask>())
+			}
+			if (item.type == ModContent.ItemType<TarragonMask>())
+			{
+				foreach (TooltipLine line in tooltips)
 				{
 					line.text = line.text.Replace("5% increased damage reduction, +100 max mana, and 15% reduced mana usage", "+5% de réduction de dégâts, +100 mana maximum et 15% de réduction du coût en mana");
 					line.text = line.text.Replace("Provides heat protection in Death Mode", "Protège contre la chaleur en mode Mort");
 				}
-				if (item.type == ModContent.ItemType<TarragonVisage>() || item.type == ModContent.ItemType<TarragonHelmet>())
+			}
+			if (item.type == ModContent.ItemType<TarragonVisage>() || item.type == ModContent.ItemType<TarragonHelmet>())
+			{
+				foreach (TooltipLine line in tooltips)
 				{
 					line.text = line.text.Replace("5% increased damage reduction", "+5% de réduction des dégâts");
 					line.text = line.text.Replace("Provides heat protection in Death Mode", "Protège contre la chaleur en mode Mort");
 				}
-				if (item.type == ModContent.ItemType<BloodflareHelm>())
+			}
+			if (item.type == ModContent.ItemType<BloodflareHelm>())
+			{
+				foreach (TooltipLine line in tooltips)
 				{
 					line.text = line.text.Replace("10% increased rogue damage and critical strike chance, 15% increased movement speed", "+10% de dégâts et de chances de coup critique de voleur et +15% de vitesse de mouvement");
 					line.text = line.text.Replace("Provides heat protection in Death Mode", "Protège contre la chaleur en mode Mort");
 				}
-				if (item.type == ModContent.ItemType<BloodflareHelmet>())
+			}
+			if (item.type == ModContent.ItemType<BloodflareHelmet>())
+			{
+				foreach (TooltipLine line in tooltips)
 				{
 					line.text = line.text.Replace("+3 max minions", "+3 sbires max");
 					line.text = line.text.Replace("Provides heat protection in Death Mode", "Protège contre la chaleur en mode Mort");
 				}
-				if (item.type == ModContent.ItemType<BloodflareHornedHelm>())
+			}
+			if (item.type == ModContent.ItemType<BloodflareHornedHelm>())
+			{
+				foreach (TooltipLine line in tooltips)
 				{
 					line.text = line.text.Replace("10% increased ranged damage and critical strike chance", "+10% de dégâts et de chances de coup critique à distance");
 					line.text = line.text.Replace("Provides heat protection in Death Mode", "Protège contre la chaleur en mode Mort");
 				}
-				if (item.type == ModContent.ItemType<BloodflareHornedMask>())
+			}
+			if (item.type == ModContent.ItemType<BloodflareHornedMask>())
+			{
+				foreach (TooltipLine line in tooltips)
 				{
 					line.text = line.text.Replace("10% increased magic damage and critical strike chance, +100 max mana, and 17% reduced mana usage", "+10% de dégâts et de chances de coup critique magique, +100 mana maximum, et 17% de réduction du coût de mana");
 					line.text = line.text.Replace("Provides heat protection in Death Mode", "Protège contre la chaleur en mode Mort");
 				}
-				if (item.type == ModContent.ItemType<BloodflareMask>())
+			}
+			if (item.type == ModContent.ItemType<BloodflareMask>())
+			{
+				foreach (TooltipLine line in tooltips)
 				{
 					line.text = line.text.Replace("10% increased melee damage and critical strike chance", "+10% de dégâts et de chances de coup critique de mêlée");
 					line.text = line.text.Replace("Provides heat protection in Death Mode", "Protège contre la chaleur en mode Mort");
 				}
-				if (item.type == ModContent.ItemType<AuricTeslaBodyArmor>())
+			}
+			if (item.type == ModContent.ItemType<AuricTeslaBodyArmor>())
+			{
+				foreach (TooltipLine line in tooltips)
 				{
 					line.text = line.text.Replace("You will freeze enemies near you when you are struck", "Vous gelez les ennemis proches quand vous êtes touché");
 					line.text = line.text.Replace("Provides heat and cold protection in Death Mode", "Protège contre le froid et la chaleur en mode Mort");
 				}
-				if (item.type == ModContent.ItemType<AtaxiaMask>())
+			}
+			if (item.type == ModContent.ItemType<AtaxiaMask>())
+			{
+				foreach (TooltipLine line in tooltips)
 				{
 					line.text = line.text.Replace("Temporary immunity to lava and immunity to fire damage", "+100 mana maximum, immunité temporaire à la lave, et immunité aux dégâts de feu");
 					line.text = line.text.Replace("Provides heat protection in Death Mode", "Protège contre la chaleur en mode Mort");
 				}
-				if (item.type == ModContent.ItemType<AtaxiaHeadgear>())
+			}
+			if (item.type == ModContent.ItemType<AtaxiaHeadgear>())
+			{
+				foreach (TooltipLine line in tooltips)
 				{
 					line.text = line.text.Replace("Reduces ammo usage by 25%, temporary immunity to lava, and immunity to fire damage", "Réduit la consommation de munitions de 25%, immunité temporaire à la lave, et immunité aux dégâts de feu");
 					line.text = line.text.Replace("Provides heat protection in Death Mode", "Protège contre la chaleur en mode Mort");
 				}
-				if (item.type == ModContent.ItemType<AtaxiaHood>() || item.type == ModContent.ItemType<AtaxiaHelmet>() || item.type == ModContent.ItemType<AtaxiaHelm>())
+			}
+			if (item.type == ModContent.ItemType<AtaxiaHood>() || item.type == ModContent.ItemType<AtaxiaHelmet>() || item.type == ModContent.ItemType<AtaxiaHelm>())
+			{
+				foreach (TooltipLine line in tooltips)
 				{
 					line.text = line.text.Replace("Temporary immunity to lava and immunity to fire damage", "Immunité temporaire à la lave et immunité aux dégâts de feu");
 					line.text = line.text.Replace("Provides heat protection in Death Mode", "Protège contre la chaleur en mode Mort");
 				}
-				if (item.type == ModContent.ItemType<SoulofCryogen>())
+			}
+			if (item.type == ModContent.ItemType<SoulofCryogen>())
+			{
+				foreach (TooltipLine line in tooltips)
 				{
 					line.text = line.text.Replace("Icicles rain down as you fly", "Des stalagtites pleuvent lorsque vous volez");
 					line.text = line.text.Replace("Provides heat and cold protection in Death Mode", "Protège contre le froid et la chaleur en mode Mort");
 				}
-				if (item.type == ModContent.ItemType<ElysianWings>())
+			}
+			if (item.type == ModContent.ItemType<ElysianWings>())
+			{
+				foreach (TooltipLine line in tooltips)
 				{
 					line.text = line.text.Replace("Temporary immunity to lava and 40% increased movement speed", "Immunité temporaire à la lave et +40% de vitesse de mouvement");
 					line.text = line.text.Replace("Provides heat protection in Death Mode", "Protège contre la chaleur en mode Mort");
 				}
-				if (item.type == ModContent.ItemType<ElysianTracers>() || item.type == ModContent.ItemType<InfinityBoots>())
+			}
+			if (item.type == ModContent.ItemType<ElysianTracers>() || item.type == ModContent.ItemType<InfinityBoots>())
+			{
+				foreach (TooltipLine line in tooltips)
 				{
 					line.text = line.text.Replace("Temporary immunity to lava", "Immunité temporaire à la lave");
 					line.text = line.text.Replace("Provides heat protection in Death Mode", "Protège contre la chaleur en mode Mort");
 				}
-				if (item.type == ModContent.ItemType<CelestialTracers>())
+			}
+			if (item.type == ModContent.ItemType<CelestialTracers>())
+			{
+				foreach (TooltipLine line in tooltips)
 				{
 					line.text = line.text.Replace("Being hit for over 200 damage will make you immune for an extended period of time", "Subir plus de 200 dégâts prolongera grandement votre période d'invincibilité");
 					line.text = line.text.Replace("Provides heat protection in Death Mode", "Protège contre la chaleur en mode Mort");
 				}
-				if (item.type == ModContent.ItemType<Popo>())
+			}
+			if (item.type == ModContent.ItemType<Popo>())
+			{
+				foreach (TooltipLine line in tooltips)
 				{
 					line.text = line.text.Replace("Transforms the holder into a snowman", "Vous transforme en bonhomme de neige");
 					line.text = line.text.Replace("Provides heat and cold protection in Death Mode", "Protège contre le froid et la chaleur en mode Mort");
 				}
-				if (item.type == ModContent.ItemType<YharimsInsignia>())
+			}
+			if (item.type == ModContent.ItemType<YharimsInsignia>())
+			{
+				foreach (TooltipLine line in tooltips)
 				{
 					line.text = line.text.Replace("Increased melee knockback", "Augmente le recul des attaques de corps à corps");
 					line.text = line.text.Replace("Provides heat protection in Death Mode", "Protège contre la chaleur en mode Mort");
 				}
-				if (item.type == ModContent.ItemType<VoidofExtinction>())
+			}
+			if (item.type == ModContent.ItemType<VoidofExtinction>())
+			{
+				foreach (TooltipLine line in tooltips)
 				{
 					line.text = line.text.Replace("Temporary immunity to lava, greatly reduces lava burn damage, and 25% increased damage while in lava", "Immunité temporaire à la lave, réduit grandement les dégâts de la brûlure de lave et augmente les dégâts de 25% quand vous êtes dans la lave");
 					line.text = line.text.Replace("Provides heat protection in Death Mode", "Protège contre la chaleur en mode Mort");
 				}
-				if (item.type == ModContent.ItemType<TheCamper>())
+			}
+			if (item.type == ModContent.ItemType<TheCamper>())
+			{
+				foreach (TooltipLine line in tooltips)
 				{
 					line.text = line.text.Replace("Provides a small amount of light in the Abyss", "Émet une petite quantité de lumière dans les abysses");
 					line.text = line.text.Replace("Provides cold protection in Death Mode", "Protège contre le froid en mode Mort");
 				}
-				if (item.type == ModContent.ItemType<TheAmalgam>())
+			}
+			if (item.type == ModContent.ItemType<TheAmalgam>())
+			{
+				foreach (TooltipLine line in tooltips)
 				{
 					line.text = line.text.Replace("You have a damaging aura that envenoms nearby enemies and increased movement in liquids", "Vous émettez une aura nocive qui envenime les ennemis et votre mouvement est augmenté quand vous êtes immergé");
 					line.text = line.text.Replace("Provides heat protection in Death Mode", "Protège contre la chaleur en mode Mort");
 				}
-				if (item.type == ModContent.ItemType<Sponge>())
+			}
+			if (item.type == ModContent.ItemType<Sponge>())
+			{
+				foreach (TooltipLine line in tooltips)
 				{
 					line.text = line.text.Replace("Enemy attacks will have part of their damage absorbed and used to heal you", "Une partie des dégâts infligés par les ennemis sera absorbée et rendue sous forme de points de vie");
 					line.text = line.text.Replace("Provides cold protection in Death Mode", "Protège contre le froid en mode Mort");
 				}
-				if (item.type == ModContent.ItemType<PermafrostsConcoction>())
+			}
+			if (item.type == ModContent.ItemType<PermafrostsConcoction>())
+			{
+				foreach (TooltipLine line in tooltips)
 				{
 					line.text = line.text.Replace("You are encased in an ice barrier for 3 seconds when revived", "Vous êtes prisonnier d'une barrière de glace pendant 3 secondes lorsque cet effet s'active");
 					line.text = line.text.Replace("Provides heat and cold protection in Death Mode", "Protège contre le froid et la chaleur en mode Mort");
 				}
-				if (item.type == ModContent.ItemType<FrostFlare>())
+			}
+			if (item.type == ModContent.ItemType<FrostFlare>())
+			{
+				foreach (TooltipLine line in tooltips)
 				{
 					line.text = line.text.Replace("Provides heat and cold protection in Death Mode", "Protège contre le froid et la chaleur en mode Mort");
 					line.text = line.text.Replace("Revengeance drop", "Revengeance");
 				}
-				if (item.type == ModContent.ItemType<FrostBarrier>())
+			}
+			if (item.type == ModContent.ItemType<FrostBarrier>())
+			{
+				foreach (TooltipLine line in tooltips)
 				{
 					line.text = line.text.Replace("You are immune to the chilled debuff", "Immunité au refroidissement");
 					line.text = line.text.Replace("Provides heat and cold protection in Death Mode", "Protège contre le froid et la chaleur en mode Mort");
 				}
-				if (item.type == ModContent.ItemType<FrigidBulwark>())
+			}
+			if (item.type == ModContent.ItemType<FrigidBulwark>())
+			{
+				foreach (TooltipLine line in tooltips)
 				{
 					line.text = line.text.Replace("The shell becomes more powerful when below 15% life and reduces damage even further", "La carapace se renforce en dessous de 15% de vie et réduit encore plus les dégâts");
 					line.text = line.text.Replace("Provides heat and cold protection in Death Mode", "Protège contre le froid et la chaleur en mode Mort");
 				}
-				if (item.type == ModContent.ItemType<ElementalGauntlet>())
+			}
+			if (item.type == ModContent.ItemType<ElementalGauntlet>())
+			{
+				foreach (TooltipLine line in tooltips)
 				{
 					line.text = line.text.Replace("Recul des attaques de corps à corps augmenté", "Recul des attaques de corps à corps augmenté\nProtège contre le froid et la chaleur en mode Mort");
 				}
-				if (item.type == ModContent.ItemType<BlazingCore>())
+			}
+			if (item.type == ModContent.ItemType<BlazingCore>())
+			{
+				foreach (TooltipLine line in tooltips)
 				{
 					line.text = line.text.Replace("Provides a moderate amount of light in the abyss", "Émet une quantité modérée de lumière dans les abysses");
 					line.text = line.text.Replace("Provides heat and cold protection in Death Mode", "Protège contre le froid et la chaleur en mode Mort");
 				}
-				if (item.type == ModContent.ItemType<AngelTreads>())
+			}
+			if (item.type == ModContent.ItemType<AngelTreads>())
+			{
+				foreach (TooltipLine line in tooltips)
 				{
 					line.text = line.text.Replace("Temporary immunity to lava", "Immunité temporaire à la lave");
 					line.text = line.text.Replace("Provides heat protection in Death Mode", "Protège contre la chaleur en mode Mort");
 				}
+			}
 
-				if (item.type == ModContent.ItemType<AmbrosialAmpoule>())
+			if (item.type == ModContent.ItemType<AmbrosialAmpoule>())
+			{
+				foreach (TooltipLine line in tooltips)
 				{
 					line.text = line.text.Replace("Most bee/hornet enemies and projectiles do 75% damage to you", "La plupart des abeilles/frelons ne vous infligent plus que 75% de dégâts");
 					line.text = line.text.Replace("Provides cold protection in Death Mode", "Protège contre le froid en mode Mort");
 				}
-				if (item.type == ModContent.ItemType<PurifiedJam>())
+			}
+			if (item.type == ModContent.ItemType<PurifiedJam>())
+			{
+				foreach (TooltipLine line in tooltips)
 				{
 					line.text = line.text.Replace("Makes you immune to all damage and most debuffs for 5 seconds", "Vous immunise contre tous les dégâts et la plupart des altérations d'état pendant 5 secondes");
 				}
-				if (item.type == ModContent.ItemType<ColdDivinity>())
+			}
+			if (item.type == ModContent.ItemType<ColdDivinity>())
+			{
+				foreach (TooltipLine line in tooltips)
 				{
 					line.text = line.text.Replace("Provides heat and cold protection in Death Mode when is use", "Protège contre le froid et la chaleur en mode Mort quand vous l'utilisez");
 					line.text = line.text.Replace("Revengeance Drop", "Revengeance");
 				}
 			}
-			if (item.type == ModContent.ItemType<AbandonedSlimeStaff>())
+		}
+		if (item.type == ModContent.ItemType<AbandonedSlimeStaff>())
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Holding this weapon grants", "Tenir cette arme augmente votre vitesse de saut de");
 				line.text = line.text.Replace(" increased jump speed", "");
 			}
-			if (item.type == ModContent.ItemType<Eternity>())
+		}
+		if (item.type == ModContent.ItemType<Eternity>())
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("There's pictures of ponies in the book", "Il y a des images de poneys dans le livre");
 			}
-			if (item.type == ModContent.ItemType<CosmicWorm>())
+		}
+		if (item.type == ModContent.ItemType<CosmicWorm>())
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("WARNING! Some sentinels have not been truly defeated yet and will spawn at full power during this fight!", "ATTENTION! Certaines sentinelles n'ont pas encore été vaincues et apparaîtront à pleine puissance durant ce combat!");
 			}
-			if (item.type == ModContent.ItemType<SunkenStew>())
+		}
+		if (item.type == ModContent.ItemType<SunkenStew>())
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Only gives 37 seconds of Potion Sickness", "Provoque seulement 37s de potion affaiblie");
 			}
-			if (item.type == ModContent.ItemType<KnowledgeKingSlime>())
+		}
+		if (item.type == ModContent.ItemType<KnowledgeKingSlime>())
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Favorite this item to gain 5% increased movement speed and 2% increased jump speed.", "Favorisez cet objet pour gagner 5% de vitesse de mouvement et 2% de vitesse de saut.");
 				line.text = line.text.Replace("Favorite this item to gain 5% increased movement speed.", "Favorisez cet objet pour gagner 5% de vitesse de mouvement.");
 			}
-			if (item.type == ModContent.ItemType<Revenge>())
+		}
+		if (item.type == ModContent.ItemType<Revenge>())
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Activates rage. When rage is maxed press", "Active la rage. Quand la jauge de rage est remplie, appuyez sur");
 				line.text = line.text.Replace("to activate rage mode.", " pour activer le mode rage.");
 				line.text = line.text.Replace("Activates adrenaline. When adrenaline is maxed press", "Active l'adrénaline. Quand la jauge d'adrénaline est remplie, appuyez sur");
 				line.text = line.text.Replace("to activate adrenaline mode.", "pour activer le mode adrénaline.");
 			}
-			if (item.type == ModContent.ItemType<VitalJelly>())
+		}
+		if (item.type == ModContent.ItemType<VitalJelly>())
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				string jumpAmtVJelly = Main.player[Main.myPlayer].autoJump ? "6" : "24";
-				line.text = line.text.Replace(jumpAmtVJelly + "% increased jump speed", "+"+jumpAmtVJelly+"% de vitesse de saut");
+				line.text = line.text.Replace(jumpAmtVJelly + "% increased jump speed", "+" + jumpAmtVJelly + "% de vitesse de saut");
 			}
-			if (item.type == ModContent.ItemType<SpectralVeil>())
+		}
+		if (item.type == ModContent.ItemType<SpectralVeil>())
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				string hotkeySpecVeil = CalamityMod.CalamityMod.SpectralVeilHotKey.TooltipHotkeyString();
-				line.text = line.text.Replace("Press " + hotkeySpecVeil + " to consume 25% of your maximum stealth to perform a short range teleport and render you momentarily invulnerable", "Appuyez sur "+ hotkeySpecVeil + " pour consommer 25% de votre furtivité maximum pour vous téléporter à courte portée et vous rendre momentanément invulnérable");
+				line.text = line.text.Replace("Press " + hotkeySpecVeil + " to consume 25% of your maximum stealth to perform a short range teleport and render you momentarily invulnerable", "Appuyez sur " + hotkeySpecVeil + " pour consommer 25% de votre furtivité maximum pour vous téléporter à courte portée et vous rendre momentanément invulnérable");
 			}
-			if (item.type == ModContent.ItemType<SandCloak>())
+		}
+		if (item.type == ModContent.ItemType<SandCloak>())
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				string hotkeySand = CalamityMod.CalamityMod.SandCloakHotkey.TooltipHotkeyString();
-				line.text = line.text.Replace("Press " + hotkeySand + " to consume 25% of your maximum stealth to create a protective dust veil which provides +6 defense and +2 life regen", "Appuyez sur "+ hotkeySand +" pour consommer 25% de votre furtivité maximum pour créer un voile de poussière qui donne +6 défense et +2 régénération de vie");
+				line.text = line.text.Replace("Press " + hotkeySand + " to consume 25% of your maximum stealth to create a protective dust veil which provides +6 defense and +2 life regen", "Appuyez sur " + hotkeySand + " pour consommer 25% de votre furtivité maximum pour créer un voile de poussière qui donne +6 défense et +2 régénération de vie");
 			}
-			if (item.type == ModContent.ItemType<ProfanedSoulCrystal>())
+		}
+		if (item.type == ModContent.ItemType<ProfanedSoulCrystal>())
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("The soul within this crystal has been defiled by the powerful magic of a supreme witch", "L'âme à l'intérieur de ce cristal a été corrompu par la puissante magie d'une sorcière suprême");
 				line.text = line.text.Replace("Merchants will reject a defiled soul such as this.", "Les marchants rejeteront une âme corrompue comme celle-ci");
 				line.text = line.text.Replace("Transforms Magic attacks into a powerful splitting fireball for", "Transforme les attaques magiques en une puissante boule de feu qui se divise pour");
 				line.text = line.text.Replace("mana per cast", "mana");
 			}
-			if (item.type == ModContent.ItemType<PlaguedFuelPack>())
+		}
+		if (item.type == ModContent.ItemType<PlaguedFuelPack>())
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				string plagueHotkey = CalamityMod.CalamityMod.PlaguePackHotKey.TooltipHotkeyString();
 				line.text = line.text.Replace("Press " + plagueHotkey + " to consume 25% of your maximum stealth to perform a swift upwards/diagonal dash which leaves a trail of plagued clouds", "Appuyez sur " + plagueHotkey + " pour consommer 25% de votre furtivité maximum pour effectuer une rapide ruée ascendante/diagonale qui laisse une trainée de nuages pestiférés");
 			}
-			if (item.type == ModContent.ItemType<Nanotech>() || item.type == ModContent.ItemType<RaidersTalisman>())
+		}
+		if (item.type == ModContent.ItemType<Nanotech>() || item.type == ModContent.ItemType<RaidersTalisman>())
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Rogue Crit Level:", "Cumuls actuels:");
 			}
-			if (item.type == ModContent.ItemType<MomentumCapacitor>())
+		}
+		if (item.type == ModContent.ItemType<MomentumCapacitor>())
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				string hotkeyCapacitor = CalamityMod.CalamityMod.MomentumCapacitatorHotkey.TooltipHotkeyString();
-				line.text = line.text.Replace("Press " + hotkeyCapacitor + " to consume 30% of your maximum stealth to create an energy field at the cursor position", "Appuyez sur "+hotkeyCapacitor+" pour consommer 30% de votre furtivité maximale pour créer un champ d'énergie à l'emplacement du curseur");
+				line.text = line.text.Replace("Press " + hotkeyCapacitor + " to consume 30% of your maximum stealth to create an energy field at the cursor position", "Appuyez sur " + hotkeyCapacitor + " pour consommer 30% de votre furtivité maximale pour créer un champ d'énergie à l'emplacement du curseur");
 			}
-			if (item.type == ModContent.ItemType<GrandGelatin>())
+		}
+		if (item.type == ModContent.ItemType<GrandGelatin>())
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				string jumpAmtGelatin = Main.player[Main.myPlayer].autoJump ? "10" : "40";
-				line.text = line.text.Replace(jumpAmtGelatin + "% increased jump speed", "+"+ jumpAmtGelatin + "% de vitesse de saut");
+				line.text = line.text.Replace(jumpAmtGelatin + "% increased jump speed", "+" + jumpAmtGelatin + "% de vitesse de saut");
 			}
-			if (item.type == ModContent.ItemType<CelestialJewel>())
+		}
+		if (item.type == ModContent.ItemType<CelestialJewel>())
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				string hotkeyCelestial = CalamityMod.CalamityMod.AstralTeleportHotKey.TooltipHotkeyString();
-				line.text = line.text.Replace("Press " + hotkeyCelestial + " to teleport to a random location", "Appuyez sur "+hotkeyCelestial+" pour vous téléporter à un endroit aléatoire");
+				line.text = line.text.Replace("Press " + hotkeyCelestial + " to teleport to a random location", "Appuyez sur " + hotkeyCelestial + " pour vous téléporter à un endroit aléatoire");
 			}
+		}
 
-			if (item.type == ModContent.ItemType<BlunderBooster>())
+		if (item.type == ModContent.ItemType<BlunderBooster>())
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				string hotkeyBlunder = CalamityMod.CalamityMod.PlaguePackHotKey.TooltipHotkeyString();
-				line.text = line.text.Replace("Press " + hotkeyBlunder + " to consume 25% of your maximum stealth to perform a swift upwards/diagonal dash which leaves a trail of lightning bolts", "Appuyez sur "+hotkeyBlunder+" pour consommer 25% de votre furtivité maximum pour effectuer une rapide ruée ascendante/diagonale qui laisse une trainée de décharges électriques");
+				line.text = line.text.Replace("Press " + hotkeyBlunder + " to consume 25% of your maximum stealth to perform a swift upwards/diagonal dash which leaves a trail of lightning bolts", "Appuyez sur " + hotkeyBlunder + " pour consommer 25% de votre furtivité maximum pour effectuer une rapide ruée ascendante/diagonale qui laisse une trainée de décharges électriques");
 			}
+		}
 
-			if (item.type == ModContent.ItemType<AstralArcanum>())
+		if (item.type == ModContent.ItemType<AstralArcanum>())
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				string hotkeyArcanum = CalamityMod.CalamityMod.AstralArcanumUIHotkey.TooltipHotkeyString();
-				line.text = line.text.Replace("Press " + hotkeyArcanum + " to toggle teleportation UI", "Appuyez sur "+hotkeyArcanum+" pour afficher/cacher l'interface de téléportation");
+				line.text = line.text.Replace("Press " + hotkeyArcanum + " to toggle teleportation UI", "Appuyez sur " + hotkeyArcanum + " pour afficher/cacher l'interface de téléportation");
 			}
+		}
 
-			if (item.type == ModContent.ItemType<AsgardianAegis>() || item.type == ModContent.ItemType<ElysianAegis>())
+		if (item.type == ModContent.ItemType<AsgardianAegis>() || item.type == ModContent.ItemType<ElysianAegis>())
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				string hotkeyAsgard = CalamityMod.CalamityMod.AegisHotKey.TooltipHotkeyString();
-				line.text = line.text.Replace("Press " + hotkeyAsgard + " to activate buffs to all damage, crit chance, and defense", "Appuyez sur "+ hotkeyAsgard + " pour améliorer tous vos dégâts, vos chances de coup critique et votre défense");
+				line.text = line.text.Replace("Press " + hotkeyAsgard + " to activate buffs to all damage, crit chance, and defense", "Appuyez sur " + hotkeyAsgard + " pour améliorer tous vos dégâts, vos chances de coup critique et votre défense");
 			}
+		}
 
-			if (item.type == ModContent.ItemType<AeroStone>())
+		if (item.type == ModContent.ItemType<AeroStone>())
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				string jumpAmt = Main.player[Main.myPlayer].autoJump ? "5" : "20";
 				line.text = line.text.Replace("Increases movement speed by 10%, jump speed by " + jumpAmt + "%, and all damage by 3%", "Augmente la vitesse de mouvement de 10%, la vitesse de saut de " + jumpAmt + "% et tous les dégâts de 3%");
 			}
+		}
 
-			if (item.type == ModContent.ItemType<NormalityRelocator>())
-            {
+		if (item.type == ModContent.ItemType<NormalityRelocator>())
+		{
+			foreach (TooltipLine line in tooltips)
+			{
 				string hotkeyReloc = CalamityMod.CalamityMod.NormalityRelocatorHotKey.TooltipHotkeyString();
 				line.text = line.text.Replace("Press " + hotkeyReloc + " to teleport to the position of the mouse", "Appuyez sur " + hotkeyReloc + " pour vous téléporter à l'emplacement du curseur");
 			}
+		}
 
-			if (item.type == ModContent.ItemType<MagicLevelMeter>())
+		if (item.type == ModContent.ItemType<MagicLevelMeter>())
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Tells you how high your magic proficiency is", "Vous donne votre niveau de compétence magique");
 				line.text = line.text.Replace("While equipped you will gain magic proficiency faster", "Votre niveau de compétence magique augmentera plus vite si vous équippez cet accessoire");
@@ -1035,7 +1184,10 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.text = line.text.Replace("Mana usage decrease:", "Diminution du coût en mana:");
 				line.text = line.text.Replace("Magic crit increase:", "Augmentation des chances de coup critique magique:");
 			}
-			if (item.type == ModContent.ItemType<MeleeLevelMeter>())
+		}
+		if (item.type == ModContent.ItemType<MeleeLevelMeter>())
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Tells you how high your melee proficiency is", "Vous donne votre niveau de compétence de mêlée");
 				line.text = line.text.Replace("While equipped you will gain melee proficiency faster", "Votre niveau de compétence de mêlée augmentera plus vite si vous équippez cet accessoire");
@@ -1046,7 +1198,10 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.text = line.text.Replace("Melee speed increase:", "Augmentation de la vitesse de mêlée:");
 				line.text = line.text.Replace("Melee crit increase:", "Augmentation des chances de coup critique de mêlée:");
 			}
-			if (item.type == ModContent.ItemType<RangedLevelMeter>())
+		}
+		if (item.type == ModContent.ItemType<RangedLevelMeter>())
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Tells you how high your ranged proficiency is", "Vous donne votre niveau de compétence à distance");
 				line.text = line.text.Replace("While equipped you will gain ranged proficiency faster", "Votre niveau de compétence à distance augmentera plus vite si vous équippez cet accessoire");
@@ -1057,7 +1212,10 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.text = line.text.Replace("Movement speed increase:", "Augmentation de la vitesse de mouvement:");
 				line.text = line.text.Replace("Ranged crit increase:", "Augmentation des chances de coup critique à distance:");
 			}
-			if (item.type == ModContent.ItemType<RogueLevelMeter>())
+		}
+		if (item.type == ModContent.ItemType<RogueLevelMeter>())
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Tells you how high your rogue proficiency is", "Vous donne votre niveau de compétence de voleur");
 				line.text = line.text.Replace("While equipped you will gain rogue proficiency faster", "Votre niveau de compétence de voleur augmentera plus vite si vous équippez cet accessoire");
@@ -1068,7 +1226,10 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.text = line.text.Replace("Rogue velocity increase:", "Augmentation de la vitesse des projectiles de voleur:");
 				line.text = line.text.Replace("Rogue crit increase:", "Augmentation des chances de coup critique de voleur:");
 			}
-			if (item.type == ModContent.ItemType<SummonLevelMeter>())
+		}
+		if (item.type == ModContent.ItemType<SummonLevelMeter>())
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Tells you how high your summon proficiency is", "Vous donne votre niveau de compétence d'invocation");
 				line.text = line.text.Replace("While equipped you will gain summon proficiency faster", "Votre niveau de compétence d'invocation augmentera plus vite si vous équippez cet accessoire");
@@ -1079,7 +1240,10 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.text = line.text.Replace("Minion knockback increase:", "Augmentation du recul des sbires:");
 				line.text = line.text.Replace("Minion slot increase:", "Augmentation du nombre d'emplacements de sbires:");
 			}
-			if (item.type == ModContent.ItemType<StatMeter>())
+		}
+		if (item.type == ModContent.ItemType<StatMeter>())
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Displays almost all player stats", "Affiche presque toutes les statistiques");
 				line.text = line.text.Replace("Offensive stats displayed vary with held item", "Les statistiques offensives dépendent de l'arme tenue");
@@ -1124,19 +1288,28 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.text = line.text.Replace("Life Lost Per Tick at Zero Breath:", "Vie perdue par tic à 0 respiration:");
 				line.text = line.text.Replace("Defense Lost:", "Défense perdue:");
 			}
+		}
 
-			if (item.melee)
+		if (item.melee)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("true melee damage", "dégâts de vraie mêlée");
 			}
+		}
 
-			//Global Item Modifications
+		//Global Item Modifications
 
-			if (item.type >= 3930 && (item.Calamity()?.UsesCharge ?? false))
+		if (item.type >= 3930 && (item.Calamity()?.UsesCharge ?? false))
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Current Charge:", "Batterie Restante:");
 			}
-			if (item.Calamity().rogue)
+		}
+		if (item.Calamity().rogue)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("rogue lancer", "dégâts de voleur");
 				line.text = line.text.Replace("stealth strike damage", "dégâts d'attaque furtive");
@@ -1161,7 +1334,10 @@ public class CalamityGlobalItem_FR : GlobalItem
 					line.text = line.text.Contains("Atrocious") ? line.text.Replace("Atrocious", "").Trim() + " (Atroce)" : line.text;
 				}
 			}
-			if (item.accessory && !item.social && item.prefix > 0)
+		}
+		if (item.accessory && !item.social && item.prefix > 0)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Contains("Quiet") ? line.text.Replace("Quiet", "").Trim() + " (Discret)" : line.text;
 				line.text = line.text.Contains("Cloaked") ? line.text.Replace("Cloaked", "").Trim() + " (Voilé)" : line.text;
@@ -1173,99 +1349,165 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.text = line.text.Replace("stealth generation", "de génération de furtivité");
 
 			}
+		}
 
-			if (item.type == 1134)
+		if (item.type == 1134)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Grants the Honey buff for 2 minutes", "Accorde l'amélioration de Miel pendant 2 minutes");
 			}
-			if (item.type == 1326)
+		}
+		if (item.type == 1326)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Teleportation is disabled while Chaos State is active", "La téléportation est impossible que l'état Chaos est actif");
 			}
-			if (item.type == 3032 || item.type == 205)
+		}
+		if (item.type == 3032 || item.type == 205)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Cannot be used in the Abyss", "Inutilisable dans les abysses");
 			}
-			if (item.type == 1183 || item.type == 3577)
+		}
+		if (item.type == 1183 || item.type == 3577)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Provides a large amount of light in the abyss", "Émet une grande quantité de lumière dans les abysses");
 			}
-			List<int> litlleLightInAbyss = new List<int>() { 3062, 115, 3043, 1861, 1303, 1860, 88 };
-			List<int> moderateLightInAbyss = new List<int>() { 425, 3856, 298 };
-			List<int> moderateBreathLossInAbyss = new List<int>() { 1861, 268 };
-			List<int> greatBreathLossInAbyss = new List<int>() { 291, 497, 861, 3110 };
-			if (litlleLightInAbyss.Contains(item.type))
+		}
+		List<int> litlleLightInAbyss = new List<int>() { 3062, 115, 3043, 1861, 1303, 1860, 88 };
+		List<int> moderateLightInAbyss = new List<int>() { 425, 3856, 298 };
+		List<int> moderateBreathLossInAbyss = new List<int>() { 1861, 268 };
+		List<int> greatBreathLossInAbyss = new List<int>() { 291, 497, 861, 3110 };
+		if (litlleLightInAbyss.Contains(item.type))
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Provides a small amount of light in the abyss", "Émet une petite quantité de lumière dans les abysses");
 			}
-			if (moderateLightInAbyss.Contains(item.type))
+		}
+		if (moderateLightInAbyss.Contains(item.type))
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Provides a moderate amount of light in the abyss", "Émet une quantité modérée de lumière dans les abysses");
 			}
-			if (moderateBreathLossInAbyss.Contains(item.type))
+		}
+		if (moderateBreathLossInAbyss.Contains(item.type))
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Moderately reduces breath loss in the abyss", "Réduit modérément la perte de respiration dans les abysses");
 			}
-			if (greatBreathLossInAbyss.Contains(item.type))
+		}
+		if (greatBreathLossInAbyss.Contains(item.type))
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Greatly reduces breath loss in the abyss", "Réduit grandement la perte de respiration dans les abysses");
 			}
-			if (item.type == 2359)
+		}
+		if (item.type == 2359)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Makes you immune to the Chilled, Frozen, and Glacial State debuffs", "Immunité au refroidissement et au gel");
 				line.text = line.text.Replace("Provides cold protection in Death Mode", "Protège du froid en mode Mort");
 			}
-			if (item.type == 1340)
+		}
+		if (item.type == 1340)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Melee and rogue attacks inflict Venom on enemies", "Les attaques de mêlée et de voleur infligent le venin sur les ennemis");
 			}
-			if (item.type == 1353)
+		}
+		if (item.type == 1353)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Melee and rogue attacks inflict enemies with cursed flames", "Les attaques de mêlée et de voleur infligent les flammes maudites sur les ennemis");
 			}
-			if (item.type == 1354)
+		}
+		if (item.type == 1354)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Melee and rogue attacks set enemies on fire", "Les attaques de mêlée et de voleur enflamment les ennemis");
 			}
-			if (item.type == 1355)
+		}
+		if (item.type == 1355)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Melee and rogue attacks make enemies drop more gold", "Les attaques de mêlée et de voleur font tomber plus d'argent aux ennemis");
 			}
-			if (item.type == 1356)
+		}
+		if (item.type == 1356)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Melee and rogue attacks decrease enemy defense", "Les attaques de mêlée et de voleur réduisent la défense des ennemis");
 			}
-			if (item.type == 1357)
+		}
+		if (item.type == 1357)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Melee and rogue attacks confuse enemies", "Les attaques de mêlée et de voleur rendent les ennemis confus");
 			}
-			if (item.type == 1358)
+		}
+		if (item.type == 1358)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("All attacks cause confetti to appear", "Toutes les attaques font apparaître des confettis");
 			}
-			if (item.type == 1359)
+		}
+		if (item.type == 1359)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Melee and rogue attacks poison enemies", "Les attaques de mêlée et de voleur empoisonnent les ennemis");
 			}
-			if (item.type == 3224)
+		}
+		if (item.type == 3224)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Reduces damage taken by 10%", "Réduit les dégâts subis de 10%");
 			}
-			if (item.type == 536 || item.type == 897 || item.type == 936)
+		}
+		if (item.type == 536 || item.type == 897 || item.type == 936)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("10% increased true melee damage", "Augmente les dégâts de vraie mêlée de 10%");
 			}
-			if (item.type == 1343)
+		}
+		if (item.type == 1343)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("14% increased melee damage and speed", "+14% de dégâts et de vitesse de mêlée");
 				line.text = line.text.Replace("10% increased true melee damage", "+10% de dégâts de vraie mêlée");
 				line.text = line.text.Replace("Provides heat and cold protection in Death Mode", "Protège contre le froid et la chaleur en mode Mort");
 			}
-			if (item.type == 1503)
+		}
+		if (item.type == 1503)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("20% decreased magic damage", "-20% de dégâts magiques");
 			}
-			if (item.type == 288)
+		}
+		if (item.type == 288)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Provides immunity to direct damage from touching lava", "Immunité aux dégâts directs quand vous touchez la lave");
 				line.text = line.text.Replace("Provides temporary immunity to lava burn damage", "Donne une immunité temporarire aux brûlures de lave");
@@ -1273,135 +1515,222 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.text = line.text.Replace("Reduces lava burn damage", "Réduit les dégats des brûlures de lave");
 				line.text = line.text.Replace("Provides heat protection in Death Mode", "Protège contre la chaleur en mode Mort");
 			}
-			if (item.type == 1323)
+		}
+		if (item.type == 1323)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Reduced direct damage from touching lava", "Réduit les dégâts direct quand vous touchez la lave");
 				line.text = line.text.Replace("Greatly reduces lava burn damage", "Réduit grandement les dégats des brûlures de lave");
 				line.text = line.text.Replace("Provides heat protection in Death Mode", "Protège contre la chaleur en mode Mort");
 			}
-			if (item.type == 1322)
+		}
+		if (item.type == 1322)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Provides heat and cold protection in Death Mode", "Protège contre le froid et la chaleur en mode Mort");
 			}
-			if (item.type == 906 || item.type == 908)
+		}
+		if (item.type == 906 || item.type == 908)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Provides heat protection in Death Mode", "Protège contre la chaleur en mode Mort");
 			}
-			if (item.type == 297)
+		}
+		if (item.type == 297)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Boosts certain stats when holding certain types of rogue weapons", "Augmente certaines statistiques quand vous portez certains types d'armes de voleur");
 			}
-			if (item.type == 2294)
+		}
+		if (item.type == 2294)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Requires bait to catch fish", "Nécessite un appât");
 				line.text = line.text.Replace("The line will never break", "La ligne ne cassera jamais");
 			}
-			if (item.type == 1294)
+		}
+		if (item.type == 1294)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Capable of mining Lihzahrd Bricks and Scoria Ore", "Capable d'extraire des briques de Lizhard et du minerai de scorie");
 			}
-			if (item.type == 2786 || item.type == 2776 || item.type == 2781 || item.type == 3466)
+		}
+		if (item.type == 2786 || item.type == 2776 || item.type == 2781 || item.type == 3466)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Material", "Matériau");
 				line.text = line.text.Replace("Can mine Uelibloom Ore", "Peut extraire du minerai d'ueliclosion");
 			}
-			if (item.type == 89 || item.type == 80 || item.type == 76)
+		}
+		if (item.type == 89 || item.type == 80 || item.type == 76)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Set Bonus: +2 defense and 15% increased mining speed", "Bonus d'ensemble: +2 défense et +15% de vitesse de minage");
 			}
-			if (item.type == 123 || item.type == 124 || item.type == 125)
+		}
+		if (item.type == 123 || item.type == 124 || item.type == 125)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Set Bonus: Reduces the mana cost of the Space Gun by 50%", "Bonus d'ensemble: réduit le coût en mana du pistolet spatial de 50%");
 			}
-			if (item.type == 687 || item.type == 688 || item.type == 689)
+		}
+		if (item.type == 687 || item.type == 688 || item.type == 689)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Set Bonus: +2 defense and 10% increased mining speed", "Bonus d'ensemble: +2 défense et +10% de vitesse de minage");
 			}
-			if (item.type == 954 || item.type == 90 || item.type == 81 || item.type == 77)
+		}
+		if (item.type == 954 || item.type == 90 || item.type == 81 || item.type == 77)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Set Bonus: +2 defense and 25% increased mining speed", "Bonus d'ensemble: +2 défense et +25% de vitesse de minage");
 			}
-			if (item.type == 690 || item.type == 691 || item.type == 692)
+		}
+		if (item.type == 690 || item.type == 691 || item.type == 692)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Set Bonus: +3 defense and 20% increased mining speed", "Bonus d'ensemble: +3 défense et +20% de vitesse de minage");
 			}
-			if (item.type == 91 || item.type == 82 || item.type == 78)
+		}
+		if (item.type == 91 || item.type == 82 || item.type == 78)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Set Bonus: +3 defense and 35% increased mining speed", "Bonus d'ensemble: +3 défense et +35% de vitesse de minage");
 			}
-			if (item.type == 693 || item.type == 694 || item.type == 695)
+		}
+		if (item.type == 693 || item.type == 694 || item.type == 695)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Set Bonus: +3 defense and 30% increased mining speed", "Bonus d'ensemble: +3 défense et +30% de vitesse de minage");
 			}
-			if (item.type == 955 || item.type == 92 || item.type == 83 || item.type == 79)
+		}
+		if (item.type == 955 || item.type == 92 || item.type == 83 || item.type == 79)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Set Bonus: +3 defense and 45% increased mining speed", "Bonus d'ensemble: +3 défense et +45% de vitesse de minage");
 			}
-			if (item.type == 696 || item.type == 697 || item.type == 698)
+		}
+		if (item.type == 696 || item.type == 697 || item.type == 698)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Set Bonus: +4 defense and 40% increased mining speed", "Bonus d'ensemble: +4 défense et +40% de vitesse de minage");
 			}
-			if ((item.type == 3776 || item.type == 3777 || item.type == 3778))
+		}
+		if ((item.type == 3776 || item.type == 3777 || item.type == 3778))
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("The minion damage nerf is reduced while wielding magic weapons", "La réduction des dégâts des sbires est réduite quand vous portez une arme magique");
 			}
-			if (item.type == 3187)
+		}
+		if (item.type == 3187)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("3 defense", "+3 défense");
 				line.text = line.text.Replace("3% increased rogue damage", "+3% de dégâts de voleur");
 			}
-			if (item.type == 3188)
+		}
+		if (item.type == 3188)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("5 defense", "+5 défense");
 				line.text = line.text.Replace("3% increased rogue critical strike chance", "+3% de chances de critique de voleur");
 			}
-			if (item.type == 3189)
+		}
+		if (item.type == 3189)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("4 defense", "+4 défense");
 				line.text = line.text.Replace("3% increased rogue velocity", "+3% de vitesse des projectiles de voleur");
 			}
-			if (item.type == 3266)
+		}
+		if (item.type == 3266)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("4 defense", "+3 défense");
 				line.text = line.text.Replace("3% increased rogue damage", "+3% de dégâts de voleur");
 			}
-			if (item.type == 3267)
+		}
+		if (item.type == 3267)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("5 defense", "+5 défense");
 				line.text = line.text.Replace("3% increased rogue critical strike chance", "+3% de chances de critique de voleur");
 			}
-			if (item.type == 3268)
+		}
+		if (item.type == 3268)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("4 defense", "+4 défense");
 				line.text = line.text.Replace("3% increased rogue velocity", "+3% de vitesse des projectiles de voleur");
 			}
-			if (item.type == 231 || item.type == 232 || item.type == 233)
+		}
+		if (item.type == 231 || item.type == 232 || item.type == 233)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text.Replace("Set Bonus: 17% extra melee damage", "Bonus d'ensemble: +17% de dégâts de mêlée");
 				line.text.Replace("20% extra true melee damage", "+20% de dégâts de vrai mêlée");
 				line.text.Replace("Grants immunity to fire blocks, and temporary immunity to lava", "Immunise au bloc de feu et immunité temporaire à la lave");
 				line.text.Replace("Provides heat and cold protection in Death Mode", "Protège contre le froid et la chaleur en mode Mort");
 			}
-			if ((item.type == 684 || item.type == 685 || item.type == 686))
+		}
+		if ((item.type == 684 || item.type == 685 || item.type == 686))
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text.Replace("Provides heat and cold protection in Death Mode", "Protège contre le froid et la chaleur en mode Mort");
 			}
-			if (item.type == 1321)
+		}
+		if (item.type == 1321)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Increases arrow damage by 10% and greatly increases arrow speed", "Augmente les dégâts des flèches de 10% et augmente grandement la vitesse des flèches");
 			}
-			if (item.type == 88)
+		}
+		if (item.type == 88)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Provides light when worn", "Émet de la lumière");
 			}
-			if (item.type == 1921)
+		}
+		if (item.type == 1921)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Provides immunity to chilling and freezing effects", "Immunité au refroidissement et au gel");
 				line.text = line.text.Replace("Provides a regeneration boost while wearing the Eskimo armor", "Donne un bonus de régénération quand vous portez l'armure d'Eskimo");
 				line.text = line.text.Replace("Provides cold protection in Death Mode", "Protège contre le froid en mode Mort");
 			}
-			//Ailes
-			if (item.type == 3580 || item.type == 3582 || item.type == 3588 || item.type == 3592 || item.type == 3924 || item.type == 3928 || item.type == 3228 || item.type == 665 || item.type == 1583 || item.type == 1584 || item.type == 1585 || item.type == 1586)
+		}
+		//Ailes
+		if (item.type == 3580 || item.type == 3582 || item.type == 3588 || item.type == 3592 || item.type == 3924 || item.type == 3928 || item.type == 3228 || item.type == 665 || item.type == 1583 || item.type == 1584 || item.type == 1585 || item.type == 1586)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Great for impersonating devs!", "Parfait pour se faire passer pour les développeurs!");
 				line.text = line.text.Replace("Horizontal speed", "Vitesse horizontale");
@@ -1409,7 +1738,10 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.text = line.text.Replace("Average vertical speed", "Vitesse verticale moyenne");
 				line.text = line.text.Replace("Flight time", "Temps de vol");
 			}
-			if (item.type == 748)
+		}
+		if (item.type == 748)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Allows flight and slow fall", "Permet de voler et de planer");
 				line.text = line.text.Replace("Horizontal speed", "Vitesse horizontale");
@@ -1417,7 +1749,10 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.text = line.text.Replace("Average vertical speed", "Vitesse verticale moyenne");
 				line.text = line.text.Replace("Flight time", "Temps de vol");
 			}
-			if (item.type == 2609)
+		}
+		if (item.type == 2609)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Allows flight and slow fall", "Permet de voler et de planer");
 				line.text = line.text.Replace("Horizontal speed", "Vitesse horizontale");
@@ -1425,7 +1760,10 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.text = line.text.Replace("Good vertical speed", "Bonne vitesse verticale");
 				line.text = line.text.Replace("Flight time", "Temps de vol");
 			}
-			if (item.type == 493)
+		}
+		if (item.type == 493)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Allows flight and slow fall", "Permet de voler et de planer");
 				line.text = line.text.Replace("Horizontal speed", "Vitesse horizontale");
@@ -1434,16 +1772,22 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.text = line.text.Replace("Flight time", "Temps de vol");
 				line.text = line.text.Replace("+20 max life, +15 defense and +3 life regen", "+20 vie max, +15 défense et +3 régénération de vie");
 			}
-			if (item.type == 492)
+		}
+		if (item.type == 492)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Allows flight and slow fall", "Permet de voler et de planer");
 				line.text = line.text.Replace("Horizontal speed", "Vitesse horizontale");
 				line.text = line.text.Replace("Acceleration multiplier", "Multiplicateur d'accéleration");
 				line.text = line.text.Replace("Average vertical speed", "Vitesse verticale moyenne");
 				line.text = line.text.Replace("Flight time", "Temps de vol");
-				line.text = line.text.Replace("10% increased damage and critical strike chance", "+10 de dégâts et de chances de critique");
+				line.text = line.text.Replace("10% increased damage and critical strike chance", "+10% de dégâts et de chances de critique");
 			}
-			if (item.type == 749)
+		}
+		if (item.type == 749)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Allows flight and slow fall", "Permet de voler et de planer");
 				line.text = line.text.Replace("Horizontal speed", "Vitesse horizontale");
@@ -1453,7 +1797,10 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.text = line.text.Replace("+50 max mana, 5% decreased mana usage,", "+50 mana max, 5% de réduction du coût en mana,");
 				line.text = line.text.Replace("10% increased magic damage and 5% increased magic critical strike chance", "+10% de dégats magiques et +5% de chances de critique magique");
 			}
-			if (item.type == 761)
+		}
+		if (item.type == 761)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Allows flight and slow fall", "Permet de voler et de planer");
 				line.text = line.text.Replace("Horizontal speed", "Vitesse horizontale");
@@ -1462,7 +1809,10 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.text = line.text.Replace("Flight time", "Temps de vol");
 				line.text = line.text.Replace("+80 max life", "+80 vie max");
 			}
-			if (item.type == 1515)
+		}
+		if (item.type == 1515)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Allows flight and slow fall", "Permet de voler et de planer");
 				line.text = line.text.Replace("Horizontal speed", "Vitesse horizontale");
@@ -1471,7 +1821,10 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.text = line.text.Replace("Flight time", "Temps de vol");
 				line.text = line.text.Replace("Honey buff at all times", "Amélioration du Miel permanente");
 			}
-			if (item.type == 785)
+		}
+		if (item.type == 785)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Allows flight and slow fall", "Permet de voler et de planer");
 				line.text = line.text.Replace("Horizontal speed", "Vitesse horizontale");
@@ -1481,7 +1834,10 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.text = line.text.Replace("30% increased movement speed", "+30% de vitesse de mouvement");
 				line.text = line.text.Replace("Most attacks have a chance to fire a feather on swing if Harpy Ring or Angel Treads are equipped", "La plupart des attaques ont une chance de tirer une plume si l'anneau de harpie ou les semelles d'ange sont équipés");
 			}
-			if (item.type == 786)
+		}
+		if (item.type == 786)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Allows flight and slow fall", "Permet de voler et de planer");
 				line.text = line.text.Replace("Horizontal speed", "Vitesse horizontale");
@@ -1492,7 +1848,10 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.text = line.text.Replace("16% increased ranged critical strike chance", "+16% de chances de critique à distance");
 				line.text = line.text.Replace("and +30 defense while wearing the Necro Armor", "et +30 défense quand vous portez l'armure Necro");
 			}
-			if (item.type == 821)
+		}
+		if (item.type == 821)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Allows flight and slow fall", "Permet de voler et de planer");
 				line.text = line.text.Replace("Horizontal speed", "Vitesse horizontale");
@@ -1502,7 +1861,10 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.text = line.text.Replace("10% increased melee damage", "+10% de dégâts de mêlée");
 				line.text = line.text.Replace("and 5% increased melee critical strike chance", "et +5% de chances de critique de mêlée");
 			}
-			if (item.type == 822)
+		}
+		if (item.type == 822)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Allows flight and slow fall", "Permet de voler et de planer");
 				line.text = line.text.Replace("Horizontal speed", "Vitesse horizontale");
@@ -1513,7 +1875,10 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.text = line.text.Replace("and 1% increased melee and ranged critical strike chance", "et +1% de chances de critique à distance et de mêlée");
 				line.text = line.text.Replace("while wearing the Frost Armor", "quand vous portez l'armure de givre");
 			}
-			if (item.type == 823)
+		}
+		if (item.type == 823)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Allows flight and slow fall", "Permet de voler et de planer");
 				line.text = line.text.Replace("Horizontal speed", "Vitesse horizontale");
@@ -1524,7 +1889,10 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.text = line.text.Replace("+20 max mana, 5% increased magic damage and critical strike chance,", "+20 mana max; +5% de dégâts et de chances de critique magique");
 				line.text = line.text.Replace("and 5% decreased mana usage while wearing the Spectre Armor and Mask", "et 5% de réduction de coût en mana quand vous portez l'armure spectre avec le masque");
 			}
-			if (item.type == 2280)
+		}
+		if (item.type == 2280)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Allows flight and slow fall", "Permet de voler et de planer");
 				line.text = line.text.Replace("Horizontal speed", "Vitesse horizontale");
@@ -1534,7 +1902,10 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.text = line.text.Replace("+15 defense and 10% increased damage reduction while wearing the Beetle Armor and Shell", "+15 défense et +10% de réduction de dégâts quand vous portez l'armure de scarabée avec la carapace");
 				line.text = line.text.Replace("10% increased melee damage and critical strike chance while wearing the Beetle Armor and Scale Mail", "+10% de dégâts et de chances de critique de mêlée quand vous portez l'armure de scarabée avec la cotte de mailles");
 			}
-			if (item.type == 2494)
+		}
+		if (item.type == 2494)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Allows flight and slow fall", "Permet de voler et de planer");
 				line.text = line.text.Replace("Horizontal speed", "Vitesse horizontale");
@@ -1545,7 +1916,10 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.text = line.text.Replace("You fall faster while submerged in liquid", "Vous tombez plus vite quand vous êtes immergé");
 				line.text = line.text.Replace("20% increased movement speed and 36% increased jump speed", "+20% de vitesse de mouvement et +36% de vitesse de saut");
 			}
-			if (item.type == 948)
+		}
+		if (item.type == 948)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Allows flight and slow fall", "Permet de voler et de planer");
 				line.text = line.text.Replace("Horizontal speed", "Vitesse horizontale");
@@ -1555,7 +1929,10 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.text = line.text.Replace("+8 defense, 10% increased movement speed,", "+8 défense, +10% de vitesse de mouvement,");
 				line.text = line.text.Replace("4% increased damage, and 2% increased critical strike chance", "+4% de dégâts et +2% de chances de critique");
 			}
-			if (item.type == 1162)
+		}
+		if (item.type == 1162)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Allows flight and slow fall", "Permet de voler et de planer");
 				line.text = line.text.Replace("Horizontal speed", "Vitesse horizontale");
@@ -1565,7 +1942,10 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.text = line.text.Replace("+10 defense, 10% increased damage reduction,", "+10 défense, +10% de réduction de dégâts,");
 				line.text = line.text.Replace("and the Dryad's permanent blessing while wearing the Tiki Armor", "et bénédiction de la Dryade permanente quand vous portez l'armure Tiki");
 			}
-			if (item.type == 1165)
+		}
+		if (item.type == 1165)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Allows flight and slow fall", "Permet de voler et de planer");
 				line.text = line.text.Replace("Horizontal speed", "Vitesse horizontale");
@@ -1576,7 +1956,10 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.text = line.text.Replace("10% increased movement speed, 20% increased jump speed,", "+10% de vitesse de mouvement, +20% de vitesse de saut,");
 				line.text = line.text.Replace("+15 defense, 10% increased damage, and 5% increased critical strike chance", "+15 défense, +10% de dégâts et +5% de chances de critique");
 			}
-			if (item.type == 1797)
+		}
+		if (item.type == 1797)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Allows flight and slow fall", "Permet de voler et de planer");
 				line.text = line.text.Replace("Horizontal speed", "Vitesse horizontale");
@@ -1585,7 +1968,10 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.text = line.text.Replace("Flight time", "Temps de vol");
 				line.text = line.text.Replace("5% increased damage and critical strike chance", "+5% de dégâts et de chances de critique");
 			}
-			if (item.type == 1830)
+		}
+		if (item.type == 1830)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Allows flight and slow fall", "Permet de voler et de planer");
 				line.text = line.text.Replace("Horizontal speed", "Vitesse horizontale");
@@ -1594,7 +1980,10 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.text = line.text.Replace("Flight time", "Temps de vol");
 				line.text = line.text.Replace("Increased minion knockback and 5% increased minion damage while wearing the Spooky Armor", "Recul des sbires augmentés et +5% de dégâts des sbires quand vous portez l'armure sinistre");
 			}
-			if (item.type == 1866)
+		}
+		if (item.type == 1866)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Hold DOWN and JUMP to hover", "Appuyez sur BAS et SAUT pour léviter");
 				line.text = line.text.Replace("Horizontal speed", "Vitesse horizontale");
@@ -1604,7 +1993,10 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.text = line.text.Replace("10% increased damage to bows, guns, rocket launchers, and flamethrowers while wearing the Shroomite Armor", "+10% de dégâts aux arcs, armes à feu, lance-roquettes et les lances-flammes quand vous portez l'armure de champignite");
 				line.text = line.text.Replace("Boosted weapon type depends on the Shroomite Helmet worn", "Les armes augmentées dépendent du casque en champignite équipé");
 			}
-			if (item.type == 1871)
+		}
+		if (item.type == 1871)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Allows flight and slow fall", "Permet de voler et de planer");
 				line.text = line.text.Replace("Horizontal speed", "Vitesse horizontale");
@@ -1614,7 +2006,10 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.text = line.text.Replace("+50 max life", "+50 vie maximum");
 				line.text = line.text.Replace("Ornaments rain down as you fly", "Des ornements pleuvent quand vous volez");
 			}
-			if (item.type == 2770)
+		}
+		if (item.type == 2770)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Allows flight and slow fall", "Permet de voler et de planer");
 				line.text = line.text.Replace("Horizontal speed", "Vitesse horizontale");
@@ -1624,7 +2019,10 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.text = line.text.Replace("+5 defense, 5% increased damage,", "+5 défense, +5% de dégâts,");
 				line.text = line.text.Replace("10% increased movement speed and 24% increased jump speed", "+10% de vitesse de mouvement et +24% de vitesse de saut");
 			}
-			if (item.type == 3468)
+		}
+		if (item.type == 3468)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Allows flight and slow fall", "Permet de voler et de planer");
 				line.text = line.text.Replace("Horizontal speed", "Vitesse horizontale");
@@ -1634,7 +2032,10 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.text = line.text.Replace("7% increased melee damage and 3% increased melee critical strike chance", "+7% des dégâts de mêlée et +3% de chances de critique en mêlée");
 				line.text = line.text.Replace("while wearing the Solar Flare Armor", "quand vous portez l'armure de lueur solaire");
 			}
-			if (item.type == 3471)
+		}
+		if (item.type == 3471)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Allows flight and slow fall", "Permet de voler et de planer");
 				line.text = line.text.Replace("Horizontal speed", "Vitesse horizontale");
@@ -1643,7 +2044,10 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.text = line.text.Replace("Flight time", "Temps de vol");
 				line.text = line.text.Replace("+1 max minion and 5% increased minion damage while wearing the Stardust Armor", "+1 sbire max et +5% de dégâts de sbires quand vous portez l'armure astrale");
 			}
-			if (item.type == 3469)
+		}
+		if (item.type == 3469)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Allows flight and slow fall", "Permet de voler et de planer");
 				line.text = line.text.Replace("Hold DOWN and JUMP to hover", "Appuyez sur BAS et SAUT pour léviter");
@@ -1654,7 +2058,10 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.text = line.text.Replace("3% increased ranged damage and 7% increased ranged critical strike chance", "+3% de dégâts à distance et +7% de chances de critique à distance");
 				line.text = line.text.Replace("while wearing the Vortex Armor", "quand vous portez l'armure du vortex");
 			}
-			if (item.type == 3470)
+		}
+		if (item.type == 3470)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Allows flight and slow fall", "Permet de voler et de planer");
 				line.text = line.text.Replace("Hold DOWN and JUMP to hover", "Appuyez sur BAS et SAUT pour léviter");
@@ -1665,7 +2072,10 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.text = line.text.Replace("+20 max mana, 5% increased magic damage and critical strike chance,", "+20 mana max, +5% de dégâts et de chances de critique magique,");
 				line.text = line.text.Replace("and 5% decreased mana usage while wearing the Nebula Armor", "et 5% de réduction de coût en mana quand vous portez l'armure nébuleuse");
 			}
-			if (item.type == 3883)
+		}
+		if (item.type == 3883)
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Equipable", "Peut s'équiper");
 				line.text = line.text.Replace("Allows flight and slow fall", "Permet de voler et de planer");
@@ -1675,9 +2085,11 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.text = line.text.Replace("Good vertical speed", "Bonne vitesse verticale");
 				line.text = line.text.Replace("Flight time", "Temps de vol");
 			}
-			//line.text = line.text.Replace("", "");
-			List<int> grappins = new List<int>() { 84, 1236, 1237, 1238, 1239, 1240, 1241, 939, 1273, 2585, 2360, 185, 1800, 1915, 437, 3021, 3023, 3020, 3022, 2800, 1829, 1916, 3572, 3623 };
-			if (grappins.Contains(item.type))
+		}
+		List<int> grappins = new List<int>() { 84, 1236, 1237, 1238, 1239, 1240, 1241, 939, 1273, 2585, 2360, 185, 1800, 1915, 437, 3021, 3023, 3020, 3022, 2800, 1829, 1916, 3572, 3623 };
+		if (grappins.Contains(item.type))
+		{
+			foreach (TooltipLine line in tooltips)
 			{
 				line.text = line.text.Replace("Equipable", "Peut s'équiper");
 				line.text = line.text.Replace("Reach", "Portée");

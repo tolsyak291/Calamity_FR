@@ -86,9 +86,9 @@ public class CalamityGlobalNPC_FR : GlobalNPC
 				new string[2]{ "If you've gathered the souls used to power those automatons head once more to the jungle. You will find a powerful enemy to fight, which will unleash the full fervor of the jungle once defeated. Do not underestimate it!", 
 					"Si tu as récolté les âmes utilisées pour alimenter ces automates, rends toi de nouveau à la jungle. Tu y trouveras un pussant ennemi à combattre, qui libèrera la pleine ferveur de la jungle une fois vaincu. Ne le sous-estime pas!"},
 				new string[2]{ "The Brimstone Crags...Yharim despised that place, and did everything he could to raze it to the ground. It might explain a few things about him.", 
-					"Les vestiges de souffre...Yharim détestait cet endroit, et a fait tout ce qu'il a pu pour le raser. Ca en dit peut-être long à son sujet."},
+					"Les vestiges de soufre...Yharim détestait cet endroit, et a fait tout ce qu'il a pu pour le raser. Ca en dit peut-être long à son sujet."},
 				new string[2]{ "If you take an idol down to the Brimstone Crags you might be able to see just what is lurking in the shadows.", 
-					"Si tu amènes une idole jusqu'au vestiges de souffre, tu pourras peut-être voir ce qui se tapi dans les ombres."},
+					"Si tu amènes une idole jusqu'au vestiges de soufre, tu pourras peut-être voir ce qui se tapi dans les ombres."},
 				new string[2]{ "Once those mechanical creations have been defeated you would do well to seek out the crippled clone of the witch, Calamitas. It might provide some useful weaponry.", 
 					"Une fois ces créations mécaniques vaincus, tu devrais te mettre à la recherche du clone mutilé de la sorcière, Calamitas. Il pourrait fournir de l'armement utile."},
 				new string[2]{ "I would recommend saving some of your old items. You never know if you can engineer them into stronger weapons in the future.", 
@@ -120,7 +120,7 @@ public class CalamityGlobalNPC_FR : GlobalNPC
 				new string[2]{ "Ah yes, the Abyss. That trench is full of powerful creatures that could devour you in a heartbeat. I would explore the dungeon first.", 
 					"Ah oui, les abysses. Cette fosse est pleine de créatures qui peuvent te dévorer en un claquement de doigts. J'explorerais le donjon avant de m'y rendre."},
 				new string[2]{ "Have you heard of the Brimstone Crags? It was once a grand kingdom, not too different from my own. However, it also met a similar fate. I would not advise going down there, unless you seek a painful death.", 
-					"As-tu entendu parler des vestiges de souffre? C'était autrefois un grand royaume, pas si différent du mien. Cependant, ils ont rencontré un destin similaire. Je te déconseille de te rendre là-bas, à moins que tu ne recherches une mort douleureuse."},
+					"As-tu entendu parler des vestiges de soufre? C'était autrefois un grand royaume, pas si différent du mien. Cependant, ils ont rencontré un destin similaire. Je te déconseille de te rendre là-bas, à moins que tu ne recherches une mort douleureuse."},
 				new string[2]{ "There are rumors of ores that lay in latency. When you defeat certain bosses you will undo the ancient magic which conceals those materials.", 
 					"Des rumeurs disent que des minerais existent à l'état latent. Quand tu vaincras certains boss, tu annuleras l'ancienne magie qui scelle ces matériaux."}
 			};
