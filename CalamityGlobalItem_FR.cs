@@ -15,7 +15,9 @@ using CalamityMod.Items.Tools;
 using CalamityMod.Items.Weapons.Magic;
 using CalamityMod.Items.Weapons.Rogue;
 using CalamityMod.Items.Weapons.Summon;
+using CalamityMod.Items.DraedonMisc;
 using CalamityMod.World;
+using CalamityFR.DraedonLogs;
 using System.Collections.Generic;
 using Terraria.ModLoader;
 

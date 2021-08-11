@@ -1,13 +1,28 @@
 using Terraria.ModLoader;
 using Terraria.Localization;
 using CalamityMod.NPCs.TownNPCs;
+using System.Collections.Generic;
+using CalamityMod.UI;
 using CalamityMod;
+using CalamityFR.DraedonLogs;
+using System.Reflection;
 
 namespace Calamity_FR
 {
 	public class Calamity_FR : Mod
 	{
 		public Calamity_FR() { }
+
+		public override void Load()
+        {
+			//Using reflection for adding translatedGUI for Draedons logs
+			List<PopupGUI> DraedonGUIList = ((List<PopupGUI>)typeof(PopupGUIManager).GetField("gUIs", BindingFlags.NonPublic | BindingFlags.Static ).GetValue(null));
+			DraedonGUIList.Add(new HellGUI() as PopupGUI);
+			DraedonGUIList.Add(new JungleGUI() as PopupGUI);
+			DraedonGUIList.Add(new SnowGUI() as PopupGUI);
+			DraedonGUIList.Add(new PlanetoidGUI() as PopupGUI);
+			DraedonGUIList.Add(new SunkenGUI() as PopupGUI);
+        }
 
         public override void PostSetupContent()
 		{
