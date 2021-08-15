@@ -1943,6 +1943,8 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.text = line.text.Replace("Flight time", "Temps de vol");
 				line.text = line.text.Replace("+10 defense, 10% increased damage reduction,", "+10 défense, +10% de réduction de dégâts,");
 				line.text = line.text.Replace("and the Dryad's permanent blessing while wearing the Tiki Armor", "et bénédiction de la Dryade permanente quand vous portez l'armure Tiki");
+				//Solving weird bug with Jungle Wings
+				line.text = line.text.Replace(" increased ", " ");
 			}
 		}
 		if (item.type == 1165)

@@ -3100,7 +3100,7 @@
 		"tooltip": [
 			"Peut-être qu'attraper des briques avec vos dents n'était pas une si bonne idée en fin de compte...",
 			"Les coups critiques réduisent la défense ennemie progressivement",
-			"Les attaques furtivent se brisent et immobilisent brièvement les ennemis"
+			"Les attaques furtives se brisent et immobilisent brièvement les ennemis"
 		]
 	},
 	{
@@ -9799,7 +9799,7 @@
 		],
 		"name": "Ecailles du Vieux Duc",
 		"tooltip": [
-			"Quand vous subissez des dégâts sur la durée, vous dégâts augmentent de 10% et vos chances de coup critique de 5%",
+			"Quand vous subissez des dégâts sur la durée, vos dégâts augmentent de 10% et vos chances de coup critique de 5%",
 			"Pour chaque quart de vie manquant, vous gagnez 6% de dégâts et 3% de critique additionnel",
 			"Pour un maximum de 18% de dégâts et de 9% de chances de coup critique lorsqu'il vous reste moins d'un quart de votre vie",
 			"Immunise au poison, au venin et à l'empoisonnement sulfurique"
@@ -10879,7 +10879,7 @@
 		"name": "Flamme Givrée",
 		"tooltip": [
 			"Toutes les attaques et les projectiles de corps à corps infligent brûlegivre",
-			"Immunité aux brûlegivre, au refroidissement et au gel",
+			"Immunité au brûlegivre, au refroidissement et au gel",
 			"Résistant aux attaques de gel et +1 régénération de vie",
 			"Être au dessus de 75% de vie augmente les dégâts de 10%",
 			"Être en dessous de 25% de vie augmente la défense de 10 et la vitesse de déplacement et d'accélération de 15%",
@@ -11379,7 +11379,7 @@
 		"tooltip": [
 			"+20 de furtivité maximum",
 			"La génération de furtivité lorsque vous êtes en mouvement est augmentée",
-			"Les attaques furtivent ont 100% de chances de coup critique",
+			"Les attaques furtives ont 100% de chances de coup critique",
 			"Les coups critiques ne consomment que la moitié de votre furtivité",
 			"6% des dégâts et de chances de coup critique supplémentaires pour les dégâts de voleur"
 		]
@@ -12388,7 +12388,7 @@
 		"tooltip": [
 			"Chaque grenade contient du plasma condensé et chaufée. A utiliser avec précaution.",
 			"Jete une grenade qui provoque une explosion de plasma à l'impact",
-			"Les attaques furtivent explosent violemment à l'impact dans un souffle vaporisant",
+			"Les attaques furtives explosent violemment à l'impact dans un souffle vaporisant",
 			"Inflige plus de dégâts contre les ennemis avec une défense élevée"
 		]
 	},
@@ -14378,7 +14378,7 @@
 			"Tire un javelot spectral qui relâchent rapidement des âmes perdues",
 			"Ralenti et disparaît au fur et à mesure",
 			"Les âmes perdues relâchés tardivement infligent moins de dégâts",
-			"Les attaques furtivent ne ralentissent pas et infligent toujours les dégâts maximums"
+			"Les attaques furtives ne ralentissent pas et infligent toujours les dégâts maximums"
 		]
 	},
 	{
@@ -15622,7 +15622,7 @@
 			"Une machine élancée, utilisé pour le réglage de certaines machines ... originales.",
 			"Agite une lance avant de la lancer",
 			"A l'impact, la lance relâche une vague d'énergie à tête chercheuse",
-			"Les attaques furtivent relâchent plus d'énergie et explosent"
+			"Les attaques furtives relâchent plus d'énergie et explosent"
 		]
 	},
 	{
@@ -16824,7 +16824,7 @@
 		],
 		"name": "Médaillon Rouillé",
 		"tooltip": [
-			"La plupart des armes à distances feront parfois pleuvoir de l'acide"
+			"La plupart des armes à distance feront parfois pleuvoir de l'acide"
 		]
 	},
 	{
@@ -17425,7 +17425,7 @@
 			"Mort",
 			"Invoque Calamitas Suprême",
 			"Crée une large arène carrée faite de blocs autour du joueur",
-			"Le joueuer est le CENTRE de l'arène, donc soyez sur d'utilisez cette objet dans un endroit approprié",
+			"Le joueur est le CENTRE de l'arène, donc soyez sur d'utilisez cette objet dans un endroit approprié",
 			"Lors du combat, les coeurs de vie soignent moitié moins",
 			"Ne se consomme pas"
 		]
@@ -17439,7 +17439,7 @@
 		],
 		"name": "Oeil de l'Ours",
 		"tooltip": [
-			"Summons a pet guardian angel"
+			"Invoque un comapgnon ange gardien"
 		]
 	},
 	{
@@ -19047,7 +19047,7 @@
 		"name": "Poisson-lion",
 		"tooltip": [
 			"Colle aux ennemis et leur injecte une puissante toxine",
-			"Les attaques furtivent libèrent des épines d'oursin à tête chercheuse sur la trajectoire"
+			"Les attaques furtives libèrent des épines d'oursin à tête chercheuse sur la trajectoire"
 		]
 	},
 	{
@@ -21035,7 +21035,7 @@
 		"englishTooltip": [
 			"Fires a blast of sanguine flares that drain enemy life"
 		],
-		"name": "Sanguine Flare",
+		"name": "Déflagration Sanguine",
 		"tooltip": [
 			"Tire une déflagration de décharges sanguines qui draine la vie ennemie"
 		]
@@ -21990,7 +21990,7 @@
 		],
 		"name": "Talisman du Pilleur",
 		"tooltip": [
-			"Quand vous infligez un coup critique avec une arme de voleur, vous dégâts de voleurs augmentent",
+			"Quand vous infligez un coup critique avec une arme de voleur, vos dégâts de voleur augmentent",
 			"Cet effet peut se cumuler 150 fois",
 			"Les dégâts de voleur maximums accordés sont de 15%",
 			"This line is modified below"
@@ -22755,7 +22755,7 @@
 		"name": "Transformateur de Cellules Souches",
 		"tooltip": [
 			"+15% de vitesse de mouvement",
-			"Les armes à distances ont une chance de tirer des petits essaimeurs"
+			"Les armes à distance ont une chance de tirer des petits essaimeurs"
 		]
 	},
 	{
@@ -24807,7 +24807,7 @@
 		"tooltip": [
 			"Tire une gigantesque mine destructive qui explose en des éclairs de destruction",
 			"La quantité d'éclairs dépendent du nombre de coups portés aux ennemis, jusqu'a un maximum de 16",
-			"Les attaques furtivent émettent toujours le maximum d'éclairs"
+			"Les attaques furtives émettent toujours le maximum d'éclairs"
 		]
 	},
 	{
