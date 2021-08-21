@@ -201,7 +201,7 @@ public class CalamityGlobalItem_FR : GlobalItem
 		}
 		else if (set == "ReaverRogue")
 		{
-			player.setBonus = "5% de dégâts de voleur\nYou emit a cloud of spores when you are hit\nLa furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 110\nUne fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\nLa furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\nEn s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur";
+			player.setBonus = "5% de dégâts de voleur\nVous émettez un nuage de spores quand vous êtes touché\nLa furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 110\nUne fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\nLa furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\nEn s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur";
 		}
 		else if (set == "ReaverMelee")
 		{

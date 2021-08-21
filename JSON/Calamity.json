@@ -13221,7 +13221,7 @@
 		],
 		"name": "Insigne de Yharim",
 		"tooltip": [
-			"+10% ide dégâts quand il vous manque plus de 50% de votre de vie",
+			"+10% de dégâts quand il vous manque plus de 50% de votre de vie",
 			"+10% de vitesse de corps à corps",
 			"+10% de dégâts de corps à corps et de vraie mêlée",
 			"Les attaques et projectiles de corps à corps infligent le feu sacrée",
@@ -15022,9 +15022,9 @@
 		"englishTooltip": [
 			"Enemies release homing leech orbs on death"
 		],
-		"name": "Leeching Dagger",
+		"name": "Dague Sangsue",
 		"tooltip": [
-			"Enemies release homing leech orbs on death"
+			"Les ennemis relâchent des orbes de sangsues quand ils meurent"
 		]
 	},
 	{
@@ -16257,7 +16257,7 @@
 			"Stealth strikes only expend 50% of your max stealth",
 			"6% increased rogue damage, and 6% increased rogue crit chance"
 		],
-		"name": "Medaillon de Ruine",
+		"name": "Médaillon de Ruine",
 		"tooltip": [
 			"Les attaques furtives ne consomment que la moitié de votre furtivité",
 			"+6% de dégâts et de chances de coup critique de voleur"
@@ -18343,7 +18343,7 @@
 		"englishTooltip": [
 			"Fires a blue energy blast that bounces"
 		],
-		"name": "Pistol Marsrouin",
+		"name": "Pistolet Marsrouin",
 		"tooltip": [
 			"Tire une décharge d'énergie bleue qui rebondit"
 		]

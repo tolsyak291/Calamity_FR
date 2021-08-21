@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using CalamityMod.UI;
 using CalamityMod;
 using CalamityFR.DraedonLogs;
+using Microsoft.Xna.Framework;
 using System.Reflection;
 
 namespace Calamity_FR
@@ -2267,7 +2268,7 @@ namespace Calamity_FR
 					Calamity.GetItem("SamuraiBadge").DisplayName.AddTranslation(GameCulture.French, "Insigne de Samouraï");
 					Calamity.GetItem("SamuraiBadge").Tooltip.AddTranslation(GameCulture.French, "Augmente les dégâts, la vitesse de corps à corps et les dégâts de vraie mêlée en fonction de votre proximité avec les ennemis\nL'augmentation maximum est de 30%");
 					Calamity.GetItem("YharimsInsignia").DisplayName.AddTranslation(GameCulture.French, "Insigne de Yharim");
-					Calamity.GetItem("YharimsInsignia").Tooltip.AddTranslation(GameCulture.French, "+10% ide dégâts quand il vous manque plus de 50% de votre de vie\n+10% de vitesse de corps à corps\n+10% de dégâts de corps à corps et de vraie mêlée\nLes attaques et projectiles de corps à corps infligent le feu sacrée\nAugmente la durée d'invincibilité après avoir subi des dégâts\nImmunité temporaire à la lave\nAugmente le recul des attaques de corps à corps");
+					Calamity.GetItem("YharimsInsignia").Tooltip.AddTranslation(GameCulture.French, "+10% de dégâts quand il vous manque plus de 50% de votre de vie\n+10% de vitesse de corps à corps\n+10% de dégâts de corps à corps et de vraie mêlée\nLes attaques et projectiles de corps à corps infligent le feu sacrée\nAugmente la durée d'invincibilité après avoir subi des dégâts\nImmunité temporaire à la lave\nAugmente le recul des attaques de corps à corps");
 					Calamity.GetItem("DaedalusLeggings").DisplayName.AddTranslation(GameCulture.French, "Jambières de Dédale");
 					Calamity.GetItem("DaedalusLeggings").Tooltip.AddTranslation(GameCulture.French, "+3% de chances de coup critique\n+10% de vitesse de mouvement");
 					Calamity.GetItem("SeaMinnowJar").DisplayName.AddTranslation(GameCulture.French, "Jarre du Vairon de Mer");
@@ -2509,8 +2510,8 @@ namespace Calamity_FR
 					Calamity.GetItem("KnowledgeKingSlime").Tooltip.AddTranslation(GameCulture.French, "Seul un idiot peut se faire avoir par ce pitoyable simulacre de chasseur.\nMalheureusement, notre monde regorge d'idiots de ce genre.\nFavoriser cet objet pour gagner 5% de vitesse de mouvement et 2% de vitesse de saut.\nEn revanche, votre défense est réduite de 3 à cause de votre corps gélatineux.");
 					Calamity.GetItem("TheTransformer").DisplayName.AddTranslation(GameCulture.French, "Le Tranformateur");
 					Calamity.GetItem("TheTransformer").Tooltip.AddTranslation(GameCulture.French, "Prendre des dégâts vous fait émettre des étincelles\nLes étincelles font plus de dégâts en hardmode\nImmunité à électrisé et à tous les dégâts électriques\nLes balles ennemis ne vous inflige que la moitié des dégâts et sont réfléchies pour 800% de leur dégâts initiaux");
-					Calamity.GetItem("LeechingDagger").DisplayName.AddTranslation(GameCulture.French, "Leeching Dagger");
-					Calamity.GetItem("LeechingDagger").Tooltip.AddTranslation(GameCulture.French, "Enemies release homing leech orbs on death");
+					Calamity.GetItem("LeechingDagger").DisplayName.AddTranslation(GameCulture.French, "Dague Sangsue");
+					Calamity.GetItem("LeechingDagger").Tooltip.AddTranslation(GameCulture.French, "Les ennemis relâchent des orbes de sangsues quand ils meurent");
 					Calamity.GetItem("BlightedLens").DisplayName.AddTranslation(GameCulture.French, "Lentille Obscurcie");
 					Calamity.GetItem("KnowledgeMechs").DisplayName.AddTranslation(GameCulture.French, "Les Boss Mécaniques");
 					Calamity.GetItem("KnowledgeMechs").Tooltip.AddTranslation(GameCulture.French, "Je vois que vous avez réveillé les vieux jouets de Draedon.\nCe qui fut autrefois d'utiles outils se sont transformés en bêtes sauvages une fois que leur IA se sont rebellées, une erreur que Draedon a échoué a rectifier à temps.");
@@ -2685,7 +2686,7 @@ namespace Calamity_FR
 					Calamity.GetItem("AbyssalDivingGear").Tooltip.AddTranslation(GameCulture.French, "Réduit les dégâts infligés par la pression des abysses lorsque vous n'avez plus d'air\nAnnule l'effet de saignement provoqué par les abysses\nVous permet de nager et augmente considérablement votre temps de respiration sous l'eau\nEmet de la lumière sous l'eau et permet de mieux se déplacer sur la glace\nAccorde un montant de lumière modéré dans les abysses\nRéduit considérablement la perte de respiration dans les abysses");
 					Calamity.GetItem("StormRuler").DisplayName.AddTranslation(GameCulture.French, "Maître des Tempêtes");
 					Calamity.GetItem("StormRuler").Tooltip.AddTranslation(GameCulture.French, "Seul une tempête peut mettre à genoux un grand bois\nTire des rayons qui génèrent des tornades\nLes tornades attirent les ennemis");
-					Calamity.GetItem("RuinMedallion").DisplayName.AddTranslation(GameCulture.French, "Medaillon de Ruine");
+					Calamity.GetItem("RuinMedallion").DisplayName.AddTranslation(GameCulture.French, "Médaillon de Ruine");
 					Calamity.GetItem("RuinMedallion").Tooltip.AddTranslation(GameCulture.French, "Les attaques furtives ne consomment que la moitié de votre furtivité\n+6% de dégâts et de chances de coup critique de voleur");
 					Calamity.GetItem("HadarianMembrane").DisplayName.AddTranslation(GameCulture.French, "Membrane Hadarienne");
 					Calamity.GetItem("HadarianMembrane").Tooltip.AddTranslation(GameCulture.French, "La membrane des ailes d'une créature astrale");
@@ -2973,7 +2974,7 @@ namespace Calamity_FR
 					Calamity.GetItem("DiseasedPike").Tooltip.AddTranslation(GameCulture.French, "Tire des cherches-peste quand vous touchez");
 					Calamity.GetItem("EarthenPike").DisplayName.AddTranslation(GameCulture.French, "Pique Terrestre");
 					Calamity.GetItem("EarthenPike").Tooltip.AddTranslation(GameCulture.French, "Écrase les défenses ennemies\nDisperse des éclats de fossile à l'utilisation");
-					Calamity.GetItem("ProporsePistol").DisplayName.AddTranslation(GameCulture.French, "Pistol Marsrouin");
+					Calamity.GetItem("ProporsePistol").DisplayName.AddTranslation(GameCulture.French, "Pistolet Marsrouin");
 					Calamity.GetItem("ProporsePistol").Tooltip.AddTranslation(GameCulture.French, "Tire une décharge d'énergie bleue qui rebondit");
 					Calamity.GetItem("AcidGun").DisplayName.AddTranslation(GameCulture.French, "Pistolet Acide");
 					Calamity.GetItem("AcidGun").Tooltip.AddTranslation(GameCulture.French, "Tire trois jets d'acide");
@@ -4229,6 +4230,11 @@ namespace Calamity_FR
 					Calamity.GetNPC("ProfanedEnergyBody").DisplayName.AddTranslation(GameCulture.French, "Énergie Profanée");
 					Calamity.GetNPC("Polterghast").DisplayName.AddTranslation(GameCulture.French, "Épouvantôme");
 					Calamity.GetNPC("PolterPhantom").DisplayName.AddTranslation(GameCulture.French, "Épouvantôme");
+
+					//ModTranslation name = Calamity.GetTile("PerennialOre").CreateMapEntryName();
+					//name.SetDefault("Minerai Vivace");
+					//Calamity.GetTile("PerennialOre").AddMapEntry(new Color(200, 250, 100), name);
+
 					foreach (string[] loc in localizations){
 						ModTranslation text = Calamity.CreateTranslation(loc[0]);
 						text.AddTranslation(GameCulture.English, loc[1]);
