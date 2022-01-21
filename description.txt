@@ -1,6 +1,14 @@
 Traduction française non-officielle du mod Calamity
 Unofficial Calamity mod french translation
 
+ATTENTION
+Cette version n'existe que pour assurer une forme de traduction en attendant que je termine la trad de la MaJ 1.5
+Certaines descriptions d'objets sont fausses (au moins 350 sur les 2800+ du mod)
+
+WARNING
+This version is only here to make sure there a form of translation available during the update for the 1.5 update
+Several items description are outright wrong (at least 350)
+
 A l'exception du texte impossible à traduire, tout est traduit
 Visitez le forum pour plus d'informations
 
