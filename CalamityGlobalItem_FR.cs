@@ -494,18 +494,20 @@ public class CalamityGlobalItem_FR : GlobalItem
 		{
 			return "GodSlayerRanged";
 		}
+		/* TODO REMOVED FOR 1.5 COMPATIBILITY 
 		if (head.type == ModContent.ItemType<GodSlayerHornedHelm>() && body.type == ModContent.ItemType<GodSlayerChestplate>() && legs.type == ModContent.ItemType<GodSlayerLeggings>())
 		{
 			return "GodSlayerSummon";
-		}
+		}*/
 		if (head.type == ModContent.ItemType<GodSlayerMask>() && body.type == ModContent.ItemType<GodSlayerChestplate>() && legs.type == ModContent.ItemType<GodSlayerLeggings>())
 		{
 			return "GodSlayerRogue";
 		}
+		/* TODO REMOVED FOR 1.5 COMPATIBILITY 
 		if (head.type == ModContent.ItemType<GodSlayerVisage>() && body.type == ModContent.ItemType<GodSlayerChestplate>() && legs.type == ModContent.ItemType<GodSlayerLeggings>())
 		{
 			return "GodSlayerMagic";
-		}
+		}*/
 		if (head.type == ModContent.ItemType<MolluskShellmet>() && body.type == ModContent.ItemType<MolluskShellplate>() && legs.type == ModContent.ItemType<MolluskShelleggings>())
 		{
 			return "Mollusk";
@@ -526,22 +528,27 @@ public class CalamityGlobalItem_FR : GlobalItem
 		{
 			return "Prismatic";
 		}
-		if (head.type == ModContent.ItemType<ReaverCap>() && body.type == ModContent.ItemType<ReaverScaleMail>() && legs.type == ModContent.ItemType<ReaverCuisses>())
+		/* TODO REMOVED FOR 1.5 COMPATIBILITY 
+		 * if (head.type == ModContent.ItemType<ReaverCap>() && body.type == ModContent.ItemType<ReaverScaleMail>() && legs.type == ModContent.ItemType<ReaverCuisses>())
 		{
 			return "ReaverRogue";
 		}
+		*/
 		if (head.type == ModContent.ItemType<ReaverHelm>() && body.type == ModContent.ItemType<ReaverScaleMail>() && legs.type == ModContent.ItemType<ReaverCuisses>())
 		{
 			return "ReaverMelee";
 		}
+		/* TODO REMOVED FOR 1.5 COMPATIBILITY 
 		if (head.type == ModContent.ItemType<ReaverHelmet>() && body.type == ModContent.ItemType<ReaverScaleMail>() && legs.type == ModContent.ItemType<ReaverCuisses>())
 		{
 			return "ReaverSummon";
 		}
+		
 		if (head.type == ModContent.ItemType<ReaverMask>() && body.type == ModContent.ItemType<ReaverScaleMail>() && legs.type == ModContent.ItemType<ReaverCuisses>())
 		{
 			return "ReaverMagic";
 		}
+		*/
 		if (head.type == ModContent.ItemType<ReaverVisage>() && body.type == ModContent.ItemType<ReaverScaleMail>() && legs.type == ModContent.ItemType<ReaverCuisses>())
 		{
 			return "ReaverRanged";
@@ -550,22 +557,27 @@ public class CalamityGlobalItem_FR : GlobalItem
 		{
 			return "ShroomiteCalam";
 		}
+		/* TODO REMOVED FOR 1.5 COMPATIBILITY 
 		if (head.type == ModContent.ItemType<SilvaHelm>() && body.type == ModContent.ItemType<SilvaArmor>() && legs.type == ModContent.ItemType<SilvaLeggings>())
 		{
 			return "SilvaMelee";
 		}
+		*/
 		if (head.type == ModContent.ItemType<SilvaHelmet>() && body.type == ModContent.ItemType<SilvaArmor>() && legs.type == ModContent.ItemType<SilvaLeggings>())
 		{
 			return "SilvaSummon";
 		}
+		/* TODO REMOVED FOR 1.5 COMPATIBILITY 
 		if (head.type == ModContent.ItemType<SilvaHornedHelm>() && body.type == ModContent.ItemType<SilvaArmor>() && legs.type == ModContent.ItemType<SilvaLeggings>())
 		{
 			return "SilvaRanged";
 		}
+		
 		if (head.type == ModContent.ItemType<SilvaMask>() && body.type == ModContent.ItemType<SilvaArmor>() && legs.type == ModContent.ItemType<SilvaLeggings>())
 		{
 			return "SilvaRogue";
 		}
+		*/
 		if (head.type == ModContent.ItemType<SilvaMaskedCap>() && body.type == ModContent.ItemType<SilvaArmor>() && legs.type == ModContent.ItemType<SilvaLeggings>())
 		{
 			return "SilvaMagic";
@@ -970,7 +982,7 @@ public class CalamityGlobalItem_FR : GlobalItem
 			{
 				foreach (TooltipLine line in tooltips)
 				{
-					line.text = line.text.Replace("Provides a moderate amount of light in the abyss", "Émet une quantité modérée de lumière dans les abysses");
+					line.text = line.text.Replace("Provides a moderate amount of light in the Abyss", "Émet une quantité modérée de lumière dans les abysses");
 					line.text = line.text.Replace("Provides heat and cold protection in Death Mode", "Protège contre le froid et la chaleur en mode Mort");
 				}
 			}
