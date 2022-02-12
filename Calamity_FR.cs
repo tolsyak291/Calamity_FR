@@ -4,6 +4,7 @@ using CalamityMod.NPCs.TownNPCs;
 using System.Collections.Generic;
 using CalamityMod.UI;
 using CalamityMod;
+using CalamityMod.Items;
 using CalamityFR.DraedonLogs;
 using Microsoft.Xna.Framework;
 using System.Reflection;
@@ -1561,7 +1562,7 @@ namespace Calamity_FR
 					Calamity.GetItem("UndinesRetribution")?.DisplayName.AddTranslation(GameCulture.French, "Châtiment d'Ondine");
 					Calamity.GetItem("UndinesRetribution")?.Tooltip.AddTranslation(GameCulture.French, "Convoque une nuée de lances à têtes chercheuses");
 					Calamity.GetItem("CindersOfLament")?.DisplayName.AddTranslation(GameCulture.French, "Cinders of Lament");
-					Calamity.GetItem("CindersOfLament")?.Tooltip.AddTranslation(GameCulture.French, "Summons either Cataclysm or Catastrophe at the mouse position\nThey will look at you for a moment before charging at you\nThey can do damage to both you and enemies\n" + CalamityUtils.ColorMessage("The Witch, a sinner of her own making,\nWithin her mind her demon lies, ever patient, until the end of time.");
+					Calamity.GetItem("CindersOfLament")?.Tooltip.AddTranslation(GameCulture.French, "Summons either Cataclysm or Catastrophe at the mouse position\nThey will look at you for a moment before charging at you\nThey can do damage to both you and enemies\n" + CalamityUtils.ColorMessage("The Witch, a sinner of her own making,\nWithin her mind her demon lies, ever patient, until the end of time.", CalamityGlobalItem.ExhumedTooltipColor));
 					Calamity.GetItem("CinnamonRoll")?.DisplayName.AddTranslation(GameCulture.French, "Cinnamon Roll");
 					Calamity.GetItem("CinnamonRoll")?.Tooltip.AddTranslation(GameCulture.French, "Un succulent whisky à la canelle avec une touche de soda à la crème\nAugmente la régénération du mana et les dégâts des armes de feu de 10%\nLes armes de flammes maudites, d'ombre, de soufre, d'enfer déicide et de brûlegivre ne sont pas affectées\nL'arme doit avoir un rapport au feu plus qu'autre chose\nRéduit la défense de 10%");
 					Calamity.GetItem("Cinquedea")?.DisplayName.AddTranslation(GameCulture.French, "Cinquedea");
@@ -2300,7 +2301,7 @@ namespace Calamity_FR
 					Calamity.GetItem("MantisClaws")?.Tooltip.AddTranslation(GameCulture.French, "Explose en touchant les ennemis");
 					Calamity.GetItem("MycelialClaws")?.DisplayName.AddTranslation(GameCulture.French, "Griffes Mycéllaires");
 					Calamity.GetItem("GruesomeEminence")?.DisplayName.AddTranslation(GameCulture.French, "Gruesome Eminence");
-					Calamity.GetItem("GruesomeEminence")?.Tooltip.AddTranslation(GameCulture.French, "Summons a gaseous conglomeration of spirits near the cursor\nAt first, the spirits will fly wildly. This can hurt enemies and players\nHowever, over time they will begin to accumulate to create a single, controllable monstrosity\n" + CalamityUtils.ColorMessage("The spirits of the amalgam could never pass on to their desired afterlife,\nTainted and melded by rage as they were.");
+					Calamity.GetItem("GruesomeEminence")?.Tooltip.AddTranslation(GameCulture.French, "Summons a gaseous conglomeration of spirits near the cursor\nAt first, the spirits will fly wildly. This can hurt enemies and players\nHowever, over time they will begin to accumulate to create a single, controllable monstrosity\n" + CalamityUtils.ColorMessage("The spirits of the amalgam could never pass on to their desired afterlife,\nTainted and melded by rage as they were.", CalamityGlobalItem.ExhumedTooltipColor));
 					Calamity.GetItem("AstralSandstone")?.DisplayName.AddTranslation(GameCulture.French, "Grès Astral");
 					Calamity.GetItem("SulphurousSandstone")?.DisplayName.AddTranslation(GameCulture.French, "Grès Sulfureux");
 					Calamity.GetItem("PrismaticGreaves")?.DisplayName.AddTranslation(GameCulture.French, "Grèves Prismatiques");
@@ -2840,7 +2841,7 @@ namespace Calamity_FR
 					Calamity.GetItem("BurningSea")?.DisplayName.AddTranslation(GameCulture.French, "Mer Enflammée");
 					Calamity.GetItem("BurningSea")?.Tooltip.AddTranslation(GameCulture.French, "Tire une boule de feu de soufre rebondissante qui se divise en boules de feu à tête chercheuse lors d'une collision avec l'eau");
 					Calamity.GetItem("Metastasis")?.DisplayName.AddTranslation(GameCulture.French, "Metastasis");
-					Calamity.GetItem("Metastasis")?.Tooltip.AddTranslation(GameCulture.French, "Summons a sepulcher to fight for you\nWhile the sepulcher is active brimstone hearts will begin to appear and orbit you\nIt will attempt to attack you more and more frequently depending on how many hearts are present\nIt takes up 4 minion slots and it can only be summoned once\n" + CalamityUtils.ColorMessage("A contemplated possible future of the cosmic serpent,\nA gruesome warning for those blinded by the hunger for power.");
+					Calamity.GetItem("Metastasis")?.Tooltip.AddTranslation(GameCulture.French, "Summons a sepulcher to fight for you\nWhile the sepulcher is active brimstone hearts will begin to appear and orbit you\nIt will attempt to attack you more and more frequently depending on how many hearts are present\nIt takes up 4 minion slots and it can only be summoned once\n" + CalamityUtils.ColorMessage("A contemplated possible future of the cosmic serpent,\nA gruesome warning for those blinded by the hunger for power.", CalamityGlobalItem.ExhumedTooltipColor));
 					Calamity.GetItem("Miasma")?.DisplayName.AddTranslation(GameCulture.French, "Miasme");
 					Calamity.GetItem("Miasma")?.Tooltip.AddTranslation(GameCulture.French, "Relâche des nuages de gaz qui ralentissent après avoir touché un ennemi");
 					Calamity.GetItem("LatcherMine")?.DisplayName.AddTranslation(GameCulture.French, "Mine à Crochets");
@@ -3372,7 +3373,7 @@ namespace Calamity_FR
 					Calamity.GetItem("DankStaff")?.DisplayName.AddTranslation(GameCulture.French, "Rampant Humide");
 					Calamity.GetItem("DankStaff")?.Tooltip.AddTranslation(GameCulture.French, "Le rampant humide vous protègera");
 					Calamity.GetItem("Rancor")?.DisplayName.AddTranslation(GameCulture.French, "Rancor");
-					Calamity.GetItem("Rancor")?.Tooltip.AddTranslation(GameCulture.French, "Casts a magic circle that charges energy and eventually releases a powerful laser burst of controlled maleficent magic\nThe laser causes arms and searing lava to appear on surfaces it touches which harm both you and enemies\n" + CalamityUtils.ColorMessage("Forgiveness can only heal so much,\nIf the recipient has not yet forgiven themselves.");
+					Calamity.GetItem("Rancor")?.Tooltip.AddTranslation(GameCulture.French, "Casts a magic circle that charges energy and eventually releases a powerful laser burst of controlled maleficent magic\nThe laser causes arms and searing lava to appear on surfaces it touches which harm both you and enemies\n" + CalamityUtils.ColorMessage("Forgiveness can only heal so much,\nIf the recipient has not yet forgiven themselves.", CalamityGlobalItem.ExhumedTooltipColor));
 					Calamity.GetItem("StormfrontRazor")?.DisplayName.AddTranslation(GameCulture.French, "Rasoir Face-Tempête");
 					Calamity.GetItem("StormfrontRazor")?.Tooltip.AddTranslation(GameCulture.French, "Jette un couteau de lancer qui laisse des étincelles sur sa trajectoire.\nLes attaques furtives rendent le couteau plus rapide et laissent une énorme pluie d'étincelles sur leur trajet");
 					Calamity.GetItem("KnowledgeRavager")?.DisplayName.AddTranslation(GameCulture.French, "Ravageur");
