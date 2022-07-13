@@ -37,11 +37,11 @@ namespace CalamityFR.DraedonLogs
 			switch (Page)
 			{
 				case 0:
-					return ModContent.GetTexture("CalamityMod/ExtraTextures/UI/DraedonsLogIceBiome");
+					return ModContent.Request<Texture2D>("CalamityMod/ExtraTextures/UI/DraedonsLogIceBiome").Value;
 				case 1:
 					return null;
 				default:
-					return ModContent.GetTexture("CalamityMod/ExtraTextures/UI/DraedonsLogPermafrost");
+					return ModContent.Request<Texture2D>("CalamityMod/ExtraTextures/UI/DraedonsLogPermafrost").Value;
 			}
 		}
 	}

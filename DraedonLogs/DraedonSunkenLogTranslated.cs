@@ -20,15 +20,15 @@ namespace CalamityFR.DraedonLogs
 
 		public override void SetDefaults()
 		{
-			base.item.width = 28;
-			base.item.height = 28;
-			base.item.rare = 10;
-			base.item.Calamity().customRarity = CalamityRarity.DraedonRust;
-			base.item.useAnimation = (base.item.useTime = 20);
-			base.item.useStyle = 4;
+			base.Item.width = 28;
+			base.Item.height = 28;
+			base.Item.rare = 10;
+			base.Item.Calamity().customRarity = CalamityRarity.DraedonRust;
+			base.Item.useAnimation = (base.Item.useTime = 20);
+			base.Item.useStyle = 4;
 		}
 
-		public override bool UseItem(Player player)
+		public override bool? UseItem(Player player)/* tModPorter Suggestion: Return null instead of false */
 		{
 			if (Main.myPlayer == player.whoAmI)
 			{
@@ -39,15 +39,13 @@ namespace CalamityFR.DraedonLogs
 
 		public override void AddRecipes()
         {
-			ModRecipe modRecipe = new ModRecipe(base.mod);
+			Recipe modRecipe = Recipe.Create(this.Type);
 			modRecipe.AddIngredient(ModContent.ItemType<DraedonsLogSunkenSea>());
-			modRecipe.SetResult(this);
-			modRecipe.AddRecipe();
+			modRecipe.Register();
 
-			ModRecipe reverseModRecipe = new ModRecipe(base.mod);
+			Recipe reverseModRecipe = Recipe.Create(ModContent.ItemType<DraedonsLogSunkenSea>());
 			reverseModRecipe.AddIngredient(ModContent.ItemType<DraedonSunkenLogTranslated>());
-			reverseModRecipe.SetResult(ModContent.ItemType<DraedonsLogSunkenSea>());
-			reverseModRecipe.AddRecipe();
+			reverseModRecipe.Register();
 
 		}
 	}
