@@ -3,7 +3,7 @@ using Terraria;
 using CalamityMod;
 using CalamityMod.Items;
 using CalamityMod.Items.Accessories;
-using CalamityMod.Items.Armor;
+using CalamityMod.Items.Armor.Aerospec;
 using CalamityMod.Items.Accessories.Vanity;
 using CalamityMod.Items.Accessories.Wings;
 using CalamityMod.Items.DifficultyItems;
@@ -21,6 +21,34 @@ using CalamityMod.World;
 using CalamityFR.DraedonLogs;
 using System.Collections.Generic;
 using Terraria.ModLoader;
+using CalamityMod.Items.Armor.Astral;
+using CalamityMod.Items.Armor.Auric;
+using CalamityMod.Items.Armor.Bloodflare;
+using CalamityMod.Items.Armor.Brimflame;
+using CalamityMod.Items.Armor.Daedalus;
+using CalamityMod.Items.Armor.Demonshade;
+using CalamityMod.Items.Armor.DesertProwler;
+using CalamityMod.Items.Armor.FathomSwarmer;
+using CalamityMod.Items.Armor.Fearmonger;
+using CalamityMod.Items.Armor;
+using CalamityMod.Items.Armor.GodSlayer;
+using CalamityMod.Items.Armor.Mollusk;
+using CalamityMod.Items.Armor.OmegaBlue;
+using CalamityMod.Items.Armor.Plaguebringer;
+using CalamityMod.Items.Armor.PlagueReaper;
+using CalamityMod.Items.Armor.Prismatic;
+using CalamityMod.Items.Armor.Reaver;
+using CalamityMod.Items.Armor.Hydrothermic;
+using CalamityMod.Items.Armor.Silva;
+using CalamityMod.Items.Armor.SnowRuffian;
+using CalamityMod.Items.Armor.Statigel;
+using CalamityMod.Items.Armor.Sulphurous;
+using CalamityMod.Items.Armor.Tarragon;
+using CalamityMod.Items.Armor.TitanHeart;
+using CalamityMod.Items.Armor.Umbraphile;
+using CalamityMod.Items.Armor.Victide;
+using CalamityMod.Items.Armor.Wulfrum;
+using CalamityMod.Items.Armor.Empyrean;
 
 public class CalamityGlobalItem_FR : GlobalItem
 {
@@ -30,8 +58,7 @@ public class CalamityGlobalItem_FR : GlobalItem
 
 	public override void UpdateArmorSet(Player player, string set)
 	{
-		//string hotkey = CalamityMod.CalamityMod.TarraHotKey.TooltipHotkeyString();
-		string hotkey = "TEST";
+		string hotkey = CalamityMod.CalamityKeybinds.SetBonusHotKey.ToString();
 		if (set == "AerospecMagic")
 		{
 			player.setBonus = "+5% de vitesse de mouvement et de chances de coup critique magique\nPrendre plus de 25 dégâts en une seule fois fera tomber des plumes à têtes chercheuses du ciel\nVous permet de tomber plus rapidement et annule les dégâts de chute";
@@ -56,23 +83,23 @@ public class CalamityGlobalItem_FR : GlobalItem
 		{
 			player.setBonus = "+15% de vitesse de mouvement et +3 sbires max\n+28% de dégâts et +21% de chances de coup critique\nLes coups critiques font pleuvoir des étoiles déchues, sacrées et astrales\nCet effet à un temps de recharge de 1s";
 		}
-		else if (set == "AtaxiaRanged")
+		else if (set == "HydrothermicRanged")
 		{
 			player.setBonus = "+5% de dégâts à distance\nEffet de la potion infernale quand vous êtes à moins de la moitié de votre vie\nVous tirez une déflagration de chaos à tête chercheuse toutes les 0.33 secondes quand vous utilisez une arme à distance\nVous emettez une explosion flamboyante quand vous êtes touché";
 		}
-		else if (set == "AtaxiaMelee")
+		else if (set == "HydrothermicMelee")
 		{
 			player.setBonus = "+5% de dégâts de mêlée\nLes ennemis ont plus de chance de vous cibler\nEffet de la potion infernale quand vous êtes à moins de la moitié de votre vie\nLes attaques et les projectiles de mêlée créent des éruptions de flammes chaotiques quand ils touchent\nVous emettez une explosion flamboyante quand vous êtes touché";
 		}
-		else if (set == "AtaxiaSummon")
+		else if (set == "HydrothermicSummon")
 		{
 			player.setBonus = "+40% de dégâts des sbires et +2 sbires max\nEffet de la potion infernale quand vous êtes à moins de la moitié de votre vie\nInvoque une Aération hydrothermique pour vous protéger\nVous emettez une explosion flamboyante quand vous êtes touché";
 		}
-		else if (set == "AtaxiaRogue")
+		else if (set == "HydrothermicRogue")
 		{
 			player.setBonus = "+5% de dégâts de voleur\nEffet de la potion infernale quand vous êtes à moins de la moitié de votre vie\nLes armes de voleur relâchent une volée de flammes chaotiques autour du joueur toutes les 2.5 secondes qui pourchassent les ennemis\nVous emettez une explosion flamboyante quand vous êtes touché\nLa furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 110\nUne fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\nLa furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\nEn s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur";
 		}
-		else if (set == "AtaxiaMagic")
+		else if (set == "HydrothermicMagic")
 		{
 			player.setBonus = "+5% de dégâts magiques et -15% de coût en mana\nEffet de la potion infernale quand vous êtes à moins de la moitié de votre vie\nLes attaques magiques créent des orbes de soin et de dégâts quand elles touchent\nVous emettez une explosion flamboyante quand vous êtes touché";
 		}
@@ -193,13 +220,13 @@ public class CalamityGlobalItem_FR : GlobalItem
 		{
 			player.setBonus = "+40 mana maximum et +15% de réduction du coût en mana\nRégénération de mana augmentée\nAppuyez sur " + hotkey + " pour relâcher un barrage de lasers mortels sur le curseur pendant 5 secondes\nCet effet a 30s de temps de recharge";
 		}
-		else if (set == "ReaverMelee")
+		else if (set == "ReaverExplore")
 		{
-			player.setBonus = "+10 défense et +3 régénération de vie\nLes ennemis ont plus de chance de vous cibler\nRéduit la perte de régénération de vie induite par les altérations d'état de 20%\nToutes les attaques ont une faible chance de voler de la vie et d'accélérer la vitesse de régénération de vie\n-20% de mouvement et de temps de vol\nLes dégâts ennemis sont reflétés et invoquent une pique d'épine\nLa rage du saccageur à 25% de chance de s'activer quand vous subissez des dégâts";
+			// TODO player.setBonus = "+10 défense et +3 régénération de vie\nLes ennemis ont plus de chance de vous cibler\nRéduit la perte de régénération de vie induite par les altérations d'état de 20%\nToutes les attaques ont une faible chance de voler de la vie et d'accélérer la vitesse de régénération de vie\n-20% de mouvement et de temps de vol\nLes dégâts ennemis sont reflétés et invoquent une pique d'épine\nLa rage du saccageur à 25% de chance de s'activer quand vous subissez des dégâts";
 		}
-		else if (set == "ReaverRanged")
+		else if (set == "ReaverMobility")
 		{
-			player.setBonus = "Immunise aux dégâts de chute et permet le saut automatique\n+10% temps de vol et vitesse de vol horizontale\nLes grappins s'envoient et se rétractent 10% plus vite\nRéduit le temps de recharge des effets permettant de foncer";
+			// TODO player.setBonus = "Immunise aux dégâts de chute et permet le saut automatique\n+10% temps de vol et vitesse de vol horizontale\nLes grappins s'envoient et se rétractent 10% plus vite\nRéduit le temps de recharge des effets permettant de foncer";
 		}
 		else if (set == "ShroomiteCalam")
 		{
@@ -327,7 +354,7 @@ public class CalamityGlobalItem_FR : GlobalItem
 		}
 	}
 
-	/*public override string IsArmorSet(Item head, Item body, Item legs) {
+	public override string IsArmorSet(Item head, Item body, Item legs) {
 		if (head.type == ModContent.ItemType<AerospecHat>() && body.type == ModContent.ItemType<AerospecBreastplate>() && legs.type == ModContent.ItemType<AerospecLeggings>())
 		{
 			return "AerospecMagic";
@@ -352,27 +379,27 @@ public class CalamityGlobalItem_FR : GlobalItem
 		{
 			return "Astral";
 		}
-		if (head.type == ModContent.ItemType<AtaxiaHeadgear>() && body.type == ModContent.ItemType<AtaxiaArmor>() && legs.type == ModContent.ItemType<AtaxiaSubligar>())
+		if (head.type == ModContent.ItemType<HydrothermicHeadRanged>() && body.type == ModContent.ItemType<HydrothermicArmor>() && legs.type == ModContent.ItemType<HydrothermicSubligar>())
 		{
-			return "AtaxiaRanged";
+			return "HydrothermicRanged";
 		}
-		if (head.type == ModContent.ItemType<AtaxiaHelm>() && body.type == ModContent.ItemType<AtaxiaArmor>() && legs.type == ModContent.ItemType<AtaxiaSubligar>())
+		if (head.type == ModContent.ItemType<HydrothermicHeadMelee>() && body.type == ModContent.ItemType<HydrothermicArmor>() && legs.type == ModContent.ItemType<HydrothermicSubligar>())
 		{
-			return "AtaxiaMelee";
+			return "HydrothermicMelee";
 		}
-		if (head.type == ModContent.ItemType<AtaxiaHelmet>() && body.type == ModContent.ItemType<AtaxiaArmor>() && legs.type == ModContent.ItemType<AtaxiaSubligar>())
+		if (head.type == ModContent.ItemType<HydrothermicHeadSummon>() && body.type == ModContent.ItemType<HydrothermicArmor>() && legs.type == ModContent.ItemType<HydrothermicSubligar>())
 		{
-			return "AtaxiaSummon";
+			return "HydrothermicSummon";
 		}
-		if (head.type == ModContent.ItemType<AtaxiaHood>() && body.type == ModContent.ItemType<AtaxiaArmor>() && legs.type == ModContent.ItemType<AtaxiaSubligar>())
+		if (head.type == ModContent.ItemType<HydrothermicHeadRogue>() && body.type == ModContent.ItemType<HydrothermicArmor>() && legs.type == ModContent.ItemType<HydrothermicSubligar>())
 		{
-			return "AtaxiaRogue";
+			return "HydrothermicRogue";
 		}
-		if (head.type == ModContent.ItemType<AtaxiaMask>() && body.type == ModContent.ItemType<AtaxiaArmor>() && legs.type == ModContent.ItemType<AtaxiaSubligar>())
+		if (head.type == ModContent.ItemType<HydrothermicHeadMagic>() && body.type == ModContent.ItemType<HydrothermicArmor>() && legs.type == ModContent.ItemType<HydrothermicSubligar>())
 		{
-			return "AtaxiaMagic";
+			return "HydrothermicMagic";
 		}
-		if (head.type == ModContent.ItemType<AuricTeslaHelm>() && body.type == ModContent.ItemType<AuricTeslaBodyArmor>() && legs.type == ModContent.ItemType<AuricTeslaCuisses>())
+		if (head.type == ModContent.ItemType<AuricTeslaRoyalHelm>() && body.type == ModContent.ItemType<AuricTeslaBodyArmor>() && legs.type == ModContent.ItemType<AuricTeslaCuisses>())
 		{
 			return "AuricMelee";
 		}
@@ -392,23 +419,23 @@ public class CalamityGlobalItem_FR : GlobalItem
 		{
 			return "AuricMagic";
 		}
-		if (head.type == ModContent.ItemType<BloodflareHelm>() && body.type == ModContent.ItemType<BloodflareBodyArmor>() && legs.type == ModContent.ItemType<BloodflareCuisses>())
+		if (head.type == ModContent.ItemType<BloodflareHeadRogue>() && body.type == ModContent.ItemType<BloodflareBodyArmor>() && legs.type == ModContent.ItemType<BloodflareCuisses>())
 		{
 			return "BloodflareRogue";
 		}
-		if (head.type == ModContent.ItemType<BloodflareHelmet>() && body.type == ModContent.ItemType<BloodflareBodyArmor>() && legs.type == ModContent.ItemType<BloodflareCuisses>())
+		if (head.type == ModContent.ItemType<BloodflareHeadSummon>() && body.type == ModContent.ItemType<BloodflareBodyArmor>() && legs.type == ModContent.ItemType<BloodflareCuisses>())
 		{
 			return "BloodflareSummon";
 		}
-		if (head.type == ModContent.ItemType<BloodflareHornedHelm>() && body.type == ModContent.ItemType<BloodflareBodyArmor>() && legs.type == ModContent.ItemType<BloodflareCuisses>())
+		if (head.type == ModContent.ItemType<BloodflareHeadRanged>() && body.type == ModContent.ItemType<BloodflareBodyArmor>() && legs.type == ModContent.ItemType<BloodflareCuisses>())
 		{
 			return "BloodflareRanged";
 		}
-		if (head.type == ModContent.ItemType<BloodflareHornedMask>() && body.type == ModContent.ItemType<BloodflareBodyArmor>() && legs.type == ModContent.ItemType<BloodflareCuisses>())
+		if (head.type == ModContent.ItemType<BloodflareHeadMagic>() && body.type == ModContent.ItemType<BloodflareBodyArmor>() && legs.type == ModContent.ItemType<BloodflareCuisses>())
 		{
 			return "BloodflareMagic";
 		}
-		if (head.type == ModContent.ItemType<BloodflareMask>() && body.type == ModContent.ItemType<BloodflareBodyArmor>() && legs.type == ModContent.ItemType<BloodflareCuisses>())
+		if (head.type == ModContent.ItemType<BloodflareHeadMelee>() && body.type == ModContent.ItemType<BloodflareBodyArmor>() && legs.type == ModContent.ItemType<BloodflareCuisses>())
 		{
 			return "BloodflareMelee";
 		}
@@ -416,23 +443,23 @@ public class CalamityGlobalItem_FR : GlobalItem
 		{
 			return "Brimflame";
 		}
-		if (head.type == ModContent.ItemType<DaedalusHat>() && body.type == ModContent.ItemType<DaedalusBreastplate>() && legs.type == ModContent.ItemType<DaedalusLeggings>())
+		if (head.type == ModContent.ItemType<DaedalusHeadMagic>() && body.type == ModContent.ItemType<DaedalusBreastplate>() && legs.type == ModContent.ItemType<DaedalusLeggings>())
 		{
 			return "DaedalusMagic";
 		}
-		if (head.type == ModContent.ItemType<DaedalusHeadgear>() && body.type == ModContent.ItemType<DaedalusBreastplate>() && legs.type == ModContent.ItemType<DaedalusLeggings>())
+		if (head.type == ModContent.ItemType<DaedalusHeadSummon>() && body.type == ModContent.ItemType<DaedalusBreastplate>() && legs.type == ModContent.ItemType<DaedalusLeggings>())
 		{
 			return "DaedalusSummon";
 		}
-		if (head.type == ModContent.ItemType<DaedalusHelm>() && body.type == ModContent.ItemType<DaedalusBreastplate>() && legs.type == ModContent.ItemType<DaedalusLeggings>())
+		if (head.type == ModContent.ItemType<DaedalusHeadMelee>() && body.type == ModContent.ItemType<DaedalusBreastplate>() && legs.type == ModContent.ItemType<DaedalusLeggings>())
 		{
 			return "DaedalusMelee";
 		}
-		if (head.type == ModContent.ItemType<DaedalusHelmet>() && body.type == ModContent.ItemType<DaedalusBreastplate>() && legs.type == ModContent.ItemType<DaedalusLeggings>())
+		if (head.type == ModContent.ItemType<DaedalusHeadRanged>() && body.type == ModContent.ItemType<DaedalusBreastplate>() && legs.type == ModContent.ItemType<DaedalusLeggings>())
 		{
 			return "DaedalusRanged";
 		}
-		if (head.type == ModContent.ItemType<DaedalusVisor>() && body.type == ModContent.ItemType<DaedalusBreastplate>() && legs.type == ModContent.ItemType<DaedalusLeggings>())
+		if (head.type == ModContent.ItemType<DaedalusHeadRogue>() && body.type == ModContent.ItemType<DaedalusBreastplate>() && legs.type == ModContent.ItemType<DaedalusLeggings>())
 		{
 			return "DaedalusRogue";
 		}
@@ -456,15 +483,15 @@ public class CalamityGlobalItem_FR : GlobalItem
 		{
 			return "ForbiddenCalam";
 		}
-		if (head.type == ModContent.ItemType<GodSlayerHelm>() && body.type == ModContent.ItemType<GodSlayerChestplate>() && legs.type == ModContent.ItemType<GodSlayerLeggings>())
+		if (head.type == ModContent.ItemType<GodSlayerHeadMelee>() && body.type == ModContent.ItemType<GodSlayerChestplate>() && legs.type == ModContent.ItemType<GodSlayerLeggings>())
 		{
 			return "GodSlayerMelee";
 		}
-		if (head.type == ModContent.ItemType<GodSlayerHelmet>() && body.type == ModContent.ItemType<GodSlayerChestplate>() && legs.type == ModContent.ItemType<GodSlayerLeggings>())
+		if (head.type == ModContent.ItemType<GodSlayerHeadRanged>() && body.type == ModContent.ItemType<GodSlayerChestplate>() && legs.type == ModContent.ItemType<GodSlayerLeggings>())
 		{
 			return "GodSlayerRanged";
 		}
-		if (head.type == ModContent.ItemType<GodSlayerMask>() && body.type == ModContent.ItemType<GodSlayerChestplate>() && legs.type == ModContent.ItemType<GodSlayerLeggings>())
+		if (head.type == ModContent.ItemType<GodSlayerHeadRogue>() && body.type == ModContent.ItemType<GodSlayerChestplate>() && legs.type == ModContent.ItemType<GodSlayerLeggings>())
 		{
 			return "GodSlayerRogue";
 		}
@@ -472,7 +499,7 @@ public class CalamityGlobalItem_FR : GlobalItem
 		{
 			return "Mollusk";
 		}
-		if (head.type == ModContent.ItemType<OmegaBlueHelmet>() && body.type == ModContent.ItemType<OmegaBlueChestplate>() && legs.type == ModContent.ItemType<OmegaBlueLeggings>())
+		if (head.type == ModContent.ItemType<OmegaBlueHelmet>() && body.type == ModContent.ItemType<OmegaBlueChestplate>() && legs.type == ModContent.ItemType<OmegaBlueTentacles>())
 		{
 			return "OmegaBlue";
 		}
@@ -488,23 +515,23 @@ public class CalamityGlobalItem_FR : GlobalItem
 		{
 			return "Prismatic";
 		}
-		if (head.type == ModContent.ItemType<ReaverHelm>() && body.type == ModContent.ItemType<ReaverScaleMail>() && legs.type == ModContent.ItemType<ReaverCuisses>())
+		if (head.type == ModContent.ItemType<ReaverHeadExplore>() && body.type == ModContent.ItemType<ReaverScaleMail>() && legs.type == ModContent.ItemType<ReaverCuisses>())
 		{
-			return "ReaverMelee";
+			return "ReaverExplore";
 		}
-		if (head.type == ModContent.ItemType<ReaverVisage>() && body.type == ModContent.ItemType<ReaverScaleMail>() && legs.type == ModContent.ItemType<ReaverCuisses>())
+		if (head.type == ModContent.ItemType<ReaverHeadMobility>() && body.type == ModContent.ItemType<ReaverScaleMail>() && legs.type == ModContent.ItemType<ReaverCuisses>())
 		{
-			return "ReaverRanged";
+			return "ReaverMobility";
 		}
 		if (head.type == ModContent.ItemType<ShroomiteVisage>() && body.type == 1549 && legs.type == 1550)
 		{
 			return "ShroomiteCalam";
 		}
-		if (head.type == ModContent.ItemType<SilvaHelmet>() && body.type == ModContent.ItemType<SilvaArmor>() && legs.type == ModContent.ItemType<SilvaLeggings>())
+		if (head.type == ModContent.ItemType<SilvaHeadSummon>() && body.type == ModContent.ItemType<SilvaArmor>() && legs.type == ModContent.ItemType<SilvaLeggings>())
 		{
 			return "SilvaSummon";
 		}
-		if (head.type == ModContent.ItemType<SilvaMaskedCap>() && body.type == ModContent.ItemType<SilvaArmor>() && legs.type == ModContent.ItemType<SilvaLeggings>())
+		if (head.type == ModContent.ItemType<SilvaHeadMagic>() && body.type == ModContent.ItemType<SilvaArmor>() && legs.type == ModContent.ItemType<SilvaLeggings>())
 		{
 			return "SilvaMagic";
 		}
@@ -512,47 +539,47 @@ public class CalamityGlobalItem_FR : GlobalItem
 		{
 			return "SnowRuffian";
 		}
-		if (head.type == ModContent.ItemType<StatigelCap>() && body.type == ModContent.ItemType<StatigelArmor>() && legs.type == ModContent.ItemType<StatigelGreaves>())
+		if (head.type == ModContent.ItemType<StatigelHeadMagic>() && body.type == ModContent.ItemType<StatigelArmor>() && legs.type == ModContent.ItemType<StatigelGreaves>())
 		{
 			return "StatigelMagic";
 		}
-		if (head.type == ModContent.ItemType<StatigelHeadgear>() && body.type == ModContent.ItemType<StatigelArmor>() && legs.type == ModContent.ItemType<StatigelGreaves>())
+		if (head.type == ModContent.ItemType<StatigelHeadRanged>() && body.type == ModContent.ItemType<StatigelArmor>() && legs.type == ModContent.ItemType<StatigelGreaves>())
 		{
 			return "StatigelRanged";
 		}
-		if (head.type == ModContent.ItemType<StatigelHelm>() && body.type == ModContent.ItemType<StatigelArmor>() && legs.type == ModContent.ItemType<StatigelGreaves>())
+		if (head.type == ModContent.ItemType<StatigelHeadMelee>() && body.type == ModContent.ItemType<StatigelArmor>() && legs.type == ModContent.ItemType<StatigelGreaves>())
 		{
 			return "StatigelMelee";
 		}
-		if (head.type == ModContent.ItemType<StatigelHood>() && body.type == ModContent.ItemType<StatigelArmor>() && legs.type == ModContent.ItemType<StatigelGreaves>())
+		if (head.type == ModContent.ItemType<StatigelHeadSummon>() && body.type == ModContent.ItemType<StatigelArmor>() && legs.type == ModContent.ItemType<StatigelGreaves>())
 		{
 			return "StatigelSummon";
 		}
-		if (head.type == ModContent.ItemType<StatigelMask>() && body.type == ModContent.ItemType<StatigelArmor>() && legs.type == ModContent.ItemType<StatigelGreaves>())
+		if (head.type == ModContent.ItemType<StatigelHeadRogue>() && body.type == ModContent.ItemType<StatigelArmor>() && legs.type == ModContent.ItemType<StatigelGreaves>())
 		{
 			return "StatigelRogue";
 		}
-		if (head.type == ModContent.ItemType<SulfurHelmet>() && body.type == ModContent.ItemType<SulfurBreastplate>() && legs.type == ModContent.ItemType<SulfurLeggings>())
+		if (head.type == ModContent.ItemType<SulphurousHelmet>() && body.type == ModContent.ItemType<SulphurousBreastplate>() && legs.type == ModContent.ItemType<SulphurousLeggings>())
 		{
 			return "Sulfur";
 		}
-		if (head.type == ModContent.ItemType<TarragonHelm>() && body.type == ModContent.ItemType<TarragonBreastplate>() && legs.type == ModContent.ItemType<TarragonLeggings>())
+		if (head.type == ModContent.ItemType<TarragonHeadMelee>() && body.type == ModContent.ItemType<TarragonBreastplate>() && legs.type == ModContent.ItemType<TarragonLeggings>())
 		{
 			return "TarragonMelee";
 		}
-		if (head.type == ModContent.ItemType<TarragonHelmet>() && body.type == ModContent.ItemType<TarragonBreastplate>() && legs.type == ModContent.ItemType<TarragonLeggings>())
+		if (head.type == ModContent.ItemType<TarragonHeadRogue>() && body.type == ModContent.ItemType<TarragonBreastplate>() && legs.type == ModContent.ItemType<TarragonLeggings>())
 		{
 			return "TarragonRogue";
 		}
-		if (head.type == ModContent.ItemType<TarragonHornedHelm>() && body.type == ModContent.ItemType<TarragonBreastplate>() && legs.type == ModContent.ItemType<TarragonLeggings>())
+		if (head.type == ModContent.ItemType<TarragonHeadSummon>() && body.type == ModContent.ItemType<TarragonBreastplate>() && legs.type == ModContent.ItemType<TarragonLeggings>())
 		{
 			return "TarragonSummon";
 		}
-		if (head.type == ModContent.ItemType<TarragonMask>() && body.type == ModContent.ItemType<TarragonBreastplate>() && legs.type == ModContent.ItemType<TarragonLeggings>())
+		if (head.type == ModContent.ItemType<TarragonHeadMagic>() && body.type == ModContent.ItemType<TarragonBreastplate>() && legs.type == ModContent.ItemType<TarragonLeggings>())
 		{
 			return "TarragonMagic";
 		}
-		if (head.type == ModContent.ItemType<TarragonVisage>() && body.type == ModContent.ItemType<TarragonBreastplate>() && legs.type == ModContent.ItemType<TarragonLeggings>())
+		if (head.type == ModContent.ItemType<TarragonHeadRanged>() && body.type == ModContent.ItemType<TarragonBreastplate>() && legs.type == ModContent.ItemType<TarragonLeggings>())
 		{
 			return "TarragonRanged";
 		}
@@ -564,47 +591,47 @@ public class CalamityGlobalItem_FR : GlobalItem
 		{
 			return "Umbraphile";
 		}
-		if (head.type == ModContent.ItemType<VictideHeadgear>() && body.type == ModContent.ItemType<VictideBreastplate>() && legs.type == ModContent.ItemType<VictideLeggings>())
+		if (head.type == ModContent.ItemType<VictideHeadRogue>() && body.type == ModContent.ItemType<VictideBreastplate>() && legs.type == ModContent.ItemType<VictideGreaves>())
 		{
 			return "VictideRogue";
 		}
-		if (head.type == ModContent.ItemType<VictideHelm>() && body.type == ModContent.ItemType<VictideBreastplate>() && legs.type == ModContent.ItemType<VictideLeggings>())
+		if (head.type == ModContent.ItemType<VictideHeadMelee>() && body.type == ModContent.ItemType<VictideBreastplate>() && legs.type == ModContent.ItemType<VictideGreaves>())
 		{
 			return "VictideMelee";
 		}
-		if (head.type == ModContent.ItemType<VictideHelmet>() && body.type == ModContent.ItemType<VictideBreastplate>() && legs.type == ModContent.ItemType<VictideLeggings>())
+		if (head.type == ModContent.ItemType<VictideHeadSummon>() && body.type == ModContent.ItemType<VictideBreastplate>() && legs.type == ModContent.ItemType<VictideGreaves>())
 		{
 			return "VictideSummon";
 		}
-		if (head.type == ModContent.ItemType<VictideMask>() && body.type == ModContent.ItemType<VictideBreastplate>() && legs.type == ModContent.ItemType<VictideLeggings>())
+		if (head.type == ModContent.ItemType<VictideHeadMagic>() && body.type == ModContent.ItemType<VictideBreastplate>() && legs.type == ModContent.ItemType<VictideGreaves>())
 		{
 			return "VictideMagic";
 		}
-		if (head.type == ModContent.ItemType<VictideVisage>() && body.type == ModContent.ItemType<VictideBreastplate>() && legs.type == ModContent.ItemType<VictideLeggings>())
+		if (head.type == ModContent.ItemType<VictideHeadRanged>() && body.type == ModContent.ItemType<VictideBreastplate>() && legs.type == ModContent.ItemType<VictideGreaves>())
 		{
 			return "VictideRanged";
 		}
-		if (head.type == ModContent.ItemType<WulfrumHeadgear>() && body.type == ModContent.ItemType<WulfrumArmor>() && legs.type == ModContent.ItemType<WulfrumLeggings>())
+		if (head.type == ModContent.ItemType<WulfrumHeadRanged>() && body.type == ModContent.ItemType<WulfrumArmor>() && legs.type == ModContent.ItemType<WulfrumLeggings>())
 		{
 			return "WulfrumRanged";
 		}
-		if (head.type == ModContent.ItemType<WulfrumHelm>() && body.type == ModContent.ItemType<WulfrumArmor>() && legs.type == ModContent.ItemType<WulfrumLeggings>())
+		if (head.type == ModContent.ItemType<WulfrumHeadMelee>() && body.type == ModContent.ItemType<WulfrumArmor>() && legs.type == ModContent.ItemType<WulfrumLeggings>())
 		{
 			return "WulfrumMelee";
 		}
-		if (head.type == ModContent.ItemType<WulfrumHelmet>() && body.type == ModContent.ItemType<WulfrumArmor>() && legs.type == ModContent.ItemType<WulfrumLeggings>())
+		if (head.type == ModContent.ItemType<WulfrumHeadSummon>() && body.type == ModContent.ItemType<WulfrumArmor>() && legs.type == ModContent.ItemType<WulfrumLeggings>())
 		{
 			return "WulfrumSummon";
 		}
-		if (head.type == ModContent.ItemType<WulfrumHood>() && body.type == ModContent.ItemType<WulfrumArmor>() && legs.type == ModContent.ItemType<WulfrumLeggings>())
+		if (head.type == ModContent.ItemType<WulfrumHeadMagic>() && body.type == ModContent.ItemType<WulfrumArmor>() && legs.type == ModContent.ItemType<WulfrumLeggings>())
 		{
 			return "WulfrumMagic";
 		}
-		if (head.type == ModContent.ItemType<WulfrumMask>() && body.type == ModContent.ItemType<WulfrumArmor>() && legs.type == ModContent.ItemType<WulfrumLeggings>())
+		if (head.type == ModContent.ItemType<WulfrumHeadRogue>() && body.type == ModContent.ItemType<WulfrumArmor>() && legs.type == ModContent.ItemType<WulfrumLeggings>())
 		{
 			return "WulfrumRogue";
 		}
-		if (head.type == ModContent.ItemType<XerocMask>() && body.type == ModContent.ItemType<XerocPlateMail>() && legs.type == ModContent.ItemType<XerocCuisses>())
+		if (head.type == ModContent.ItemType<EmpyreanMask>() && body.type == ModContent.ItemType<EmpyreanCloak>() && legs.type == ModContent.ItemType<EmpyreanCuisses>())
 		{
 			return "Xeroc";
 		}
@@ -667,10 +694,9 @@ public class CalamityGlobalItem_FR : GlobalItem
 		}
 		return "";
 	}
-	*/
 	public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
 	{
-		/*
+		
 		//Attunement replace for biome blade line -- Datastructures Attunement 1.5
 
 		//Ark line replacement
@@ -685,7 +711,7 @@ public class CalamityGlobalItem_FR : GlobalItem
 			}
 		}
 
-		if (item.type == ModContent.ItemType<ArkoftheAncients>())
+		if (item.type == ModContent.ItemType<FracturedArk>())
 		{
 			foreach (TooltipLine line in tooltips)
 			{
@@ -726,7 +752,7 @@ public class CalamityGlobalItem_FR : GlobalItem
 			}
 		}
 
-
+		/*
 		//Specific Item Modification
 		if (CalamityWorld.death)
 		{
@@ -1002,6 +1028,8 @@ public class CalamityGlobalItem_FR : GlobalItem
 				}
 			}
 		}
+		*/
+
 		if (item.type == ModContent.ItemType<AbandonedSlimeStaff>())
 		{
 			foreach (TooltipLine line in tooltips)
@@ -1024,7 +1052,7 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.Text = line.Text.Replace("WARNING! Some sentinels have not been truly defeated yet and will spawn at full power during this fight!", "ATTENTION! Certaines sentinelles n'ont pas encore été vaincues et apparaîtront à pleine puissance durant ce combat!");
 			}
 		}
-		if (item.type == ModContent.ItemType<SunkenStew>())
+		if (item.type == ModContent.ItemType<HadalStew>())
 		{
 			foreach (TooltipLine line in tooltips)
 			{
@@ -1039,7 +1067,7 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.Text = line.Text.Replace("Favorite this item to gain 5% increased movement speed.", "Favorisez cet objet pour gagner 5% de vitesse de mouvement.");
 			}
 		}
-		if (item.type == ModContent.ItemType<Revenge>())
+		if (item.type == ModContent.ItemType<RevengeanceModeItem>())
 		{
 			foreach (TooltipLine line in tooltips)
 			{
@@ -1061,7 +1089,7 @@ public class CalamityGlobalItem_FR : GlobalItem
 		{
 			foreach (TooltipLine line in tooltips)
 			{
-				string hotkeySpecVeil = CalamityMod.CalamityMod.SpectralVeilHotKey.TooltipHotkeyString();
+				string hotkeySpecVeil = CalamityMod.CalamityKeybinds.SpectralVeilHotKey.TooltipHotkeyString();
 				line.Text = line.Text.Replace("Press " + hotkeySpecVeil + " to consume 25% of your maximum stealth to perform a short range teleport and render you momentarily invulnerable", "Appuyez sur " + hotkeySpecVeil + " pour consommer 25% de votre furtivité maximum pour vous téléporter à courte portée et vous rendre momentanément invulnérable");
 			}
 		}
@@ -1069,7 +1097,7 @@ public class CalamityGlobalItem_FR : GlobalItem
 		{
 			foreach (TooltipLine line in tooltips)
 			{
-				string hotkeySand = CalamityMod.CalamityMod.SandCloakHotkey.TooltipHotkeyString();
+				string hotkeySand = CalamityMod.CalamityKeybinds.SandCloakHotkey.TooltipHotkeyString();
 				line.Text = line.Text.Replace("Press " + hotkeySand + " to consume 25% of your maximum stealth to create a protective dust veil which provides +6 defense and +2 life regen", "Appuyez sur " + hotkeySand + " pour consommer 25% de votre furtivité maximum pour créer un voile de poussière qui donne +6 défense et +2 régénération de vie");
 			}
 		}
@@ -1087,7 +1115,7 @@ public class CalamityGlobalItem_FR : GlobalItem
 		{
 			foreach (TooltipLine line in tooltips)
 			{
-				string plagueHotkey = CalamityMod.CalamityMod.PlaguePackHotKey.TooltipHotkeyString();
+				string plagueHotkey = CalamityMod.CalamityKeybinds.PlaguePackHotKey.TooltipHotkeyString();
 				line.Text = line.Text.Replace("Press " + plagueHotkey + " to consume 25% of your maximum stealth to perform a swift upwards/diagonal dash which leaves a trail of plagued clouds", "Appuyez sur " + plagueHotkey + " pour consommer 25% de votre furtivité maximum pour effectuer une rapide ruée ascendante/diagonale qui laisse une trainée de nuages pestiférés");
 			}
 		}
@@ -1102,7 +1130,7 @@ public class CalamityGlobalItem_FR : GlobalItem
 		{
 			foreach (TooltipLine line in tooltips)
 			{
-				string hotkeyCapacitor = CalamityMod.CalamityMod.MomentumCapacitatorHotkey.TooltipHotkeyString();
+				string hotkeyCapacitor = CalamityMod.CalamityKeybinds.MomentumCapacitatorHotkey.TooltipHotkeyString();
 				line.Text = line.Text.Replace("Press " + hotkeyCapacitor + " to consume 30% of your maximum stealth to create an energy field at the cursor position", "Appuyez sur " + hotkeyCapacitor + " pour consommer 30% de votre furtivité maximale pour créer un champ d'énergie à l'emplacement du curseur");
 			}
 		}
@@ -1118,7 +1146,7 @@ public class CalamityGlobalItem_FR : GlobalItem
 		{
 			foreach (TooltipLine line in tooltips)
 			{
-				string hotkeyCelestial = CalamityMod.CalamityMod.AstralTeleportHotKey.TooltipHotkeyString();
+				string hotkeyCelestial = CalamityMod.CalamityKeybinds.AstralTeleportHotKey.TooltipHotkeyString();
 				line.Text = line.Text.Replace("Press " + hotkeyCelestial + " to teleport to a random location", "Appuyez sur " + hotkeyCelestial + " pour vous téléporter à un endroit aléatoire");
 			}
 		}
@@ -1127,7 +1155,7 @@ public class CalamityGlobalItem_FR : GlobalItem
 		{
 			foreach (TooltipLine line in tooltips)
 			{
-				string hotkeyBlunder = CalamityMod.CalamityMod.PlaguePackHotKey.TooltipHotkeyString();
+				string hotkeyBlunder = CalamityMod.CalamityKeybinds.PlaguePackHotKey.TooltipHotkeyString();
 				line.Text = line.Text.Replace("Press " + hotkeyBlunder + " to consume 25% of your maximum stealth to perform a swift upwards/diagonal dash which leaves a trail of lightning bolts", "Appuyez sur " + hotkeyBlunder + " pour consommer 25% de votre furtivité maximum pour effectuer une rapide ruée ascendante/diagonale qui laisse une trainée de décharges électriques");
 			}
 		}
@@ -1136,7 +1164,7 @@ public class CalamityGlobalItem_FR : GlobalItem
 		{
 			foreach (TooltipLine line in tooltips)
 			{
-				string hotkeyArcanum = CalamityMod.CalamityMod.AstralArcanumUIHotkey.TooltipHotkeyString();
+				string hotkeyArcanum = CalamityMod.CalamityKeybinds.AstralArcanumUIHotkey.TooltipHotkeyString();
 				line.Text = line.Text.Replace("Press " + hotkeyArcanum + " to toggle teleportation UI", "Appuyez sur " + hotkeyArcanum + " pour afficher/cacher l'interface de téléportation");
 			}
 		}
@@ -1145,7 +1173,7 @@ public class CalamityGlobalItem_FR : GlobalItem
 		{
 			foreach (TooltipLine line in tooltips)
 			{
-				string hotkeyAsgard = CalamityMod.CalamityMod.AegisHotKey.TooltipHotkeyString();
+				string hotkeyAsgard = CalamityMod.CalamityKeybinds.AegisHotKey.TooltipHotkeyString();
 				line.Text = line.Text.Replace("Press " + hotkeyAsgard + " to activate buffs to all damage, crit chance, and defense", "Appuyez sur " + hotkeyAsgard + " pour améliorer tous vos dégâts, vos chances de coup critique et votre défense");
 			}
 		}
@@ -1163,11 +1191,10 @@ public class CalamityGlobalItem_FR : GlobalItem
 		{
 			foreach (TooltipLine line in tooltips)
 			{
-				string hotkeyReloc = CalamityMod.CalamityMod.NormalityRelocatorHotKey.TooltipHotkeyString();
+				string hotkeyReloc = CalamityMod.CalamityKeybinds.NormalityRelocatorHotKey.TooltipHotkeyString();
 				line.Text = line.Text.Replace("Press " + hotkeyReloc + " to teleport to the position of the mouse", "Appuyez sur " + hotkeyReloc + " pour vous téléporter à l'emplacement du curseur");
 			}
 		}
-		*/
 		if (item.type == ModContent.ItemType<MagicLevelMeter>())
 		{
 			foreach (TooltipLine line in tooltips)
@@ -1286,15 +1313,15 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.Text = line.Text.Replace("Defense Lost:", "Défense perdue:");
 			}
 		}
-		/*
-		if (item.melee)
+		
+		//Pêut-être plus nécessaire, a voir
+		if (item.DamageType == DamageClass.Melee)
 		{
 			foreach (TooltipLine line in tooltips)
 			{
 				line.Text = line.Text.Replace("true melee damage", "dégâts de vraie mêlée");
 			}
 		}
-
 		//Global Item Modifications
 
 		if (item.type >= 3930 && (item.Calamity()?.UsesCharge ?? false))
@@ -1304,11 +1331,12 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.Text = line.Text.Replace("Current Charge:", "Batterie Restante:");
 			}
 		}
-		if (item.Calamity().rogue)
+		//Ignoble, mais fonctionne, a remplacer plus tard
+		if (DamageClass.Equals(item.DamageType, ModLoader.GetMod("CalamityMod").Find<ModItem>("ThrowingBrick").Item.DamageType))
 		{
 			foreach (TooltipLine line in tooltips)
 			{
-				line.Text = line.Text.Replace("rogue lancer", "dégâts de voleur");
+				line.Text = line.Text.Replace("rogue damage", "dégâts de voleur");
 				line.Text = line.Text.Replace("stealth strike damage", "dégâts d'attaque furtive");
 
 				if (item.prefix > 0 && line.Name == "ItemName")
@@ -1331,7 +1359,7 @@ public class CalamityGlobalItem_FR : GlobalItem
 					line.Text = line.Text.Contains("Atrocious") ? line.Text.Replace("Atrocious", "").Trim() + " (Atroce)" : line.Text;
 				}
 			}
-		}*/
+		}
 		if (item.accessory && !item.social && item.prefix > 0)
 		{
 			foreach (TooltipLine line in tooltips)
