@@ -49,6 +49,7 @@ using CalamityMod.Items.Armor.Umbraphile;
 using CalamityMod.Items.Armor.Victide;
 using CalamityMod.Items.Armor.Wulfrum;
 using CalamityMod.Items.Armor.Empyrean;
+using CalamityMod.Items.Armor.GemTech;
 
 public class CalamityGlobalItem_FR : GlobalItem
 {
@@ -61,172 +62,355 @@ public class CalamityGlobalItem_FR : GlobalItem
 		string hotkey = CalamityMod.CalamityKeybinds.SetBonusHotKey.ToString();
 		if (set == "AerospecMagic")
 		{
-			player.setBonus = "+5% de vitesse de mouvement et de chances de coup critique magique\nPrendre plus de 25 dégâts en une seule fois fera tomber des plumes à têtes chercheuses du ciel\nVous permet de tomber plus rapidement et annule les dégâts de chute";
+			player.setBonus = "+5% de vitesse de mouvement et de chances de coup critique magique\n" +
+				"Prendre plus de 25 dégâts en une seule fois fera tomber des plumes à têtes chercheuses du ciel\n" +
+				"Vous permet de tomber plus rapidement et annule les dégâts de chute";
 		}
 		else if (set == "AerospecRogue")
 		{
-			player.setBonus = "+5% de vitesse de mouvement et de chances de coup critique de voleur\nPrendre plus de 25 dégâts en une seule fois fera tomber des plumes à têtes chercheuses du ciel\nVous permet de tomber plus rapidement et annule les dégâts de chute\nLa furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 100\nUne fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\nLa furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\nEn s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur";
+			player.setBonus = "+5% de vitesse de mouvement et de chances de coup critique de voleur\n" +
+				"Prendre plus de 25 dégâts en une seule fois fera tomber des plumes à têtes chercheuses du ciel\n" +
+				"Vous permet de tomber plus rapidement et annule les dégâts de chute\n" +
+				"La furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 100\n" +
+				"Une fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\n" +
+				"La furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\n" +
+				"En s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur";
 		}
 		else if (set == "AerospecMelee")
 		{
-			player.setBonus = "+5% de vitesse de mouvement et chances de coup critique en mêlée\nPrendre plus de 25 dégâts en une seule fois fera tomber des plumes à têtes chercheuses du ciel\nVous permet de tomber plus rapidement et annule les dégâts de chute";
+			player.setBonus = "+5% de vitesse de mouvement et chances de coup critique en mêlée\n" +
+				"Prendre plus de 25 dégâts en une seule fois fera tomber des plumes à têtes chercheuses du ciel\n" +
+				"Vous permet de tomber plus rapidement et annule les dégâts de chute";
 		}
 		else if (set == "AerospecSummon")
 		{
-			player.setBonus = "+11% de dégâts des sbires et +1 sbire max\nInvoque une valkyrie pour vous protéger\nPrendre plus de 25 dégâts en une seule fois fera tomber des plumes à têtes chercheuses du ciel\nVous permet de tomber plus rapidement et annule les dégâts de chute";
+			player.setBonus = "+11% de dégâts des sbires et +1 sbire max\n" +
+				"Invoque une valkyrie pour vous protéger\n" +
+				"Prendre plus de 25 dégâts en une seule fois fera tomber des plumes à têtes chercheuses du ciel\n" +
+				"Vous permet de tomber plus rapidement et annule les dégâts de chute";
 		}
 		else if (set == "AerospecRanged")
 		{
-			player.setBonus = "+5% de vitesse de mouvement et de chances de coup critique à distance\nPrendre plus de 25 dégâts en une seule fois fera tomber des plumes à têtes chercheuses du ciel\nVous permet de tomber plus rapidement et annule les dégâts de chute";
+			player.setBonus = "+5% de vitesse de mouvement et de chances de coup critique à distance\n" +
+				"Prendre plus de 25 dégâts en une seule fois fera tomber des plumes à têtes chercheuses du ciel\n" +
+				"Vous permet de tomber plus rapidement et annule les dégâts de chute";
 		}
 		else if (set == "Astral")
 		{
-			player.setBonus = "+15% de vitesse de mouvement et +3 sbires max\n+28% de dégâts et +21% de chances de coup critique\nLes coups critiques font pleuvoir des étoiles déchues, sacrées et astrales\nCet effet à un temps de recharge de 1s";
+			player.setBonus = "+5% de vitesse de mouvement et +3 sbires max\n" +
+				"+35% de dégâts et +25% de chances de coup critique\n" +
+				"Les coups critiques font pleuvoir des étoiles déchues, sacrées et astrales\n" +
+				"Cet effet à un temps de recharge de 1s";
 		}
 		else if (set == "HydrothermicRanged")
 		{
-			player.setBonus = "+5% de dégâts à distance\nEffet de la potion infernale quand vous êtes à moins de la moitié de votre vie\nVous tirez une déflagration de chaos à tête chercheuse toutes les 0.33 secondes quand vous utilisez une arme à distance\nVous emettez une explosion flamboyante quand vous êtes touché";
+			player.setBonus = "+5% de dégâts à distance\n" +
+				"Effet de la potion infernale quand vous êtes à moins de la moitié de votre vie\n" +
+				"Vous tirez une déflagration de chaos à tête chercheuse toutes les 0.33 secondes quand vous utilisez une arme à distance\n" +
+				"Vous emettez une explosion flamboyante quand vous êtes touché";
 		}
 		else if (set == "HydrothermicMelee")
 		{
-			player.setBonus = "+5% de dégâts de mêlée\nLes ennemis ont plus de chance de vous cibler\nEffet de la potion infernale quand vous êtes à moins de la moitié de votre vie\nLes attaques et les projectiles de mêlée créent des éruptions de flammes chaotiques quand ils touchent\nVous emettez une explosion flamboyante quand vous êtes touché";
+			player.setBonus = "+5% de dégâts de mêlée\n" +
+				"Les ennemis ont plus de chance de vous cibler\n" +
+				"Effet de la potion infernale quand vous êtes à moins de la moitié de votre vie\n" +
+				"Les attaques et les projectiles de mêlée créent des éruptions de flammes chaotiques quand ils touchent\n" +
+				"Vous emettez une explosion flamboyante quand vous êtes touché";
 		}
 		else if (set == "HydrothermicSummon")
 		{
-			player.setBonus = "+40% de dégâts des sbires et +2 sbires max\nEffet de la potion infernale quand vous êtes à moins de la moitié de votre vie\nInvoque une Aération hydrothermique pour vous protéger\nVous emettez une explosion flamboyante quand vous êtes touché";
+			player.setBonus = "+40% de dégâts des sbires et +2 sbires max\n" +
+				"Effet de la potion infernale quand vous êtes à moins de la moitié de votre vie\n" +
+				"Invoque une Aération hydrothermique pour vous protéger\n" +
+				"Vous emettez une explosion flamboyante quand vous êtes touché";
 		}
 		else if (set == "HydrothermicRogue")
 		{
-			player.setBonus = "+5% de dégâts de voleur\nEffet de la potion infernale quand vous êtes à moins de la moitié de votre vie\nLes armes de voleur relâchent une volée de flammes chaotiques autour du joueur toutes les 2.5 secondes qui pourchassent les ennemis\nVous emettez une explosion flamboyante quand vous êtes touché\nLa furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 110\nUne fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\nLa furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\nEn s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur";
+			player.setBonus = "+5% de dégâts de voleur\n" +
+				"Effet de la potion infernale quand vous êtes à moins de la moitié de votre vie\n" +
+				"Les armes de voleur relâchent une volée de flammes chaotiques autour du joueur toutes les 2.5 secondes qui pourchassent les ennemis\n" +
+				"Vous emettez une explosion flamboyante quand vous êtes touché\n" +
+				"La furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 110\n" +
+				"Une fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\n" +
+				"La furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\n" +
+				"En s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur";
 		}
 		else if (set == "HydrothermicMagic")
 		{
-			player.setBonus = "+5% de dégâts magiques et -15% de coût en mana\nEffet de la potion infernale quand vous êtes à moins de la moitié de votre vie\nLes attaques magiques créent des orbes de soin et de dégâts quand elles touchent\nVous emettez une explosion flamboyante quand vous êtes touché";
+			player.setBonus = "+5% de dégâts magiques et -15% de coût en mana\n" +
+				"Effet de la potion infernale quand vous êtes à moins de la moitié de votre vie\n" +
+				"Les attaques magiques créent des orbes de soin et de dégâts quand elles touchent\n" +
+				"Vous emettez une explosion flamboyante quand vous êtes touché";
 		}
 		else if (set == "AuricMelee")
 		{
-			player.setBonus = "Effets des armures de mêlée d'estragon, de brûlesang, et de déicide\nLes ennemis ont plus de chances de vous cibler\nTous les projectiles font apparaître des orbes de soins auriques quand vous touchez";
+			player.setBonus = "Effets des armures de mêlée d'estragon, de brûlesang, et de déicide\n" +
+				"Les ennemis ont plus de chances de vous cibler\n" +
+				"Tous les projectiles font apparaître des orbes de soins auriques quand vous touchez";
 		}
 		else if (set == "AuricRanged")
 		{
-			player.setBonus = "Effets des armures à distance d'estragon, de brûlesang, et de déicide\nTous les projectiles font apparaître des orbes de soins auriques quand vous touchez";
+			player.setBonus = "Effets des armures à distance d'estragon, de brûlesang, et de déicide\n" +
+				"Tous les projectiles font apparaître des orbes de soins auriques quand vous touchez";
 		}
 		else if (set == "AuricRogue")
 		{
-			player.setBonus = "Effets des armures de voleur d'estragon, de brûlesang, et de déicide\nTous les projectiles font apparaître des orbes de soins auriques quand vous touchez\nLa furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 130\nUne fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\nLa furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\nEn s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur";
+			player.setBonus = "Effets des armures de voleur d'estragon, de brûlesang, et de déicide\n" +
+				"Tous les projectiles font apparaître des orbes de soins auriques quand vous touchez\n" +
+				"La furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 130\n" +
+				"Une fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\n" +
+				"La furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\n" +
+				"En s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur";
 		}
 		else if (set == "AuricSummon")
 		{
-			player.setBonus = "Effets des armures d'invocateur d'estragon, de brûlesang et Silva\nTous les projectiles font apparaître des orbes de soins auriques quand vous touchez\nVitesse de course et d'accélération augmentée de 5%\n+6 sbires max et +75% de dégâts des sbires";
+			player.setBonus = "Effets des armures d'invocateur d'estragon, de brûlesang et Silva\n" +
+				"Tous les projectiles font apparaître des orbes de soins auriques quand vous touchez\n" +
+				"Vitesse de course et d'accélération augmentée de 5%\n" +
+				"+6 sbires max et +75% de dégâts des sbires";
 		}
 		else if (set == "AuricMagic")
 		{
-			player.setBonus = "Effets des armures magiques d'estragon, de brûlesang et Silva\nTous les projectiles font apparaître des orbes auriques de soins quand vous touchez\nVitesse de course et d'accélération augmentée de 5%";
+			player.setBonus = "Effets des armures magiques d'estragon, de brûlesang et Silva\n" +
+				"Tous les projectiles font apparaître des orbes auriques de soins quand vous touchez\n" +
+				"Vitesse de course et d'accélération augmentée de 5%";
 		}
 		else if (set == "BloodflareRogue")
 		{
-			player.setBonus = "Augmente grandement la régénération de vie\nLes ennemis ayant moins de 50% de leur vie lâchent un coeur quand ils sont frappés\nCet effet à un temps de recharge de 5 secondes\nLes ennemis tués durant une lune de sang ont une bien meilleure chance de lâcher des orbes de sang\nAvoir plus de 80% de vos points de vie augmente votre défense de 30 et vos chances de coup critique de voleur de 5%\nAvoir moins de 80% de votre vie augmente vos dégâts de voleur de 10%\nLes coups critiques de voleur ont 50% de chances de vous soigner\nLa furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 120\nUne fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\nLa furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\nEn s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur";
+			player.setBonus = "Augmente grandement la régénération de vie\n" +
+				"Les ennemis ayant moins de 50% de leur vie lâchent un coeur quand ils sont frappés\n" +
+				"Cet effet à un temps de recharge de 5 secondes\n" +
+				"Les ennemis tués durant une lune de sang ont une bien meilleure chance de lâcher des orbes de sang\n" +
+				"Avoir plus de 80% de vos points de vie augmente votre défense de 30 et vos chances de coup critique de voleur de 5%\n" +
+				"Avoir moins de 80% de votre vie augmente vos dégâts de voleur de 10%\n" +
+				"Les coups critiques de voleur ont 50% de chances de vous soigner\n" +
+				"La furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 120\n" +
+				"Une fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\n" +
+				"La furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\n" +
+				"En s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur";
 		}
 		else if (set == "BloodflareSummon")
 		{
-			player.setBonus = "+50% de dégâts des sbires et +3 sbires max\nAugmente grandement la régénération de vie\nLes ennemis ayant moins de 50% de leur vie lâchent un coeur quand ils sont frappés\nCet effet à un temps de recharge de 5 secondes\nLes ennemis tués durant une lune de sang ont une bien meilleure chance de lâcher des orbes de sang\nInvoque des mines d'épouvantôme qui vous encerclent\nAvoir plus de 90% de votre vie augmente de 10% les dégâts des sbires\nAvoir moins de 50% de votre vie augmente votre défense de 20 et votre régénération de vie de 2";
+			player.setBonus = "+50% de dégâts des sbires et +3 sbires max\n" +
+				"Augmente grandement la régénération de vie\n" +
+				"Les ennemis ayant moins de 50% de leur vie lâchent un coeur quand ils sont frappés\n" +
+				"Cet effet à un temps de recharge de 5 secondes\n" +
+				"Les ennemis tués durant une lune de sang ont une bien meilleure chance de lâcher des orbes de sang\n" +
+				"Invoque des mines d'épouvantôme qui vous encerclent\n" +
+				"Avoir plus de 90% de votre vie augmente de 10% les dégâts des sbires\n" +
+				"Avoir moins de 50% de votre vie augmente votre défense de 20 et votre régénération de vie de 2";
 		}
 		else if (set == "BloodflareRanged")
 		{
-			player.setBonus = "Augmente grandement la régénération de vie\nLes ennemis ayant moins de 50% de leur vie lâchent un coeur quand ils sont frappés\nCet effet à un temps de recharge de 5 secondes\nLes ennemis tués durant une lune de sang ont une bien meilleure chance de lâcher des orbes de sang\nAppuyez sur " + hotkey + " pour libérer les âmes perdues de l'épouvantôme pour détruire vos ennemis\nCet effet a 30s de temps de recharge\nLes armes à distance tirent des orbes d'explosion de sang toutes les 2.5 secondes";
+			player.setBonus = "Augmente grandement la régénération de vie\n" +
+				"Les ennemis ayant moins de 50% de leur vie lâchent un coeur quand ils sont frappés\n" +
+				"Cet effet à un temps de recharge de 5 secondes\n" +
+				"Les ennemis tués durant une lune de sang ont une bien meilleure chance de lâcher des orbes de sang\n" +
+				"Appuyez sur " + hotkey + " pour libérer les âmes perdues de l'épouvantôme pour détruire vos ennemis\n" +
+				"Cet effet a 30s de temps de recharge\n" +
+				"Les armes à distance tirent des orbes d'explosion de sang toutes les 2.5 secondes";
 		}
 		else if (set == "BloodflareMagic")
 		{
-			player.setBonus = "Augmente grandement la régénération de vie\nLes ennemis ayant moins de 50% de leur vie lâchent un coeur quand ils sont frappés\nCet effet à un temps de recharge de 5 secondes\nLes ennemis tués durant une lune de sang ont une bien meilleure chance de lâcher des orbes de sang\nLes armes magiques tirent des décharges fantômatiques toutes les 1.67 secondes\nLes coups critiques magiques provoquent des explosions de flammes toutes les 2 secondes";
+			player.setBonus = "Augmente grandement la régénération de vie\n" +
+				"Les ennemis ayant moins de 50% de leur vie lâchent un coeur quand ils sont frappés\n" +
+				"Cet effet à un temps de recharge de 5 secondes\n" +
+				"Les ennemis tués durant une lune de sang ont une bien meilleure chance de lâcher des orbes de sang\n" +
+				"Les armes magiques tirent des décharges fantômatiques toutes les 1.67 secondes\n" +
+				"Les coups critiques magiques provoquent des explosions de flammes toutes les 2 secondes";
 		}
 		else if (set == "BloodflareMelee")
 		{
-			player.setBonus = "Augmente grandement la régénération de vie\nLes ennemis ont plus de chances de vous cibler\nLes ennemis ayant moins de 50% de leur vie lâchent un coeur quand ils sont frappés\nCet effet à un temps de recharge de 5 secondes\nLes ennemis tués durant une lune de sang ont une bien meilleure chance de lâcher des orbes de sang\nLes attaques de vraie mêlée vous soignent\nAprès 15 attaques de vraie mêlée réussies, vous entrerez en fureur de sang pendant 5 secondes\nLa fureur vous fera gagner 25% de dégâts et de chances de coup critique en mêlée, et les dégâts de contact sont réduit de moitié\nCet effet à 30s de temps de recharge";
+			player.setBonus = "Augmente grandement la régénération de vie\n" +
+				"Les ennemis ont plus de chances de vous cibler\n" +
+				"Les ennemis ayant moins de 50% de leur vie lâchent un coeur quand ils sont frappés\n" +
+				"Cet effet à un temps de recharge de 5 secondes\n" +
+				"Les ennemis tués durant une lune de sang ont une bien meilleure chance de lâcher des orbes de sang\n" +
+				"Les attaques de vraie mêlée vous soignent\n" +
+				"Après 15 attaques de vraie mêlée réussies, vous entrerez en fureur de sang pendant 5 secondes\n" +
+				"La fureur vous fera gagner 25% de dégâts et de chances de coup critique en mêlée, et les dégâts de contact sont réduit de moitié\n" +
+				"Cet effet à 30s de temps de recharge";
 		}
 		else if (set == "Brimflame")
 		{
-			player.setBonus = "+15% de dégâts et de chances de coup critique magique\nAppuyez sur " + hotkey + " pour déclencher une fureur flammesoufre\nDurant cet effet, vos dégâts sont significativement augmentés\nCependant, votre vie diminue rapidement et votre mana ne se régénère pas durant la fureur\nCependant, cet effet peut être interrompu, la fureur flammesoufre a un temps de recharge de 30s";
+			player.setBonus = "+15% de dégâts et de chances de coup critique magique\n" +
+				"Appuyez sur " + hotkey + " pour déclencher une fureur flammesoufre\n" +
+				"Durant cet effet, vos dégâts sont significativement augmentés\n" +
+				"Cependant, votre vie diminue rapidement et votre mana ne se régénère pas durant la fureur\n" +
+				"Cependant, cet effet peut être interrompu, la fureur flammesoufre a un temps de recharge de 30s";
 		}
 		else if (set == "DaedalusMagic")
 		{
-			player.setBonus = "+5% de dégâts magiques\nVous avez 10% de cahnce d'absorber les attaques et les projectiles physiques quand vous êtes touché\nSi vous absorbez une attaque, vous êtes soigné pour la moitié des dégâts de cette attaque";
+			player.setBonus = "+5% de dégâts magiques\n" +
+				"Vous avez 10% de cahnce d'absorber les attaques et les projectiles physiques quand vous êtes touché\n" +
+				"Si vous absorbez une attaque, vous êtes soigné pour la moitié des dégâts de cette attaque";
 		}
 		else if (set == "DaedalusSummon")
 		{
-			player.setBonus = "+20% de dégâts des sbires et +2 sbires max\nUn cristal de Dédale flotte au-dessus de vous pour vous protéger";
+			player.setBonus = "+20% de dégâts des sbires et +2 sbires max\n" +
+				"Un cristal de Dédale flotte au-dessus de vous pour vous protéger";
 		}
 		else if (set == "DaedalusMelee")
 		{
-			player.setBonus = "+5% de dégâts de mêlée\nLes ennemis ont plus de chances de vous cibler\nVous renvoyez les projectiles sur les ennemis\nSi vous renvoyez un projectile, il ne vous inflige que la moitié de ses dégâts\nCet effet à un temps de recharge de 90s partagé avec les autres effets d'esquive et de renvoi";
+			player.setBonus = "+5% de dégâts de mêlée\n" +
+				"Les ennemis ont plus de chances de vous cibler\n" +
+				"Vous renvoyez les projectiles sur les ennemis\n" +
+				"Si vous renvoyez un projectile, il ne vous inflige que la moitié de ses dégâts\n" +
+				"Cet effet à un temps de recharge de 90s partagé avec les autres effets d'esquive et de renvoi";
 		}
 		else if (set == "DaedalusRanged")
 		{
-			player.setBonus = "+5% de dégâts à distance\nÊtre touché vous fait émettre une décharge d'éclats de cristaux";
+			player.setBonus = "+5% de dégâts à distance\n" +
+				"Être touché vous fait émettre une décharge d'éclats de cristaux";
 		}
 		else if (set == "DaedalusRogue")
 		{
-			player.setBonus = "+5% de dégâts de voleur\nLes projectiles de voleur émettent des éclats de cristaux sur leur trajectoire\nLa furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 105\nUne fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\nLa furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\nEn s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur";
+			player.setBonus = "+5% de dégâts de voleur\n" +
+				"Les projectiles de voleur émettent des éclats de cristaux sur leur trajectoire\n" +
+				"La furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 105\n" +
+				"Une fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\n" +
+				"La furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\n" +
+				"En s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur";
 		}
 		else if (set == "Demonshade")
 		{
-			player.setBonus = "+100% de dégâts des sbires et +10 sbires max\nToutes les attaques infligent les flammes démoniaques\nDes rayons d'ombre et des faux démoniaques pleuvront quand vous serez touché\nUne diable rouge amical vous suivra\nAppuyez sur " + hotkey + " pour enrager les ennemis proches avec un sort de magie noire pendant 10s\nIl feront alors 25% de dégâts supplémentaires, mais subiront 125% de dégâts supplémentaires";
+			player.setBonus = "+100% de dégâts des sbires et +10 sbires max\n" +
+				"Toutes les attaques infligent les flammes démoniaques\n" +
+				"Des rayons d'ombre et des faux démoniaques pleuvront quand vous serez touché\n" +
+				"Une diable rouge amical vous suivra\n" +
+				"Appuyez sur " + hotkey + " pour enrager les ennemis proches avec un sort de magie noire pendant 10s\n" +
+				"Il feront alors 25% de dégâts supplémentaires, mais subiront 125% de dégâts supplémentaires";
 		}
 		else if (set == "DesertProwler")
 		{
-			player.setBonus = "Les attaques à distance font 1 dégât supplémentaire\nLes coups critiques à distance peuvent rarement conjurer une tempête de sable";
+			player.setBonus = "Les attaques à distance font 1 dégât supplémentaire\n" +
+				"Les coups critiques à distance peuvent rarement conjurer une tempête de sable";
 		}
 		else if (set == "FathomSwarmer")
 		{
-			player.setBonus = "+10% de dégâts des sbires et +2 sbires max\nPermet de grimper aux murs\n+30% de dégâts des sbires quand vous êtes immergé\nDonne une quantité de modérée de lumière et réduit de façon modérée la perte de respiration dans les abysses";
+			player.setBonus = "+10% de dégâts des sbires et +2 sbires max\n" +
+				"Permet de grimper aux murs\n" +
+				"+30% de dégâts des sbires quand vous êtes immergé\n" +
+				"Donne une quantité de modérée de lumière et réduit de façon modérée la perte de respiration dans les abysses";
 		}
 		else if (set == "Fearmonger")
 		{
-			player.setBonus = "+20% de dégâts des sbires et +2 sbires max\nLa réduction des dégâts infligés par les sbires est réduite quand vous tenez une arme\nImmunité à toutes les formes de flamme et de givre\nToutes les attaques de sbires augmentent colossalement la régénération de vie\n+15% de réduction de dégâts durant les lunes citrouilles et de givre\nCette réduction de dégâts ignore la limitation normale\nProtège contre le froid en mode Mort";
+			player.setBonus = "+20% de dégâts des sbires et +2 sbires max\n" +
+				"La réduction des dégâts infligés par les sbires est réduite quand vous tenez une arme\n" +
+				"Immunité à toutes les formes de flamme et de givre\n" +
+				"Toutes les attaques de sbires augmentent colossalement la régénération de vie\n" +
+				"+15% de réduction de dégâts durant les lunes citrouilles et de givre\n" +
+				"Cette réduction de dégâts ignore la limitation normale\n";
 		}
 		else if (set == "ForbiddenCalam")
 		{
 			int stormMana = (int)(60f * player.manaCost);
-			player.setBonus = "Appuyez sur " + hotkey + " pour convoquer une tornade ancienne à l'emplacement du curseur\nLa tornade ancienne coûte " + stormMana + " mana et profite à la fois des améliorations d'invocateur et de voleur\nLes attaques furtives créent des dévoreurs à tête chercheuse quand vous touchez\nLes attaques de voleur et d'invocateur utiliserons le bonus de statistiques le plus élevé des deux\nLa furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 40\nUne fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\nLa furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\nEn s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur";
+			player.setBonus = "Appuyez sur " + hotkey + " pour convoquer une tornade ancienne à l'emplacement du curseur\n" +
+				"La tornade ancienne coûte " + stormMana + " mana et profite à la fois des améliorations d'invocateur et de voleur\n" +
+				"Les attaques furtives créent des dévoreurs à tête chercheuse quand vous touchez\n" +
+				"Les attaques de voleur et d'invocateur utiliserons le bonus de statistiques le plus élevé des deux\n" +
+				"La furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 40\n" +
+				"Une fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\n" +
+				"La furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\n" +
+				"En s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur";
 		}
 		else if (set == "GodSlayerMelee")
 		{
-			player.setBonus = "Vous permet de foncer sur une immense distance dans toutes les directions\nAppuyez sur "+hotkey+ "tout en maintenant les touches directionnelles correspondant à la direction que vous souhaitez prendre\nLes ennemis que vous traversez en fonçant prennent des dégâts massifs\nCet effet a un temps de recharge de 35s\nPrendre plus de 80 dégâts en une fois vous fera relâcher une nuée de fléchettes déicides infligeant des dégâts importants\nLes ennemis subissent beaucoup de dégâts quand ils vous touchent\nUne attaque qui inflige moins de 80 dégâts vera ses dégâts réduits à 1";
+			player.setBonus = "Vous permet de foncer sur une immense distance dans toutes les directions\n" +
+				"Appuyez sur " + hotkey + "tout en maintenant les touches directionnelles correspondant à la direction que vous souhaitez prendre\n" +
+				"Les ennemis que vous traversez en fonçant prennent des dégâts massifs\n" +
+                "Durant cette ruée, vous êtes immunisé a la plupart des altérations d'état\n" +
+				"Cet effet a un temps de recharge de 35s\n" +
+                "Les ennemis ont plus de chances de vous cibler\n" +
+				"Prendre plus de 80 dégâts en une fois vous fera relâcher une nuée de fléchettes déicides infligeant des dégâts importants\n" +
+				"Les ennemis subissent beaucoup de dégâts quand ils vous touchent\n" +
+				"Une attaque qui inflige moins de 80 dégâts verra ses dégâts réduits à 1";
 		}
 		else if (set == "GodSlayerRanged")
 		{
-			player.setBonus = "Vous permet de foncer sur une immense distance dans toutes les directions\nAppuyez sur "+hotkey+ "tout en maintenant les touches directionnelles correspondant à la direction que vous souhaitez prendre\nLes ennemis que vous traversez en fonçant prennent des dégâts massifs\nCet effet a un temps de recharge de 35s\nVous tirez une cartouche à éclat déicide toutes les 2.5s quand vous tirez avec une arme à distance";
+			player.setBonus = "Vous permet de foncer sur une immense distance dans toutes les directions\n" +
+				"Appuyez sur " + hotkey + "tout en maintenant les touches directionnelles correspondant à la direction que vous souhaitez prendre\n" +
+				"Les ennemis que vous traversez en fonçant prennent des dégâts massifs\n" +
+				"Durant cette ruée, vous êtes immunisé a la plupart des altérations d'état\n" +
+				"Cet effet a un temps de recharge de 35s\n" +
+				"Vous tirez une cartouche à éclat déicide toutes les 2.5s quand vous tirez avec une arme à distance";
 		}
 		else if (set == "GodSlayerRogue")
 		{
-			player.setBonus = "Vous permet de foncer sur une immense distance dans toutes les directions\nAppuyez sur "+hotkey+ "tout en maintenant les touches directionnelles correspondant à la direction que vous souhaitez prendre\nLes ennemis que vous traversez en fonçant prennent des dégâts massifs\nCet effet a un temps de recharge de 35s\nQuand vous êtes à 100% de votre vie, toutes vos statistiques de voleur sont augmentées de 10%\nSi vous prenez plus de 80 dégâts en un coup, vous obtiendrez une période d'invulnérabilité plus longue\nLa furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 120\nUne fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\nLa furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\nEn s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur";
+			player.setBonus = "Vous permet de foncer sur une immense distance dans toutes les directions\n" +
+				"Appuyez sur " + hotkey + "tout en maintenant les touches directionnelles correspondant à la direction que vous souhaitez prendre\n" +
+				"Les ennemis que vous traversez en fonçant prennent des dégâts massifs\n" +
+				"Durant cette ruée, vous êtes immunisé a la plupart des altérations d'état\n" +
+				"Cet effet a un temps de recharge de 35s\n" +
+				"Quand vous êtes à 100% de votre vie, toutes vos statistiques de voleur sont augmentées de 10%\n" +
+				"Si vous prenez plus de 80 dégâts en un coup, vous obtiendrez une période d'invulnérabilité plus longue\n" +
+				"La furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 120\n" +
+				"Une fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\n" +
+				"La furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\n" +
+				"En s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur";
 		}
 		else if (set == "Mollusk")
 		{
-			player.setBonus = "Deux crustacés vous assisteront au combat\n+10% de dégâts\nVotre mouvement horizontal est réduit";
+			player.setBonus = "Deux crustacés vous assisteront au combat\n" +
+				"+10% de dégâts\n" +
+				"Votre mouvement horizontal est réduit";
 		}
 		else if (set == "OmegaBlue")
 		{
-			player.setBonus = "Augmente la pénétration d'armure de 15\n+10% de dégâts, de chances de coup critique et +2 sbires max\nDes tentacules à faible portée vous soigneront en aspirant la vie des ennemis\nAppuyez sur " + hotkey + " pour activer la folie abyssale pendant 5 secondes\nLa folie abyssale augmentent les dégâts, les chances de coup critique, et l'aggressivité et la portée des tentacules\nCet effet a 25s de temps de recharge";
+			player.setBonus = "Augmente la pénétration d'armure de 15\n" +
+				"+10% de dégâts, de chances de coup critique et +2 sbires max\n" +
+				"Des tentacules à faible portée vous soigneront en aspirant la vie des ennemis\n" +
+				"Appuyez sur " + hotkey + " pour activer la folie abyssale pendant 5 secondes\n" +
+				"La folie abyssale augmentent les dégâts, les chances de coup critique, et l'aggressivité et la portée des tentacules\n" +
+				"Cet effet a 25s de temps de recharge";
 		}
 		else if (set == "PlaguebringerSummon")
 		{
-			player.setBonus = "Accorde une ruée pestiférée pour charger les ennemis et leur infliger la peste\nInvoque un ptit colporte-peste pour vous protéger et renforcer les sbires proches\n+3 sbires max";
+			player.setBonus = "Accorde une ruée pestiférée pour charger les ennemis et leur infliger la peste\n" +
+				"Invoque un ptit colporte-peste pour vous protéger et renforcer les sbires proches\n" +
+				"+3 sbires max";
 		}
 		else if (set == "PlaguebringerRanged")
 		{
-			player.setBonus = "25% de réduction de consommation de munitions et +5% de temps de vol\nLes ennemis subissent 10% de dégâts supplémentaires des projectiles à distance quand ils sont affectés par la peste\nÊtre touché fait pleuvoir des cendres de peste\nAppuyer sur " + hotkey + " pour vous aveugler pendant 5 secondes mais augmenter massivement vos dégâts à distance\nCet effet a 25s de temps de recharge.";
+			player.setBonus = "25% de réduction de consommation de munitions et +5% de temps de vol\n" +
+				"Les ennemis subissent 10% de dégâts supplémentaires des projectiles à distance quand ils sont affectés par la peste\n" +
+				"Être touché fait pleuvoir des cendres de peste\n" +
+				"Appuyer sur " + hotkey + " pour vous aveugler pendant 5 secondes mais augmenter massivement vos dégâts à distance\n" +
+				"Cet effet a 25s de temps de recharge.";
 		}
 		else if (set == "Prismatic")
 		{
-			player.setBonus = "+40 mana maximum et +15% de réduction du coût en mana\nRégénération de mana augmentée\nAppuyez sur " + hotkey + " pour relâcher un barrage de lasers mortels sur le curseur pendant 5 secondes\nCet effet a 30s de temps de recharge";
+			player.setBonus = "+40 mana maximum et +15% de réduction du coût en mana\n" +
+				"Régénération de mana augmentée\n" +
+				"Appuyez sur " + hotkey + " pour relâcher un barrage de lasers mortels sur le curseur pendant 5 secondes\n" +
+				"Cet effet a 30s de temps de recharge";
 		}
 		else if (set == "ReaverExplore")
 		{
-			// TODO player.setBonus = "+10 défense et +3 régénération de vie\nLes ennemis ont plus de chance de vous cibler\nRéduit la perte de régénération de vie induite par les altérations d'état de 20%\nToutes les attaques ont une faible chance de voler de la vie et d'accélérer la vitesse de régénération de vie\n-20% de mouvement et de temps de vol\nLes dégâts ennemis sont reflétés et invoquent une pique d'épine\nLa rage du saccageur à 25% de chance de s'activer quand vous subissez des dégâts";
+			player.setBonus = "Fait briller les trésors proches\n" +
+				"Portée de ramassage et de placement des blocs auugmentée\n" +
+				"Miner des tuiles sous l'eau restaure la respiration\n" +
+				"Invoque une orbe massacreuse pour éclairer les environs\n" +
+				"Réduit l'agressivité des ennemis, même dans les abysses\n" +
+				"Accorde une petite quantité de lumière dans les abysses";
 		}
 		else if (set == "ReaverMobility")
 		{
-			// TODO player.setBonus = "Immunise aux dégâts de chute et permet le saut automatique\n+10% temps de vol et vitesse de vol horizontale\nLes grappins s'envoient et se rétractent 10% plus vite\nRéduit le temps de recharge des effets permettant de foncer";
+			player.setBonus = "Immunise contre les dégâts de chute et permet le saut automatique\n" +
+				"+10% de temps de vol et de vitesse de vol horizontal\n" +
+				"Les grappins se lancent et se rétractent 10% plus vite\n" +
+				"Réduit le temps de recharge des actions permettant de foncer";
+		}
+		else if (set == "ReaverTank")
+		{
+			player.setBonus = "+10 défense et +3 régénération de vie\n" +
+                "Les ennemis ont plus de chances de vous cibler\n" +
+                "Réduit la perte de régénération de vie a cause des altérations infligeant des dégâts de 20%\n" +
+                "Toutes les attaques ont une petite chance de volez de la vie et d'accélérer la vitesse de régénération de vie\n" +
+                "Réduction de la vitesse de déplacement et du temps de vol de 20%\n" +
+                "Les dégâts subis sont renvoyés et invoquent une épine\n" +
+                "La Rage du Saccageur à 25% de chances de s'activer lorsque vous subissez des dégâts";
+
 		}
 		else if (set == "ShroomiteCalam")
 		{
@@ -234,123 +418,301 @@ public class CalamityGlobalItem_FR : GlobalItem
 		}
 		else if (set == "SilvaSummon")
 		{
-			player.setBonus = "+65% de dégâts des sbires et +5 sbires max\nTous vos projectiles créent des orbes feuillues de soin quand elle touchent\nVitesse de course et d'accélération maximale augmentée de 5%\nSi vous tombez à 1 point de vie vous ne mourrez pas si vous subissez d'autres dégâts pendant 8s\nCet effet ne s'active qu'une fois par vie\nInvoque une ancien prisme feuillu pour anéantir vos ennemis avec de l'énergie vitale";
+			player.setBonus = "+65% de dégâts des sbires et +5 sbires max\n" +
+				"Tous vos projectiles créent des orbes feuillues de soin quand elle touchent\n" +
+				"Vitesse de course et d'accélération maximale augmentée de 5%\n" +
+				"Si vous tombez à 1 point de vie vous ne mourrez pas si vous subissez d'autres dégâts pendant 8s\n" +
+				"Cet effet ne s'active qu'une fois par vie\n" +
+				"Invoque une ancien prisme feuillu pour anéantir vos ennemis avec de l'énergie vitale";
 		}
 		else if (set == "SilvaMagic")
 		{
-			player.setBonus = "Tous vos projectiles créent des orbes feuillues de soin quand elle touchent\nVitesse de course et d'accélération maximale augmentée de 5%\nSi vous tombez à 1 point de vie vous ne mourrez pas si vous subissez d'autres dégâts pendant 8s\nCet effet ne s'active qu'une fois par vie\nLes projectiles magiques qui ne transpercent pas causeront occasionnellement de puissantes explosions d'énergie naturelle";
+			player.setBonus = "Tous vos projectiles créent des orbes feuillues de soin quand elle touchent\n" +
+				"Vitesse de course et d'accélération maximale augmentée de 8%\n" +
+				"Si vous tombez à 1 point de vie vous ne mourrez pas si vous subissez d'autres dégâts pendant 8s\n" +
+				"Cet effet ne s'active qu'une fois par vie\n" +
+				"Les projectiles magiques qui ne transpercent pas causeront occasionnellement de puissantes explosions d'énergie naturelle";
 		}
 		else if (set == "SnowRuffian")
 		{
-			player.setBonus = "+5% de dégâts de voleur\nVous pouvez flotter pour annuler les dégâts de chute\nLa furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 50\nUne fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\nLa furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\nEn s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur";
+			player.setBonus = "+5% de dégâts de voleur\n" +
+				"Vous pouvez flotter pour annuler les dégâts de chute\n" +
+				"La furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 50\n" +
+				"Une fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\n" +
+				"La furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\n" +
+				"En s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur";
 		}
 		else if (set == "StatigelMagic")
 		{
-			player.setBonus = "Si vous prenez 100 dégâts en un seul coup, votre période d'invulnérabilité est prolongée\nAccorde un saut additionnel et une hauteur de saut accrue\n+12% de vitesse de saut";
+			player.setBonus = "Si vous prenez 100 dégâts en un seul coup, votre période d'invulnérabilité est prolongée\n" +
+				"Accorde un saut additionnel et une hauteur de saut accrue\n" +
+				"+12% de vitesse de saut";
 		}
 		else if (set == "StatigelRanged")
 		{
-			player.setBonus = "Si vous prenez 100 dégâts en un seul coup, votre période d'invulnérabilité est prolongée\nAccorde un saut additionnel et une hauteur de saut accrue\n+12% de vitesse de saut";
+			player.setBonus = "Si vous prenez 100 dégâts en un seul coup, votre période d'invulnérabilité est prolongée\n" +
+				"Accorde un saut additionnel et une hauteur de saut accrue\n" +
+				"+12% de vitesse de saut";
 		}
 		else if (set == "StatigelMelee")
 		{
-			player.setBonus = "Les ennemis ont plus de chance de vous cibler\nSi vous prenez 100 dégâts en un seul coup, votre période d'invulnérabilité est prolongée\nAccorde un saut additionnel et une hauteur de saut accrue\n+12% de vitesse de saut";
+			player.setBonus = "Les ennemis ont plus de chance de vous cibler\n" +
+				"Si vous prenez 100 dégâts en un seul coup, votre période d'invulnérabilité est prolongée\n" +
+				"Accorde un saut additionnel et une hauteur de saut accrue\n" +
+				"+12% de vitesse de saut";
 		}
 		else if (set == "StatigelSummon")
 		{
-			player.setBonus = "+18% de dégâts des sbires et +1 sbires max\nInvoque un dieu des gelées miniature pour combattre à vos côtés, en fonction du biome maléfique présent dans votre monde\nSi vous prenez 100 dégâts en un seul coup, votre période d'invulnérabilité est prolongée\nAccorde un saut additionnel et une hauteur de saut accrue\n+12% de vitesse de saut";
+			player.setBonus = "+18% de dégâts des sbires et +1 sbires max\n" +
+				"Invoque un dieu des gelées miniature pour combattre à vos côtés, en fonction du biome maléfique présent dans votre monde\n" +
+				"Si vous prenez 100 dégâts en un seul coup, votre période d'invulnérabilité est prolongée\n" +
+				"Accorde un saut additionnel et une hauteur de saut accrue\n" +
+				"+12% de vitesse de saut";
 		}
 		else if (set == "StatigelRogue")
 		{
-			player.setBonus = "Si vous prenez 100 dégâts en un seul coup, votre période d'invulnérabilité est prolongée\nAccorde un saut additionnel et une hauteur de saut accrue\n+12% de vitesse de saut\nLa furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 100\nUne fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\nLa furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\nEn s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur";
+			player.setBonus = "Si vous prenez 100 dégâts en un seul coup, votre période d'invulnérabilité est prolongée\n" +
+				"Accorde un saut additionnel et une hauteur de saut accrue\n" +
+				"+12% de vitesse de saut\n" +
+				"La furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 100\n" +
+				"Une fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\n" +
+				"La furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\n" +
+				"En s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur";
 		}
 		else if (set == "Sulfur")
 		{
-			player.setBonus = "Attaquer et être attaqué par les ennemis inflige l'empoisonnement\nAccorde un saut additionnel qui invoque une bulle sulfurique\nAccorde une meilleure mobilité sous l'eau et réduit la sévérité des eaux sulfuriques\nLa furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 100\nUne fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\nLa furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\nEn s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur";
+			player.setBonus = "Attaquer et être attaqué par les ennemis inflige l'empoisonnement\n" +
+				"Accorde un saut additionnel qui invoque une bulle sulfurique\n" +
+				"Accorde une meilleure mobilité sous l'eau et réduit la sévérité des eaux sulfuriques\n" +
+				"La furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 100\n" +
+				"Une fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\n" +
+				"La furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\n" +
+				"En s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur";
 		}
 		else if (set == "TarragonMelee")
 		{
-			player.setBonus = "Augmente la portée de collecte des coeurs\nLes ennemis ont une chance de lâcher plus de coeurs quand ils meurent\nVous avez 25% de chances de gagner une amélioration de régénération de vie quand vous prenez des dégâts\nAppuyez sur " + hotkey + " pour vous draper dans de l'énergie vitale qui réduit énormément les dégâts de contact ennemis pendant 10s\nCet effet à 30s de temps de recharge";
+			player.setBonus = "Augmente la portée de collecte des coeurs\n" +
+				"Les ennemis ont une chance de lâcher plus de coeurs quand ils meurent\n" +
+                "Les ennemis ont plus de chances de vous cibler\n" +
+				"Vous avez 25% de chances de gagner une amélioration de régénération de vie quand vous prenez des dégâts\n" +
+				"Appuyez sur " + hotkey + " pour vous draper dans de l'énergie vitale qui réduit énormément les dégâts de contact ennemis pendant 10s\n" +
+				"Cet effet à 30s de temps de recharge";
 		}
 		else if (set == "TarragonRogue")
 		{
-			player.setBonus = "Réduit le taux d'apparition des ennemis\nAugmente la portée de collecte des coeurs\nLes ennemis ont une chance de lâcher plus de coeurs quand ils meurent\nTous les 25 coups critiques de voleur, vous gagnerez 3 secondes d'invincibilité\nCet effet à un temps de recharge de 30s\nLa furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 115\nUne fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\nLa furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\nEn s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur";
+			player.setBonus = "Réduit le taux d'apparition des ennemis\n" +
+				"Augmente la portée de collecte des coeurs\n" +
+				"Les ennemis ont une chance de lâcher plus de coeurs quand ils meurent\n" +
+				"Tous les 25 coups critiques de voleur, vous gagnerez 3 secondes d'invincibilité\n" +
+				"Cet effet à un temps de recharge de 30s\n" +
+                "Quand vous êtes sous l'effet d'une altération d'état, vous gagnez 10% de dégâts de voleur\n" +
+				"La furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 115\n" +
+				"Une fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\n" +
+				"La furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\n" +
+				"En s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur";
 		}
 		else if (set == "TarragonSummon")
 		{
-			player.setBonus = "+50% de dégâts des sbires et +3 sbires max\nRéduit le taux d'apparition des ennemis\nAugmente la portée de collecte des coeurs\nLes ennemis ont une chance de lâcher plus de coeurs quand ils meurent\nInvoque une aura vitale autour de vous qui inflige des dégâts aux ennemis proches";
+			player.setBonus = "+50% de dégâts des sbires et +3 sbires max\n" +
+				"Réduit le taux d'apparition des ennemis\n" +
+				"Augmente la portée de collecte des coeurs\n" +
+				"Les ennemis ont une chance de lâcher plus de coeurs quand ils meurent\n" +
+				"Invoque une aura vitale autour de vous qui inflige des dégâts aux ennemis proches";
 		}
 		else if (set == "TarragonMagic")
 		{
-			player.setBonus = "Réduit le taux d'apparition des ennemis\nAugmente la portée de collecte des coeurs\nLes ennemis ont une chance de lâcher plus de coeurs quand ils meurent\nTous les 5 coups critiques, vous libèrerez une tempête de feuilles\nLes projectiles magiques vous soignent quand vous touchez\nLa quantité de soin dépend des dégâts infligés par le projectile";
+			player.setBonus = "Réduit le taux d'apparition des ennemis\n" +
+				"Augmente la portée de collecte des coeurs\n" +
+				"Les ennemis ont une chance de lâcher plus de coeurs quand ils meurent\n" +
+				"Tous les 5 coups critiques, vous libèrerez une tempête de feuilles\n" +
+				"Les projectiles magiques vous soignent quand vous touchez\n" +
+				"La quantité de soin dépend des dégâts infligés par le projectile";
 		}
 		else if (set == "TarragonRanged")
 		{
-			player.setBonus = "Réduit le taux d'apparition des ennemis\nAugmente la portée de collecte des coeurs\nLes ennemis ont une chance de lâcher plus de coeurs quand ils meurent\nLes projectiles à distance se divisent en énergie vitale à tête chercheuse et en feuilles à l'impact";
+			player.setBonus = "Réduit le taux d'apparition des ennemis\n" +
+				"Augmente la portée de collecte des coeurs\n" +
+				"Les ennemis ont une chance de lâcher plus de coeurs quand ils meurent\n" +
+				"Les projectiles à distance se divisent en énergie vitale à tête chercheuse et en feuilles à l'impact";
 		}
 		else if (set == "TitanHeart")
 		{
-			player.setBonus = "+15% de dégâts et de recul de voleur\nLes attaques furtives ont deux fois plus de recul et provoquent une explosion astrale\nImmunise contre le recul\nLa furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 100\nUne fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\nLa furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\nEn s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur";
+			player.setBonus = "+15% de dégâts et de recul de voleur\n" +
+				"Les attaques furtives ont deux fois plus de recul et provoquent une explosion astrale\n" +
+				"Immunise contre le recul\n" +
+				"La furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 100\n" +
+				"Une fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\n" +
+				"La furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\n" +
+				"En s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur";
 		}
 		else if (set == "Umbraphile")
 		{
-			player.setBonus = "Les armes de voleur ont une chance de créer une explosion quand elles touchent\nLes attaques furtives créent toujours une explosion\nLes potions de pénombre augmentent toujours la furtivité avec une efficacité maximale\nLa furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 110\nUne fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\nLa furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\nEn s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur";
+			player.setBonus = "Les armes de voleur ont une chance de créer une explosion quand elles touchent\n" +
+				"Les attaques furtives créent toujours une explosion\n" +
+				"Les potions de pénombre augmentent toujours la furtivité avec une efficacité maximale\n" +
+				"La furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 110\n" +
+				"Une fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\n" +
+				"La furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\n" +
+				"En s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur";
 		}
 		else if (set == "VictideRogue")
 		{
-			player.setBonus = "+3 régénération de vie et +10% aux dégâts de voleur quand vous êtes immergé\nVous avez 10% de chances de jeter un boomerang coquillage quand vous attaquez\nLe coquillage fait des dégâts brut et ne bénéficie pas des bonus de classes\nAugmente la mobilité sous l'eau et réduit légèrement la perte de respiration dans les abysses\nLa furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 90\nUne fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\nLa furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\nEn s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur";
+			player.setBonus = "+3 régénération de vie et +10% aux dégâts de voleur quand vous êtes immergé\n" +
+				"Vous avez 10% de chances de jeter un boomerang coquillage quand vous attaquez\n" +
+				"Le coquillage fait des dégâts brut et ne bénéficie pas des bonus de classes\n" +
+				"Augmente la mobilité sous l'eau et réduit légèrement la perte de respiration dans les abysses\n" +
+				"La furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 90\n" +
+				"Une fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\n" +
+				"La furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\n" +
+				"En s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur";
 		}
 		else if (set == "VictideMelee")
 		{
-			player.setBonus = "Les ennemis ont plus de chance de vous cibler\n+3 régénération de vie et +10% aux dégâts de mêlée quand vous êtes immergé\nVous avez 10% de chances de jeter un boomerang coquillage quand vous attaquez\nLe coquillage fait des dégâts brut et ne bénéficie pas des bonus de classes\nAugmente la mobilité sous l'eau et réduit légèrement la perte de respiration dans les abysses";
+			player.setBonus = "Les ennemis ont plus de chance de vous cibler\n" +
+				"+3 régénération de vie et +10% aux dégâts de mêlée quand vous êtes immergé\n" +
+				"Vous avez 10% de chances de jeter un boomerang coquillage quand vous attaquez\n" +
+				"Le coquillage fait des dégâts brut et ne bénéficie pas des bonus de classes\n" +
+				"Augmente la mobilité sous l'eau et réduit légèrement la perte de respiration dans les abysses";
 		}
 		else if (set == "VictideSummon")
 		{
-			player.setBonus = "+3 régénération de vie et +10% aux dégâts des sbires quand vous êtes immergé\nInvoque un oursin des mer pour vous protéger\nVous avez 10% de chances de jeter un boomerang coquillage quand vous attaquez\nLe coquillage fait des dégâts brut et ne bénéficie pas des bonus de classes\nAugmente la mobilité sous l'eau et réduit légèrement la perte de respiration dans les abysses\n+1 sbires max";
+			player.setBonus = "+3 régénération de vie et +10% aux dégâts des sbires quand vous êtes immergé\n" +
+				"Invoque un oursin des mer pour vous protéger\n" +
+				"Vous avez 10% de chances de jeter un boomerang coquillage quand vous attaquez\n" +
+				"Le coquillage fait des dégâts brut et ne bénéficie pas des bonus de classes\n" +
+				"Augmente la mobilité sous l'eau et réduit légèrement la perte de respiration dans les abysses\n" +
+				"+1 sbires max";
 		}
 		else if (set == "VictideMagic")
 		{
-			player.setBonus = "+3 régénération de vie et +10% aux dégâts magiques quand vous êtes immergé\nVous avez 10% de chances de jeter un boomerang coquillage quand vous attaquez\nLe coquillage fait des dégâts brut et ne bénéficie pas des bonus de classes\nAugmente la mobilité sous l'eau et réduit légèrement la perte de respiration dans les abysses";
+			player.setBonus = "+3 régénération de vie et +10% aux dégâts magiques quand vous êtes immergé\n" +
+				"Vous avez 10% de chances de jeter un boomerang coquillage quand vous attaquez\n" +
+				"Le coquillage fait des dégâts brut et ne bénéficie pas des bonus de classes\n" +
+				"Augmente la mobilité sous l'eau et réduit légèrement la perte de respiration dans les abysses";
 		}
 		else if (set == "VictideRanged")
 		{
-			player.setBonus = "+3 régénération de vie et +10% aux dégâts à distance quand vous êtes immergé\nVous avez 10% de chances de jeter un boomerang coquillage quand vous attaquez\nLe coquillage fait des dégâts brut et ne bénéficie pas des bonus de classes\nAugmente la mobilité sous l'eau et réduit légèrement la perte de respiration dans les abysses";
+			player.setBonus = "+3 régénération de vie et +10% aux dégâts à distance quand vous êtes immergé\n" +
+				"Vous avez 10% de chances de jeter un boomerang coquillage quand vous attaquez\n" +
+				"Le coquillage fait des dégâts brut et ne bénéficie pas des bonus de classes\n" +
+				"Augmente la mobilité sous l'eau et réduit légèrement la perte de respiration dans les abysses";
 		}
 		else if (set == "WulfrumRanged")
 		{
-			player.setBonus = "+3 défense\n+5 défense quand vous avez moins de la moitié de vos points de vie";
+			player.setBonus = "+3 défense\n" +
+				"+5 défense quand vous avez moins de la moitié de vos points de vie";
 		}
 		else if (set == "WulfrumMelee")
 		{
-			player.setBonus = "+3 défense\n+5 défense quand vous avez moins de la moitié de vos points de vie";
+			player.setBonus = "+3 défense\n" +
+				"+5 défense quand vous avez moins de la moitié de vos points de vie";
 		}
 		else if (set == "WulfrumSummon")
 		{
-			player.setBonus = "+3 défense et +1 sbire max\n+5 défense quand vous avez moins de la moitié de vos points de vie";
+			player.setBonus = "+3 défense et +1 sbire max\n" +
+				"+5 défense quand vous avez moins de la moitié de vos points de vie";
 		}
 		else if (set == "WulfrumMagic")
 		{
-			player.setBonus = "+3 défense\n+5 défense quand vous avez moins de la moitié de vos points de vie";
+			player.setBonus = "+3 défense\n" +
+				"+5 défense quand vous avez moins de la moitié de vos points de vie";
 		}
 		else if (set == "WulfrumRogue")
 		{
-			player.setBonus = "+3 défense\n+5 défense quand vous avez moins de la moitié de vos points de vie\nLa furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 50\nUne fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\nLa furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\nEn s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur";
+			player.setBonus = "+3 défense\n" +
+				"+5 défense quand vous avez moins de la moitié de vos points de vie\n" +
+                "La furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 50\n" +
+                "Une fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\n" +
+                "La furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\n" +
+                "En s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur";
 		}
 		else if (set == "Xeroc")
 		{
-			player.setBonus = "+9% de dégâts et de vitesse des projectiles de voleur\nLes projectiles de voleur ont des effets spéciaux quand ils touchent\nVous êtes imprégné d'îre et de rage cosmique quand vous subissez des dégâts\nLa furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 115\nUne fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\nLa furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\nEn s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur";
+			player.setBonus = "+9% de dégâts et de vitesse des projectiles de voleur\n" +
+				"Les projectiles de voleur ont des effets spéciaux quand ils touchent\n" +
+				"Vous êtes imprégné d'îre et de rage cosmique quand vous subissez des dégâts\n" +
+				"La furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 115\n" +
+				"Une fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\n" +
+				"La furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\n" +
+				"En s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur";
+		}
+		else if (set == "Gemtech") {
+			player.setBonus = "Six fragments de gemmes sont en orbite autour de vous; une pour chaque classe, et une gemme de base\n" +
+                "Une gemme est perdue si vous prenez plus de 100 dégâts en un seul coup. Le type de gemme perdue correspond a la classe utilisée\n" +
+                "Si cette gemme à déja été perdue, la gemme de base est perdue à la place\n" +
+                "Quand une gemme est perdue, elle se brise et se rue vers l'ennemi le plus proche, et lui inflige une base de 40000 dégâts\n" +
+                "Les gemmes mettent 30 secondes pour réapparaître\n" +
+                "La gemme rouge accorde 130 furtivité maximum, des statistiques de voleur augmentées et rends la furtivité consommable uniquement via les armes de voleur\n" +
+                "La gemme bleue accorde 4 sbires supplémentaires, des dégâts de sbires augmentés et réduit la pénalité des invocations quand vous tenez une arme d'une autre classe\n" +
+                "La gemme violette accorde 100 mana maximum, des statistiques magiques augmentées, et régénére rapidement le mana quand vous tenez une arme non-magique\n" +
+                "La gemme rose accorde 75 défense, une réduction des dégâts, une vitesse de mouvement et de saut augmentée, et +2 régénération de vie\n" +
+                "Quand toutes les gemmes existent simultanément, toucher une cible avec une arme vous donnera +2 régénération de vie pendant 8 secondes\n" +
+                "Cet effet est porté a +3 durant 2.5 secondes si vous touchez une cible avec une arme d'une classe différente de celle qui a déclenché l'effet précédent";
 		}
 		else if (set == "Gladiator")
 		{
-			player.setBonus = "+3 défense\n+5% de dégâts de voleur et +10% de vitesse des projectiles de voleur\nLa furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 70\nUne fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\nLa furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\nEn s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur";
+			player.setBonus = "+3 défense\n" +
+				"+5% de dégâts de voleur et +10% de vitesse des projectiles de voleur\nLa furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 70\nUne fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\nLa furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\nEn s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur";
 		}
 		else if (set == "Obsidian")
 		{
-			player.setBonus = "+2 défense\n+5% de dégâts et de chances de critique de voleur\nImmunise contre les blocs de feu et immunité temporaire à la lave\nLa furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 80\nUne fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\nLa furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\nEn s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur" + (CalamityWorld.death ? "\nProtège de la chaleur en mode Mort" : "");
+			player.setBonus = "+2 défense\n" +
+				"+5% de dégâts et de chances de critique de voleur\n" +
+				"Immunise contre les blocs de feu et immunité temporaire à la lave\n" +
+				"La furtivité s'accumule quand vous n'attaquez pas, plus vite si vous êtes immobile, jusqu'à un maximum de 80\n" +
+				"Une fois la furtivité au maximum, vous pourrez effectuer une attaque furtive\n" +
+				"La furtivité ne diminue que si vous attaquez, elle ne diminue pas quand vous bougez\n" +
+				"En s'accumulant, la furtivité augmente votre vitesse de mouvement, ainsi que vos dégâts et vos chances de coup critique de voleur" +
+				(CalamityWorld.death ? "\nProtège de la chaleur en mode Mort" : "");
 		}
 		else if (set == "Eskimo")
 		{
-			player.setBonus = "+10% de dégâts pour les armes de glace\nLes ennemis du froid infligent moins de dégâts de contact\nImmunise contre le brûlegivre et l'état glacial" + (CalamityWorld.death ? "\nProtège du froid en mode Mort" : "");
+			player.setBonus = "+10% de dégâts pour les armes de glace\n" +
+				"Les ennemis du froid infligent moins de dégâts de contact\n" +
+				"Immunise contre le brûlegivre et l'état glacial" + (CalamityWorld.death ? "\nProtège du froid en mode Mort" : "");
+		}
+		else if (set == "CrystalAssasin")
+		{
+			player.setBonus = "Permet de foncer";
+		}
+		else if (set == "SquireTier2")
+		{
+			player.setBonus = player.setBonus.Replace("Increases your life regeneration\n" +
+				"15% increased minion damage and 10% increased melee critical strike chance", "Augmente votre régénération de vie\n" +
+				"+15% de dégâts des sbires et +10% de chances de coup critique en mêlée");
+		}
+		else if (set == "HuntressTier2")
+		{
+			player.setBonus = player.setBonus.Replace("10% increased minion and ranged damage", "+10% de dégâts des sbires et à distance");
+		}
+		else if (set == "ApprenticeTier2")
+		{
+			player.setBonus = player.setBonus.Replace("5% increased minion damage and 15% increased magic critical strike chance", "+5% de dégâts des sbires et +15% de chances de critique magique");
+		}
+		else if (set == "MonkTier3")
+		{
+			player.setBonus = player.setBonus.Replace("10% increased melee damage, melee critical strike chance and melee speed\n" +
+				"30% increased minion damage", "+10% aux dégâts, chances de coup critique et vitesse de mêlée\n" +
+				"+30% de dégâts des sbires");
+		}
+		else if (set == "SquireTier3")
+		{
+			player.setBonus = player.setBonus.Replace("Massively increased life regeneration\n" +
+				"10% increased minion damage and melee critical strike chance", "Augmentation massive de la régénération de vie\n" +
+				"+10% aux dégâts des sbires et aux chances de coup critique en mêlée");
+		}
+		else if (set == "HuntressTier3")
+		{
+			player.setBonus = player.setBonus.Replace("10% increased minion and ranged damage", "+10% de dégâts pour les dégâts des sbires et à distance");
+		}
+		else if (set == "ApprenticeTier3")
+		{
+			player.setBonus = player.setBonus.Replace("10% increased minion damage and 15% increased magic critical strike chance", "+10% aux dégâts des sbires et +15% aux chances de coup critique magique");
+		}
+		else if (set == "SpectreHealing")
+		{
+			player.setBonus = "Réduit les dégâts magiques de 20% et le convertit en force de soin\n" +
+				"Les dégâts magiques infligés aux ennemis soignent le joueur avec le moins de vie restante";
 		}
 	}
 
@@ -523,6 +885,10 @@ public class CalamityGlobalItem_FR : GlobalItem
 		{
 			return "ReaverMobility";
 		}
+		if (head.type == ModContent.ItemType<ReaverHeadTank>() && body.type == ModContent.ItemType<ReaverScaleMail>() && legs.type == ModContent.ItemType<ReaverCuisses>())
+		{
+			return "ReaverTank";
+		}
 		if (head.type == ModContent.ItemType<ShroomiteVisage>() && body.type == 1549 && legs.type == 1550)
 		{
 			return "ShroomiteCalam";
@@ -635,7 +1001,12 @@ public class CalamityGlobalItem_FR : GlobalItem
 		{
 			return "Xeroc";
 		}
+		if (head.type == ModContent.ItemType<GemTechHeadgear>() && body.type == ModContent.ItemType<GemTechBodyArmor>() && legs.type == ModContent.ItemType<GemTechSchynbaulds>())
+		{
+			return "Gemtech";
+		}
 		//Original Code from Calamity - May be unneccesary
+		/*
 		if (head.type == 89 && body.type == 80 && legs.type == 76)
 		{
 			return "Copper";
@@ -692,6 +1063,7 @@ public class CalamityGlobalItem_FR : GlobalItem
 		{
 			return "Pearlwood";
 		}
+		*/
 		return "";
 	}
 	public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)

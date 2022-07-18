@@ -46,10 +46,11 @@ namespace Calamity_FR
 			if (ModLoader.GetMod("CalamityMod") != null)
 			{
 				Mod Calamity = ModLoader.GetMod("CalamityMod");
+				TranslationConfig cfg = ((TranslationConfig)this.GetConfig("TranslationConfig"));
 				if (Calamity != null)
 				{
 					var list = JsonSerializer.Deserialize<List<TranslationElement>>(TranslationElement.getRaw());
-					this.Logger.Info("Test : taille liste : " + list.Count);
+					//this.Logger.Info("Test : taille liste : " + list.Count);
 					foreach (TranslationElement element in list)
 					{
 						if (element.state == "Traduit")
@@ -63,7 +64,16 @@ namespace Calamity_FR
 								}
 								else if (element.type == "ITEM")
 								{
-									Calamity.Find<ModItem>(element.id)?.DisplayName.AddTranslation(GameCulture.FromCultureName(GameCulture.CultureName.French), element.englishName);
+									string effectiveName = element.englishName;
+									if (cfg.nameInEnglishWithFrench)
+									{
+										effectiveName = element.name + " (" + effectiveName + ")";
+									}
+									else if (cfg.nameInFrench) {
+										effectiveName = element.name;
+									}
+
+									Calamity.Find<ModItem>(element.id)?.DisplayName.AddTranslation(GameCulture.FromCultureName(GameCulture.CultureName.French), effectiveName);
 									if (element?.englishTooltip[0] != "DO NOT TRAD")
 									{
 										Calamity.Find<ModItem>(element.id)?.Tooltip.AddTranslation(GameCulture.FromCultureName(GameCulture.CultureName.French), element.transformTooltip());
