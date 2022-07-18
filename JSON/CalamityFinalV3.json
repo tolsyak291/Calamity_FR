@@ -5,8 +5,8 @@
 		"englishName": "Abyssal Weapon",
 		"englishDesc": "Melee and rogue weapons inflict brimstone flames, 5% increased movement speed",
 		"name": "Arme Abyssale",
-		"desc": "Les armes de mêlée infligent les flammes abyssales, +5% de vitesse de mouvement",
-		"state": "A retraduire"
+		"desc": "Les armes de mêlée infligent flammes abyssales, +5% de vitesse de mouvement",
+		"state": "Traduit"
 	},
 	{
 		"id": "SnapClamDebuff",
@@ -15,7 +15,7 @@
 		"englishDesc": "Clapped by Snap Clams",
 		"name": "Clammé",
 		"desc": "Clap de Palourde",
-		"state": "A retraduire"
+		"state": "Traduit"
 	},
 	{
 		"id": "EvergreenGinBuff",
@@ -23,8 +23,8 @@
 		"englishName": "Evergreen Gin",
 		"englishDesc": "Sickness and water debuff damage boosted, life regen reduced",
 		"name": "Gin Evergreen",
-		"desc": "La maladie, dégats et réduction des dégâts de l'altération d'eau augmentés et régénération de vie réduite",
-		"state": "A retraduire"
+		"desc": "Régénération de vie réduite,augmentation des dégats et réduction des dégâts de l'altération d'eau augmentés",
+		"state": "Traduit"
 	},
 	{
 		"id": "MarkedforDeath",
@@ -32,8 +32,8 @@
 		"englishName": "Marked for Death",
 		"englishDesc": "Damage reduction reduced",
 		"name": "Marqué",
-		"desc": "Réduction de dégâts réduite",
-		"state": "A retraduire"
+		"desc": "Multiplie par 1,5 les dégats reçus",
+		"state": "Traduit"
 	},
 	{
 		"id": "AnechoicCoatingBuff",
@@ -41,8 +41,8 @@
 		"englishName": "Anechoic Coating",
 		"englishDesc": "Abyssal creatures' detection ranges reduced",
 		"name": "Revêtement Anechoïque",
-		"desc": "Rayon de détection des créatures des abysses réduit",
-		"state": "A retraduire"
+		"desc": "Réduit la portée de détection des créatures abyssales",
+		"state": "Traduit"
 	},
 	{
 		"id": "DiamondCrawlerBanner",
@@ -55,7 +55,7 @@
 		"tooltip": [
 			"{$CommonItemTooltip.BannerBonus}Rampant de Diamant"
 		],
-		"state": "A retraduire"
+		"state": "Traduit"
 	},
 	{
 		"id": "TrilobiteBanner",
@@ -64,11 +64,11 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Trilobite"
 		],
-		"name": "Bannière du Rampant de Diamant",
+		"name": "Bannière Rampant de Diamant",
 		"tooltip": [
 			"{$CommonItemTooltip.BannerBonus}Trilobite"
 		],
-		"state": "A retraduire"
+		"state": "Traduit"
 	},
 	{
 		"id": "SeaboundStaff",
@@ -79,9 +79,9 @@
 		],
 		"name": "Bâton des Mers",
 		"tooltip": [
-			"Summons a brittle star to fight for you"
+			"Invoque une étoile de mer pour combattre à vos côtés "
 		],
-		"state": "A retraduire"
+		"state": "Traduit"
 	},
 	{
 		"id": "AbyssalCrate",
@@ -15582,21 +15582,6 @@
 		"tooltip": [
 			"Invoque Howl pour vous protéger, Calcifer pour éclairér votre voie, et Tête-de-Navet pour vous suivre",
 			"Placer cette accessoire dans un emplacement de vanité invoquera le trio sans leurs fonctions utilitaires"
-		],
-		"state": "Traduit"
-	},
-	{
-		"id": "DraedonsHeart",
-		"type": "ITEM",
-		"englishName": "Draedon's Heart",
-		"englishTooltip": [
-			"DO NOT TRAD"
-		],
-		"name": "Coeur de Draedon",
-		"tooltip": [
-			"Réduit les dégâts que vous subissez de 50%",
-			"Rester immobile régénére rapidement votre vie, réduit vos dégâts de 50% et augmente votre défense de 75%",
-			"Les nanomachines, mon grand"
 		],
 		"state": "Traduit"
 	},
@@ -32170,7 +32155,7 @@
 		"englishDesc": "Are you honestly that bad at dodging?",
 		"name": "",
 		"desc": "T'es vraiment aussi mauvais à l'esquive?",
-		"state": "Traduit"
+		"state": "Trad"
 	},
 	{
 		"id": "EdgyBossText9",
