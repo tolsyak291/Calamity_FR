@@ -94,7 +94,7 @@
 		"tooltip": [
 			"{$CommonItemTooltip.RightClickToOpen}"
 		],
-		"state": "A retraduire"
+		"state": "Traduit"
 	},
 	{
 		"id": "AstralCrate",
@@ -107,7 +107,7 @@
 		"tooltip": [
 			"{$CommonItemTooltip.RightClickToOpen}"
 		],
-		"state": "A retraduire"
+		"state": "Traduit"
 	},
 	{
 		"id": "SunkenCrate",
