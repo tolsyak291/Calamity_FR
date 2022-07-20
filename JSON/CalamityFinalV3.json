@@ -116,7 +116,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.RightClickToOpen}"
 		],
-		"name": "Caisse Immergé",
+		"name": "Caisse Immergée",
 		"tooltip": [
 			"{$CommonItemTooltip.RightClickToOpen}"
 		],
