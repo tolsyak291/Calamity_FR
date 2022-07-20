@@ -116,11 +116,11 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.RightClickToOpen}"
 		],
-		"name": "Caisse Coulée",
+		"name": "Caisse Immergé",
 		"tooltip": [
 			"{$CommonItemTooltip.RightClickToOpen}"
 		],
-		"state": "A retraduire"
+		"state": "Traduit"
 	},
 	{
 		"id": "BrimstoneCrate",
@@ -133,7 +133,7 @@
 		"tooltip": [
 			"{$CommonItemTooltip.RightClickToOpen}"
 		],
-		"state": "A retraduire"
+		"state": "Traduit"
 	},
 	{
 		"id": "MangroveChakram",
@@ -142,8 +142,11 @@
 		"englishTooltip": [
 			"Stealth strikes leave a trail of lingering flowers"
 		],
+		"tooltip": [
+			"Les frappes furtives laissent une traînée de fleurs persistantes."
+		],
 		"name": "Chakram de la Mangrove",
-		"state": "A retraduire"
+		"state": "Traduit"
 	},
 	{
 		"id": "DevilsSunrise",
@@ -152,11 +155,11 @@
 		"englishTooltip": [
 			"Balls? Smalls."
 		],
-		"name": "Lever du Soleil du Diable",
+		"name": "Soleil Démoniaque",
 		"tooltip": [
-			"Balls? Smalls."
+			"Tu joues aux billes ?."
 		],
-		"state": "A retraduire"
+		"state": "Traduit"
 	},
 	{
 		"id": "ShadowspecBar",
@@ -166,7 +169,9 @@
 			"A vile, black metal, so horrendous and powerful as to defy explanation"
 		],
 		"name": "Lingot d'Ombrespec",
-		"state": "A retraduire"
+		"tooltip": [
+			"Un métal si noir, si horrible et puissant qu'il défie l'imagination."
+		"state": "Traduit"
 	},
 	{
 		"id": "AuricOre",
@@ -176,7 +181,9 @@
 			"Laced with the dormant power of a deity"
 		],
 		"name": "Minerai Aurique",
-		"state": "A retraduire"
+		"tooltip": [
+			"Empreint du pouvoir dormant d'une divinité."
+		"state": "Traduit"
 	},
 	{
 		"id": "Phantoplasm",
@@ -186,7 +193,9 @@
 			"It churns and seethes with ghastly malice"
 		],
 		"name": "Phantoplasme",
-		"state": "A retraduire"
+		"tooltip": [
+			"Il se consume et bouillonne d'une malice effroyable."
+		"state": "Traduit"
 	},
 	{
 		"id": "StarterBag",
@@ -199,7 +208,7 @@
 		"tooltip": [
 			"{$CommonItemTooltip.RightClickToOpen}"
 		],
-		"state": "A retraduire"
+		"state": "Traduit"
 	},
 	{
 		"id": "AstrumDeusBag",
@@ -212,7 +221,7 @@
 		"tooltip": [
 			"{$CommonItemTooltip.RightClickToOpen}"
 		],
-		"state": "A retraduire"
+		"state": "Traduit"
 	},
 	{
 		"id": "HiveMindBag",
@@ -221,11 +230,11 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.RightClickToOpen}"
 		],
-		"name": "Sac à Trésors",
+		"name": "Sac à Trésors (L'Esprit de Ruche)",
 		"tooltip": [
 			"{$CommonItemTooltip.RightClickToOpen}"
 		],
-		"state": "A retraduire"
+		"state": "Traduit"
 	},
 	{
 		"id": "SlimeGodBag",
@@ -234,11 +243,11 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.RightClickToOpen}"
 		],
-		"name": "Sac à Trésors",
+		"name": "Sac à Trésors (Dieu des Gelées)",
 		"tooltip": [
 			"{$CommonItemTooltip.RightClickToOpen}"
 		],
-		"state": "A retraduire"
+		"state": "Traduit"
 	},
 	{
 		"id": "YharonBag",
@@ -247,11 +256,11 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.RightClickToOpen}"
 		],
-		"name": "Sac à Trésors",
+		"name": "Sac à Trésors (Dragon de la Jungle, Yharon)",
 		"tooltip": [
 			"{$CommonItemTooltip.RightClickToOpen}"
 		],
-		"state": "A retraduire"
+		"state": "Traduit"
 	},
 	{
 		"id": "RavagerBag",
@@ -260,11 +269,11 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.RightClickToOpen}"
 		],
-		"name": "Sac à Trésors",
+		"name": "Sac à Trésors (Ravageur)",
 		"tooltip": [
 			"{$CommonItemTooltip.RightClickToOpen}"
 		],
-		"state": "A retraduire"
+		"state": "Traduit"
 	},
 	{
 		"id": "DesertScourgeBag",
@@ -273,11 +282,11 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.RightClickToOpen}"
 		],
-		"name": "Sac à Trésors",
+		"name": "Sac à Trésors (Fléau du Désert)",
 		"tooltip": [
 			"{$CommonItemTooltip.RightClickToOpen}"
 		],
-		"state": "A retraduire"
+		"state": "Traduit"
 	},
 	{
 		"id": "CryogenBag",
@@ -286,11 +295,11 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.RightClickToOpen}"
 		],
-		"name": "Sac à Trésors",
+		"name": "Sac à Trésors (Cryogène)",
 		"tooltip": [
 			"{$CommonItemTooltip.RightClickToOpen}"
 		],
-		"state": "A retraduire"
+		"state": "Traduit"
 	},
 	{
 		"id": "PlaguebringerGoliathBag",
