@@ -18,7 +18,7 @@ namespace Calamity_FR
         [Header("Ajustements")]
         [Label("Noms des objets en français")]
         [BackgroundColor(192, 54, 64, 192)]
-        [DefaultValue(false)]
+        [DefaultValue(true)]
         [Tooltip("Affiche les noms des objets en français")]
         [ReloadRequired]
         public bool nameInFrench
