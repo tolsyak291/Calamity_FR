@@ -554,13 +554,13 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.RightClickToOpen}"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
 				"author": "",
-				"translatedName": "Sac à Trésors",
+				"translatedName": "Sac à Trésors (Goliath Porte-Peste)",
 				"translatedTooltip": [
 					"{$CommonItemTooltip.RightClickToOpen}"
 				],
@@ -576,13 +576,13 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.RightClickToOpen}"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
 				"author": "",
-				"translatedName": "Sac à Trésors",
+				"translatedName": "Sac à Trésors (Providence, la Déesse Profanée)",
 				"translatedTooltip": [
 					"{$CommonItemTooltip.RightClickToOpen}"
 				],
@@ -598,13 +598,13 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.RightClickToOpen}"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
 				"author": "",
-				"translatedName": "Sac à Trésors",
+				"translatedName": "Sac à Trésors (Élémentaire de soufre)",
 				"translatedTooltip": [
 					"{$CommonItemTooltip.RightClickToOpen}"
 				],
@@ -620,13 +620,13 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.RightClickToOpen}"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
 				"author": "",
-				"translatedName": "Sac à Trésors",
+				"translatedName": "Sac à Trésors (Le Dévoreur de Dieux)",
 				"translatedTooltip": [
 					"{$CommonItemTooltip.RightClickToOpen}"
 				],
@@ -642,13 +642,13 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.RightClickToOpen}"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
 				"author": "",
-				"translatedName": "Sac à Trésors",
+				"translatedName": "Sac à Trésors (Les Perforateurs)",
 				"translatedTooltip": [
 					"{$CommonItemTooltip.RightClickToOpen}"
 				],
@@ -664,13 +664,13 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.RightClickToOpen}"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
 				"author": "",
-				"translatedName": "Sac à Trésors",
+				"translatedName": "Sac à Trésors (Épouvantôme)",
 				"translatedTooltip": [
 					"{$CommonItemTooltip.RightClickToOpen}"
 				],
@@ -686,13 +686,13 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.RightClickToOpen}"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
 				"author": "",
-				"translatedName": "Sac à Trésors",
+				"translatedName": "Sac à Trésors (Fléau Aquatique)",
 				"translatedTooltip": [
 					"{$CommonItemTooltip.RightClickToOpen}"
 				],
@@ -708,13 +708,13 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.RightClickToOpen}"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
 				"author": "",
-				"translatedName": "Sac à Trésors",
+				"translatedName": "Sac à Trésors (Crabulon)",
 				"translatedTooltip": [
 					"{$CommonItemTooltip.RightClickToOpen}"
 				],
@@ -730,13 +730,13 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.RightClickToOpen}"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
 				"author": "",
-				"translatedName": "Sac à Trésors",
+				"translatedName": "Sac à Trésors (Le Vieux Duc)",
 				"translatedTooltip": [
 					"{$CommonItemTooltip.RightClickToOpen}"
 				],
@@ -752,13 +752,13 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.RightClickToOpen}"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
 				"author": "",
-				"translatedName": "Sac à Trésors",
+				"translatedName": "Sac à Trésors (Calamitas)",
 				"translatedTooltip": [
 					"{$CommonItemTooltip.RightClickToOpen}"
 				],
@@ -774,13 +774,13 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.RightClickToOpen}"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
 				"author": "",
-				"translatedName": "Sac à Trésors",
+				"translatedName": "Sac à Trésors (Léviathan et Anahita)",
 				"translatedTooltip": [
 					"{$CommonItemTooltip.RightClickToOpen}"
 				],
@@ -797,13 +797,17 @@
 			"Summons the Lunatic Cultist",
 			"Not consumable"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
 				"author": "",
 				"translatedName": "Tablette Eidolon",
+				"translatedTooltip": [
+					"Invoque l'Adepte Lunatique "
+					"Ne se consomme pas"
+				],
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -817,7 +821,7 @@
 			"@everyone",
 			"50% chance to not consume ammo"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -840,7 +844,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.RightClickToOpen}"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -862,7 +866,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.RightClickToOpen}"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -884,13 +888,16 @@
 		"englishTooltip": [
 			"Summons The Old Duke if used as bait in the sulphur sea"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
 				"author": "",
 				"translatedName": "Ver de Sang",
+				"translatedTooltip": [
+					"Invoque le Vieux Duc s'il est utilisé comme un appât dans dans la mer sulfurique"
+				],
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -903,13 +910,16 @@
 		"englishTooltip": [
 			"Shoots 3 shadowflame skulls"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
 				"author": "",
 				"translatedName": "Îre du Tailleur",
+				"translatedTooltip": [
+					"Tire 3 crânes d'ombreflamme"
+				],
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -920,14 +930,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "You are no god... but I shall feast upon your essence regardless!",
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
 				"author": "",
 				"translatedName": "",
-				"translatedDesc": "Tu n'es pas un dieu...mais peu importe, je devorerais ton essence!",
+				"translatedDesc": "Tu n'es pas un dieu...mais peu importe, je devorerais ton âme!",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -938,7 +948,7 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "Death is active; enjoy the fun.",
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -956,7 +966,7 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "Death is not active; not fun enough for you?",
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -974,14 +984,14 @@
 		"type": "BUFF",
 		"englishName": "Akato",
 		"englishDesc": "Looks like you'll have to take care of it now",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
 				"author": "",
 				"translatedName": "Akato",
-				"translatedDesc": "Looks like you'll have to take care of it now",
+				"translatedDesc": "On dirait que tu vas devoir t'en occuper maintenant",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -992,14 +1002,14 @@
 		"type": "BUFF",
 		"englishName": "Ancient Mineral Shark",
 		"englishDesc": "Ancient yet so dangerous",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
 				"author": "",
 				"translatedName": "Ancient Mineral Shark",
-				"translatedDesc": "Ancient yet so dangerous",
+				"translatedDesc": "Ancienne et pourtant si dangereuse",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -1010,14 +1020,14 @@
 		"type": "BUFF",
 		"englishName": "Archer of Lunamoon",
 		"englishDesc": "You have a personal spotter",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
 				"author": "",
 				"translatedName": "Archer of Lunamoon",
-				"translatedDesc": "You have a personal spotter",
+				"translatedDesc": "Vous avez un observateur personnel",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -1028,14 +1038,14 @@
 		"type": "BUFF",
 		"englishName": "Astral Jelly",
 		"englishDesc": "The mini astrageldon slime will protect you",
-		"state": "A traduire",
+		"state": "traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
 				"author": "",
 				"translatedName": "Astral Jelly",
-				"translatedDesc": "The mini astrageldon slime will protect you",
+				"translatedDesc": "Le mini slime astral vous protégera.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -1046,14 +1056,14 @@
 		"type": "BUFF",
 		"englishName": "Baby Blood Crawler",
 		"englishDesc": "The baby blood crawler will protect you",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
 				"author": "",
 				"translatedName": "Baby Blood Crawler",
-				"translatedDesc": "The baby blood crawler will protect you",
+				"translatedDesc": "Le bébé rampant de sang vous protégera",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -1064,14 +1074,14 @@
 		"type": "BUFF",
 		"englishName": "Baby Slime God",
 		"englishDesc": "The slime god will protect you",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
 				"author": "",
 				"translatedName": "Baby Slime God",
-				"translatedDesc": "The slime god will protect you",
+				"translatedDesc": "Le dieu slime vous protégera",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -21755,7 +21765,7 @@
 				"translatedTooltip": [
 					"Tire un faible faisceau de plasma",
 					"Tirer sur une tuile fera se diviser le faisceau en plusieurs rayons plus puissants",
-					"Tirer sur un ennemi lui infligera la flamme sombre sur une longue période"
+					"Tirer sur un ennemi lui infligera ombreflamme sur une longue période"
 				],
 				"proofRead": false,
 				"proofReader": ""
