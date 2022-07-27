@@ -559,7 +559,7 @@
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Kastiel",
 				"translatedName": "Sac à Trésors (Goliath Porte-Peste)",
 				"translatedTooltip": [
 					"{$CommonItemTooltip.RightClickToOpen}"
@@ -581,7 +581,7 @@
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Kastiel",
 				"translatedName": "Sac à Trésors (Providence, la Déesse Profanée)",
 				"translatedTooltip": [
 					"{$CommonItemTooltip.RightClickToOpen}"
@@ -603,7 +603,7 @@
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Kastiel",
 				"translatedName": "Sac à Trésors (Élémentaire de soufre)",
 				"translatedTooltip": [
 					"{$CommonItemTooltip.RightClickToOpen}"
@@ -625,7 +625,7 @@
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Kastiel",
 				"translatedName": "Sac à Trésors (Le Dévoreur de Dieux)",
 				"translatedTooltip": [
 					"{$CommonItemTooltip.RightClickToOpen}"
@@ -647,7 +647,7 @@
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Kastiel",
 				"translatedName": "Sac à Trésors (Les Perforateurs)",
 				"translatedTooltip": [
 					"{$CommonItemTooltip.RightClickToOpen}"
@@ -669,7 +669,7 @@
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Kastiel",
 				"translatedName": "Sac à Trésors (Épouvantôme)",
 				"translatedTooltip": [
 					"{$CommonItemTooltip.RightClickToOpen}"
@@ -691,7 +691,7 @@
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Kastiel",
 				"translatedName": "Sac à Trésors (Fléau Aquatique)",
 				"translatedTooltip": [
 					"{$CommonItemTooltip.RightClickToOpen}"
@@ -713,7 +713,7 @@
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Kastiel",
 				"translatedName": "Sac à Trésors (Crabulon)",
 				"translatedTooltip": [
 					"{$CommonItemTooltip.RightClickToOpen}"
@@ -735,7 +735,7 @@
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Kastiel",
 				"translatedName": "Sac à Trésors (Le Vieux Duc)",
 				"translatedTooltip": [
 					"{$CommonItemTooltip.RightClickToOpen}"
@@ -757,7 +757,7 @@
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Kastiel",
 				"translatedName": "Sac à Trésors (Calamitas)",
 				"translatedTooltip": [
 					"{$CommonItemTooltip.RightClickToOpen}"
@@ -779,7 +779,7 @@
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Kastiel",
 				"translatedName": "Sac à Trésors (Léviathan et Anahita)",
 				"translatedTooltip": [
 					"{$CommonItemTooltip.RightClickToOpen}"
@@ -802,7 +802,7 @@
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Kastiel",
 				"translatedName": "Tablette Eidolon",
 				"translatedTooltip": [
 					"Invoque l'Adepte Lunatique "
@@ -826,7 +826,7 @@
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Kastiel",
 				"translatedName": "Tir Croisé du Conclave",
 				"translatedTooltip": [
 					"50% de chances de ne pas consommer de munitions",
@@ -849,7 +849,7 @@
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Kastiel",
 				"translatedName": "Trésor Abyssal",
 				"translatedTooltip": [
 					"{$CommonItemTooltip.RightClickToOpen}"
@@ -871,7 +871,7 @@
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Kastiel",
 				"translatedName": "Trésor Sulfurique",
 				"translatedTooltip": [
 					"{$CommonItemTooltip.RightClickToOpen}"
@@ -893,7 +893,7 @@
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Kastiel",
 				"translatedName": "Ver de Sang",
 				"translatedTooltip": [
 					"Invoque le Vieux Duc s'il est utilisé comme un appât dans dans la mer sulfurique"
@@ -915,7 +915,7 @@
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Kastiel",
 				"translatedName": "Îre du Tailleur",
 				"translatedTooltip": [
 					"Tire 3 crânes d'ombreflamme"
@@ -935,7 +935,7 @@
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Kastiel",
 				"translatedName": "",
 				"translatedDesc": "Tu n'es pas un dieu...mais peu importe, je devorerais ton âme!",
 				"proofRead": false,
@@ -953,7 +953,7 @@
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Kastiel",
 				"translatedName": "",
 				"translatedDesc": "La Mort est activée, profites bien du fun.",
 				"proofRead": false,
@@ -971,7 +971,7 @@
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Kastiel",
 				"translatedName": "",
 				"translatedDesc": "La Mort est désactivée, pas assez fun pour toi?",
 				"proofRead": false,
@@ -989,7 +989,7 @@
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Kastiel",
 				"translatedName": "Akato",
 				"translatedDesc": "On dirait que tu vas devoir t'en occuper maintenant",
 				"proofRead": false,
@@ -1007,8 +1007,8 @@
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Ancient Mineral Shark",
+				"author": "Kastiel",
+				"translatedName": "Ancien Requin de Pierre",
 				"translatedDesc": "Ancienne et pourtant si dangereuse",
 				"proofRead": false,
 				"proofReader": ""
@@ -1025,8 +1025,8 @@
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Archer of Lunamoon",
+				"author": "Kastiel",
+				"translatedName": "Archer de Lunamoon",
 				"translatedDesc": "Vous avez un observateur personnel",
 				"proofRead": false,
 				"proofReader": ""
@@ -1043,8 +1043,8 @@
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Astral Jelly",
+				"author": "Kastiel",
+				"translatedName": "Gelée Astral",
 				"translatedDesc": "Le mini slime astral vous protégera.",
 				"proofRead": false,
 				"proofReader": ""
@@ -1061,8 +1061,8 @@
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Baby Blood Crawler",
+				"author": "Kastiel",
+				"translatedName": "Bébé Rampant de Sang",
 				"translatedDesc": "Le bébé rampant de sang vous protégera",
 				"proofRead": false,
 				"proofReader": ""
@@ -1079,8 +1079,8 @@
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Baby Slime God",
+				"author": "Kastiel",
+				"translatedName": "Bébé Dieu des Gelée",
 				"translatedDesc": "Le dieu slime vous protégera",
 				"proofRead": false,
 				"proofReader": ""
@@ -1092,14 +1092,14 @@
 		"type": "BUFF",
 		"englishName": "Baby Stormlion",
 		"englishDesc": "The baby stormlion will protect you",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Baby Stormlion",
-				"translatedDesc": "The baby stormlion will protect you",
+				"author": "Kastiel",
+				"translatedName": "Bébé Stormlion",
+				"translatedDesc": "Le bébé Stormlion vous protégera",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -1110,14 +1110,14 @@
 		"type": "BUFF",
 		"englishName": "Boss Effects",
 		"englishDesc": "This tooltip is edited in the function below",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Boss Effects",
-				"translatedDesc": "This tooltip is edited in the function below",
+				"author": "Kastiel",
+				"translatedName": "Effets de Boss",
+				"translatedDesc": "Cette infobulle est éditée dans la fonction ci-dessous",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -1128,14 +1128,14 @@
 		"type": "BUFF",
 		"englishName": "Brimrose Mount",
 		"englishDesc": "The seat is toasty.  That is all",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Brimrose Mount",
-				"translatedDesc": "The seat is toasty.  That is all",
+				"author": "Kastiel",
+				"translatedName": "Brimrose Monture",
+				"translatedDesc": "Le siège est chaud.  C'est tout",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -1146,14 +1146,14 @@
 		"type": "BUFF",
 		"englishName": "Brimseeker",
 		"englishDesc": "Does it want something from you?",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Kastiel",
 				"translatedName": "Brimseeker",
-				"translatedDesc": "Does it want something from you?",
+				"translatedDesc": "Veut-il quelque chose de vous ?",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -1164,14 +1164,14 @@
 		"type": "BUFF",
 		"englishName": "Cadance's Grace",
 		"englishDesc": "Your heart is pure",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Cadance's Grace",
-				"translatedDesc": "Your heart is pure",
+				"author": "Kastiel",
+				"translatedName": "La grace de Cadance",
+				"translatedDesc": "Votre cœur est pur",
 				"proofRead": false,
 				"proofReader": ""
 			}
