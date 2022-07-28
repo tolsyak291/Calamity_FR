@@ -148,7 +148,8 @@ public class CalamityGlobalNPC_FR : GlobalNPC
 		int waifu = NPC.FindFirstNPC(353);
 		int partyGirl = NPC.FindFirstNPC(208);
 		int lilBitch = NPC.FindFirstNPC(369);
-        
+		int witch = NPC.FindFirstNPC(ModContent.NPCType<WITCH>());
+
 		/*
 			Setting NPC names to avoid AOOB when evaluated at -1
 			Maybe write a dedicated function someday because this is dirty
@@ -165,8 +166,9 @@ public class CalamityGlobalNPC_FR : GlobalNPC
 			dryad : 9
 			amidias : 10
 			thief : 11
+			witch : 12
 		*/
-		string[] givenNames = new string[12];
+		string[] givenNames = new string[13];
 		for (int j = 0; j < givenNames.Length; j++) {
 			givenNames[j] = "";
 		}
@@ -216,6 +218,10 @@ public class CalamityGlobalNPC_FR : GlobalNPC
 		if (thief != -1)
 		{
 			givenNames[11] = Main.npc[thief].GivenName;
+		}
+		if (witch != -1)
+		{
+			givenNames[12] = Main.npc[witch].GivenName;
 		}
 
 		string fabSpecialQuote = "You're all pretty good! ...wait, who are you again?";
@@ -1063,6 +1069,82 @@ public class CalamityGlobalNPC_FR : GlobalNPC
 			new string[2]{
 				"God Slayer Dynamite? Boy do I like the sound of that!",
 				"De la dynamite déicide? Oh ça, ça sonne bien!"
+			},
+			new string[2]{
+				"I'm considering moving back to that old cave of mine.",
+				"Je suis en train de considérer à réemménager dans ma vieille cave."
+			},
+			new string[2]{
+				"I certainly can't return to the Tyrant's old dwellings now, have you got any places to stay?",
+				"Je ne peux certainement pas retourner au repère du vieux tyran maintenant, t'as un endroit ou je peux m'installer ?"
+			},
+			new string[2]{
+				"I can't pay rent, but if you've got any dead relative you want me to try and... what? You don't?",
+				"Je peux pas payer le loyer, mais si tu as de la famille morte que tu veux que j'essaie de... quoi ? t'en as pas ?"
+			},
+			new string[2]{
+				"One of these days, I was thinking of starting a garden with the flowers from the old capitol of hell. I love the smell of brimstone in the morning.",
+				"Un de ces jours, je ferai peut-être un jardin avec des fleurs dans la vieille capitale des enfers. J'adore l'odeur du soufre de bon matin."
+			},
+			new string[2]{
+				"I think I've settled comfortably, thank you very much.",
+				"Je pense que je suis bien installée, merci beaucoup."
+			},
+			new string[2]{
+				"Many seasons have gone by since I first met with the Tyrant, and only now did I break free. I wish I'd been stronger...",
+				"Tant de saisons ont passée depuis que j'ai rencontré le tyran pour la première fois, et je ne me suis libérée que maintenant. J'aurais aimé être plus forte..."
+			},
+			new string[2]{
+				"If you've got any curses you want dispelled... well I'm not your person.",
+				"Si t'as des malédictions à dissiper... bah tu frappes pas a la bonne porte."
+			},
+			new string[2]{
+				"Such an unnatural shade of red. Nothing like my brimstone flames.",
+				"Une teinte de rouge aussi anormale. Rien a voir avec mes flammes soufrées.,"
+			},
+			new string[2]{
+				"I can't work with nights like these. The stars seem to have shrunk away in fear.",
+				"Je peux pas travailler durant des nuits comme celles la. Les étoiles semblent disparaître d'effroi."
+			},
+			new string[2]{
+				"These undead are horrific, I can't stand to look at them. How could anyone be satisfied with such amateur work?",
+				"Ces morts-vivants sont horribles, je ne peux pas supporter de les voir. Comment quiquonque pourrait-être satisfait d'un travail aussi amateur?"
+			},
+			new string[2]{
+				"I don't think it's a stretch to say that astrology is utter nonsense... but it was a hobby of mine once.",
+				"Je pense pas exagéré en disant que l'astrologie n'a aucun sens... mais c'était mon hobby autrefois."
+			},
+			new string[2]{
+				"If another person asks me if I can dance or not, I will light their hat on fire.",
+				"Si quelqu'un d'autre me demande si je veux dancer ou non, je mets le feu a son chapeau."
+			},
+			new string[2]{
+				"I cannot understand the Sea King. He does not seem to want me dead. That amount of compassion I just can't understand.",
+				"Je ne comprends pas le roi des mers. Il ne veux pas me voir morte. Je ne peux juste pas comprendre ce niveau de compassion."
+			},
+			new string[2]{
+				"That frosty old man... even if you ignore our brands of magic and our old alliances, I doubt I'd ever get along with him.",
+				"Ce vieil homme givré... même en mettant de côté nos magies respectives et nos vieilles allégeances, je ne pense pas que je m'entendrais bien avec lui un jour."
+			},
+			new string[2]{
+				"I wonder if " + givenNames[2] + " ever feels cold given how revealing her dress is. Perhaps she should cover up a bit more.",
+				"Je me demande si ça arrive à " + givenNames[2] + " d'avoir froid vu sa robe. Peut-être qu'elle devrait se couvrir un peu plus."
+			},
+			new string[2]{
+				"Mrrp is cringe.",
+				"Mrrp est cringe."
+			},
+			new string[2]{
+				"Hey, hey, has Calamitas seriously moved in here with us? Why???",
+				"Hey, hey, Calamitas a sérieusement emménagé avec nous? Mais pourquoi???"
+			},
+			new string[2]{
+				"I must admit, the Witch's presence is unsettling to me. But so many years have passed, and she too has suffered much.",
+				"Je dois l'admettre, la présence de la sorcière me dérange. Mais tant d'années ont passé, et elle n'a que trop souffert."
+			},
+			new string[2]{
+				"The abuse " + givenNames[12] + " went through is something I can hardly comprehend. I'd offer her a drink, but I don't think she'd enjoy it.",
+				"Le martyr que " + givenNames[12] + " a souffert est quelque chose que je ne peux pas comprendre. Je lui offrirai bien un verre, mais je doute qu'elle puisse l'apprécier."
 			}
 		};
 		bool found = false;
