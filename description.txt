@@ -1,11 +1,16 @@
 Traduction française non-officielle du mod Calamity
 Unofficial Calamity mod french translation
 
-A l'exception du texte impossible à traduire, tout est traduit a l'exception du contenu exclusif à la 1.5
-Visitez le forum pour plus d'informations
+A l'exception du texte impossible à traduire, tout est traduit a l'exception du contenu exclusif à la 1.5 et à la 2.0
+Environ 600 objets/buffs/debuff/PNJ + le bestaire + les tuiles restent a traduire
 
-Besides untranslatable texts, everything is translated besides 1.5 exclusive content
-Please visit the forum for more information
+Ajouts de la dernière version :
+	Les dialogues des PNJ sont entièrement traduits, y compris les dialogues de bonheur. Seule l'interface propre au dernier villageois débloquable reste non traduite
+	Les dialogues des deux derniers boss ont été traduits (l'interface proposée au début du combat de l'un des deux n'est pas traduite)
+	Les éventuelles erreurs de traductions dues au changement de la v1.5 vers la v2 de Calamity ont toutes été corrigées
+	Ajouts de quelques traductions d'objets
+
+Visitez le forum pour plus d'informations : https://forums.terraria.org/index.php?threads/calamity-mod-french-translation.106939/
 
 Si vous relevez des fautes et/ou des problèmes de traduction, signalez le sur le forum que je puisse le corriger.
 
