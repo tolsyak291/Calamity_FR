@@ -55,47 +55,56 @@ namespace Calamity_FR
 					{
 						if (element.state == "Traduit")
 						{
-							try
-							{
-								if (element.type == "BUFF")
-								{
-									Calamity.Find<ModBuff>(element.id)?.DisplayName.AddTranslation(GameCulture.FromCultureName(GameCulture.CultureName.French), element.name);
-									Calamity.Find<ModBuff>(element.id)?.Description.AddTranslation(GameCulture.FromCultureName(GameCulture.CultureName.French), element.desc);
+							Translation activeTranslation = null;
+							foreach (Translation tr in element.translations) {
+								if (tr.id == element.activeTranslation) {
+									activeTranslation = tr;
+									break;
 								}
-								else if (element.type == "ITEM")
-								{
-									string effectiveName = element.englishName;
-									if (cfg.nameInEnglishWithFrench)
-									{
-										effectiveName = element.name + " (" + effectiveName + ")";
-									}
-									else if (cfg.nameInFrench) {
-										effectiveName = element.name;
-									}
-
-									Calamity.Find<ModItem>(element.id)?.DisplayName.AddTranslation(GameCulture.FromCultureName(GameCulture.CultureName.French), effectiveName);
-									if (element?.englishTooltip[0] != "DO NOT TRAD")
-									{
-										Calamity.Find<ModItem>(element.id)?.Tooltip.AddTranslation(GameCulture.FromCultureName(GameCulture.CultureName.French), element.transformTooltip());
-									}
-								}
-								else if (element.type == "NPC")
-								{
-									Calamity.Find<ModNPC>(element.id)?.DisplayName.AddTranslation(GameCulture.FromCultureName(GameCulture.CultureName.French), element.name);
-								}
-								else if (element.type == "TRANSLATION")
-								{
-									ModTranslation text = LocalizationLoader.CreateTranslation("Mods." + ModContent.GetInstance<CalamityMod.CalamityMod>().Name + "." + element.id);
-									text.AddTranslation(GameCulture.FromCultureName(GameCulture.CultureName.English), element.englishDesc);
-									text.AddTranslation(GameCulture.FromCultureName(GameCulture.CultureName.French), element.desc);
-									text.SetDefault(element.englishDesc);
-									LocalizationLoader.AddTranslation(text);
-								}
-								//ModTranslation name = Calamity.GetTile("PerennialOre").CreateMapEntryName();
-								//name.SetDefault("Minerai Vivace");
-								//Calamity.GetTile("PerennialOre").AddMapEntry(new Color(200, 250, 100), name);
 							}
-							catch { }
+							if(activeTranslation != null) { 
+								try
+								{
+									if (element.type == "BUFF")
+									{
+										Calamity.Find<ModBuff>(element.id)?.DisplayName.AddTranslation(GameCulture.FromCultureName(GameCulture.CultureName.French), activeTranslation.translatedName);
+										Calamity.Find<ModBuff>(element.id)?.Description.AddTranslation(GameCulture.FromCultureName(GameCulture.CultureName.French), activeTranslation.translatedDesc);
+									}
+									else if (element.type == "ITEM")
+									{
+										string effectiveName = element.englishName;
+										if (cfg.nameInEnglishWithFrench)
+										{
+											effectiveName = activeTranslation.translatedName + " (" + effectiveName + ")";
+										}
+										else if (cfg.nameInFrench) {
+											effectiveName = activeTranslation.translatedName;
+										}
+
+										Calamity.Find<ModItem>(element.id)?.DisplayName.AddTranslation(GameCulture.FromCultureName(GameCulture.CultureName.French), effectiveName);
+										if (element?.englishTooltip[0] != "DO NOT TRAD")
+										{
+											Calamity.Find<ModItem>(element.id)?.Tooltip.AddTranslation(GameCulture.FromCultureName(GameCulture.CultureName.French), activeTranslation.transformTooltip());
+										}
+									}
+									else if (element.type == "NPC")
+									{
+										Calamity.Find<ModNPC>(element.id)?.DisplayName.AddTranslation(GameCulture.FromCultureName(GameCulture.CultureName.French), activeTranslation.translatedName);
+									}
+									else if (element.type == "TRANSLATION")
+									{
+										ModTranslation text = LocalizationLoader.CreateTranslation("Mods." + ModContent.GetInstance<CalamityMod.CalamityMod>().Name + "." + element.id);
+										text.AddTranslation(GameCulture.FromCultureName(GameCulture.CultureName.English), element.englishDesc);
+										text.AddTranslation(GameCulture.FromCultureName(GameCulture.CultureName.French), activeTranslation.translatedDesc);
+										text.SetDefault(element.englishDesc);
+										LocalizationLoader.AddTranslation(text);
+									}
+									//ModTranslation name = Calamity.GetTile("PerennialOre").CreateMapEntryName();
+									//name.SetDefault("Minerai Vivace");
+									//Calamity.GetTile("PerennialOre").AddMapEntry(new Color(200, 250, 100), name);
+								}
+								catch { }
+							}
 						}
 					}
 				}
