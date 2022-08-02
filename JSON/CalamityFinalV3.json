@@ -1044,7 +1044,7 @@
 			{
 				"id": 1,
 				"author": "Kastiel",
-				"translatedName": "Gelée Astral",
+				"translatedName": "Gelée Astrale",
 				"translatedDesc": "Le mini slime astral vous protégera.",
 				"proofRead": false,
 				"proofReader": ""
@@ -13964,12 +13964,12 @@
 		"id": "AresBody",
 		"type": "NPC",
 		"englishName": "XF-09 Ares",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "XF-09 Ares",
 				"proofRead": false,
 				"proofReader": ""
@@ -13980,13 +13980,13 @@
 		"id": "AresGaussNuke",
 		"type": "NPC",
 		"englishName": "XF-09 Ares Gauss Nuke",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "XF-09 Ares Gauss Nuke",
+				"author": "Tolsyak",
+				"translatedName": "Atomiseur Gauss XF-09 Ares",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -13996,13 +13996,13 @@
 		"id": "AresLaserCannon",
 		"type": "NPC",
 		"englishName": "XF-09 Ares Laser Cannon",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
 				"author": "",
-				"translatedName": "XF-09 Ares Laser Cannon",
+				"translatedName": "Canon Laser XF-09 Ares",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14012,13 +14012,13 @@
 		"id": "AresPlasmaFlamethrower",
 		"type": "NPC",
 		"englishName": "XF-09 Ares Plasma Cannon",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "XF-09 Ares Plasma Cannon",
+				"author": "Tolsyak",
+				"translatedName": "Canon à Plasma XF-09 Ares",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14028,13 +14028,13 @@
 		"id": "AresTeslaCannon",
 		"type": "NPC",
 		"englishName": "XF-09 Ares Tesla Cannon",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "XF-09 Ares Tesla Cannon",
+				"author": "Tolsyak",
+				"translatedName": "Canon Tesla XF-09 Ares",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14044,12 +14044,12 @@
 		"id": "ThanatosHead",
 		"type": "NPC",
 		"englishName": "XM-05 Thanatos",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "XM-05 Thanatos",
 				"proofRead": false,
 				"proofReader": ""
@@ -14060,12 +14060,12 @@
 		"id": "ThanatosBody2",
 		"type": "NPC",
 		"englishName": "XM-05 Thanatos",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "XM-05 Thanatos",
 				"proofRead": false,
 				"proofReader": ""
@@ -14076,12 +14076,12 @@
 		"id": "ThanatosBody1",
 		"type": "NPC",
 		"englishName": "XM-05 Thanatos",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "XM-05 Thanatos",
 				"proofRead": false,
 				"proofReader": ""
@@ -14092,12 +14092,12 @@
 		"id": "ThanatosTail",
 		"type": "NPC",
 		"englishName": "XM-05 Thanatos",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "XM-05 Thanatos",
 				"proofRead": false,
 				"proofReader": ""
@@ -14108,12 +14108,12 @@
 		"id": "Artemis",
 		"type": "NPC",
 		"englishName": "XS-01 Artemis",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "XS-01 Artemis",
 				"proofRead": false,
 				"proofReader": ""
@@ -14124,12 +14124,12 @@
 		"id": "Apollo",
 		"type": "NPC",
 		"englishName": "XS-03 Apollo",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "XS-03 Apollo",
 				"proofRead": false,
 				"proofReader": ""
@@ -14141,14 +14141,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "Do you enjoy going through hell?",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "Do you enjoy going through hell?",
+				"translatedDesc": "Ca t'amuse de passer l'enfer?",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14159,14 +14159,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "You should have just died...",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "You should have just died...",
+				"translatedDesc": "Tu devrais juste mourir...",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14177,14 +14177,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "It wasn't too long ago you barely managed to defeat my doppelganger. Quite the failure, wasn't it?",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "It wasn't too long ago you barely managed to defeat my doppelganger. Quite the failure, wasn't it?",
+				"translatedDesc": "Il n'y a pas si longtemps que tu as à peine réussi a vaincre mon clone. Un échec retentissant, pas vrai?",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14195,14 +14195,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "You've harnessed great power, but you wield it for no one but yourself.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "You've harnessed great power, but you wield it for no one but yourself.",
+				"translatedDesc": "Tu as acquéri un grand pouvoir, mais tu ne t'en sers pas personne d'autre que toi-même.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14213,14 +14213,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "Would you like to meet my family? Horrible, isn't it?",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "Would you like to meet my family? Horrible, isn't it?",
+				"translatedDesc": "Tu veux rencontrer ma famille? Horrible, pas vrai?",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14231,14 +14231,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "You will suffer greatly.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "You will suffer greatly.",
+				"translatedDesc": "Tu souffrira grandement.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14249,14 +14249,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "It's absurd to even think of trying to get away. As long as you live, you will suffer.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "It's absurd to even think of trying to get away. As long as you live, you will suffer.",
+				"translatedDesc": "Il est absurde de ne serait-ce que penser a s'enfuir. Aussi longtemps que tu vivras, tu souffriras.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14267,14 +14267,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "An upstart who recklessly stole and killed their way to power. I wonder, who does that remind me of...?",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "An upstart who recklessly stole and killed their way to power. I wonder, who does that remind me of...?",
+				"translatedDesc": "Un parvenu qui a insouciamment volé et tué pour obtenir son pouvoir. Je me demande bien qui cela me rappele...?",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14285,14 +14285,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "You have no stake in this battle. No one gave you any say in this matter!",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "You have no stake in this battle. No one gave you any say in this matter!",
+				"translatedDesc": "Tu n'as aucun intêret dans ce combat. Personne ne t'as demandé ton avis!",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14303,14 +14303,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "Once the dust has settled and only one remains, if it is you, what value will this have had?!",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "Once the dust has settled and only one remains, if it is you, what value will this have had?!",
+				"translatedDesc": "Une fois que tout sera fini et qu'il n'en restera qu'un, si c'est toi, qu'est-ce que tu auras gagné?!",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14321,14 +14321,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "Just stop!",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "Just stop!",
+				"translatedDesc": "Arrêtes!",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14339,14 +14339,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "I have no future if I lose here.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "I have no future if I lose here.",
+				"translatedDesc": "Je n'ai aucun avenir si je perds ici.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14357,14 +14357,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "Once you have bested me, you will only have one path forward.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "Once you have bested me, you will only have one path forward.",
+				"translatedDesc": "Une fois que tu m'auras vaincue, tu n'auras plus qu'une seule voie a emprunter.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14375,14 +14375,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "And that path... also has no future.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "And that path... also has no future.",
+				"translatedDesc": "Et cette voie... n'a aucun avenir.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14393,14 +14393,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "Even if he has thrown all else away, his power remains.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "Even if he has thrown all else away, his power remains.",
+				"translatedDesc": "Même s'il a abandonné tout le reste, son pouvoir demeure.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14411,14 +14411,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "I have no more energy left to resent him, or you...",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "I have no more energy left to resent him, or you...",
+				"translatedDesc": "Je n'ai plus la force de lui en vouloir, ni a lui, ni a toi...",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14429,14 +14429,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "It will all be in your hands now.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "It will all be in your hands now.",
+				"translatedDesc": "Tout repose entre tes main désormais.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14447,14 +14447,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "If you’re looking for some fourth-degree burns, you’ve got the right person.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "If you’re looking for some fourth-degree burns, you’ve got the right person.",
+				"translatedDesc": "Si tu cherches a te brûler au 4ème degré, je suis la bonne personne.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14465,14 +14465,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "When the time comes, would you like to join my creation?",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "When the time comes, would you like to join my creation?",
+				"translatedDesc": "Quand le temps viendra, que dirais-tu de joindre mes créations?",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14483,14 +14483,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "You’ll still have to work hard for this victory.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "You’ll still have to work hard for this victory.",
+				"translatedDesc": "Tu vas quand même devoir travailler dur pour obtenir la victoire.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14501,14 +14501,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "I haven’t had such an interesting target dummy to test my magic on in a long time.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "I haven’t had such an interesting target dummy to test my magic on in a long time.",
+				"translatedDesc": "Je n'ai pas eu un mannequin d'entraînement pour tester ma magie aussi intéressant depuis longtemps.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14519,14 +14519,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "Empty shells of their former selves. I doubt even a scrap of their spirits remain.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "Empty shells of their former selves. I doubt even a scrap of their spirits remain.",
+				"translatedDesc": "Des carapaces vides de ce qu'ils étaient. Je doute qu'il ne reste serait-ce qu'un fragment de leurs esprits en eux.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14537,14 +14537,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "Here we go again.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "Here we go again.",
+				"translatedDesc": "Et on est repartis.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14555,14 +14555,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "I wonder if you’ve seen these in your nightmares since our first battle?",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "I wonder if you’ve seen these in your nightmares since our first battle?",
+				"translatedDesc": "Je me demande si tu as cauchemardé de ces choses depuis notre premier combat?",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14573,14 +14573,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "Your skill hasn't faltered in the least.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "Your skill hasn't faltered in the least.",
+				"translatedDesc": "Ton talent n'a pas faibli d'un iota.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14591,14 +14591,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "Isn't this exciting?",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "Isn't this exciting?",
+				"translatedDesc": "Qu'est-ce qu'on s'amuse!",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14609,14 +14609,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "Here comes the crawling tomb, one last time.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "Here comes the crawling tomb, one last time.",
+				"translatedDesc": "Et voila la tombe rampante, une dernière fois.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14627,14 +14627,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "A terrific display, I concede this match to you.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "A terrific display, I concede this match to you.",
+				"translatedDesc": "Incroyable performance, je te concede la victoire.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14645,14 +14645,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "No doubt you will face enemies stronger than I.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "No doubt you will face enemies stronger than I.",
+				"translatedDesc": "Il ne fait aucun doute que tu affronteras des ennemis plus forts que moi.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14663,14 +14663,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "I trust you will not make the same mistakes he did.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "I trust you will not make the same mistakes he did.",
+				"translatedDesc": "Je te fais confiance pour ne pas commetre les mêmes erreurs que lui.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14681,14 +14681,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "I can’t imagine what your future holds now.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "I can’t imagine what your future holds now.",
+				"translatedDesc": "Je n'arrive pas à imaginer ce que le futur te réserve.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14699,14 +14699,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "I have waited long for this moment.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "I have waited long for this moment.",
+				"translatedDesc": "J'ai attendu ce moment depuis longtemps.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14717,14 +14717,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "Your nature fascinates me, for I do not understand it.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "Your nature fascinates me, for I do not understand it.",
+				"translatedDesc": "Ta nature me fascine, parce que je ne la comprends pas.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14735,14 +14735,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "You will face my creations which have surpassed gods.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "You will face my creations which have surpassed gods.",
+				"translatedDesc": "Tu affronteras mes créations qui ont surpassés les dieux.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14753,14 +14753,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "And you will show me your disposition through battle.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "And you will show me your disposition through battle.",
+				"translatedDesc": "Et tu me montreras qui tu es vraiment par le combat.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14771,14 +14771,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "Now, choose.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "Now, choose.",
+				"translatedDesc": "Maintenant, choisis.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14789,14 +14789,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "Designs improved with time and knowledge are the essence of my work.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "Designs improved with time and knowledge are the essence of my work.",
+				"translatedDesc": "Les conceptions améliorées avec le temps et la connaissance son l'essence de mon travail.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14807,14 +14807,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "Through no other method can I approach perfection.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "Through no other method can I approach perfection.",
+				"translatedDesc": "Par nulle autre méthode je peux approcher la perfection.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14825,14 +14825,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "Your performance falls neatly within the margins of error.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "Your performance falls neatly within the margins of error.",
+				"translatedDesc": "Ta performance est parfaitement dans ma marge d'erreur.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14843,14 +14843,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "That is quite satisfactory. We will proceed to the next phase of testing.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "That is quite satisfactory. We will proceed to the next phase of testing.",
+				"translatedDesc": "C'est très satisfaisant. Passons maintenant à la prochaine phase de tests",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14861,14 +14861,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "Ever since I was alerted to your presence, I have processed your battles in order to make my machines stronger.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "Ever since I was alerted to your presence, I have processed your battles in order to make my machines stronger.",
+				"translatedDesc": "Depuis que j'ai été informé de ton existence, j'ai compilé tes données de combat pour rendre mes machines plus fortes.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14879,14 +14879,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "Even now, I monitor your actions. Nothing should escape the bounds of my calculations.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "Even now, I monitor your actions. Nothing should escape the bounds of my calculations.",
+				"translatedDesc": "Même maintenant, je monitore tes actions. Rien n'echappera à mes calculs.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14897,14 +14897,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "Curious. Very curious.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "Curious. Very curious.",
+				"translatedDesc": "Curieux. Très curieux.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14915,14 +14915,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "You progress steadily against more difficult challenges.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "You progress steadily against more difficult challenges.",
+				"translatedDesc": "Tu progresses constamment face aux challenges de plus en plus ardus.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14933,14 +14933,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "Your nature remains unknown to me. This will not do.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "Your nature remains unknown to me. This will not do.",
+				"translatedDesc": "Ta nature me reste incomprise. Ce n'est pas acceptable.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14951,14 +14951,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "...I sought perfection. Fate must favor irony, for that must have been my first mistake.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "...I sought perfection. Fate must favor irony, for that must have been my first mistake.",
+				"translatedDesc": "...J'ai recherché la perfection. Le sort est ironique, puisqu'il s'agit probablement ici de ma première erreur.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14969,14 +14969,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "Absurd.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "Absurd.",
+				"translatedDesc": "Absurde.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -14987,14 +14987,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "I will no longer let my calculations impede my observation of this battle.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "I will no longer let my calculations impede my observation of this battle.",
+				"translatedDesc": "Je ne laisserai plus mes calculs déranger mon observation de cette bataille.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -15005,14 +15005,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "I shall show you the full fury of my final machine.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "I shall show you the full fury of my final machine.",
+				"translatedDesc": "Je vais te montrer la pleine furie de ma dernière machine.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -15023,14 +15023,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "How foolish. You cannot escape.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "How foolish. You cannot escape.",
+				"translatedDesc": "Quelle idiotie. Tu ne peux pas fuir",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -15041,14 +15041,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "Make your choice.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "Make your choice.",
+				"translatedDesc": "Fais ton choix.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -15059,14 +15059,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "An unknown factor-a catalyst is what you are.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "An unknown factor-a catalyst is what you are.",
+				"translatedDesc": "Un facteur inconnu, tu es une catalyste.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -15077,14 +15077,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "Nearly as alien as I, to this land and its history.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "Nearly as alien as I, to this land and its history.",
+				"translatedDesc": "Aussi étrange à ce monde et à son histoire que moi.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -15095,14 +15095,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "...Excuse my introspection. I must gather my thoughts after that display.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "...Excuse my introspection. I must gather my thoughts after that display.",
+				"translatedDesc": "...pardonne mes élucubrations. Je dois organiser mes pensées après cette démonstration",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -15113,14 +15113,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "This land has become stale and stiff with blood that has been spilled until now.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "This land has become stale and stiff with blood that has been spilled until now.",
+				"translatedDesc": "Ce monde est devenu stagnant et pétrifié du sang qu'il a déversé jusqu'a lors.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -15131,14 +15131,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "You have also spilled blood, but it may be enough to usher a new age... Of what, I do not know. But it is something I am eager to see.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "You have also spilled blood, but it may be enough to usher a new age... Of what, I do not know. But it is something I am eager to see.",
+				"translatedDesc": "Tu as aussi fais couler le sang, mais cela suffira peut-être pour amener une ère nouvelle... de quel genre, je ne sais pas. Mais j'ai hâte d'y être.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -15149,14 +15149,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "Now. You wish to reach the Tyrant. I cannot assist you in that.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "Now. You wish to reach the Tyrant. I cannot assist you in that.",
+				"translatedDesc": "Bien. Tu souhaites atteindre le Tyran. Je ne peux pas t'aider pour cela.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -15167,14 +15167,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "It is not a matter of spite, for I would wish nothing more than to observe such a conflict.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "It is not a matter of spite, for I would wish nothing more than to observe such a conflict.",
+				"translatedDesc": "Ce n'ai pas que je te dédaigne, en fait, je ne souhaite rien de plus que d'observer votre affrontement.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -15185,14 +15185,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "But you have managed before. You will find a way eventually.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "But you have managed before. You will find a way eventually.",
+				"translatedDesc": "Mais tu as déjà tant accompli. Tu finiras par trouver un moyen.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -15203,14 +15203,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "I must acknowledge your triumph, but I will return now to my machinery.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "I must acknowledge your triumph, but I will return now to my machinery.",
+				"translatedDesc": "Je dois reconaître to triomphe, mais je vais retourner à mes machines.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -15221,14 +15221,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "...Quite unnecessary.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "...Quite unnecessary.",
+				"translatedDesc": "...Cela n'était pas nécessaire.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -15239,14 +15239,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "Your world has been blessed with Cobalt and Palladium!",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "Your world has been blessed with Cobalt and Palladium!",
+				"translatedDesc": "Votre monde a été béni avec du Cobalt et du Palladium!",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -15257,14 +15257,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "Your world has been blessed with Mythril and Orichalcum!",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "Your world has been blessed with Mythril and Orichalcum!",
+				"translatedDesc": "Votre monde a été béni avec du Mythril et de l'Orichalque!",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -15275,14 +15275,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "Your world has been blessed with Adamantite and Titanium!",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "Your world has been blessed with Adamantite and Titanium!",
+				"translatedDesc": "Votre monde a été béni avec de l'Adamantite et du Titane!",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -15293,14 +15293,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "The hallow has been blessed with consecrated stone!",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "The hallow has been blessed with consecrated stone!",
+				"translatedDesc": "Le sacré a été béni avec de la pierre consacrée!",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -15311,14 +15311,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "Malice is active; witness the horror!",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "Malice is active; witness the horror!",
+				"translatedDesc": "La malice est active; soit témoin de l'horreur!",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -15329,14 +15329,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "Malice is not active.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "Malice is not active.",
+				"translatedDesc": "La malice n'est plus active.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -15347,14 +15347,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "All of your dodges are now disabled.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "All of your dodges are now disabled.",
+				"translatedDesc": "Toutes vos esquives sont désactivées.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -15365,14 +15365,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "All of your dodges are now re-enabled.",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "All of your dodges are now re-enabled.",
+				"translatedDesc": "Toutes vos esquives sont réactivées.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -15383,14 +15383,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "Defense Damage",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "Defense Damage",
+				"translatedDesc": "Dégats d'armure",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -15401,14 +15401,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "View an unencrypted schematic from the lab near the Sunken Sea",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "View an unencrypted schematic from the lab near the Sunken Sea",
+				"translatedDesc": "Recherche un schéma décodé dans un laboratoire près de la mer coulée",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -15419,14 +15419,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "Decrypt a schematic from the lab in the large planetoid in the sky",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "Decrypt a schematic from the lab in the large planetoid in the sky",
+				"translatedDesc": "Décrypte un schéma dans le laboratoire dans la grande planétoïde dans le ciel",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -15437,14 +15437,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "Decrypt a schematic from the lab deep within the jungle",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "Decrypt a schematic from the lab deep within the jungle",
+				"translatedDesc": "Décrypte un schéma dans le laboratoire dans les profondeurs de la jungle",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -15455,14 +15455,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "Decrypt a schematic from the lab near the edges of the underworld",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "Decrypt a schematic from the lab near the edges of the underworld",
+				"translatedDesc": "Décrypte un schéma dans le laboratoire aux extrémités de l'enfer",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -15473,14 +15473,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "Decrypt a schematic from the lab deep within the frozen caverns",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "Decrypt a schematic from the lab deep within the frozen caverns",
+				"translatedDesc": "Décrypte un schéma dans le laboratoire dans les profondeurs des cavernes gelées",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -15491,14 +15491,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "Place a schematic from the lab near the Sunken Sea in your inventory at least once",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "Place a schematic from the lab near the Sunken Sea in your inventory at least once",
+				"translatedDesc": "Place le schéma du laboratoire de la mer coulée dans ton inventaire au moins une fois",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -15509,14 +15509,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "Place a schematic from the lab in the large planetoid in your inventory at least once",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "Place a schematic from the lab in the large planetoid in your inventory at least once",
+				"translatedDesc": "Place le schéma du laboratoire du planétoïde dans ton inventaire au moins une fois",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -15527,14 +15527,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "Place a schematic from the lab deep within the jungle in your inventory at least once",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "Place a schematic from the lab deep within the jungle in your inventory at least once",
+				"translatedDesc": "Place le schéma du laboratoire de la jungle dans ton inventaire au moins une fois",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -15545,14 +15545,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "Place a schematic from the lab near the edges of the underworld in your inventory at least once",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "Place a schematic from the lab near the edges of the underworld in your inventory at least once",
+				"translatedDesc": "Place le schéma du laboratoire des enfers dans ton inventaire au moins une fois",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -15563,14 +15563,14 @@
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "Place a schematic from the lab within the frozen caverns in your inventory at least once",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "Place a schematic from the lab within the frozen caverns in your inventory at least once",
+				"translatedDesc": "Place le schéma du laboratoire des cavernes gelées dans ton inventaire au moins une fois",
 				"proofRead": false,
 				"proofReader": ""
 			}
