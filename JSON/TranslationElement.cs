@@ -12939,12 +12939,12 @@ namespace CalamityFR.JSON
 		""type"": ""TRANSLATION"",
 		""englishName"": """",
 		""englishDesc"": ""Are you honestly that bad at dodging?"",
-		""state"": ""Trad"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": """",
+				""author"": ""Tolsyak"",
 				""translatedName"": """",
 				""translatedDesc"": ""T'es vraiment aussi mauvais à l'esquive?"",
 				""proofRead"": false,
