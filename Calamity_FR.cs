@@ -11,22 +11,29 @@ using CalamityFR.DraedonLogs;
 using CalamityFR.JSON;
 using Microsoft.Xna.Framework;
 using System.Reflection;
+using Terraria;
+using Terraria.GameContent.Bestiary;
+using System.Collections;
 
 namespace Calamity_FR
 {
+	
 	public class Calamity_FR : Mod
 	{
+		public static Dictionary<int, string> NPCBestiarys;
 		public Calamity_FR() { }
 
 		public override void Load()
         {
 			//Using reflection for adding translatedGUI for Draedons logs
+			NPCBestiarys = new Dictionary<int, string>();
 			List<PopupGUI> DraedonGUIList = ((List<PopupGUI>)typeof(PopupGUIManager).GetField("gUIs", BindingFlags.NonPublic | BindingFlags.Static ).GetValue(null));
 			DraedonGUIList.Add(new HellGUI() as PopupGUI);
 			DraedonGUIList.Add(new JungleGUI() as PopupGUI);
 			DraedonGUIList.Add(new SnowGUI() as PopupGUI);
 			DraedonGUIList.Add(new PlanetoidGUI() as PopupGUI);
 			DraedonGUIList.Add(new SunkenGUI() as PopupGUI);
+			
 			//Using reflection for adding translatedGUI for draedon schematics
 			//The text is in CalamityMod.TileEntities.TECodebreaker.UnderlyingSchematicText
 
@@ -47,13 +54,14 @@ namespace Calamity_FR
 			{
 				Mod Calamity = ModLoader.GetMod("CalamityMod");
 				TranslationConfig cfg = ((TranslationConfig)this.GetConfig("TranslationConfig"));
+
 				if (Calamity != null)
 				{
 					var list = JsonSerializer.Deserialize<List<TranslationElement>>(TranslationElement.getRaw());
 					//this.Logger.Info("Test : taille liste : " + list.Count);
 					foreach (TranslationElement element in list)
 					{
-						if (element.state == "Traduit")
+						if (element.state == "Traduit" || element.state == "Traduit (Bestiaire Manquant)")
 						{
 							Translation activeTranslation = null;
 							foreach (Translation tr in element.translations) {
@@ -90,6 +98,10 @@ namespace Calamity_FR
 									else if (element.type == "NPC")
 									{
 										Calamity.Find<ModNPC>(element.id)?.DisplayName.AddTranslation(GameCulture.FromCultureName(GameCulture.CultureName.French), activeTranslation.translatedName);
+										if (element.state == "Traduit")
+										{
+											NPCBestiarys.Add(Calamity.Find<ModNPC>(element.id).Type, activeTranslation.translatedBestiary);
+										}
 									}
 									else if (element.type == "TRANSLATION")
 									{

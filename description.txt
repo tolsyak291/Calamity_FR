@@ -1,7 +1,7 @@
 Traduction française non-officielle du mod Calamity
 Unofficial Calamity mod french translation
 
-A l'exception du texte impossible à traduire, tout est traduit a l'exception du contenu exclusif à la 1.5 et à la 2.0
+A l'exception du texte impossible à traduire, tout le contenu depuis la v1.4 + une partie du contenu des versions supérieures (v1.5,2 et +) sont traduits.
 Environ 600 objets/buffs/debuff/PNJ + le bestaire + les tuiles restent a traduire
 
 Ajouts de la dernière version :

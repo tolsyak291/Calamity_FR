@@ -8,6 +8,7 @@ using CalamityMod.World;
 using CalamityMod.CalPlayer;
 using CalamityMod;
 using System.Collections.Generic;
+using Terraria.GameContent.Bestiary;
 
 public class CalamityGlobalNPC_FR : GlobalNPC
 {
@@ -16,7 +17,27 @@ public class CalamityGlobalNPC_FR : GlobalNPC
 
 	}
 
-	public override void OnChatButtonClicked(NPC npc, bool firstButton)
+    public override void SetBestiary(NPC npc, BestiaryDatabase database, BestiaryEntry bestiaryEntry)
+    {
+		if (Calamity_FR.Calamity_FR.NPCBestiarys.ContainsKey(npc.type))
+		{
+			IBestiaryInfoElement desc = null;
+			foreach (IBestiaryInfoElement entry in bestiaryEntry.Info)
+			{
+				if (entry.GetType() == typeof(FlavorTextBestiaryInfoElement))
+				{
+					desc = entry;
+				}
+			}
+			if (desc != null)
+			{
+				bestiaryEntry.Info.Remove(desc);
+				bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement(Calamity_FR.Calamity_FR.NPCBestiarys.GetValueOrDefault(npc.type)));
+			}
+		}
+    }
+
+    public override void OnChatButtonClicked(NPC npc, bool firstButton)
 	{
 		if (npc.type == ModContent.NPCType<FAP>() && !firstButton)
 		{
