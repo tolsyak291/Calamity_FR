@@ -26610,7 +26610,7 @@
                 "id": 1,
                 "author": "Tolsyak",
                 "translatedName": "Fusil à Impulsion",
-                "translatedTooltip": ["L'ancien fusil à impulsion de Dreadon, utilisé en cas d'urgence quand ses créations se retournent contre lui", "Quand l'impulsion touche une cible, elle s'infléchira vers une autre cible"],
+                "translatedTooltip": ["L'ancien fusil à impulsion de Draedon, utilisé en cas d'urgence quand ses créations se retournent contre lui", "Quand l'impulsion touche une cible, elle s'infléchira vers une autre cible"],
                 "proofRead": false,
                 "proofReader": ""
             }
@@ -39034,7 +39034,7 @@
         "id": "BrimstoneHeart",
         "type": "NPC",
         "englishName": "Brimstone Heart",
-        "state": "Traduit (Bestiaire Manquant)",
+        "state": "Traduit",
         "activeTranslation": 1,
         "translations": [{
                 "id": 1,
@@ -39272,7 +39272,7 @@
         "id": "CorruptSlimeSpawn2",
         "type": "NPC",
         "englishName": "Corrupt Slime Spawn",
-        "state": "Traduit (Bestiaire Manquant)",
+        "state": "Traduit",
         "activeTranslation": 1,
         "translations": [{
                 "id": 1,
@@ -39318,7 +39318,7 @@
         "id": "CosmicGuardianBody",
         "type": "NPC",
         "englishName": "Cosmic Guardian",
-        "state": "Traduit (Bestiaire Manquant)",
+        "state": "Traduit",
         "activeTranslation": 1,
         "translations": [{
                 "id": 1,
@@ -39348,7 +39348,7 @@
         "id": "CosmicGuardianTail",
         "type": "NPC",
         "englishName": "Cosmic Guardian",
-        "state": "Traduit (Bestiaire Manquant)",
+        "state": "Traduit",
         "activeTranslation": 1,
         "translations": [{
                 "id": 1,
@@ -39378,7 +39378,7 @@
         "id": "CosmicMine",
         "type": "NPC",
         "englishName": "Cosmic Mine",
-        "state": "Traduit (Bestiaire Manquant)",
+        "state": "Traduit",
         "activeTranslation": 1,
         "translations": [{
                 "id": 1,
@@ -39504,7 +39504,7 @@
         "id": "CrimulanSlimeGod",
         "type": "NPC",
         "englishName": "Crimulan Slime God",
-        "state": "Traduit (Bestiaire Manquant)",
+        "state": "Traduit",
         "activeTranslation": 1,
         "translations": [{
                 "id": 1,
@@ -39550,7 +39550,7 @@
         "id": "CryogenShield",
         "type": "NPC",
         "englishName": "Cryogen's Shield",
-        "state": "Traduit (Bestiaire Manquant)",
+        "state": "Traduit",
         "activeTranslation": 1,
         "translations": [{
                 "id": 1,
@@ -39852,7 +39852,7 @@
         "id": "EbonianSlimeGod",
         "type": "NPC",
         "englishName": "Ebonian Slime God",
-        "state": "Traduit (Bestiaire Manquant)",
+        "state": "Traduit",
         "activeTranslation": 1,
         "translations": [{
                 "id": 1,
@@ -40282,7 +40282,7 @@
         "id": "AnahitasIceShield",
         "type": "NPC",
         "englishName": "Ice Shield",
-        "state": "Traduit (Bestiaire Manquant)",
+        "state": "Traduit",
         "activeTranslation": 1,
         "translations": [{
                 "id": 1,
@@ -41064,7 +41064,7 @@
         "id": "SepulcherBodyEnergyBall",
         "type": "NPC",
         "englishName": "Sepulcher",
-        "state": "Traduit (Bestiaire Manquant)",
+        "state": "Traduit",
         "activeTranslation": 1,
         "translations": [{
                 "id": 1,
@@ -41094,7 +41094,7 @@
         "id": "SepulcherTail",
         "type": "NPC",
         "englishName": "Sepulcher",
-        "state": "Traduit (Bestiaire Manquant)",
+        "state": "Traduit",
         "activeTranslation": 1,
         "translations": [{
                 "id": 1,
@@ -41108,7 +41108,7 @@
         "id": "SepulcherBody",
         "type": "NPC",
         "englishName": "Sepulcher",
-        "state": "Traduit (Bestiaire Manquant)",
+        "state": "Traduit",
         "activeTranslation": 1,
         "translations": [{
                 "id": 1,
@@ -41122,7 +41122,7 @@
         "id": "SepulcherArm",
         "type": "NPC",
         "englishName": "Sepulcher",
-        "state": "Traduit (Bestiaire Manquant)",
+        "state": "Traduit",
         "activeTranslation": 1,
         "translations": [{
                 "id": 1,
