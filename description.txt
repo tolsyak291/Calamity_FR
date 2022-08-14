@@ -3,17 +3,18 @@ Unofficial Calamity mod french translation
 
 A l'exception du texte impossible à traduire, tout le contenu depuis la v1.4 + une partie du contenu des versions supérieures (v1.5,2 et +) sont traduits.
 
-Avancée de la traduction globale : 1919 / 2663
-Avancée de la traduction globale (en prenant en compte le bestiaire) : 1920 / 2862
+Avancée de la traduction des objets : 1615 / 1924
 Avancée de la traduction des messages : 166 / 166
-Avancée de la traduction des objets : 1457 / 1924
-Avancée de la traduction des NPC : 66 / 289
-Avancée de la traduction du bestaire : 1 / 199
-Avancée de la traduction des buffs/debuffs : 230 / 284
+Avancée de la traduction des NPC : 289 / 289
+Avancée de la traduction des buffs/debuffs : 284 / 284
+Avancée de la traduction du bestiaire : 1 / 199
+
+Avancée de la traduction globale : 2354 / 2663
+Avancée de la traduction globale (en prenant en compte le bestiaire) : 2355 / 2862
+
 
 Ajouts de la dernière version :
-	Corrections mineures
-	Ajout du support du bestiaire (Seule l'entrée correspondant au dernier villageois débloquable est traduite actuellement)
+	Ajout de plusieurs traductions
 
 Visitez le forum pour plus d'informations : https://forums.terraria.org/index.php?threads/calamity-mod-french-translation.106939/
 
