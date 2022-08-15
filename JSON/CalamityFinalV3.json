@@ -1,2359 +1,5 @@
 [
 	{
-		"id": "AquaticUrchinBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Aquatic Urchin"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Oursin Aquatique",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Oursin Aquatique"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "PhantomSpiritBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Phantom Spirit"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Esprit Fantôme",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Esprit Fantôme"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "LuminousCorvinaBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Luminous Corvina"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Corvina Lumineuse",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Corvina Lumineuse"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "AstralSlimeBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Astral Slime"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Gelée Astrale",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Gelée Astrale"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "EbonianBlightSlimeBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Ebonian Blight Slime"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Gelée de Fléau d'Ébène",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Gelée de Fléau d'Ébène"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "ShockstormShuttleBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Shockstorm Shuttle"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Navette de Tempête de Choc",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Navette de Tempête de Choc"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "AtlasBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Atlas Banner"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Atlas",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Atlas"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "WulfrumRoverBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Wulfrum Rover"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Vadrouilleur Wulfrum",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Vadrouilleur Wulfrum"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "ScryllarBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Scryllar"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Scryllar",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Scryllar"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "IrradiatedSlimeBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Irradiated Slime"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Gelée Irradiée",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Gelée Irradiée"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "OarfishBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Oarfish"
-		],
-		"state": "A traduire",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "",
-				"translatedName": "",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Oarfish"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "BelchingCoralBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Belching Coral"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Corail Cracheur",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Corail Cracheur"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "CrystalCrawlerBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Crystal Crawler"
-		],
-		"state": "A traduire",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "",
-				"translatedName": "",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Crystal Crawler"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "PlagueChargerBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Plague Charger"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Chargeur de Peste",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Chargeur de Peste"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "FearlessGoldfishWarriorBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Fearless Goldfish Warrior"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Guerrier Poisson Doré Sans Peur",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Guerrier Poisson Doré Sans Peur"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "SeaUrchinBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Sea Urchin"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Oursin de Mer",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Oursin de Mer"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "ClamBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Clam"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Palourde",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Palourde"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "NuclearToadBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Nuclear Toad"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Crapaud Nucléaire",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Crapaud Nucléaire"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "DespairStoneBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Despair Stone"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Pierre de Désespoir",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Pierre de Désespoir"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "ViperfishBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Viperfish"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Poisson-Vipère",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Poisson-Vipère"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "ArmoredDiggerBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Armored Digger"
-		],
-		"state": "A traduire",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "",
-				"translatedName": "",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Armored Digger"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "ExoSink",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"Counts as a water, honey, and lava source"
-		],
-		"state": "A traduire",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "",
-				"translatedName": "",
-				"translatedTooltip": [
-					"Counts as a water, honey, and lava source"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "FlakCrabBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Flak Crab"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Crabe Flak",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Crabe Flak"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "ImpiousImmolatorBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Impious Immolator"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Immolateur Impie",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Immolateur Impie"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "ToxicMinnowBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Toxic Minnow"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Fretin Toxique",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Fretin Toxique"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "CrimulanBlightSlimeBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Crimulan Blight Slime"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Gelée Carminée Trouble",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Gelée Carminée Trouble"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "AcidEelBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Acid Eel"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Anguille Acide",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Anguille Acide"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "AstralProbeBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Astral Probe"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Sonde Astrale",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Sonde Astrale"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "TopazCrawlerBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Topaz Crawler"
-		],
-		"state": "A traduire",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "",
-				"translatedName": "",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Topaz Crawler"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "CryonBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Cryon"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Cryon",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Cryon"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "MorayEelBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Moray Eel"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Murène",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Murène"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "StormlionBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Stormlion"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Fourmi-Tonnerre",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Fourmi-Tonnerre"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "AeroSlimeBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Aero Slime"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Gelée Aérienne",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Gelée Aérienne"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "GiantSquidBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Giant Squid"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Calamar Géant",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Calamar Géant"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "PiggyBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Piggy"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Peggy",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Peggy"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "LaserfishBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Laserfish"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Poisson-Laser",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Poisson-Laser"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "MantisShrimpBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Mantis Shrimp"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Mante Crevette",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Mante Crevette"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "GulperEelBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Gulper Eel"
-		],
-		"state": "A traduire",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "",
-				"translatedName": "",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Gulper Eel"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "SoulSlurperBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Soul Slurper"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Aspire-Âme",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Aspire-Âme"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "BlindedAnglerBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Blinded Angler"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Baudroie Aveuglée",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Baudroie Aveuglée"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "EidolistBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Eidolist"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Eidoliste",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Eidoliste"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "MelterBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Melter"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Fondeur",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Fondeur"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "ScornEaterBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Scorn Eater"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Dévoreur de Mépris",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Dévoreur de Mépris"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "BobbitWormBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Bobbit Worm"
-		],
-		"state": "A traduire",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "",
-				"translatedName": "",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Bobbit Worm"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "PlaguebringerBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Plaguebringer"
-		],
-		"state": "A traduire",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "",
-				"translatedName": "",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Plaguebringer"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "EutrophicRayBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Eutrophic Ray"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Raie Eutrophique",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Raie Eutrophique"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "WaterLeechBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Water Leech"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Sangsue d'Eau",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Sangsue d'Eau"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "AstralachneaBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Astralachnea"
-		],
-		"state": "A traduire",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "",
-				"translatedName": "",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Astralachnea"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "PlagueshellBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Plagueshell"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Carapeste",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Carapeste"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "FlounderBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Flounder"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Sole",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Sole"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "OrthoceraBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Orthocera"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Orthocère",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Orthocère"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "SunskaterBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Sunskater"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Glisse-Soleil",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Glisse-Soleil"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "MirageJellyBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Mirage Jelly"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Gelée Mirage",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Gelée Mirage"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "CultistAssassinBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Cultist Assassin"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Assassin Cultiste",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Assassin Cultiste"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "CharredSlimeBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Charred Slime"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Gelée Calcinée",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Gelée Calcinée"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "MantisBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Mantis"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Mante",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Mante"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "SeaMinnowBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Sea Minnow"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Vairon de Mer",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Vairon de Mer"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "RadiatorBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Radiator"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Radiateur",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Radiateur"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "PestilentSlimeBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Pestilent Slime"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Gelée Pestilentielle",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Gelée Pestilentielle"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "SmallSightseerBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Small Sightseer"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Petit Cherchevue",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Petit Cherchevue"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "CloudElementalBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Cloud Elemental"
-		],
-		"state": "A traduire",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "",
-				"translatedName": "",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Cloud Elemental"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "SeaFloatyBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Sea Floaty"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Flotteur des Mers",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Flotteur des Mers"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "StellarCulexBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Stellar Culex"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Culex Stellaire",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Culex Stellaire"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "BigSightseerBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Big Sightseer"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Gros Cherchevue",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Gros Cherchevue"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "GreatSandSharkBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Great Sand Shark"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Grand Requin des Sables",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Grand Requin des Sables"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "AmethystCrawlerBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus} Amethyst Crawler"
-		],
-		"state": "A traduire",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "",
-				"translatedName": "",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus} Amethyst Crawler"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "TrasherBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Trasher"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Déchiqueteur",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Déchiqueteur"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "HiveBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Hive"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Ruche",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Ruche"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "WulfrumGyratorBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Wulfrum Gyrator"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Gyrateur Wulfrum",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Gyrateur Wulfrum"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "ReaperSharkBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Reaper Shark"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Requin Faucheur",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Requin Faucheur"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "BloatfishBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Bloatfish"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Poisson Bouffi",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Poisson Bouffi"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "VirulingBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Viruling"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Virulant",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Virulant"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "ProfanedEnergyBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Profaned Energy"
-		],
-		"state": "A traduire",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "",
-				"translatedName": "",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Profaned Energy"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "CalamityEyeBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Calamity Eye"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Oeil de Calamité",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Oeil de Calamité"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "GammaSlimeBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Gamma Slime"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Gelée Gamma",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Gelée Gamma"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "CatfishBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Catfish"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Poisson-Chat",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Poisson-Chat"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "CryoSlimeBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Cryo Slime"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Gelée Cryo",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Gelée Cryo"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "AquaticAberrationBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Aquatic Aberration"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Abérattion Aquatique",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Abérattion Aquatique"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "CosmicElementalBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Cosmic Elemental"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Élementaire Cosmique",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Élementaire Cosmique"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "EarthElementalBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Earth Elemental"
-		],
-		"state": "A traduire",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "",
-				"translatedName": "",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Earth Elemental"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "CnidrionBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Cnidrion"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Cnidrion",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Cnidrion"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "BoxJellyfishBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Box Jellyfish"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Méduse-Boîte",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Méduse-Boîte"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "EmeraldCrawlerBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Emerald Crawler"
-		],
-		"state": "A traduire",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "",
-				"translatedName": "",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Emerald Crawler"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "GnasherBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Gnasher"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Grinceur",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Grinceur"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "AriesBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Aries"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Aries",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Aries"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "ChaoticPufferBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Chaotic Puffer"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Poisson-globe Chaotique",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Poisson-globe Chaotique"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "WulfrumDroneBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Wulfrum Drone"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Drone Wulfrum",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Drone Wulfrum"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "WulfrumHovercraftBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Wulfrum Hovercraft"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Aéroglisseur Wulfrum",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Aéroglisseur Wulfrum"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "ColossalSquidBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Colossal Squid"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Calamar Colossal",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Calamar Colossal"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "FrogfishBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Frogfish"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Poisson-Grenouille",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Poisson-Grenouille"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "SapphireCrawlerBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Sapphire Crawler"
-		],
-		"state": "A traduire",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "",
-				"translatedName": "",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Sapphire Crawler"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "MaulerBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Mauler"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Mutilateur",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Mutilateur"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "AnthozoanCrabBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Anthozoan Crab"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Crabe Anthozoaire",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Crabe Anthozoaire"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "OverloadedSoldierBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Overloaded Soldier"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Soldat Surchargé",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Soldat Surchargé"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "FusionFeederBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Fusion Feeder"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Dévoreur de Fusion",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Dévoreur de Fusion"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "NovaBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Nova"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Nova",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Nova"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "EidolonWyrmJuvenileBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Juvenile Eidolon Wyrm"
-		],
-		"state": "A traduire",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "",
-				"translatedName": "",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Juvenile Eidolon Wyrm"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "WulfrumPylonBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Wulfrum Pylon"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Pylône Wulfrum",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Pylône Wulfrum"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "IceClasperBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Ice Clasper"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Claspeur de Glace",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Claspeur de Glace"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "PerennialSlimeBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Perennial Slime"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Gelée Vivace",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Gelée Vivace"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "HeatSpiritBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Heat Spirit"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Esprit de Chaleur",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Esprit de Chaleur"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "RubyCrawlerBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Ruby Crawler"
-		],
-		"state": "A traduire",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "",
-				"translatedName": "",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Ruby Crawler"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "SeaSerpentBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Sea Serpent"
-		],
-		"state": "A traduire",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "",
-				"translatedName": "",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Sea Serpent"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "GiantClamBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Giant Clam"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Palourde Géante",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Palourde Géante"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "SkyfinBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Skyfin"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Nageoire Céleste",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Nageoire Céleste"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "CuttlefishBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Cuttlefish"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Seiche",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Seiche"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "BloomSlimeBanner",
-		"type": "ITEM",
-		"englishName": "",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Bloom Slime"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Gelée de Floraison",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Gelée de Floraison"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
 		"id": "AdamantiteParticleAccelerator",
 		"type": "ITEM",
 		"englishName": "Adamantite Particle Accelerator",
@@ -2655,28 +301,6 @@
 					"All boss minions no longer drop hearts.",
 					"Changes all boss AIs and some enemy AIs.",
 					"Increases the health and damage of all bosses."
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "BohldohrBanner",
-		"type": "ITEM",
-		"englishName": "Bohldohr Banner",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Bohldohr"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Bohldohr",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Bohldohr"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -4835,28 +2459,6 @@
 		]
 	},
 	{
-		"id": "PrismBackBanner",
-		"type": "ITEM",
-		"englishName": "Prism-Back Banner",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Prism-Back"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Dos-Prisme",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Dos-Prisme"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
 		"id": "ProfanedGuardiansRelic",
 		"type": "ITEM",
 		"englishName": "Profaned Guardians Relic",
@@ -5141,28 +2743,6 @@
 		]
 	},
 	{
-		"id": "RimehoundBanner",
-		"type": "ITEM",
-		"englishName": "Rimehound Banner",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Rimehound"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Chien de Givre",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Chien de Givre"
-				],
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
 		"id": "RobesOfCalamity",
 		"type": "ITEM",
 		"englishName": "Robes of Calamity",
@@ -5173,28 +2753,6 @@
 				"id": 1,
 				"author": "",
 				"translatedName": "Robes of Calamity",
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "RotdogBanner",
-		"type": "ITEM",
-		"englishName": "Rotdog Banner",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Rotdog"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Chien de Pourriture",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Chien de Pourriture"
-				],
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -5773,28 +3331,6 @@
 				"id": 1,
 				"author": "",
 				"translatedName": "Sulphuric Scale",
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "SulphurousSkaterBanner",
-		"type": "ITEM",
-		"englishName": "Sulphurous Skater Banner",
-		"englishTooltip": [
-			"{$CommonItemTooltip.BannerBonus}Sulphurous Skater"
-		],
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bannière de Patineur Sulfureux",
-				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Patineur Sulfureux"
-				],
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -11851,6 +9387,2360 @@
 				"author": "Tolsyak",
 				"translatedName": "Zerg",
 				"translatedDesc": "Le taux d'apparition des ennemis est augmenté",
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "BobbitWormBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Bobbit Worm"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Ver Bobbit",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Ver Bobbit"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "OarfishBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Oarfish"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Poisson-Ruban",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Poisson-Ruban"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "CrystalCrawlerBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Crystal Crawler"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Rampant de Cristal",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Rampant de Cristal"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "ArmoredDiggerBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Armored Digger"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyal",
+				"translatedName": "Bannière de Creuseur Blindé",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Creuseur Blindé"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "ExoSink",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"Counts as a water, honey, and lava source"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Exo Évier",
+				"translatedTooltip": [
+					"Compte comme une source d'eau, de miel et de lave"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "TopazCrawlerBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Topaz Crawler"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Rampant de Topaze",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Rampant de Topaze"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "GulperEelBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Gulper Eel"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière d'Anguille Engloutisseuse",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Anguille Engloutisseuse"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "PlaguebringerBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Plaguebringer"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Colporte-Peste",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Colporte-Peste"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "AstralachneaBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Astralachnea"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière d'Astralaraignée",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Astralaraignée"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "CloudElementalBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Cloud Elemental"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière d'Élémentaire de Nuage",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Élémentaire de Nuage"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "AmethystCrawlerBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus} Amethyst Crawler"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Rampant d'Améthyste",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus} Rampant d'Améthyste"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "ProfanedEnergyBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Profaned Energy"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière d'Énergie Profanée",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Énergie Profanée"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "EarthElementalBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Earth Elemental"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière d'Élémentaire de Terre",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Élémentaire de Terre"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "EmeraldCrawlerBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Emerald Crawler"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Rampant d'Émeraude",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Rampant d'Émeraude"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "SapphireCrawlerBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Sapphire Crawler"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Rampant de Saphir",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Rampant de Saphir"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "EidolonWyrmJuvenileBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Juvenile Eidolon Wyrm"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Wyrm Eidolon Juvénile",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Wyrm Eidolon Juvénile"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "RubyCrawlerBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Ruby Crawler"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Rampant de Rubis",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Rampant de Rubis"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "SeaSerpentBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Sea Serpent"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Serpent de Mer",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Serpent de Mer"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "AquaticUrchinBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Aquatic Urchin"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Oursin Aquatique",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Oursin Aquatique"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "PhantomSpiritBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Phantom Spirit"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Esprit Fantôme",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Esprit Fantôme"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "LuminousCorvinaBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Luminous Corvina"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Corvina Lumineuse",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Corvina Lumineuse"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "AstralSlimeBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Astral Slime"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Gelée Astrale",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Gelée Astrale"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "EbonianBlightSlimeBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Ebonian Blight Slime"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Gelée de Fléau d'Ébène",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Gelée de Fléau d'Ébène"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "ShockstormShuttleBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Shockstorm Shuttle"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Navette de Tempête de Choc",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Navette de Tempête de Choc"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "AtlasBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Atlas Banner"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Atlas",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Atlas"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "WulfrumRoverBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Wulfrum Rover"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Vadrouilleur Wulfrum",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Vadrouilleur Wulfrum"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "ScryllarBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Scryllar"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Scryllar",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Scryllar"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "IrradiatedSlimeBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Irradiated Slime"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Gelée Irradiée",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Gelée Irradiée"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "BelchingCoralBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Belching Coral"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Corail Cracheur",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Corail Cracheur"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "PlagueChargerBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Plague Charger"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Chargeur de Peste",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Chargeur de Peste"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "FearlessGoldfishWarriorBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Fearless Goldfish Warrior"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Guerrier Poisson Doré Sans Peur",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Guerrier Poisson Doré Sans Peur"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "SeaUrchinBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Sea Urchin"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Oursin de Mer",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Oursin de Mer"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "ClamBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Clam"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Palourde",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Palourde"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "NuclearToadBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Nuclear Toad"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Crapaud Nucléaire",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Crapaud Nucléaire"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "DespairStoneBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Despair Stone"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Pierre de Désespoir",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Pierre de Désespoir"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "ViperfishBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Viperfish"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Poisson-Vipère",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Poisson-Vipère"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "FlakCrabBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Flak Crab"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Crabe Flak",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Crabe Flak"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "ImpiousImmolatorBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Impious Immolator"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Immolateur Impie",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Immolateur Impie"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "ToxicMinnowBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Toxic Minnow"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Fretin Toxique",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Fretin Toxique"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "CrimulanBlightSlimeBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Crimulan Blight Slime"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Gelée Carminée Trouble",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Gelée Carminée Trouble"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "AcidEelBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Acid Eel"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Anguille Acide",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Anguille Acide"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "AstralProbeBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Astral Probe"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Sonde Astrale",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Sonde Astrale"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "CryonBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Cryon"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Cryon",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Cryon"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "MorayEelBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Moray Eel"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Murène",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Murène"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "StormlionBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Stormlion"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Fourmi-Tonnerre",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Fourmi-Tonnerre"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "AeroSlimeBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Aero Slime"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Gelée Aérienne",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Gelée Aérienne"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "GiantSquidBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Giant Squid"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Calamar Géant",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Calamar Géant"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "PiggyBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Piggy"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Peggy",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Peggy"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "LaserfishBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Laserfish"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Poisson-Laser",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Poisson-Laser"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "MantisShrimpBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Mantis Shrimp"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Mante Crevette",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Mante Crevette"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "SoulSlurperBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Soul Slurper"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Aspire-Âme",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Aspire-Âme"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "BlindedAnglerBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Blinded Angler"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Baudroie Aveuglée",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Baudroie Aveuglée"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "EidolistBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Eidolist"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Eidoliste",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Eidoliste"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "MelterBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Melter"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Fondeur",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Fondeur"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "ScornEaterBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Scorn Eater"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Dévoreur de Mépris",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Dévoreur de Mépris"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "EutrophicRayBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Eutrophic Ray"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Raie Eutrophique",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Raie Eutrophique"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "WaterLeechBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Water Leech"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Sangsue d'Eau",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Sangsue d'Eau"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "PlagueshellBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Plagueshell"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Carapeste",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Carapeste"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "FlounderBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Flounder"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Sole",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Sole"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "OrthoceraBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Orthocera"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Orthocère",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Orthocère"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "SunskaterBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Sunskater"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Glisse-Soleil",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Glisse-Soleil"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "MirageJellyBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Mirage Jelly"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Gelée Mirage",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Gelée Mirage"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "CultistAssassinBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Cultist Assassin"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Assassin Cultiste",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Assassin Cultiste"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "CharredSlimeBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Charred Slime"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Gelée Calcinée",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Gelée Calcinée"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "MantisBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Mantis"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Mante",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Mante"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "SeaMinnowBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Sea Minnow"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Vairon de Mer",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Vairon de Mer"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "RadiatorBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Radiator"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Radiateur",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Radiateur"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "PestilentSlimeBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Pestilent Slime"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Gelée Pestilentielle",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Gelée Pestilentielle"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "SmallSightseerBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Small Sightseer"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Petit Cherchevue",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Petit Cherchevue"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "SeaFloatyBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Sea Floaty"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Flotteur des Mers",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Flotteur des Mers"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "StellarCulexBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Stellar Culex"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Culex Stellaire",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Culex Stellaire"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "BigSightseerBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Big Sightseer"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Gros Cherchevue",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Gros Cherchevue"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "GreatSandSharkBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Great Sand Shark"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Grand Requin des Sables",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Grand Requin des Sables"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "TrasherBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Trasher"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Déchiqueteur",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Déchiqueteur"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "HiveBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Hive"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Ruche",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Ruche"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "WulfrumGyratorBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Wulfrum Gyrator"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Gyrateur Wulfrum",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Gyrateur Wulfrum"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "ReaperSharkBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Reaper Shark"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Requin Faucheur",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Requin Faucheur"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "BloatfishBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Bloatfish"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Poisson Bouffi",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Poisson Bouffi"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "VirulingBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Viruling"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Virulant",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Virulant"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "CalamityEyeBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Calamity Eye"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Oeil de Calamité",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Oeil de Calamité"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "GammaSlimeBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Gamma Slime"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Gelée Gamma",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Gelée Gamma"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "CatfishBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Catfish"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Poisson-Chat",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Poisson-Chat"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "CryoSlimeBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Cryo Slime"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Gelée Cryo",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Gelée Cryo"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "AquaticAberrationBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Aquatic Aberration"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Abérattion Aquatique",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Abérattion Aquatique"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "CosmicElementalBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Cosmic Elemental"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Élementaire Cosmique",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Élementaire Cosmique"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "CnidrionBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Cnidrion"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Cnidrion",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Cnidrion"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "BoxJellyfishBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Box Jellyfish"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Méduse-Boîte",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Méduse-Boîte"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "GnasherBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Gnasher"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Grinceur",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Grinceur"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "AriesBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Aries"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Aries",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Aries"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "ChaoticPufferBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Chaotic Puffer"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Poisson-globe Chaotique",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Poisson-globe Chaotique"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "WulfrumDroneBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Wulfrum Drone"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Drone Wulfrum",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Drone Wulfrum"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "WulfrumHovercraftBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Wulfrum Hovercraft"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Aéroglisseur Wulfrum",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Aéroglisseur Wulfrum"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "ColossalSquidBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Colossal Squid"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Calamar Colossal",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Calamar Colossal"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "FrogfishBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Frogfish"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Poisson-Grenouille",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Poisson-Grenouille"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "MaulerBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Mauler"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Mutilateur",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Mutilateur"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "AnthozoanCrabBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Anthozoan Crab"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Crabe Anthozoaire",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Crabe Anthozoaire"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "OverloadedSoldierBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Overloaded Soldier"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Soldat Surchargé",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Soldat Surchargé"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "FusionFeederBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Fusion Feeder"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Dévoreur de Fusion",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Dévoreur de Fusion"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "NovaBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Nova"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Nova",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Nova"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "WulfrumPylonBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Wulfrum Pylon"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Pylône Wulfrum",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Pylône Wulfrum"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "IceClasperBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Ice Clasper"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Claspeur de Glace",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Claspeur de Glace"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "PerennialSlimeBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Perennial Slime"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Gelée Vivace",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Gelée Vivace"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "HeatSpiritBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Heat Spirit"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Esprit de Chaleur",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Esprit de Chaleur"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "GiantClamBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Giant Clam"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Palourde Géante",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Palourde Géante"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "SkyfinBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Skyfin"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Nageoire Céleste",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Nageoire Céleste"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "CuttlefishBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Cuttlefish"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Seiche",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Seiche"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "BloomSlimeBanner",
+		"type": "ITEM",
+		"englishName": "",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Bloom Slime"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Gelée de Floraison",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Gelée de Floraison"
+				],
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -18346,6 +18236,28 @@
 					"Vitesse de Lancer: 25",
 					"Vitesse de Rétractation: 28",
 					"Vitesse de Traction: 24"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "BohldohrBanner",
+		"type": "ITEM",
+		"englishName": "Bohldohr Banner",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Bohldohr"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Bohldohr",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Bohldohr"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -36554,6 +36466,28 @@
 		]
 	},
 	{
+		"id": "PrismBackBanner",
+		"type": "ITEM",
+		"englishName": "Prism-Back Banner",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Prism-Back"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Dos-Prisme",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Dos-Prisme"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
 		"id": "Prismalline",
 		"type": "ITEM",
 		"englishName": "Prismalline",
@@ -38076,6 +38010,28 @@
 		]
 	},
 	{
+		"id": "RimehoundBanner",
+		"type": "ITEM",
+		"englishName": "Rimehound Banner",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Rimehound"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Chien de Givre",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Chien de Givre"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
 		"id": "Riptide",
 		"type": "ITEM",
 		"englishName": "Riptide",
@@ -38227,6 +38183,28 @@
 				"translatedName": "Balle Pourrie",
 				"translatedTooltip": [
 					"Les attaques furtives créent des nuages de pluie quand elles touchent"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "RotdogBanner",
+		"type": "ITEM",
+		"englishName": "Rotdog Banner",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Rotdog"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Chien de Pourriture",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Chien de Pourriture"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -42923,6 +42901,28 @@
 				"id": 1,
 				"author": "Tolsyak",
 				"translatedName": "Mur de Grès Sulfureux",
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "SulphurousSkaterBanner",
+		"type": "ITEM",
+		"englishName": "Sulphurous Skater Banner",
+		"englishTooltip": [
+			"{$CommonItemTooltip.BannerBonus}Sulphurous Skater"
+		],
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bannière de Patineur Sulfureux",
+				"translatedTooltip": [
+					"{$CommonItemTooltip.BannerBonus}Patineur Sulfureux"
+				],
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -49199,7 +49199,7 @@
 			{
 				"id": 1,
 				"author": "Tolsyak",
-				"translatedName": "Arachnée Astrale",
+				"translatedName": "Astralaraignée",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -49286,6 +49286,22 @@
 		]
 	},
 	{
+		"id": "BrimstoneHeart",
+		"type": "NPC",
+		"englishName": "Brimstone Heart",
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Coeur de soufreflamme",
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
 		"id": "WITCH",
 		"type": "NPC",
 		"englishName": "Brimstone Witch",
@@ -49304,6 +49320,86 @@
 		]
 	},
 	{
+		"id": "CorruptSlimeSpawn2",
+		"type": "NPC",
+		"englishName": "Corrupt Slime Spawn",
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Rejeton de Gelée Corrompue",
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "CosmicGuardianBody",
+		"type": "NPC",
+		"englishName": "Cosmic Guardian",
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Gardien Cosmique",
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "CosmicGuardianTail",
+		"type": "NPC",
+		"englishName": "Cosmic Guardian",
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Gardien Cosmique",
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "CosmicMine",
+		"type": "NPC",
+		"englishName": "Cosmic Mine",
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Mine Cosmique",
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "CrimulanSlimeGod",
+		"type": "NPC",
+		"englishName": "Crimulan Slime God",
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Dieu des Gelées Carmine",
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
 		"id": "KingSlimeJewel",
 		"type": "NPC",
 		"englishName": "Crown Jewel",
@@ -49314,6 +49410,22 @@
 				"id": 1,
 				"author": "Tolsyak",
 				"translatedName": "Joyau de la Couronne",
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "CryogenShield",
+		"type": "NPC",
+		"englishName": "Cryogen's Shield",
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bouclier de Cryogène",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -49378,6 +49490,22 @@
 				"id": 1,
 				"author": "Tolsyak",
 				"translatedName": "Essaimeur Draconique",
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "EbonianSlimeGod",
+		"type": "NPC",
+		"englishName": "Ebonian Slime God",
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Dieu des Gelées d'Ébène",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -49538,6 +49666,22 @@
 				"id": 1,
 				"author": "Tolsyak",
 				"translatedName": "Goutte de Ruche",
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "AnahitasIceShield",
+		"type": "NPC",
+		"englishName": "Ice Shield",
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Bouclier de Glace",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -49970,6 +50114,70 @@
 				"id": 1,
 				"author": "Tolsyak",
 				"translatedName": "Crachat de Chercheur",
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "SepulcherBodyEnergyBall",
+		"type": "NPC",
+		"englishName": "Sepulcher",
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Sépulcre",
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "SepulcherTail",
+		"type": "NPC",
+		"englishName": "Sepulcher",
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Sépulcre",
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "SepulcherBody",
+		"type": "NPC",
+		"englishName": "Sepulcher",
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Sépulcre",
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "SepulcherArm",
+		"type": "NPC",
+		"englishName": "Sepulcher",
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Sépulcre",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -53584,7 +53792,7 @@
 			{
 				"id": 1,
 				"author": "Tolsyak",
-				"translatedName": "Arachnée Astrale",
+				"translatedName": "Astralaraignée",
 				"translatedBestiary": "An arachnid taken over by the infection, it has lost its ability to spin webs and hosts a myriad of astral growths on its abdomen.",
 				"proofRead": false,
 				"proofReader": ""
@@ -53916,22 +54124,6 @@
 		]
 	},
 	{
-		"id": "BrimstoneHeart",
-		"type": "NPC",
-		"englishName": "Brimstone Heart",
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Coeur de soufreflamme",
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
 		"id": "CalamitasClone",
 		"type": "NPC",
 		"englishName": "Calamitas",
@@ -54184,22 +54376,6 @@
 		]
 	},
 	{
-		"id": "CorruptSlimeSpawn2",
-		"type": "NPC",
-		"englishName": "Corrupt Slime Spawn",
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Rejeton de Gelée Corrompue",
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
 		"id": "CorruptSlimeSpawn",
 		"type": "NPC",
 		"englishName": "Corrupt Slime Spawn",
@@ -54236,22 +54412,6 @@
 		]
 	},
 	{
-		"id": "CosmicGuardianBody",
-		"type": "NPC",
-		"englishName": "Cosmic Guardian",
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Gardien Cosmique",
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
 		"id": "CosmicGuardianHead",
 		"type": "NPC",
 		"englishName": "Cosmic Guardian",
@@ -54270,22 +54430,6 @@
 		]
 	},
 	{
-		"id": "CosmicGuardianTail",
-		"type": "NPC",
-		"englishName": "Cosmic Guardian",
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Gardien Cosmique",
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
 		"id": "CosmicLantern",
 		"type": "NPC",
 		"englishName": "Cosmic Lantern",
@@ -54298,22 +54442,6 @@
 				"author": "Tolsyak",
 				"translatedName": "Lanterne Cosmique",
 				"translatedBestiary": "These lanterns allow their user to see through any darkness. They are not typically used for combat.",
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "CosmicMine",
-		"type": "NPC",
-		"englishName": "Cosmic Mine",
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Mine Cosmique",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -54446,22 +54574,6 @@
 		]
 	},
 	{
-		"id": "CrimulanSlimeGod",
-		"type": "NPC",
-		"englishName": "Crimulan Slime God",
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Dieu des Gelées Carmine",
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
 		"id": "CryoSlime",
 		"type": "NPC",
 		"englishName": "Cryo Slime",
@@ -54492,22 +54604,6 @@
 				"author": "Tolsyak",
 				"translatedName": "Cryogène",
 				"translatedBestiary": "A prismatic living ice crystal. Though typically glimpsed only through the harsh sleet of blizzards, on the rare days where it is seen during a sunny day, its body gleams a deadly, beautiful blue.",
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "CryogenShield",
-		"type": "NPC",
-		"englishName": "Cryogen's Shield",
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bouclier de Cryogène",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -54832,22 +54928,6 @@
 				"author": "Tolsyak",
 				"translatedName": "Dieu des Gelées d'Ébène",
 				"translatedBestiary": "Flanking their creator and serving as its body, these are concentrated, swirling masses of the world’s evils, each utilizing the rot and corrosion to eat away and assimilate those who oppose it.",
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "EbonianSlimeGod",
-		"type": "NPC",
-		"englishName": "Ebonian Slime God",
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Dieu des Gelées d'Ébène",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -55316,22 +55396,6 @@
 				"author": "Tolsyak",
 				"translatedName": "Claspeur de Glace",
 				"translatedBestiary": "An enemy which knows no bounds in hunting its prey. In blizzards where visibility is low, they have been known to glaciate and capture travelers. What happens to the victims is unknown.",
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "AnahitasIceShield",
-		"type": "NPC",
-		"englishName": "Ice Shield",
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Bouclier de Glace",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -56202,22 +56266,6 @@
 		]
 	},
 	{
-		"id": "SepulcherBodyEnergyBall",
-		"type": "NPC",
-		"englishName": "Sepulcher",
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Sépulcre",
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
 		"id": "SepulcherHead",
 		"type": "NPC",
 		"englishName": "Sepulcher",
@@ -56230,54 +56278,6 @@
 				"author": "Tolsyak",
 				"translatedName": "Sépulcre",
 				"translatedBestiary": "This might just be the vilest undead abomination in this realm. The Sepulcher itself is completely immune to physical damage, and can only be killed by destroying its many suspended organs.",
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "SepulcherTail",
-		"type": "NPC",
-		"englishName": "Sepulcher",
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Sépulcre",
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "SepulcherBody",
-		"type": "NPC",
-		"englishName": "Sepulcher",
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Sépulcre",
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "SepulcherArm",
-		"type": "NPC",
-		"englishName": "Sepulcher",
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "Sépulcre",
 				"proofRead": false,
 				"proofReader": ""
 			}
