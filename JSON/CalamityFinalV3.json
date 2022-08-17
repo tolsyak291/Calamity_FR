@@ -6,15 +6,15 @@
 		"englishTooltip": [
 			"Charges and fires 2 beams of opposite polarities. Hitting with the opposite polarity increases the damage"
 		],
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Adamantite Particle Accelerator",
+				"author": "Tolsyak",
+				"translatedName": "Accélérateur de Particule en Adamantite",
 				"translatedTooltip": [
-					"Charges and fires 2 beams of opposite polarities. Hitting with the opposite polarity increases the damage"
+					"Charge et tire deux rayons de polarités opposées. Toucher avec la polarité opposé augmente les dégâts"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -25,13 +25,13 @@
 		"id": "AquaticScourgeRelic",
 		"type": "ITEM",
 		"englishName": "Aquatic Scourge Relic",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Aquatic Scourge Relic",
+				"author": "Tolsyak",
+				"translatedName": "Relique du fléau aquatique",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -44,15 +44,15 @@
 		"englishTooltip": [
 			"The smoldering essence of the Witch's wrath"
 		],
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Ashes of Annihilation",
+				"author": "Tolsyak",
+				"translatedName": "Cendres d'Annihilation",
 				"translatedTooltip": [
-					"The smoldering essence of the Witch's wrath"
+					"L'essence incandescente de la colère de la Sorcière"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -63,13 +63,13 @@
 		"id": "AshesofCalamity",
 		"type": "ITEM",
 		"englishName": "Ashes of Calamity",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Ashes of Calamity",
+				"author": "Tolsyak",
+				"translatedName": "Cendre de Calamité",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -79,13 +79,13 @@
 		"id": "AstrumAureusMask",
 		"type": "ITEM",
 		"englishName": "Astrum Aureus Mask",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Astrum Aureus Mask",
+				"author": "Tolsyak",
+				"translatedName": "Masque d'Astrum Aureus",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -95,13 +95,13 @@
 		"id": "AstrumAureusRelic",
 		"type": "ITEM",
 		"englishName": "Astrum Aureus Relic",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Astrum Aureus Relic",
+				"author": "Tolsyak",
+				"translatedName": "Relique d'Astrum Aureus",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -111,13 +111,13 @@
 		"id": "AstrumAureusTrophy",
 		"type": "ITEM",
 		"englishName": "Astrum Aureus Trophy",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Astrum Aureus Trophy",
+				"author": "Tolsyak",
+				"translatedName": "Trophée d'Astrum Aureus",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -130,15 +130,15 @@
 		"englishTooltip": [
 			"A glimpse into what will be.."
 		],
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Astrum Deus Relic",
+				"author": "Tolsyak",
+				"translatedName": "Relique d'Astrum Aureus",
 				"translatedTooltip": [
-					"A glimpse into what will be.."
+					"Un aperçu de l'avenir.."
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -156,19 +156,19 @@
 			"Good vertical speed",
 			"Flight time: 120"
 		],
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Aureate Booster",
+				"author": "Tolsyak",
+				"translatedName": "Booster Aureate",
 				"translatedTooltip": [
-					"Mach speed with style!",
-					"Horizontal speed: 8.00",
-					"Acceleration multiplier: 1.5",
-					"Good vertical speed",
-					"Flight time: 120"
+					"Mach 1 avec classe!",
+					"Vitesse horizontale: 8.00",
+					"Mutiplicateur d'accélération: 1.5",
+					"Bonne vitesse verticale",
+					"Temps de vol: 120"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -182,15 +182,15 @@
 		"englishTooltip": [
 			"20% increased melee damage and critical strike chance"
 		],
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Auric Tesla Royal Helm",
+				"author": "Tolsyak",
+				"translatedName": "Heaume Royal Tesla Aurique",
 				"translatedTooltip": [
-					"20% increased melee damage and critical strike chance"
+					"+20% de dégâts et de chances de critique en mêlée"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -201,13 +201,13 @@
 		"id": "BabyFlakCrabItem",
 		"type": "ITEM",
 		"englishName": "Baby Flak Crab",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Baby Flak Crab",
+				"author": "Tolsyak",
+				"translatedName": "Bébé Crabe Flak",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -217,13 +217,13 @@
 		"id": "BabyFlakCrabCage",
 		"type": "ITEM",
 		"englishName": "Baby Flak Crab Cage",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Baby Flak Crab Cage",
+				"author": "Tolsyak",
+				"translatedName": "Cage de Bébé Crabe Flak",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -233,13 +233,13 @@
 		"id": "BlightSpewer",
 		"type": "ITEM",
 		"englishName": "Blight Spewer",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Blight Spewer",
+				"author": "Tolsyak",
+				"translatedName": "Cracheur de Corruption",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -249,13 +249,13 @@
 		"id": "BlightedGel",
 		"type": "ITEM",
 		"englishName": "Blighted Gel",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Blighted Gel",
+				"author": "Tolsyak",
+				"translatedName": "Gelée Corrompue",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -280,27 +280,27 @@
 			"Changes all boss AIs and some enemy AIs.",
 			"Increases the health and damage of all bosses."
 		],
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Blood Fountain of Revengeance",
+				"author": "Tolsyak",
+				"translatedName": "Fontaine de Sang de Revengeance",
 				"translatedTooltip": [
-					"Enables/disables Revengeance Mode, can only be used in Expert Mode.",
+					"Active/Désactive le mode Revengeance, utilisable seulement en Mode Expert.",
 					"RAGE TOOLTIP LINE HERE",
-					"You gain Rage when in proximity of enemies or by using special items.",
+					"Vous gagnez de la rage quand vous êtes a proximité d'ennemis ou en utilisant certains objets.",
 					"ADRENALINE TOOLTIP LINE HERE",
-					"You gain Adrenaline whenever a boss is alive. Getting hit drops Adrenaline back to 0.",
-					"Getting hit while Adrenaline is maxed will reduce damage taken by a massive amount.",
-					"All enemies spawn 15% more frequently.",
-					"Certain non-boss enemies and projectiles deal between 10% and 25% more damage.",
-					"Makes certain enemies block life steal and nerfs the effectiveness of life steal.",
-					"Nerfs the effectiveness of the Hallowed Armor set bonus.",
-					"All boss minions no longer drop hearts.",
-					"Changes all boss AIs and some enemy AIs.",
-					"Increases the health and damage of all bosses."
+					"Vous gagnez de l'adrénaline quand un boss est en vie. Être touché fait retomber l'adrénaline à 0",
+					"Être touché quand l'adrénaline est au maximum réduira massivement les dégâts subis.",
+					"Tous les ennemis apparaîssent 15% plus fréquement.",
+					"Certains ennemis et projectiles (hors-boss) font entre 10% et 25% de dégâts supplémentaires.",
+					"Immunise certains ennemis au vol de vie et réduit l'efficacité du vol de vie en général.",
+					"Réduit l'efficacité du bonus de set de l'armure sacrée.",
+					"Les sbires des boss ne laissent plus de coeurs en mourant.",
+					"Modifie l'IA des boss et certaines IA des ennemis.",
+					"Augmente la santé et les dégâts de tous les boss."
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -314,15 +314,15 @@
 		"englishTooltip": [
 			"A glimpse into what will be.."
 		],
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Brimstone Elemental Relic",
+				"author": "Tolsyak",
+				"translatedName": "Relique d'Élémentaire de Soufre",
 				"translatedTooltip": [
-					"A glimpse into what will be.."
+					"Un aperçu de l'avenir.."
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -340,19 +340,19 @@
 			"Main Attunement : [None]",
 			"Secondary Attunement: [None]"
 		],
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Broken Biome Blade",
+				"author": "Tolsyak",
+				"translatedName": "Lame de Biome Brisée",
 				"translatedTooltip": [
 					"FUNCTION_DESC",
-					"Hold down RMB while standing still on flat ground to attune the weapon to the powers of the surrounding biome",
-					"Using RMB otherwise switches between the current attunement and an extra stored one",
-					"Main Attunement : [None]",
-					"Secondary Attunement: [None]"
+					"Laisser le clic droit appuyé sans bouger sur un terrain plat pour harmoniser l'arme avec les pouvoirs du biome environnant",
+					"Clic droit pour changer entre l'harmonisation courante et celle stockée en plus",
+					"Harmonisation Principale : [Aucune]",
+					"Harmonisation Secondaire: [Aucune]"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -363,13 +363,13 @@
 		"id": "BrokenPlaguedBed",
 		"type": "ITEM",
 		"englishName": "Broken Plagued 'Bed'",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Broken Plagued 'Bed'",
+				"author": "Tolsyak",
+				"translatedName": "'Lit' Pestiféré Cassé",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -384,17 +384,17 @@
 			"Increases max life by 25%",
 			"While this potion's buff is active, Regeneration Potion and Lifeforce Potion buffs are disabled"
 		],
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "Cadance Potion",
 				"translatedTooltip": [
-					"Grants Cadance's Grace, which increases life regeneration and heart pickup range",
-					"Increases max life by 25%",
-					"While this potion's buff is active, Regeneration Potion and Lifeforce Potion buffs are disabled"
+					"Accorde la Grâce de Cadence, qui augmente la régénération de vie et la portée de récupération des coeurs",
+					"Augmente la vie maximum de 25%",
+					"Quand l'effet de cette potion est actif, les effets des potions de régénération et de force vitale sont désactivés"
 				],
 				"proofRead": false,
 				"proofReader": ""
