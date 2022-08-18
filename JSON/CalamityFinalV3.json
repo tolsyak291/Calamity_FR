@@ -408,15 +408,15 @@
 		"englishTooltip": [
 			"A glimpse into what will be.."
 		],
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Calamitas Clone Relic",
+				"author": "Tolsyak",
+				"translatedName": "Relique du Clone de Calamitas",
 				"translatedTooltip": [
-					"A glimpse into what will be.."
+					"Un aperçu de l'avenir..."
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -427,13 +427,13 @@
 		"id": "CalamitasRelic",
 		"type": "ITEM",
 		"englishName": "Calamitas Relic",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Calamitas Relic",
+				"author": "Tolsyak",
+				"translatedName": "Relique de Calamitas",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -446,15 +446,15 @@
 		"englishTooltip": [
 			"A glimpse into what will be.."
 		],
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Ceaseless Void Relic",
+				"author": "Tolsyak",
+				"translatedName": "Relique du Vide Incessant",
 				"translatedTooltip": [
-					"A glimpse into what will be.."
+					"Un aperçu de l'avenir..."
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -470,17 +470,17 @@
 			"Consuming it does something that cannot be reversed",
 			"This item does nothing in Master Mode"
 		],
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Celestial Onion",
+				"author": "Tolsyak",
+				"translatedName": "Oignon Céleste",
 				"translatedTooltip": [
-					"Alien power pulses inside its layers",
-					"Consuming it does something that cannot be reversed",
-					"This item does nothing in Master Mode"
+					"Une pouvoir alien pulse au sein de ses couches",
+					"Le consommer engendre quelque chose d'irréversible",
+					"N'a aucun effet en mode Maître"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -491,13 +491,13 @@
 		"id": "CelestialRemains",
 		"type": "ITEM",
 		"englishName": "Celestial Remains",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Celestial Remains",
+				"author": "Tolsyak",
+				"translatedName": "Restes Célestes",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -507,13 +507,13 @@
 		"id": "CelestialRemainsWall",
 		"type": "ITEM",
 		"englishName": "Celestial Remains Wall",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Celestial Remains Wall",
+				"author": "Tolsyak",
+				"translatedName": "Mur de Restes Célestes",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -528,17 +528,17 @@
 			"Hold left click to load up to eight bolts for powerful burst fire",
 			"Hold right click to use the repeater full auto"
 		],
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Condemnation",
+				"author": "Tolsyak",
+				"translatedName": "Condamnation",
 				"translatedTooltip": [
-					"Fires powerful scarlet bolts suffused with hateful magics ",
-					"Hold left click to load up to eight bolts for powerful burst fire",
-					"Hold right click to use the repeater full auto"
+					"Tire de puissants carreaux écarlates infusés avec des magies emplies de haine",
+					"Laissez le clic gauche appuyé pour charger jusqu'a huit carreaux pour un puissant tir groupé",
+					"Laissez le clic droit enfoncé pour tirer en mode automatique"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -549,13 +549,13 @@
 		"id": "CoreofSunlight",
 		"type": "ITEM",
 		"englishName": "Core of Sunlight",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Core of Sunlight",
+				"author": "Tolsyak",
+				"translatedName": "Noyau de Lueur Solaire",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -569,16 +569,16 @@
 			"An otherworldly anvil capable of withstanding the pressures of stellar collapse",
 			"Also functions as every previous tier of anvil"
 		],
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Cosmic Anvil",
+				"author": "Tolsyak",
+				"translatedName": "Enclume Cosmique",
 				"translatedTooltip": [
-					"An otherworldly anvil capable of withstanding the pressures of stellar collapse ",
-					"Also functions as every previous tier of anvil"
+					"Une enclume d'un autre monde capable de supporter la pression d'un effondrement stellaire",
+					"Remplace également toutes les enclumes précédentes"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -589,13 +589,13 @@
 		"id": "CosmiliteDye",
 		"type": "ITEM",
 		"englishName": "Cosmilite Dye",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Cosmilite Dye",
+				"author": "Tolsyak",
+				"translatedName": "Teinture de Cosmilite",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -605,13 +605,13 @@
 		"id": "CrabulonRelic",
 		"type": "ITEM",
 		"englishName": "Crabulon Relic",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Crabulon Relic",
+				"author": "Tolsyak",
+				"translatedName": "Relique de Crabulon",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -621,13 +621,13 @@
 		"id": "CragmawMireRelic",
 		"type": "ITEM",
 		"englishName": "Cragmaw Mire Relic",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Cragmaw Mire Relic",
+				"author": "Tolsyak",
+				"translatedName": "Relique de Machoire Rochefange",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -640,15 +640,15 @@
 		"englishTooltip": [
 			"A glimpse into what will be.."
 		],
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Cryogen Relic",
+				"author": "Tolsyak",
+				"translatedName": "Relique de Cryogène",
 				"translatedTooltip": [
-					"A glimpse into what will be.."
+					"Un aperçu de l'avenir.."
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -659,13 +659,13 @@
 		"id": "CryonicBar",
 		"type": "ITEM",
 		"englishName": "Cryonic Bar",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Cryonic Bar",
+				"author": "Tolsyak",
+				"translatedName": "Lingot Cryonique",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -675,13 +675,13 @@
 		"id": "CryonicDye",
 		"type": "ITEM",
 		"englishName": "Cryonic Dye",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Cryonic Dye",
+				"author": "Tolsyak",
+				"translatedName": "Teinture Cryonique",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -694,15 +694,15 @@
 		"englishTooltip": [
 			"Moves swiftly towards a lab deep below the desert"
 		],
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Cyan Seeking Mechanism",
+				"author": "Tolsyak",
+				"translatedName": "Mécanisme Chercheur Cyan",
 				"translatedTooltip": [
-					"Moves swiftly towards a lab deep below the desert "
+					"Se dirige rapidement vers un labo profondément enfoui sous le désert"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -724,22 +724,23 @@
 			"The heroic spirit is also summoned when this accessory is placed in vanity slots",
 			"'A strand of a lost cosmos remains, waiting for its master'"
 		],
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Daawnlight Spirit Origin",
+				"author": "Tolsyak",
+				"translatedName": "Origine de l'Esprit d'Aubelumière",
 				"translatedTooltip": [
-					"All nearby enemies and bosses are marked with bullseyes ",
-					"Ranged attacks that strike a bullseye always critically strike and deal massive damage",
-					"When a bullseye is struck, it vanishes and a new one appears elsewhere",
-					"Explosions or large projectiles cannot strike bullseyes",
-					"Converts all ranged critical strike chance boosts into extra critical strike damage",
-					"All ranged weapons will deal even more critical strike damage the slower they are",
-					"Summons a heroic spirit from another world if accessory visibility is enabled",
-					"'A strand of a lost cosmos remains, waiting for its master'"
+					"Tous les ennemis proches sont marqués",
+					"Les attaques à distance qui touchent un ennemi marqué sont toujours critique et infligent des dégâts massifs",
+					"Quand une marque est touchée, elle disparaît et une nouvelle apparaît ailleurs",
+					"Les explosions et les projectiles larges ne fonctionne pas sur les marques",
+					"Convertit les chances de coup critique à distance en chance d'infliger des dégâts extra critiques",
+					"Les dégâts critiques augmentent encore plus sur les armes tirant des projectiles lents",
+					"Invoque un esprit héroïque d'un autre monde quand la visibilité de cette accessoire est activée",
+					"L'esprit héroïque est également invoqué si l'accessoire est placé dans les emplacements cosmétiques",
+					"'Un brin de cosmos perdu reste, attendant son maître'"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -754,16 +755,16 @@
 			"Summons a Daedalus Golem soldier that fires pellets and electricity",
 			"Shining god of greed"
 		],
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Daedalus Golem Staff",
+				"author": "Tolsyak",
+				"translatedName": "Bâton de Golem de Dédale",
 				"translatedTooltip": [
-					"Summons a Daedalus Golem soldier that fires pellets and electricity ",
-					"Shining god of greed"
+					"Invoque un Golem Soldat de Dédale qui tire des fragments et de l'électricité",
+					"Dieu de l'Avarice Brillant"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -778,16 +779,16 @@
 			"10% increased ranged damage, 5% increased ranged critical strike chance and 20% reduced ammo usage",
 			"Greatly increases all ranged projectile velocity"
 		],
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Deadshot Brooch",
+				"author": "Tolsyak",
+				"translatedName": "Broche de l'Abattu",
 				"translatedTooltip": [
-					"10% increased ranged damage, 5% increased ranged critical strike chance and 20% reduced ammo usage",
-					"Greatly increases all ranged projectile velocity"
+					"+10% de dégâts à distance, +5% de chances de coup critique à distance et -20% de consommation de munitions",
+					"Augmente grandement la vélocité des projectiles des armes à distance"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -802,16 +803,16 @@
 			"Summons an eye above your head that watches you and shoots at enemies",
 			"There can only be one eye"
 		],
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Deathstare Rod",
+				"author": "Tolsyak",
+				"translatedName": "Baguette du Regard Mortel",
 				"translatedTooltip": [
-					"Summons an eye above your head that watches you and shoots at enemies ",
-					"There can only be one eye"
+					"Invoque un oeil au dessus de votre tête qui vous surveille et tire sur les ennemis",
+					"Il ne peut y avoir qu'un oeil"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -827,17 +828,17 @@
 			"Allows you to decrypt advanced schematics",
 			"Doing so allows you to learn how to craft new things"
 		],
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Decryption Computer",
+				"author": "Tolsyak",
+				"translatedName": "Ordinateur de Décryptage",
 				"translatedTooltip": [
-					"Can be placed on the Codebreaker ",
-					"Allows you to decrypt advanced schematics",
-					"Doing so allows you to learn how to craft new things"
+					"Peut être placé sur le Briseur de Code",
+					"Vous permet de décrypter des schémas avancés",
+					"Vous permettant ainsi de fabriquer de nouveaux objets"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -848,13 +849,13 @@
 		"id": "DesertScourgeRelic",
 		"type": "ITEM",
 		"englishName": "Desert Scourge Relic",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Desert Scourge Relic",
+				"author": "Tolsyak",
+				"translatedName": "Relique du Fléau du Désert",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -867,15 +868,15 @@
 		"englishTooltip": [
 			"A glimpse into what will be.."
 		],
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Devourer of Gods Relic",
+				"author": "Tolsyak",
+				"translatedName": "Relique du Dévoreur de Dieux",
 				"translatedTooltip": [
-					"A glimpse into what will be.."
+					"Un aperçu de l'avenir.."
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -890,16 +891,16 @@
 			"@everyone",
 			"50% chance to not consume ammo"
 		],
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Disseminator",
+				"author": "Tolsyak",
+				"translatedName": "Disseminateur",
 				"translatedTooltip": [
 					"@everyone",
-					"50% chance to not consume ammo"
+					"50% de chances de ne pas consommer de munitions"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -910,13 +911,13 @@
 		"id": "DraedonMask",
 		"type": "ITEM",
 		"englishName": "Draedon Mask",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Draedon Mask",
+				"author": "Tolsyak",
+				"translatedName": "Masque de Draedon",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -926,13 +927,13 @@
 		"id": "DraedonRelic",
 		"type": "ITEM",
 		"englishName": "Draedon Relic",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Draedon Relic",
+				"author": "Tolsyak",
+				"translatedName": "Relique de Draedon",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -945,15 +946,15 @@
 		"englishTooltip": [
 			"A glimpse into what will be.."
 		],
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Dragonfolly Relic",
+				"author": "Tolsyak",
+				"translatedName": "Relique de la Folie Draconique",
 				"translatedTooltip": [
-					"A glimpse into what will be.."
+					"Un aperçu de l'avenir.."
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -964,13 +965,13 @@
 		"id": "DragonfollyTrophy",
 		"type": "ITEM",
 		"englishName": "Dragonfolly Trophy",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Dragonfolly Trophy",
+				"author": "Tolsyak",
+				"translatedName": "Trophée de la Folie Draconique",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -984,16 +985,16 @@
 			"5% increased rogue damage and critical strike chance",
 			"15% increased movement speed"
 		],
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Empyrean Cuisses",
+				"author": "Tolsyak",
+				"translatedName": "Cuissardes Empyréenes",
 				"translatedTooltip": [
-					"5% increased rogue damage and critical strike chance",
-					"15% increased movement speed"
+					"+5% de dégâts et de chances de coup critique de voleur",
+					"+15% de vitesse de déplacement"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -1008,16 +1009,16 @@
 			"11% increased rogue damage and critical strike chance, 5% increased movement speed",
 			"Temporary immunity to lava"
 		],
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Empyrean Mask",
+				"author": "Tolsyak",
+				"translatedName": "Masque Empyréen",
 				"translatedTooltip": [
-					"11% increased rogue damage and critical strike chance, 5% increased movement speed",
-					"Temporary immunity to lava"
+					"+11% de dégâts et de chances de coup critique de voleur, +5% de vitesse de mouvement",
+					"Immunité temporaire à la lave"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -1031,15 +1032,15 @@
 		"englishTooltip": [
 			"Requires a Codebreaker with a complex voltage regulation system to decrypt"
 		],
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Encrypted Schematic",
+				"author": "Tolsyak",
+				"translatedName": "Plans Cryptés",
 				"translatedTooltip": [
-					"Requires a Codebreaker with a complex voltage regulation system to decrypt "
+					"Requiert un Briseur de Code avec un système complexe de régulation de tension pour être décrypté"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -1053,15 +1054,15 @@
 		"englishTooltip": [
 			"Requires a Codebreaker with a fine tuned, long range sensor to decrypt"
 		],
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Encrypted Schematic",
+				"author": "Tolsyak",
+				"translatedName": "Plans Cryptés",
 				"translatedTooltip": [
-					"Requires a Codebreaker with a fine tuned, long range sensor to decrypt "
+					"Requiert un Briseur de Code avec un Senseur longue-portée bien réglé pour être décrypté"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -1075,15 +1076,15 @@
 		"englishTooltip": [
 			"Requires a Codebreaker with a sophisticated display to decrypt"
 		],
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Encrypted Schematic",
+				"author": "Tolsyak",
+				"translatedName": "Plans Cryptés",
 				"translatedTooltip": [
-					"Requires a Codebreaker with a sophisticated display to decrypt "
+					"Requiert un Briseur de Code avec un système d'affichage sophistiqué pour être décrypté"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -1097,15 +1098,15 @@
 		"englishTooltip": [
 			"Requires a Codebreaker with a basic decryption computer to decrypt"
 		],
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Encrypted Schematic",
+				"author": "Tolsyak",
+				"translatedName": "Plans Cryptés",
 				"translatedTooltip": [
-					"Requires a Codebreaker with a basic decryption computer to decrypt "
+					"Requiert un Briseur de Code avec un ordinateur de décryptage basique pour être décrypté"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -1122,18 +1123,18 @@
 			"Also replaced",
 			"A comfortable gamer is a dangerous gamer"
 		],
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Exo Box",
+				"author": "Tolsyak",
+				"translatedName": "Exo Boîte",
 				"translatedTooltip": [
-					"Materializes a quite cozy and extremely nimble flying Exo throne ",
+					"Matérialise un confortable et extremmement mobile Exo-Trône Volant ",
 					"Replaced",
 					"Also replaced",
-					"A comfortable gamer is a dangerous gamer"
+					"Un joueur comfortablement installé et un joueur dangereux"
 				],
 				"proofRead": false,
 				"proofReader": ""
