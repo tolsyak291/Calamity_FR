@@ -14,6 +14,8 @@ using System.Reflection;
 using Terraria;
 using Terraria.GameContent.Bestiary;
 using System.Collections;
+using System.Runtime.CompilerServices;
+using System;
 
 namespace Calamity_FR
 {
@@ -33,12 +35,11 @@ namespace Calamity_FR
 			DraedonGUIList.Add(new SnowGUI() as PopupGUI);
 			DraedonGUIList.Add(new PlanetoidGUI() as PopupGUI);
 			DraedonGUIList.Add(new SunkenGUI() as PopupGUI);
-			
+
 			//Using reflection for adding translatedGUI for draedon schematics
 			//The text is in CalamityMod.TileEntities.TECodebreaker.UnderlyingSchematicText
 
 			//Items To manage in globalItems
-			//DraedonsHeart
 			//RottenDogtooth
 			//SerpentsBite
 			//BobbitHook
@@ -46,6 +47,7 @@ namespace Calamity_FR
 			//HeavenlyGale
 			//Seraphim
 			//RelicOfResilience
+			//Biome Blade Line (Probably) (Yes)
 		}
 
 		public override void PostSetupContent()

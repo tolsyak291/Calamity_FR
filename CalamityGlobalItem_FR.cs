@@ -50,6 +50,9 @@ using CalamityMod.Items.Armor.Victide;
 using CalamityMod.Items.Armor.Wulfrum;
 using CalamityMod.Items.Armor.Empyrean;
 using CalamityMod.Items.Armor.GemTech;
+using CalamityMod.Items.Mounts;
+using CalamityMod.Balancing;
+using System.Reflection;
 
 public class CalamityGlobalItem_FR : GlobalItem
 {
@@ -1124,6 +1127,45 @@ public class CalamityGlobalItem_FR : GlobalItem
 			}
 		}
 
+		if (item.type == ModContent.ItemType<ExoThrone>()) {
+			foreach (TooltipLine line in tooltips)
+			{
+				string hotkey3 = CalamityKeybinds.ExoChairSpeedupHotkey.TooltipHotkeyString();
+				string hotkey2 = CalamityKeybinds.ExoChairSlowdownHotkey.TooltipHotkeyString();
+				line.Text = line.Text.Replace("Hold " + hotkey3 + " while sitting in the throne to move much faster", "Restez appuyé sur " + hotkey3 + " en étant assis sur le trône pour aller bien plus vite");
+				line.Text = line.Text.Replace("And hold " + hotkey2 + " to move much slower", "Et restez appuyé sur "+ hotkey2 +" pour aller bien plus lentement");
+			}
+		}
+
+		if (item.type == ModContent.ItemType<DraedonsHeart>())
+		{
+			string fullAdrenDRString = (100f * (float)typeof(BalancingConstants).GetField("FullAdrenalineDR", BindingFlags.NonPublic | BindingFlags.Static).GetValue(null)).ToString("n0");
+			int lineNumber = 0;
+			int lineAmount = tooltips.Count;
+			foreach (TooltipLine line in tooltips)
+			{
+				line.Text = line.Text.Replace("15% reduced contact damage from enemies", "15% de réduction des dégâts de contact");
+				line.Text = line.Text.Replace("Reduces defense damage taken by 50%", "Réduit les dégâts d'armure de 50%");
+				line.Text = line.Text.Replace("Replaces Adrenaline with the Nanomachines meter", "Remplace l'adrénaline avec les nanomachines");
+				line.Text = line.Text.Replace("Unlike Adrenaline, you lose no Nanomachines when you take damage, but they stop accumulating for", "Contrairement à l'adrénaline, vous ne perdez pas de nanomachines quand vous prenez des dégâts, mais elles cessent de s'accumuler durant");
+				line.Text = line.Text.Replace("With full Nanomachines, press", "Une fois les nanomachines pleines, appuyez sur");
+				line.Text = line.Text.Replace("to heal", "pour récupérer");
+				line.Text = line.Text.Replace("health over", "points de vie en");
+				line.Text = line.Text.Replace("While healing, you take", "Durant le soin, vous prenez");
+				line.Text = line.Text.Replace("less damage", "de dégâts en moins");
+				line.Text = line.Text.Replace("Nanomachines, son.", "Les nanomachines, fiston");
+				line.Text = line.Text.Replace("Adds the Nanomachines meter", "Ajoute la jauge de Nanomachines");
+				line.Text = line.Text.Replace("Taking damage stops the accumulation for", "Prendre des dégâts stoppe l'accumulation durant");
+				line.Text = line.Text.Replace("seconds", "secondes");
+				line.Text = line.Text.Replace("second", "seconde");
+				line.Text = line.Text.Replace("Nanomachines accumulate over time while fighting bosses", "Les nanomachines s'accumulent au fur et à mesure quand vous combattez des boss");
+				//Fix because calamity is broken, fml
+				if (lineNumber == lineAmount - 2) {
+					line.Text = "Durant le soin, vous prenez " + fullAdrenDRString + "% de dégâts en moins";
+				}
+				lineNumber++;
+			}
+		}
 		/*
 		//Specific Item Modification
 		if (CalamityWorld.death)
@@ -1443,10 +1485,10 @@ public class CalamityGlobalItem_FR : GlobalItem
 		{
 			foreach (TooltipLine line in tooltips)
 			{
-				line.Text = line.Text.Replace("Activates rage. When rage is maxed press", "Active la rage. Quand la jauge de rage est remplie, appuyez sur");
-				line.Text = line.Text.Replace("to activate rage mode.", " pour activer le mode rage.");
-				line.Text = line.Text.Replace("Activates adrenaline. When adrenaline is maxed press", "Active l'adrénaline. Quand la jauge d'adrénaline est remplie, appuyez sur");
-				line.Text = line.Text.Replace("to activate adrenaline mode.", "pour activer le mode adrénaline.");
+				line.Text = line.Text.Replace("Enables the Rage mechanic. When Rage is maxed press", "Active la mécanique de rage. Quand la jauge de rage est remplie, appuyez sur");
+				line.Text = line.Text.Replace("to activate Rage Mode.", " pour activer le mode rage.");
+				line.Text = line.Text.Replace("Enables the Adrenaline mechanic. When Adrenaline is maxed press", "Active la mécanique d'adrénaline. Quand la jauge d'adrénaline est remplie, appuyez sur");
+				line.Text = line.Text.Replace("to activate Adrenaline Mode.", "pour activer le mode adrénaline.");
 			}
 		}
 		if (item.type == ModContent.ItemType<VitalJelly>())

@@ -6,11 +6,15 @@
     <TargetFramework>net6.0</TargetFramework>
     <PlatformTarget>AnyCPU</PlatformTarget>
     <LangVersion>latest</LangVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="tModLoader.CodeAssist" Version="0.1.*" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>D:\Downloads\Harmony.2.2.2.0\net6.0\0Harmony.dll</HintPath>
+    </Reference>
     <Reference Include="CalamityMod">
       <HintPath>D:\Downloads\tModUnpacker\Calamity2\CalamityMod\CalamityMod.dll</HintPath>
     </Reference>

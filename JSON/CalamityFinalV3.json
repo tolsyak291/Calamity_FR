@@ -38,6 +38,22 @@
 		]
 	},
 	{
+		"id": "DraedonsHeart",
+		"type": "ITEM",
+		"englishName": "Draedon's Heart",
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "Coeur de Draedon",
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
 		"id": "AshesofAnnihilation",
 		"type": "ITEM",
 		"englishName": "Ashes of Annihilation",
