@@ -980,25 +980,10 @@ public class CalamityGlobalItem_FR : GlobalItem
 		{
 			return "VictideRanged";
 		}
-		if (head.type == ModContent.ItemType<WulfrumHeadRanged>() && body.type == ModContent.ItemType<WulfrumArmor>() && legs.type == ModContent.ItemType<WulfrumLeggings>())
-		{
-			return "WulfrumRanged";
-		}
-		if (head.type == ModContent.ItemType<WulfrumHeadMelee>() && body.type == ModContent.ItemType<WulfrumArmor>() && legs.type == ModContent.ItemType<WulfrumLeggings>())
-		{
-			return "WulfrumMelee";
-		}
-		if (head.type == ModContent.ItemType<WulfrumHeadSummon>() && body.type == ModContent.ItemType<WulfrumArmor>() && legs.type == ModContent.ItemType<WulfrumLeggings>())
+		
+		if (head.type == ModContent.ItemType<WulfrumHat>() && body.type == ModContent.ItemType<WulfrumJacket>() && legs.type == ModContent.ItemType<WulfrumOveralls>())
 		{
 			return "WulfrumSummon";
-		}
-		if (head.type == ModContent.ItemType<WulfrumHeadMagic>() && body.type == ModContent.ItemType<WulfrumArmor>() && legs.type == ModContent.ItemType<WulfrumLeggings>())
-		{
-			return "WulfrumMagic";
-		}
-		if (head.type == ModContent.ItemType<WulfrumHeadRogue>() && body.type == ModContent.ItemType<WulfrumArmor>() && legs.type == ModContent.ItemType<WulfrumLeggings>())
-		{
-			return "WulfrumRogue";
 		}
 		if (head.type == ModContent.ItemType<EmpyreanMask>() && body.type == ModContent.ItemType<EmpyreanCloak>() && legs.type == ModContent.ItemType<EmpyreanCuisses>())
 		{
@@ -1481,7 +1466,7 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.Text = line.Text.Replace("Favorite this item to gain 5% increased movement speed.", "Favorisez cet objet pour gagner 5% de vitesse de mouvement.");
 			}
 		}
-		if (item.type == ModContent.ItemType<RevengeanceModeItem>())
+		/*if (item.type == ModContent.ItemType<RevengeanceModeItem>())
 		{
 			foreach (TooltipLine line in tooltips)
 			{
@@ -1490,7 +1475,7 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.Text = line.Text.Replace("Enables the Adrenaline mechanic. When Adrenaline is maxed press", "Active la mécanique d'adrénaline. Quand la jauge d'adrénaline est remplie, appuyez sur");
 				line.Text = line.Text.Replace("to activate Adrenaline Mode.", "pour activer le mode adrénaline.");
 			}
-		}
+		}*/
 		if (item.type == ModContent.ItemType<VitalJelly>())
 		{
 			foreach (TooltipLine line in tooltips)
@@ -1538,14 +1523,6 @@ public class CalamityGlobalItem_FR : GlobalItem
 			foreach (TooltipLine line in tooltips)
 			{
 				line.Text = line.Text.Replace("Rogue Crit Level:", "Cumuls actuels:");
-			}
-		}
-		if (item.type == ModContent.ItemType<MomentumCapacitor>())
-		{
-			foreach (TooltipLine line in tooltips)
-			{
-				string hotkeyCapacitor = CalamityMod.CalamityKeybinds.MomentumCapacitatorHotkey.TooltipHotkeyString();
-				line.Text = line.Text.Replace("Press " + hotkeyCapacitor + " to consume 30% of your maximum stealth to create an energy field at the cursor position", "Appuyez sur " + hotkeyCapacitor + " pour consommer 30% de votre furtivité maximale pour créer un champ d'énergie à l'emplacement du curseur");
 			}
 		}
 		if (item.type == ModContent.ItemType<GrandGelatin>())

@@ -16,7 +16,7 @@
       <HintPath>D:\Downloads\Harmony.2.2.2.0\net6.0\0Harmony.dll</HintPath>
     </Reference>
     <Reference Include="CalamityMod">
-      <HintPath>D:\Downloads\tModUnpacker\Calamity2\CalamityMod\CalamityMod.dll</HintPath>
+      <HintPath>D:\Downloads\tModUnpacker\Calamity21\CalamityMod\CalamityMod.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

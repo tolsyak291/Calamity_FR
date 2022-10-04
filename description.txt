@@ -3,6 +3,7 @@ Unofficial Calamity mod french translation
 
 A l'exception du texte impossible à traduire, tout le contenu depuis la v1.4 + une partie du contenu des versions supérieures (v1.5,2 et +) sont traduits.
 
+(Actuellement Approximatif)
 Avancée de la traduction des objets : 1781 / 1924
 Avancée de la traduction des messages : 166 / 166
 Avancée de la traduction des NPC : 289 / 289
@@ -14,7 +15,7 @@ Avancée de la traduction globale (en prenant en compte le bestiaire) : 2521 / 2
 
 
 Ajouts de la dernière version :
-	Ajout de plusieurs traductions (166 Objets)
+	Correction rapide suite à la mise à jour, certains objets peuvent ne pas être traduits correctement (Notamment l'armure Wulfrum)
 
 Visitez le forum pour plus d'informations : https://forums.terraria.org/index.php?threads/calamity-mod-french-translation.106939/
 
