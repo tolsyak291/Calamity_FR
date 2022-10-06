@@ -53766,15 +53766,15 @@
 		"id": "AstralProbe",
 		"type": "NPC",
 		"englishName": "Astral Probe",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "A small animal devoured by the astral infection. The virus retains and shares its experience with itself of devouring other, similar creatures and so, all form identical shells.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Sonde Astrale",
-				"translatedBestiary": "A small animal devoured by the astral infection. The virus retains and shares its experience with itself of devouring other, similar creatures and so, all form identical shells.",
+				"translatedBestiary": "Un petit animal qui fut dévoré par l'infection astral. Le virus retiens et partage son expérience avec lui-même en dévorant d'autres créatures similaires et ainsi, tous forment des coquilles identique.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -53784,15 +53784,15 @@
 		"id": "AstralSlime",
 		"type": "NPC",
 		"englishName": "Astral Slime",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "It does not show behavior different from any of its gelatinous folk, so this adaptive creature may have been the only one to fight the infection in its own way.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Gelée Astrale",
-				"translatedBestiary": "It does not show behavior different from any of its gelatinous folk, so this adaptive creature may have been the only one to fight the infection in its own way.",
+				"translatedBestiary": "Il ne présente aucune différence comportemental de ses autres compères gélatineux, cette créature adaptavive a peut-être été la seul à combattre l'infection à sa manière.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -53802,15 +53802,15 @@
 		"id": "AstralachneaGround",
 		"type": "NPC",
 		"englishName": "Astralachnea",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "An arachnid taken over by the infection, it has lost its ability to spin webs and hosts a myriad of astral growths on its abdomen.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Astralaraignée",
-				"translatedBestiary": "An arachnid taken over by the infection, it has lost its ability to spin webs and hosts a myriad of astral growths on its abdomen.",
+				"translatedBestiary": "Un arachnide dominé par l'infection, il a perdu sa capacité à tisser des toiles et héberge une tonne d'excroissances astrales sur son abdomen.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -53820,15 +53820,15 @@
 		"id": "AstrumAureus",
 		"type": "NPC",
 		"englishName": "Astrum Aureus",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "A multi-legged mechanical beast, its very existence speaks of the extent of control the astral virus has. Not even machinery can stand against it.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Astrum Aureus",
-				"translatedBestiary": "A multi-legged mechanical beast, its very existence speaks of the extent of control the astral virus has. Not even machinery can stand against it.",
+				"translatedBestiary": "Une bête méchanique à plusieurs pattes, son existence même témoigne de l'étendue du contrôle du virus astrale. Même les machines ne peuvent s'y opposer.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -53856,15 +53856,15 @@
 		"id": "Atlas",
 		"type": "NPC",
 		"englishName": "Atlas",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "In its uncontrolled growth, one appendage wrested nutrients and materials from the other and brought it to the extremes of muscular strength. One blow is enough to pulverize a monolith.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Atlas",
-				"translatedBestiary": "In its uncontrolled growth, one appendage wrested nutrients and materials from the other and brought it to the extremes of muscular strength. One blow is enough to pulverize a monolith.",
+				"translatedBestiary": "Dans sa croissance incontrôlée, une appendice a arrachée des nutriments et des matériaux par ci par là et les a entrainés à l'extrême de la force musculaire. Un coup suffit pour pulvériser un monolithe.",
 				"proofRead": false,
 				"proofReader": ""
 			}
