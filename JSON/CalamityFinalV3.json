@@ -7,7 +7,7 @@
 			"Charges and fires 2 beams of opposite polarities. Hitting with the opposite polarity increases the damage"
 		],
 		"state": "Traduit",
-		"activeTranslation": 1,
+		"activeTranslation": 2,
 		"translations": [
 			{
 				"id": 1,
@@ -15,6 +15,16 @@
 				"translatedName": "Accélérateur de Particule en Adamantite",
 				"translatedTooltip": [
 					"Charge et tire deux rayons de polarités opposées. Toucher avec la polarité opposé augmente les dégâts"
+				],
+				"proofRead": false,
+				"proofReader": ""
+			},
+			{
+				"id": 2,
+				"author": "Shedatch",
+				"translatedName": "Accélérateur de Particule en Adamantite",
+				"translatedTooltip": [
+					"Tire deux rayons chargés de polarités opposées. Toucher avec la polarité opposée augmente les dégâts"
 				],
 				"proofRead": false,
 				"proofReader": ""
