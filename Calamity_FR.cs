@@ -9,7 +9,6 @@ using CalamityMod;
 using CalamityMod.Items;
 using CalamityFR.DraedonLogs;
 using CalamityFR.JSON;
-using Microsoft.Xna.Framework;
 using System.Reflection;
 using Terraria;
 using Terraria.GameContent.Bestiary;

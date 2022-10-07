@@ -18,6 +18,12 @@
     <Reference Include="CalamityMod">
       <HintPath>D:\Downloads\tModUnpacker\Calamity21\CalamityMod\CalamityMod.dll</HintPath>
     </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\steam\SteamApps\common\tModLoader\Libraries\log4net\2.0.8.0\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="tModLoader">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\steam\SteamApps\common\tModLoader\tModLoader.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />

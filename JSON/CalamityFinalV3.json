@@ -53586,7 +53586,7 @@
 		"id": "CrawlerAmber",
 		"type": "NPC",
 		"englishName": "Amber Crawler",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "A lizard, its back inundated with crystals. These provide protection, but they are easily spooked and can be harvested for the rare gems upon their backs.",
 		"translations": [
@@ -53594,7 +53594,15 @@
 				"id": 1,
 				"author": "Lenc3lot",
 				"translatedName": "Rampant d'Ambre",
-				"translatedBestiary": "Un lézard, au dos innondé de cristaux. Ils fournissent protection, mais sont facilement effrayés et peuvent être récoltés pour les pierres précieuses sur leur dos.",
+				"translatedBestiary": "Un lézard, au dos inondé de cristaux. Ils fournissent protection, mais sont facilement effrayés et peuvent être récoltés pour les pierres précieuses sur leur dos.",
+				"proofRead": true,
+				"proofReader": "Tolsyak"
+			},
+			{
+				"id": 2,
+				"author": "Tolsyak",
+				"translatedName": "Rampant d'Ambre",
+				"translatedBestiary": "Un lézard, au dos inondé de cristaux. Bien qu'ils le protègent, il est facilement effrayé et est chassé pour les pierres précieuses sur leur dos.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -53604,7 +53612,7 @@
 		"id": "CrawlerAmethyst",
 		"type": "NPC",
 		"englishName": "Amethyst Crawler",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "A lizard, its back inundated with crystals. These provide protection, but they are easily spooked and can be harvested for the rare gems upon their backs.",
 		"translations": [
@@ -53612,9 +53620,18 @@
 				"id": 1,
 				"author": "Lenc3lot",
 				"translatedName": "Rampant d'Améthyste",
-				"translatedBestiary": "Un lézard, au dos innondé de cristaux. Ils fournissent protection, mais sont facilement effrayés et peuvent être récoltés pour les pierres précieuses sur leur dos.",
+				"translatedBestiary": "Un lézard, au dos inondé de cristaux. Ils fournissent protection, mais sont facilement effrayés et peuvent être récoltés pour les pierres précieuses sur leur dos.",
+				"proofRead": true,
+				"proofReader": "Tolsyak"
+			},
+			{
+				"id": 2,
+				"author": "Tolsyak",
+				"translatedName": "Rampant d'Ambre",
+				"translatedBestiary": "Un lézard, au dos inondé de cristaux. Bien qu'ils le protègent, il est facilement effrayé et est chassé pour les pierres précieuses sur leur dos.",
 				"proofRead": false,
 				"proofReader": ""
+
 			}
 		]
 	},
@@ -53622,7 +53639,7 @@
 		"id": "Anahita",
 		"type": "NPC",
 		"englishName": "Anahita",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Boasting flawless manipulation of water, this elemental was known for almost limitless strength in her home turf. However, those days are long gone.",
 		"translations": [
@@ -53631,8 +53648,8 @@
 				"author": "Lenc3lot",
 				"translatedName": "Anahita",
 				"translatedBestiary": "Douée dans la manipulation de l'eau, cette élémentaire était connue pour sa force presque illimitée dans son territoire. Cependant, ces jours sont lointains.",
-				"proofRead": false,
-				"proofReader": ""
+				"proofRead": true,
+				"proofReader": "Tolsyak"
 			}
 		]
 	},
@@ -53640,7 +53657,7 @@
 		"id": "AnthozoanCrab",
 		"type": "NPC",
 		"englishName": "Anthozoan Crab",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "A crab that has placed upon its back, a sturdy structure of stone. It is quite strong and displays this extraordinary strength by hurling boulders at those who encroach on its territory.",
 		"translations": [
@@ -53648,9 +53665,9 @@
 				"id": 1,
 				"author": "Lenc3lot",
 				"translatedName": "Crabe Anthozoaire",
-				"translatedBestiary": "Un crabe qui à, placé sur son dos, une robuste structure de pierre. Il est relativement fort et affiche cette extraordinaire force en lançant des blocs de roche à quiconque empièterait sur son territoire.",
-				"proofRead": false,
-				"proofReader": ""
+				"translatedBestiary": "Un crabe qui a placé une robuste structure de pierre sur son dos. Il est relativement fort et affiche cette extraordinaire force en lançant des blocs de roche à quiconque empièterait sur son territoire.",
+				"proofRead": true,
+				"proofReader": "Tolsyak"
 			}
 		]
 	},
@@ -53658,15 +53675,23 @@
 		"id": "AquaticAberration",
 		"type": "NPC",
 		"englishName": "Aquatic Aberration",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "All head and stomach, they will gorge and guzzle upon vast schools of fish on their own.",
 		"translations": [
 			{
 				"id": 1,
 				"author": "Lenc3lot",
-				"translatedName": "Abérattion Aquatique",
+				"translatedName": "Abérration Aquatique",
 				"translatedBestiary": "Tout de tête et d'estomac, ils vont se gaver parmis de vastes bancs de poissons.",
+				"proofRead": true,
+				"proofReader": "Tolsyak"
+			},
+			{
+				"id": 2,
+				"author": "Tolsyak",
+				"translatedName": "Abérration Aquatique",
+				"translatedBestiary": "Des ventres à pattes sans cervelle, qui s'engorgent et se gavent de vastes bancs de poissons.",
 				"proofRead": false,
 				"proofReader": ""
 			}
