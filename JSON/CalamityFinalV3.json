@@ -53701,7 +53701,7 @@
 		"id": "AquaticScourgeHead",
 		"type": "NPC",
 		"englishName": "Aquatic Scourge",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "A species of scourge which has had its exoskeleton hardened and tempered by years of diving through sulphuric waters for prey. Its own jaws are now imbued with the venom of those seas.",
 		"translations": [
@@ -53710,8 +53710,8 @@
 				"author": "VicThor",
 				"translatedName": "Fléau Aquatique",
 				"translatedBestiary": "Une espèce de fléau dont l'exosquelette a été durci et trempé par des années de plongée dans des eaux sulfureuses à la recherche de proies. Ses propres mâchoires sont maintenant imprégnées du venin de ces mers.",
-				"proofRead": false,
-				"proofReader": ""
+				"proofRead": true,
+				"proofReader": "Tolsyak"
 			}
 		]
 	},
@@ -53719,7 +53719,7 @@
 		"id": "AquaticUrchin",
 		"type": "NPC",
 		"englishName": "Aquatic Urchin",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "A relative of its brethren in the far ocean, this one’s spines have been hardened by the sulphuric waters. They drip with the venom they inhabit, so it’s better to not be struck by them.",
 		"translations": [
@@ -53728,8 +53728,8 @@
 				"author": "VicThor",
 				"translatedName": "Oursin Aquatique",
 				"translatedBestiary": "Un parent de ses frères de l'océan lointain, les épines de celui-ci ont été durcies par les eaux sulfureuses. Elles dégoulinent du venin qu'elles abritent, alors il vaut mieux ne pas être frappé par ces dernières.",
-				"proofRead": false,
-				"proofReader": ""
+				"proofRead": true,
+				"proofReader": "Tolsyak"
 			}
 		]
 	},
@@ -53737,7 +53737,7 @@
 		"id": "DILF",
 		"type": "NPC",
 		"englishName": "Archmage",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "His face shows great age, but also great wisdom. The Archmage once stood against the Jungle Tyrant and paid the price. He sells various frosty wares but of course, keeps the most powerful spells to himself.",
 		"translations": [
@@ -53746,8 +53746,8 @@
 				"author": "VicThor",
 				"translatedName": "Archimage",
 				"translatedBestiary": "Son visage montre un grand âge, mais aussi une grande sagesse. L'Archimage s'est un jour opposé au Tyran de la Jungle et en a payé le prix. Il vend diverses marchandises glacées, mais bien sûr, il garde pour lui les sorts les plus puissants.",
-				"proofRead": false,
-				"proofReader": ""
+				"proofRead": true,
+				"proofReader": "Tolsyak"
 			}
 		]
 	},
@@ -53755,7 +53755,7 @@
 		"id": "Aries",
 		"type": "NPC",
 		"englishName": "Aries",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Biologically, the creature suffers terribly. Its legs do not allow it to rest, constantly hopping across the infected landscape. It does not care as its mind is far gone. It continues this until death.",
 		"translations": [
@@ -53764,8 +53764,8 @@
 				"author": "VicThor",
 				"translatedName": "Aries",
 				"translatedBestiary": "Biologiquement, la créature souffre terriblement. Ses jambes ne lui permettent pas de se reposer, sautillant constamment à travers le paysage infecté. Elle s'en moque, car son esprit est déjà bien loin. Elle continue ainsi jusqu'à sa mort.",
-				"proofRead": false,
-				"proofReader": ""
+				"proofRead": true,
+				"proofReader": "Tolsyak"
 			}
 		]
 	},
@@ -53773,7 +53773,7 @@
 		"id": "ArmoredDiggerHead",
 		"type": "NPC",
 		"englishName": "Armored Digger",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "These automated mechanical worms used to dig out the caverns so labs could be built. Thankfully, they are long past their once efficient state, and have not received maintenance in decades.",
 		"translations": [
@@ -53782,8 +53782,8 @@
 				"author": "VicThor",
 				"translatedName": "Creuseur Blindé",
 				"translatedBestiary": "Ces vers mécaniques automatisés creusaient les cavernes pour permettre la construction de laboratoires. Heureusement, ils ont depuis longtemps perdu leur efficacité et n'ont pas été entretenus depuis des décennies.",
-				"proofRead": false,
-				"proofReader": ""
+				"proofRead": true,
+				"proofReader": "Tolsyak"
 			}
 		]
 	},
@@ -53799,9 +53799,9 @@
 				"id": 1,
 				"author": "Goffio",
 				"translatedName": "Sonde Astrale",
-				"translatedBestiary": "Un petit animal qui fut dévoré par l'infection astral. Le virus retiens et partage son expérience avec lui-même en dévorant d'autres créatures similaires et ainsi, tous forment des coquilles identique.",
-				"proofRead": false,
-				"proofReader": ""
+				"translatedBestiary": "Un petit animal qui fut dévoré par l'infection astrale. Le virus retient et partage son expérience avec lui-même en dévorant d'autres créatures similaires et ainsi, tous forment des coquilles identiques",
+				"proofRead": true,
+				"proofReader": "Tolsyak"
 			}
 		]
 	},
@@ -53817,9 +53817,9 @@
 				"id": 1,
 				"author": "Goffio",
 				"translatedName": "Gelée Astrale",
-				"translatedBestiary": "Il ne présente aucune différence comportemental de ses autres compères gélatineux, cette créature adaptavive a peut-être été la seul à combattre l'infection à sa manière.",
-				"proofRead": false,
-				"proofReader": ""
+				"translatedBestiary": "Il ne présente aucune différence comportementale de ses autres compères gélatineux, cette créature adaptative a peut-être été la seule à combattre l'infection à sa manière.",
+				"proofRead": true,
+				"proofReader": "Tolsyak"
 			}
 		]
 	},
@@ -53836,8 +53836,8 @@
 				"author": "Goffio",
 				"translatedName": "Astralaraignée",
 				"translatedBestiary": "Un arachnide dominé par l'infection, il a perdu sa capacité à tisser des toiles et héberge une tonne d'excroissances astrales sur son abdomen.",
-				"proofRead": false,
-				"proofReader": ""
+				"proofRead": true,
+				"proofReader": "Tolsyak"
 			}
 		]
 	},
@@ -53853,9 +53853,9 @@
 				"id": 1,
 				"author": "Goffio",
 				"translatedName": "Astrum Aureus",
-				"translatedBestiary": "Une bête méchanique à plusieurs pattes, son existence même témoigne de l'étendue du contrôle du virus astrale. Même les machines ne peuvent s'y opposer.",
-				"proofRead": false,
-				"proofReader": ""
+				"translatedBestiary": "Une bête méchanique à plusieurs pattes, son existence même témoigne de l'étendue du contrôle du virus astral. Même les machines ne peuvent s'y opposer.",
+				"proofRead": true,
+				"proofReader": "Tolsyak"
 			}
 		]
 	},
@@ -53889,9 +53889,9 @@
 				"id": 1,
 				"author": "Goffio",
 				"translatedName": "Atlas",
-				"translatedBestiary": "Dans sa croissance incontrôlée, une appendice a arrachée des nutriments et des matériaux par ci par là et les a entrainés à l'extrême de la force musculaire. Un coup suffit pour pulvériser un monolithe.",
-				"proofRead": false,
-				"proofReader": ""
+				"translatedBestiary": "Dans sa croissance incontrôlée, un appendice a arrachée des nutriments et des matériaux par ci par là et les a entrainés à l'extrême de la force musculaire. Un coup suffit pour pulvériser un monolithe.",
+				"proofRead": true,
+				"proofReader": "Tolsyak"
 			}
 		]
 	},
@@ -53907,9 +53907,9 @@
 				"id": 1,
 				"author": "Goffio",
 				"translatedName": "Esprit d'Aurore",
-				"translatedBestiary": "Les âmes de ceux qui sont décédés au coeur d'un blizzard. Ils recherchent maintenant d'autre âme pour mourir de froid, pour mourrir comme eux.",
-				"proofRead": false,
-				"proofReader": ""
+				"translatedBestiary": "Les âmes de ceux qui sont décédés au coeur d'un blizzard. Ils recherchent maintenant d'autre âmes pour mourir de froid, pour mourrir comme eux.",
+				"proofRead": true,
+				"proofReader": "Tolsyak"
 			}
 		]
 	},
@@ -53918,14 +53918,22 @@
 		"type": "NPC",
 		"englishName": "Baby Flak Crab",
 		"state": "Traduit",
-		"activeTranslation": 1,
+		"activeTranslation": 2,
 		"englishBestiary": "Curiously, these seem to be intelligent enough to imprint a sort of parent figure if captured at a young enough age. They will stick with you forever!",
 		"translations": [
 			{
 				"id": 1,
 				"author": "Goffio",
 				"translatedName": "Bébé Crabe Flak",
-				"translatedBestiary": "Curieusement, ceux-ci semblent être suffisamment intelligents pour impriser une sorte de figurine parentale si ils sont capturés suffisament jeune. Ils resteront avec vous pour toujours !",
+				"translatedBestiary": "Curieusement, ceux-ci semblent être suffisamment intelligents pour impriser une sorte de figurine parentale si ils sont capturés suffisament jeunes. Ils resteront avec vous pour toujours !",
+				"proofRead": true,
+				"proofReader": "Tolsyak"
+			},
+			{
+				"id": 2,
+				"author": "Tolsyak",
+				"translatedName": "Bébé Crabe Flak",
+				"translatedBestiary": "Curieusement, ceux-ci semblent être suffisamment intelligents pour s'attacher à un substitut de figure parentale si ils sont capturés suffisament jeunes. Ils resteront avec vous pour toujours !",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -53935,7 +53943,7 @@
 		"id": "BabyGhostBell",
 		"type": "NPC",
 		"englishName": "Baby Ghost Bell",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Like their adult counterparts, they shimmer gently, and would make great sources of light if the prisms around them didn’t already do so. Maybe if there was a way to bring one with you.",
 		"translations": [
@@ -53943,9 +53951,9 @@
 				"id": 1,
 				"author": "Goffio",
 				"translatedName": "Bébé Cloche Fantôme",
-				"translatedBestiary": "Comme leurs compères adultes, ils scintillent, et feraient d'excellentes sources de lumière si le prisme qui les entoures de le feraisent pas déjà. Si seulement il y avait un moyen de les apporter avec vous.",
-				"proofRead": false,
-				"proofReader": ""
+				"translatedBestiary": "Comme leurs compères adultes, ils scintillent, et feraient d'excellentes sources de lumière si le prisme qui les entourent de le fesait pas déjà. Si seulement il y avait un moyen de les emporter avec vous.",
+				"proofRead": true,
+				"proofReader": "Tolsyak"
 			}
 		]
 	},
@@ -53953,15 +53961,23 @@
 		"id": "THIEF",
 		"type": "NPC",
 		"englishName": "Bandit",
-		"state": "Traduit (Bestiaire Manquant)",
-		"activeTranslation": 1,
+		"state": "Traduit",
+		"activeTranslation": 2,
 		"englishBestiary": "A kleptomaniac who is a bit of a coward when it comes to face-to-face fights. She’s rather good at getting herself both into and out of dicey situations.",
 		"translations": [
 			{
 				"id": 1,
 				"author": "Goffio",
 				"translatedName": "Bandit",
-				"translatedBestiary": "Une kleptomane qui un est un peu lâche dans les combats en face à face. Elle est plutôt pour se mettre à la fois dans et hors des situations délicates.",
+				"translatedBestiary": "Une kleptomane qui un est un peu lâche dans les combats en face à face. Elle est plutôt douée pour se mettre à la fois dans et hors des situations délicates.",
+				"proofRead": true,
+				"proofReader": "Tolsyak"
+			},
+			{
+				"id": 2,
+				"author": "Tolsyak",
+				"translatedName": "Bandit",
+				"translatedBestiary": "Une kleptomane qui un est un peu lâche dans son approche des combats. Elle est plutôt douée et pour se mettre dans des situations délicates, et pour s'en sortir.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -53979,9 +53995,9 @@
 				"id": 1,
 				"author": "Goffio",
 				"translatedName": "Corail Cracheur",
-				"translatedBestiary": "Une espèce rare de corail, capables de traiter et de puiser des nutrimes dans les eaux de la mer sulfureuse. Durant ce processus, une grande quantité de gaz volatil se forme.",
-				"proofRead": false,
-				"proofReader": ""
+				"translatedBestiary": "Une espèce rare de corail, capables de traiter et de puiser des nutriments dans les eaux de la mer sulfureuse. Durant ce processus, une grande quantité de gaz volatil se forme.",
+				"proofRead": true,
+				"proofReader": "Tolsyak"
 			}
 		]
 	},
@@ -53998,8 +54014,8 @@
 				"author": "Goffio",
 				"translatedName": "Gros Cherchevue",
 				"translatedBestiary": "Dans leurs coquilles, le virus brasse un produit chimique puissant. Lorsque que le Cherchevue approche d'un ennemi, il crache ce produit chimique de ses mandibules, dans l'espoir de faire fondre sa chair.",
-				"proofRead": false,
-				"proofReader": ""
+				"proofRead": true,
+				"proofReader": "Tolsyak"
 			}
 		]
 	},
@@ -54015,9 +54031,9 @@
 				"id": 1,
 				"author": "Goffio",
 				"translatedName": "Baudroie Aveuglée",
-				"translatedBestiary": "Une espèce de baudroie qui a perdu tout trait distinctif sur sa tête. Utilisant une électrorecption similaire aux requins, il chasse lentement et méthodiquement ses proies.",
-				"proofRead": false,
-				"proofReader": ""
+				"translatedBestiary": "Une espèce de baudroie qui a perdu tout trait distinctif sur sa tête. Utilisant une électroception similaire aux requins, il chasse lentement et méthodiquement ses proies.",
+				"proofRead": true,
+				"proofReader": "Tolsyak"
 			}
 		]
 	},
