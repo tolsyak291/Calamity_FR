@@ -22,8 +22,7 @@ namespace CalamityFR.DraedonLogs
 		{
 			base.Item.width = 28;
 			base.Item.height = 28;
-			base.Item.rare = 10;
-			base.Item.Calamity().customRarity = CalamityRarity.DraedonRust;
+			base.Item.rare = ModLoader.GetMod("CalamityMod").Find<ModRarity>("DarkOrange").Type;
 			base.Item.useAnimation = (base.Item.useTime = 20);
 			base.Item.useStyle = 4;
 		}

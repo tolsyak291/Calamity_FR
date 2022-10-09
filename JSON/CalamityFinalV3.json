@@ -54113,7 +54113,7 @@
 		"id": "Bohldohr",
 		"type": "NPC",
 		"englishName": "Bohldohr",
-		"state": "Traduit ",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "A distant relative to the gem-covered lizards found within the caverns. This species instead covers itself with the smooth bricks of the Temple and curls into a ball for locomotion.",
 		"translations": [
@@ -54221,7 +54221,7 @@
 		"id": "Cataclysm",
 		"type": "NPC",
 		"englishName": "Cataclysm",
-		"state": "Traduit ",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "A shade of itself, the only actions it seems to know are to burn and kill.",
 		"translations": [

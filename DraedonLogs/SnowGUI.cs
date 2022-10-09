@@ -4,8 +4,8 @@ using Terraria.ModLoader;
 
 namespace CalamityFR.DraedonLogs
 {
-	public class SnowGUI : DraedonsLogGUI
-	{
+	public class SnowGUI : CalamityMod.UI.DraedonLogs.DraedonsLogGUI
+    {
 		public override int TotalPages => 3;
 
 		public override string GetTextByPage()

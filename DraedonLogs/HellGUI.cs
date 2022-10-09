@@ -6,7 +6,7 @@ using Terraria.ModLoader;
 
 namespace CalamityFR.DraedonLogs
 {
-	public class HellGUI : DraedonsLogGUI
+	public class HellGUI : CalamityMod.UI.DraedonLogs.DraedonsLogGUI
 	{
 		public override int TotalPages => 3;
 

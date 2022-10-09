@@ -18,7 +18,6 @@ using CalamityMod.Items.Weapons.Rogue;
 using CalamityMod.Items.Weapons.Summon;
 using CalamityMod.Items.DraedonMisc;
 using CalamityMod.World;
-using CalamityFR.DraedonLogs;
 using System.Collections.Generic;
 using Terraria.ModLoader;
 using CalamityMod.Items.Armor.Astral;
@@ -1586,6 +1585,7 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.Text = line.Text.Replace("Press " + hotkeyReloc + " to teleport to the position of the mouse", "Appuyez sur " + hotkeyReloc + " pour vous téléporter à l'emplacement du curseur");
 			}
 		}
+		/* Stat meters have been merged into generic Stat Meter
 		if (item.type == ModContent.ItemType<MagicLevelMeter>())
 		{
 			foreach (TooltipLine line in tooltips)
@@ -1655,7 +1655,7 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.Text = line.Text.Replace("Minion knockback increase:", "Augmentation du recul des sbires:");
 				line.Text = line.Text.Replace("Minion slot increase:", "Augmentation du nombre d'emplacements de sbires:");
 			}
-		}
+		}*/
 		if (item.type == ModContent.ItemType<StatMeter>())
 		{
 			foreach (TooltipLine line in tooltips)
@@ -1702,8 +1702,51 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.Text = line.Text.Replace("Breath Loss Rate:", "Taux de perte de respiration:");
 				line.Text = line.Text.Replace("Life Lost Per Tick at Zero Breath:", "Vie perdue par tic à 0 respiration:");
 				line.Text = line.Text.Replace("Defense Lost:", "Défense perdue:");
-			}
+
+                // DIRTY DIRTY Fix
+                line.Text = line.Text.Replace("Tells you how high your magic proficiency is", "Vous donne votre niveau de compétence magique");
+                line.Text = line.Text.Replace("While equipped you will gain magic proficiency faster", "Votre niveau de compétence magique augmentera plus vite si vous équippez cet accessoire");
+                line.Text = line.Text.Replace("The higher your magic level the higher your magic damage, critical strike chance, and the lower your mana cost", "Au plus votre compétence est élevée, au plus vos dégâts magiques, vos chances de coup critique magique augmentent et vos coûts en mana diminuent");
+                line.Text = line.Text.Replace("Magic proficiency (max of 12500):", "Compétence maximum (12500 max):");
+                line.Text = line.Text.Replace("Magic level (max of 15):", "Niveau de compétence (15 max):");
+                line.Text = line.Text.Replace("Magic damage increase:", "Augmentation des dégâts magiques:");
+                line.Text = line.Text.Replace("Mana usage decrease:", "Diminution du coût en mana:");
+                line.Text = line.Text.Replace("Magic crit increase:", "Augmentation des chances de coup critique magique:");
+                line.Text = line.Text.Replace("Tells you how high your melee proficiency is", "Vous donne votre niveau de compétence de mêlée");
+                line.Text = line.Text.Replace("While equipped you will gain melee proficiency faster", "Votre niveau de compétence de mêlée augmentera plus vite si vous équippez cet accessoire");
+                line.Text = line.Text.Replace("The higher your melee level the higher your melee damage, speed, and critical strike chance", "Au plus votre compétence est élevée, au plus vos dégâts, vos chances de coup critique et votre vitesse de mêlée augmentent");
+                line.Text = line.Text.Replace("Melee proficiency (max of 12500):", "Compétence maximum (12500 max):");
+                line.Text = line.Text.Replace("Melee level (max of 15):", "Niveau de compétence (15 max):");
+                line.Text = line.Text.Replace("Melee damage increase:", "Augmentation des dégâts de mêlée:");
+                line.Text = line.Text.Replace("Melee speed increase:", "Augmentation de la vitesse de mêlée:");
+                line.Text = line.Text.Replace("Melee crit increase:", "Augmentation des chances de coup critique de mêlée:");
+                line.Text = line.Text.Replace("Tells you how high your ranged proficiency is", "Vous donne votre niveau de compétence à distance");
+                line.Text = line.Text.Replace("While equipped you will gain ranged proficiency faster", "Votre niveau de compétence à distance augmentera plus vite si vous équippez cet accessoire");
+                line.Text = line.Text.Replace("The higher your ranged level the higher your ranged damage, critical strike chance, and movement speed", "Au plus votre compétence est élevée, au plus vos dégâts à distance, vos chances de coup critique à distance et votre vitesse de mouvement augmentent");
+                line.Text = line.Text.Replace("Ranged proficiency (max of 12500):", "Compétence maximum (12500 max):");
+                line.Text = line.Text.Replace("Ranged level (max of 15):", "Niveau de compétence (15 max):");
+                line.Text = line.Text.Replace("Ranged damage increase:", "Augmentation des dégâts à distance:");
+                line.Text = line.Text.Replace("Movement speed increase:", "Augmentation de la vitesse de mouvement:");
+                line.Text = line.Text.Replace("Ranged crit increase:", "Augmentation des chances de coup critique à distance:");
+                line.Text = line.Text.Replace("Tells you how high your rogue proficiency is", "Vous donne votre niveau de compétence de voleur");
+                line.Text = line.Text.Replace("While equipped you will gain rogue proficiency faster", "Votre niveau de compétence de voleur augmentera plus vite si vous équippez cet accessoire");
+                line.Text = line.Text.Replace("The higher your rogue level the higher your rogue damage, critical strike chance, and velocity", "Au plus votre compétence est élevée, au plus vos dégâts, vos chances de coup critique et la vitesse des projectiles de voleur augmentent");
+                line.Text = line.Text.Replace("Rogue proficiency (max of 12500):", "Compétence maximum (12500 max):");
+                line.Text = line.Text.Replace("Rogue level (max of 15):", "Niveau de compétence (15 max):");
+                line.Text = line.Text.Replace("Rogue damage increase:", "Augmentation des dégâts de voleur:");
+                line.Text = line.Text.Replace("Rogue velocity increase:", "Augmentation de la vitesse des projectiles de voleur:");
+                line.Text = line.Text.Replace("Rogue crit increase:", "Augmentation des chances de coup critique de voleur:");
+                line.Text = line.Text.Replace("Tells you how high your summon proficiency is", "Vous donne votre niveau de compétence d'invocation");
+                line.Text = line.Text.Replace("While equipped you will gain summon proficiency faster", "Votre niveau de compétence d'invocation augmentera plus vite si vous équippez cet accessoire");
+                line.Text = line.Text.Replace("The higher your summon level the higher your minion damage, knockback, and slots", "Au plus votre compétence est élevée, au plus vos dégâts de sbires, le recul des sbires et les emplacements de sbires augmentent");
+                line.Text = line.Text.Replace("Summon proficiency (max of 12500):", "Compétence maximum (12500 max):");
+                line.Text = line.Text.Replace("Summon level (max of 15):", "Niveau de compétence (15 max):");
+                line.Text = line.Text.Replace("Minion damage increase:", "Augmentation des dégâts de sbires:");
+                line.Text = line.Text.Replace("Minion knockback increase:", "Augmentation du recul des sbires:");
+                line.Text = line.Text.Replace("Minion slot increase:", "Augmentation du nombre d'emplacements de sbires:");
+            }
 		}
+		
 		
 		//Pêut-être plus nécessaire, a voir
 		if (item.DamageType == DamageClass.Melee)

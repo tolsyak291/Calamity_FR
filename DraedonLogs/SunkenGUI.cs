@@ -4,8 +4,8 @@ using Terraria.ModLoader;
 
 namespace CalamityFR.DraedonLogs
 {
-	public class SunkenGUI : DraedonsLogGUI
-	{
+	public class SunkenGUI : CalamityMod.UI.DraedonLogs.DraedonsLogGUI
+    {
 		public override int TotalPages => 3;
 
 		public override string GetTextByPage()

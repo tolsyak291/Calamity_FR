@@ -16,6 +16,7 @@ using System.Collections;
 using System.Runtime.CompilerServices;
 using System;
 
+
 namespace Calamity_FR
 {
 	
@@ -28,6 +29,7 @@ namespace Calamity_FR
         {
 			//Using reflection for adding translatedGUI for Draedons logs
 			NPCBestiarys = new Dictionary<int, string>();
+			//Broken with last MaJ
 			List<PopupGUI> DraedonGUIList = ((List<PopupGUI>)typeof(PopupGUIManager).GetField("gUIs", BindingFlags.NonPublic | BindingFlags.Static ).GetValue(null));
 			DraedonGUIList.Add(new HellGUI() as PopupGUI);
 			DraedonGUIList.Add(new JungleGUI() as PopupGUI);
