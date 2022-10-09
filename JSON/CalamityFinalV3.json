@@ -51439,7 +51439,7 @@
 				"id": 1,
 				"author": "Goffio",
 				"translatedName": "Gelée de Floraison",
-				"translatedBestiary": "Avec l'énergie solaire libérée par la destruction de la déesse profanée, l'ueliclosion a germé dans la boue de la jungle, et dans les smiles qui peuplent le biome.",
+				"translatedBestiary": "Avec l'énergie solaire libérée par la destruction de la déesse profanée, l'ueliclosion a germé dans la boue de la jungle, et dans les gelées qui peuplent le biome.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -55925,15 +55925,15 @@
 		"id": "LeviathanStart",
 		"type": "NPC",
 		"englishName": "???",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "It seems to call out in an alluring voice, and tugs on comforting memories of the sea you never actually had.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Shedhatch",
 				"translatedName": "???",
-				"translatedBestiary": "It seems to call out in an alluring voice, and tugs on comforting memories of the sea you never actually had.",
+				"translatedBestiary": "Il semble appeler d'une voie attractive, et évoque des souvenirs réconfortants de la mer que vous n'avez jamais ressentis.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -55943,15 +55943,15 @@
 		"id": "DesertNuisanceHead",
 		"type": "NPC",
 		"englishName": "A Desert Nuisance",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "The starved spawn of the Desert Scourge. Like piranhas of the desert, they can swarm and tear apart smaller animals within seconds.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Shedhatch",
 				"translatedName": "Nuisance du Désert",
-				"translatedBestiary": "The starved spawn of the Desert Scourge. Like piranhas of the desert, they can swarm and tear apart smaller animals within seconds.",
+				"translatedBestiary": "Le scion affamé du Fléau du Désert. Tout comme les Piranha du désert, ils peuvent attaquer en masse et écarteler de plus petits animaux en quelques secondes.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -55961,15 +55961,15 @@
 		"id": "AcidEel",
 		"type": "NPC",
 		"englishName": "Acid Eel",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Along its spine runs an undulating dorsal fin which they can put to great use for their streamlined form, as they rush at prey underwater.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Shedhatch",
 				"translatedName": "Anguille Acide",
-				"translatedBestiary": "Along its spine runs an undulating dorsal fin which they can put to great use for their streamlined form, as they rush at prey underwater.",
+				"translatedBestiary": "Du long de sa colonne vertébrale court une nageoire dorsale ondulée qu'elle peut mettre à profit pour sa forme aérodynamique, quand elle chasse une proie sous l'eau.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -55979,15 +55979,15 @@
 		"id": "AdultEidolonWyrmHead",
 		"type": "NPC",
 		"englishName": "Adult Eidolon Wyrm",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Traces of them appear even in records going back to before the Golden Age of Dragons… They may very well be a glimpse into the full potential of nature.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Shedhatch",
 				"translatedName": "Wyrm Eidolon Adulte",
-				"translatedBestiary": "Traces of them appear even in records going back to before the Golden Age of Dragons… They may very well be a glimpse into the full potential of nature.",
+				"translatedBestiary": "Leurs traces apparaissent dans les documents d'archives datant d'avant l'âge d'or des dragons... Ils pourraient bien être un aperçu du plein potentiel de la nature.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -55997,15 +55997,15 @@
 		"id": "AeroSlime",
 		"type": "NPC",
 		"englishName": "Aero Slime",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Slimes take on the qualities of their environments and after feasting on aerialite ore, this slime has grown wings.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Shedhatch",
 				"translatedName": "Gelée Aérienne",
-				"translatedBestiary": "Slimes take on the qualities of their environments and after feasting on aerialite ore, this slime has grown wings.",
+				"translatedBestiary": "Les gelées adoptent les qualités de leur environnement et après s'être régalées de minerai d'Aérialite, cette gelée développe des ailes.",
 				"proofRead": false,
 				"proofReader": ""
 			}
