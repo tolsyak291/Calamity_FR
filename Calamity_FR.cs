@@ -29,7 +29,7 @@ namespace Calamity_FR
         {
 			//Using reflection for adding translatedGUI for Draedons logs
 			NPCBestiarys = new Dictionary<int, string>();
-			//Broken with last MaJ
+
 			List<PopupGUI> DraedonGUIList = ((List<PopupGUI>)typeof(PopupGUIManager).GetField("gUIs", BindingFlags.NonPublic | BindingFlags.Static ).GetValue(null));
 			DraedonGUIList.Add(new HellGUI() as PopupGUI);
 			DraedonGUIList.Add(new JungleGUI() as PopupGUI);
@@ -37,21 +37,41 @@ namespace Calamity_FR
 			DraedonGUIList.Add(new PlanetoidGUI() as PopupGUI);
 			DraedonGUIList.Add(new SunkenGUI() as PopupGUI);
 
-			//Using reflection for adding translatedGUI for draedon schematics
-			//The text is in CalamityMod.TileEntities.TECodebreaker.UnderlyingSchematicText
+            //Using reflection for adding translatedGUI for draedon schematics
+            //The text is in CalamityMod.TileEntities.TECodebreaker.UnderlyingSchematicText
 
-			//Items To manage in globalItems
-			//RottenDogtooth
-			//SerpentsBite
-			//BobbitHook
-			//ThePrince
-			//HeavenlyGale
-			//Seraphim
-			//RelicOfResilience
-			//Biome Blade Line (Probably) (Yes)
-		}
+            //Items To manage in globalItems
+            //Amalgamated Brain
+            //RottenDogtooth
+            //SerpentsBite
+            //BobbitHook
+            //ThePrince
+            //HeavenlyGale
+            //Seraphim
+            //RelicOfResilience
+            //Biome Blade & Galaxia Line (Check)
 
-		public override void PostSetupContent()
+            //CoralSymbiosis
+            //AmalgamatedBrain
+            //DraedonsHeart
+            //Nanotech
+            //RaidersTalisman
+            //RottenDogtooth
+            //RoverDrive
+            //TheAmalgam
+            //SerpentsBite
+            //WulfrumLureItem
+            //BobbitHook
+            //ThePrince
+            //Seraphim
+            //AresExoskeleton
+            //Cosmilamp
+            //InfectedRemote
+            //WarloksMoonFist
+            //RelicOfResilience
+        }
+
+        public override void PostSetupContent()
 		{
 			if (ModLoader.GetMod("CalamityMod") != null)
 			{
