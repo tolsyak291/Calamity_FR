@@ -40,11 +40,11 @@ namespace CalamityFR.DraedonLogs
 			switch (Page)
 			{
 				case 0:
-					return ModContent.Request<Texture2D>("CalamityMod/ExtraTextures/UI/DraedonsLogCragsBiome").Value;
+					return ModContent.Request<Texture2D>("CalamityMod/UI/DraedonLogs/DraedonsLogCragsBiome").Value;
 				case 1:
-					return ModContent.Request<Texture2D>("CalamityMod/ExtraTextures/UI/DraedonsLogWallOfFlesh").Value;
+					return ModContent.Request<Texture2D>("CalamityMod/UI/DraedonLogs/DraedonsLogWallOfFlesh").Value;
 				default:
-					return ModContent.Request<Texture2D>("CalamityMod/ExtraTextures/UI/DraedonsLogMurasamaPhaseslayer").Value;
+					return ModContent.Request<Texture2D>("CalamityMod/UI/DraedonLogs/DraedonsLogMurasamaPhaseslayer").Value;
 			}
 		}
 
