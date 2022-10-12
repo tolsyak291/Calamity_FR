@@ -4,14 +4,14 @@
 		"type": "BUFF",
 		"englishName": "Dragonfire",
 		"englishDesc": "Engulfed by roaring flames",
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
 				"author": "Tolsyak",
 				"translatedName": "Feu Draconique",
-				"translatedDesc": "Perte de vie, Vitesse de mouvement réduite",
+				"translatedDesc": "Engoufré dans des flammes rugissantes",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -22,14 +22,14 @@
 		"type": "BUFF",
 		"englishName": "Penumbra",
 		"englishDesc": "Stealth regenerates 10% faster while moving and 15% faster while standing still",
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
 				"author": "Tolsyak",
 				"translatedName": "Pénombre",
-				"translatedDesc": "La furtivité se régénère 15% plus vite quand vous bougez\\nLa nuit, +15% de génération de furtivité si vous êtes immobile\\nLes deux bonus sont portés à 20% lors d'une éclipse",
+				"translatedDesc": "La furtivité se régénère 10% plus vite quand vous bougez et de 15% plus vite si vous êtes immobile",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -40,14 +40,14 @@
 		"type": "BUFF",
 		"englishName": "Shadow",
 		"englishDesc": "You are a shadow, rogue weapons spawn projectiles on hit, and stealth generation is boosted by 8%",
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
 				"author": "Tolsyak",
 				"translatedName": "Ombre",
-				"translatedDesc": "Vous êtes invisible, certaines armes de voleurs sont améliorées et vous renforcent, et la génération de furtivité est augmentée.",
+				"translatedDesc": "Vous êtes une ombre, les armes de voleurs créent des projectiles en touchant, et la génération de furtivité est augmentée de 8%.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -58,14 +58,14 @@
 		"type": "BUFF",
 		"englishName": "The Profaned Soul",
 		"englishDesc": "The Profaned Babs will fight for and defend you!",
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
 				"author": "Tolsyak",
 				"translatedName": "L'Âme Profanée",
-				"translatedDesc": "Le soigneur guérira vos blessures!",
+				"translatedDesc": "Les bébés profanés combattrons pour vous!",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -76,7 +76,7 @@
 		"type": "BUFF",
 		"englishName": "Weapon Imbue: Brimstone",
 		"englishDesc": "Melee, Whip, and Rogue attacks ignite enemies with brimstone flames",
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 2,
 		"translations": [
 			{
@@ -89,9 +89,9 @@
 			},
 			{
 				"id": 2,
-				"author": "Kastiel",
+				"author": "Tolsyak",
 				"translatedName": "Arme Abyssale",
-				"translatedDesc": "Les armes de mêlée infligent la brûlure soufrée, +5% de vitesse de mouvement",
+				"translatedDesc": "Les armes de mêlée, de voleur et les fouets infligent la brûlure soufrée",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -108,8 +108,8 @@
 			{
 				"id": 1,
 				"author": "Tolsyak",
-				"translatedName": "Effritement d'Armure",
-				"translatedDesc": "Les attaques de mêlée et de voleur brisent l'armure",
+				"translatedName": "Enchantement d'arme: Effondrement",
+				"translatedDesc": "Les attaques de mêlée, de voleur et les fouets réduisent la réduction de dégâts des ennemis",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -125,7 +125,7 @@
 			"Enrages outside the Jungle",
 			"Not consumable"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -135,6 +135,7 @@
 				"translatedTooltip": [
 					"Appelle l'abomination aérienne",
 					"Invoque le Goliath Colporte-Peste quand utilisé dans la jungle",
+					"Enrage en dehors de la jungle",
 					"Non consommable"
 				],
 				"proofRead": false,
@@ -149,7 +150,7 @@
 		"englishTooltip": [
 			"Counts as a water source"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -171,7 +172,7 @@
 		"englishTooltip": [
 			"Can be placed in water"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -198,7 +199,7 @@
 			"Evading an attack grants a lot of stealth but has a 90 second cooldown",
 			"This cooldown is shared with all other dodges and reflects"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -208,7 +209,7 @@
 				"translatedTooltip": [
 					"La lumière n'atteint pas les profondeurs des océans",
 					"Réduit considérablement l'agressivité des ennemis, même dans les abysses",
-					"La furtivité se génère 30% plus vite quand vous ne bougez pas et 20% plus vite quand vous bougez",
+					"La furtivité se génère 25% plus vite quand vous ne bougez pas et 12% plus vite quand vous bougez",
 					"Permet d'esquiver les attaques en relâchant un nuage de lumenyl liquide qui endommage et stoppe les ennemis proches",
 					"Esquiver une attaque augmente beaucoup votre furtivité mais à un temps de recharge de 90s",
 					"Ce temps de recharge est partagé avec le temps de recharge des autres effets d'esquive et de renvoi"
@@ -225,7 +226,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Acid Eel"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -247,7 +248,7 @@
 		"englishTooltip": [
 			"Counts as a water source"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -278,7 +279,8 @@
 				"author": "Tolsyak",
 				"translatedName": "Dispositif d'Affichage Avancé",
 				"translatedTooltip": [
-					"Peut-être placé sur le décodeur"
+					"Peut-être placé sur le décodeur",
+					"Vous permet de décoder le schema des enfers"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -292,7 +294,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Aero Slime"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
