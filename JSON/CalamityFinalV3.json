@@ -102,7 +102,7 @@
 		"type": "BUFF",
 		"englishName": "Weapon Imbue: Crumbling",
 		"englishDesc": "Melee, Whip, and Rogue attacks reduce enemy damage reduction",
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -271,7 +271,7 @@
 			"Can be placed on the Codebreaker",
 			"Allows you to decrypt the Underworld schematic"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -318,7 +318,7 @@
 			"Greatly increases chance of catching potion ingredient fish",
 			"Potion ingredient fish yield is increased"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -326,10 +326,9 @@
 				"author": "Tolsyak",
 				"translatedName": "Appât attrayant",
 				"translatedTooltip": [
-					"+30 puissance de pêche le jour",
-					"+45 puissance de pêche la nuit",
-					"+60 puissance de pêche lors d'une éclipse solaire",
-					"Augmente considérablement les chances d'attraper des poissons servant de matériau"
+					"+30 puissance de pêche",
+					"Augmente considérablement les chances d'attraper des poissons servant de matériau",
+					"Le nombre de poissons servant de matériau attrapés est augmenté"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -371,7 +370,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Amber Crawler"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -393,7 +392,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus} Amethyst Crawler"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -401,7 +400,7 @@
 				"author": "Tolsyak",
 				"translatedName": "Bannière de Rampant d'Améthyste",
 				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus} Rampant d'Améthyste"
+					"{$CommonItemTooltip.BannerBonus}Rampant d'Améthyste"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -415,7 +414,7 @@
 		"englishTooltip": [
 			"Used for special crafting"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -437,7 +436,7 @@
 		"englishTooltip": [
 			"Counts as a lava source"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -459,7 +458,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Anthozoan Crab"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -500,15 +499,15 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Aquatic Aberration"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
 				"author": "Tolsyak",
-				"translatedName": "Bannière de Abérattion Aquatique",
+				"translatedName": "Bannière de Abérration Aquatique",
 				"translatedTooltip": [
-					"{$CommonItemTooltip.BannerBonus}Abérattion Aquatique"
+					"{$CommonItemTooltip.BannerBonus}Abérration Aquatique"
 				],
 				"proofRead": false,
 				"proofReader": ""
