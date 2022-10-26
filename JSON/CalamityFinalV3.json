@@ -56520,7 +56520,7 @@
 		"id": "DevilFishAlt",
 		"type": "NPC",
 		"englishName": "Devil Fish",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "A sturdy fish, which has spent a long time seething in the Abyss. Males are easily identified by their forward-facing horns, and females by their curled horns.",
 		"translations": [
