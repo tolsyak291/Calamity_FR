@@ -51887,7 +51887,7 @@
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Tolsyak", 
 				"translatedName": "Démon",
 				"proofRead": false,
 				"proofReader": ""
@@ -56016,15 +56016,15 @@
 		"id": "AstrumDeusHead",
 		"type": "NPC",
 		"englishName": "Astrum Deus",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "The fragments of the star god’s corpse still hold some of their former power, and even after succumbing to a dark infection, then being torn apart by an upstart worm, they willfully seek to return to the stars.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Astrum Deus",
-				"translatedBestiary": "The fragments of the star god’s corpse still hold some of their former power, and even after succumbing to a dark infection, then being torn apart by an upstart worm, they willfully seek to return to the stars.",
+				"translatedBestiary": "Les fragemnts du cadavre du dieu des etoiles detiennent encore une partie de leur ancien pouvoir, et même après avoir succombés à l'infection sombre, puis avoir été déchirées par un ver, ils cherchent volontairement à retourner vers les étoiles.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -56034,15 +56034,15 @@
 		"id": "Clam",
 		"type": "NPC",
 		"englishName": "Clam",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Sluggish mollusks filter what they can from the brackish water. Their shells are as hard as stone but contain delicate, succulent flesh.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Palourde",
-				"translatedBestiary": "Sluggish mollusks filter what they can from the brackish water. Their shells are as hard as stone but contain delicate, succulent flesh.",
+				"translatedBestiary": "Les mollusques filtrent ce qu'ils peuvent de l'eau saumâtre. Leurs coquilles sont aussi dures que de la pierre mais contienne une chair délicate et succulente.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -56052,15 +56052,15 @@
 		"id": "ThiccWaifu",
 		"type": "NPC",
 		"englishName": "Cloud Elemental",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Once, outposts were created in the sky, for ease of worship towards the forces that occupied the clouds in order to please them. Now they lay abandoned and their deity angered.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Élémentaire de Nuage",
-				"translatedBestiary": "Once, outposts were created in the sky, for ease of worship towards the forces that occupied the clouds in order to please them. Now they lay abandoned and their deity angered.",
+				"translatedBestiary": "Autrefois, des avant-poste étaient créés dans le ciel, pour faciliter le culte envers les forces qui occupaient les nuages afin de leur plaire. Maintenant, ils sont abandonnées et leur divinité est en colère.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -56070,15 +56070,15 @@
 		"id": "Cnidrion",
 		"type": "NPC",
 		"englishName": "Cnidrion",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "A confusing beast. They share qualities with many of the other desert creatures, yet seem to be able to store vast amounts of water in their bodies.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Cnidrion",
-				"translatedBestiary": "A confusing beast. They share qualities with many of the other desert creatures, yet seem to be able to store vast amounts of water in their bodies.",
+				"translatedBestiary": "Une bête déroutante. Elle partage des qualités avec des nombreuses autres créatures du désert, mais semble être capable de stocker de grandes quantités d'eau dans son corps",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -56088,15 +56088,15 @@
 		"id": "ColossalSquid",
 		"type": "NPC",
 		"englishName": "Colossal Squid",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "With crushing tentacles that stretch out to over twice the length of a grown man, and toxic black ink, these are formidable predators indeed.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Calamar Colossal",
-				"translatedBestiary": "With crushing tentacles that stretch out to over twice the length of a grown man, and toxic black ink, these are formidable predators indeed.",
+				"translatedBestiary": "Avecc ses tentacules écransantes qui s'étendent sur plus de deux fois la longueur d'un homme adulte et son encre noire toxique, il s'agit bien la d'un redoutable prédateur.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -56106,15 +56106,15 @@
 		"id": "CorruptSlimeSpawn",
 		"type": "NPC",
 		"englishName": "Corrupt Slime Spawn",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "They rapidly flap their wings, created from membranes of gel and spines of hardened slime. They will incessantly hunt you down.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Rejeton de Gelée Corrompue",
-				"translatedBestiary": "They rapidly flap their wings, created from membranes of gel and spines of hardened slime. They will incessantly hunt you down.",
+				"translatedBestiary": "Ils battent rapidement leurs ailes, créées à partir de membranes de gel et d'épines de bave durcie. Ils vous traqueront sans cesse.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -56124,15 +56124,15 @@
 		"id": "CosmicElemental",
 		"type": "NPC",
 		"englishName": "Cosmic Elemental",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "A curious construct, and though its origins are unknown, it has been decidedly proven that the core of its body leads to somewhere not of our world.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Élementaire Cosmique",
-				"translatedBestiary": "A curious construct, and though its origins are unknown, it has been decidedly proven that the core of its body leads to somewhere not of our world.",
+				"translatedBestiary": "Une curieuse construction, et bien que ses origines soient inconnues, il a été définitivement prouvé que le noyau de son corps mène à un endroit n'est pas dans notre monde.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -56142,15 +56142,15 @@
 		"id": "CosmicGuardianHead",
 		"type": "NPC",
 		"englishName": "Cosmic Guardian",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "An interdimensional creation of the Devourer brought from its home dimension to aid it in battle. Nowhere near the strength of its sentinels.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Gardien Cosmique",
-				"translatedBestiary": "An interdimensional creation of the Devourer brought from its home dimension to aid it in battle. Nowhere near the strength of its sentinels.",
+				"translatedBestiary": "Une créature interdimensionnelle du Dévoreur apportée de sa dimension d'origine pour l'aider au combat. Loin de la force de ses sentinelles.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -56160,15 +56160,15 @@
 		"id": "CosmicLantern",
 		"type": "NPC",
 		"englishName": "Cosmic Lantern",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "These lanterns allow their user to see through any darkness. They are not typically used for combat.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Lanterne Cosmique",
-				"translatedBestiary": "These lanterns allow their user to see through any darkness. They are not typically used for combat.",
+				"translatedBestiary": "Ces lanternes permettent à leur utilisateur de voir à travers l'obscurités. Ils ne sont générament pas utilisé pour le combat",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -56178,15 +56178,15 @@
 		"id": "CrabShroom",
 		"type": "NPC",
 		"englishName": "Crab Shroom",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Mushrooms that grow only on Crabulon’s shell, feasting off the nutrients in the husk. By jolting its body, it flings these off in defense.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Champicrabe",
-				"translatedBestiary": "Mushrooms that grow only on Crabulon’s shell, feasting off the nutrients in the husk. By jolting its body, it flings these off in defense.",
+				"translatedBestiary": "Champignons qui ne poussent que sur la coquille de Crabulon, se régalant des nutriments contenus dans son enveloppe. En secouant son corps, il les jettes en défense",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -56196,15 +56196,15 @@
 		"id": "Crabulon",
 		"type": "NPC",
 		"englishName": "Crabulon",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "In the bulbous growths of the fungal caverns it is not uncommon to find molted shells.They are far too large for any of the usual decapods of the mushrooms.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Crabulon",
-				"translatedBestiary": "In the bulbous growths of the fungal caverns it is not uncommon to find molted shells.They are far too large for any of the usual decapods of the mushrooms.",
+				"translatedBestiary": "Dans les excroissances bulbeuses des cavernes fongiques, il n'est pas rare de trouver des coquilles qui ont muées. Elles sont beaucoup trop grosses pour l'un des décapodes habituels des champignons.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -56214,15 +56214,15 @@
 		"id": "CragmawMire",
 		"type": "NPC",
 		"englishName": "Cragmaw Mire",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Within its calcified shell which has formed against all logic in the sulphurous sea, a gelatinous body stirs. It is also host to a long grappling creature, which helps it grab prey in exchange for protection.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Machoire Rochefange",
-				"translatedBestiary": "Within its calcified shell which has formed against all logic in the sulphurous sea, a gelatinous body stirs. It is also host to a long grappling creature, which helps it grab prey in exchange for protection.",
+				"translatedBestiary": "Dans sa coquille calcifiée, qui s'est formée contre toute attente dans la mer sulfureuse, un corps gélatineux s'agite. Il est également l'hôite d'une longue créature aggripante, qui l'aide à attraper une proie en écahnge d'une protection.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -56232,15 +56232,15 @@
 		"id": "CrimsonSlimeSpawn2",
 		"type": "NPC",
 		"englishName": "Crimson Slime Spawn",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Embedded in these slime’s bodies are shards of crimulan stone, which drip with a toxin meant to impair your vision.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Rejeton de Gelée Carmin",
-				"translatedBestiary": "Embedded in these slime’s bodies are shards of crimulan stone, which drip with a toxin meant to impair your vision.",
+				"translatedBestiary": "Incrustés dans les corps de ces slimes se trouvent des éclats de pierre crimulienne, qui dégoulinent d'une toxine destinée à altérer votre vision.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -56250,15 +56250,15 @@
 		"id": "CrimsonSlimeSpawn",
 		"type": "NPC",
 		"englishName": "Crimson Slime Spawn",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Irritant globs of gel, which can rob you of your vision if they get on your eyes. Avoid these at all costs, as they can spell death against the Slime God.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Rejeton de Gelée Carmin",
-				"translatedBestiary": "Irritant globs of gel, which can rob you of your vision if they get on your eyes. Avoid these at all costs, as they can spell death against the Slime God.",
+				"translatedBestiary": "Boules de gel irritantes qui peuvent vous priver de votre vision si elles entrent en contact avec vos yeux. Évitez-les à tout prix, car ils peuvent signifier la mort contre le Dieu des Gelées",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -56268,15 +56268,15 @@
 		"id": "CrimulanBlightSlime",
 		"type": "NPC",
 		"englishName": "Crimulan Blight Slime",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Seemingly, these are slimes which have been given the blessing of a higher being, They seek out and devour but not for themselves, which is a rarity among slimes.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Gelée Carminée Trouble",
-				"translatedBestiary": "Seemingly, these are slimes which have been given the blessing of a higher being, They seek out and devour but not for themselves, which is a rarity among slimes.",
+				"translatedBestiary": "Apparemment, ce sont des gelées qui ont reçu la bénédiction d'un être supérieur. Ils recherchent et dévorent mais pas pour eux, ce qui rare parmis les gelées",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -56286,15 +56286,15 @@
 		"id": "SplitCrimulanSlimeGod",
 		"type": "NPC",
 		"englishName": "Crimulan Slime God",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Flanking their creator and serving as its body, these are concentrated, swirling masses of the world’s evils, each utilizing the rot and corrosion to eat away and assimilate those who oppose it.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Dieu des Gelées Carmine",
-				"translatedBestiary": "Flanking their creator and serving as its body, these are concentrated, swirling masses of the world’s evils, each utilizing the rot and corrosion to eat away and assimilate those who oppose it.",
+				"translatedBestiary": "Flanquant leur créateur et servant de corps, ce sont des masses concentrées et tourbillonnantes des maux du monde, chacun utilisant la pourriture et la corrosion pour ronger et assimiler ceux qui s'y opposent.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -56304,15 +56304,15 @@
 		"id": "CryoSlime",
 		"type": "NPC",
 		"englishName": "Cryo Slime",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "When the release of Cryogen’s magic slightly thawed the frozen metal which rested underground, the resulting meltwater formed these. Remnants of the ore still reside within them.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Gelée Cryo",
-				"translatedBestiary": "When the release of Cryogen’s magic slightly thawed the frozen metal which rested underground, the resulting meltwater formed these. Remnants of the ore still reside within them.",
+				"translatedBestiary": "Lorsque la magie Cryogen fut liberée, cela à dégelé le métal gelé qui reposait sous terre, l'eau de fonte résultate les a formés. Des restes de minerais y résident encore en eux",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -56322,15 +56322,15 @@
 		"id": "Cryogen",
 		"type": "NPC",
 		"englishName": "Cryogen",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "A prismatic living ice crystal. Though typically glimpsed only through the harsh sleet of blizzards, on the rare days where it is seen during a sunny day, its body gleams a deadly, beautiful blue.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Cryogène",
-				"translatedBestiary": "A prismatic living ice crystal. Though typically glimpsed only through the harsh sleet of blizzards, on the rare days where it is seen during a sunny day, its body gleams a deadly, beautiful blue.",
+				"translatedBestiary": "Un cristal de glace prismatique vivant. Bien qu'il ne soit généralement aperçu qu'au travers du grésil violent des blizzards, les rares jours où il fut apperçut pendant une journée ensoileillée, son corps reflétait un bleu magnifique et mortel.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -56340,15 +56340,15 @@
 		"id": "Cryon",
 		"type": "NPC",
 		"englishName": "Cryon",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Within the octahedron, one can find ancient runes engraved into ice that does not melt. Who could have created these?",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Cryon",
-				"translatedBestiary": "Within the octahedron, one can find ancient runes engraved into ice that does not melt. Who could have created these?",
+				"translatedBestiary": "Dans l'octaèdre, on peut trouver des runes anciennes gravées dans de la glace qui ne fond pas. Qui a pu les créer ?",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -56358,15 +56358,15 @@
 		"id": "CrawlerCrystal",
 		"type": "NPC",
 		"englishName": "Crystal Crawler",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "A lizard, its back inundated with crystals. These provide protection, but they are easily spooked and can be harvested for the rare gems upon their backs.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Rampant de Cristal",
-				"translatedBestiary": "A lizard, its back inundated with crystals. These provide protection, but they are easily spooked and can be harvested for the rare gems upon their backs.",
+				"translatedBestiary": "Un lézard avec un dos remplis de cristaux. Ceux-ci offrent une protection, mais ils sont facilement effrayés et peuvent être récoltés pour les gemmes rares de leurs dos.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -56376,15 +56376,15 @@
 		"id": "CultistAssassin",
 		"type": "NPC",
 		"englishName": "Cultist Assassin",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "A devotee, their mind lost to the raging, hating fires of the brimstone flames. None have ever seen under their hood, and none ever should.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Assassin Cultiste",
-				"translatedBestiary": "A devotee, their mind lost to the raging, hating fires of the brimstone flames. None have ever seen under their hood, and none ever should.",
+				"translatedBestiary": "Un dévot, l'esprit perdu dans les feux déchaînés et haineux des flammes du soufre. Personne n'a jamais vu sous son casque, et personne ne devrait jamais voir.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -56394,15 +56394,15 @@
 		"id": "Cuttlefish",
 		"type": "NPC",
 		"englishName": "Cuttlefish",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Should you feel something brush your legs in the depths of the abyss, it is likely that this is the culprit, tasting the waters for potential prey.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Seiche",
-				"translatedBestiary": "Should you feel something brush your legs in the depths of the abyss, it is likely that this is the culprit, tasting the waters for potential prey.",
+				"translatedBestiary": "Si vous sentez quelque chose effleurer vos jambes dans les profondeurs de l'abîme, il est probable que ce soit le coupable, goûtant les eaux pour une proie potentielle.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -56412,15 +56412,15 @@
 		"id": "DankCreeper",
 		"type": "NPC",
 		"englishName": "Dank Creeper",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Though their core is the same as a hive blob, their armored shell of shadow scale prevents them from dying quite as easily. They also carry a noxious gas within them.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Rôdeur Humide",
-				"translatedBestiary": "Though their core is the same as a hive blob, their armored shell of shadow scale prevents them from dying quite as easily. They also carry a noxious gas within them.",
+				"translatedBestiary": "Bien que leur noyau soit le même qu'une goutte de ruche, leur carapace blindée d'écailles d'ombre les empêche de mourir aussi facilement. Ils transportent également un gaz nocif en eux.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -56430,15 +56430,15 @@
 		"id": "DarkEnergy",
 		"type": "NPC",
 		"englishName": "Dark Energy",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "One of the many rifts created in the fabric of space by the Ceaseless Void. Some say you could even see a glimpse of another world if you gaze into it.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Énergie Noire",
-				"translatedBestiary": "One of the many rifts created in the fabric of space by the Ceaseless Void. Some say you could even see a glimpse of another world if you gaze into it.",
+				"translatedBestiary": "L'une des nombreuses failles créées dans le tissu de l'espace par le vide incessant. Certains disent que vous pourriez même voir un aperçu d'un autre monde si vous le contemplez.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -56448,15 +56448,15 @@
 		"id": "DarkHeart",
 		"type": "NPC",
 		"englishName": "Dark Heart",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "It pulses with stagnant, stinking waters of corruption, and leaks as it flies overhead. Wherever those drops land, any organic matter nearby slowly corrodes.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Coeur des Ténèbres",
-				"translatedBestiary": "It pulses with stagnant, stinking waters of corruption, and leaks as it flies overhead. Wherever those drops land, any organic matter nearby slowly corrodes.",
+				"translatedBestiary": "Il vibre d'eaux stagnantes et puantes de corruption et fuit lorsqu'il vole au-dessus de nos têtes. Partout où ces gouttes atterrissent, toute matière organique à proximité se corrode lentement",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -56472,9 +56472,9 @@
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Fléau du Désert",
-				"translatedBestiary": "If ever before you have peered out into the desert and seen entire dunes rise and fall like the waves of the sea, it is not unlikely that this is the culprit, as it bore through the sands below.",
+				"translatedBestiary": "Si vous avez déjà jeté un coup d'œil dans le désert et vu des dunes entières monter et descendre comme les vagues de la mer, il n'est pas improbable que ce soit le coupable, car il a traversé les sables ci-dessous.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -56484,15 +56484,15 @@
 		"id": "DespairStone",
 		"type": "NPC",
 		"englishName": "Despair Stone",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "A condensed, volatile stone of brimstone slag. It is said that the souls of many, fighting to get out from within, are what cause it to tear across the ground.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Pierre de Désespoir",
-				"translatedBestiary": "A condensed, volatile stone of brimstone slag. It is said that the souls of many, fighting to get out from within, are what cause it to tear across the ground.",
+				"translatedBestiary": "Une pierre condensée et volatile de scories de soufre. On dit que les âmes de beaucoup, luttant pour sortir de l'intérieur, sont ce qui le fait déchirer le sol.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -56502,15 +56502,15 @@
 		"id": "DevilFish",
 		"type": "NPC",
 		"englishName": "Devil Fish",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "A sturdy fish, which has spent a long time seething in the Abyss. Males are easily identified by their forward-facing horns, and females by their curled horns.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Poisson-Diable",
-				"translatedBestiary": "A sturdy fish, which has spent a long time seething in the Abyss. Males are easily identified by their forward-facing horns, and females by their curled horns.",
+				"translatedBestiary": "Un poisson robuste, qui a longtemps bouillonné dans les Abysses. Les mâles sont facilement identifiables par leurs cornes tournées vers l'avant et les femelles par leurs cornes recourbées.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -56526,9 +56526,9 @@
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Poisson-Diable",
-				"translatedBestiary": "A sturdy fish, which has spent a long time seething in the Abyss. Males are easily identified by their forward-facing horns, and females by their curled horns.",
+				"translatedBestiary": "Un poisson robuste, qui a longtemps bouillonné dans les Abysses. Les mâles sont facilement identifiables par leurs cornes tournées vers l'avant et les femelles par leurs cornes recourbées.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -56538,15 +56538,15 @@
 		"id": "CrawlerDiamond",
 		"type": "NPC",
 		"englishName": "Diamond Crawler",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "A lizard, its back inundated with crystals. These provide protection, but they are easily spooked and can be harvested for the rare gems upon their backs.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Rampant de Diamant",
-				"translatedBestiary": "A lizard, its back inundated with crystals. These provide protection, but they are easily spooked and can be harvested for the rare gems upon their backs.",
+				"translatedBestiary": "Un lézard, le dos remplit de cristaux. Ceux-ci offrent une protection, mais ils sont facilement effrayés et peuvent être récoltés pour les gemmes rares sur leur dos.",
 				"proofRead": false,
 				"proofReader": ""
 			}
