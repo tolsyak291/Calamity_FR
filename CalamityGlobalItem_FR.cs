@@ -1110,16 +1110,14 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.Text = line.Text.Replace("Using RMB and pressing up while the Ark is empowered will throw the blades in front of you to provoke a Big Rip in spacetime, using up all your charges in the process", "");
 			}
 		}
-
 		if (item.type == ModContent.ItemType<ExoThrone>()) {
 			foreach (TooltipLine line in tooltips)
 			{
-				string hotkey3 = CalamityKeybinds.ExoChairSpeedupHotkey.TooltipHotkeyString();
-				string hotkey2 = CalamityKeybinds.ExoChairSlowdownHotkey.TooltipHotkeyString();
-				line.Text = line.Text.Replace("Hold " + hotkey3 + " while sitting in the throne to move much faster", "Restez appuyé sur " + hotkey3 + " en étant assis sur le trône pour aller bien plus vite");
-				line.Text = line.Text.Replace("And hold " + hotkey2 + " to move much slower", "Et restez appuyé sur "+ hotkey2 +" pour aller bien plus lentement");
+				string hotkey = CalamityKeybinds.ExoChairSlowdownHotkey.TooltipHotkeyString();
+				line.Text = line.Text.Replace("Hold " + hotkey + " while sitting in the throne to move slower for more precision", "Restez appuyé sur "+ hotkey +" pour aller plus lentement pour plus de précision");
 			}
 		}
+		
 
 		if (item.type == ModContent.ItemType<DraedonsHeart>())
 		{

@@ -46,11 +46,130 @@ namespace CalamityFR.JSON
         {
 			return @"[
 	{
-		""id"": ""AdamantiteParticleAccelerator"",
+		""id"": ""Dragonfire"",
+		""type"": ""BUFF"",
+		""englishName"": ""Dragonfire"",
+		""englishDesc"": ""Engulfed by roaring flames"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Feu Draconique"",
+				""translatedDesc"": ""Engoufré dans des flammes rugissantes"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""PenumbraBuff"",
+		""type"": ""BUFF"",
+		""englishName"": ""Penumbra"",
+		""englishDesc"": ""Stealth regenerates 10% faster while moving and 15% faster while standing still"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Pénombre"",
+				""translatedDesc"": ""La furtivité se régénère 10% plus vite quand vous bougez et de 15% plus vite si vous êtes immobile"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""ShadowBuff"",
+		""type"": ""BUFF"",
+		""englishName"": ""Shadow"",
+		""englishDesc"": ""You are a shadow, rogue weapons spawn projectiles on hit, and stealth generation is boosted by 8%"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Ombre"",
+				""translatedDesc"": ""Vous êtes une ombre, les armes de voleurs créent des projectiles en touchant, et la génération de furtivité est augmentée de 8%."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""ProfanedBabs"",
+		""type"": ""BUFF"",
+		""englishName"": ""The Profaned Soul"",
+		""englishDesc"": ""The Profaned Babs will fight for and defend you!"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""L'Âme Profanée"",
+				""translatedDesc"": ""Les bébés profanés combattrons pour vous!"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""AbyssalWeapon"",
+		""type"": ""BUFF"",
+		""englishName"": ""Weapon Imbue: Brimstone"",
+		""englishDesc"": ""Melee, Whip, and Rogue attacks ignite enemies with brimstone flames"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 2,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Kastiel"",
+				""translatedName"": ""Arme Abyssale"",
+				""translatedDesc"": ""Les armes de mêlée infligent flammes abyssales, +5% de vitesse de mouvement"",
+				""proofRead"": false,
+				""proofReader"": """"
+			},
+			{
+				""id"": 2,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Arme Abyssale"",
+				""translatedDesc"": ""Les armes de mêlée, de voleur et les fouets infligent la brûlure soufrée"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""ArmorCrumbling"",
+		""type"": ""BUFF"",
+		""englishName"": ""Weapon Imbue: Crumbling"",
+		""englishDesc"": ""Melee, Whip, and Rogue attacks reduce enemy damage reduction"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Enchantement d'arme: Effondrement"",
+				""translatedDesc"": ""Les attaques de mêlée, de voleur et les fouets réduisent la réduction de dégâts des ennemis"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""Abombination"",
 		""type"": ""ITEM"",
-		""englishName"": ""Adamantite Particle Accelerator"",
+		""englishName"": ""Abombination"",
 		""englishTooltip"": [
-			""Charges and fires 2 beams of opposite polarities. Hitting with the opposite polarity increases the damage""
+			""Calls in the airborne abomination"",
+			""Summons the Plaguebringer Goliath when used in the Jungle"",
+			""Enrages outside the Jungle"",
+			""Not consumable""
 		],
 		""state"": ""Traduit"",
 		""activeTranslation"": 1,
@@ -58,9 +177,342 @@ namespace CalamityFR.JSON
 			{
 				""id"": 1,
 				""author"": ""Tolsyak"",
-				""translatedName"": ""Accélérateur de Particule en Adamantite"",
+				""translatedName"": ""Abombination"",
 				""translatedTooltip"": [
-					""Charge et tire deux rayons de polarités opposées. Toucher avec la polarité opposé augmente les dégâts""
+					""Appelle l'abomination aérienne"",
+					""Invoque le Goliath Colporte-Peste quand utilisé dans la jungle"",
+					""Enrage en dehors de la jungle"",
+					""Non consommable""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""AbyssSink"",
+		""type"": ""ITEM"",
+		""englishName"": ""AbyssSink"",
+		""englishTooltip"": [
+			""Counts as a water source""
+		],
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Évier Abyssal"",
+				""translatedTooltip"": [
+					""Source d'eau""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""AbyssTorch"",
+		""type"": ""ITEM"",
+		""englishName"": ""AbyssTorch"",
+		""englishTooltip"": [
+			""Can be placed in water""
+		],
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Torche Abyssale"",
+				""translatedTooltip"": [
+					""Peut être placée sous l'eau""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""AbyssalMirror"",
+		""type"": ""ITEM"",
+		""englishName"": ""Abyssal Mirror"",
+		""englishTooltip"": [
+			""Light does not reach the depths of the ocean"",
+			""Significantly reduces enemy aggression, even in the abyss"",
+			""Stealth generates 25% faster when standing still and 12% faster while moving"",
+			""Grants the ability to evade attacks, releasing a cloud of lumenyl fluid which damages and stuns nearby enemies"",
+			""Evading an attack grants a lot of stealth but has a 90 second cooldown"",
+			""This cooldown is shared with all other dodges and reflects""
+		],
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Miroir Abyssal"",
+				""translatedTooltip"": [
+					""La lumière n'atteint pas les profondeurs des océans"",
+					""Réduit considérablement l'agressivité des ennemis, même dans les abysses"",
+					""La furtivité se génère 25% plus vite quand vous ne bougez pas et 12% plus vite quand vous bougez"",
+					""Permet d'esquiver les attaques en relâchant un nuage de lumenyl liquide qui endommage et stoppe les ennemis proches"",
+					""Esquiver une attaque augmente beaucoup votre furtivité mais à un temps de recharge de 90s"",
+					""Ce temps de recharge est partagé avec le temps de recharge des autres effets d'esquive et de renvoi""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""AcidEelBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""AcidEelBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Acid Eel""
+		],
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Anguille Acide"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Anguille Acide""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""AcidwoodSink"",
+		""type"": ""ITEM"",
+		""englishName"": ""AcidwoodSink"",
+		""englishTooltip"": [
+			""Counts as a water source""
+		],
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Évier de Bois Acide"",
+				""translatedTooltip"": [
+					""Compte comme une source d'eau""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""AdvancedDisplay"",
+		""type"": ""ITEM"",
+		""englishName"": ""Advanced Display"",
+		""englishTooltip"": [
+			""Can be placed on the Codebreaker"",
+			""Allows you to decrypt the Underworld schematic""
+		],
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Dispositif d'Affichage Avancé"",
+				""translatedTooltip"": [
+					""Peut-être placé sur le décodeur"",
+					""Vous permet de décoder le schema des enfers""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""AeroSlimeBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""AeroSlimeBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Aero Slime""
+		],
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Gelée Aérienne"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Gelée Aérienne""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""AlluringBait"",
+		""type"": ""ITEM"",
+		""englishName"": ""Alluring Bait"",
+		""englishTooltip"": [
+			""30 increased fishing power"",
+			""Greatly increases chance of catching potion ingredient fish"",
+			""Potion ingredient fish yield is increased""
+		],
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Appât attrayant"",
+				""translatedTooltip"": [
+					""+30 puissance de pêche"",
+					""Augmente considérablement les chances d'attraper des poissons servant de matériau"",
+					""Le nombre de poissons servant de matériau attrapés est augmenté""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""AltarOfTheAccursedItem"",
+		""type"": ""ITEM"",
+		""englishName"": ""Altar of the Accursed"",
+		""englishTooltip"": [
+			""Offer Ashes of Calamity at this altar to summon the Witch"",
+			""Doing so will create a square arena of blocks, with the altar at its center"",
+			""During the battle, heart pickups only heal for half as much"",
+			""The Witch enrages while you are outside of the arena"",
+			""Used for special crafting""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Autel des Maudits"",
+				""translatedTooltip"": [
+					""Offrez les Cendres de Calamité a cet autel pour invoquer la Sorcière"",
+					""Le faire créera une arène carrée faites de blocs, avec l'autel en son centre"",
+					""Pendant le combat, les coeurs vous soignent pour moitié moins""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""AmberCrawlerBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""AmberCrawlerBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Amber Crawler""
+		],
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Rampant d'Ambre"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Rampant d'Ambre""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""AmethystCrawlerBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""AmethystCrawlerBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus} Amethyst Crawler""
+		],
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Rampant d'Améthyste"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Rampant d'Améthyste""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""AncientAltar"",
+		""type"": ""ITEM"",
+		""englishName"": ""AncientAltar"",
+		""englishTooltip"": [
+			""Used for special crafting""
+		],
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Autel Ancien"",
+				""translatedTooltip"": [
+					""Utilisé pour l'artisanat spécial""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""AncientSink"",
+		""type"": ""ITEM"",
+		""englishName"": ""AncientSink"",
+		""englishTooltip"": [
+			""Counts as a lava source""
+		],
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Évier Ancien"",
+				""translatedTooltip"": [
+					""Source de Lave""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""AnthozoanCrabBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""AnthozoanCrabBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Anthozoan Crab""
+		],
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Crabe Anthozoaire"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Crabe Anthozoaire""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -71,7 +523,10 @@ namespace CalamityFR.JSON
 		""id"": ""AquaticScourgeRelic"",
 		""type"": ""ITEM"",
 		""englishName"": ""Aquatic Scourge Relic"",
-		""state"": ""Traduit"",
+		""englishTooltip"": [
+			""A glimpse into what will be...""
+		],
+		""state"": ""A retraduire"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -84,27 +539,11 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""DraedonsHeart"",
+		""id"": ""AquaticAberrationBanner"",
 		""type"": ""ITEM"",
-		""englishName"": ""Draedon's Heart"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Coeur de Draedon"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""AshesofAnnihilation"",
-		""type"": ""ITEM"",
-		""englishName"": ""Ashes of Annihilation"",
+		""englishName"": ""AquaticAberrationBanner"",
 		""englishTooltip"": [
-			""The smoldering essence of the Witch's wrath""
+			""{$CommonItemTooltip.BannerBonus}Aquatic Aberration""
 		],
 		""state"": ""Traduit"",
 		""activeTranslation"": 1,
@@ -112,9 +551,9 @@ namespace CalamityFR.JSON
 			{
 				""id"": 1,
 				""author"": ""Tolsyak"",
-				""translatedName"": ""Cendres d'Annihilation"",
+				""translatedName"": ""Bannière de Abérration Aquatique"",
 				""translatedTooltip"": [
-					""L'essence incandescente de la colère de la Sorcière""
+					""{$CommonItemTooltip.BannerBonus}Abérration Aquatique""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -122,64 +561,227 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""AshesofCalamity"",
+		""id"": ""AquaticUrchinBanner"",
 		""type"": ""ITEM"",
-		""englishName"": ""Ashes of Calamity"",
-		""state"": ""Traduit"",
+		""englishName"": ""AquaticUrchinBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Aquatic Urchin""
+		],
+		""state"": ""A retraduire"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
 				""author"": ""Tolsyak"",
-				""translatedName"": ""Cendre de Calamité"",
+				""translatedName"": ""Bannière de Oursin Aquatique"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Oursin Aquatique""
+				],
 				""proofRead"": false,
 				""proofReader"": """"
 			}
 		]
 	},
 	{
-		""id"": ""AstrumAureusMask"",
+		""id"": ""AridArtifact"",
 		""type"": ""ITEM"",
-		""englishName"": ""Astrum Aureus Mask"",
-		""state"": ""Traduit"",
+		""englishName"": ""Arid Artifact"",
+		""englishTooltip"": [
+			""Summons a sandstorm"",
+			""The sandstorm will happen shortly after the item is used"",
+			""If used during a sandstorm, the sandstorm will stop some time afterward.""
+		],
+		""state"": ""A retraduire"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
 				""author"": ""Tolsyak"",
-				""translatedName"": ""Masque d'Astrum Aureus"",
+				""translatedName"": ""Artéfact Aride"",
+				""translatedTooltip"": [
+					""Invoque une tempête de sable"",
+					""La tempête de sable arrivera peu après l'utilisation de l'objet"",
+					""Non consommable""
+				],
 				""proofRead"": false,
 				""proofReader"": """"
 			}
 		]
 	},
 	{
-		""id"": ""AstrumAureusRelic"",
+		""id"": ""AriesBanner"",
 		""type"": ""ITEM"",
-		""englishName"": ""Astrum Aureus Relic"",
-		""state"": ""Traduit"",
+		""englishName"": ""AriesBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Aries""
+		],
+		""state"": ""A retraduire"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
 				""author"": ""Tolsyak"",
-				""translatedName"": ""Relique d'Astrum Aureus"",
+				""translatedName"": ""Bannière de Aries"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Aries""
+				],
 				""proofRead"": false,
 				""proofReader"": """"
 			}
 		]
 	},
 	{
-		""id"": ""AstrumAureusTrophy"",
+		""id"": ""ArmoredDiggerBanner"",
 		""type"": ""ITEM"",
-		""englishName"": ""Astrum Aureus Trophy"",
-		""state"": ""Traduit"",
+		""englishName"": ""ArmoredDiggerBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Armored Digger""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyal"",
+				""translatedName"": ""Bannière de Creuseur Blindé"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Creuseur Blindé""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""AshenAltar"",
+		""type"": ""ITEM"",
+		""englishName"": ""AshenAltar"",
+		""englishTooltip"": [
+			""Used for special crafting""
+		],
+		""state"": ""A retraduire"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
 				""author"": ""Tolsyak"",
-				""translatedName"": ""Trophée d'Astrum Aureus"",
+				""translatedName"": ""Autel de Cendre"",
+				""translatedTooltip"": [
+					""Utilisé pour l'artisanat spécial""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""AshenSink"",
+		""type"": ""ITEM"",
+		""englishName"": ""AshenSink"",
+		""englishTooltip"": [
+			""Counts as a lava source""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Évier de Cendre"",
+				""translatedTooltip"": [
+					""Source de lave""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""AstralChunk"",
+		""type"": ""ITEM"",
+		""englishName"": ""Astral Chunk"",
+		""englishTooltip"": [
+			""Summons Astrum Aureus when used in the Astral Infection during nighttime"",
+			""Enrages during the day"",
+			""Not consumable""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Morceau Astral"",
+				""translatedTooltip"": [
+					""Invoque Astrum Aureus quand utilisé dans l'infection astrale la nuit"",
+					""Non consommable""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""AstralProbeBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""AstralProbeBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Astral Probe""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Sonde Astrale"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Sonde Astrale""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""AstralSlimeBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""AstralSlimeBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Astral Slime""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Gelée Astrale"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Gelée Astrale""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""AstralachneaBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""AstralachneaBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Astralachnea""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière d'Astralaraignée"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Astralaraignée""
+				],
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -190,9 +792,9 @@ namespace CalamityFR.JSON
 		""type"": ""ITEM"",
 		""englishName"": ""Astrum Deus Relic"",
 		""englishTooltip"": [
-			""A glimpse into what will be..""
+			""A glimpse into what will be...""
 		],
-		""state"": ""Traduit"",
+		""state"": ""A retraduire"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -208,29 +810,21 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""AureateBooster"",
+		""id"": ""AtlasBanner"",
 		""type"": ""ITEM"",
-		""englishName"": ""Aureate Booster"",
+		""englishName"": ""AtlasBanner"",
 		""englishTooltip"": [
-			""Mach speed with style!"",
-			""Horizontal speed: 8.00"",
-			""Acceleration multiplier: 1.5"",
-			""Good vertical speed"",
-			""Flight time: 120""
+			""{$CommonItemTooltip.BannerBonus}Atlas Banner""
 		],
-		""state"": ""Traduit"",
+		""state"": ""A retraduire"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
 				""author"": ""Tolsyak"",
-				""translatedName"": ""Booster Aureate"",
+				""translatedName"": ""Bannière de Atlas"",
 				""translatedTooltip"": [
-					""Mach 1 avec classe!"",
-					""Vitesse horizontale: 8.00"",
-					""Mutiplicateur d'accélération: 1.5"",
-					""Bonne vitesse verticale"",
-					""Temps de vol: 120""
+					""{$CommonItemTooltip.BannerBonus}Atlas""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -238,21 +832,25 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""AuricTeslaRoyalHelm"",
+		""id"": ""BadgeofBravery"",
 		""type"": ""ITEM"",
-		""englishName"": ""Auric Tesla Royal Helm"",
+		""englishName"": ""Badge of Bravery"",
 		""englishTooltip"": [
-			""20% increased melee damage and critical strike chance""
+			""15% increased melee speed"",
+			""Increases melee damage and melee crit by 5%"",
+			""+5 melee armor penetration""
 		],
-		""state"": ""Traduit"",
+		""state"": ""A retraduire"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
 				""author"": ""Tolsyak"",
-				""translatedName"": ""Heaume Royal Tesla Aurique"",
+				""translatedName"": ""Badge de Bravoure"",
 				""translatedTooltip"": [
-					""+20% de dégâts et de chances de critique en mêlée""
+					""+15% de vitesse de corps à corps"",
+					""Augmente les dégats et les chances de critique en mêlée de 5%"",
+					""+5 pénétration d'armure""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -260,109 +858,319 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""BabyFlakCrabItem"",
+		""id"": ""BelchingCoralBanner"",
 		""type"": ""ITEM"",
-		""englishName"": ""Baby Flak Crab"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bébé Crabe Flak"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""BabyFlakCrabCage"",
-		""type"": ""ITEM"",
-		""englishName"": ""Baby Flak Crab Cage"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Cage de Bébé Crabe Flak"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""BlightSpewer"",
-		""type"": ""ITEM"",
-		""englishName"": ""Blight Spewer"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Cracheur de Corruption"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""BlightedGel"",
-		""type"": ""ITEM"",
-		""englishName"": ""Blighted Gel"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Gelée Corrompue"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""RevengeanceModeItem"",
-		""type"": ""ITEM"",
-		""englishName"": ""Blood Fountain of Revengeance"",
+		""englishName"": ""BelchingCoralBanner"",
 		""englishTooltip"": [
-			""Enables/disables Revengeance Mode, can only be used in Expert Mode."",
-			""RAGE TOOLTIP LINE HERE"",
-			""You gain Rage when in proximity of enemies or by using special items."",
-			""ADRENALINE TOOLTIP LINE HERE"",
-			""You gain Adrenaline whenever a boss is alive. Getting hit drops Adrenaline back to 0."",
-			""Getting hit while Adrenaline is maxed will reduce damage taken by a massive amount."",
-			""All enemies spawn 15% more frequently."",
-			""Certain non-boss enemies and projectiles deal between 10% and 25% more damage."",
-			""Makes certain enemies block life steal and nerfs the effectiveness of life steal."",
-			""Nerfs the effectiveness of the Hallowed Armor set bonus."",
-			""All boss minions no longer drop hearts."",
-			""Changes all boss AIs and some enemy AIs."",
-			""Increases the health and damage of all bosses.""
+			""{$CommonItemTooltip.BannerBonus}Belching Coral""
 		],
-		""state"": ""Traduit"",
+		""state"": ""A retraduire"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
 				""author"": ""Tolsyak"",
-				""translatedName"": ""Fontaine de Sang de Revengeance"",
+				""translatedName"": ""Bannière de Corail Cracheur"",
 				""translatedTooltip"": [
-					""Active/Désactive le mode Revengeance, utilisable seulement en Mode Expert."",
-					""RAGE TOOLTIP LINE HERE"",
-					""Vous gagnez de la rage quand vous êtes a proximité d'ennemis ou en utilisant certains objets."",
-					""ADRENALINE TOOLTIP LINE HERE"",
-					""Vous gagnez de l'adrénaline quand un boss est en vie. Être touché fait retomber l'adrénaline à 0"",
-					""Être touché quand l'adrénaline est au maximum réduira massivement les dégâts subis."",
-					""Tous les ennemis apparaîssent 15% plus fréquement."",
-					""Certains ennemis et projectiles (hors-boss) font entre 10% et 25% de dégâts supplémentaires."",
-					""Immunise certains ennemis au vol de vie et réduit l'efficacité du vol de vie en général."",
-					""Réduit l'efficacité du bonus de set de l'armure sacrée."",
-					""Les sbires des boss ne laissent plus de coeurs en mourant."",
-					""Modifie l'IA des boss et certaines IA des ennemis."",
-					""Augmente la santé et les dégâts de tous les boss.""
+					""{$CommonItemTooltip.BannerBonus}Corail Cracheur""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""BigSightseerBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""BigSightseerBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Big Sightseer""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Gros Cherchevue"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Gros Cherchevue""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""BlackHawkRemote"",
+		""type"": ""ITEM"",
+		""englishName"": ""Black Hawk Remote"",
+		""englishTooltip"": [
+			""Summons a Black Hawk jet to fight for you"",
+			""Jets will fire bullets from your inventory"",
+			""50% chance to not consume ammo""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Télécommande du Faucon Noir"",
+				""translatedTooltip"": [
+					""Invoque un jet du faucon noir pour combattre à vos côtés""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""BlazingStar"",
+		""type"": ""ITEM"",
+		""englishName"": ""Blazing Star"",
+		""englishTooltip"": [
+			""Stacks up to 3"",
+			""Stealth strikes release all stars at once with infinite piercing""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Étoile Flamboyante"",
+				""translatedTooltip"": [
+					""Se cumule 4 fois"",
+					""Les attaques furtives libèrent toutes les étoiles simultanément et transperçent indéfiniment""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""BlindedAnglerBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""BlindedAnglerBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Blinded Angler""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Baudroie Aveuglée"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Baudroie Aveuglée""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""BloatfishBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""BloatfishBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Bloatfish""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Poisson Bouffi"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Poisson Bouffi""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""BloodwormItem"",
+		""type"": ""ITEM"",
+		""englishName"": ""Bloodworm"",
+		""englishTooltip"": [
+			""Summons The Old Duke if used as bait in the Sulphurous Sea"",
+			""Enrages outside the Sulphurous Sea""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Kastiel"",
+				""translatedName"": ""Ver de Sang"",
+				""translatedTooltip"": [
+					""Invoque le Vieux Duc s'il est utilisé comme un appât dans dans la mer sulfurique""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""BloodyWormFood"",
+		""type"": ""ITEM"",
+		""englishName"": ""Bloody Worm Food"",
+		""englishTooltip"": [
+			""Summons the Perforator Hive when used in the Crimson"",
+			""Enrages outside the Underground Crimson"",
+			""Not consumable""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Nourriture Sanglante pour Ver"",
+				""translatedTooltip"": [
+					""Invoque la Ruche du Perforateur quand utilisé dans le carmin"",
+					""Non consommable""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""BloomSlimeBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""BloomSlimeBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Bloom Slime""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Gelée de Floraison"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Gelée de Floraison""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""BobbitWormBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""BobbitWormBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Bobbit Worm""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Ver Bobbit"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Ver Bobbit""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""BotanicPlanter"",
+		""type"": ""ITEM"",
+		""englishName"": ""BotanicPlanter"",
+		""englishTooltip"": [
+			""Used for special crafting""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Planteur Botanique"",
+				""translatedTooltip"": [
+					""Utilisé pour l'artisanat spécial""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""BotanicSink"",
+		""type"": ""ITEM"",
+		""englishName"": ""BotanicSink"",
+		""englishTooltip"": [
+			""Counts as a honey source""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Évier Botanique"",
+				""translatedTooltip"": [
+					""Source de Miel""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""BouncySpikyBall"",
+		""type"": ""ITEM"",
+		""englishName"": ""Bouncy Spiky Ball"",
+		""englishTooltip"": [
+			""Throws a very bouncy ball that ricochets off walls and enemies"",
+			""Receives a small boost in damage and velocity after bouncing off an enemy"",
+			""Stealth strikes throw four at once""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Boule à Piques Rebondissante"",
+				""translatedTooltip"": [
+					""Lance une boule rebondissante qui ricoche sur les murs et les ennemis"",
+					""Gagne un petit bonus aux dégâts et en vitesse quand elle rebondit sur un ennemi"",
+					""Les attaques furtives augmentent le bonus de ricochet""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""BoxJellyfishBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""BoxJellyfishBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Box Jellyfish""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Méduse-Boîte"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Méduse-Boîte""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -374,9 +1182,9 @@ namespace CalamityFR.JSON
 		""type"": ""ITEM"",
 		""englishName"": ""Brimstone Elemental Relic"",
 		""englishTooltip"": [
-			""A glimpse into what will be..""
+			""A glimpse into what will be...""
 		],
-		""state"": ""Traduit"",
+		""state"": ""A retraduire"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -392,71 +1200,24 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""BrokenBiomeBlade"",
+		""id"": ""BrimstoneSword"",
 		""type"": ""ITEM"",
-		""englishName"": ""Broken Biome Blade"",
+		""englishName"": ""Brimstone Sword"",
 		""englishTooltip"": [
-			""FUNCTION_DESC"",
-			""Hold down RMB while standing still on flat ground to attune the weapon to the powers of the surrounding biome"",
-			""Using RMB otherwise switches between the current attunement and an extra stored one"",
-			""Main Attunement : [None]"",
-			""Secondary Attunement: [None]""
+			""Summons brimstone geysers on hit"",
+			""Right click to throw like a javelin that explodes on hit"",
+			""Receives 33% benefit from melee speed bonuses""
 		],
-		""state"": ""Traduit"",
+		""state"": ""A retraduire"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
 				""author"": ""Tolsyak"",
-				""translatedName"": ""Lame de Biome Brisée"",
+				""translatedName"": ""Épée de soufre"",
 				""translatedTooltip"": [
-					""FUNCTION_DESC"",
-					""Laisser le clic droit appuyé sans bouger sur un terrain plat pour harmoniser l'arme avec les pouvoirs du biome environnant"",
-					""Clic droit pour changer entre l'harmonisation courante et celle stockée en plus"",
-					""Harmonisation Principale : [Aucune]"",
-					""Harmonisation Secondaire: [Aucune]""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""BrokenPlaguedBed"",
-		""type"": ""ITEM"",
-		""englishName"": ""Broken Plagued 'Bed'"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""'Lit' Pestiféré Cassé"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""CadancePotion"",
-		""type"": ""ITEM"",
-		""englishName"": ""Cadance Potion"",
-		""englishTooltip"": [
-			""Grants Cadance's Grace, which increases life regeneration and heart pickup range"",
-			""Increases max life by 25%"",
-			""While this potion's buff is active, Regeneration Potion and Lifeforce Potion buffs are disabled""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Cadance Potion"",
-				""translatedTooltip"": [
-					""Accorde la Grâce de Cadence, qui augmente la régénération de vie et la portée de récupération des coeurs"",
-					""Augmente la vie maximum de 25%"",
-					""Quand l'effet de cette potion est actif, les effets des potions de régénération et de force vitale sont désactivés""
+					""Invoque des geysers de soufre quand vous touchez"",
+					""Clic droit pour lancer un javelot qui explose quand il touche""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -468,9 +1229,9 @@ namespace CalamityFR.JSON
 		""type"": ""ITEM"",
 		""englishName"": ""Calamitas Clone Relic"",
 		""englishTooltip"": [
-			""A glimpse into what will be..""
+			""A glimpse into what will be...""
 		],
-		""state"": ""Traduit"",
+		""state"": ""A retraduire"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -486,16 +1247,44 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""CalamitasRelic"",
+		""id"": ""CalamityEyeBanner"",
 		""type"": ""ITEM"",
-		""englishName"": ""Calamitas Relic"",
-		""state"": ""Traduit"",
+		""englishName"": ""CalamityEyeBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Calamity Eye""
+		],
+		""state"": ""A retraduire"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
 				""author"": ""Tolsyak"",
-				""translatedName"": ""Relique de Calamitas"",
+				""translatedName"": ""Bannière de Oeil de Calamité"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Oeil de Calamité""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""CatfishBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""CatfishBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Catfish""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Poisson-Chat"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Poisson-Chat""
+				],
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -506,9 +1295,9 @@ namespace CalamityFR.JSON
 		""type"": ""ITEM"",
 		""englishName"": ""Ceaseless Void Relic"",
 		""englishTooltip"": [
-			""A glimpse into what will be..""
+			""A glimpse into what will be...""
 		],
-		""state"": ""Traduit"",
+		""state"": ""A retraduire"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -524,25 +1313,21 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""CelestialOnion"",
+		""id"": ""ChaoticPufferBanner"",
 		""type"": ""ITEM"",
-		""englishName"": ""Celestial Onion"",
+		""englishName"": ""ChaoticPufferBanner"",
 		""englishTooltip"": [
-			""Alien power pulses inside its layers"",
-			""Consuming it does something that cannot be reversed"",
-			""This item does nothing in Master Mode""
+			""{$CommonItemTooltip.BannerBonus}Chaotic Puffer""
 		],
-		""state"": ""Traduit"",
+		""state"": ""A retraduire"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
 				""author"": ""Tolsyak"",
-				""translatedName"": ""Oignon Céleste"",
+				""translatedName"": ""Bannière de Poisson-globe Chaotique"",
 				""translatedTooltip"": [
-					""Une pouvoir alien pulse au sein de ses couches"",
-					""Le consommer engendre quelque chose d'irréversible"",
-					""N'a aucun effet en mode Maître""
+					""{$CommonItemTooltip.BannerBonus}Poisson-globe Chaotique""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -550,57 +1335,25 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""CelestialRemains"",
+		""id"": ""CharredIdol"",
 		""type"": ""ITEM"",
-		""englishName"": ""Celestial Remains"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Restes Célestes"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""CelestialRemainsWall"",
-		""type"": ""ITEM"",
-		""englishName"": ""Celestial Remains Wall"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Mur de Restes Célestes"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""Condemnation"",
-		""type"": ""ITEM"",
-		""englishName"": ""Condemnation"",
+		""englishName"": ""Charred Idol"",
 		""englishTooltip"": [
-			""Fires powerful scarlet bolts suffused with hateful magics"",
-			""Hold left click to load up to eight bolts for powerful burst fire"",
-			""Hold right click to use the repeater full auto""
+			""Use at your own risk"",
+			""Summons the Brimstone Elemental when used in the Brimstone Crags"",
+			""Enrages outside the Brimstone Crags"",
+			""Not consumable""
 		],
-		""state"": ""Traduit"",
+		""state"": ""A retraduire"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
 				""author"": ""Tolsyak"",
-				""translatedName"": ""Condamnation"",
+				""translatedName"": ""Idole Calcinée"",
 				""translatedTooltip"": [
-					""Tire de puissants carreaux écarlates infusés avec des magies emplies de haine"",
-					""Laissez le clic gauche appuyé pour charger jusqu'a huit carreaux pour un puissant tir groupé"",
-					""Laissez le clic droit enfoncé pour tirer en mode automatique""
+					""Invoque l'Élémentaire de soufre quand utilisé dans les vestiges souffrés"",
+					""Non consommable""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -608,39 +1361,21 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""CoreofSunlight"",
+		""id"": ""CharredSlimeBanner"",
 		""type"": ""ITEM"",
-		""englishName"": ""Core of Sunlight"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Noyau de Lueur Solaire"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""CosmicAnvilItem"",
-		""type"": ""ITEM"",
-		""englishName"": ""Cosmic Anvil"",
+		""englishName"": ""CharredSlimeBanner"",
 		""englishTooltip"": [
-			""An otherworldly anvil capable of withstanding the pressures of stellar collapse"",
-			""Also functions as every previous tier of anvil""
+			""{$CommonItemTooltip.BannerBonus}Charred Slime""
 		],
-		""state"": ""Traduit"",
+		""state"": ""A retraduire"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
 				""author"": ""Tolsyak"",
-				""translatedName"": ""Enclume Cosmique"",
+				""translatedName"": ""Bannière de Gelée Calcinée"",
 				""translatedTooltip"": [
-					""Une enclume d'un autre monde capable de supporter la pression d'un effondrement stellaire"",
-					""Remplace également toutes les enclumes précédentes""
+					""{$CommonItemTooltip.BannerBonus}Gelée Calcinée""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -648,48 +1383,359 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""CosmiliteDye"",
+		""id"": ""ClamBanner"",
 		""type"": ""ITEM"",
-		""englishName"": ""Cosmilite Dye"",
-		""state"": ""Traduit"",
+		""englishName"": ""ClamBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Clam""
+		],
+		""state"": ""A retraduire"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
 				""author"": ""Tolsyak"",
-				""translatedName"": ""Teinture de Cosmilite"",
+				""translatedName"": ""Bannière de Palourde"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Palourde""
+				],
 				""proofRead"": false,
 				""proofReader"": """"
 			}
 		]
 	},
 	{
-		""id"": ""CrabulonRelic"",
+		""id"": ""CloudElementalBanner"",
 		""type"": ""ITEM"",
-		""englishName"": ""Crabulon Relic"",
-		""state"": ""Traduit"",
+		""englishName"": ""CloudElementalBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Cloud Elemental""
+		],
+		""state"": ""A retraduire"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
 				""author"": ""Tolsyak"",
-				""translatedName"": ""Relique de Crabulon"",
+				""translatedName"": ""Bannière d'Élémentaire de Nuage"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Élémentaire de Nuage""
+				],
 				""proofRead"": false,
 				""proofReader"": """"
 			}
 		]
 	},
 	{
-		""id"": ""CragmawMireRelic"",
+		""id"": ""CnidrionBanner"",
 		""type"": ""ITEM"",
-		""englishName"": ""Cragmaw Mire Relic"",
-		""state"": ""Traduit"",
+		""englishName"": ""CnidrionBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Cnidrion""
+		],
+		""state"": ""A retraduire"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
 				""author"": ""Tolsyak"",
-				""translatedName"": ""Relique de Machoire Rochefange"",
+				""translatedName"": ""Bannière de Cnidrion"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Cnidrion""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""CoinofDeceit"",
+		""type"": ""ITEM"",
+		""englishName"": ""Coin of Deceit"",
+		""englishTooltip"": [
+			""Stealth strikes only expend 85% of your max stealth"",
+			""6% increased rogue crit chance""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Pièce de Tromperie"",
+				""translatedTooltip"": [
+					""Les attaques furtives ne consomment que 75% de votre furtivité"",
+					""6% des coups critiques pour les dégâts de voleur""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""ColossalSquidBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""ColossalSquidBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Colossal Squid""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Calamar Colossal"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Calamar Colossal""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""CoralSpout"",
+		""type"": ""ITEM"",
+		""englishName"": ""Coral Spout"",
+		""englishTooltip"": [
+			""Casts a shotgun-like blast of coral shards"",
+			""Keep the attack button held down to narrow the spread"",
+			""Fully charging the attack releases a single, bigger chunk of coral that sticks to enemies"",
+			""Grabbing the chunk of coral after it falls from the enemy replenishes 150 mana"",
+			""The mana-charged coral also provides a buff that increases the coral's damage and the convergence speed"",
+			""[c/5C95A1:Knowledge is important, and the Old Sea Kingdom’s many scribes knew it had to be preserved at any cost.]"",
+			""[c/5C95A1:Their libraries were much larger than most, because of the water-proof stone tablets occupying them.]""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Débiteur de Corail"",
+				""translatedTooltip"": [
+					""Convoque des éclats de corail qui se posent au sol et endommagent les ennemis""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""CorrosiveSpine"",
+		""type"": ""ITEM"",
+		""englishName"": ""Corrosive Spine"",
+		""englishTooltip"": [
+			""5% increased movement speed"",
+			""All rogue weapons inflict venom and spawn clouds on enemy hits"",
+			""You release a ton of clouds everywhere on hit""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Colonne Vertébrale Corrosive"",
+				""translatedTooltip"": [
+					""10% d'augmentation du déplacement"",
+					""Toutes les armes de voleur infligent le venin et créent des nuages quand ils touchent les ennemis"",
+					""Vous relâchez une tonne de nuage partout quand vous êtes touché""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""CosmicShiv"",
+		""type"": ""ITEM"",
+		""englishName"": ""Cosmic Shiv"",
+		""englishTooltip"": [
+			""Fires a cosmic beam that homes in on enemies"",
+			""Upon hitting an enemy, a barrage of offscreen objects home in on the enemy as well as raining stars"",
+			""Receives 33% benefit from melee speed bonuses""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Surin Cosmique"",
+				""translatedTooltip"": [
+					""Ne sous-estimez vraiment pas le pouvoir des surins"",
+					""Tire un rayon cosmique qui pourchasse les ennemis"",
+					""Quand vous touchez un ennemi, un barrage d'objets venant d'en dehors de l'écran pourchassent l'ennemi en plus de faire pleuvoir des étoiles""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""CosmicViperEngine"",
+		""type"": ""ITEM"",
+		""englishName"": ""Cosmic Viper Engine"",
+		""englishTooltip"": [
+			""Summons a cosmic gunship to shoot down your foes"",
+			""Gunships will fire bullets from your inventory"",
+			""50% chance to not consume ammo"",
+			""Alternates firing rockets and bullets"",
+			""Rockets do not consume ammo""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Moteur Cosmique Vipère"",
+				""translatedTooltip"": [
+					""Invoque un vaisseau de combat pour abattre vos ennemis""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""CosmicElementalBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""CosmicElementalBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Cosmic Elemental""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Élementaire Cosmique"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Élementaire Cosmique""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""CosmiliteSink"",
+		""type"": ""ITEM"",
+		""englishName"": ""CosmiliteSink"",
+		""englishTooltip"": [
+			""Counts as a water source""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Évier en Cosmilite"",
+				""translatedTooltip"": [
+					""Source d'eau""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""CounterScarf"",
+		""type"": ""ITEM"",
+		""englishName"": ""Counter Scarf"",
+		""englishTooltip"": [
+			""10% increased true melee damage"",
+			""Grants the ability to dash; dashing into an attack will cause you to dodge it"",
+			""After a successful dodge you must wait 30 seconds before you can dodge again""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Echarpe de Contre"",
+				""translatedTooltip"": [
+					""Les attaques de vraie mêlée font 10% de dégâts supplémentaires"",
+					""Donne la possibilité de foncer, foncer dans une attaque vous permettra de l'esquiver"",
+					""Après une esquive réussie, vous devez attendre 15s avant de pouvoir esquiver de nouveau"",
+					""Ce temps de recharge est doublé si vous subissez le Chaos"",
+					""Durant le temps de recharge, le Chaos dure deux fois plus longtemps""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""CrimulanBlightSlimeBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""CrimulanBlightSlimeBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Crimulan Blight Slime""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Gelée Carminée Trouble"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Gelée Carminée Trouble""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""CryoKey"",
+		""type"": ""ITEM"",
+		""englishName"": ""Cryo Key"",
+		""englishTooltip"": [
+			""Summons Cryogen when used in the tundra"",
+			""Enrages outside the tundra"",
+			""Not consumable""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Clé Cryo"",
+				""translatedTooltip"": [
+					""Invoque Cryogène quand utilisé dans la toundra"",
+					""Ne se consomme pas""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""CryoSlimeBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""CryoSlimeBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Cryo Slime""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Gelée Cryo"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Gelée Cryo""
+				],
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -700,9 +1746,9 @@ namespace CalamityFR.JSON
 		""type"": ""ITEM"",
 		""englishName"": ""Cryogen Relic"",
 		""englishTooltip"": [
-			""A glimpse into what will be..""
+			""A glimpse into what will be...""
 		],
-		""state"": ""Traduit"",
+		""state"": ""A retraduire"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -718,53 +1764,21 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""CryonicBar"",
+		""id"": ""CryonBanner"",
 		""type"": ""ITEM"",
-		""englishName"": ""Cryonic Bar"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Lingot Cryonique"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""CryonicDye"",
-		""type"": ""ITEM"",
-		""englishName"": ""Cryonic Dye"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Teinture Cryonique"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""CyanSeekingMechanism"",
-		""type"": ""ITEM"",
-		""englishName"": ""Cyan Seeking Mechanism"",
+		""englishName"": ""CryonBanner"",
 		""englishTooltip"": [
-			""Moves swiftly towards a lab deep below the desert""
+			""{$CommonItemTooltip.BannerBonus}Cryon""
 		],
-		""state"": ""Traduit"",
+		""state"": ""A retraduire"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
 				""author"": ""Tolsyak"",
-				""translatedName"": ""Mécanisme Chercheur Cyan"",
+				""translatedName"": ""Bannière de Cryon"",
 				""translatedTooltip"": [
-					""Se dirige rapidement vers un labo profondément enfoui sous le désert""
+					""{$CommonItemTooltip.BannerBonus}Cryon""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -772,37 +1786,21 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""DaawnlightSpiritOrigin"",
+		""id"": ""CrystalCrawlerBanner"",
 		""type"": ""ITEM"",
-		""englishName"": ""Daawnlight Spirit Origin"",
+		""englishName"": ""CrystalCrawlerBanner"",
 		""englishTooltip"": [
-			""All nearby enemies and bosses are marked with bullseyes"",
-			""Ranged attacks that strike a bullseye always critically strike and deal massive damage"",
-			""When a bullseye is struck, it vanishes and a new one appears elsewhere"",
-			""Explosions or large projectiles cannot strike bullseyes"",
-			""Converts all ranged critical strike chance boosts into extra critical strike damage"",
-			""All ranged weapons will deal even more critical strike damage the slower they are"",
-			""Summons a heroic spirit from another world if accessory visibility is enabled"",
-			""The heroic spirit is also summoned when this accessory is placed in vanity slots"",
-			""'A strand of a lost cosmos remains, waiting for its master'""
+			""{$CommonItemTooltip.BannerBonus}Crystal Crawler""
 		],
-		""state"": ""Traduit"",
+		""state"": ""A retraduire"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
 				""author"": ""Tolsyak"",
-				""translatedName"": ""Origine de l'Esprit d'Aubelumière"",
+				""translatedName"": ""Bannière de Rampant de Cristal"",
 				""translatedTooltip"": [
-					""Tous les ennemis proches sont marqués"",
-					""Les attaques à distance qui touchent un ennemi marqué sont toujours critique et infligent des dégâts massifs"",
-					""Quand une marque est touchée, elle disparaît et une nouvelle apparaît ailleurs"",
-					""Les explosions et les projectiles larges ne fonctionne pas sur les marques"",
-					""Convertit les chances de coup critique à distance en chance d'infliger des dégâts extra critiques"",
-					""Les dégâts critiques augmentent encore plus sur les armes tirant des projectiles lents"",
-					""Invoque un esprit héroïque d'un autre monde quand la visibilité de cette accessoire est activée"",
-					""L'esprit héroïque est également invoqué si l'accessoire est placé dans les emplacements cosmétiques"",
-					""'Un brin de cosmos perdu reste, attendant son maître'""
+					""{$CommonItemTooltip.BannerBonus}Rampant de Cristal""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -810,23 +1808,21 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""DaedalusGolemStaff"",
+		""id"": ""CultistAssassinBanner"",
 		""type"": ""ITEM"",
-		""englishName"": ""Daedalus Golem Staff"",
+		""englishName"": ""CultistAssassinBanner"",
 		""englishTooltip"": [
-			""Summons a Daedalus Golem soldier that fires pellets and electricity"",
-			""Shining god of greed""
+			""{$CommonItemTooltip.BannerBonus}Cultist Assassin""
 		],
-		""state"": ""Traduit"",
+		""state"": ""A retraduire"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
 				""author"": ""Tolsyak"",
-				""translatedName"": ""Bâton de Golem de Dédale"",
+				""translatedName"": ""Bannière de Assassin Cultiste"",
 				""translatedTooltip"": [
-					""Invoque un Golem Soldat de Dédale qui tire des fragments et de l'électricité"",
-					""Dieu de l'Avarice Brillant""
+					""{$CommonItemTooltip.BannerBonus}Assassin Cultiste""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -834,23 +1830,21 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""DeadshotBrooch"",
+		""id"": ""CuttlefishBanner"",
 		""type"": ""ITEM"",
-		""englishName"": ""Deadshot Brooch"",
+		""englishName"": ""CuttlefishBanner"",
 		""englishTooltip"": [
-			""10% increased ranged damage, 5% increased ranged critical strike chance and 20% reduced ammo usage"",
-			""Greatly increases all ranged projectile velocity""
+			""{$CommonItemTooltip.BannerBonus}Cuttlefish""
 		],
-		""state"": ""Traduit"",
+		""state"": ""A retraduire"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
 				""author"": ""Tolsyak"",
-				""translatedName"": ""Broche de l'Abattu"",
+				""translatedName"": ""Bannière de Seiche"",
 				""translatedTooltip"": [
-					""+10% de dégâts à distance, +5% de chances de coup critique à distance et -20% de consommation de munitions"",
-					""Augmente grandement la vélocité des projectiles des armes à distance""
+					""{$CommonItemTooltip.BannerBonus}Seiche""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -858,23 +1852,53 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""DeathstareRod"",
+		""id"": ""DarkGodsSheath"",
 		""type"": ""ITEM"",
-		""englishName"": ""Deathstare Rod"",
+		""englishName"": ""Dark God's Sheath"",
 		""englishTooltip"": [
-			""Summons an eye above your head that watches you and shoots at enemies"",
-			""There can only be one eye""
+			""+10 maximum stealth"",
+			""Mobile stealth generation accelerates while not attacking"",
+			""Stealth strikes only expend 50% of your max stealth"",
+			""6% increased rogue damage, and 6% increased rogue crit chance""
 		],
-		""state"": ""Traduit"",
+		""state"": ""A retraduire"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
 				""author"": ""Tolsyak"",
-				""translatedName"": ""Baguette du Regard Mortel"",
+				""translatedName"": ""Fourreau du Dieu Sombre"",
 				""translatedTooltip"": [
-					""Invoque un oeil au dessus de votre tête qui vous surveille et tire sur les ennemis"",
-					""Il ne peut y avoir qu'un oeil""
+					""+20 de furtivité maximum"",
+					""La génération de furtivité lorsque vous êtes en mouvement est augmentée"",
+					""Les attaques furtives ont 100% de chances de coup critique"",
+					""Les coups critiques ne consomment que la moitié de votre furtivité"",
+					""6% des dégâts et de chances de coup critique supplémentaires pour les dégâts de voleur""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""DecapoditaSprout"",
+		""type"": ""ITEM"",
+		""englishName"": ""Decapodita Sprout"",
+		""englishTooltip"": [
+			""Summons Crabulon when used in the Mushroom biome"",
+			""Enrages outside the Underground Mushroom biome"",
+			""Not consumable""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Germe de Décapodite"",
+				""translatedTooltip"": [
+					""Invoque Crabulon quand utilisé dans un biome champignon"",
+					""Non consommable""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -887,10 +1911,10 @@ namespace CalamityFR.JSON
 		""englishName"": ""Decryption Computer"",
 		""englishTooltip"": [
 			""Can be placed on the Codebreaker"",
-			""Allows you to decrypt advanced schematics"",
+			""Allows you to decrypt the Planetoid schematic"",
 			""Doing so allows you to learn how to craft new things""
 		],
-		""state"": ""Traduit"",
+		""state"": ""A retraduire"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -908,10 +1932,38 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
+		""id"": ""DesertMedallion"",
+		""type"": ""ITEM"",
+		""englishName"": ""Desert Medallion"",
+		""englishTooltip"": [
+			""Summons the Desert Scourge when used in the Desert"",
+			""Enrages outside the Desert"",
+			""Not consumable""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Médaillon du Desert"",
+				""translatedTooltip"": [
+					""Invoque le Fléau du Désert quand utilisé dans le désert"",
+					""Non consommable""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
 		""id"": ""DesertScourgeRelic"",
 		""type"": ""ITEM"",
 		""englishName"": ""Desert Scourge Relic"",
-		""state"": ""Traduit"",
+		""englishTooltip"": [
+			""A glimpse into what will be...""
+		],
+		""state"": ""A retraduire"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -924,13 +1976,107 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
+		""id"": ""DespairStoneBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""DespairStoneBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Despair Stone""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Pierre de Désespoir"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Pierre de Désespoir""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""Devastation"",
+		""type"": ""ITEM"",
+		""englishName"": ""Devastation"",
+		""englishTooltip"": [
+			""Fires galaxy blasts that explode"",
+			""Receives 33% benefit from melee speed bonuses""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Dévastation"",
+				""translatedTooltip"": [
+					""Tire des décharges de galaxie qui explosent""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""DevilsDevastation"",
+		""type"": ""ITEM"",
+		""englishName"": ""Devil's Devastation"",
+		""englishTooltip"": [
+			""Fires a spread of demonic scythes"",
+			""Pitchforks rise from the underworld to skewer your foes"",
+			""Critical hits cause shadowflame explosions"",
+			""Receives 33% benefit from melee speed bonuses""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Dévastation du Diable"",
+				""translatedTooltip"": [
+					""Tire un éventail de faux démoniaques"",
+					""Des fourches se soulèvent des enfers pour empaler vos ennemis"",
+					""Les coups critiques déclenchent des explosions d'ombreflamme""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""DevilFishBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""DevilFishBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Devil Fish""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Poisson-Diable"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Poisson-Diable""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
 		""id"": ""DevourerOfGodsRelic"",
 		""type"": ""ITEM"",
 		""englishName"": ""Devourer of Gods Relic"",
 		""englishTooltip"": [
-			""A glimpse into what will be..""
+			""A glimpse into what will be...""
 		],
-		""state"": ""Traduit"",
+		""state"": ""A retraduire"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -946,23 +2092,21 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""Disseminator"",
+		""id"": ""DiamondCrawlerBanner"",
 		""type"": ""ITEM"",
-		""englishName"": ""Disseminator"",
+		""englishName"": ""DiamondCrawlerBanner"",
 		""englishTooltip"": [
-			""@everyone"",
-			""50% chance to not consume ammo""
+			""{$CommonItemTooltip.BannerBonus}Diamond Crawler""
 		],
-		""state"": ""Traduit"",
+		""state"": ""A retraduire"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Disseminateur"",
+				""author"": ""Kastiel"",
+				""translatedName"": """",
 				""translatedTooltip"": [
-					""@everyone"",
-					""50% de chances de ne pas consommer de munitions""
+					""{$CommonItemTooltip.BannerBonus}Rampant de Diamant""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -970,32 +2114,29 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""DraedonMask"",
+		""id"": ""DragonScales"",
 		""type"": ""ITEM"",
-		""englishName"": ""Draedon Mask"",
-		""state"": ""Traduit"",
+		""englishName"": ""Dragon Scales"",
+		""englishTooltip"": [
+			""Only a living dragon holds true treasure"",
+			""Rogue projectiles create slow fireballs as they travel"",
+			""Stealth strikes create infernados on death"",
+			""+10% max run speed and acceleration"",
+			""Grants immunity to Dragonfire""
+		],
+		""state"": ""A retraduire"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
 				""author"": ""Tolsyak"",
-				""translatedName"": ""Masque de Draedon"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""DraedonRelic"",
-		""type"": ""ITEM"",
-		""englishName"": ""Draedon Relic"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Relique de Draedon"",
+				""translatedName"": ""Écailles de Dragon"",
+				""translatedTooltip"": [
+					""Seul un dragon vivant possède un véritable trésor"",
+					""Les projectiles de voleur créent de lentes boules de feu sur leur trajet"",
+					""Les attaques furtives créent une infernade à la disparition du projectile"",
+					""+10% à votre accélération et votre vitesse de mouvement""
+				],
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -1006,9 +2147,9 @@ namespace CalamityFR.JSON
 		""type"": ""ITEM"",
 		""englishName"": ""Dragonfolly Relic"",
 		""englishTooltip"": [
-			""A glimpse into what will be..""
+			""A glimpse into what will be...""
 		],
-		""state"": ""Traduit"",
+		""state"": ""A retraduire"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -1024,39 +2165,25 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""DragonfollyTrophy"",
+		""id"": ""DukesDecapitator"",
 		""type"": ""ITEM"",
-		""englishName"": ""Dragonfolly Trophy"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Trophée de la Folie Draconique"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""EmpyreanCuisses"",
-		""type"": ""ITEM"",
-		""englishName"": ""Empyrean Cuisses"",
+		""englishName"": ""Duke's Decapitator"",
 		""englishTooltip"": [
-			""5% increased rogue damage and critical strike chance"",
-			""15% increased movement speed""
+			""Throws a hydro axe which shreds enemies when it comes into contact with them"",
+			""The faster it's spinning, the more times it hits before disappearing"",
+			""Stealth Strikes make it emit short-ranged bubbles.""
 		],
-		""state"": ""Traduit"",
+		""state"": ""A retraduire"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
 				""author"": ""Tolsyak"",
-				""translatedName"": ""Cuissardes Empyréenes"",
+				""translatedName"": ""Décapitateur du Duc"",
 				""translatedTooltip"": [
-					""+5% de dégâts et de chances de coup critique de voleur"",
-					""+15% de vitesse de déplacement""
+					""Lance une hydro-hache qui déchire les ennemis quand elle rentre en contact avec eux"",
+					""Au plus elle tourne vite, au plus elle peut frapper avant de disparaître"",
+					""Les attaques furtives émettent des bulles à courte portées.""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -1064,23 +2191,256 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""EmpyreanMask"",
+		""id"": ""DynamoStemCells"",
 		""type"": ""ITEM"",
-		""englishName"": ""Empyrean Mask"",
+		""englishName"": ""Dynamo Stem Cells"",
 		""englishTooltip"": [
-			""11% increased rogue damage and critical strike chance, 5% increased movement speed"",
-			""Temporary immunity to lava""
+			""10% increased movement speed"",
+			""Ranged weapons have a chance to fire mini swarmers"",
+			""Grants immunity to Dragonfire and Electrified""
 		],
-		""state"": ""Traduit"",
+		""state"": ""A retraduire"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
 				""author"": ""Tolsyak"",
-				""translatedName"": ""Masque Empyréen"",
+				""translatedName"": ""Transformateur de Cellules Souches"",
 				""translatedTooltip"": [
-					""+11% de dégâts et de chances de coup critique de voleur, +5% de vitesse de mouvement"",
-					""Immunité temporaire à la lave""
+					""+10% de vitesse de mouvement"",
+					""Les armes à distance ont une chance de tirer des petits essaimeurs""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""EarthElementalBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""EarthElementalBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Earth Elemental""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière d'Élémentaire de Terre"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Élémentaire de Terre""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""EbonianBlightSlimeBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""EbonianBlightSlimeBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Ebonian Blight Slime""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Gelée de Fléau d'Ébène"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Gelée de Fléau d'Ébène""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""EclipseMirror"",
+		""type"": ""ITEM"",
+		""englishName"": ""Eclipse Mirror"",
+		""englishTooltip"": [
+			""Its reflection shows naught but darkness"",
+			""+10 maximum stealth"",
+			""6% increased rogue damage, and 6% increased rogue crit chance"",
+			""Vastly reduces enemy aggression, even in the abyss"",
+			""Stealth generates 25% faster when standing still"",
+			""Mobile stealth generation exponentially accelerates while not attacking"",
+			""Stealth strikes only expend 50% of your max stealth"",
+			""Grants the ability to evade attacks in a blast of darksun light, which inflicts extreme damage in a wide area"",
+			""Evading an attack grants full stealth but has a 90 second cooldown"",
+			""This cooldown is shared with all other dodges and reflects""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Miroir d'Éclipse"",
+				""translatedTooltip"": [
+					""Son reflet ne montre rien que les ténèbres"",
+					""+20 furtivité maximum"",
+					""+6% des dégâts et de chance de critique de voleur"",
+					""Réduit grandement l'agressivité des ennemis, même dans les abysses"",
+					""La furtivité se génère 20% plus rapidement quand vous êtes immobile"",
+					""La génération de furtivité quand vous vous déplacez accélère exponentiellement si vous n'attaquez pas"",
+					""Les attaques furtives ont 100% de chances de coup critique"",
+					""Les attaques furtives ne consomment que 50% de votre furtivité"",
+					""Permet d'esquiver les attaques dans une explosion de lumière de sombresoleil, infligeant des dégâts extrêmes dans une large zone"",
+					""Esquiver une attaque maximise votre furtivité mais à un temps de recharge de 90s"",
+					""Ce temps de recharge est partagé avec le temps de recharge des autres effets d'esquive et de renvoi""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""EidolistBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""EidolistBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Eidolist""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Eidoliste"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Eidoliste""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""EidolonWyrmJuvenileBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""EidolonWyrmJuvenileBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Juvenile Eidolon Wyrm""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Wyrm Eidolon Juvénile"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Wyrm Eidolon Juvénile""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""EldritchSoulArtifact"",
+		""type"": ""ITEM"",
+		""englishName"": ""Eldritch Soul Artifact"",
+		""englishTooltip"": [
+			""Knowledge"",
+			""Boosts melee speed by 10%, ranged velocity by 25%, rogue stealth regen by 10%, max minions by 2 and reduces mana cost by 15%"",
+			""Grants immunity to Whispering Death""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Artefact d'Âme d'Eldritch"",
+				""translatedTooltip"": [
+					""Connaissance"",
+					""Augmente la vitesse de corps à corps de 10%, la vitesse des projectiles à distance de 25%, les dégâts de voleurs de 15%, les emplacements de sbires max de 2 et réduit les coûts en mana de 15%""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""ElementalShiv"",
+		""type"": ""ITEM"",
+		""englishName"": ""Elemental Shiv"",
+		""englishTooltip"": [
+			""Shoots a rainbow shiv that spawns additional shivs on hit"",
+			""Receives 33% benefit from melee speed bonuses""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Surin des Élements"",
+				""translatedTooltip"": [
+					""Ne sous-estimez pas le pouvoir des surins"",
+					""Tire un surin arc-en-ciel qui crée d'autres surins quand vous touchez""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""ElysianWings"",
+		""type"": ""ITEM"",
+		""englishName"": ""Elysian Wings"",
+		""englishTooltip"": [
+			""Blessed by the Profaned Flame"",
+			""Horizontal speed: 9.50"",
+			""Acceleration multiplier: 2.7"",
+			""Great vertical speed"",
+			""Flight time: 240"",
+			""Temporary immunity to lava and 10% increased movement speed""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Ailes Elysiennes"",
+				""translatedTooltip"": [
+					""Bénie par la flamme profanée"",
+					""Vitesse Horizontale: 9.75"",
+					""Multiplicateur d'accélération: 2.7"",
+					""Très bonne vitesse verticale"",
+					""Temps de vol: 240"",
+					""Immunité temporaire à la lave et +10% de vitesse de mouvement""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""EmeraldCrawlerBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""EmeraldCrawlerBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Emerald Crawler""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Rampant d'Émeraude"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Rampant d'Émeraude""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -1090,11 +2450,11 @@ namespace CalamityFR.JSON
 	{
 		""id"": ""EncryptedSchematicIce"",
 		""type"": ""ITEM"",
-		""englishName"": ""Encrypted Schematic"",
+		""englishName"": ""Encrypted Schematic (Ice)"",
 		""englishTooltip"": [
 			""Requires a Codebreaker with a complex voltage regulation system to decrypt""
 		],
-		""state"": ""Traduit"",
+		""state"": ""A retraduire"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -1112,11 +2472,11 @@ namespace CalamityFR.JSON
 	{
 		""id"": ""EncryptedSchematicJungle"",
 		""type"": ""ITEM"",
-		""englishName"": ""Encrypted Schematic"",
+		""englishName"": ""Encrypted Schematic (Jungle)"",
 		""englishTooltip"": [
 			""Requires a Codebreaker with a fine tuned, long range sensor to decrypt""
 		],
-		""state"": ""Traduit"",
+		""state"": ""A retraduire"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -1132,35 +2492,13 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""EncryptedSchematicHell"",
-		""type"": ""ITEM"",
-		""englishName"": ""Encrypted Schematic"",
-		""englishTooltip"": [
-			""Requires a Codebreaker with a sophisticated display to decrypt""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Plans Cryptés"",
-				""translatedTooltip"": [
-					""Requiert un Briseur de Code avec un système d'affichage sophistiqué pour être décrypté""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""EncryptedSchematicPlanetoid"",
 		""type"": ""ITEM"",
-		""englishName"": ""Encrypted Schematic"",
+		""englishName"": ""Encrypted Schematic (Planetoid)"",
 		""englishTooltip"": [
 			""Requires a Codebreaker with a basic decryption computer to decrypt""
 		],
-		""state"": ""Traduit"",
+		""state"": ""A retraduire"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -1176,30 +2514,3921 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""ExoThrone"",
+		""id"": ""EncryptedSchematicHell"",
 		""type"": ""ITEM"",
-		""englishName"": ""Exo Box"",
+		""englishName"": ""Encrypted Schematic (Underworld)"",
 		""englishTooltip"": [
-			""Materializes a quite cozy and extremely nimble flying Exo throne"",
-			""Replaced"",
-			""Also replaced"",
-			""A comfortable gamer is a dangerous gamer""
+			""Requires a Codebreaker with a sophisticated display to decrypt""
 		],
-		""state"": ""Traduit"",
+		""state"": ""A retraduire"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
 				""author"": ""Tolsyak"",
-				""translatedName"": ""Exo Boîte"",
+				""translatedName"": ""Plans Cryptés"",
 				""translatedTooltip"": [
-					""Matérialise un confortable et extremmement mobile Exo-Trône Volant "",
-					""Replaced"",
-					""Also replaced"",
-					""Un joueur comfortablement installé et un joueur dangereux""
+					""Requiert un Briseur de Code avec un système d'affichage sophistiqué pour être décrypté""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""EtherealExtorter"",
+		""type"": ""ITEM"",
+		""englishName"": ""Ethereal Extorter"",
+		""englishTooltip"": [
+			""Rogue projectiles explode into homing souls on death"",
+			""10% increased rogue damage and +10 maximum stealth""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Extorqueur Ethéré"",
+				""translatedTooltip"": [
+					""Les projectiles de voleur explosent en âme à tête chercheuse"",
+					""+10% de dégâts de voleur et +10 furtivité maximum mais régénération de vie réduite de 1""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""EutrophicRayBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""EutrophicRayBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Eutrophic Ray""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Raie Eutrophique"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Raie Eutrophique""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""EutrophicShelf"",
+		""type"": ""ITEM"",
+		""englishName"": ""EutrophicShelf"",
+		""englishTooltip"": [
+			""Used for special crafting""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Établi Eutrophique"",
+				""translatedTooltip"": [
+					""Utilisé pour l'artisanat spécial""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""EutrophicSink"",
+		""type"": ""ITEM"",
+		""englishName"": ""EutrophicSink"",
+		""englishTooltip"": [
+			""Counts as a water source""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Évier Eutrophique"",
+				""translatedTooltip"": [
+					""Source d'eau""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""EvasionScarf"",
+		""type"": ""ITEM"",
+		""englishName"": ""Evasion Scarf"",
+		""englishTooltip"": [
+			""15% increased true melee damage"",
+			""Grants the ability to dash; dashing into an attack will cause you to dodge it"",
+			""After a successful dodge you must wait 30 seconds before you can dodge again""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Echarpe d'Evasion"",
+				""translatedTooltip"": [
+					""Les attaques de vraie mêlée font 15% de dégâts supplémentaires"",
+					""Donne la possibilité de foncer, foncer dans une attaque vous permettra de l'esquiver"",
+					""Après une esquive réussie, vous devez attendre 13s avant de pouvoir esquiver de nouveau"",
+					""Ce temps de recharge est doublé si vous subissez le Chaos"",
+					""Durant le temps de recharge, le Chaos dure 50% plus longtemps""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""ExoSink"",
+		""type"": ""ITEM"",
+		""englishName"": ""ExoSink"",
+		""englishTooltip"": [
+			""Counts as a water, honey, and lava source""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Exo Évier"",
+				""translatedTooltip"": [
+					""Compte comme une source d'eau, de miel et de lave""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""Exoblade"",
+		""type"": ""ITEM"",
+		""englishName"": ""Exoblade"",
+		""englishTooltip"": [
+			""Ancient blade of Yharim's weapons and armors expert, Draedon"",
+			""Left clicks release multiple energy beams that home in on enemies and slice them on hit"",
+			""Right clicks make you dash in the direction of the cursor with the blade"",
+			""Enemy hits from the blade during the dash result in massive damage and a rebound"",
+			""Left clicks briefly after a rebound are far stronger and create explosions on enemy hits""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Exolame"",
+				""translatedTooltip"": [
+					""Ancienne lame de Draedon, l'expert en armements et armures de Yharim."",
+					""Tire un exo rayon qui pourchasse le joueur avant d'exploser"",
+					""Frapper un ennemi avec la lame provoque l'apparition de plusieurs comètes"",
+					""Toutes les attaques gèlent brièvement les ennemis"",
+					""Les ennemis qui ont une vie très faible explosent en énergie givrée et gèlent les ennemis proches""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""ExoticPheromones"",
+		""type"": ""ITEM"",
+		""englishName"": ""Exotic Pheromones"",
+		""englishTooltip"": [
+			""Attracts the failed draconic experiment"",
+			""Summons The Dragonfolly when used in the Jungle"",
+			""Enrages outside the Jungle"",
+			""Not consumable""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Phéromones Exotiques"",
+				""translatedTooltip"": [
+					""Attire l'expérience draconique ratée"",
+					""Invoque la folie draconique quand utilisée dans la jungle"",
+					""Non consommable""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""EyeofDesolation"",
+		""type"": ""ITEM"",
+		""englishName"": ""Eye of Desolation"",
+		""englishTooltip"": [
+			""Tonight is going to be a horrific night..."",
+			""Summons Calamitas when used during nighttime"",
+			""Enrages during the day"",
+			""Not consumable""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Oeil de Désolation"",
+				""translatedTooltip"": [
+					""Cette nuit va être horrifique..."",
+					""Invoque Calamitas quand utilisé la nuit"",
+					""Ne se consomme pas""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""FearlessGoldfishWarriorBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""FearlessGoldfishWarriorBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Fearless Goldfish Warrior""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Guerrier Poisson Doré Sans Peur"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Guerrier Poisson Doré Sans Peur""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""FlakCrabBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""FlakCrabBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Flak Crab""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Crabe Flak"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Crabe Flak""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""FlarewingBow"",
+		""type"": ""ITEM"",
+		""englishName"": ""Flarewing Bow"",
+		""englishTooltip"": [
+			""Shoots a spread of 4 arrows"",
+			""Wooden arrows are converted into bouncing obsidian bats""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Arc d'Éclataile"",
+				""translatedTooltip"": [
+					""Tire une volée de 5 flèches"",
+					""Les flèches de bois deviennent des chauves-souris rebondissantes d'obsidienne""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""CrumblingPotion"",
+		""type"": ""ITEM"",
+		""englishName"": ""Flask of Crumbling"",
+		""englishTooltip"": [
+			""Melee, Whip, and Rogue attacks inflict Armor Crunch on enemies""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Potion d'Effritement"",
+				""translatedTooltip"": [
+					""Augmente les dégâts et les chances de coup critique de mêlée et de voleur de 5%"",
+					""Les attaques de mêlée et de voleur brisent l'armure""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""FlounderBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""FlounderBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Flounder""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Sole"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Sole""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""FlowersOfMortality"",
+		""type"": ""ITEM"",
+		""englishName"": ""Flowers of Mortality"",
+		""englishTooltip"": [
+			""Summons five rainbow flowers over your head"",
+			""The combined flowers consume three minion slots""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Flowers of Mortality"",
+				""translatedTooltip"": [
+					""Summons five rainbow flowers over your head "",
+					""The combined flowers consume two and a half minion slots""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""FrogfishBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""FrogfishBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Frogfish""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Poisson-Grenouille"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Poisson-Grenouille""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""FungalSymbiote"",
+		""type"": ""ITEM"",
+		""englishName"": ""Fungal Symbiote"",
+		""englishTooltip"": [
+			""Various melee weapons emit mushrooms in true melee range"",
+			""15% increased true melee damage""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Symbiote Fongique"",
+				""translatedTooltip"": [
+					""La plupart des armes de corps à corps émettent des champignons"",
+					""Les attaques de vraie mêlée font 15% de dégâts supplémentaires""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""FusionFeederBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""FusionFeederBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Fusion Feeder""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Dévoreur de Fusion"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Dévoreur de Fusion""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""GalactusBlade"",
+		""type"": ""ITEM"",
+		""englishName"": ""Galactus Blade"",
+		""englishTooltip"": [
+			""Forged with the fury of nuclear chaos"",
+			""Launches a barrage of comets from the sky"",
+			""Receives 33% benefit from melee speed bonuses""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Lame Galactus"",
+				""translatedTooltip"": [
+					""Forgée avec la furie du chaos nucléaire"",
+					""Lance un barrage de comètes depuis le ciel""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""GalileoGladius"",
+		""type"": ""ITEM"",
+		""englishName"": ""Galileo Gladius"",
+		""englishTooltip"": [
+			""Don't underestimate the power of small space swords"",
+			""Shoots a homing crescent moon"",
+			""Spawns planetoids on enemy hits"",
+			""Receives 33% benefit from melee speed bonuses""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Gladius de Galilée"",
+				""translatedTooltip"": [
+					""Ne sous-estimez pas le pouvoir des petites épées de l'espace"",
+					""Tire un croissant de lune à tête chercheuse"",
+					""Créé des planétoïdes quand vous touchez""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""GammaSlimeBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""GammaSlimeBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Gamma Slime""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Gelée Gamma"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Gelée Gamma""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""GhostBellBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""GhostBellBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Ghost Bell""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Cloche Fantôme"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Cloche Fantôme""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""GiantSquidBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""GiantSquidBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Giant Squid""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Calamar Géant"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Calamar Géant""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""GloveOfPrecision"",
+		""type"": ""ITEM"",
+		""englishName"": ""Glove of Precision"",
+		""englishTooltip"": [
+			""Decreases rogue attack speed by 15% but increases damage and crit by 12% and velocity by 25%""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Gants de Précision"",
+				""translatedTooltip"": [
+					""Réduit la vitesse d'attaque de voleur de 20% mais augmente les dégâts et les chances de coup critique de voleur de 12% et la vitesse des projectiles de 25%""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""GloveOfRecklessness"",
+		""type"": ""ITEM"",
+		""englishName"": ""Glove of Recklessness"",
+		""englishTooltip"": [
+			""Increases rogue attack speed by 15% but decreases damage by 10%"",
+			""Adds inaccuracy to rogue weapons""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Gants d'Imprudence"",
+				""translatedTooltip"": [
+					""Augmente la vitesse d'attaque de voleur de 12% mais réduit les dégâts de 10%"",
+					""Ajoute de l'imprécision aux armes de voleur""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""GnasherBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""GnasherBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Gnasher""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Grinceur"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Grinceur""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""GulperEelBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""GulperEelBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Gulper Eel""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière d'Anguille Engloutisseuse"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Anguille Engloutisseuse""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""HadarianWings"",
+		""type"": ""ITEM"",
+		""englishName"": ""Hadarian Wings"",
+		""englishTooltip"": [
+			""Powered by the Astral Infection"",
+			""This line gets modified below"",
+			""Horizontal speed: 9.00"",
+			""Acceleration multiplier: 1.75"",
+			""Good vertical speed"",
+			""Flight time: 90""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Ailes Hadariennes"",
+				""translatedTooltip"": [
+					""Alimenté par l'infection astrale"",
+					""Restez appuyez sur bas durant le vol pour vous déplacer horizontalement, augmentant ainsi votre temps de vol"",
+					""Vitesse Horizontale: 9"",
+					""Multiplicateur d'accélération: 1.75"",
+					""Bonne vitesse verticale"",
+					""Temps de vol: 120"",
+					""+10% de vitesse de mouvement et de saut si vous portez l'armure astrale""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""HadarianBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""HadarianBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Hadarian""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Hadarien"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Hadarien""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""HavocsBreath"",
+		""type"": ""ITEM"",
+		""englishName"": ""Havoc's Breath"",
+		""englishTooltip"": [
+			""50% chance to not consume gel""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Havoc's Breath"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""HeatSpiritBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""HeatSpiritBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Heat Spirit""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Esprit de Chaleur"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Esprit de Chaleur""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""HeavenlyGale"",
+		""type"": ""ITEM"",
+		""englishName"": ""Heavenly Gale"",
+		""englishTooltip"": [
+			""Fires a rapid stream of supercharged exo-crystals"",
+			""Holding the bow and waiting for some time before firing causes the crystals to become more powerful"",
+			""If the crystals are sufficiently powerful enough they will summon torrents of exo-lightning above whatever target they hit""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bourrasque Céleste"",
+				""translatedTooltip"": [
+					""Convertit les flèches en bois en un barrage de 5 exo flèches aléatoires"",
+					""Les exo flèches vertes exposent en une tornade"",
+					""Les exo flèches bleues provoquent le tir d'un second groupe de flèches quand elles touchent"",
+					""Les exo flèches oranges provoquent des explosions"",
+					""Les exo flèches cyan ignorent la période d'invincibilité des ennemis"",
+					""Augmente les dégâts des flèches qui ne sont pas en bois de 25%"",
+					""66% de chances de ne pas consommer de munitions""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""HiveMindRelic"",
+		""type"": ""ITEM"",
+		""englishName"": ""Hive Mind Relic"",
+		""englishTooltip"": [
+			""A glimpse into what will be...""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Hive Mind Relic"",
+				""translatedTooltip"": [
+					""A glimpse into what will be..""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""HiveBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""HiveBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Hive""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Ruche"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Ruche""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""IceClasperBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""IceClasperBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Ice Clasper""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Claspeur de Glace"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Claspeur de Glace""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""ImpiousImmolatorBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""ImpiousImmolatorBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Impious Immolator""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Immolateur Impie"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Immolateur Impie""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""InkBomb"",
+		""type"": ""ITEM"",
+		""englishName"": ""Ink Bomb"",
+		""englishTooltip"": [
+			""Throws several ink bombs when hit that explode in a confusing cloud of ink"",
+			""Gain a lot of stealth when struck"",
+			""This effect has a 20 second cooldown before it can occur again""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bombe d'Encre"",
+				""translatedTooltip"": [
+					""Envoie plusieurs bombes d'encre quand vous êtes touché qui explosent dans un nuage d'encre qui inflige la confusion"",
+					""Vous gagnez beaucoup de furtivité quand vous êtes touché"",
+					""Cet effet à un temps de recharge de 20s""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""IronFrancisca"",
+		""type"": ""ITEM"",
+		""englishName"": ""Iron Francisca"",
+		""englishTooltip"": [
+			""The franciscas do more damage for a short time when initially thrown"",
+			""Stealth strikes pierce up to 7 times""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Francisque de Fer"",
+				""translatedTooltip"": [
+					""Les francisques font plus de dégâts un court moment après leur lancer"",
+					""Les attaques furtives percent indéfiniment""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""IrradiatedSlimeBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""IrradiatedSlimeBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Irradiated Slime""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Gelée Irradiée"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Gelée Irradiée""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""JungleDragonEgg"",
+		""type"": ""ITEM"",
+		""englishName"": ""Jungle Dragon Egg"",
+		""englishTooltip"": [
+			""An imitation of the egg that bore the loyal guardian of the tyrant king"",
+			""Summons Jungle Dragon, Yharon when used in the Jungle"",
+			""Enrages outside the fire walls"",
+			""Not consumable""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Oeuf de Dragon de Jungle"",
+				""translatedTooltip"": [
+					""Une imitation de l'oeuf ayant porté le loyal gardien du roi tyrannique"",
+					""Invoque le Dragon de Jungle, Yharon quand utilisé dans la jungle"",
+					""Ne se consomme pas""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""LaserfishBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""LaserfishBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Laserfish""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Poisson-Laser"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Poisson-Laser""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""Laudanum"",
+		""type"": ""ITEM"",
+		""englishName"": ""Laudanum"",
+		""englishTooltip"": [
+			""Converts certain debuffs into buffs and extends their durations"",
+			""Debuffs affected: Darkness, Blackout, Confused, Slow, Weak,"",
+			""Broken Armor, Armor Crunch, Chilled, Ichor, and Obstructed"",
+			""Revengeance drop""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Laudanum"",
+				""translatedTooltip"": [
+					""Convertit certaines altérations en améliorations et étend leur durée"",
+					""Altérations concernées: Obscurité, Trou noir, Confusion, Ralenti, Faible, Armure brisée,"",
+					""Armure abimée, Fendreguerre, Refroidissement, Ichor et Obstruction"",
+					""Revengeance""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""LeadTomahawk"",
+		""type"": ""ITEM"",
+		""englishName"": ""Lead Tomahawk"",
+		""englishTooltip"": [
+			""The tomahawks have more damage for a short time when initially thrown"",
+			""Stealth strikes pierce up to 7 times""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Tomahawk de Plomb"",
+				""translatedTooltip"": [
+					""Les Tomahawks font plus de dégâts quand ils sont lancés proches de l'ennemi"",
+					""Les attaques furtives percent indéfiniment""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""LongRangedSensorArray"",
+		""type"": ""ITEM"",
+		""englishName"": ""Long Ranged Sensor Array"",
+		""englishTooltip"": [
+			""Can be placed on the Codebreaker"",
+			""Allows you to decrypt the Jungle schematic""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Dispositif d'Affichage Avancé"",
+				""translatedTooltip"": [
+					""Peut-être placé sur le décodeur""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""Lucrecia"",
+		""type"": ""ITEM"",
+		""englishName"": ""Lucrecia"",
+		""englishTooltip"": [
+			""Finesse"",
+			""Striking an enemy makes you immune for a short time"",
+			""Fires a DNA chain"",
+			""Receives 33% benefit from melee speed bonuses""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Lucrecia"",
+				""translatedTooltip"": [
+					""Finesse"",
+					""Frapper un ennemi vous immunise un instant"",
+					""Tire une séquence ADN""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""LuminousCorvinaBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""LuminousCorvinaBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Luminous Corvina""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Corvina Lumineuse"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Corvina Lumineuse""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""MantisBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""MantisBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Mantis""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Mante"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Mante""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""MantisShrimpBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""MantisShrimpBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Mantis Shrimp""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Mante Crevette"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Mante Crevette""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""MarniteObliterator"",
+		""type"": ""ITEM"",
+		""englishName"": ""Marnite Obliterator"",
+		""englishTooltip"": [
+			""Uses a diamond focus to project a long-range digging beam of light"",
+			""Ignores 5 points of enemy Defense""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Oblitérateur de Marnite"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""MelterBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""MelterBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Melter""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Fondeur"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Fondeur""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""Meowthrower"",
+		""type"": ""ITEM"",
+		""englishName"": ""Meowthrower"",
+		""englishTooltip"": [
+			""85% chance to not consume gel"",
+			""Fires blue and pink flames that emit meows on enemy hits""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Lance-Miaou"",
+				""translatedTooltip"": [
+					""50% de chances de ne pas consommer de gel"",
+					""Tire des flammes bleues et roses qui miaulent quand elles touchent""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""MirageMirror"",
+		""type"": ""ITEM"",
+		""englishName"": ""Mirage Mirror"",
+		""englishTooltip"": [
+			""Bend light around you"",
+			""Reduces enemy aggression outside of the abyss"",
+			""Stealth generates 25% faster when standing still and 12% faster while moving""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Miroir Mirage"",
+				""translatedTooltip"": [
+					""Infléchit la lumière autour de vous"",
+					""Réduit l'agressivité des ennemis en dehors des abysses"",
+					""La furtivité se génére 30% plus vite quand vous êtes immobile et 20% plus vite lorsque vous vous déplacez""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""MirageJellyBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""MirageJellyBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Mirage Jelly""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Gelée Mirage"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Gelée Mirage""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""MomentumCapacitor"",
+		""type"": ""ITEM"",
+		""englishName"": ""Momentum Capacitor"",
+		""englishTooltip"": [
+			""While using the Momentum Capacitor,"",
+			""your top speed will continuously and uncontrollably increase""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Condensateur de Dynamisme"",
+				""translatedTooltip"": [
+					""TOOLTIP LINE HERE"",
+					""Les projectiles qui entrent dans le champ crée accélèrent et infligent 15% de dégâts supplémentaires"",
+					""Cette amélioration ne s'applique qu'une fois par projectile"",
+					""Un seul champ peut exister à la fois""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""MonolithAmalgam"",
+		""type"": ""ITEM"",
+		""englishName"": ""MonolithAmalgam"",
+		""englishTooltip"": [
+			""Used for special crafting""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Établi Eutrophique"",
+				""translatedTooltip"": [
+					""Utilisé pour l'artisanat spécial""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""MonolithSink"",
+		""type"": ""ITEM"",
+		""englishName"": ""MonolithSink"",
+		""englishTooltip"": [
+			""Counts as a water source""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Évier Monolithique"",
+				""translatedTooltip"": [
+					""Source d'eau""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""MorayEelBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""MorayEelBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Moray Eel""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Murène"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Murène""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""MycelialClaws"",
+		""type"": ""ITEM"",
+		""englishName"": ""Mycelial Claws"",
+		""englishTooltip"": [
+			""Grants the Mushy buff for 6 seconds on enemy hits""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Griffes Mycéllaires"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""Mycoroot"",
+		""type"": ""ITEM"",
+		""englishName"": ""Mycoroot"",
+		""englishTooltip"": [
+			""Fires a stream of short-range fungal roots"",
+			""Stealth strikes spawn an explosion of fungi spores"",
+			""and grant you and all other players the Mushy buff for 15 seconds""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Mycoracine"",
+				""translatedTooltip"": [
+					""Tire un faisceau de racine fongique à courte portée"",
+					""Les attaques furtives une explosion de spores fongiques""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""NecroplasmicBeacon"",
+		""type"": ""ITEM"",
+		""englishName"": ""Necroplasmic Beacon"",
+		""englishTooltip"": [
+			""It's spooky"",
+			""Summons Polterghast when used in the Dungeon"",
+			""Enrages in large spaces"",
+			""Not consumable""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Balise Nécroplasmique"",
+				""translatedTooltip"": [
+					""Ca fait peur"",
+					""Invoque l'Épouvantôme quand utilisé dans le donjon"",
+					""Ne se consomme pas""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""NovaBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""NovaBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Nova""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Nova"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Nova""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""NuclearToadBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""NuclearToadBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Nuclear Toad""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Crapaud Nucléaire"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Crapaud Nucléaire""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""OarfishBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""OarfishBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Oarfish""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Poisson-Ruban"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Poisson-Ruban""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""OccultSkullCrown"",
+		""type"": ""ITEM"",
+		""englishName"": ""Occult Skull Crown"",
+		""englishTooltip"": [
+			""Only a fool would ever wear this..."",
+			""You constantly gain rage over time and rage does not fade away when out of combat"",
+			""Converts certain debuffs into buffs and extends their durations"",
+			""Debuffs affected: Darkness, Blackout, Confused, Slow, Weak,"",
+			""Broken Armor, Armor Crunch, Chilled, Ichor and Obstructed"",
+			""Adrenaline charges 20% faster"",
+			""Increases your max movement speed and acceleration by 5%"",
+			""Revengeance item""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Occult Skull Crown"",
+				""translatedTooltip"": [
+					""Only a fool would ever wear this..."",
+					""You constantly gain rage over time and rage does not fade away when out of combat"",
+					""Converts certain debuffs into buffs and extends their durations"",
+					""Debuffs affected: Darkness, Blackout, Confused, Slow, Weak, Broken Armor,"",
+					""Armor Crunch, War Cleave, Chilled, Ichor and Obstructed"",
+					""Adrenaline charges 20% faster"",
+					""Increases your max movement speed and acceleration by 5%"",
+					""Can also be worn as a helmet"",
+					""Revengeance item""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""OldPowerCell"",
+		""type"": ""ITEM"",
+		""englishName"": ""Old Power Cell"",
+		""englishTooltip"": [
+			""Summons the Golem when used in the Jungle Temple"",
+			""Enrages outside the Jungle Temple"",
+			""Not consumable""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Ancienne Cellule d'Alimentation"",
+				""translatedTooltip"": [
+					""Invoque le golem quand utilisé dans le temple"",
+					""Non consommable""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""OpalStriker"",
+		""type"": ""ITEM"",
+		""englishName"": ""Opal Striker"",
+		""englishTooltip"": [
+			""50% chance to not consume ammo"",
+			""Fires a string of opal strikes""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Frappeur d'Opale"",
+				""translatedTooltip"": [
+					""Tire une chaine de frappes d'opale""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""OrthoceraBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""OrthoceraBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Orthocera""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Orthocère"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Orthocère""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""OtherworldlySink"",
+		""type"": ""ITEM"",
+		""englishName"": ""OtherworldlySink"",
+		""englishTooltip"": [
+			""Counts as a water source""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Évier en Statigel"",
+				""translatedTooltip"": [
+					""Source d'eau""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""OverloadedSoldierBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""OverloadedSoldierBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Overloaded Soldier""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Soldat Surchargé"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Soldat Surchargé""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""PenumbraPotion"",
+		""type"": ""ITEM"",
+		""englishName"": ""Penumbra Potion"",
+		""englishTooltip"": [
+			""Rogue stealth generates 10% faster while moving and 15% faster while standing still""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Potion de Pénombre"",
+				""translatedTooltip"": [
+					""La furtivité se génère 15% plus rapidement quand vous vous déplacez"",
+					""La nuit, la furtivité se génère également 15 % plus rapidement en restant immobile"",
+					""Pendant une éclipse, les deux augmentations sont portées à 20%""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""PerennialSlimeBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""PerennialSlimeBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Perennial Slime""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Gelée Vivace"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Gelée Vivace""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""PerforatorsRelic"",
+		""type"": ""ITEM"",
+		""englishName"": ""Perforators Relic"",
+		""englishTooltip"": [
+			""A glimpse into what will be...""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Perforators Relic"",
+				""translatedTooltip"": [
+					""A glimpse into what will be..""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""PestilentSlimeBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""PestilentSlimeBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Pestilent Slime""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Gelée Pestilentielle"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Gelée Pestilentielle""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""PhantomSpiritBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""PhantomSpiritBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Phantom Spirit""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Esprit Fantôme"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Esprit Fantôme""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""PhoenixFlameBarrage"",
+		""type"": ""ITEM"",
+		""englishName"": ""Phoenix Flame Barrage"",
+		""englishTooltip"": [
+			""Baptism by draconic fire"",
+			""Casts a barrage of fire from the sky""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Barrage de Flamme de Phénix"",
+				""translatedTooltip"": [
+					""Le baptème du feu sacré"",
+					""Convoque un barrage de feu depuis les cieux""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""PiggyBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""PiggyBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Piggy""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Peggy"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Peggy""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""PlagueChargerBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""PlagueChargerBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Plague Charger""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Chargeur de Peste"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Chargeur de Peste""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""PlagueInfuser"",
+		""type"": ""ITEM"",
+		""englishName"": ""PlagueInfuser"",
+		""englishTooltip"": [
+			""Used for special crafting""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Infuseur de Peste"",
+				""translatedTooltip"": [
+					""Utilisé pour l'artisanat spécial""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""PlaguebringerGoliathRelic"",
+		""type"": ""ITEM"",
+		""englishName"": ""Plaguebringer Goliath Relic"",
+		""englishTooltip"": [
+			""A glimpse into what will be...""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Plaguebringer Goliath Relic"",
+				""translatedTooltip"": [
+					""A glimpse into what will be..""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""PlaguebringerBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""PlaguebringerBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Plaguebringer""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Colporte-Peste"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Colporte-Peste""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""PlagueshellBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""PlagueshellBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Plagueshell""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Carapeste"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Carapeste""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""PolterghastRelic"",
+		""type"": ""ITEM"",
+		""englishName"": ""Polterghast Relic"",
+		""englishTooltip"": [
+			""A glimpse into what will be...""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Polterghast Relic"",
+				""translatedTooltip"": [
+					""A glimpse into what will be..""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""Portabulb"",
+		""type"": ""ITEM"",
+		""englishName"": ""Portabulb"",
+		""englishTooltip"": [
+			""Summons Plantera when used in the Jungle"",
+			""Enrages outside the Underground Jungle"",
+			""Not consumable""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Portabulbe"",
+				""translatedTooltip"": [
+					""Invoque Plantera quand utilisé dans la jungle"",
+					""Non consommable""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""ProfanedCore"",
+		""type"": ""ITEM"",
+		""englishName"": ""Profaned Core"",
+		""englishTooltip"": [
+			""The core of the unholy flame"",
+			""Summons Providence when used in the Hallow or Underworld"",
+			""Unique drop changes depending on the biome fought in"",
+			""Enrages when fought during nighttime or when outside the Hallow or Underworld"",
+			""Not consumable""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Noyau Profané"",
+				""translatedTooltip"": [
+					""Le noyau de la flamme impie"",
+					""Invoque Providence"",
+					""Devrait-être utilisé la journée""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""ProfanedGuardiansRelic"",
+		""type"": ""ITEM"",
+		""englishName"": ""Profaned Guardians Relic"",
+		""englishTooltip"": [
+			""A glimpse into what will be...""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Profaned Guardians Relic"",
+				""translatedTooltip"": [
+					""A glimpse into what will be..""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""ProfanedShard"",
+		""type"": ""ITEM"",
+		""englishName"": ""Profaned Shard"",
+		""englishTooltip"": [
+			""A shard of the unholy flame"",
+			""Summons the Profaned Guardians when used in the Hallow or Underworld during daytime"",
+			""Enrage when not in the Hallow or Underworld"",
+			""Not consumable""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Éclat Profané"",
+				""translatedTooltip"": [
+					""Un éclat de la flamme impie"",
+					""Invoque les Gardiens Profanés quand utilisé dans le sacré ou l'enfer la journée"",
+					""Non consommable""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""ProfanedSoulArtifact"",
+		""type"": ""ITEM"",
+		""englishName"": ""Profaned Soul Artifact"",
+		""englishTooltip"": [
+			""Purity"",
+			""Summons a healer guardian, which heals for a certain amount of health every few seconds"",
+			""Summons a defensive guardian, which boosts your movement speed and damage resistance"",
+			""Summons an offensive guardian, which boosts your minion slots"",
+			""If you get hit, most of their effects will disappear for 5 seconds""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Artéfact d'Âme Profanée"",
+				""translatedTooltip"": [
+					""Pureté"",
+					""Invoque un gardien guérisseur qui vous soigne d'un certain montant à quelques secondes d'intervale"",
+					""Invoque un gardien protecteur si vous avez au moins 10 sbires max, qui augmente votre vitesse de déplacement et votre résistance aux dégâts"",
+					""Invoque un gardien offensif si vous portez l'armure d'estragon (ou supérieur), qui augmente vos dégâts d'invocation et votre nombre de sbires max"",
+					""Si vous êtes touché, la plupart de ces effets sont annulés durant 5 secondes""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""ProfanedCrucible"",
+		""type"": ""ITEM"",
+		""englishName"": ""ProfanedCrucible"",
+		""englishTooltip"": [
+			""Used for special crafting""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Établi Eutrophique"",
+				""translatedTooltip"": [
+					""Utilisé pour l'artisanat spécial""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""ProfanedEnergyBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""ProfanedEnergyBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Profaned Energy""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière d'Énergie Profanée"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Énergie Profanée""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""ProfanedSink"",
+		""type"": ""ITEM"",
+		""englishName"": ""ProfanedSink"",
+		""englishTooltip"": [
+			""Counts as a lava source""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Évier Profané"",
+				""translatedTooltip"": [
+					""Source de lave""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""RadiatorBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""RadiatorBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Radiator""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Radiateur"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Radiateur""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""RavagerRelic"",
+		""type"": ""ITEM"",
+		""englishName"": ""Ravager Relic"",
+		""englishTooltip"": [
+			""A glimpse into what will be...""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Ravager Relic"",
+				""translatedTooltip"": [
+					""A glimpse into what will be..""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""ReaperSharkBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""ReaperSharkBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Reaper Shark""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Requin Faucheur"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Requin Faucheur""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""ReaverHeadExplore"",
+		""type"": ""ITEM"",
+		""englishName"": ""Reaver Headgear"",
+		""englishTooltip"": [
+			""40% increased pick speed and block/wall placement speed"",
+			""Temporary immunity to lava and can move freely through liquids""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Reaver Headgear"",
+				""translatedTooltip"": [
+					""10% increased pick speed and 20% increased block/wall placement speed"",
+					""Temporary immunity to lava and can move freely through liquids""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""RubyCrawlerBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""RubyCrawlerBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Ruby Crawler""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Rampant de Rubis"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Rampant de Rubis""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""RuinMedallion"",
+		""type"": ""ITEM"",
+		""englishName"": ""Ruin Medallion"",
+		""englishTooltip"": [
+			""Stealth strikes only expend 75% of your max stealth"",
+			""6% increased rogue damage, and 6% increased rogue crit chance""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Médaillon de Ruine"",
+				""translatedTooltip"": [
+					""Les attaques furtives ne consomment que la moitié de votre furtivité"",
+					""+6% de dégâts et de chances de coup critique de voleur""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""RustyBeaconPrototype"",
+		""type"": ""ITEM"",
+		""englishName"": ""Rusty Beacon Prototype"",
+		""englishTooltip"": [
+			""Summons a long-abandoned drone to support you"",
+			""The drone hovers in place and releases toxic waves that inflict sulphuric poisoning""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Prototype de Balise Rouillée"",
+				""translatedTooltip"": [
+					""Invoque un drone abandonné depuis longtemps pour vous aider"",
+					""Cliquer sur un ennemi le piquera un peu, ce qui le rendra aggresif à votre égard"",
+					""Le drone flotte au dessus des ennemis proches et inflige l'irradiation""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SandCloak"",
+		""type"": ""ITEM"",
+		""englishName"": ""Sand Cloak"",
+		""englishTooltip"": [
+			""+2 defense and 5% increased movement speed"",
+			""TOOLTIP LINE HERE"",
+			""This effect has a 30 second cooldown before it can be used again""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Manteau des Sables"",
+				""translatedTooltip"": [
+					""+1 défense et +5% vitesse de mouvement"",
+					""TOOLTIP LINE HERE"",
+					""Cet effet à un temps de recharge de 30s""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SapphireCrawlerBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""SapphireCrawlerBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Sapphire Crawler""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Rampant de Saphir"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Rampant de Saphir""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""EncryptedSchematicSunkenSea"",
+		""type"": ""ITEM"",
+		""englishName"": ""Schematic (Sunken Sea)"",
+		""englishTooltip"": [
+			""Finely detailed diagrams of numerous devices and weaponry dance across the holographic screen."",
+			""Picking up this item or holding it in your inventory permanently unlocks new recipes."",
+			""Click to view its contents.""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Schematic"",
+				""translatedTooltip"": [
+					""Finely detailed diagrams of numerous devices and weaponry dance across the holographic screen. "",
+					""The weaponry I supply to the workers of the laboratories is weak. Hardly suited for battle."",
+					""However, they suffice for self defense against any lab mechanisms or creations which may have gone rogue."",
+					""Addendum: For those who think themselves powerful, search the upper bounds of this planet’s atmosphere for a structure similar to that of the Sunken Seas."",
+					""I will know by the end if you are worthy of battling my creations."",
+					""Picking up this item or holding it in your inventory permanently unlocks new recipes""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""ScornEaterBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""ScornEaterBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Scorn Eater""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Dévoreur de Mépris"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Dévoreur de Mépris""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""ScryllarBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""ScryllarBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Scryllar""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Scryllar"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Scryllar""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""ScuttlersJewel"",
+		""type"": ""ITEM"",
+		""englishName"": ""Scuttler's Jewel"",
+		""englishTooltip"": [
+			""Stealth strike projectiles spawn a jewel spike when destroyed"",
+			""Can also be broken down at an extractinator""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Gemme de Fuyard"",
+				""translatedTooltip"": [
+					""Les projectiles de voleurs ont une chance de générer une pointe de gemme lorsqu'ils disparaissent""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SeaFloatyBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""SeaFloatyBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Sea Floaty""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Flotteur des Mers"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Flotteur des Mers""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SeaMinnowBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""SeaMinnowBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Sea Minnow""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Vairon de Mer"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Vairon de Mer""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SeaSerpentBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""SeaSerpentBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Sea Serpent""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Serpent de Mer"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Serpent de Mer""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SeaUrchinBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""SeaUrchinBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Sea Urchin""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Oursin de Mer"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Oursin de Mer""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""Seafood"",
+		""type"": ""ITEM"",
+		""englishName"": ""Seafood"",
+		""englishTooltip"": [
+			""Summons the Aquatic Scourge when used in the Sulphurous Sea"",
+			""Enrages outside the Sulphurous Sea"",
+			""Not consumable""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Fruit de Mer"",
+				""translatedTooltip"": [
+					""Invoque le Fléau Aquatique quand utilisé dans la mer sulfurique"",
+					""Non consommable""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""ShadowPotion"",
+		""type"": ""ITEM"",
+		""englishName"": ""Shadow Potion"",
+		""englishTooltip"": [
+			""Turns the player into a shadow with glowing eyes"",
+			""Rogue weapons spawn projectiles on hit"",
+			""Stealth generation is increased by 8%"",
+			""Visual effects can be disabled with the Stealth Invisibility config""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Potion d'Ombre"",
+				""translatedTooltip"": [
+					""Vous fait disparaître quand vous n'attaquez pas"",
+					""Porter différents types d'armes de voleur donne différentes améliorations"",
+					""Les différents types d'armes de voleur créent des projectiles différents quand ils touchent"",
+					""La génération de furtivité est augmentée de 10%""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""ShockstormShuttleBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""ShockstormShuttleBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Shockstorm Shuttle""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Navette de Tempête de Choc"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Navette de Tempête de Choc""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SignusRelic"",
+		""type"": ""ITEM"",
+		""englishName"": ""Signus Relic"",
+		""englishTooltip"": [
+			""A glimpse into what will be...""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Signus Relic"",
+				""translatedTooltip"": [
+					""A glimpse into what will be..""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SilencingSheath"",
+		""type"": ""ITEM"",
+		""englishName"": ""Silencing Sheath"",
+		""englishTooltip"": [
+			""+10 maximum stealth""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Fourreau Silencieux"",
+				""translatedTooltip"": [
+					""+20 furtivité maximum"",
+					""La furtivité se génère 15% plus rapidement""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SilvaBasin"",
+		""type"": ""ITEM"",
+		""englishName"": ""SilvaBasin"",
+		""englishTooltip"": [
+			""Used for special crafting""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bassin Silva"",
+				""translatedTooltip"": [
+					""Utilisé pour l'artisanat spécial""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SilvaSink"",
+		""type"": ""ITEM"",
+		""englishName"": ""SilvaSink"",
+		""englishTooltip"": [
+			""Counts as a water source""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Évier Silva"",
+				""translatedTooltip"": [
+					""Source d'eau""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SkyfinBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""SkyfinBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Skyfin""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Nageoire Céleste"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Nageoire Céleste""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SmallSightseerBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""SmallSightseerBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Small Sightseer""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Petit Cherchevue"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Petit Cherchevue""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SoulSlurperBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""SoulSlurperBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Soul Slurper""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Aspire-Âme"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Aspire-Âme""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SpectralVeil"",
+		""type"": ""ITEM"",
+		""englishName"": ""Spectral Veil"",
+		""englishTooltip"": [
+			""The inside of the cloak is full of teeth..."",
+			""TOOLTIP LINE HERE"",
+			""If you dodge something while invulnerable, you instantly gain full stealth"",
+			""Teleportation is disabled while Chaos State is active"",
+			""Stealth generates 15% faster""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Voile Spectral"",
+				""translatedTooltip"": [
+					""L'intérieur du manteau est plein de dents..."",
+					""TOOLTIP LINE HERE"",
+					""La téléportation est impossible si vous subissez le chaos"",
+					""Si vous esquivez une attaque alors que vous êtes invulnérable, votre furtivité est maximisée"",
+					""La furtivité augmente 20% plus vite lorsque vous êtes en mouvement""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""Starcore"",
+		""type"": ""ITEM"",
+		""englishName"": ""Starcore"",
+		""englishTooltip"": [
+			""May the stars guide your way"",
+			""Summons Astrum Deus at the Astral Beacon, but is not consumed"",
+			""Enrages during the day""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Noyau Stellaire"",
+				""translatedTooltip"": [
+					""Puisse les étoiles vous guider"",
+					""Invoque Astrum Deus à la balise astrale, mais ne se consomme pas.""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""StaticRefiner"",
+		""type"": ""ITEM"",
+		""englishName"": ""StaticRefiner"",
+		""englishTooltip"": [
+			""Used for special crafting""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Raffineur Statique"",
+				""translatedTooltip"": [
+					""Utilisé pour l'artisanat spécial""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""StatigelSink"",
+		""type"": ""ITEM"",
+		""englishName"": ""StatigelSink"",
+		""englishTooltip"": [
+			""Counts as a water source""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Évier en Statigel"",
+				""translatedTooltip"": [
+					""Source d'eau""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""StellarCulexBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""StellarCulexBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Stellar Culex""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Culex Stellaire"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Culex Stellaire""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""StickySpikyBall"",
+		""type"": ""ITEM"",
+		""englishName"": ""Sticky Spiky Ball"",
+		""englishTooltip"": [
+			""Throws a spiky ball that sticks to everything"",
+			""Stealth strikes throw four at once and last a lot longer""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Boule à Pointes Collante"",
+				""translatedTooltip"": [
+					""Lance une boule à pointes qui se collent à tout"",
+					""Les attaques furtives en lancent sept d'un coup et durent plus longtemps""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""StormWeaverRelic"",
+		""type"": ""ITEM"",
+		""englishName"": ""Storm Weaver Relic"",
+		""englishTooltip"": [
+			""A glimpse into what will be...""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Storm Weaver Relic"",
+				""translatedTooltip"": [
+					""A glimpse into what will be..""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""StormlionBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""StormlionBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Stormlion""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Fourmi-Tonnerre"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Fourmi-Tonnerre""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""StratusSink"",
+		""type"": ""ITEM"",
+		""englishName"": ""StratusSink"",
+		""englishTooltip"": [
+			""Counts as a water source""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Évier Stratus"",
+				""translatedTooltip"": [
+					""Source d'eau""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SubsumingVortex"",
+		""type"": ""ITEM"",
+		""englishName"": ""Subsuming Vortex"",
+		""englishTooltip"": [
+			""Left clicking releases a barrage of vortices that race towards enemies"",
+			""Right clicking casts a gigantic vortex in front of you with a bias towards the mouse"",
+			""When enemies are near the vortex, it sends multiple fast-moving smaller vortices towards them"",
+			""After enough time has passed the vortex stops shooting, and releasing the right mouse button fires the vortex towards the mouse""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Vortex Incorporant"",
+				""translatedTooltip"": [
+					""Relâche un lent et gigantesque vortex"",
+					""le vortex libère des exo tentacules qui fouettent les ennemis proches"",
+					""Après quelques secondes, le vortex ralentit, devient instable puis explose""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SunskaterBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""SunskaterBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Sunskater""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Glisse-Soleil"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Glisse-Soleil""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SupremeBaitTackleBoxFishingStation"",
+		""type"": ""ITEM"",
+		""englishName"": ""Supreme Bait Tackle Box Fishing Station"",
+		""englishTooltip"": [
+			""The ultimate fishing accessory"",
+			""Increases fishing skill by 80"",
+			""Fishing line will never break and decreases chance of bait consumption"",
+			""Increases chance to catch crates"",
+			""Allows fishing in lava"",
+			""Sonar potion effect""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Station de Pêche Supreme"",
+				""translatedTooltip"": [
+					""L'ultime accessoire de pêche"",
+					""Augmente la puissance de pêche de 80"",
+					""La ligne de pêche ne cassera pas et réduit les chances de consommer l'appât"",
+					""Augmente les chances de pêcher des caisses"",
+					""Effet de la potion de sonar""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""Swordsplosion"",
+		""type"": ""ITEM"",
+		""englishName"": ""Swordsplosion"",
+		""englishTooltip"": [
+			""Sword swarm"",
+			""Receives 33% benefit from melee speed bonuses""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Épexplosion"",
+				""translatedTooltip"": [
+					""Nuée d'épées""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""TacticalPlagueEngine"",
+		""type"": ""ITEM"",
+		""englishName"": ""Tactical Plague Engine"",
+		""englishTooltip"": [
+			""Summons a plague jet to pummel your enemies into submission"",
+			""Jets will fire bullets from your inventory"",
+			""50% chance to not consume ammo"",
+			""Sometimes shoots a missile instead of a bullet"",
+			""Missiles do not consume ammo""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Moteur de Peste Tactique"",
+				""translatedTooltip"": [
+					""Invoque un jet de peste pour soumettre vos ennemis"",
+					""Les jets consomment des balles depuis votre inventaire, 66% de chances de ne pas consommer de munitions"",
+					""Tire parfois un missile à la place d'une balle""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""TenebreusTides"",
+		""type"": ""ITEM"",
+		""englishName"": ""Tenebreus Tides"",
+		""englishTooltip"": [
+			""Inundatio ex Laminis"",
+			""Shoots a water spear that pierces enemies and terrain"",
+			""Striking enemies summon liquid blades and spears to assault the struck foe"",
+			""Receives 33% benefit from melee speed bonuses""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Tenebreus Tides"",
+				""translatedTooltip"": [
+					""Inundatio ex Laminis "",
+					""Shoots a water spear that pierces enemies and terrain"",
+					""Striking enemies summon liquid blades and spears to assault the struck foe""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""Teratoma"",
+		""type"": ""ITEM"",
+		""englishName"": ""Teratoma"",
+		""englishTooltip"": [
+			""Summons the Hive Mind when used in the Corruption"",
+			""Enrages outside the Underground Corruption"",
+			""Not consumable""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Tératome"",
+				""translatedTooltip"": [
+					""Invoque l'Esprit de Ruche quand utilisé dans la corruption"",
+					""Non consommable""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""TopazCrawlerBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""TopazCrawlerBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Topaz Crawler""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Rampant de Topaze"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Rampant de Topaze""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""TorrentialTear"",
+		""type"": ""ITEM"",
+		""englishName"": ""Torrential Tear"",
+		""englishTooltip"": [
+			""Summons the rain"",
+			""Rain will start some time after this item is used"",
+			""If used while it's raining, the rain will stop some time afterward""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Larme Torrentielle"",
+				""translatedTooltip"": [
+					""Invoque la pluie."",
+					""La pluie commencera peu après l'utilisation de cet objet."",
+					""S'il pleut déja, la pluie s'arrêtera peu après l'utilisation de cet objet.""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""ToxicMinnowBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""ToxicMinnowBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Toxic Minnow""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Fretin Toxique"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Fretin Toxique""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""TrasherBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""TrasherBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Trasher""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Déchiqueteur"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Déchiqueteur""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""DraedonBag"",
+		""type"": ""ITEM"",
+		""englishName"": ""Treasure Box (Exo Mechs)"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.RightClickToOpen}""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Treasure Bag (Exo Mechs)"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.RightClickToOpen}""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""TrilobiteBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""TrilobiteBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Trilobite""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Trilobite"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Trilobite""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""ViperfishBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""ViperfishBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Viperfish""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Poisson-Vipère"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Poisson-Vipère""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""ViridVanguard"",
+		""type"": ""ITEM"",
+		""englishName"": ""Virid Vanguard"",
+		""englishTooltip"": [
+			""Summons a circular formation of blades that slice nearby enemies to pieces""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Avant-Garde Viride"",
+				""translatedTooltip"": [
+					""Invoque deux lames qui tournent autour de vous"",
+					""Chaque paire de lame occupe trois emplacements de sbires"",
+					""Clic droit pour ordonner aux lames de se diriger vers la souris""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""VirulingBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""VirulingBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Viruling""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Virulant"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Virulant""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""VoidCondenser"",
+		""type"": ""ITEM"",
+		""englishName"": ""VoidCondenser"",
+		""englishTooltip"": [
+			""Used for special crafting""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Condenseur de Néant"",
+				""translatedTooltip"": [
+					""Utilisé pour l'artisanat spécial""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""VoidSink"",
+		""type"": ""ITEM"",
+		""englishName"": ""VoidSink"",
+		""englishTooltip"": [
+			""Counts as a water source""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Évier du Néant"",
+				""translatedTooltip"": [
+					""Source d'eau""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""VoltageRegulationSystem"",
+		""type"": ""ITEM"",
+		""englishName"": ""Voltage Regulation System"",
+		""englishTooltip"": [
+			""Can be placed on the Codebreaker"",
+			""Allows you to decrypt the Ice biome schematic""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Dispositif d'Affichage Avancé"",
+				""translatedTooltip"": [
+					""Peut-être placé sur le décodeur""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""WaterLeechBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""WaterLeechBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Water Leech""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Sangsue d'Eau"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Sangsue d'Eau""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""WulfrumBattery"",
+		""type"": ""ITEM"",
+		""englishName"": ""Wulfrum Battery"",
+		""englishTooltip"": [
+			""Empowers your summons with wulfrum energy, letting them emit light around them"",
+			""7% increased summon damage"",
+			""50% chance to get an extra scrap when killing wulfrum robots"",
+			""Can also be scrapped at an extractinator""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Batterie Wulfrum"",
+				""translatedTooltip"": [
+					""+7% de dégâts d'invocation""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""WulfrumController"",
+		""type"": ""ITEM"",
+		""englishName"": ""Wulfrum Controller"",
+		""englishTooltip"": [
+			""Summons a wulfrum droid to fight for you"",
+			""Hold right click while holding the remote to switch all of your drones into supercharge mode"",
+			""Supercharged droids will stop attacking and focus wulfrum energy onto you"",
+			""The beam provides extra regeneration and defense"",
+			""Can also be used to heal other players by keeping your mouse cursor close enough to them""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Controlleur Wulfrum"",
+				""translatedTooltip"": [
+					""Invoque un droïde wulfrum pour combattre à vos côtés""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""WulfrumRod"",
+		""type"": ""ITEM"",
+		""englishName"": ""Wulfrum Fishing Pole"",
+		""englishTooltip"": [
+			""This barely works, but it's better than nothing""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Canne à Pêche Wulfrum"",
+				""translatedTooltip"": [
+					""Ca tient à peine, mais c'est mieux que rien.""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""WulfrumKnife"",
+		""type"": ""ITEM"",
+		""englishName"": ""Wulfrum Knife"",
+		""englishTooltip"": [
+			""Fires wulfrum knives in bursts of 3"",
+			""Stealth strikes make the knife fly further and hit several times at once"",
+			""Hold right click to magnetize all nearby fallen knives back to you""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Couteau Wulfrum"",
+				""translatedTooltip"": [
+					""Les attaques furtives volent plus loin et infligent plusieurs coups""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""WulfrumDroneBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""WulfrumDroneBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Wulfrum Drone""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Drone Wulfrum"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Drone Wulfrum""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""WulfrumGyratorBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""WulfrumGyratorBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Wulfrum Gyrator""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Gyrateur Wulfrum"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Gyrateur Wulfrum""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""WulfrumHovercraftBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""WulfrumHovercraftBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Wulfrum Hovercraft""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Aéroglisseur Wulfrum"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Aéroglisseur Wulfrum""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""WulfrumRoverBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""WulfrumRoverBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Wulfrum Rover""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bannière de Vadrouilleur Wulfrum"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Vadrouilleur Wulfrum""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""YharonRelic"",
+		""type"": ""ITEM"",
+		""englishName"": ""Yharon Relic"",
+		""englishTooltip"": [
+			""A glimpse into what will be...""
+		],
+		""state"": ""A retraduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Yharon Relic"",
+				""translatedTooltip"": [
+					""A glimpse into what will be..""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""ExoskeletonCannons"",
+		""type"": ""BUFF"",
+		""englishName"": ""Ares' Cannons"",
+		""englishDesc"": ""Pulse cannon not included"",
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Ares' Cannons"",
+				""translatedDesc"": ""Pulse cannon not included""
+			}
+		]
+	},
+	{
+		""id"": ""MarniteLiftBuff"",
+		""type"": ""BUFF"",
+		""englishName"": ""Marnite Lift"",
+		""englishDesc"": ""Do you even..?"",
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Marnite Lift"",
+				""translatedDesc"": ""Do you even..?""
+			}
+		]
+	},
+	{
+		""id"": ""MoonFistBuff"",
+		""type"": ""BUFF"",
+		""englishName"": ""Moon Fist"",
+		""englishDesc"": ""Catch these hands"",
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Moon Fist"",
+				""translatedDesc"": ""Catch these hands""
+			}
+		]
+	},
+	{
+		""id"": ""PuffWarriorBuff"",
+		""type"": ""BUFF"",
+		""englishName"": ""Puff Warrior"",
+		""englishDesc"": ""It confidently and excitedly protects you"",
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Puff Warrior"",
+				""translatedDesc"": ""It confidently and excitedly protects you""
+			}
+		]
+	},
+	{
+		""id"": ""AbandonedWulfrumHelmet"",
+		""type"": ""ITEM"",
+		""englishName"": ""Abandoned Wulfrum Helmet"",
+		""englishTooltip"": [
+			""A worn and rusty helmet ressembling older models of wulfrum armor"",
+			""Transforms the holder into a wulfrum robot"",
+			""Can also be worn in the helmet slot as a regular helm"",
+			""[c/83B87E:This rather flimsy armor was commonly worn by scavengers and looters]"",
+			""[c/83B87E:Its versatility and common nature led it to be used as currency in trades]""
+		],
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Abandoned Wulfrum Helmet"",
+				""translatedTooltip"": [
+					""A worn and rusty helmet ressembling older models of wulfrum armor"",
+					""Transforms the holder into a wulfrum robot"",
+					""Can also be worn in the helmet slot as a regular helm"",
+					""[c/83B87E:This rather flimsy armor was commonly worn by scavengers and looters]"",
+					""[c/83B87E:Its versatility and common nature led it to be used as currency in trades]""
+				]
+			}
+		]
+	},
+	{
+		""id"": ""AcidwoodWallItem"",
+		""type"": ""ITEM"",
+		""englishName"": ""Acidwood Wall"",
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Acidwood Wall""
+			}
+		]
+	},
+	{
+		""id"": ""AndroombaItem"",
+		""type"": ""ITEM"",
+		""englishName"": ""Androomba"",
+		""englishTooltip"": [
+			""Right click the roomba with a solution to insert it"",
+			""While a solution is inserted, the roomba will start spreading its contents""
+		],
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Androomba"",
+				""translatedTooltip"": [
+					""Right click the roomba with a solution to insert it"",
+					""While a solution is inserted, the roomba will start spreading its contents""
+				]
+			}
+		]
+	},
+	{
+		""id"": ""AtlasMunitionsBeacon"",
+		""type"": ""ITEM"",
+		""englishName"": ""Atlas Munitions Beacon"",
+		""englishTooltip"": [
+			""Drops down a crate from the sky that opens up to reveal a mounted, stationary cannon"",
+			""The cannon will fire at any potential enemies within its range, and enter overdrive mode if said enemy is close to the cannon"",
+			""When in overdrive mode the cannon uses three barrels that each collectively fire. The cannon also heats up the more it fires in overdrive mode"",
+			""Players may right click to pick up the cannon and use it for themselves, if they are selecting an Atlas Munitions Beacon."",
+			""When players fire the cannon, it automatically enters overdrive mode"",
+			""If the held cannon becomes hot due to overdrive mode, you are forced to drop it. Otherwise, right clicking allows you to drop it manually"",
+			""If the held cannon is dropped back onto the mount, it is attached again"",
+			""It's surprisingly easy to pick up""
+		],
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Atlas Munitions Beacon"",
+				""translatedTooltip"": [
+					""Drops down a crate from the sky that opens up to reveal a mounted, stationary cannon"",
+					""The cannon will fire at any potential enemies within its range, and enter overdrive mode if said enemy is close to the cannon"",
+					""When in overdrive mode the cannon uses three barrels that each collectively fire. The cannon also heats up the more it fires in overdrive mode"",
+					""Players may right click to pick up the cannon and use it for themselves, if they are selecting an Atlas Munitions Beacon."",
+					""When players fire the cannon, it automatically enters overdrive mode"",
+					""If the held cannon becomes hot due to overdrive mode, you are forced to drop it. Otherwise, right clicking allows you to drop it manually"",
+					""If the held cannon is dropped back onto the mount, it is attached again"",
+					""It's surprisingly easy to pick up""
+				]
+			}
+		]
+	},
+	{
+		""id"": ""CrackshotColt"",
+		""type"": ""ITEM"",
+		""englishName"": ""Crackshot Colt"",
+		""englishTooltip"": [
+			""Right click to throw a coin in the air. Hitting the coin with a bullet redirects the shot into the nearest enemy"",
+			""Coin throws consume copper coins""
+		],
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Crackshot Colt"",
+				""translatedTooltip"": [
+					""Right click to throw a coin in the air. Hitting the coin with a bullet redirects the shot into the nearest enemy"",
+					""Coin throws consume copper coins""
+				]
+			}
+		]
+	},
+	{
+		""id"": ""CragmawMireTrophy"",
+		""type"": ""ITEM"",
+		""englishName"": ""Cragmaw Mire Trophy"",
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Cragmaw Mire Trophy""
+			}
+		]
+	},
+	{
+		""id"": ""DeathsAscension"",
+		""type"": ""ITEM"",
+		""englishName"": ""Death's Ascension"",
+		""englishTooltip"": [
+			""You can feel the hands of Death himself onto yours"",
+			""Right click to launch a barrage of homing scythes""
+		],
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Death's Ascension"",
+				""translatedTooltip"": [
+					""You can feel the hands of Death himself onto yours"",
+					""Right click to launch a barrage of homing scythes""
+				]
+			}
+		]
+	},
+	{
+		""id"": ""DynamicPursuer"",
+		""type"": ""ITEM"",
+		""englishName"": ""Dynamic Pursuer"",
+		""englishTooltip"": [
+			""A weapon that, as it flies, processes calculations and fires electricity"",
+			""Releases a flying disk that fires electricity at nearby enemies"",
+			""Stealth strikes allow the disk to ricochet multiple times and unleash an electric explosion, then fire inaccurate lasers while returning""
+		],
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Dynamic Pursuer"",
+				""translatedTooltip"": [
+					""A weapon that, as it flies, processes calculations and fires electricity"",
+					""Releases a flying disk that fires electricity at nearby enemies"",
+					""Stealth strikes allow the disk to ricochet multiple times and unleash an electric explosion, then fire inaccurate lasers while returning""
+				]
+			}
+		]
+	},
+	{
+		""id"": ""NanodroidDysfunctionalItem"",
+		""type"": ""ITEM"",
+		""englishName"": ""Dysfunctional Nanodroid"",
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Dysfunctional Nanodroid""
 			}
 		]
 	},
@@ -1354,6 +6583,30 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
+		""id"": """",
+		""type"": ""ITEM"",
+		""englishName"": ""Experimental Wulfrum Fusion Array"",
+		""englishTooltip"": [
+			""Fires quick bursts of medium-range pellets"",
+			""Ignores 10 points of enemy Defense"",
+			""[c/878787:\\\""Who needs whips when you can simply become the summon yourself?\\\""]""
+		],
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Experimental Wulfrum Fusion Array"",
+				""translatedTooltip"": [
+					""Fires quick bursts of medium-range pellets"",
+					""Ignores 10 points of enemy Defense"",
+					""[c/878787:\\\""Who needs whips when you can simply become the summon yourself?\\\""]""
+				]
+			}
+		]
+	},
+	{
 		""id"": ""EyeOfNight"",
 		""type"": ""ITEM"",
 		""englishName"": ""Eye of Night"",
@@ -1372,6 +6625,20 @@ namespace CalamityFR.JSON
 				],
 				""proofRead"": false,
 				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""EyeOfTheAccursedBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""Eye of the Accursed Banner"",
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Eye of the Accursed Banner""
 			}
 		]
 	},
@@ -1472,6 +6739,26 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
+		""id"": ""FlaskOfBrimstone"",
+		""type"": ""ITEM"",
+		""englishName"": ""Flask of Brimstone"",
+		""englishTooltip"": [
+			""Melee, Whip, and Rogue attacks inflict Brimstone Flames on enemies""
+		],
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Flask of Brimstone"",
+				""translatedTooltip"": [
+					""Melee, Whip, and Rogue attacks inflict Brimstone Flames on enemies""
+				]
+			}
+		]
+	},
+	{
 		""id"": ""FleshOfInfidelity"",
 		""type"": ""ITEM"",
 		""englishName"": ""Flesh of Infidelity"",
@@ -1509,30 +6796,6 @@ namespace CalamityFR.JSON
 				""translatedName"": ""Fleshy Geode"",
 				""translatedTooltip"": [
 					""{$CommonItemTooltip.RightClickToOpen}""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""FlowersOfMortality"",
-		""type"": ""ITEM"",
-		""englishName"": ""Flowers of Mortality"",
-		""englishTooltip"": [
-			""Summons five rainbow flowers over your head"",
-			""The combined flowers consume two and a half minion slots""
-		],
-		""state"": ""A traduire"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": """",
-				""translatedName"": ""Flowers of Mortality"",
-				""translatedTooltip"": [
-					""Summons five rainbow flowers over your head "",
-					""The combined flowers consume two and a half minion slots""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -1646,6 +6909,20 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
+		""id"": ""GiantClamTrophy"",
+		""type"": ""ITEM"",
+		""englishName"": ""Giant Clam Trophy"",
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Giant Clam Trophy""
+			}
+		]
+	},
+	{
 		""id"": ""GloriousEnd"",
 		""type"": ""ITEM"",
 		""englishName"": ""Glorious End"",
@@ -1676,6 +6953,34 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
+		""id"": ""GraveGrimreaver"",
+		""type"": ""ITEM"",
+		""englishName"": ""Grave Grimreaver"",
+		""englishTooltip"": [
+			""Hurls a cursed scythe which homes in"",
+			""The scythe summons skulls as it flies and explodes into bats on hit"",
+			""Stealth strikes spawn a flood of bats and falling skulls"",
+			""Inflicts cursed flames and confusion"",
+			""'A dapper skeleton's weapon of choice'""
+		],
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Grave Grimreaver"",
+				""translatedTooltip"": [
+					""Hurls a cursed scythe which homes in"",
+					""The scythe summons skulls as it flies and explodes into bats on hit"",
+					""Stealth strikes spawn a flood of bats and falling skulls"",
+					""Inflicts cursed flames and confusion"",
+					""'A dapper skeleton's weapon of choice'""
+				]
+			}
+		]
+	},
+	{
 		""id"": ""GreatSandSharkRelic"",
 		""type"": ""ITEM"",
 		""englishName"": ""Great Sand Shark Relic"",
@@ -1688,6 +6993,34 @@ namespace CalamityFR.JSON
 				""translatedName"": ""Great Sand Shark Relic"",
 				""proofRead"": false,
 				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""GreatSandSharkTrophy"",
+		""type"": ""ITEM"",
+		""englishName"": ""Great Sand Shark Trophy"",
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Great Sand Shark Trophy""
+			}
+		]
+	},
+	{
+		""id"": ""NanodroidPlagueGreenItem"",
+		""type"": ""ITEM"",
+		""englishName"": ""Green Plague Nanodroid"",
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Green Plague Nanodroid""
 			}
 		]
 	},
@@ -1770,6 +7103,28 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
+		""id"": ""HadalUrn"",
+		""type"": ""ITEM"",
+		""englishName"": ""Hadal Urn"",
+		""englishTooltip"": [
+			""Fires a random assortment of ocean creatures"",
+			""'There's no telling how long it was down there... or what lurks inside'""
+		],
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Hadal Urn"",
+				""translatedTooltip"": [
+					""Fires a random assortment of ocean creatures"",
+					""'There's no telling how long it was down there... or what lurks inside'""
+				]
+			}
+		]
+	},
+	{
 		""id"": ""HallowedOre"",
 		""type"": ""ITEM"",
 		""englishName"": ""Hallowed Ore"",
@@ -1780,22 +7135,6 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": """",
 				""translatedName"": ""Hallowed Ore"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""HavocsBreath"",
-		""type"": ""ITEM"",
-		""englishName"": ""Havoc's Breath"",
-		""state"": ""A traduire"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": """",
-				""translatedName"": ""Havoc's Breath"",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -1826,28 +7165,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""HiveMindRelic"",
-		""type"": ""ITEM"",
-		""englishName"": ""Hive Mind Relic"",
-		""englishTooltip"": [
-			""A glimpse into what will be..""
-		],
-		""state"": ""A traduire"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": """",
-				""translatedName"": ""Hive Mind Relic"",
-				""translatedTooltip"": [
-					""A glimpse into what will be..""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""HoodOfCalamity"",
 		""type"": ""ITEM"",
 		""englishName"": ""Hood of Calamity"",
@@ -1860,6 +7177,26 @@ namespace CalamityFR.JSON
 				""translatedName"": ""Hood of Calamity"",
 				""proofRead"": false,
 				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""LargeRitualCandle"",
+		""type"": ""ITEM"",
+		""englishName"": ""Large Ritual Candle"",
+		""englishTooltip"": [
+			""Right click to place in a different style""
+		],
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Large Ritual Candle"",
+				""translatedTooltip"": [
+					""Right click to place in a different style""
+				]
 			}
 		]
 	},
@@ -1922,6 +7259,90 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
+		""id"": ""MarniteArchitectHeadgear"",
+		""type"": ""ITEM"",
+		""englishName"": ""Marnite Architect Headgear"",
+		""englishTooltip"": [
+			""Increases block placement range by 5""
+		],
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Marnite Architect Headgear"",
+				""translatedTooltip"": [
+					""Increases block placement range by 5""
+				]
+			}
+		]
+	},
+	{
+		""id"": ""MarniteArchitectToga"",
+		""type"": ""ITEM"",
+		""englishName"": ""Marnite Architect Toga"",
+		""englishTooltip"": [
+			""Increases tile placement speed by 50%""
+		],
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Marnite Architect Toga"",
+				""translatedTooltip"": [
+					""Increases tile placement speed by 50%""
+				]
+			}
+		]
+	},
+	{
+		""id"": ""MarniteDeconstructor"",
+		""type"": ""ITEM"",
+		""englishName"": ""Marnite Deconstructor"",
+		""englishTooltip"": [
+			""Its engine generates hardlight rays capable of excavating walls from a long distance"",
+			""Ignores 10 points of enemy Defense""
+		],
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Marnite Deconstructor"",
+				""translatedTooltip"": [
+					""Its engine generates hardlight rays capable of excavating walls from a long distance"",
+					""Ignores 10 points of enemy Defense""
+				]
+			}
+		]
+	},
+	{
+		""id"": ""MarniteRepulsionShield"",
+		""type"": ""ITEM"",
+		""englishName"": ""Marnite Repulsion Shield"",
+		""englishTooltip"": [
+			""Enemies behind you are struck by high-knockback hardlight quills"",
+			""[c/FFF191:Backstabbers Beware!]""
+		],
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Marnite Repulsion Shield"",
+				""translatedTooltip"": [
+					""Enemies behind you are struck by high-knockback hardlight quills"",
+					""[c/FFF191:Backstabbers Beware!]""
+				]
+			}
+		]
+	},
+	{
 		""id"": ""MaulerRelic"",
 		""type"": ""ITEM"",
 		""englishName"": ""Mauler Relic"",
@@ -1934,6 +7355,20 @@ namespace CalamityFR.JSON
 				""translatedName"": ""Mauler Relic"",
 				""proofRead"": false,
 				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""MaulerTrophy"",
+		""type"": ""ITEM"",
+		""englishName"": ""Mauler Trophy"",
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Mauler Trophy""
 			}
 		]
 	},
@@ -2008,6 +7443,34 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
+		""id"": ""MidasPrime"",
+		""type"": ""ITEM"",
+		""englishName"": ""Midas Prime"",
+		""englishTooltip"": [
+			""Struck enemies drop extra coins"",
+			""Right click to throw a coin in the air. Hitting the coin with a bullet redirects the shot into the nearest enemy"",
+			""If you have multiple coins up in the air, bullets will first redirect towards other coins up to a maximum of 4"",
+			""Coin ricochets will increase the damage of the bullet, provided the coins have been in the air for long enough"",
+			""Coin throws consume gold and silver coins""
+		],
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Midas Prime"",
+				""translatedTooltip"": [
+					""Struck enemies drop extra coins"",
+					""Right click to throw a coin in the air. Hitting the coin with a bullet redirects the shot into the nearest enemy"",
+					""If you have multiple coins up in the air, bullets will first redirect towards other coins up to a maximum of 4"",
+					""Coin ricochets will increase the damage of the bullet, provided the coins have been in the air for long enough"",
+					""Coin throws consume gold and silver coins""
+				]
+			}
+		]
+	},
+	{
 		""id"": ""MiracleMatter"",
 		""type"": ""ITEM"",
 		""englishName"": ""Miracle Matter"",
@@ -2028,6 +7491,56 @@ namespace CalamityFR.JSON
 				],
 				""proofRead"": false,
 				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""MonolithOfTheAccursed"",
+		""type"": ""ITEM"",
+		""englishName"": ""Monolith of the Accursed"",
+		""englishTooltip"": [
+			""Let the sky burn a blazing red"",
+			""The monolith has two different modes""
+		],
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Monolith of the Accursed"",
+				""translatedTooltip"": [
+					""Let the sky burn a blazing red"",
+					""The monolith has two different modes""
+				]
+			}
+		]
+	},
+	{
+		""id"": ""DraedonsAmbienceMusicBox"",
+		""type"": ""ITEM"",
+		""englishName"": ""Music Box (Draedon's Ambience)"",
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Music Box (Draedon's Ambience)""
+			}
+		]
+	},
+	{
+		""id"": ""NanodroidItem"",
+		""type"": ""ITEM"",
+		""englishName"": ""Nanodroid"",
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Nanodroid""
 			}
 		]
 	},
@@ -2124,40 +7637,72 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""OccultSkullCrown"",
+		""id"": ""NuclearTerrorTrophy"",
 		""type"": ""ITEM"",
-		""englishName"": ""Occult Skull Crown"",
-		""englishTooltip"": [
-			""Only a fool would ever wear this..."",
-			""You constantly gain rage over time and rage does not fade away when out of combat"",
-			""Converts certain debuffs into buffs and extends their durations"",
-			""Debuffs affected: Darkness, Blackout, Confused, Slow, Weak, Broken Armor,"",
-			""Armor Crunch, War Cleave, Chilled, Ichor and Obstructed"",
-			""Adrenaline charges 20% faster"",
-			""Increases your max movement speed and acceleration by 5%"",
-			""Can also be worn as a helmet"",
-			""Revengeance item""
-		],
+		""englishName"": ""Nuclear Terror Trophy"",
 		""state"": ""A traduire"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
 				""author"": """",
-				""translatedName"": ""Occult Skull Crown"",
-				""translatedTooltip"": [
-					""Only a fool would ever wear this..."",
-					""You constantly gain rage over time and rage does not fade away when out of combat"",
-					""Converts certain debuffs into buffs and extends their durations"",
-					""Debuffs affected: Darkness, Blackout, Confused, Slow, Weak, Broken Armor,"",
-					""Armor Crunch, War Cleave, Chilled, Ichor and Obstructed"",
-					""Adrenaline charges 20% faster"",
-					""Increases your max movement speed and acceleration by 5%"",
-					""Can also be worn as a helmet"",
-					""Revengeance item""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
+				""translatedName"": ""Nuclear Terror Trophy""
+			}
+		]
+	},
+	{
+		""id"": ""OccultBrickItem"",
+		""type"": ""ITEM"",
+		""englishName"": ""Occult Brick"",
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Occult Brick""
+			}
+		]
+	},
+	{
+		""id"": ""OccultBrickWallItem"",
+		""type"": ""ITEM"",
+		""englishName"": ""Occult Brick Wall"",
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Occult Brick Wall""
+			}
+		]
+	},
+	{
+		""id"": ""OccultLegionnaireBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""Occult Legionnaire Banner"",
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Occult Legionnaire Banner""
+			}
+		]
+	},
+	{
+		""id"": ""OccultPlatformItem"",
+		""type"": ""ITEM"",
+		""englishName"": ""Occult Platform"",
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Occult Platform""
 			}
 		]
 	},
@@ -2174,6 +7719,80 @@ namespace CalamityFR.JSON
 				""translatedName"": ""Old Duke Relic"",
 				""proofRead"": false,
 				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""OldHunterHat"",
+		""type"": ""ITEM"",
+		""englishName"": ""Old Hunter Hat"",
+		""englishTooltip"": [
+			""Attire fashioned after the appearance of hunters from a faraway land""
+		],
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Old Hunter Hat"",
+				""translatedTooltip"": [
+					""Attire fashioned after the appearance of hunters from a faraway land""
+				]
+			}
+		]
+	},
+	{
+		""id"": ""OldHunterPants"",
+		""type"": ""ITEM"",
+		""englishName"": ""Old Hunter Pants"",
+		""englishTooltip"": [
+			""Attire fashioned after the appearance of hunters from a faraway land""
+		],
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Old Hunter Pants"",
+				""translatedTooltip"": [
+					""Attire fashioned after the appearance of hunters from a faraway land""
+				]
+			}
+		]
+	},
+	{
+		""id"": ""OldHunterShirt"",
+		""type"": ""ITEM"",
+		""englishName"": ""Old Hunter Shirt"",
+		""englishTooltip"": [
+			""Attire fashioned after the appearance of hunters from a faraway land""
+		],
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Old Hunter Shirt"",
+				""translatedTooltip"": [
+					""Attire fashioned after the appearance of hunters from a faraway land""
+				]
+			}
+		]
+	},
+	{
+		""id"": ""PearlShard"",
+		""type"": ""ITEM"",
+		""englishName"": ""Pearl Shard"",
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Pearl Shard""
 			}
 		]
 	},
@@ -2214,28 +7833,6 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": """",
 				""translatedName"": ""Perennial Bar"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""PerforatorsRelic"",
-		""type"": ""ITEM"",
-		""englishName"": ""Perforators Relic"",
-		""englishTooltip"": [
-			""A glimpse into what will be..""
-		],
-		""state"": ""A traduire"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": """",
-				""translatedName"": ""Perforators Relic"",
-				""translatedTooltip"": [
-					""A glimpse into what will be..""
-				],
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -2424,28 +8021,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""PlaguebringerGoliathRelic"",
-		""type"": ""ITEM"",
-		""englishName"": ""Plaguebringer Goliath Relic"",
-		""englishTooltip"": [
-			""A glimpse into what will be..""
-		],
-		""state"": ""A traduire"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": """",
-				""translatedName"": ""Plaguebringer Goliath Relic"",
-				""translatedTooltip"": [
-					""A glimpse into what will be..""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""PlaguedContainmentBrick"",
 		""type"": ""ITEM"",
 		""englishName"": ""Plagued Containment Brick"",
@@ -2478,28 +8053,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""PolterghastRelic"",
-		""type"": ""ITEM"",
-		""englishName"": ""Polterghast Relic"",
-		""englishTooltip"": [
-			""A glimpse into what will be..""
-		],
-		""state"": ""A traduire"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": """",
-				""translatedName"": ""Polterghast Relic"",
-				""translatedTooltip"": [
-					""A glimpse into what will be..""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""PolypLauncher"",
 		""type"": ""ITEM"",
 		""englishName"": ""Polyp Launcher"",
@@ -2515,28 +8068,6 @@ namespace CalamityFR.JSON
 				""translatedName"": ""Polyp Launcher"",
 				""translatedTooltip"": [
 					""Summons a polyp bunch that launches coral chunks at nearby enemies ""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""ProfanedGuardiansRelic"",
-		""type"": ""ITEM"",
-		""englishName"": ""Profaned Guardians Relic"",
-		""englishTooltip"": [
-			""A glimpse into what will be..""
-		],
-		""state"": ""A traduire"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": """",
-				""translatedName"": ""Profaned Guardians Relic"",
-				""translatedTooltip"": [
-					""A glimpse into what will be..""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -2582,6 +8113,26 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
+		""id"": ""PuffShroom"",
+		""type"": ""ITEM"",
+		""englishName"": ""Puff Shroom"",
+		""englishTooltip"": [
+			""Summons a cute mushroom warrior to fight for you""
+		],
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Puff Shroom"",
+				""translatedTooltip"": [
+					""Summons a cute mushroom warrior to fight for you""
+				]
+			}
+		]
+	},
+	{
 		""id"": ""PurpleSeekingMechanism"",
 		""type"": ""ITEM"",
 		""englishName"": ""Purple Seeking Mechanism"",
@@ -2600,6 +8151,32 @@ namespace CalamityFR.JSON
 				],
 				""proofRead"": false,
 				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""QuiverofNihility"",
+		""type"": ""ITEM"",
+		""englishName"": ""Quiver of Nihility"",
+		""englishTooltip"": [
+			""'Filled with a substance darker than the night sky'"",
+			""5% increased ranged critical strike chance"",
+			""Summons a ring of four void fields to orbit you"",
+			""Arrows that pass through these fields gain a 100% damage boost and double the speed""
+		],
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Quiver of Nihility"",
+				""translatedTooltip"": [
+					""'Filled with a substance darker than the night sky'"",
+					""5% increased ranged critical strike chance"",
+					""Summons a ring of four void fields to orbit you"",
+					""Arrows that pass through these fields gain a 100% damage boost and double the speed""
+				]
 			}
 		]
 	},
@@ -2654,48 +8231,16 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""RavagerRelic"",
+		""id"": ""NanodroidPlagueRedItem"",
 		""type"": ""ITEM"",
-		""englishName"": ""Ravager Relic"",
-		""englishTooltip"": [
-			""A glimpse into what will be..""
-		],
+		""englishName"": ""Red Plague Nanodroid"",
 		""state"": ""A traduire"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
 				""author"": """",
-				""translatedName"": ""Ravager Relic"",
-				""translatedTooltip"": [
-					""A glimpse into what will be..""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""ReaverHeadExplore"",
-		""type"": ""ITEM"",
-		""englishName"": ""Reaver Headgear"",
-		""englishTooltip"": [
-			""10% increased pick speed and 20% increased block/wall placement speed"",
-			""Temporary immunity to lava and can move freely through liquids""
-		],
-		""state"": ""A traduire"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": """",
-				""translatedName"": ""Reaver Headgear"",
-				""translatedTooltip"": [
-					""10% increased pick speed and 20% increased block/wall placement speed"",
-					""Temporary immunity to lava and can move freely through liquids""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
+				""translatedName"": ""Red Plague Nanodroid""
 			}
 		]
 	},
@@ -2806,6 +8351,40 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
+		""id"": ""RepairUnitItem"",
+		""type"": ""ITEM"",
+		""englishName"": ""Repair Unit"",
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Repair Unit""
+			}
+		]
+	},
+	{
+		""id"": ""RitualCandle"",
+		""type"": ""ITEM"",
+		""englishName"": ""Ritual Candle"",
+		""englishTooltip"": [
+			""Right click to place in a different style""
+		],
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Ritual Candle"",
+				""translatedTooltip"": [
+					""Right click to place in a different style""
+				]
+			}
+		]
+	},
+	{
 		""id"": ""RobesOfCalamity"",
 		""type"": ""ITEM"",
 		""englishName"": ""Robes of Calamity"",
@@ -2910,6 +8489,264 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
+		""id"": ""SacrilegiousBathtub"",
+		""type"": ""ITEM"",
+		""englishName"": ""Sacrilegious Bathtub"",
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Sacrilegious Bathtub""
+			}
+		]
+	},
+	{
+		""id"": ""SacrilegiousBed"",
+		""type"": ""ITEM"",
+		""englishName"": ""Sacrilegious Bed"",
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Sacrilegious Bed""
+			}
+		]
+	},
+	{
+		""id"": ""SacrilegiousBench"",
+		""type"": ""ITEM"",
+		""englishName"": ""Sacrilegious Bench"",
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Sacrilegious Bench""
+			}
+		]
+	},
+	{
+		""id"": ""SacrilegiousBookcase"",
+		""type"": ""ITEM"",
+		""englishName"": ""Sacrilegious Bookcase"",
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Sacrilegious Bookcase""
+			}
+		]
+	},
+	{
+		""id"": ""SacrilegiousCandelabra"",
+		""type"": ""ITEM"",
+		""englishName"": ""Sacrilegious Candelabra"",
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Sacrilegious Candelabra""
+			}
+		]
+	},
+	{
+		""id"": ""SacrilegiousCandle"",
+		""type"": ""ITEM"",
+		""englishName"": ""Sacrilegious Candle"",
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Sacrilegious Candle""
+			}
+		]
+	},
+	{
+		""id"": ""SacrilegiousChair"",
+		""type"": ""ITEM"",
+		""englishName"": ""Sacrilegious Chair"",
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Sacrilegious Chair""
+			}
+		]
+	},
+	{
+		""id"": ""SacrilegiousChandelier"",
+		""type"": ""ITEM"",
+		""englishName"": ""Sacrilegious Chandelier"",
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Sacrilegious Chandelier""
+			}
+		]
+	},
+	{
+		""id"": ""SacrilegiousChest"",
+		""type"": ""ITEM"",
+		""englishName"": ""Sacrilegious Chest"",
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Sacrilegious Chest""
+			}
+		]
+	},
+	{
+		""id"": ""SacrilegiousClock"",
+		""type"": ""ITEM"",
+		""englishName"": ""Sacrilegious Clock"",
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Sacrilegious Clock""
+			}
+		]
+	},
+	{
+		""id"": ""SacrilegiousDoor"",
+		""type"": ""ITEM"",
+		""englishName"": ""Sacrilegious Door"",
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Sacrilegious Door""
+			}
+		]
+	},
+	{
+		""id"": ""SacrilegiousDresser"",
+		""type"": ""ITEM"",
+		""englishName"": ""Sacrilegious Dresser"",
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Sacrilegious Dresser""
+			}
+		]
+	},
+	{
+		""id"": ""SacrilegiousLamp"",
+		""type"": ""ITEM"",
+		""englishName"": ""Sacrilegious Lamp"",
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Sacrilegious Lamp""
+			}
+		]
+	},
+	{
+		""id"": ""SacrilegiousLantern"",
+		""type"": ""ITEM"",
+		""englishName"": ""Sacrilegious Lantern"",
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Sacrilegious Lantern""
+			}
+		]
+	},
+	{
+		""id"": ""SacrilegiousOrgan"",
+		""type"": ""ITEM"",
+		""englishName"": ""Sacrilegious Organ"",
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Sacrilegious Organ""
+			}
+		]
+	},
+	{
+		""id"": ""SacrilegiousSink"",
+		""type"": ""ITEM"",
+		""englishName"": ""Sacrilegious Sink"",
+		""englishTooltip"": [
+			""Counts as a water, honey, and lava source""
+		],
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Sacrilegious Sink"",
+				""translatedTooltip"": [
+					""Counts as a water, honey, and lava source""
+				]
+			}
+		]
+	},
+	{
+		""id"": ""SacrilegiousTable"",
+		""type"": ""ITEM"",
+		""englishName"": ""Sacrilegious Table"",
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Sacrilegious Table""
+			}
+		]
+	},
+	{
+		""id"": ""SacrilegiousWorkBench"",
+		""type"": ""ITEM"",
+		""englishName"": ""Sacrilegious Work Bench"",
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Sacrilegious Work Bench""
+			}
+		]
+	},
+	{
 		""id"": ""SandSharkToothNecklace"",
 		""type"": ""ITEM"",
 		""englishName"": ""Sand Shark Tooth Necklace"",
@@ -2927,38 +8764,6 @@ namespace CalamityFR.JSON
 				""translatedTooltip"": [
 					""Increases armor penetration by 10 "",
 					""6% increased damage""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""EncryptedSchematicSunkenSea"",
-		""type"": ""ITEM"",
-		""englishName"": ""Schematic"",
-		""englishTooltip"": [
-			""Finely detailed diagrams of numerous devices and weaponry dance across the holographic screen."",
-			""The weaponry I supply to the workers of the laboratories is weak. Hardly suited for battle."",
-			""However, they suffice for self defense against any lab mechanisms or creations which may have gone rogue."",
-			""Addendum: For those who think themselves powerful, search the upper bounds of this planet’s atmosphere for a structure similar to that of the Sunken Seas."",
-			""I will know by the end if you are worthy of battling my creations."",
-			""Picking up this item or holding it in your inventory permanently unlocks new recipes""
-		],
-		""state"": ""A traduire"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": """",
-				""translatedName"": ""Schematic"",
-				""translatedTooltip"": [
-					""Finely detailed diagrams of numerous devices and weaponry dance across the holographic screen. "",
-					""The weaponry I supply to the workers of the laboratories is weak. Hardly suited for battle."",
-					""However, they suffice for self defense against any lab mechanisms or creations which may have gone rogue."",
-					""Addendum: For those who think themselves powerful, search the upper bounds of this planet’s atmosphere for a structure similar to that of the Sunken Seas."",
-					""I will know by the end if you are worthy of battling my creations."",
-					""Picking up this item or holding it in your inventory permanently unlocks new recipes""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -2988,6 +8793,20 @@ namespace CalamityFR.JSON
 				],
 				""proofRead"": false,
 				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""ScoriaBrickWall"",
+		""type"": ""ITEM"",
+		""englishName"": ""Scoria Brick Wall"",
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Scoria Brick Wall""
 			}
 		]
 	},
@@ -3202,28 +9021,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""SignusRelic"",
-		""type"": ""ITEM"",
-		""englishName"": ""Signus Relic"",
-		""englishTooltip"": [
-			""A glimpse into what will be..""
-		],
-		""state"": ""A traduire"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": """",
-				""translatedName"": ""Signus Relic"",
-				""translatedTooltip"": [
-					""A glimpse into what will be..""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""SilvaMask"",
 		""type"": ""ITEM"",
 		""englishName"": ""Silva Mask"",
@@ -3339,28 +9136,6 @@ namespace CalamityFR.JSON
 					""Releases 3 fast metallic whips outward "",
 					""Once all three collide, a prism of light is shot outward"",
 					""If an enemy is within the line of sight of the whips on collision, the light will fire towards it""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""StormWeaverRelic"",
-		""type"": ""ITEM"",
-		""englishName"": ""Storm Weaver Relic"",
-		""englishTooltip"": [
-			""A glimpse into what will be..""
-		],
-		""state"": ""A traduire"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": """",
-				""translatedName"": ""Storm Weaver Relic"",
-				""translatedTooltip"": [
-					""A glimpse into what will be..""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -3562,32 +9337,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""TenebreusTides"",
-		""type"": ""ITEM"",
-		""englishName"": ""Tenebreus Tides"",
-		""englishTooltip"": [
-			""Inundatio ex Laminis"",
-			""Shoots a water spear that pierces enemies and terrain"",
-			""Striking enemies summon liquid blades and spears to assault the struck foe""
-		],
-		""state"": ""A traduire"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": """",
-				""translatedName"": ""Tenebreus Tides"",
-				""translatedTooltip"": [
-					""Inundatio ex Laminis "",
-					""Shoots a water spear that pierces enemies and terrain"",
-					""Striking enemies summon liquid blades and spears to assault the struck foe""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""ThanatosMask"",
 		""type"": ""ITEM"",
 		""englishName"": ""Thanatos Mask"",
@@ -3620,6 +9369,30 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
+		""id"": ""ThankYouPainting"",
+		""type"": ""ITEM"",
+		""englishName"": ""Thank You"",
+		""englishTooltip"": [
+			""Thanks to the entire team, everyone who supported, and those who all play the mod and keep it alive!"",
+			""The confines of this painting is not enough to fit the entire team"",
+			""Hold SHIFT to see a list of past and current devs and CTRL to see past and current testers""
+		],
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Thank You"",
+				""translatedTooltip"": [
+					""Thanks to the entire team, everyone who supported, and those who all play the mod and keep it alive!"",
+					""The confines of this painting is not enough to fit the entire team"",
+					""Hold SHIFT to see a list of past and current devs and CTRL to see past and current testers""
+				]
+			}
+		]
+	},
+	{
 		""id"": ""ThaumaticChair"",
 		""type"": ""ITEM"",
 		""englishName"": ""Thaumatic Chair"",
@@ -3638,6 +9411,30 @@ namespace CalamityFR.JSON
 				],
 				""proofRead"": false,
 				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""TheAnomalysNanogun"",
+		""type"": ""ITEM"",
+		""englishName"": ""The Anomaly's Nanogun"",
+		""englishTooltip"": [
+			""'Welcome to the party, pal'"",
+			""Left click to charge up 5 rapid-fire plasma beams"",
+			""Right click to launch 3 fission bombs""
+		],
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""The Anomaly's Nanogun"",
+				""translatedTooltip"": [
+					""'Welcome to the party, pal'"",
+					""Left click to charge up 5 rapid-fire plasma beams"",
+					""Right click to launch 3 fission bombs""
+				]
 			}
 		]
 	},
@@ -3772,6 +9569,36 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
+		""id"": ""TheSevensStriker"",
+		""type"": ""ITEM"",
+		""englishName"": ""The Sevens Striker"",
+		""englishTooltip"": [
+			""Left click to consume 1 coin and play a slot machine"",
+			""Quality of the outcome depends on the coin used"",
+			""Right click to rapidly fire a barrage of coins"",
+			""Right click has an 80% chance to not consume coins and will not fire platinum coins"",
+			""'A gun given to a great gunslinger"",
+			""Forged by the arms of a man given no name'""
+		],
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""The Sevens Striker"",
+				""translatedTooltip"": [
+					""Left click to consume 1 coin and play a slot machine"",
+					""Quality of the outcome depends on the coin used"",
+					""Right click to rapidly fire a barrage of coins"",
+					""Right click has an 80% chance to not consume coins and will not fire platinum coins"",
+					""'A gun given to a great gunslinger"",
+					""Forged by the arms of a man given no name'""
+				]
+			}
+		]
+	},
+	{
 		""id"": ""TheSponge"",
 		""type"": ""ITEM"",
 		""englishName"": ""The Sponge"",
@@ -3875,28 +9702,6 @@ namespace CalamityFR.JSON
 				""translatedName"": ""Treasure Bag"",
 				""translatedTooltip"": [
 					""{$CommonItemTooltip.RightClickToOpen} ""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""DraedonBag"",
-		""type"": ""ITEM"",
-		""englishName"": ""Treasure Bag (Exo Mechs)"",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.RightClickToOpen}""
-		],
-		""state"": ""A traduire"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": """",
-				""translatedName"": ""Treasure Bag (Exo Mechs)"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.RightClickToOpen}""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -4292,6 +10097,294 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
+		""id"": ""WulfrumAcrobaticsPack"",
+		""type"": ""ITEM"",
+		""englishName"": ""Wulfrum Acrobatics Pack"",
+		""englishTooltip"": [
+			""This mess of cogs and wires in a box retools the winch mechanism of hooks to transform them into a wulfrum slingshot"",
+			""The wulfrum slingshot trades the ability to reel you back in for advanced rope physics, letting you swing around the hook as you please"",
+			""Additionally, the pack automatically attempts to grapple a nearby wall if it detects danger from fall damage"",
+			""This safety feature won't activate if the down key is being held"",
+			""8% increased movement speed""
+		],
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Wulfrum Acrobatics Pack"",
+				""translatedTooltip"": [
+					""This mess of cogs and wires in a box retools the winch mechanism of hooks to transform them into a wulfrum slingshot"",
+					""The wulfrum slingshot trades the ability to reel you back in for advanced rope physics, letting you swing around the hook as you please"",
+					""Additionally, the pack automatically attempts to grapple a nearby wall if it detects danger from fall damage"",
+					""This safety feature won't activate if the down key is being held"",
+					""8% increased movement speed""
+				]
+			}
+		]
+	},
+	{
+		""id"": ""WulfrumBlunderbuss"",
+		""type"": ""ITEM"",
+		""englishName"": ""Wulfrum Blunderbuss"",
+		""englishTooltip"": [
+			""Consumes wulfrum scrap or silver coins to fire"",
+			""The shot's spread can be diminished by aiming further away, at the cost of less damage"",
+			""Ignores 3 points of enemy Defense"",
+			""[c/83B87E:\\\""The good thing about Wulfrum is that while it breaks fast, it can be reused even faster\\\""]"",
+			""[c/83B87E:\\\""In fact, it is quite common for a robot to be turned into ammo right after it stops functioning\\\""]""
+		],
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Wulfrum Blunderbuss"",
+				""translatedTooltip"": [
+					""Consumes wulfrum scrap or silver coins to fire"",
+					""The shot's spread can be diminished by aiming further away, at the cost of less damage"",
+					""Ignores 3 points of enemy Defense"",
+					""[c/83B87E:\\\""The good thing about Wulfrum is that while it breaks fast, it can be reused even faster\\\""]"",
+					""[c/83B87E:\\\""In fact, it is quite common for a robot to be turned into ammo right after it stops functioning\\\""]""
+				]
+			}
+		]
+	},
+	{
+		""id"": ""WulfrumDiggingTurtle"",
+		""type"": ""ITEM"",
+		""englishName"": ""Wulfrum Digging Turtle"",
+		""englishTooltip"": [
+			""Throws a rickety mining contraption to dig out a small tunnel"",
+			""In case of an emergency, right click to instantly detonate all your digging turtles""
+		],
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Wulfrum Digging Turtle"",
+				""translatedTooltip"": [
+					""Throws a rickety mining contraption to dig out a small tunnel"",
+					""In case of an emergency, right click to instantly detonate all your digging turtles""
+				]
+			}
+		]
+	},
+	{
+		""id"": ""WulfrumDrill"",
+		""type"": ""ITEM"",
+		""englishName"": ""Wulfrum Drill"",
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Wulfrum Drill""
+			}
+		]
+	},
+	{
+		""id"": ""WulfrumHat"",
+		""type"": ""ITEM"",
+		""englishName"": ""Wulfrum Hat & Goggles"",
+		""englishTooltip"": [
+			""10% increased minion damage"",
+			""Comes equipped with hair extensions""
+		],
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Wulfrum Hat & Goggles"",
+				""translatedTooltip"": [
+					""10% increased minion damage"",
+					""Comes equipped with hair extensions""
+				]
+			}
+		]
+	},
+	{
+		""id"": ""WulfrumJacket"",
+		""type"": ""ITEM"",
+		""englishName"": ""Wulfrum Jacket"",
+		""englishTooltip"": [
+			""5% increased damage reduction""
+		],
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Wulfrum Jacket"",
+				""translatedTooltip"": [
+					""5% increased damage reduction""
+				]
+			}
+		]
+	},
+	{
+		""id"": ""WulfrumMetalScrap"",
+		""type"": ""ITEM"",
+		""englishName"": ""Wulfrum Metal Scrap"",
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Wulfrum Metal Scrap""
+			}
+		]
+	},
+	{
+		""id"": ""WulfrumOveralls"",
+		""type"": ""ITEM"",
+		""englishName"": ""Wulfrum Overalls"",
+		""englishTooltip"": [
+			""Movement speed increased by 5%""
+		],
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Wulfrum Overalls"",
+				""translatedTooltip"": [
+					""Movement speed increased by 5%""
+				]
+			}
+		]
+	},
+	{
+		""id"": ""WulfrumProsthesis"",
+		""type"": ""ITEM"",
+		""englishName"": ""Wulfrum Prosthesis"",
+		""englishTooltip"": [
+			""Casts a wulfrum bolt"",
+			""Right click to drain mana from creatures in front of you"",
+			""[c/83B87E:Technology and magic have been forever locked in an arms race of imitation and retaliation]"",
+			""[c/83B87E:At times they work in tandem, as seen in certain prosthetic limbs]""
+		],
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Wulfrum Prosthesis"",
+				""translatedTooltip"": [
+					""Casts a wulfrum bolt"",
+					""Right click to drain mana from creatures in front of you"",
+					""[c/83B87E:Technology and magic have been forever locked in an arms race of imitation and retaliation]"",
+					""[c/83B87E:At times they work in tandem, as seen in certain prosthetic limbs]""
+				]
+			}
+		]
+	},
+	{
+		""id"": ""WulfrumScaffoldKit"",
+		""type"": ""ITEM"",
+		""englishName"": ""Wulfrum Scaffold Kit"",
+		""englishTooltip"": [
+			""\\\""For when you need something built fast and don't need it to last.\\\"""",
+			""Places down temporary metal scaffolding. Uses up one wulfrum metal scrap for \"" + TilesPerScrap.ToString() + \"" tiles built"",
+			""Scaffold needs to be adjacent to a solid tile to be placed down""
+		],
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Wulfrum Scaffold Kit"",
+				""translatedTooltip"": [
+					""\\\""For when you need something built fast and don't need it to last.\\\"""",
+					""Places down temporary metal scaffolding. Uses up one wulfrum metal scrap for \"" + TilesPerScrap.ToString() + \"" tiles built"",
+					""Scaffold needs to be adjacent to a solid tile to be placed down""
+				]
+			}
+		]
+	},
+	{
+		""id"": ""WulfrumScrewdriver"",
+		""type"": ""ITEM"",
+		""englishName"": ""Wulfrum Screwdriver"",
+		""englishTooltip"": [
+			""Can be used to rapidly and royally screw over any foe, provided they're weak enough"",
+			""Striking an enemy has a chance to give you a wulfrum screw, that you can throw back at them by right clicking"",
+			""Hitting a flung screw with the screwdriver will boost its damage and speed, sending it hurling forwards at high speeds"",
+			""[c/83B87E:\\\""Who makes flatheads this large?? The hell am I supposed to use it for, the thing could take an eye out!\\\""]"",
+			""[c/83B87E:\\\""…Ah.\\\""]""
+		],
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Wulfrum Screwdriver"",
+				""translatedTooltip"": [
+					""Can be used to rapidly and royally screw over any foe, provided they're weak enough"",
+					""Striking an enemy has a chance to give you a wulfrum screw, that you can throw back at them by right clicking"",
+					""Hitting a flung screw with the screwdriver will boost its damage and speed, sending it hurling forwards at high speeds"",
+					""[c/83B87E:\\\""Who makes flatheads this large?? The hell am I supposed to use it for, the thing could take an eye out!\\\""]"",
+					""[c/83B87E:\\\""…Ah.\\\""]""
+				]
+			}
+		]
+	},
+	{
+		""id"": ""WulfrumTreasurePinger"",
+		""type"": ""ITEM"",
+		""englishName"": ""Wulfrum Treasure Pinger"",
+		""englishTooltip"": [
+			""Helps you find metal that's hopefully more valuable than wulfrum"",
+			""This contraption seems incredibly shoddy. [c/fc4903:It'll break sooner than later for sure]""
+		],
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Wulfrum Treasure Pinger"",
+				""translatedTooltip"": [
+					""Helps you find metal that's hopefully more valuable than wulfrum"",
+					""This contraption seems incredibly shoddy. [c/fc4903:It'll break sooner than later for sure]""
+				]
+			}
+		]
+	},
+	{
+		""id"": ""WulfrumAmplifierBanner"",
+		""type"": ""ITEM"",
+		""englishName"": ""WulfrumAmplifierBanner"",
+		""englishTooltip"": [
+			""{$CommonItemTooltip.BannerBonus}Wulfrum Amplifier""
+		],
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""WulfrumAmplifierBanner"",
+				""translatedTooltip"": [
+					""{$CommonItemTooltip.BannerBonus}Wulfrum Amplifier""
+				]
+			}
+		]
+	},
+	{
 		""id"": ""YellowSeekingMechanism"",
 		""type"": ""ITEM"",
 		""englishName"": ""Yellow Seeking Mechanism"",
@@ -4314,11 +10407,11 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""YharonRelic"",
+		""id"": ""YharonSoulFragment"",
 		""type"": ""ITEM"",
-		""englishName"": ""Yharon Relic"",
+		""englishName"": ""Yharon Soul Fragment"",
 		""englishTooltip"": [
-			""A glimpse into what will be..""
+			""A shard of a godly soul""
 		],
 		""state"": ""A traduire"",
 		""activeTranslation"": 1,
@@ -4326,12 +10419,122 @@ namespace CalamityFR.JSON
 			{
 				""id"": 1,
 				""author"": """",
-				""translatedName"": ""Yharon Relic"",
+				""translatedName"": ""Yharon Soul Fragment"",
 				""translatedTooltip"": [
-					""A glimpse into what will be..""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
+					""A shard of a godly soul""
+				]
+			}
+		]
+	},
+	{
+		""id"": ""Androomba"",
+		""type"": ""NPC"",
+		""englishName"": ""Androomba"",
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Androomba""
+			}
+		]
+	},
+	{
+		""id"": ""AndroombaFriendly"",
+		""type"": ""NPC"",
+		""englishName"": ""Androomba Pal"",
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Androomba Pal""
+			}
+		]
+	},
+	{
+		""id"": ""HiveEnemy"",
+		""type"": ""NPC"",
+		""englishName"": ""Hive"",
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Hive""
+			}
+		]
+	},
+	{
+		""id"": ""Nanodroid"",
+		""type"": ""NPC"",
+		""englishName"": ""Nanodroid"",
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Nanodroid""
+			}
+		]
+	},
+	{
+		""id"": ""NanodroidDysfunctional"",
+		""type"": ""NPC"",
+		""englishName"": ""Nanodroid"",
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Nanodroid""
+			}
+		]
+	},
+	{
+		""id"": ""NanodroidPlagueGreen"",
+		""type"": ""NPC"",
+		""englishName"": ""Nanodroid"",
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Nanodroid""
+			}
+		]
+	},
+	{
+		""id"": ""NanodroidPlagueRed"",
+		""type"": ""NPC"",
+		""englishName"": ""Nanodroid"",
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Nanodroid""
+			}
+		]
+	},
+	{
+		""id"": ""WulfrumAmplifier"",
+		""type"": ""NPC"",
+		""englishName"": ""Wulfrum Amplifier"",
+		""state"": ""A traduire"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": """",
+				""translatedName"": ""Wulfrum Amplifier""
 			}
 		]
 	},
@@ -4384,32 +10587,6 @@ namespace CalamityFR.JSON
 				""author"": ""Tolsyak"",
 				""translatedName"": ""Folie Abyssale"",
 				""translatedDesc"": ""Dégâts, chances de coup critique et aggression/portée des tentacules augmentés"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""AbyssalWeapon"",
-		""type"": ""BUFF"",
-		""englishName"": ""Abyssal Weapon"",
-		""englishDesc"": ""Melee and rogue weapons inflict brimstone flames, 5% increased movement speed"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 2,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Kastiel"",
-				""translatedName"": ""Arme Abyssale"",
-				""translatedDesc"": ""Les armes de mêlée infligent flammes abyssales, +5% de vitesse de mouvement"",
-				""proofRead"": false,
-				""proofReader"": """"
-			},
-			{
-				""id"": 2,
-				""author"": ""Kastiel"",
-				""translatedName"": ""Arme Abyssale"",
-				""translatedDesc"": ""Les armes de mêlée infligent la brûlure soufrée, +5% de vitesse de mouvement"",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -4662,24 +10839,6 @@ namespace CalamityFR.JSON
 				""author"": ""Kastiel"",
 				""translatedName"": ""Archer de Lunamoon"",
 				""translatedDesc"": ""Vous avez un observateur personnel"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""ArmorCrumbling"",
-		""type"": ""BUFF"",
-		""englishName"": ""Armor Crumbling"",
-		""englishDesc"": ""Melee and rogue attacks break enemy armor"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Effritement d'Armure"",
-				""translatedDesc"": ""Les attaques de mêlée et de voleur brisent l'armure"",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -5922,24 +12081,6 @@ namespace CalamityFR.JSON
 				""author"": ""Tolsyak"",
 				""translatedName"": ""Afflux Draconique"",
 				""translatedDesc"": ""Le pouvoir d'un dragon circule dans vos veines"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""Dragonfire"",
-		""type"": ""BUFF"",
-		""englishName"": ""Dragonfire"",
-		""englishDesc"": ""Losing life, reduced movement speed"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Feu Draconique"",
-				""translatedDesc"": ""Perte de vie, Vitesse de mouvement réduite"",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -7530,24 +13671,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""PenumbraBuff"",
-		""type"": ""BUFF"",
-		""englishName"": ""Penumbra"",
-		""englishDesc"": ""Stealth regenerates 15% faster while moving\\nAt night, stealth additionally regenerates 15% faster while standing still\\nBoth boosts increase to 20% during a solar eclipse"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Pénombre"",
-				""translatedDesc"": ""La furtivité se régénère 15% plus vite quand vous bougez\\nLa nuit, +15% de génération de furtivité si vous êtes immobile\\nLes deux bonus sont portés à 20% lors d'une éclipse"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""PerditionBuff"",
 		""type"": ""BUFF"",
 		""englishName"": ""Perdition"",
@@ -8232,24 +14355,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""ShadowBuff"",
-		""type"": ""BUFF"",
-		""englishName"": ""Shadow"",
-		""englishDesc"": ""You're invisible, certain rogue weapons give and gain buffs, and stealth generation is boosted."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Ombre"",
-				""translatedDesc"": ""Vous êtes invisible, certaines armes de voleurs sont améliorées et vous renforcent, et la génération de furtivité est augmentée."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""Shadowflame"",
 		""type"": ""BUFF"",
 		""englishName"": ""Shadowflame"",
@@ -8898,24 +15003,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""ProfanedBabs"",
-		""type"": ""BUFF"",
-		""englishName"": ""The Profaned Soul"",
-		""englishDesc"": ""The healer will heal your wounds!"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""L'Âme Profanée"",
-				""translatedDesc"": ""Le soigneur guérira vos blessures!"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""ThirdSageBuff"",
 		""type"": ""BUFF"",
 		""englishName"": ""Third Sage"",
@@ -9456,1590 +15543,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""BobbitWormBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Bobbit Worm""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Ver Bobbit"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Ver Bobbit""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""OarfishBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Oarfish""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Poisson-Ruban"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Poisson-Ruban""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""CrystalCrawlerBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Crystal Crawler""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Rampant de Cristal"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Rampant de Cristal""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""ArmoredDiggerBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Armored Digger""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyal"",
-				""translatedName"": ""Bannière de Creuseur Blindé"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Creuseur Blindé""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""ExoSink"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""Counts as a water, honey, and lava source""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Exo Évier"",
-				""translatedTooltip"": [
-					""Compte comme une source d'eau, de miel et de lave""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""TopazCrawlerBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Topaz Crawler""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Rampant de Topaze"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Rampant de Topaze""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""GulperEelBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Gulper Eel""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière d'Anguille Engloutisseuse"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Anguille Engloutisseuse""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""PlaguebringerBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Plaguebringer""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Colporte-Peste"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Colporte-Peste""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""AstralachneaBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Astralachnea""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière d'Astralaraignée"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Astralaraignée""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""CloudElementalBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Cloud Elemental""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière d'Élémentaire de Nuage"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Élémentaire de Nuage""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""AmethystCrawlerBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus} Amethyst Crawler""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Rampant d'Améthyste"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus} Rampant d'Améthyste""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""ProfanedEnergyBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Profaned Energy""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière d'Énergie Profanée"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Énergie Profanée""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""EarthElementalBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Earth Elemental""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière d'Élémentaire de Terre"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Élémentaire de Terre""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""EmeraldCrawlerBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Emerald Crawler""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Rampant d'Émeraude"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Rampant d'Émeraude""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""SapphireCrawlerBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Sapphire Crawler""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Rampant de Saphir"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Rampant de Saphir""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""EidolonWyrmJuvenileBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Juvenile Eidolon Wyrm""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Wyrm Eidolon Juvénile"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Wyrm Eidolon Juvénile""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""RubyCrawlerBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Ruby Crawler""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Rampant de Rubis"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Rampant de Rubis""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""SeaSerpentBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Sea Serpent""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Serpent de Mer"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Serpent de Mer""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""AquaticUrchinBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Aquatic Urchin""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Oursin Aquatique"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Oursin Aquatique""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""PhantomSpiritBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Phantom Spirit""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Esprit Fantôme"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Esprit Fantôme""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""LuminousCorvinaBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Luminous Corvina""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Corvina Lumineuse"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Corvina Lumineuse""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""AstralSlimeBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Astral Slime""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Gelée Astrale"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Gelée Astrale""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""EbonianBlightSlimeBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Ebonian Blight Slime""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Gelée de Fléau d'Ébène"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Gelée de Fléau d'Ébène""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""ShockstormShuttleBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Shockstorm Shuttle""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Navette de Tempête de Choc"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Navette de Tempête de Choc""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""AtlasBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Atlas Banner""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Atlas"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Atlas""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""WulfrumRoverBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Wulfrum Rover""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Vadrouilleur Wulfrum"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Vadrouilleur Wulfrum""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""ScryllarBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Scryllar""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Scryllar"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Scryllar""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""IrradiatedSlimeBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Irradiated Slime""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Gelée Irradiée"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Gelée Irradiée""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""BelchingCoralBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Belching Coral""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Corail Cracheur"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Corail Cracheur""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""PlagueChargerBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Plague Charger""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Chargeur de Peste"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Chargeur de Peste""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""FearlessGoldfishWarriorBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Fearless Goldfish Warrior""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Guerrier Poisson Doré Sans Peur"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Guerrier Poisson Doré Sans Peur""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""SeaUrchinBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Sea Urchin""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Oursin de Mer"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Oursin de Mer""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""ClamBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Clam""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Palourde"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Palourde""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""NuclearToadBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Nuclear Toad""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Crapaud Nucléaire"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Crapaud Nucléaire""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""DespairStoneBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Despair Stone""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Pierre de Désespoir"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Pierre de Désespoir""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""ViperfishBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Viperfish""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Poisson-Vipère"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Poisson-Vipère""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""FlakCrabBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Flak Crab""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Crabe Flak"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Crabe Flak""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""ImpiousImmolatorBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Impious Immolator""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Immolateur Impie"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Immolateur Impie""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""ToxicMinnowBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Toxic Minnow""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Fretin Toxique"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Fretin Toxique""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""CrimulanBlightSlimeBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Crimulan Blight Slime""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Gelée Carminée Trouble"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Gelée Carminée Trouble""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""AcidEelBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Acid Eel""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Anguille Acide"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Anguille Acide""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""AstralProbeBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Astral Probe""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Sonde Astrale"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Sonde Astrale""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""CryonBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Cryon""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Cryon"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Cryon""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""MorayEelBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Moray Eel""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Murène"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Murène""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""StormlionBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Stormlion""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Fourmi-Tonnerre"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Fourmi-Tonnerre""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""AeroSlimeBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Aero Slime""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Gelée Aérienne"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Gelée Aérienne""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""GiantSquidBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Giant Squid""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Calamar Géant"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Calamar Géant""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""PiggyBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Piggy""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Peggy"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Peggy""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""LaserfishBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Laserfish""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Poisson-Laser"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Poisson-Laser""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""MantisShrimpBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Mantis Shrimp""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Mante Crevette"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Mante Crevette""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""SoulSlurperBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Soul Slurper""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Aspire-Âme"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Aspire-Âme""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""BlindedAnglerBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Blinded Angler""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Baudroie Aveuglée"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Baudroie Aveuglée""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""EidolistBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Eidolist""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Eidoliste"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Eidoliste""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""MelterBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Melter""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Fondeur"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Fondeur""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""ScornEaterBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Scorn Eater""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Dévoreur de Mépris"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Dévoreur de Mépris""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""EutrophicRayBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Eutrophic Ray""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Raie Eutrophique"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Raie Eutrophique""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""WaterLeechBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Water Leech""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Sangsue d'Eau"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Sangsue d'Eau""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""PlagueshellBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Plagueshell""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Carapeste"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Carapeste""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""FlounderBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Flounder""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Sole"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Sole""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""OrthoceraBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Orthocera""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Orthocère"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Orthocère""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""SunskaterBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Sunskater""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Glisse-Soleil"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Glisse-Soleil""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""MirageJellyBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Mirage Jelly""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Gelée Mirage"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Gelée Mirage""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""CultistAssassinBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Cultist Assassin""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Assassin Cultiste"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Assassin Cultiste""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""CharredSlimeBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Charred Slime""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Gelée Calcinée"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Gelée Calcinée""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""MantisBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Mantis""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Mante"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Mante""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""SeaMinnowBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Sea Minnow""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Vairon de Mer"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Vairon de Mer""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""RadiatorBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Radiator""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Radiateur"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Radiateur""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""PestilentSlimeBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Pestilent Slime""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Gelée Pestilentielle"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Gelée Pestilentielle""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""SmallSightseerBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Small Sightseer""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Petit Cherchevue"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Petit Cherchevue""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""SeaFloatyBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Sea Floaty""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Flotteur des Mers"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Flotteur des Mers""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""StellarCulexBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Stellar Culex""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Culex Stellaire"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Culex Stellaire""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""BigSightseerBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Big Sightseer""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Gros Cherchevue"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Gros Cherchevue""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""GreatSandSharkBanner"",
 		""type"": ""ITEM"",
 		""englishName"": """",
@@ -11055,468 +15558,6 @@ namespace CalamityFR.JSON
 				""translatedName"": ""Bannière de Grand Requin des Sables"",
 				""translatedTooltip"": [
 					""{$CommonItemTooltip.BannerBonus}Grand Requin des Sables""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""TrasherBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Trasher""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Déchiqueteur"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Déchiqueteur""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""HiveBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Hive""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Ruche"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Ruche""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""WulfrumGyratorBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Wulfrum Gyrator""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Gyrateur Wulfrum"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Gyrateur Wulfrum""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""ReaperSharkBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Reaper Shark""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Requin Faucheur"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Requin Faucheur""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""BloatfishBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Bloatfish""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Poisson Bouffi"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Poisson Bouffi""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""VirulingBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Viruling""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Virulant"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Virulant""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""CalamityEyeBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Calamity Eye""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Oeil de Calamité"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Oeil de Calamité""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""GammaSlimeBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Gamma Slime""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Gelée Gamma"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Gelée Gamma""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""CatfishBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Catfish""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Poisson-Chat"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Poisson-Chat""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""CryoSlimeBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Cryo Slime""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Gelée Cryo"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Gelée Cryo""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""AquaticAberrationBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Aquatic Aberration""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Abérattion Aquatique"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Abérattion Aquatique""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""CosmicElementalBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Cosmic Elemental""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Élementaire Cosmique"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Élementaire Cosmique""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""CnidrionBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Cnidrion""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Cnidrion"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Cnidrion""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""BoxJellyfishBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Box Jellyfish""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Méduse-Boîte"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Méduse-Boîte""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""GnasherBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Gnasher""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Grinceur"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Grinceur""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""AriesBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Aries""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Aries"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Aries""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""ChaoticPufferBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Chaotic Puffer""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Poisson-globe Chaotique"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Poisson-globe Chaotique""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""WulfrumDroneBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Wulfrum Drone""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Drone Wulfrum"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Drone Wulfrum""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""WulfrumHovercraftBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Wulfrum Hovercraft""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Aéroglisseur Wulfrum"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Aéroglisseur Wulfrum""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""ColossalSquidBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Colossal Squid""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Calamar Colossal"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Calamar Colossal""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""FrogfishBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Frogfish""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Poisson-Grenouille"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Poisson-Grenouille""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -11546,94 +15587,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""AnthozoanCrabBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Anthozoan Crab""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Crabe Anthozoaire"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Crabe Anthozoaire""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""OverloadedSoldierBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Overloaded Soldier""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Soldat Surchargé"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Soldat Surchargé""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""FusionFeederBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Fusion Feeder""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Dévoreur de Fusion"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Dévoreur de Fusion""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""NovaBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Nova""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Nova"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Nova""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""WulfrumPylonBanner"",
 		""type"": ""ITEM"",
 		""englishName"": """",
@@ -11656,72 +15609,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""IceClasperBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Ice Clasper""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Claspeur de Glace"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Claspeur de Glace""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""PerennialSlimeBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Perennial Slime""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Gelée Vivace"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Gelée Vivace""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""HeatSpiritBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Heat Spirit""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Esprit de Chaleur"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Esprit de Chaleur""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""GiantClamBanner"",
 		""type"": ""ITEM"",
 		""englishName"": """",
@@ -11737,754 +15624,6 @@ namespace CalamityFR.JSON
 				""translatedName"": ""Bannière de Palourde Géante"",
 				""translatedTooltip"": [
 					""{$CommonItemTooltip.BannerBonus}Palourde Géante""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""SkyfinBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Skyfin""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Nageoire Céleste"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Nageoire Céleste""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""CuttlefishBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Cuttlefish""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Seiche"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Seiche""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""BloomSlimeBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Bloom Slime""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Gelée de Floraison"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Gelée de Floraison""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""OtherworldlySink"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""Counts as a water source""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Évier en Statigel"",
-				""translatedTooltip"": [
-					""Source d'eau""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""ProfanedCrucible"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""Used for special crafting""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Établi Eutrophique"",
-				""translatedTooltip"": [
-					""Utilisé pour l'artisanat spécial""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""MonolithAmalgam"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""Used for special crafting""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Établi Eutrophique"",
-				""translatedTooltip"": [
-					""Utilisé pour l'artisanat spécial""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""EutrophicShelf"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""Used for special crafting""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Établi Eutrophique"",
-				""translatedTooltip"": [
-					""Utilisé pour l'artisanat spécial""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""DiamondCrawlerBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Diamond Crawler""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Kastiel"",
-				""translatedName"": """",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Rampant de Diamant""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""TrilobiteBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Trilobite""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Trilobite"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Trilobite""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""AncientAltar"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""Used for special crafting""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Autel Ancien"",
-				""translatedTooltip"": [
-					""Utilisé pour l'artisanat spécial""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""AshenAltar"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""Used for special crafting""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Autel de Cendre"",
-				""translatedTooltip"": [
-					""Utilisé pour l'artisanat spécial""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""HadarianBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Hadarian""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Hadarien"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Hadarien""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""GhostBellBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Ghost Bell""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Cloche Fantôme"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Cloche Fantôme""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""DevilFishBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Devil Fish""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Poisson-Diable"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Poisson-Diable""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""AmberCrawlerBanner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""{$CommonItemTooltip.BannerBonus}Amber Crawler""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Rampant d'Ambre"",
-				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Rampant d'Ambre""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""SilvaBasin"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""Used for special crafting""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bassin Silva"",
-				""translatedTooltip"": [
-					""Utilisé pour l'artisanat spécial""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""VoidCondenser"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""Used for special crafting""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Condenseur de Néant"",
-				""translatedTooltip"": [
-					""Utilisé pour l'artisanat spécial""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""PlagueInfuser"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""Used for special crafting""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Infuseur de Peste"",
-				""translatedTooltip"": [
-					""Utilisé pour l'artisanat spécial""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""BotanicPlanter"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""Used for special crafting""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Planteur Botanique"",
-				""translatedTooltip"": [
-					""Utilisé pour l'artisanat spécial""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""StaticRefiner"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""Used for special crafting""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Raffineur Statique"",
-				""translatedTooltip"": [
-					""Utilisé pour l'artisanat spécial""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""AbyssTorch"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""Can be placed in water""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Torche Abyssale"",
-				""translatedTooltip"": [
-					""Peut être placée sous l'eau""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""AbyssSink"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""Counts as a water source""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Évier Abyssal"",
-				""translatedTooltip"": [
-					""Source d'eau""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""AncientSink"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""Counts as a lava source""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Évier Ancien"",
-				""translatedTooltip"": [
-					""Source de Lave""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""BotanicSink"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""Counts as a honey source""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Évier Botanique"",
-				""translatedTooltip"": [
-					""Source de Miel""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""EutrophicSink"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""Counts as a water source""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Évier Eutrophique"",
-				""translatedTooltip"": [
-					""Source d'eau""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""MonolithSink"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""Counts as a water source""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Évier Monolithique"",
-				""translatedTooltip"": [
-					""Source d'eau""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""ProfanedSink"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""Counts as a lava source""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Évier Profané"",
-				""translatedTooltip"": [
-					""Source de lave""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""SilvaSink"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""Counts as a water source""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Évier Silva"",
-				""translatedTooltip"": [
-					""Source d'eau""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""StratusSink"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""Counts as a water source""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Évier Stratus"",
-				""translatedTooltip"": [
-					""Source d'eau""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""AcidwoodSink"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""Counts as a water source""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Évier de Bois Acide"",
-				""translatedTooltip"": [
-					""Compte comme une source d'eau""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""AshenSink"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""Counts as a lava source""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Évier de Cendre"",
-				""translatedTooltip"": [
-					""Source de lave""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""VoidSink"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""Counts as a water source""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Évier du Néant"",
-				""translatedTooltip"": [
-					""Source d'eau""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""CosmiliteSink"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""Counts as a water source""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Évier en Cosmilite"",
-				""translatedTooltip"": [
-					""Source d'eau""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""StatigelSink"",
-		""type"": ""ITEM"",
-		""englishName"": """",
-		""englishTooltip"": [
-			""Counts as a water source""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Évier en Statigel"",
-				""translatedTooltip"": [
-					""Source d'eau""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -12537,32 +15676,6 @@ namespace CalamityFR.JSON
 					""Doit-être utilisé depuis la barre de raccourci"",
 					""Puissance et taille augmentée en fonction du nombre d'emplacements occupés"",
 					""Tenir cette arme augmente votre vitesse de saut de 10%""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""Abombination"",
-		""type"": ""ITEM"",
-		""englishName"": ""Abombination"",
-		""englishTooltip"": [
-			""Calls in the airborne abomination"",
-			""Summons the Plaguebringer Goliath when used in the jungle"",
-			""Not consumable""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Abombination"",
-				""translatedTooltip"": [
-					""Appelle l'abomination aérienne"",
-					""Invoque le Goliath Colporte-Peste quand utilisé dans la jungle"",
-					""Non consommable""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -12821,38 +15934,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""AbyssalMirror"",
-		""type"": ""ITEM"",
-		""englishName"": ""Abyssal Mirror"",
-		""englishTooltip"": [
-			""Light does not reach the depths of the ocean"",
-			""Significantly reduces enemy aggression, even in the abyss"",
-			""Stealth generates 30% faster when standing still and 20% faster while moving"",
-			""Grants the ability to evade attacks, releasing a cloud of lumenyl fluid which damages and stuns nearby enemies"",
-			""Evading an attack grants a lot of stealth but has a 90 second cooldown"",
-			""This cooldown is shared with all other dodges and reflects""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Miroir Abyssal"",
-				""translatedTooltip"": [
-					""La lumière n'atteint pas les profondeurs des océans"",
-					""Réduit considérablement l'agressivité des ennemis, même dans les abysses"",
-					""La furtivité se génère 30% plus vite quand vous ne bougez pas et 20% plus vite quand vous bougez"",
-					""Permet d'esquiver les attaques en relâchant un nuage de lumenyl liquide qui endommage et stoppe les ennemis proches"",
-					""Esquiver une attaque augmente beaucoup votre furtivité mais à un temps de recharge de 90s"",
-					""Ce temps de recharge est partagé avec le temps de recharge des autres effets d'esquive et de renvoi""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""AbyssalTome"",
 		""type"": ""ITEM"",
 		""englishName"": ""Abyssal Tome"",
@@ -13069,6 +16150,28 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
+		""id"": ""AdamantiteParticleAccelerator"",
+		""type"": ""ITEM"",
+		""englishName"": ""Adamantite Particle Accelerator"",
+		""englishTooltip"": [
+			""Charges and fires 2 beams of opposite polarities. Hitting with the opposite polarity increases the damage""
+		],
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Accélérateur de Particule en Adamantite"",
+				""translatedTooltip"": [
+					""Charge et tire deux rayons de polarités opposées. Toucher avec la polarité opposé augmente les dégâts""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
 		""id"": ""AdamantiteThrowingAxe"",
 		""type"": ""ITEM"",
 		""englishName"": ""Adamantite Throwing Axe"",
@@ -13101,28 +16204,6 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": ""Coloration d'Adrénaline"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""AdvancedDisplay"",
-		""type"": ""ITEM"",
-		""englishName"": ""Advanced Display"",
-		""englishTooltip"": [
-			""Can be placed on the Codebreaker""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Dispositif d'Affichage Avancé"",
-				""translatedTooltip"": [
-					""Peut-être placé sur le décodeur""
-				],
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -13743,34 +16824,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""AlluringBait"",
-		""type"": ""ITEM"",
-		""englishName"": ""Alluring Bait"",
-		""englishTooltip"": [
-			""30 increased fishing power during the day"",
-			""45 increased fishing power during the night"",
-			""60 increased fishing power during a solar eclipse"",
-			""Greatly increases chance of catching potion ingredient fish""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Appât attrayant"",
-				""translatedTooltip"": [
-					""+30 puissance de pêche le jour"",
-					""+45 puissance de pêche la nuit"",
-					""+60 puissance de pêche lors d'une éclipse solaire"",
-					""Augmente considérablement les chances d'attraper des poissons servant de matériau""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""Alluvion"",
 		""type"": ""ITEM"",
 		""englishName"": ""Alluvion"",
@@ -13836,32 +16889,6 @@ namespace CalamityFR.JSON
 				""translatedTooltip"": [
 					""Jette une cellule de peste géante avec une aura létale qui se divise en 6 colportes-peste quand elle disparaît"",
 					""Les attaques furtives font voyager la cellule plus lentement et la fait accumuler une aura de colportes-peste tourbillonants""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""AltarOfTheAccursedItem"",
-		""type"": ""ITEM"",
-		""englishName"": ""Altar of the Accursed"",
-		""englishTooltip"": [
-			""Offer Ashes of Calamity at this altar to summon the Witch"",
-			""Doing so will create a square arena of blocks, with the altar at its center"",
-			""During the battle, heart pickups only heal for half as much""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Autel des Maudits"",
-				""translatedTooltip"": [
-					""Offrez les Cendres de Calamité a cet autel pour invoquer la Sorcière"",
-					""Le faire créera une arène carrée faites de blocs, avec l'autel en son centre"",
-					""Pendant le combat, les coeurs vous soignent pour moitié moins""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -14949,32 +17976,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""AridArtifact"",
-		""type"": ""ITEM"",
-		""englishName"": ""Arid Artifact"",
-		""englishTooltip"": [
-			""Summons a sandstorm"",
-			""The sandstorm will happen shortly after the item is used"",
-			""Not consumable""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Artéfact Aride"",
-				""translatedTooltip"": [
-					""Invoque une tempête de sable"",
-					""La tempête de sable arrivera peu après l'utilisation de l'objet"",
-					""Non consommable""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""TrueArkoftheAncients"",
 		""type"": ""ITEM"",
 		""englishName"": ""Ark of the Ancients"",
@@ -15281,6 +18282,44 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
+		""id"": ""AshesofAnnihilation"",
+		""type"": ""ITEM"",
+		""englishName"": ""Ashes of Annihilation"",
+		""englishTooltip"": [
+			""The smoldering essence of the Witch's wrath""
+		],
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Cendres d'Annihilation"",
+				""translatedTooltip"": [
+					""L'essence incandescente de la colère de la Sorcière""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""AshesofCalamity"",
+		""type"": ""ITEM"",
+		""englishName"": ""Ashes of Calamity"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Cendre de Calamité"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
 		""id"": ""AsteroidStaff"",
 		""type"": ""ITEM"",
 		""englishName"": ""Asteroid Staff"",
@@ -15469,30 +18508,6 @@ namespace CalamityFR.JSON
 				""translatedTooltip"": [
 					""+80 mana maximum et +20 vie maximum"",
 					""Détection des ennemis""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""AstralChunk"",
-		""type"": ""ITEM"",
-		""englishName"": ""Astral Chunk"",
-		""englishTooltip"": [
-			""Summons Astrum Aureus when used in the astral infection during nighttime"",
-			""Not consumable""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Morceau Astral"",
-				""translatedTooltip"": [
-					""Invoque Astrum Aureus quand utilisé dans l'infection astrale la nuit"",
-					""Non consommable""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -16120,6 +19135,54 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
+		""id"": ""AstrumAureusMask"",
+		""type"": ""ITEM"",
+		""englishName"": ""Astrum Aureus Mask"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Masque d'Astrum Aureus"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""AstrumAureusRelic"",
+		""type"": ""ITEM"",
+		""englishName"": ""Astrum Aureus Relic"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Relique d'Astrum Aureus"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""AstrumAureusTrophy"",
+		""type"": ""ITEM"",
+		""englishName"": ""Astrum Aureus Trophy"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Trophée d'Astrum Aureus"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
 		""id"": ""KnowledgeAstrumDeus"",
 		""type"": ""ITEM"",
 		""englishName"": ""Astrum Deus"",
@@ -16269,6 +19332,36 @@ namespace CalamityFR.JSON
 					""L'aurore réduit les dégâts subis du prochain projectile qui vous touche de 100"",
 					""Cet effet dure 20s, et met 30s à se recharger"",
 					""50% de chances de ne pas consommer de munitions""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""AureateBooster"",
+		""type"": ""ITEM"",
+		""englishName"": ""Aureate Booster"",
+		""englishTooltip"": [
+			""Mach speed with style!"",
+			""Horizontal speed: 8.00"",
+			""Acceleration multiplier: 1.5"",
+			""Good vertical speed"",
+			""Flight time: 120""
+		],
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Booster Aureate"",
+				""translatedTooltip"": [
+					""Mach 1 avec classe!"",
+					""Vitesse horizontale: 8.00"",
+					""Mutiplicateur d'accélération: 1.5"",
+					""Bonne vitesse verticale"",
+					""Temps de vol: 120""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -16482,6 +19575,28 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
+		""id"": ""AuricTeslaRoyalHelm"",
+		""type"": ""ITEM"",
+		""englishName"": ""Auric Tesla Royal Helm"",
+		""englishTooltip"": [
+			""20% increased melee damage and critical strike chance""
+		],
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Heaume Royal Tesla Aurique"",
+				""translatedTooltip"": [
+					""+20% de dégâts et de chances de critique en mêlée""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
 		""id"": ""AuricTeslaSpaceHelmet"",
 		""type"": ""ITEM"",
 		""englishName"": ""Auric Tesla Space Helmet"",
@@ -16673,6 +19788,22 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
+		""id"": ""BabyFlakCrabItem"",
+		""type"": ""ITEM"",
+		""englishName"": ""Baby Flak Crab"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bébé Crabe Flak"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
 		""id"": ""BabyFlakCrabBanner"",
 		""type"": ""ITEM"",
 		""englishName"": ""Baby Flak Crab Banner"",
@@ -16689,6 +19820,22 @@ namespace CalamityFR.JSON
 				""translatedTooltip"": [
 					""{$CommonItemTooltip.BannerBonus}Bébé Crabe Flak""
 				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""BabyFlakCrabCage"",
+		""type"": ""ITEM"",
+		""englishName"": ""Baby Flak Crab Cage"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Cage de Bébé Crabe Flak"",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -16743,32 +19890,6 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": ""Bébé Cloche Fantôme en Pot"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""BadgeofBravery"",
-		""type"": ""ITEM"",
-		""englishName"": ""Badge of Bravery"",
-		""englishTooltip"": [
-			""15% increased melee speed"",
-			""Increases melee damage and melee crit by 5%"",
-			""+5 armor penetration""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Badge de Bravoure"",
-				""translatedTooltip"": [
-					""+15% de vitesse de corps à corps"",
-					""Augmente les dégats et les chances de critique en mêlée de 5%"",
-					""+5 pénétration d'armure""
-				],
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -17217,28 +20338,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""BlackHawkRemote"",
-		""type"": ""ITEM"",
-		""englishName"": ""Black Hawk Remote"",
-		""englishTooltip"": [
-			""Summons a Black Hawk jet to fight for you""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Télécommande du Faucon Noir"",
-				""translatedTooltip"": [
-					""Invoque un jet du faucon noir pour combattre à vos côtés""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""BladecrestOathsword"",
 		""type"": ""ITEM"",
 		""englishName"": ""Bladecrest Oathsword"",
@@ -17344,30 +20443,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""BlazingStar"",
-		""type"": ""ITEM"",
-		""englishName"": ""Blazing Star"",
-		""englishTooltip"": [
-			""Stacks up to 4"",
-			""Stealth strikes release all stars at once with infinite piercing""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Étoile Flamboyante"",
-				""translatedTooltip"": [
-					""Se cumule 4 fois"",
-					""Les attaques furtives libèrent toutes les étoiles simultanément et transperçent indéfiniment""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""BleachBall"",
 		""type"": ""ITEM"",
 		""englishName"": ""Bleach Ball"",
@@ -17408,6 +20483,38 @@ namespace CalamityFR.JSON
 					""A une chance de contenir divers équipements de pêche"",
 					""{$CommonItemTooltip.RightClickToOpen}""
 				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""BlightSpewer"",
+		""type"": ""ITEM"",
+		""englishName"": ""Blight Spewer"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Cracheur de Corruption"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""BlightedGel"",
+		""type"": ""ITEM"",
+		""englishName"": ""Blighted Gel"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Gelée Corrompue"",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -17501,6 +20608,52 @@ namespace CalamityFR.JSON
 				""translatedName"": ""Bâton du Caillot Sanguin"",
 				""translatedTooltip"": [
 					""Invoque un Caillot sanguin pour combattre à vos côtés""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""RevengeanceModeItem"",
+		""type"": ""ITEM"",
+		""englishName"": ""Blood Fountain of Revengeance"",
+		""englishTooltip"": [
+			""Enables/disables Revengeance Mode, can only be used in Expert Mode."",
+			""RAGE TOOLTIP LINE HERE"",
+			""You gain Rage when in proximity of enemies or by using special items."",
+			""ADRENALINE TOOLTIP LINE HERE"",
+			""You gain Adrenaline whenever a boss is alive. Getting hit drops Adrenaline back to 0."",
+			""Getting hit while Adrenaline is maxed will reduce damage taken by a massive amount."",
+			""All enemies spawn 15% more frequently."",
+			""Certain non-boss enemies and projectiles deal between 10% and 25% more damage."",
+			""Makes certain enemies block life steal and nerfs the effectiveness of life steal."",
+			""Nerfs the effectiveness of the Hallowed Armor set bonus."",
+			""All boss minions no longer drop hearts."",
+			""Changes all boss AIs and some enemy AIs."",
+			""Increases the health and damage of all bosses.""
+		],
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Fontaine de Sang de Revengeance"",
+				""translatedTooltip"": [
+					""Active/Désactive le mode Revengeance, utilisable seulement en Mode Expert."",
+					""RAGE TOOLTIP LINE HERE"",
+					""Vous gagnez de la rage quand vous êtes a proximité d'ennemis ou en utilisant certains objets."",
+					""ADRENALINE TOOLTIP LINE HERE"",
+					""Vous gagnez de l'adrénaline quand un boss est en vie. Être touché fait retomber l'adrénaline à 0"",
+					""Être touché quand l'adrénaline est au maximum réduira massivement les dégâts subis."",
+					""Tous les ennemis apparaîssent 15% plus fréquement."",
+					""Certains ennemis et projectiles (hors-boss) font entre 10% et 25% de dégâts supplémentaires."",
+					""Immunise certains ennemis au vol de vie et réduit l'efficacité du vol de vie en général."",
+					""Réduit l'efficacité du bonus de set de l'armure sacrée."",
+					""Les sbires des boss ne laissent plus de coeurs en mourant."",
+					""Modifie l'IA des boss et certaines IA des ennemis."",
+					""Augmente la santé et les dégâts de tous les boss.""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -17980,28 +21133,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""BloodwormItem"",
-		""type"": ""ITEM"",
-		""englishName"": ""Bloodworm"",
-		""englishTooltip"": [
-			""Summons The Old Duke if used as bait in the sulphur sea""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Kastiel"",
-				""translatedName"": ""Ver de Sang"",
-				""translatedTooltip"": [
-					""Invoque le Vieux Duc s'il est utilisé comme un appât dans dans la mer sulfurique""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""BloodyEdge"",
 		""type"": ""ITEM"",
 		""englishName"": ""Bloody Edge"",
@@ -18067,30 +21198,6 @@ namespace CalamityFR.JSON
 				""translatedName"": ""Veine Sanglante"",
 				""translatedTooltip"": [
 					""Invoque un tas de chair amalgamé""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""BloodyWormFood"",
-		""type"": ""ITEM"",
-		""englishName"": ""Bloody Worm Food"",
-		""englishTooltip"": [
-			""Summons the Perforator Hive when used in the crimson"",
-			""Not consumable""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Nourriture Sanglante pour Ver"",
-				""translatedTooltip"": [
-					""Invoque la Ruche du Perforateur quand utilisé dans le carmin"",
-					""Non consommable""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -18395,32 +21502,6 @@ namespace CalamityFR.JSON
 					""Tire un globe oculaire qui rebondit sur les surfaces."",
 					""Le recul est bien plus fort durant la lune sanglante"",
 					""Les attaques furtives rendent les globes oculaires bien plus rapides et rebondissent plus énergiquement""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""BouncySpikyBall"",
-		""type"": ""ITEM"",
-		""englishName"": ""Bouncy Spiky Ball"",
-		""englishTooltip"": [
-			""Throws a very bouncy ball that ricochets off walls and enemies"",
-			""Receives a small boost in damage and velocity after bouncing off an enemy"",
-			""Stealth strikes provide a bigger boost after ricocheting""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Boule à Piques Rebondissante"",
-				""translatedTooltip"": [
-					""Lance une boule rebondissante qui ricoche sur les murs et les ennemis"",
-					""Gagne un petit bonus aux dégâts et en vitesse quand elle rebondit sur un ennemi"",
-					""Les attaques furtives augmentent le bonus de ricochet""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -18904,30 +21985,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""BrimstoneSword"",
-		""type"": ""ITEM"",
-		""englishName"": ""Brimstone Sword"",
-		""englishTooltip"": [
-			""Summons brimstone geysers on hit"",
-			""Right click to throw like a javelin that explodes on hit""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Épée de soufre"",
-				""translatedTooltip"": [
-					""Invoque des geysers de soufre quand vous touchez"",
-					""Clic droit pour lancer un javelot qui explose quand il touche""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""BrinyBaron"",
 		""type"": ""ITEM"",
 		""englishName"": ""Briny Baron"",
@@ -18946,6 +22003,52 @@ namespace CalamityFR.JSON
 					""Frapper un ennemi avec la lame fait apparaître un tourbillon salé"",
 					""Clic droit pour tirer une roue acérée""
 				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""BrokenBiomeBlade"",
+		""type"": ""ITEM"",
+		""englishName"": ""Broken Biome Blade"",
+		""englishTooltip"": [
+			""FUNCTION_DESC"",
+			""Hold down RMB while standing still on flat ground to attune the weapon to the powers of the surrounding biome"",
+			""Using RMB otherwise switches between the current attunement and an extra stored one"",
+			""Main Attunement : [None]"",
+			""Secondary Attunement: [None]""
+		],
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Lame de Biome Brisée"",
+				""translatedTooltip"": [
+					""FUNCTION_DESC"",
+					""Laisser le clic droit appuyé sans bouger sur un terrain plat pour harmoniser l'arme avec les pouvoirs du biome environnant"",
+					""Clic droit pour changer entre l'harmonisation courante et celle stockée en plus"",
+					""Harmonisation Principale : [Aucune]"",
+					""Harmonisation Secondaire: [Aucune]""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""BrokenPlaguedBed"",
+		""type"": ""ITEM"",
+		""englishName"": ""Broken Plagued 'Bed'"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""'Lit' Pestiféré Cassé"",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -19092,6 +22195,32 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
+		""id"": ""CadancePotion"",
+		""type"": ""ITEM"",
+		""englishName"": ""Cadance Potion"",
+		""englishTooltip"": [
+			""Grants Cadance's Grace, which increases life regeneration and heart pickup range"",
+			""Increases max life by 25%"",
+			""While this potion's buff is active, Regeneration Potion and Lifeforce Potion buffs are disabled""
+		],
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Cadance Potion"",
+				""translatedTooltip"": [
+					""Accorde la Grâce de Cadence, qui augmente la régénération de vie et la portée de récupération des coeurs"",
+					""Augmente la vie maximum de 25%"",
+					""Quand l'effet de cette potion est actif, les effets des potions de régénération et de force vitale sont désactivés""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
 		""id"": ""CadaverousCarrion"",
 		""type"": ""ITEM"",
 		""englishName"": ""Cadaverous Carrion"",
@@ -19196,6 +22325,22 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": ""Masque de Calamitas"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""CalamitasRelic"",
+		""type"": ""ITEM"",
+		""englishName"": ""Calamitas Relic"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Relique de Calamitas"",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -19691,6 +22836,32 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
+		""id"": ""CelestialOnion"",
+		""type"": ""ITEM"",
+		""englishName"": ""Celestial Onion"",
+		""englishTooltip"": [
+			""Alien power pulses inside its layers"",
+			""Consuming it does something that cannot be reversed"",
+			""This item does nothing in Master Mode""
+		],
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Oignon Céleste"",
+				""translatedTooltip"": [
+					""Une pouvoir alien pulse au sein de ses couches"",
+					""Le consommer engendre quelque chose d'irréversible"",
+					""N'a aucun effet en mode Maître""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
 		""id"": ""CelestialReaper"",
 		""type"": ""ITEM"",
 		""englishName"": ""Celestial Reaper"",
@@ -19711,6 +22882,38 @@ namespace CalamityFR.JSON
 					""La faux rebondit après avoir touché un ennemi jusqu'a 6 fois"",
 					""Les attaques furtives créent des images rémanentes qui infligent des dégâts""
 				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""CelestialRemains"",
+		""type"": ""ITEM"",
+		""englishName"": ""Celestial Remains"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Restes Célestes"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""CelestialRemainsWall"",
+		""type"": ""ITEM"",
+		""englishName"": ""Celestial Remains Wall"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Mur de Restes Célestes"",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -19921,31 +23124,6 @@ namespace CalamityFR.JSON
 				""translatedTooltip"": [
 					""Charge les objets de l'arsenal de Draedon en utilisant des cellules d'énergie"",
 					""Placez à la fois un objet et des cellules d'énergie dans la station pour charger l'objet""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""CharredIdol"",
-		""type"": ""ITEM"",
-		""englishName"": ""Charred Idol"",
-		""englishTooltip"": [
-			""Use at your own risk"",
-			""Summons the Brimstone Elemental when used in the brimstone crags"",
-			""Not consumable""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Idole Calcinée"",
-				""translatedTooltip"": [
-					""Invoque l'Élémentaire de soufre quand utilisé dans les vestiges souffrés"",
-					""Non consommable""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -20485,30 +23663,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""CoinofDeceit"",
-		""type"": ""ITEM"",
-		""englishName"": ""Coin of Deceit"",
-		""englishTooltip"": [
-			""Stealth strikes only expend 75% of your max stealth"",
-			""6% increased rogue crit chance""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Pièce de Tromperie"",
-				""translatedTooltip"": [
-					""Les attaques furtives ne consomment que 75% de votre furtivité"",
-					""6% des coups critiques pour les dégâts de voleur""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""ColdDivinity"",
 		""type"": ""ITEM"",
 		""englishName"": ""Cold Divinity"",
@@ -20576,6 +23730,32 @@ namespace CalamityFR.JSON
 				""translatedName"": ""Éclat de Comète"",
 				""translatedTooltip"": [
 					""Augmente de façon permanente votre mana maximum de 50""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""Condemnation"",
+		""type"": ""ITEM"",
+		""englishName"": ""Condemnation"",
+		""englishTooltip"": [
+			""Fires powerful scarlet bolts suffused with hateful magics"",
+			""Hold left click to load up to eight bolts for powerful burst fire"",
+			""Hold right click to use the repeater full auto""
+		],
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Condamnation"",
+				""translatedTooltip"": [
+					""Tire de puissants carreaux écarlates infusés avec des magies emplies de haine"",
+					""Laissez le clic gauche appuyé pour charger jusqu'a huit carreaux pour un puissant tir groupé"",
+					""Laissez le clic droit enfoncé pour tirer en mode automatique""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -20729,33 +23909,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""CoralSpout"",
-		""type"": ""ITEM"",
-		""englishName"": ""Coral Spout"",
-		""englishTooltip"": [
-			""Casts a shotgun-like blast of coral shards"",
-			""Keep the attack button held down to narrow the spread"",
-			""Fully charging the attack releases a single, bigger chunk of coral that sticks to enemies"",
-			""Grabbing the chunk of coral after it falls from the enemy replenishes 100 mana"",
-			""[c/5C95A1:Knowledge is important, and the Old Sea Kingdom’s many scribes knew it had to be preserved at any cost.]"",
-			""[c/5C95A1:Their libraries were much larger than most, because of the water-proof stone tablets occupying them.]""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Débiteur de Corail"",
-				""translatedTooltip"": [
-					""Convoque des éclats de corail qui se posent au sol et endommagent les ennemis""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""CoralskinFoolfish"",
 		""type"": ""ITEM"",
 		""englishName"": ""Coralskin Foolfish"",
@@ -20820,6 +23973,22 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": ""Noyau d'Eleum"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""CoreofSunlight"",
+		""type"": ""ITEM"",
+		""englishName"": ""Core of Sunlight"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Noyau de Lueur Solaire"",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -20931,32 +24100,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""CorrosiveSpine"",
-		""type"": ""ITEM"",
-		""englishName"": ""Corrosive Spine"",
-		""englishTooltip"": [
-			""10% increased movement speed"",
-			""All rogue weapons inflict venom and spawn clouds on enemy hits"",
-			""You release a ton of clouds everywhere on hit""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Colonne Vertébrale Corrosive"",
-				""translatedTooltip"": [
-					""10% d'augmentation du déplacement"",
-					""Toutes les armes de voleur infligent le venin et créent des nuages quand ils touchent les ennemis"",
-					""Vous relâchez une tonne de nuage partout quand vous êtes touché""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""CorroslimeStaff"",
 		""type"": ""ITEM"",
 		""englishName"": ""Corroslime Staff"",
@@ -21043,6 +24186,30 @@ namespace CalamityFR.JSON
 				""translatedTooltip"": [
 					""Plus jamais."",
 					""Invoque un puissant corbeau qui se téléporte et se rue""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""CosmicAnvilItem"",
+		""type"": ""ITEM"",
+		""englishName"": ""Cosmic Anvil"",
+		""englishTooltip"": [
+			""An otherworldly anvil capable of withstanding the pressures of stellar collapse"",
+			""Also functions as every previous tier of anvil""
+		],
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Enclume Cosmique"",
+				""translatedTooltip"": [
+					""Une enclume d'un autre monde capable de supporter la pression d'un effondrement stellaire"",
+					""Remplace également toutes les enclumes précédentes""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -21199,54 +24366,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""CosmicShiv"",
-		""type"": ""ITEM"",
-		""englishName"": ""Cosmic Shiv"",
-		""englishTooltip"": [
-			""Definitely don't underestimate the power of shivs"",
-			""Fires a cosmic beam that homes in on enemies"",
-			""Upon hitting an enemy, a barrage of offscreen objects home in on the enemy as well as raining stars""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Surin Cosmique"",
-				""translatedTooltip"": [
-					""Ne sous-estimez vraiment pas le pouvoir des surins"",
-					""Tire un rayon cosmique qui pourchasse les ennemis"",
-					""Quand vous touchez un ennemi, un barrage d'objets venant d'en dehors de l'écran pourchassent l'ennemi en plus de faire pleuvoir des étoiles""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""CosmicViperEngine"",
-		""type"": ""ITEM"",
-		""englishName"": ""Cosmic Viper Engine"",
-		""englishTooltip"": [
-			""Summons a cosmic gunship to shoot down your foes""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Moteur Cosmique Vipère"",
-				""translatedTooltip"": [
-					""Invoque un vaisseau de combat pour abattre vos ennemis""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""CosmicWorm"",
 		""type"": ""ITEM"",
 		""englishName"": ""Cosmic Worm"",
@@ -21334,6 +24453,22 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
+		""id"": ""CosmiliteDye"",
+		""type"": ""ITEM"",
+		""englishName"": ""Cosmilite Dye"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Teinture de Cosmilite"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
 		""id"": ""Cosmolight"",
 		""type"": ""ITEM"",
 		""englishName"": ""Cosmolight"",
@@ -21351,34 +24486,6 @@ namespace CalamityFR.JSON
 				""translatedTooltip"": [
 					""Change la nuit en jour et vice-versa"",
 					""Ne fonctionne pas quand un boss est en vie""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""CounterScarf"",
-		""type"": ""ITEM"",
-		""englishName"": ""Counter Scarf"",
-		""englishTooltip"": [
-			""True melee strikes deal 10% more damage"",
-			""Grants the ability to dash; dashing into an attack will cause you to dodge it"",
-			""After a successful dodge you must wait 30 seconds before you can dodge again""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Echarpe de Contre"",
-				""translatedTooltip"": [
-					""Les attaques de vraie mêlée font 10% de dégâts supplémentaires"",
-					""Donne la possibilité de foncer, foncer dans une attaque vous permettra de l'esquiver"",
-					""Après une esquive réussie, vous devez attendre 15s avant de pouvoir esquiver de nouveau"",
-					""Ce temps de recharge est doublé si vous subissez le Chaos"",
-					""Durant le temps de recharge, le Chaos dure deux fois plus longtemps""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -21426,6 +24533,22 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
+		""id"": ""CrabulonRelic"",
+		""type"": ""ITEM"",
+		""englishName"": ""Crabulon Relic"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Relique de Crabulon"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
 		""id"": ""CrabulonTrophy"",
 		""type"": ""ITEM"",
 		""englishName"": ""Crabulon Trophy"",
@@ -21458,6 +24581,22 @@ namespace CalamityFR.JSON
 				""translatedTooltip"": [
 					""Ses écailles sont brûlantes""
 				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""CragmawMireRelic"",
+		""type"": ""ITEM"",
+		""englishName"": ""Cragmaw Mire Relic"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Relique de Machoire Rochefange"",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -21628,30 +24767,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""CrumblingPotion"",
-		""type"": ""ITEM"",
-		""englishName"": ""Crumbling Potion"",
-		""englishTooltip"": [
-			""Increases melee and rogue critical strike chance by 5%"",
-			""Melee and rogue attacks break enemy armor""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Potion d'Effritement"",
-				""translatedTooltip"": [
-					""Augmente les dégâts et les chances de coup critique de mêlée et de voleur de 5%"",
-					""Les attaques de mêlée et de voleur brisent l'armure""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""CrushsawCrasher"",
 		""type"": ""ITEM"",
 		""englishName"": ""Crushsaw Crasher"",
@@ -21669,30 +24784,6 @@ namespace CalamityFR.JSON
 				""translatedTooltip"": [
 					""Jette des haches rebondissantes"",
 					""Les attaques furtives en lancent 5 à la fois""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""CryoKey"",
-		""type"": ""ITEM"",
-		""englishName"": ""Cryo Key"",
-		""englishTooltip"": [
-			""Summons Cryogen when used in the tundra"",
-			""Not consumable""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Clé Cryo"",
-				""translatedTooltip"": [
-					""Invoque Cryogène quand utilisé dans la toundra"",
-					""Ne se consomme pas""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -21798,6 +24889,38 @@ namespace CalamityFR.JSON
 					""Invoque un construct de glace animé pour vous protéger"",
 					""Portée et vitesse de tir augmentée au fur et à mesure qu'il vise un ennemi""
 				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""CryonicBar"",
+		""type"": ""ITEM"",
+		""englishName"": ""Cryonic Bar"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Lingot Cryonique"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""CryonicDye"",
+		""type"": ""ITEM"",
+		""englishName"": ""Cryonic Dye"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Teinture Cryonique"",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -21962,6 +25085,66 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
+		""id"": ""CyanSeekingMechanism"",
+		""type"": ""ITEM"",
+		""englishName"": ""Cyan Seeking Mechanism"",
+		""englishTooltip"": [
+			""Moves swiftly towards a lab deep below the desert""
+		],
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Mécanisme Chercheur Cyan"",
+				""translatedTooltip"": [
+					""Se dirige rapidement vers un labo profondément enfoui sous le désert""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""DaawnlightSpiritOrigin"",
+		""type"": ""ITEM"",
+		""englishName"": ""Daawnlight Spirit Origin"",
+		""englishTooltip"": [
+			""All nearby enemies and bosses are marked with bullseyes"",
+			""Ranged attacks that strike a bullseye always critically strike and deal massive damage"",
+			""When a bullseye is struck, it vanishes and a new one appears elsewhere"",
+			""Explosions or large projectiles cannot strike bullseyes"",
+			""Converts all ranged critical strike chance boosts into extra critical strike damage"",
+			""All ranged weapons will deal even more critical strike damage the slower they are"",
+			""Summons a heroic spirit from another world if accessory visibility is enabled"",
+			""The heroic spirit is also summoned when this accessory is placed in vanity slots"",
+			""'A strand of a lost cosmos remains, waiting for its master'""
+		],
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Origine de l'Esprit d'Aubelumière"",
+				""translatedTooltip"": [
+					""Tous les ennemis proches sont marqués"",
+					""Les attaques à distance qui touchent un ennemi marqué sont toujours critique et infligent des dégâts massifs"",
+					""Quand une marque est touchée, elle disparaît et une nouvelle apparaît ailleurs"",
+					""Les explosions et les projectiles larges ne fonctionne pas sur les marques"",
+					""Convertit les chances de coup critique à distance en chance d'infliger des dégâts extra critiques"",
+					""Les dégâts critiques augmentent encore plus sur les armes tirant des projectiles lents"",
+					""Invoque un esprit héroïque d'un autre monde quand la visibilité de cette accessoire est activée"",
+					""L'esprit héroïque est également invoqué si l'accessoire est placé dans les emplacements cosmétiques"",
+					""'Un brin de cosmos perdu reste, attendant son maître'""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
 		""id"": ""DaedalusBreastplate"",
 		""type"": ""ITEM"",
 		""englishName"": ""Daedalus Breastplate"",
@@ -22001,6 +25184,30 @@ namespace CalamityFR.JSON
 				""translatedTooltip"": [
 					""+13% de dégâts de voleur et +7% de chances de coup critique de voleur, +15% de vitesse des projectiles de voleur"",
 					""+5% de vitesse de mouvement""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""DaedalusGolemStaff"",
+		""type"": ""ITEM"",
+		""englishName"": ""Daedalus Golem Staff"",
+		""englishTooltip"": [
+			""Summons a Daedalus Golem soldier that fires pellets and electricity"",
+			""Shining god of greed""
+		],
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bâton de Golem de Dédale"",
+				""translatedTooltip"": [
+					""Invoque un Golem Soldat de Dédale qui tire des fragments et de l'électricité"",
+					""Dieu de l'Avarice Brillant""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -22163,36 +25370,6 @@ namespace CalamityFR.JSON
 				""translatedName"": ""Rampant Humide"",
 				""translatedTooltip"": [
 					""Le rampant humide vous protègera""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""DarkGodsSheath"",
-		""type"": ""ITEM"",
-		""englishName"": ""Dark God's Sheath"",
-		""englishTooltip"": [
-			""+20 maximum stealth"",
-			""Mobile stealth generation accelerates while not attacking"",
-			""Stealth strikes have a 100% critical hit chance"",
-			""Stealth strikes only expend 50% of your max stealth"",
-			""6% increased rogue damage, and 6% increased rogue crit chance""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Fourreau du Dieu Sombre"",
-				""translatedTooltip"": [
-					""+20 de furtivité maximum"",
-					""La génération de furtivité lorsque vous êtes en mouvement est augmentée"",
-					""Les attaques furtives ont 100% de chances de coup critique"",
-					""Les coups critiques ne consomment que la moitié de votre furtivité"",
-					""6% des dégâts et de chances de coup critique supplémentaires pour les dégâts de voleur""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -22364,6 +25541,30 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
+		""id"": ""DeadshotBrooch"",
+		""type"": ""ITEM"",
+		""englishName"": ""Deadshot Brooch"",
+		""englishTooltip"": [
+			""10% increased ranged damage, 5% increased ranged critical strike chance and 20% reduced ammo usage"",
+			""Greatly increases all ranged projectile velocity""
+		],
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Broche de l'Abattu"",
+				""translatedTooltip"": [
+					""+10% de dégâts à distance, +5% de chances de coup critique à distance et -20% de consommation de munitions"",
+					""Augmente grandement la vélocité des projectiles des armes à distance""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
 		""id"": ""DeathValleyDuster"",
 		""type"": ""ITEM"",
 		""englishName"": ""Death Valley Duster"",
@@ -22436,6 +25637,30 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
+		""id"": ""DeathstareRod"",
+		""type"": ""ITEM"",
+		""englishName"": ""Deathstare Rod"",
+		""englishTooltip"": [
+			""Summons an eye above your head that watches you and shoots at enemies"",
+			""There can only be one eye""
+		],
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Baguette du Regard Mortel"",
+				""translatedTooltip"": [
+					""Invoque un oeil au dessus de votre tête qui vous surveille et tire sur les ennemis"",
+					""Il ne peut y avoir qu'un oeil""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
 		""id"": ""Deathwind"",
 		""type"": ""ITEM"",
 		""englishName"": ""Deathwind"",
@@ -22453,30 +25678,6 @@ namespace CalamityFR.JSON
 				""translatedTooltip"": [
 					""Tire une volée de 4 flèches"",
 					""Les flèches de bois sont converties en flèches nébulaires""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""DecapoditaSprout"",
-		""type"": ""ITEM"",
-		""englishName"": ""Decapodita Sprout"",
-		""englishTooltip"": [
-			""Summons Crabulon when used in the mushroom biome"",
-			""Not consumable""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Germe de Décapodite"",
-				""translatedTooltip"": [
-					""Invoque Crabulon quand utilisé dans un biome champignon"",
-					""Non consommable""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -22899,30 +26100,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""DesertMedallion"",
-		""type"": ""ITEM"",
-		""englishName"": ""Desert Medallion"",
-		""englishTooltip"": [
-			""Summons the Desert Scourge when used in the desert"",
-			""Not consumable""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Médaillon du Desert"",
-				""translatedTooltip"": [
-					""Invoque le Fléau du Désert quand utilisé dans le désert"",
-					""Non consommable""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""DesertProwlerHat"",
 		""type"": ""ITEM"",
 		""englishName"": ""Desert Prowler Hat"",
@@ -23015,54 +26192,6 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": ""Trophée du Fléau du Désert"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""Devastation"",
-		""type"": ""ITEM"",
-		""englishName"": ""Devastation"",
-		""englishTooltip"": [
-			""Fires galaxy blasts that explode""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Dévastation"",
-				""translatedTooltip"": [
-					""Tire des décharges de galaxie qui explosent""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""DevilsDevastation"",
-		""type"": ""ITEM"",
-		""englishName"": ""Devil's Devastation"",
-		""englishTooltip"": [
-			""Fires a spread of demonic scythes"",
-			""Pitchforks rise from the underworld to skewer your foes"",
-			""Critical hits cause shadowflame explosions""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Dévastation du Diable"",
-				""translatedTooltip"": [
-					""Tire un éventail de faux démoniaques"",
-					""Des fourches se soulèvent des enfers pour empaler vos ennemis"",
-					""Les coups critiques déclenchent des explosions d'ombreflamme""
-				],
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -23164,6 +26293,30 @@ namespace CalamityFR.JSON
 				""translatedName"": ""Pique Malade"",
 				""translatedTooltip"": [
 					""Tire des cherches-peste quand vous touchez""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""Disseminator"",
+		""type"": ""ITEM"",
+		""englishName"": ""Disseminator"",
+		""englishTooltip"": [
+			""@everyone"",
+			""50% chance to not consume ammo""
+		],
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Disseminateur"",
+				""translatedTooltip"": [
+					""@everyone"",
+					""50% de chances de ne pas consommer de munitions""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -23341,6 +26494,22 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
+		""id"": ""DraedonMask"",
+		""type"": ""ITEM"",
+		""englishName"": ""Draedon Mask"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Masque de Draedon"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
 		""id"": ""DraedonPowerCell"",
 		""type"": ""ITEM"",
 		""englishName"": ""Draedon Power Cell"",
@@ -23365,6 +26534,22 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
+		""id"": ""DraedonRelic"",
+		""type"": ""ITEM"",
+		""englishName"": ""Draedon Relic"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Relique de Draedon"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
 		""id"": ""DraedonsForge"",
 		""type"": ""ITEM"",
 		""englishName"": ""Draedon's Forge"",
@@ -23383,6 +26568,22 @@ namespace CalamityFR.JSON
 					""Une nanoforge entrelacée de plasma alimentée par des exo-énergies sans limites"",
 					""Rempli les fonctions de toutes les stations de fabrication majeures simultanément""
 				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""DraedonsHeart"",
+		""type"": ""ITEM"",
+		""englishName"": ""Draedon's Heart"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Coeur de Draedon"",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -23547,35 +26748,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""DragonScales"",
-		""type"": ""ITEM"",
-		""englishName"": ""Dragon Scales"",
-		""englishTooltip"": [
-			""Only a living dragon holds true treasure"",
-			""Rogue projectiles create slow fireballs as they travel"",
-			""Stealth strikes create infernados on death"",
-			""+10% max run speed and acceleration"",
-			""Grants immunity to Dragon Fire""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Écailles de Dragon"",
-				""translatedTooltip"": [
-					""Seul un dragon vivant possède un véritable trésor"",
-					""Les projectiles de voleur créent de lentes boules de feu sur leur trajet"",
-					""Les attaques furtives créent une infernade à la disparition du projectile"",
-					""+10% à votre accélération et votre vitesse de mouvement""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""DragonSoulDye"",
 		""type"": ""ITEM"",
 		""englishName"": ""Dragon Soul Dye"",
@@ -23660,6 +26832,22 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": ""Masque de la Dracofolie"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""DragonfollyTrophy"",
+		""type"": ""ITEM"",
+		""englishName"": ""Dragonfolly Trophy"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Trophée de la Folie Draconique"",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -23840,32 +27028,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""DukesDecapitator"",
-		""type"": ""ITEM"",
-		""englishName"": ""Duke's Decapitator"",
-		""englishTooltip"": [
-			""Throws a hydro axe which shreds enemies when it comes into contact with them"",
-			""The faster it\\ufffds spinning, the more times it hits before disappearing"",
-			""Stealth Strikes make it emit short-ranged bubbles.""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Décapitateur du Duc"",
-				""translatedTooltip"": [
-					""Lance une hydro-hache qui déchire les ennemis quand elle rentre en contact avec eux"",
-					""Au plus elle tourne vite, au plus elle peut frapper avant de disparaître"",
-					""Les attaques furtives émettent des bulles à courte portées.""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""DuststormInABottle"",
 		""type"": ""ITEM"",
 		""englishName"": ""Duststorm in a Bottle"",
@@ -23883,31 +27045,6 @@ namespace CalamityFR.JSON
 				""translatedTooltip"": [
 					""Explose en un nuage de poussière"",
 					""Les attaques furtives forment un nuage plus intense et plus persistant""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""DynamoStemCells"",
-		""type"": ""ITEM"",
-		""englishName"": ""Dynamo Stem Cells"",
-		""englishTooltip"": [
-			""10% increased movement speed"",
-			""Ranged weapons have a chance to fire mini swarmers"",
-			""Grants immunity to Dragon Fire and Electrified""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Transformateur de Cellules Souches"",
-				""translatedTooltip"": [
-					""+10% de vitesse de mouvement"",
-					""Les armes à distance ont une chance de tirer des petits essaimeurs""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -23988,48 +27125,6 @@ namespace CalamityFR.JSON
 				""translatedTooltip"": [
 					""Écrase les défenses ennemies"",
 					""Disperse des éclats de fossile à l'utilisation""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""EclipseMirror"",
-		""type"": ""ITEM"",
-		""englishName"": ""Eclipse Mirror"",
-		""englishTooltip"": [
-			""Its reflection shows naught but darkness"",
-			""+20 maximum stealth"",
-			""6% increased rogue damage, and 6% increased rogue crit chance"",
-			""Vastly reduces enemy aggression, even in the abyss"",
-			""Stealth generates 20% faster when standing still"",
-			""Mobile stealth generation exponentially accelerates while not attacking"",
-			""Stealth strikes have a 100% critical hit chance"",
-			""Stealth strikes only expend 50% of your max stealth"",
-			""Grants the ability to evade attacks in a blast of darksun light, which inflicts extreme damage in a wide area"",
-			""Evading an attack grants full stealth but has a 90 second cooldown"",
-			""This cooldown is shared with all other dodges and reflects""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Miroir d'Éclipse"",
-				""translatedTooltip"": [
-					""Son reflet ne montre rien que les ténèbres"",
-					""+20 furtivité maximum"",
-					""+6% des dégâts et de chance de critique de voleur"",
-					""Réduit grandement l'agressivité des ennemis, même dans les abysses"",
-					""La furtivité se génère 20% plus rapidement quand vous êtes immobile"",
-					""La génération de furtivité quand vous vous déplacez accélère exponentiellement si vous n'attaquez pas"",
-					""Les attaques furtives ont 100% de chances de coup critique"",
-					""Les attaques furtives ne consomment que 50% de votre furtivité"",
-					""Permet d'esquiver les attaques dans une explosion de lumière de sombresoleil, infligeant des dégâts extrêmes dans une large zone"",
-					""Esquiver une attaque maximise votre furtivité mais à un temps de recharge de 90s"",
-					""Ce temps de recharge est partagé avec le temps de recharge des autres effets d'esquive et de renvoi""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -24272,31 +27367,6 @@ namespace CalamityFR.JSON
 					""Une saveur piquante, acidulée avec une touche du terreau"",
 					""Augmente la vie maximum de 25 de façon permanente"",
 					""Peut seulement être utilisé si vous avez consommé le nombre maximum de fruits de vie""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""EldritchSoulArtifact"",
-		""type"": ""ITEM"",
-		""englishName"": ""Eldritch Soul Artifact"",
-		""englishTooltip"": [
-			""Knowledge"",
-			""Boosts melee speed by 10%, ranged velocity by 25%, rogue damage by 15%, max minions by 2 and reduces mana cost by 15%"",
-			""Grants immunity to Whispering Death""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Artefact d'Âme d'Eldritch"",
-				""translatedTooltip"": [
-					""Connaissance"",
-					""Augmente la vitesse de corps à corps de 10%, la vitesse des projectiles à distance de 25%, les dégâts de voleurs de 15%, les emplacements de sbires max de 2 et réduit les coûts en mana de 15%""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -24622,30 +27692,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""ElementalShiv"",
-		""type"": ""ITEM"",
-		""englishName"": ""Elemental Shiv"",
-		""englishTooltip"": [
-			""Don't underestimate the power of shivs"",
-			""Shoots a rainbow shiv that spawns additional shivs on hit""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Surin des Élements"",
-				""translatedTooltip"": [
-					""Ne sous-estimez pas le pouvoir des surins"",
-					""Tire un surin arc-en-ciel qui crée d'autres surins quand vous touchez""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""WifeinaBottle"",
 		""type"": ""ITEM"",
 		""englishName"": ""Elemental in a Bottle"",
@@ -24811,38 +27857,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""ElysianWings"",
-		""type"": ""ITEM"",
-		""englishName"": ""Elysian Wings"",
-		""englishTooltip"": [
-			""Blessed by the Profaned Flame"",
-			""Horizontal speed: 9.75"",
-			""Acceleration multiplier: 2.7"",
-			""Great vertical speed"",
-			""Flight time: 240"",
-			""Temporary immunity to lava and 10% increased movement speed""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Ailes Elysiennes"",
-				""translatedTooltip"": [
-					""Bénie par la flamme profanée"",
-					""Vitesse Horizontale: 9.75"",
-					""Multiplicateur d'accélération: 2.7"",
-					""Très bonne vitesse verticale"",
-					""Temps de vol: 240"",
-					""Immunité temporaire à la lave et +10% de vitesse de mouvement""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""EmpyreanCloak"",
 		""type"": ""ITEM"",
 		""englishName"": ""Empyrean Cloak"",
@@ -24869,6 +27883,30 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
+		""id"": ""EmpyreanCuisses"",
+		""type"": ""ITEM"",
+		""englishName"": ""Empyrean Cuisses"",
+		""englishTooltip"": [
+			""5% increased rogue damage and critical strike chance"",
+			""15% increased movement speed""
+		],
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Cuissardes Empyréenes"",
+				""translatedTooltip"": [
+					""+5% de dégâts et de chances de coup critique de voleur"",
+					""+15% de vitesse de déplacement""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
 		""id"": ""EmpyreanKnives"",
 		""type"": ""ITEM"",
 		""englishName"": ""Empyrean Knives"",
@@ -24884,6 +27922,30 @@ namespace CalamityFR.JSON
 				""translatedName"": ""Couteaux Empyréens"",
 				""translatedTooltip"": [
 					""Lance une myriade de couteaux rebondissants qui soignent l'utilisateur""
+				],
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""EmpyreanMask"",
+		""type"": ""ITEM"",
+		""englishName"": ""Empyrean Mask"",
+		""englishTooltip"": [
+			""11% increased rogue damage and critical strike chance, 5% increased movement speed"",
+			""Temporary immunity to lava""
+		],
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Masque Empyréen"",
+				""translatedTooltip"": [
+					""+11% de dégâts et de chances de coup critique de voleur, +5% de vitesse de mouvement"",
+					""Immunité temporaire à la lave""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -25433,30 +28495,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""EtherealExtorter"",
-		""type"": ""ITEM"",
-		""englishName"": ""Ethereal Extorter"",
-		""englishTooltip"": [
-			""Rogue projectiles explode into homing souls on death"",
-			""10% increased rogue damage and +10 maximum stealth, however, life regen is reduced by 1""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Extorqueur Ethéré"",
-				""translatedTooltip"": [
-					""Les projectiles de voleur explosent en âme à tête chercheuse"",
-					""+10% de dégâts de voleur et +10 furtivité maximum mais régénération de vie réduite de 1""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""EtherealSubjugator"",
 		""type"": ""ITEM"",
 		""englishName"": ""Ethereal Subjugator"",
@@ -25572,34 +28610,6 @@ namespace CalamityFR.JSON
 				""translatedName"": ""Scimitar Eutrophique"",
 				""translatedTooltip"": [
 					""Tire deux rayons qui stoppent les ennemis""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""EvasionScarf"",
-		""type"": ""ITEM"",
-		""englishName"": ""Evasion Scarf"",
-		""englishTooltip"": [
-			""True melee strikes deal 15% more damage"",
-			""Grants the ability to dash; dashing into an attack will cause you to dodge it"",
-			""After a successful dodge you must wait 30 seconds before you can dodge again""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Echarpe d'Evasion"",
-				""translatedTooltip"": [
-					""Les attaques de vraie mêlée font 15% de dégâts supplémentaires"",
-					""Donne la possibilité de foncer, foncer dans une attaque vous permettra de l'esquiver"",
-					""Après une esquive réussie, vous devez attendre 13s avant de pouvoir esquiver de nouveau"",
-					""Ce temps de recharge est doublé si vous subissez le Chaos"",
-					""Durant le temps de recharge, le Chaos dure 50% plus longtemps""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -25807,15 +28817,14 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""Exoblade"",
+		""id"": ""ExoThrone"",
 		""type"": ""ITEM"",
-		""englishName"": ""Exoblade"",
+		""englishName"": ""Exo Box"",
 		""englishTooltip"": [
-			""Ancient blade of Yharim's weapons and armors expert, Draedon"",
-			""Fires an exo beam that homes in on the player and explodes"",
-			""Striking an enemy with the blade causes several comets to fire"",
-			""All attacks briefly freeze enemies hit"",
-			""Enemies hit at very low HP explode into frost energy and freeze nearby enemies""
+			""Materializes a quite cozy and extremely nimble flying Exo throne"",
+			""Replaced"",
+			""Also replaced"",
+			""A comfortable gamer is a dangerous gamer""
 		],
 		""state"": ""Traduit"",
 		""activeTranslation"": 1,
@@ -25823,13 +28832,12 @@ namespace CalamityFR.JSON
 			{
 				""id"": 1,
 				""author"": ""Tolsyak"",
-				""translatedName"": ""Exolame"",
+				""translatedName"": ""Exo Boîte"",
 				""translatedTooltip"": [
-					""Ancienne lame de Draedon, l'expert en armements et armures de Yharim."",
-					""Tire un exo rayon qui pourchasse le joueur avant d'exploser"",
-					""Frapper un ennemi avec la lame provoque l'apparition de plusieurs comètes"",
-					""Toutes les attaques gèlent brièvement les ennemis"",
-					""Les ennemis qui ont une vie très faible explosent en énergie givrée et gèlent les ennemis proches""
+					""Matérialise un confortable et extremmement mobile Exo-Trône Volant "",
+					""Replaced"",
+					""Also replaced"",
+					""Un joueur comfortablement installé et un joueur dangereux""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -25917,32 +28925,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""ExoticPheromones"",
-		""type"": ""ITEM"",
-		""englishName"": ""Exotic Pheromones"",
-		""englishTooltip"": [
-			""Attracts the failed draconic experiment"",
-			""Summons The Dragonfolly when used in the jungle"",
-			""Not consumable""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Phéromones Exotiques"",
-				""translatedTooltip"": [
-					""Attire l'expérience draconique ratée"",
-					""Invoque la folie draconique quand utilisée dans la jungle"",
-					""Non consommable""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""ExplosiveShells"",
 		""type"": ""ITEM"",
 		""englishName"": ""Explosive Shotgun Shell"",
@@ -25953,32 +28935,6 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": ""Cartouche de Fusil Explosive"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""EyeofDesolation"",
-		""type"": ""ITEM"",
-		""englishName"": ""Eye of Desolation"",
-		""englishTooltip"": [
-			""Tonight is going to be a horrific night..."",
-			""Summons Calamitas when used during nighttime"",
-			""Not consumable""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Oeil de Désolation"",
-				""translatedTooltip"": [
-					""Cette nuit va être horrifique..."",
-					""Invoque Calamitas quand utilisé la nuit"",
-					""Ne se consomme pas""
-				],
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -26743,30 +29699,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""FlarewingBow"",
-		""type"": ""ITEM"",
-		""englishName"": ""Flarewing Bow"",
-		""englishTooltip"": [
-			""Shoots a spread of 5 arrows"",
-			""Wooden arrows are converted into bouncing obsidian bats""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Arc d'Éclataile"",
-				""translatedTooltip"": [
-					""Tire une volée de 5 flèches"",
-					""Les flèches de bois deviennent des chauves-souris rebondissantes d'obsidienne""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""FlashRound"",
 		""type"": ""ITEM"",
 		""englishName"": ""Flash Round"",
@@ -27335,30 +30267,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""FungalSymbiote"",
-		""type"": ""ITEM"",
-		""englishName"": ""Fungal Symbiote"",
-		""englishTooltip"": [
-			""Various melee weapons emit mushrooms in true melee range"",
-			""True melee strikes deal 15% more damage""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Symbiote Fongique"",
-				""translatedTooltip"": [
-					""La plupart des armes de corps à corps émettent des champignons"",
-					""Les attaques de vraie mêlée font 15% de dégâts supplémentaires""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""Fungicide"",
 		""type"": ""ITEM"",
 		""englishName"": ""Fungicide"",
@@ -27461,30 +30369,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""GalactusBlade"",
-		""type"": ""ITEM"",
-		""englishName"": ""Galactus Blade"",
-		""englishTooltip"": [
-			""Forged with the fury of nuclear chaos"",
-			""Launches a barrage of comets from the sky""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Lame Galactus"",
-				""translatedTooltip"": [
-					""Forgée avec la furie du chaos nucléaire"",
-					""Lance un barrage de comètes depuis le ciel""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""FourSeasonsGalaxia"",
 		""type"": ""ITEM"",
 		""englishName"": ""Galaxia"",
@@ -27554,32 +30438,6 @@ namespace CalamityFR.JSON
 				""translatedName"": ""Force du Vent"",
 				""translatedTooltip"": [
 					""Tire une volée de faibles plumes""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""GalileoGladius"",
-		""type"": ""ITEM"",
-		""englishName"": ""Galileo Gladius"",
-		""englishTooltip"": [
-			""Don't underestimate the power of small space swords"",
-			""Shoots a homing crescent moon"",
-			""Spawns planetoids on enemy hits""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Gladius de Galilée"",
-				""translatedTooltip"": [
-					""Ne sous-estimez pas le pouvoir des petites épées de l'espace"",
-					""Tire un croissant de lune à tête chercheuse"",
-					""Créé des planétoïdes quand vous touchez""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -28209,52 +31067,6 @@ namespace CalamityFR.JSON
 				""translatedName"": ""Poisson-Gemme Scintillant"",
 				""translatedTooltip"": [
 					""Clic droit pour extraire des gemmes""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""GloveOfPrecision"",
-		""type"": ""ITEM"",
-		""englishName"": ""Glove of Precision"",
-		""englishTooltip"": [
-			""Decreases rogue attack speed by 20% but increases damage and crit by 12% and velocity by 25%""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Gants de Précision"",
-				""translatedTooltip"": [
-					""Réduit la vitesse d'attaque de voleur de 20% mais augmente les dégâts et les chances de coup critique de voleur de 12% et la vitesse des projectiles de 25%""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""GloveOfRecklessness"",
-		""type"": ""ITEM"",
-		""englishName"": ""Glove of Recklessness"",
-		""englishTooltip"": [
-			""Increases rogue attack speed by 12% but decreases damage by 10%"",
-			""Adds inaccuracy to rogue weapons""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Gants d'Imprudence"",
-				""translatedTooltip"": [
-					""Augmente la vitesse d'attaque de voleur de 12% mais réduit les dégâts de 10%"",
-					""Ajoute de l'imprécision aux armes de voleur""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -29045,39 +31857,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""HadarianWings"",
-		""type"": ""ITEM"",
-		""englishName"": ""Hadarian Wings"",
-		""englishTooltip"": [
-			""Powered by the Astral Infection"",
-			""Hold down to hover during flight, greatly extending flight duration"",
-			""Horizontal speed: 9.00"",
-			""Acceleration multiplier: 1.75"",
-			""Good vertical speed"",
-			""Flight time: 90""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Ailes Hadariennes"",
-				""translatedTooltip"": [
-					""Alimenté par l'infection astrale"",
-					""Restez appuyez sur bas durant le vol pour vous déplacer horizontalement, augmentant ainsi votre temps de vol"",
-					""Vitesse Horizontale: 9"",
-					""Multiplicateur d'accélération: 1.75"",
-					""Bonne vitesse verticale"",
-					""Temps de vol: 120"",
-					""+10% de vitesse de mouvement et de saut si vous portez l'armure astrale""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""HalibutCannon"",
 		""type"": ""ITEM"",
 		""englishName"": ""Halibut Cannon"",
@@ -29398,34 +32177,6 @@ namespace CalamityFR.JSON
 					""Jette une disque stellaire en l'air qui se porpulse vers le curseur,"",
 					""explose en plusieurs décharges d'énergie astrale si le lanceur effectue un mouvement vertical quand il le lance et à l'impact du disque"",
 					""Les attaques furtives font pleuvoir des décharges d'énergie astrale depuis le ciel""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""HeavenlyGale"",
-		""type"": ""ITEM"",
-		""englishName"": ""Heavenly Gale"",
-		""englishTooltip"": [
-			""DO NOT TRAD""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bourrasque Céleste"",
-				""translatedTooltip"": [
-					""Convertit les flèches en bois en un barrage de 5 exo flèches aléatoires"",
-					""Les exo flèches vertes exposent en une tornade"",
-					""Les exo flèches bleues provoquent le tir d'un second groupe de flèches quand elles touchent"",
-					""Les exo flèches oranges provoquent des explosions"",
-					""Les exo flèches cyan ignorent la période d'invincibilité des ennemis"",
-					""Augmente les dégâts des flèches qui ne sont pas en bois de 25%"",
-					""66% de chances de ne pas consommer de munitions""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -30684,32 +33435,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""InkBomb"",
-		""type"": ""ITEM"",
-		""englishName"": ""Ink Bomb"",
-		""englishTooltip"": [
-			""Throws several ink bombs when hit that explode in a confusing cloud of ink"",
-			""Gain a lot of stealth when struck"",
-			""This effect has a 20s cooldown before it can occur again""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bombe d'Encre"",
-				""translatedTooltip"": [
-					""Envoie plusieurs bombes d'encre quand vous êtes touché qui explosent dans un nuage d'encre qui inflige la confusion"",
-					""Vous gagnez beaucoup de furtivité quand vous êtes touché"",
-					""Cet effet à un temps de recharge de 20s""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""InsidiousImpaler"",
 		""type"": ""ITEM"",
 		""englishName"": ""Insidious Impaler"",
@@ -30773,30 +33498,6 @@ namespace CalamityFR.JSON
 				""translatedName"": ""Bottes de Fer"",
 				""translatedTooltip"": [
 					""Vous permet de chuter plus vite dans les liquides""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""IronFrancisca"",
-		""type"": ""ITEM"",
-		""englishName"": ""Iron Francisca"",
-		""englishTooltip"": [
-			""The franciscas do more damage for a short time when initially thrown"",
-			""Stealth strikes pierce infinitely""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Francisque de Fer"",
-				""translatedTooltip"": [
-					""Les francisques font plus de dégâts un court moment après leur lancer"",
-					""Les attaques furtives percent indéfiniment""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -30869,32 +33570,6 @@ namespace CalamityFR.JSON
 				""translatedName"": ""Coeur Joyeux"",
 				""translatedTooltip"": [
 					""Il est étrangement chaleureux. Attire l'interdit.""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""JungleDragonEgg"",
-		""type"": ""ITEM"",
-		""englishName"": ""Jungle Dragon Egg"",
-		""englishTooltip"": [
-			""An imitation of the egg that bore the loyal guardian of the tyrant king"",
-			""Summons Jungle Dragon, Yharon when used in the jungle"",
-			""Not consumable""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Oeuf de Dragon de Jungle"",
-				""translatedTooltip"": [
-					""Une imitation de l'oeuf ayant porté le loyal gardien du roi tyrannique"",
-					""Invoque le Dragon de Jungle, Yharon quand utilisé dans la jungle"",
-					""Ne se consomme pas""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -31258,34 +33933,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""Laudanum"",
-		""type"": ""ITEM"",
-		""englishName"": ""Laudanum"",
-		""englishTooltip"": [
-			""Converts certain debuffs into buffs and extends their durations"",
-			""Debuffs affected: Darkness, Blackout, Confused, Slow, Weak, Broken Armor,"",
-			""Armor Crunch, War Cleave, Chilled, Ichor and Obstructed"",
-			""Revengeance drop""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Laudanum"",
-				""translatedTooltip"": [
-					""Convertit certaines altérations en améliorations et étend leur durée"",
-					""Altérations concernées: Obscurité, Trou noir, Confusion, Ralenti, Faible, Armure brisée,"",
-					""Armure abimée, Fendreguerre, Refroidissement, Ichor et Obstruction"",
-					""Revengeance""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""Lazhar"",
 		""type"": ""ITEM"",
 		""englishName"": ""Lazhar"",
@@ -31301,30 +33948,6 @@ namespace CalamityFR.JSON
 				""translatedName"": ""Lazher"",
 				""translatedTooltip"": [
 					""Tire un rayon laser qui rebondit et explose quand il touche""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""LeadTomahawk"",
-		""type"": ""ITEM"",
-		""englishName"": ""Lead Tomahawk"",
-		""englishTooltip"": [
-			""The tomahawks have more damage for a short time when initially thrown"",
-			""Stealth strikes pierce infinitely""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Tomahawk de Plomb"",
-				""translatedTooltip"": [
-					""Les Tomahawks font plus de dégâts quand ils sont lancés proches de l'ennemi"",
-					""Les attaques furtives percent indéfiniment""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -31734,54 +34357,6 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": ""Fragment vivant"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""LongRangedSensorArray"",
-		""type"": ""ITEM"",
-		""englishName"": ""Long Ranged Sensor Array"",
-		""englishTooltip"": [
-			""Can be placed on the Codebreaker""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Dispositif d'Affichage Avancé"",
-				""translatedTooltip"": [
-					""Peut-être placé sur le décodeur""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""Lucrecia"",
-		""type"": ""ITEM"",
-		""englishName"": ""Lucrecia"",
-		""englishTooltip"": [
-			""Finesse"",
-			""Striking an enemy makes you immune for a short time"",
-			""Fires a DNA chain""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Lucrecia"",
-				""translatedTooltip"": [
-					""Finesse"",
-					""Frapper un ennemi vous immunise un instant"",
-					""Tire une séquence ADN""
-				],
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -32522,22 +35097,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""MarniteObliterator"",
-		""type"": ""ITEM"",
-		""englishName"": ""Marnite Obliterator"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Oblitérateur de Marnite"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""MarniteSpear"",
 		""type"": ""ITEM"",
 		""englishName"": ""Marnite Spear"",
@@ -32659,30 +35218,6 @@ namespace CalamityFR.JSON
 				""translatedName"": ""Jauge de Niveau de Corps à Corps"",
 				""translatedTooltip"": [
 					""Vous donne votre niveau de compétence au corps à corps""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""Meowthrower"",
-		""type"": ""ITEM"",
-		""englishName"": ""Meowthrower"",
-		""englishTooltip"": [
-			""50% chance to not consume gel"",
-			""Fires blue and pink flames that emit meows on enemy hits""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Lance-Miaou"",
-				""translatedTooltip"": [
-					""50% de chances de ne pas consommer de gel"",
-					""Tire des flammes bleues et roses qui miaulent quand elles touchent""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -32847,32 +35382,6 @@ namespace CalamityFR.JSON
 					""Rafraîchissant et frais, avec une petite pointe de menthe"",
 					""Augmente de 25 la vie maximum de façon définitive"",
 					""Peut seulement être utilisée si le montant maximal de fruit de vie a été consommé""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""MirageMirror"",
-		""type"": ""ITEM"",
-		""englishName"": ""Mirage Mirror"",
-		""englishTooltip"": [
-			""Bend light around you"",
-			""Reduces enemy aggression outside of the abyss"",
-			""Stealth generates 30% faster when standing still and 20% faster while moving""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Miroir Mirage"",
-				""translatedTooltip"": [
-					""Infléchit la lumière autour de vous"",
-					""Réduit l'agressivité des ennemis en dehors des abysses"",
-					""La furtivité se génére 30% plus vite quand vous êtes immobile et 20% plus vite lorsque vous vous déplacez""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -33061,34 +35570,6 @@ namespace CalamityFR.JSON
 				""translatedTooltip"": [
 					""Lance une faux qui émet des globes en fusion quand elle touche"",
 					""Les attaques furtives créent des globes périodiquement et en créent plus quand elles touchent""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""MomentumCapacitor"",
-		""type"": ""ITEM"",
-		""englishName"": ""Momentum Capacitor"",
-		""englishTooltip"": [
-			""TOOLTIP LINE HERE"",
-			""Rogue projectiles that enter the field get a constant acceleration and 15% damage boost"",
-			""These boosts can only happen to a projectile once"",
-			""There can only be one field""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Condensateur de Dynamisme"",
-				""translatedTooltip"": [
-					""TOOLTIP LINE HERE"",
-					""Les projectiles qui entrent dans le champ crée accélèrent et infligent 15% de dégâts supplémentaires"",
-					""Cette amélioration ne s'applique qu'une fois par projectile"",
-					""Un seul champ peut exister à la fois""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -33430,46 +35911,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""MycelialClaws"",
-		""type"": ""ITEM"",
-		""englishName"": ""Mycelial Claws"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Griffes Mycéllaires"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""Mycoroot"",
-		""type"": ""ITEM"",
-		""englishName"": ""Mycoroot"",
-		""englishTooltip"": [
-			""Fires a stream of short-range fungal roots"",
-			""Stealth strikes spawn an explosion of fungi spores""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Mycoracine"",
-				""translatedTooltip"": [
-					""Tire un faisceau de racine fongique à courte portée"",
-					""Les attaques furtives une explosion de spores fongiques""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""MysteriousCircuitry"",
 		""type"": ""ITEM"",
 		""englishName"": ""Mysterious Circuitry"",
@@ -33804,32 +36245,6 @@ namespace CalamityFR.JSON
 					""Vengeance"",
 					""+20% de dégâts quand vous avez moins de la moitié de vos points de vie"",
 					""Toutes les attaques infligent le feu maudit et le venin si vous portez l'armure de saccageur""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""NecroplasmicBeacon"",
-		""type"": ""ITEM"",
-		""englishName"": ""Necroplasmic Beacon"",
-		""englishTooltip"": [
-			""It's spooky"",
-			""Summons Polterghast when used in the dungeon"",
-			""Not consumable""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Balise Nécroplasmique"",
-				""translatedTooltip"": [
-					""Ca fait peur"",
-					""Invoque l'Épouvantôme quand utilisé dans le donjon"",
-					""Ne se consomme pas""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -34365,30 +36780,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""OldPowerCell"",
-		""type"": ""ITEM"",
-		""englishName"": ""Old Power Cell"",
-		""englishTooltip"": [
-			""Summons the Golem when used in the temple"",
-			""Not consumable""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Ancienne Cellule d'Alimentation"",
-				""translatedTooltip"": [
-					""Invoque le golem quand utilisé dans le temple"",
-					""Non consommable""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""OmegaBlueChestplate"",
 		""type"": ""ITEM"",
 		""englishName"": ""Omega Blue Chestplate"",
@@ -34570,28 +36961,6 @@ namespace CalamityFR.JSON
 				""translatedTooltip"": [
 					""50% de chances de ne pas consommer de munitions"",
 					""Tire une tempête de balles et d'éclats d'onyx""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""OpalStriker"",
-		""type"": ""ITEM"",
-		""englishName"": ""Opal Striker"",
-		""englishTooltip"": [
-			""Fires a string of opal strikes""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Frappeur d'Opale"",
-				""translatedTooltip"": [
-					""Tire une chaine de frappes d'opale""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -34876,32 +37245,6 @@ namespace CalamityFR.JSON
 				""translatedTooltip"": [
 					""Lance une bombe d'ombre qui explose en âmes à tête chercheuse"",
 					""Les attaques furtives téléportent la bombe sur le curseur et libèrent un plus grand nombre d'âmes""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""PenumbraPotion"",
-		""type"": ""ITEM"",
-		""englishName"": ""Penumbra Potion"",
-		""englishTooltip"": [
-			""Rogue stealth generates 15% faster while moving"",
-			""At night, stealth also generates 15% faster while standing still"",
-			""During an eclipse both boosts increase to 20%""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Potion de Pénombre"",
-				""translatedTooltip"": [
-					""La furtivité se génère 15% plus rapidement quand vous vous déplacez"",
-					""La nuit, la furtivité se génère également 15 % plus rapidement en restant immobile"",
-					""Pendant une éclipse, les deux augmentations sont portées à 20%""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -35194,30 +37537,6 @@ namespace CalamityFR.JSON
 					""Maniez une épée laser colossale controlée avec votre curseur"",
 					""Les frappes rapides infligent plus de dégats et génèrent des rayons d'épées"",
 					""Quand la batterie est faible, l'épée est plus petite et plus faible""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""PhoenixFlameBarrage"",
-		""type"": ""ITEM"",
-		""englishName"": ""Phoenix Flame Barrage"",
-		""englishTooltip"": [
-			""Baptism by holy fire"",
-			""Casts a barrage of fire from the sky""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Barrage de Flamme de Phénix"",
-				""translatedTooltip"": [
-					""Le baptème du feu sacré"",
-					""Convoque un barrage de feu depuis les cieux""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -36293,30 +38612,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""Portabulb"",
-		""type"": ""ITEM"",
-		""englishName"": ""Portabulb"",
-		""englishTooltip"": [
-			""Summons Plantera when used in the jungle"",
-			""Not consumable""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Portabulbe"",
-				""translatedTooltip"": [
-					""Invoque Plantera quand utilisé dans la jungle"",
-					""Non consommable""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""Poseidon"",
 		""type"": ""ITEM"",
 		""englishName"": ""Poseidon"",
@@ -36747,33 +39042,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""ProfanedCore"",
-		""type"": ""ITEM"",
-		""englishName"": ""Profaned Core"",
-		""englishTooltip"": [
-			""The core of the unholy flame"",
-			""Summons Providence when used in the hallow or underworld"",
-			""Should be used during daytime"",
-			""Not consumable""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Noyau Profané"",
-				""translatedTooltip"": [
-					""Le noyau de la flamme impie"",
-					""Invoque Providence"",
-					""Devrait-être utilisé la journée""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""ProfanedFlameDye"",
 		""type"": ""ITEM"",
 		""englishName"": ""Profaned Flame Dye"",
@@ -36879,62 +39147,6 @@ namespace CalamityFR.JSON
 				""translatedTooltip"": [
 					""Augmente les chances de coup critique de 12%"",
 					""Quand cette potion est active, l'effet de la potion de rage est désactivé""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""ProfanedShard"",
-		""type"": ""ITEM"",
-		""englishName"": ""Profaned Shard"",
-		""englishTooltip"": [
-			""A shard of the unholy flame"",
-			""Summons the Profaned Guardians when used in the hallow or underworld during daytime"",
-			""Not consumable""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Éclat Profané"",
-				""translatedTooltip"": [
-					""Un éclat de la flamme impie"",
-					""Invoque les Gardiens Profanés quand utilisé dans le sacré ou l'enfer la journée"",
-					""Non consommable""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""ProfanedSoulArtifact"",
-		""type"": ""ITEM"",
-		""englishName"": ""Profaned Soul Artifact"",
-		""englishTooltip"": [
-			""Purity"",
-			""Summons a healer guardian which heals for a certain amount of health every few seconds"",
-			""Summons a defensive guardian if you have at least 10 minion slots, which boosts your movement speed and your damage resistance"",
-			""Summons an offensive guardian if you are wearing the tarragon summon set (or stronger), which boosts your summon damage and your minion slots"",
-			""If you get hit, most of their effects will disappear for 5 seconds""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Artéfact d'Âme Profanée"",
-				""translatedTooltip"": [
-					""Pureté"",
-					""Invoque un gardien guérisseur qui vous soigne d'un certain montant à quelques secondes d'intervale"",
-					""Invoque un gardien protecteur si vous avez au moins 10 sbires max, qui augmente votre vitesse de déplacement et votre résistance aux dégâts"",
-					""Invoque un gardien offensif si vous portez l'armure d'estragon (ou supérieur), qui augmente vos dégâts d'invocation et votre nombre de sbires max"",
-					""Si vous êtes touché, la plupart de ces effets sont annulés durant 5 secondes""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -38427,30 +40639,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""RuinMedallion"",
-		""type"": ""ITEM"",
-		""englishName"": ""Ruin Medallion"",
-		""englishTooltip"": [
-			""Stealth strikes only expend 50% of your max stealth"",
-			""6% increased rogue damage, and 6% increased rogue crit chance""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Médaillon de Ruine"",
-				""translatedTooltip"": [
-					""Les attaques furtives ne consomment que la moitié de votre furtivité"",
-					""+6% de dégâts et de chances de coup critique de voleur""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""RuinousSoul"",
 		""type"": ""ITEM"",
 		""englishName"": ""Ruinous Soul"",
@@ -38551,32 +40739,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""RustyBeaconPrototype"",
-		""type"": ""ITEM"",
-		""englishName"": ""Rusty Beacon Prototype"",
-		""englishTooltip"": [
-			""Summons a long-abandoned drone to support you"",
-			""Clicking on an enemy gives them a tiny prick, causing them to become aggravated"",
-			""The drone hovers above nearby enemies and inflicts irradiated""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Prototype de Balise Rouillée"",
-				""translatedTooltip"": [
-					""Invoque un drone abandonné depuis longtemps pour vous aider"",
-					""Cliquer sur un ennemi le piquera un peu, ce qui le rendra aggresif à votre égard"",
-					""Le drone flotte au dessus des ennemis proches et inflige l'irradiation""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""RustyMedallion"",
 		""type"": ""ITEM"",
 		""englishName"": ""Rusty Medallion"",
@@ -38641,32 +40803,6 @@ namespace CalamityFR.JSON
 				""translatedTooltip"": [
 					""Tire des orbes de plasma qui perdurent et émettent des explosions massives"",
 					""Clic droit pour tirer de puissants rayons d'énergie""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""SandCloak"",
-		""type"": ""ITEM"",
-		""englishName"": ""Sand Cloak"",
-		""englishTooltip"": [
-			""+1 defense and 5% increased movement speed"",
-			""TOOLTIP LINE HERE"",
-			""This effect has a 30 second cooldown before it can be used again""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Manteau des Sables"",
-				""translatedTooltip"": [
-					""+1 défense et +5% vitesse de mouvement"",
-					""TOOLTIP LINE HERE"",
-					""Cet effet à un temps de recharge de 30s""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -39122,28 +41258,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""ScuttlersJewel"",
-		""type"": ""ITEM"",
-		""englishName"": ""Scuttler's Jewel"",
-		""englishTooltip"": [
-			""Stealth strike projectiles spawn a jewel spike when destroyed""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Gemme de Fuyard"",
-				""translatedTooltip"": [
-					""Les projectiles de voleurs ont une chance de générer une pointe de gemme lorsqu'ils disparaissent""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""SeaMinnowItem"",
 		""type"": ""ITEM"",
 		""englishName"": ""Sea Minnow"",
@@ -39281,30 +41395,6 @@ namespace CalamityFR.JSON
 				""translatedTooltip"": [
 					""Jette une bombe qui explose en une bulle qui inflige des dégâts additionnels"",
 					""Les attaques furtives sont plus rapides et explosent en 5 bulles""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""Seafood"",
-		""type"": ""ITEM"",
-		""englishName"": ""Seafood"",
-		""englishTooltip"": [
-			""Summons the Aquatic Scourge when used in the sulphur sea"",
-			""Not consumable""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Fruit de Mer"",
-				""translatedTooltip"": [
-					""Invoque le Fléau Aquatique quand utilisé dans la mer sulfurique"",
-					""Non consommable""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -39568,34 +41658,6 @@ namespace CalamityFR.JSON
 				""translatedName"": ""Lance-Ombre"",
 				""translatedTooltip"": [
 					""66% de chances de ne pas consommer de gel""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""ShadowPotion"",
-		""type"": ""ITEM"",
-		""englishName"": ""Shadow Potion"",
-		""englishTooltip"": [
-			""Causes the player to disappear while not attacking"",
-			""Holding different types of rogue weapons give the player boosts"",
-			""Different types of rogue weapons spawn different projectiles on hit"",
-			""Stealth generation is increased by 10%""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Potion d'Ombre"",
-				""translatedTooltip"": [
-					""Vous fait disparaître quand vous n'attaquez pas"",
-					""Porter différents types d'armes de voleur donne différentes améliorations"",
-					""Les différents types d'armes de voleur créent des projectiles différents quand ils touchent"",
-					""La génération de furtivité est augmentée de 10%""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -40069,30 +42131,6 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": ""Trophée de Signus"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""SilencingSheath"",
-		""type"": ""ITEM"",
-		""englishName"": ""Silencing Sheath"",
-		""englishTooltip"": [
-			""+20 maximum stealth"",
-			""Stealth generates 15% faster""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Fourreau Silencieux"",
-				""translatedTooltip"": [
-					""+20 furtivité maximum"",
-					""La furtivité se génère 15% plus rapidement""
-				],
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -41160,36 +43198,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""SpectralVeil"",
-		""type"": ""ITEM"",
-		""englishName"": ""Spectral Veil"",
-		""englishTooltip"": [
-			""The inside of the cloak is full of teeth..."",
-			""TOOLTIP LINE HERE"",
-			""If you dodge something while invulnerable, you instantly gain full stealth"",
-			""Teleportation is disabled while Chaos State is active"",
-			""Stealth generates 20% faster while moving""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Voile Spectral"",
-				""translatedTooltip"": [
-					""L'intérieur du manteau est plein de dents..."",
-					""TOOLTIP LINE HERE"",
-					""La téléportation est impossible si vous subissez le chaos"",
-					""Si vous esquivez une attaque alors que vous êtes invulnérable, votre furtivité est maximisée"",
-					""La furtivité augmente 20% plus vite lorsque vous êtes en mouvement""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""SpectralstormCannon"",
 		""type"": ""ITEM"",
 		""englishName"": ""Spectralstorm Cannon"",
@@ -41662,30 +43670,6 @@ namespace CalamityFR.JSON
 				""translatedTooltip"": [
 					""Les invocations provoquent une explosion astrales lorsqu'ils touchent"",
 					""+1 sbire max""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""Starcore"",
-		""type"": ""ITEM"",
-		""englishName"": ""Starcore"",
-		""englishTooltip"": [
-			""May the stars guide your way"",
-			""Summons Astrum Deus at the Astral Beacon, but is not consumed""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Noyau Stellaire"",
-				""translatedTooltip"": [
-					""Puisse les étoiles vous guider"",
-					""Invoque Astrum Deus à la balise astrale, mais ne se consomme pas.""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -42285,30 +44269,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""StickySpikyBall"",
-		""type"": ""ITEM"",
-		""englishName"": ""Sticky Spiky Ball"",
-		""englishTooltip"": [
-			""Throws a spiky ball that sticks to everything"",
-			""Stealth strikes throw seven at once and last a lot longer""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Boule à Pointes Collante"",
-				""translatedTooltip"": [
-					""Lance une boule à pointes qui se collent à tout"",
-					""Les attaques furtives en lancent sept d'un coup et durent plus longtemps""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""StormDragoon"",
 		""type"": ""ITEM"",
 		""englishName"": ""Storm Dragoon"",
@@ -42691,32 +44651,6 @@ namespace CalamityFR.JSON
 				""translatedName"": ""Choqueur Sous-marin"",
 				""translatedTooltip"": [
 					""Les ennemis relâchent des étincelles électriques quand ils sont touchés""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""SubsumingVortex"",
-		""type"": ""ITEM"",
-		""englishName"": ""Subsuming Vortex"",
-		""englishTooltip"": [
-			""Releases a gigantic, slow-moving vortex"",
-			""The vortex releases exo tentacles that thrash at nearby enemies"",
-			""After a few seconds the vortex slows down, becomes unstable, and explodes""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Vortex Incorporant"",
-				""translatedTooltip"": [
-					""Relâche un lent et gigantesque vortex"",
-					""le vortex libère des exo tentacules qui fouettent les ennemis proches"",
-					""Après quelques secondes, le vortex ralentit, devient instable puis explose""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -43242,36 +45176,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""SupremeBaitTackleBoxFishingStation"",
-		""type"": ""ITEM"",
-		""englishName"": ""Supreme Bait Tackle Box Fishing Station"",
-		""englishTooltip"": [
-			""The ultimate fishing accessory"",
-			""Increases fishing skill by 80"",
-			""Fishing line will never break and decreases chance of bait consumption"",
-			""Increases chance to catch crates"",
-			""Sonar potion effect""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Station de Pêche Supreme"",
-				""translatedTooltip"": [
-					""L'ultime accessoire de pêche"",
-					""Augmente la puissance de pêche de 80"",
-					""La ligne de pêche ne cassera pas et réduit les chances de consommer l'appât"",
-					""Augmente les chances de pêcher des caisses"",
-					""Effet de la potion de sonar""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""SupremeCalamitasTrophy"",
 		""type"": ""ITEM"",
 		""englishName"": ""Supreme Calamitas Trophy"",
@@ -43382,28 +45286,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""Swordsplosion"",
-		""type"": ""ITEM"",
-		""englishName"": ""Swordsplosion"",
-		""englishTooltip"": [
-			""Sword swarm""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Épexplosion"",
-				""translatedTooltip"": [
-					""Nuée d'épées""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""SystemBane"",
 		""type"": ""ITEM"",
 		""englishName"": ""System Bane"",
@@ -43423,32 +45305,6 @@ namespace CalamityFR.JSON
 					""Peut être utilisé pour rapidement envoyer une décharge électromagnétique"",
 					""Envoie un appareil instable qui s'attache au sol et choque les ennemis proches avec de l'électricité"",
 					""Les attaques furtives font émettre un champ électromagnétique a l'appareil, qui inflige des dégâts""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""TacticalPlagueEngine"",
-		""type"": ""ITEM"",
-		""englishName"": ""Tactical Plague Engine"",
-		""englishTooltip"": [
-			""Summons a plague jet to pummel your enemies into submission"",
-			""Jets will fire ammo from your inventory, 66% chance to not consume ammo"",
-			""Sometimes shoots a missile instead of a bullet""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Moteur de Peste Tactique"",
-				""translatedTooltip"": [
-					""Invoque un jet de peste pour soumettre vos ennemis"",
-					""Les jets consomment des balles depuis votre inventaire, 66% de chances de ne pas consommer de munitions"",
-					""Tire parfois un missile à la place d'une balle""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -43855,30 +45711,6 @@ namespace CalamityFR.JSON
 					""Le meilleur alcool de jour que j'ai jamais bu"",
 					""Augmente les dégâts, la réduction des dégâts et le recul de 7%, les chances de coup critique de 3% et la défense de 10 durant la journée"",
 					""Réduit la régénération de vie de 1""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""Teratoma"",
-		""type"": ""ITEM"",
-		""englishName"": ""Teratoma"",
-		""englishTooltip"": [
-			""Summons the Hive Mind when used in the corruption"",
-			""Not consumable""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Tératome"",
-				""translatedTooltip"": [
-					""Invoque l'Esprit de Ruche quand utilisé dans la corruption"",
-					""Non consommable""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -45745,32 +47577,6 @@ namespace CalamityFR.JSON
 				""translatedName"": ""Balle de Dents"",
 				""translatedTooltip"": [
 					""Les attaques furtives créent des nuages de pluie quand elles touchent""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""TorrentialTear"",
-		""type"": ""ITEM"",
-		""englishName"": ""Torrential Tear"",
-		""englishTooltip"": [
-			""Summons the rain."",
-			""Rain will start some time after this item is used."",
-			""If used while it's raining, the rain will stop some time afterward.""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Larme Torrentielle"",
-				""translatedTooltip"": [
-					""Invoque la pluie."",
-					""La pluie commencera peu après l'utilisation de cet objet."",
-					""S'il pleut déja, la pluie s'arrêtera peu après l'utilisation de cet objet.""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -47666,32 +49472,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""ViridVanguard"",
-		""type"": ""ITEM"",
-		""englishName"": ""Virid Vanguard"",
-		""englishTooltip"": [
-			""Summons 2 blades that rotate around you"",
-			""Each pair of blades takes up three minion slots"",
-			""Right clicking prompts all blades to fly upward and redirect towards the mouse""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Avant-Garde Viride"",
-				""translatedTooltip"": [
-					""Invoque deux lames qui tournent autour de vous"",
-					""Chaque paire de lame occupe trois emplacements de sbires"",
-					""Clic droit pour ordonner aux lames de se diriger vers la souris""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""Virulence"",
 		""type"": ""ITEM"",
 		""englishName"": ""Virulence"",
@@ -47910,28 +49690,6 @@ namespace CalamityFR.JSON
 					""75% de chances de ne pas consommer de munitions"",
 					""Tire des décharges de néant qui explosent tous les tirs pairs"",
 					""Tire des tentacules de flammes démoniaques suivant chaque tir""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""VoltageRegulationSystem"",
-		""type"": ""ITEM"",
-		""englishName"": ""Voltage Regulation System"",
-		""englishTooltip"": [
-			""Can be placed on the Codebreaker""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Dispositif d'Affichage Avancé"",
-				""translatedTooltip"": [
-					""Peut-être placé sur le décodeur""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -48417,28 +50175,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""WulfrumBattery"",
-		""type"": ""ITEM"",
-		""englishName"": ""Wulfrum Battery"",
-		""englishTooltip"": [
-			""7% increased summon damage""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Batterie Wulfrum"",
-				""translatedTooltip"": [
-					""+7% de dégâts d'invocation""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""WulfrumBlade"",
 		""type"": ""ITEM"",
 		""englishName"": ""Wulfrum Blade"",
@@ -48465,50 +50201,6 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": ""Arc Wulfrum"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""WulfrumController"",
-		""type"": ""ITEM"",
-		""englishName"": ""Wulfrum Controller"",
-		""englishTooltip"": [
-			""Summons a wulfrum droid to fight for you""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Controlleur Wulfrum"",
-				""translatedTooltip"": [
-					""Invoque un droïde wulfrum pour combattre à vos côtés""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""WulfrumRod"",
-		""type"": ""ITEM"",
-		""englishName"": ""Wulfrum Fishing Pole"",
-		""englishTooltip"": [
-			""This barely works, but it's better than nothing.""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Canne à Pêche Wulfrum"",
-				""translatedTooltip"": [
-					""Ca tient à peine, mais c'est mieux que rien.""
-				],
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -48590,28 +50282,6 @@ namespace CalamityFR.JSON
 				""translatedName"": ""Couvre-chef Wulfrum"",
 				""translatedTooltip"": [
 					""+10% de dégâts des sbires""
-				],
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""WulfrumKnife"",
-		""type"": ""ITEM"",
-		""englishName"": ""Wulfrum Knife"",
-		""englishTooltip"": [
-			""Stealth strikes make the knife fly further and hit several times at once""
-		],
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Couteau Wulfrum"",
-				""translatedTooltip"": [
-					""Les attaques furtives volent plus loin et infligent plusieurs coups""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -49173,6 +50843,120 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
+		""id"": ""CrawlerAmber"",
+		""type"": ""NPC"",
+		""englishName"": ""Amber Crawler"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""englishBestiary"": ""A lizard, its back inundated with crystals. These provide protection, but they are easily spooked and can be harvested for the rare gems upon their backs."",
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Lenc3lot"",
+				""translatedName"": ""Rampant d'Ambre"",
+				""translatedBestiary"": ""Un lézard, au dos inondé de cristaux. Ils fournissent protection, mais sont facilement effrayés et peuvent être récoltés pour les pierres précieuses sur leur dos."",
+				""proofRead"": true,
+				""proofReader"": ""Tolsyak""
+			},
+			{
+				""id"": 2,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Rampant d'Ambre"",
+				""translatedBestiary"": ""Un lézard, au dos inondé de cristaux. Bien qu'ils le protègent, il est facilement effrayé et est chassé pour les pierres précieuses sur leur dos."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""CrawlerAmethyst"",
+		""type"": ""NPC"",
+		""englishName"": ""Amethyst Crawler"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""englishBestiary"": ""A lizard, its back inundated with crystals. These provide protection, but they are easily spooked and can be harvested for the rare gems upon their backs."",
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Lenc3lot"",
+				""translatedName"": ""Rampant d'Améthyste"",
+				""translatedBestiary"": ""Un lézard, au dos inondé de cristaux. Ils fournissent protection, mais sont facilement effrayés et peuvent être récoltés pour les pierres précieuses sur leur dos."",
+				""proofRead"": true,
+				""proofReader"": ""Tolsyak""
+			},
+			{
+				""id"": 2,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Rampant d'Ambre"",
+				""translatedBestiary"": ""Un lézard, au dos inondé de cristaux. Bien qu'ils le protègent, il est facilement effrayé et est chassé pour les pierres précieuses sur leur dos."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""Anahita"",
+		""type"": ""NPC"",
+		""englishName"": ""Anahita"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""englishBestiary"": ""Boasting flawless manipulation of water, this elemental was known for almost limitless strength in her home turf. However, those days are long gone."",
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Lenc3lot"",
+				""translatedName"": ""Anahita"",
+				""translatedBestiary"": ""Douée dans la manipulation de l'eau, cette élémentaire était connue pour sa force presque illimitée dans son territoire. Cependant, ces jours sont lointains."",
+				""proofRead"": true,
+				""proofReader"": ""Tolsyak""
+			}
+		]
+	},
+	{
+		""id"": ""AnthozoanCrab"",
+		""type"": ""NPC"",
+		""englishName"": ""Anthozoan Crab"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""englishBestiary"": ""A crab that has placed upon its back, a sturdy structure of stone. It is quite strong and displays this extraordinary strength by hurling boulders at those who encroach on its territory."",
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Lenc3lot"",
+				""translatedName"": ""Crabe Anthozoaire"",
+				""translatedBestiary"": ""Un crabe qui a placé une robuste structure de pierre sur son dos. Il est relativement fort et affiche cette extraordinaire force en lançant des blocs de roche à quiconque empièterait sur son territoire."",
+				""proofRead"": true,
+				""proofReader"": ""Tolsyak""
+			}
+		]
+	},
+	{
+		""id"": ""AquaticAberration"",
+		""type"": ""NPC"",
+		""englishName"": ""Aquatic Aberration"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""englishBestiary"": ""All head and stomach, they will gorge and guzzle upon vast schools of fish on their own."",
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Lenc3lot"",
+				""translatedName"": ""Abérration Aquatique"",
+				""translatedBestiary"": ""Tout de tête et d'estomac, ils vont se gaver parmis de vastes bancs de poissons."",
+				""proofRead"": true,
+				""proofReader"": ""Tolsyak""
+			},
+			{
+				""id"": 2,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Abérration Aquatique"",
+				""translatedBestiary"": ""Des ventres à pattes sans cervelle, qui s'engorgent et se gavent de vastes bancs de poissons."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
 		""id"": ""AquaticScourgeBody"",
 		""type"": ""NPC"",
 		""englishName"": ""Aquatic Scourge"",
@@ -49205,6 +50989,24 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
+		""id"": ""AquaticScourgeHead"",
+		""type"": ""NPC"",
+		""englishName"": ""Aquatic Scourge"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""englishBestiary"": ""A species of scourge which has had its exoskeleton hardened and tempered by years of diving through sulphuric waters for prey. Its own jaws are now imbued with the venom of those seas."",
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""VicThor"",
+				""translatedName"": ""Fléau Aquatique"",
+				""translatedBestiary"": ""Une espèce de fléau dont l'exosquelette a été durci et trempé par des années de plongée dans des eaux sulfureuses à la recherche de proies. Ses propres mâchoires sont maintenant imprégnées du venin de ces mers."",
+				""proofRead"": true,
+				""proofReader"": ""Tolsyak""
+			}
+		]
+	},
+	{
 		""id"": ""AquaticScourgeTail"",
 		""type"": ""NPC"",
 		""englishName"": ""Aquatic Scourge"",
@@ -49217,6 +51019,60 @@ namespace CalamityFR.JSON
 				""translatedName"": ""Fléau Aquatique"",
 				""proofRead"": false,
 				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""AquaticUrchin"",
+		""type"": ""NPC"",
+		""englishName"": ""Aquatic Urchin"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""englishBestiary"": ""A relative of its brethren in the far ocean, this one’s spines have been hardened by the sulphuric waters. They drip with the venom they inhabit, so it’s better to not be struck by them."",
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""VicThor"",
+				""translatedName"": ""Oursin Aquatique"",
+				""translatedBestiary"": ""Un parent de ses frères de l'océan lointain, les épines de celui-ci ont été durcies par les eaux sulfureuses. Elles dégoulinent du venin qu'elles abritent, alors il vaut mieux ne pas être frappé par ces dernières."",
+				""proofRead"": true,
+				""proofReader"": ""Tolsyak""
+			}
+		]
+	},
+	{
+		""id"": ""DILF"",
+		""type"": ""NPC"",
+		""englishName"": ""Archmage"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""englishBestiary"": ""His face shows great age, but also great wisdom. The Archmage once stood against the Jungle Tyrant and paid the price. He sells various frosty wares but of course, keeps the most powerful spells to himself."",
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""VicThor"",
+				""translatedName"": ""Archimage"",
+				""translatedBestiary"": ""Son visage montre un grand âge, mais aussi une grande sagesse. L'Archimage s'est un jour opposé au Tyran de la Jungle et en a payé le prix. Il vend diverses marchandises glacées, mais bien sûr, il garde pour lui les sorts les plus puissants."",
+				""proofRead"": true,
+				""proofReader"": ""Tolsyak""
+			}
+		]
+	},
+	{
+		""id"": ""Aries"",
+		""type"": ""NPC"",
+		""englishName"": ""Aries"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""englishBestiary"": ""Biologically, the creature suffers terribly. Its legs do not allow it to rest, constantly hopping across the infected landscape. It does not care as its mind is far gone. It continues this until death."",
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""VicThor"",
+				""translatedName"": ""Aries"",
+				""translatedBestiary"": ""Biologiquement, la créature souffre terriblement. Ses jambes ne lui permettent pas de se reposer, sautillant constamment à travers le paysage infecté. Elle s'en moque, car son esprit est déjà bien loin. Elle continue ainsi jusqu'à sa mort."",
+				""proofRead"": true,
+				""proofReader"": ""Tolsyak""
 			}
 		]
 	},
@@ -49237,6 +51093,24 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
+		""id"": ""ArmoredDiggerHead"",
+		""type"": ""NPC"",
+		""englishName"": ""Armored Digger"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""englishBestiary"": ""These automated mechanical worms used to dig out the caverns so labs could be built. Thankfully, they are long past their once efficient state, and have not received maintenance in decades."",
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""VicThor"",
+				""translatedName"": ""Creuseur Blindé"",
+				""translatedBestiary"": ""Ces vers mécaniques automatisés creusaient les cavernes pour permettre la construction de laboratoires. Heureusement, ils ont depuis longtemps perdu leur efficacité et n'ont pas été entretenus depuis des décennies."",
+				""proofRead"": true,
+				""proofReader"": ""Tolsyak""
+			}
+		]
+	},
+	{
 		""id"": ""ArmoredDiggerTail"",
 		""type"": ""NPC"",
 		""englishName"": ""Armored Digger"",
@@ -49253,6 +51127,42 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
+		""id"": ""AstralProbe"",
+		""type"": ""NPC"",
+		""englishName"": ""Astral Probe"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""englishBestiary"": ""A small animal devoured by the astral infection. The virus retains and shares its experience with itself of devouring other, similar creatures and so, all form identical shells."",
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Goffio"",
+				""translatedName"": ""Sonde Astrale"",
+				""translatedBestiary"": ""Un petit animal qui fut dévoré par l'infection astrale. Le virus retient et partage son expérience avec lui-même en dévorant d'autres créatures similaires et ainsi, tous forment des coquilles identiques"",
+				""proofRead"": true,
+				""proofReader"": ""Tolsyak""
+			}
+		]
+	},
+	{
+		""id"": ""AstralSlime"",
+		""type"": ""NPC"",
+		""englishName"": ""Astral Slime"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""englishBestiary"": ""It does not show behavior different from any of its gelatinous folk, so this adaptive creature may have been the only one to fight the infection in its own way."",
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Goffio"",
+				""translatedName"": ""Gelée Astrale"",
+				""translatedBestiary"": ""Il ne présente aucune différence comportementale de ses autres compères gélatineux, cette créature adaptative a peut-être été la seule à combattre l'infection à sa manière."",
+				""proofRead"": true,
+				""proofReader"": ""Tolsyak""
+			}
+		]
+	},
+	{
 		""id"": ""AstralachneaWall"",
 		""type"": ""NPC"",
 		""englishName"": ""Astralachnea"",
@@ -49265,6 +51175,42 @@ namespace CalamityFR.JSON
 				""translatedName"": ""Astralaraignée"",
 				""proofRead"": false,
 				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""AstralachneaGround"",
+		""type"": ""NPC"",
+		""englishName"": ""Astralachnea"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""englishBestiary"": ""An arachnid taken over by the infection, it has lost its ability to spin webs and hosts a myriad of astral growths on its abdomen."",
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Goffio"",
+				""translatedName"": ""Astralaraignée"",
+				""translatedBestiary"": ""Un arachnide dominé par l'infection, il a perdu sa capacité à tisser des toiles et héberge une tonne d'excroissances astrales sur son abdomen."",
+				""proofRead"": true,
+				""proofReader"": ""Tolsyak""
+			}
+		]
+	},
+	{
+		""id"": ""AstrumAureus"",
+		""type"": ""NPC"",
+		""englishName"": ""Astrum Aureus"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""englishBestiary"": ""A multi-legged mechanical beast, its very existence speaks of the extent of control the astral virus has. Not even machinery can stand against it."",
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Goffio"",
+				""translatedName"": ""Astrum Aureus"",
+				""translatedBestiary"": ""Une bête méchanique à plusieurs pattes, son existence même témoigne de l'étendue du contrôle du virus astral. Même les machines ne peuvent s'y opposer."",
+				""proofRead"": true,
+				""proofReader"": ""Tolsyak""
 			}
 		]
 	},
@@ -49301,6 +51247,24 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
+		""id"": ""Atlas"",
+		""type"": ""NPC"",
+		""englishName"": ""Atlas"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""englishBestiary"": ""In its uncontrolled growth, one appendage wrested nutrients and materials from the other and brought it to the extremes of muscular strength. One blow is enough to pulverize a monolith."",
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Goffio"",
+				""translatedName"": ""Atlas"",
+				""translatedBestiary"": ""Dans sa croissance incontrôlée, un appendice a arrachée des nutriments et des matériaux par ci par là et les a entrainés à l'extrême de la force musculaire. Un coup suffit pour pulvériser un monolithe."",
+				""proofRead"": true,
+				""proofReader"": ""Tolsyak""
+			}
+		]
+	},
+	{
 		""id"": ""AureusSpawn"",
 		""type"": ""NPC"",
 		""englishName"": ""Aureus Spawn"",
@@ -49311,6 +51275,184 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": ""Réjeton d'Aureus"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""AuroraSpirit"",
+		""type"": ""NPC"",
+		""englishName"": ""Aurora Spirit"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""englishBestiary"": ""The souls of those who passed on in the heart of a blizzard. They now seek out others to freeze to death, to die as they did."",
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Goffio"",
+				""translatedName"": ""Esprit d'Aurore"",
+				""translatedBestiary"": ""Les âmes de ceux qui sont décédés au coeur d'un blizzard. Ils recherchent maintenant d'autre âmes pour mourir de froid, pour mourrir comme eux."",
+				""proofRead"": true,
+				""proofReader"": ""Tolsyak""
+			}
+		]
+	},
+	{
+		""id"": ""BabyFlakCrab"",
+		""type"": ""NPC"",
+		""englishName"": ""Baby Flak Crab"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 2,
+		""englishBestiary"": ""Curiously, these seem to be intelligent enough to imprint a sort of parent figure if captured at a young enough age. They will stick with you forever!"",
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Goffio"",
+				""translatedName"": ""Bébé Crabe Flak"",
+				""translatedBestiary"": ""Curieusement, ceux-ci semblent être suffisamment intelligents pour impriser une sorte de figurine parentale si ils sont capturés suffisament jeunes. Ils resteront avec vous pour toujours !"",
+				""proofRead"": true,
+				""proofReader"": ""Tolsyak""
+			},
+			{
+				""id"": 2,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bébé Crabe Flak"",
+				""translatedBestiary"": ""Curieusement, ceux-ci semblent être suffisamment intelligents pour s'attacher à un substitut de figure parentale si ils sont capturés suffisament jeunes. Ils resteront avec vous pour toujours !"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""BabyGhostBell"",
+		""type"": ""NPC"",
+		""englishName"": ""Baby Ghost Bell"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""englishBestiary"": ""Like their adult counterparts, they shimmer gently, and would make great sources of light if the prisms around them didn’t already do so. Maybe if there was a way to bring one with you."",
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Goffio"",
+				""translatedName"": ""Bébé Cloche Fantôme"",
+				""translatedBestiary"": ""Comme leurs compères adultes, ils scintillent, et feraient d'excellentes sources de lumière si le prisme qui les entourent de le fesait pas déjà. Si seulement il y avait un moyen de les emporter avec vous."",
+				""proofRead"": true,
+				""proofReader"": ""Tolsyak""
+			}
+		]
+	},
+	{
+		""id"": ""THIEF"",
+		""type"": ""NPC"",
+		""englishName"": ""Bandit"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 2,
+		""englishBestiary"": ""A kleptomaniac who is a bit of a coward when it comes to face-to-face fights. She’s rather good at getting herself both into and out of dicey situations."",
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Goffio"",
+				""translatedName"": ""Bandit"",
+				""translatedBestiary"": ""Une kleptomane qui un est un peu lâche dans les combats en face à face. Elle est plutôt douée pour se mettre à la fois dans et hors des situations délicates."",
+				""proofRead"": true,
+				""proofReader"": ""Tolsyak""
+			},
+			{
+				""id"": 2,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Bandit"",
+				""translatedBestiary"": ""Une kleptomane qui un est un peu lâche dans son approche des combats. Elle est plutôt douée et pour se mettre dans des situations délicates, et pour s'en sortir."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""BelchingCoral"",
+		""type"": ""NPC"",
+		""englishName"": ""Belching Coral"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""englishBestiary"": ""A rare species of coral, one which is able to process and draw nutrients from the waters of the sulphurous sea. During this process, a large amount of volatile gas is formed."",
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Goffio"",
+				""translatedName"": ""Corail Cracheur"",
+				""translatedBestiary"": ""Une espèce rare de corail, capables de traiter et de puiser des nutriments dans les eaux de la mer sulfureuse. Durant ce processus, une grande quantité de gaz volatil se forme."",
+				""proofRead"": true,
+				""proofReader"": ""Tolsyak""
+			}
+		]
+	},
+	{
+		""id"": ""BigSightseer"",
+		""type"": ""NPC"",
+		""englishName"": ""Big Sightseer"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""englishBestiary"": ""Within their shells, the virus brews a potent chemical. When the seer approaches a foe, it spits this chemical out of its mandibles, hoping to melt the intruder’s flesh."",
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Goffio"",
+				""translatedName"": ""Gros Cherchevue"",
+				""translatedBestiary"": ""Dans leurs coquilles, le virus brasse un produit chimique puissant. Lorsque que le Cherchevue approche d'un ennemi, il crache ce produit chimique de ses mandibules, dans l'espoir de faire fondre sa chair."",
+				""proofRead"": true,
+				""proofReader"": ""Tolsyak""
+			}
+		]
+	},
+	{
+		""id"": ""BlindedAngler"",
+		""type"": ""NPC"",
+		""englishName"": ""Blinded Angler"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""englishBestiary"": ""A species of angler which has lost any distinguishing feature on its head. Using primitive electroreception similar to sharks, it slowly and methodically hunts its prey."",
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Goffio"",
+				""translatedName"": ""Baudroie Aveuglée"",
+				""translatedBestiary"": ""Une espèce de baudroie qui a perdu tout trait distinctif sur sa tête. Utilisant une électroception similaire aux requins, il chasse lentement et méthodiquement ses proies."",
+				""proofRead"": true,
+				""proofReader"": ""Tolsyak""
+			}
+		]
+	},
+	{
+		""id"": ""Bloatfish"",
+		""type"": ""NPC"",
+		""englishName"": ""Bloatfish"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""englishBestiary"": ""Heavy, large fish which can easily resist the crushing pressure of the depths and any weapon which might attempt to pierce its tough skin."",
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Goffio"",
+				""translatedName"": ""Poisson Bouffi"",
+				""translatedBestiary"": ""Un gros poisson lourd qui peut facilement résister à la pression écrasantes des profondeurs et à toute arme qui pourrait tenter de percer sa peau dure."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""BloodwormNormal"",
+		""type"": ""NPC"",
+		""englishName"": ""Bloodworm"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""englishBestiary"": ""A ripe-looking worm large enough to curl around your arm. A fish would have to be either mad enough or wise enough, to go after one of these."",
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Goffio"",
+				""translatedName"": ""Ver de Sang"",
+				""translatedBestiary"": ""Un ver mûr assez grand pour s'enrouler autour de votre bras. Un poisson devrait être assez fou ou assez discret pour s'en prendre à l'un d'eux."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -49333,6 +51475,24 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
+		""id"": ""BloomSlime"",
+		""type"": ""NPC"",
+		""englishName"": ""Bloom Slime"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""englishBestiary"": ""With the solar energy released from the profaned goddess’ destruction, uelibloom has sprouted in the jungle’s mud, and in the slimes which inhabit the biome."",
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Goffio"",
+				""translatedName"": ""Gelée de Floraison"",
+				""translatedBestiary"": ""Avec l'énergie solaire libérée par la destruction de la déesse profanée, l'ueliclosion a germé dans la boue de la jungle, et dans les gelées qui peuplent le biome."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
 		""id"": ""BobbitWormSegment"",
 		""type"": ""NPC"",
 		""englishName"": ""Bobbit Worm"",
@@ -49343,6 +51503,96 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": ""Ver Bobbit"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""BobbitWormHead"",
+		""type"": ""NPC"",
+		""englishName"": ""Bobbit Worm"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""englishBestiary"": ""An immense threat for those who dare venture into the depths. Nearly imperceptible when they choose to be, and lightning-fast when they attack, their jaws can cut through iron plates over half a foot thick."",
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Goffio"",
+				""translatedName"": ""Ver Bobbit"",
+				""translatedBestiary"": ""Une immense menace pour ceux qui osent s'aventurer dans les pronfondeurs.Presque imperceptible quand ils choississent de l'être, et aussi rapide que la lumière quand ils attaquent, leurs mâchoires peuvent couper des plaques de fer de plus d'un demi-pied d'épaisseur."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""Bohldohr"",
+		""type"": ""NPC"",
+		""englishName"": ""Bohldohr"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""englishBestiary"": ""A distant relative to the gem-covered lizards found within the caverns. This species instead covers itself with the smooth bricks of the Temple and curls into a ball for locomotion."",
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Goffio"",
+				""translatedName"": ""Bohldohr"",
+				""translatedBestiary"": ""Un parent éloigné des lézards couverts de pierres précieuses trouvés dans les cavernes. Cette espèce se couvre plutôt des briques lisses du Temples et se recroqueville en boule pour se déplacer"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""BoxJellyfish"",
+		""type"": ""NPC"",
+		""englishName"": ""Box Jellyfish"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""englishBestiary"": ""These seemingly inept masses of gelatin are anything but harmless. Let even one of their trailing tentacles brush you, and you will be heavily envenomed."",
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Goffio"",
+				""translatedName"": ""Méduse-Boîte"",
+				""translatedBestiary"": ""Ces masses de gélatines d'apparence ineptes sont tous sauf inoffensives. Laissez ne serait-ce qu'une seul de leurs tentacules trainantes vous effleurer, et vous serez fortement envenimé"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""Brimling"",
+		""type"": ""NPC"",
+		""englishName"": ""Brimling"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""englishBestiary"": ""Fragments of the brimstone elemental which made their way into shells of slag, their eyes stare mindlessly into the distance, for targets to burn."",
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Goffio"",
+				""translatedName"": ""Soufrelin"",
+				""translatedBestiary"": ""Des framents de l'élémentaire de soufre qui se sont frayés un chemin dans des coquilles de mâchefer, leurs yeux regardent inconsciemment au loin, à la recherche de cible à brûler."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""BrimstoneElemental"",
+		""type"": ""NPC"",
+		""englishName"": ""Brimstone Elemental"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""englishBestiary"": ""A fallen goddess, past her prime of faithful worshippers. She feels an intense hatred for any being with enough self awareness to pity her."",
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Goffio"",
+				""translatedName"": ""Élémentaire de soufre"",
+				""translatedBestiary"": ""Une déesse déchu, au passé remplit de fidèles. Elle ressent une haine intense pour tout être ayant suffisament de confiance en soi pour avoir pitié d'elle."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -49377,6 +51627,186 @@ namespace CalamityFR.JSON
 				""author"": ""Tolsyak"",
 				""translatedName"": ""Sorcière de Soufre"",
 				""translatedBestiary"": ""C'est très surprenant de voir cette puissante ennemie vivre parmi nos amis. L'histoire se répètera t'elle ou parviendra t'elle finalement à se libérer de l'emprise du Tyran?"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""CalamitasClone"",
+		""type"": ""NPC"",
+		""englishName"": ""Calamitas"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""englishBestiary"": ""A mysterious burning form which only appears at night, wreathed in brimstone fire. It has a twisted mind and misplaced pride in its abilities."",
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Goffio"",
+				""translatedName"": ""Calamitas"",
+				""translatedBestiary"": ""Une mystèrieux formes brûlantes qui n'apparaît que de nuit, entourée de soufre brûlant. Elle a un esprit tordu et une fierté mal placée de ses capacités."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""CalamityEye"",
+		""type"": ""NPC"",
+		""englishName"": ""Calamity Eye"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""englishBestiary"": ""Though these enemies are only a little more threatening than a demon eye, some say that they originally burst from the sockets of those who used to inhabit the capital, when their souls were cursed by the red flames."",
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Oeil de Calamité"",
+				""translatedBestiary"": ""Bien que ces ennemis ne soient pas plus menaçant qu'un oeil démoniaque, certain disent qu'ils viennent des yeux de ceux qui habitaient la capitale, quand leurs âmes furent maudites par les flammes écarlate."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""Cataclysm"",
+		""type"": ""NPC"",
+		""englishName"": ""Cataclysm"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""englishBestiary"": ""A shade of itself, the only actions it seems to know are to burn and kill."",
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Goffio"",
+				""translatedName"": ""Cataclysme"",
+				""translatedBestiary"": ""Une ombre de lui-même, les seules actions qu'il semble connaître sont de brûler et de tuer."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SupremeCataclysm"",
+		""type"": ""NPC"",
+		""englishName"": ""Cataclysm"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""englishBestiary"": ""Despite retaining a humanoid form, it is not capable of any higher thoughts. It only knows violence."",
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Goffio"",
+				""translatedName"": ""Cataclysme"",
+				""translatedBestiary"": ""Bien qu'il ait gardé une forme humanoïde, il n'est pas capable de penser. Il ne connaît que la violence."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""Catastrophe"",
+		""type"": ""NPC"",
+		""englishName"": ""Catastrophe"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""englishBestiary"": ""A violent, mindless construct. No good can come from raising the dead."",
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Goffio"",
+				""translatedName"": ""Catastrophe"",
+				""translatedBestiary"": ""Une construction violente et insensée. Rien de bon ne peux venir de quelque chose qui résuscite les morts."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SupremeCatastrophe"",
+		""type"": ""NPC"",
+		""englishName"": ""Catastrophe"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""englishBestiary"": ""Calamitas’ necromancy is outmatched by no one, but no one can truly bring the departed back from the dead."",
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Goffio"",
+				""translatedName"": ""Catastrophe"",
+				""translatedBestiary"": ""La nécromancie de Calasmitas n'est surpassée par personne, mais personne ne peut vraiment ramener les défunts d'entre les morts."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""Catfish"",
+		""type"": ""NPC"",
+		""englishName"": ""Catfish"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""englishBestiary"": ""An animal which adapted to the toxic waters quite naturally. It uses its whiskers to find its way, and its prey in the murky depths."",
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Goffio"",
+				""translatedName"": ""Poisson-Chat"",
+				""translatedBestiary"": ""Un animal qui s'est adapté aux eaux toxiques.Il utilise ses moustaches pour trouver son chemin ainsi que sa proie dans les profondeurs obscures."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""CeaselessVoid"",
+		""type"": ""NPC"",
+		""englishName"": ""Ceaseless Void"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""englishBestiary"": ""When the fabric of the universe is meddled with, especially by inexperienced beings, the risk of irreparable damage is very, very high."",
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Goffio"",
+				""translatedName"": ""Néant Incessant"",
+				""translatedBestiary"": ""Lorsque l'univers est fabriqué, en particulié par des êtres inexpérimentés, le risque de dommage irréversible est très, très élevé."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""ChaoticPuffer"",
+		""type"": ""NPC"",
+		""englishName"": ""Chaotic Puffer"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""englishBestiary"": ""Anarchistic little devils, they swallow large amounts of water to inflate their bristling bodies. The water within them boils and bursts out in a scalding rush when they are killed."",
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Goffio"",
+				""translatedName"": ""Poisson-globe Chaotique"",
+				""translatedBestiary"": ""Petit diable anarchiste, il avale de grandes quantités d'eau pour gonfler son corps hérissé. L'eau qu'il contient bout et éclate en une bouillie brûlante lorsqu'il est tué."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""CharredSlime"",
+		""type"": ""NPC"",
+		""englishName"": ""Charred Slime"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""englishBestiary"": ""Lava slimes are the only ones that manage to survive in the heat of hell, having replaced their moisture with liquid rock. That said, their mannerisms are the same, and they seek out and devour anything they can."",
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Goffio"",
+				""translatedName"": ""Gelée Calcinée"",
+				""translatedBestiary"": ""Les slimes de lave sont les seules qui réussissent à survivre dans la chaleau de l'enfer, après avoir remplacé leur humidité par de la roche liquide.Cela dit, leurs manières restent les mêmes, ils recherchent et devorent tout ce qu'ils peuvent."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -49503,7 +51933,7 @@ namespace CalamityFR.JSON
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Tolsyak"", 
 				""translatedName"": ""Démon"",
 				""proofRead"": false,
 				""proofReader"": """"
@@ -50551,10 +52981,10 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""EdgyBossText8"",
+		""id"": ""DeusText"",
 		""type"": ""TRANSLATION"",
 		""englishName"": """",
-		""englishDesc"": ""Are you honestly that bad at dodging?"",
+		""englishDesc"": ""A star-spawned horror tunnels through the astral infection."",
 		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
@@ -50562,205 +52992,7 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": """",
-				""translatedDesc"": ""T'es vraiment aussi mauvais à l'esquive?"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""EdgyBossText12"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""You are no god... but I shall feast upon your essence regardless!"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Kastiel"",
-				""translatedName"": """",
-				""translatedDesc"": ""Tu n'es pas un dieu...mais peu importe, je devorerais ton âme!"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""DeathText"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Death is active; enjoy the fun."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Kastiel"",
-				""translatedName"": """",
-				""translatedDesc"": ""La Mort est activée, profites bien du fun."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""DeathText2"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Death is not active; not fun enough for you?"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Kastiel"",
-				""translatedName"": """",
-				""translatedDesc"": ""La Mort est désactivée, pas assez fun pour toi?"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""SCalSummonText"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Do you enjoy going through hell?"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Ca t'amuse de passer l'enfer?"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""SCalStartText"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""You should have just died..."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Tu devrais juste mourir..."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""SCalBH2Text"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""It wasn't too long ago you barely managed to defeat my doppelganger. Quite the failure, wasn't it?"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Il n'y a pas si longtemps que tu as à peine réussi a vaincre mon clone. Un échec retentissant, pas vrai?"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""SCalBH3Text"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""You've harnessed great power, but you wield it for no one but yourself."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Tu as acquéri un grand pouvoir, mais tu ne t'en sers pas personne d'autre que toi-même."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""SCalBrothersText"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Would you like to meet my family? Horrible, isn't it?"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Tu veux rencontrer ma famille? Horrible, pas vrai?"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""SCalPhase2Text"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""You will suffer greatly."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Tu souffrira grandement."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""SCalBH4Text"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""It's absurd to even think of trying to get away. As long as you live, you will suffer."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Il est absurde de ne serait-ce que penser a s'enfuir. Aussi longtemps que tu vivras, tu souffriras."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""SCalSeekerRingText"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""An upstart who recklessly stole and killed their way to power. I wonder, who does that remind me of...?"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Un parvenu qui a insouciamment volé et tué pour obtenir son pouvoir. Je me demande bien qui cela me rappele...?"",
+				""translatedDesc"": ""Une horreur née des étoiles creusent au travers de l'infection astrale."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -50785,10 +53017,10 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""SCalSepulcher2Text"",
+		""id"": ""RogueLevelUpFinal"",
 		""type"": ""TRANSLATION"",
 		""englishName"": """",
-		""englishDesc"": ""Once the dust has settled and only one remains, if it is you, what value will this have had?!"",
+		""englishDesc"": ""Rogue weapon proficiency maxed out!"",
 		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
@@ -50796,17 +53028,17 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": """",
-				""translatedDesc"": ""Une fois que tout sera fini et qu'il n'en restera qu'un, si c'est toi, qu'est-ce que tu auras gagné?!"",
+				""translatedDesc"": ""Compétence de voleur maximisée!"",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
 		]
 	},
 	{
-		""id"": ""SCalDesparationText1"",
+		""id"": ""SCalSeekerRingText"",
 		""type"": ""TRANSLATION"",
 		""englishName"": """",
-		""englishDesc"": ""Just stop!"",
+		""englishDesc"": ""An upstart who recklessly stole and killed their way to power. I wonder, who does that remind me of...?"",
 		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
@@ -50814,17 +53046,17 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": """",
-				""translatedDesc"": ""Arrêtes!"",
+				""translatedDesc"": ""Un parvenu qui a insouciamment volé et tué pour obtenir son pouvoir. Je me demande bien qui cela me rappele...?"",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
 		]
 	},
 	{
-		""id"": ""SCalDesparationText2"",
+		""id"": ""PlantOreText"",
 		""type"": ""TRANSLATION"",
 		""englishName"": """",
-		""englishDesc"": ""I have no future if I lose here."",
+		""englishDesc"": ""Energized plant matter has formed in the underground."",
 		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
@@ -50832,295 +53064,7 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": """",
-				""translatedDesc"": ""Je n'ai aucun avenir si je perds ici."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""SCalDesparationText3"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Once you have bested me, you will only have one path forward."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Une fois que tu m'auras vaincue, tu n'auras plus qu'une seule voie a emprunter."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""SCalDesparationText4"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""And that path... also has no future."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Et cette voie... n'a aucun avenir."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""SCalAcceptanceText1"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Even if he has thrown all else away, his power remains."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Même s'il a abandonné tout le reste, son pouvoir demeure."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""SCalAcceptanceText2"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""I have no more energy left to resent him, or you..."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Je n'ai plus la force de lui en vouloir, ni a lui, ni a toi..."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""SCalAcceptanceText3"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""It will all be in your hands now."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Tout repose entre tes main désormais."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""SCalSummonTextRematch"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""If you’re looking for some fourth-degree burns, you’ve got the right person."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Si tu cherches a te brûler au 4ème degré, je suis la bonne personne."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""SCalStartTextRematch"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""When the time comes, would you like to join my creation?"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Quand le temps viendra, que dirais-tu de joindre mes créations?"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""SCalBH2TextRematch"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""You’ll still have to work hard for this victory."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Tu vas quand même devoir travailler dur pour obtenir la victoire."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""SCalBH3TextRematch"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""I haven’t had such an interesting target dummy to test my magic on in a long time."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Je n'ai pas eu un mannequin d'entraînement pour tester ma magie aussi intéressant depuis longtemps."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""SCalBrothersTextRematch"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Empty shells of their former selves. I doubt even a scrap of their spirits remain."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Des carapaces vides de ce qu'ils étaient. Je doute qu'il ne reste serait-ce qu'un fragment de leurs esprits en eux."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""SCalPhase2TextRematch"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Here we go again."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Et on est repartis."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""SCalBH4TextRematch"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""I wonder if you’ve seen these in your nightmares since our first battle?"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Je me demande si tu as cauchemardé de ces choses depuis notre premier combat?"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""SCalSeekerRingTextRematch"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Your skill hasn't faltered in the least."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Ton talent n'a pas faibli d'un iota."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""SCalBH5TextRematch"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Isn't this exciting?"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Qu'est-ce qu'on s'amuse!"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""SCalSepulcher2TextRematch"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Here comes the crawling tomb, one last time."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Et voila la tombe rampante, une dernière fois."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""SCalDesparationText1Rematch"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""A terrific display, I concede this match to you."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Incroyable performance, je te concede la victoire."",
+				""translatedDesc"": ""De la matière végétale énergisée s'est formée dans les souterrains."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -51145,10 +53089,10 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""SCalDesparationText3Rematch"",
+		""id"": ""DraedonResummonText"",
 		""type"": ""TRANSLATION"",
 		""englishName"": """",
-		""englishDesc"": ""I trust you will not make the same mistakes he did."",
+		""englishDesc"": ""Make your choice."",
 		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
@@ -51156,17 +53100,17 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": """",
-				""translatedDesc"": ""Je te fais confiance pour ne pas commetre les mêmes erreurs que lui."",
+				""translatedDesc"": ""Fais ton choix."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
 		]
 	},
 	{
-		""id"": ""SCalDesparationText4Rematch"",
+		""id"": ""SCalSepulcher2TextRematch"",
 		""type"": ""TRANSLATION"",
 		""englishName"": """",
-		""englishDesc"": ""I can’t imagine what your future holds now."",
+		""englishDesc"": ""Here comes the crawling tomb, one last time."",
 		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
@@ -51174,35 +53118,35 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": """",
-				""translatedDesc"": ""Je n'arrive pas à imaginer ce que le futur te réserve."",
+				""translatedDesc"": ""Et voila la tombe rampante, une dernière fois."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
 		]
 	},
 	{
-		""id"": ""DraedonIntroductionText1"",
+		""id"": ""EdgyBossText12"",
 		""type"": ""TRANSLATION"",
 		""englishName"": """",
-		""englishDesc"": ""I have waited long for this moment."",
+		""englishDesc"": ""You are no god... but I shall feast upon your essence regardless!"",
 		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Kastiel"",
 				""translatedName"": """",
-				""translatedDesc"": ""J'ai attendu ce moment depuis longtemps."",
+				""translatedDesc"": ""Tu n'es pas un dieu...mais peu importe, je devorerais ton âme!"",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
 		]
 	},
 	{
-		""id"": ""DraedonIntroductionText2"",
+		""id"": ""DoGBossText"",
 		""type"": ""TRANSLATION"",
 		""englishName"": """",
-		""englishDesc"": ""Your nature fascinates me, for I do not understand it."",
+		""englishDesc"": ""The frigid moon shimmers brightly."",
 		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
@@ -51210,17 +53154,17 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": """",
-				""translatedDesc"": ""Ta nature me fascine, parce que je ne la comprends pas."",
+				""translatedDesc"": ""La lune frigide scintille brillament."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
 		]
 	},
 	{
-		""id"": ""DraedonIntroductionText3"",
+		""id"": ""EdgyBossText11"",
 		""type"": ""TRANSLATION"",
 		""englishName"": """",
-		""englishDesc"": ""You will face my creations which have surpassed gods."",
+		""englishDesc"": ""A GOD DOES NOT FEAR DEATH!"",
 		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
@@ -51228,17 +53172,17 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": """",
-				""translatedDesc"": ""Tu affronteras mes créations qui ont surpassés les dieux."",
+				""translatedDesc"": ""UN DIEU NE CRAINT PAS LA MORT!"",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
 		]
 	},
 	{
-		""id"": ""DraedonIntroductionText4"",
+		""id"": ""EdgyBossText10"",
 		""type"": ""TRANSLATION"",
 		""englishName"": """",
-		""englishDesc"": ""And you will show me your disposition through battle."",
+		""englishDesc"": ""It's not over yet, kid!"",
 		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
@@ -51246,17 +53190,17 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": """",
-				""translatedDesc"": ""Et tu me montreras qui tu es vraiment par le combat."",
+				""translatedDesc"": ""C'est pas terminé, gamin!"",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
 		]
 	},
 	{
-		""id"": ""DraedonIntroductionText5"",
+		""id"": ""BossRushTierFourEndText"",
 		""type"": ""TRANSLATION"",
 		""englishName"": """",
-		""englishDesc"": ""Now, choose."",
+		""englishDesc"": ""Hmm? So you've made it to the final tier, a remarkable feat enviable by even the mightiest of the gods."",
 		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
@@ -51264,17 +53208,17 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": """",
-				""translatedDesc"": ""Maintenant, choisis."",
+				""translatedDesc"": ""Hmm? Alors tu as atteint le dernier niveau, Un fait remarquable, enviable par les plus puissants des dieux."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
 		]
 	},
 	{
-		""id"": ""DraedonExoPhase1Text1"",
+		""id"": ""GhostBossText"",
 		""type"": ""TRANSLATION"",
 		""englishName"": """",
-		""englishDesc"": ""Designs improved with time and knowledge are the essence of my work."",
+		""englishDesc"": ""The abyssal spirits have been disturbed."",
 		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
@@ -51282,17 +53226,17 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": """",
-				""translatedDesc"": ""Les conceptions améliorées avec le temps et la connaissance son l'essence de mon travail."",
+				""translatedDesc"": ""Les esprits abyssaux ont été dérangés."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
 		]
 	},
 	{
-		""id"": ""DraedonExoPhase1Text2"",
+		""id"": ""BossRushTierOneEndText"",
 		""type"": ""TRANSLATION"",
 		""englishName"": """",
-		""englishDesc"": ""Through no other method can I approach perfection."",
+		""englishDesc"": ""Hmm? Oh, you're still alive. Unexpected, but don't get complacent just yet."",
 		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
@@ -51300,7 +53244,259 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": """",
-				""translatedDesc"": ""Par nulle autre méthode je peux approcher la perfection."",
+				""translatedDesc"": ""Hmm? Oh, encore vivant. C'est innattendu, mais ne tombe pas déjà dans la complaisance."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SCalSeekerRingTextRematch"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Your skill hasn't faltered in the least."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Ton talent n'a pas faibli d'un iota."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""PlantBossText"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""The ocean depths are trembling."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Les profondeurs de l'océan tremblent."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""ArmageddonText2"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Bosses will no longer kill you instantly."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Les boss ne vous tuerons plus en un coup."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""ProfanedBossText"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""The air is burning..."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""L'air s'embrase..."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""BossRushTierThreeEndText"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Hmm? Your perseverance is truly a trait to behold. You've come further than even the demigods in such a short time."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Hmm? Ta persévérence est vraiment d'un caractère saisissant. Tu es allé plus loin que les demi dieux eux-mêmes en si peu de temps."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""BossRushTierFourEndText2"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Go forth and conquer 'til the ritual's end!"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Va et conquiert jusqu'a la fin du rituel!"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""HardmodeOreTier4Text"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""The hallow has been blessed with consecrated stone!"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Le sacré a été béni avec de la pierre consacrée!"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""AcidRainEnd"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""The sulphuric skies begin to clear..."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Les cieux sulfuriques commencent à s'éclaircir..."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SCalBH3TextRematch"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""I haven’t had such an interesting target dummy to test my magic on in a long time."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Je n'ai pas eu un mannequin d'entraînement pour tester ma magie aussi intéressant depuis longtemps."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""DeusAltarRejectNightText"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""The god of the stars rejects your offering. The ritual can only be performed at night."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Le dieu stellaire rejette ton offrande. Le rituel ne peut être accompli que la nuit."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""MagicLevelUp"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Magic weapon proficiency level up!"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Compétence magique augmentée!"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""DargonBossText2"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""My dragon deems you an unworthy opponent. You must acquire the power of the dark sun to witness his true power."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Mon dragon semble juger que tu n'es pas un adversaire digne. Tu dois acquérir le pouvoir du sombresoleil pour libérer son véritable pouvoir."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""PlanetoidSchematicRecipeCondition"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Place a schematic from the lab in the large planetoid in your inventory at least once"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Place le schéma du laboratoire du planétoïde dans ton inventaire au moins une fois"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""Tier5ArsenalRecipeCondition"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Decrypt a schematic from the lab deep within the frozen caverns"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Décrypte un schéma dans le laboratoire dans les profondeurs des cavernes gelées"",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -51343,510 +53539,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""DraedonExoPhase3Text1"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Ever since I was alerted to your presence, I have processed your battles in order to make my machines stronger."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Depuis que j'ai été informé de ton existence, j'ai compilé tes données de combat pour rendre mes machines plus fortes."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""DraedonExoPhase3Text2"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Even now, I monitor your actions. Nothing should escape the bounds of my calculations."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Même maintenant, je monitore tes actions. Rien n'echappera à mes calculs."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""DraedonExoPhase4Text1"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Curious. Very curious."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Curieux. Très curieux."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""DraedonExoPhase4Text2"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""You progress steadily against more difficult challenges."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Tu progresses constamment face aux challenges de plus en plus ardus."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""DraedonExoPhase5Text1"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Your nature remains unknown to me. This will not do."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Ta nature me reste incomprise. Ce n'est pas acceptable."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""DraedonExoPhase5Text2"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""...I sought perfection. Fate must favor irony, for that must have been my first mistake."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""...J'ai recherché la perfection. Le sort est ironique, puisqu'il s'agit probablement ici de ma première erreur."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""DraedonExoPhase6Text1"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Absurd."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Absurde."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""DraedonExoPhase6Text2"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""I will no longer let my calculations impede my observation of this battle."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Je ne laisserai plus mes calculs déranger mon observation de cette bataille."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""DraedonExoPhase6Text3"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""I shall show you the full fury of my final machine."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Je vais te montrer la pleine furie de ma dernière machine."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""DraedonAresEnrageText"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""How foolish. You cannot escape."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Quelle idiotie. Tu ne peux pas fuir"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""DraedonResummonText"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Make your choice."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Fais ton choix."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""DraedonEndText1"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""An unknown factor-a catalyst is what you are."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Un facteur inconnu, tu es une catalyste."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""DraedonEndText2"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Nearly as alien as I, to this land and its history."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Aussi étrange à ce monde et à son histoire que moi."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""DraedonEndText3"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""...Excuse my introspection. I must gather my thoughts after that display."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""...pardonne mes élucubrations. Je dois organiser mes pensées après cette démonstration"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""DraedonEndText4"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""This land has become stale and stiff with blood that has been spilled until now."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Ce monde est devenu stagnant et pétrifié du sang qu'il a déversé jusqu'a lors."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""DraedonEndText5"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""You have also spilled blood, but it may be enough to usher a new age... Of what, I do not know. But it is something I am eager to see."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Tu as aussi fais couler le sang, mais cela suffira peut-être pour amener une ère nouvelle... de quel genre, je ne sais pas. Mais j'ai hâte d'y être."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""DraedonEndText6"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Now. You wish to reach the Tyrant. I cannot assist you in that."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Bien. Tu souhaites atteindre le Tyran. Je ne peux pas t'aider pour cela."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""DraedonEndText7"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""It is not a matter of spite, for I would wish nothing more than to observe such a conflict."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Ce n'ai pas que je te dédaigne, en fait, je ne souhaite rien de plus que d'observer votre affrontement."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""DraedonEndText8"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""But you have managed before. You will find a way eventually."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Mais tu as déjà tant accompli. Tu finiras par trouver un moyen."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""DraedonEndText9"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""I must acknowledge your triumph, but I will return now to my machinery."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Je dois reconaître to triomphe, mais je vais retourner à mes machines."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""DraedonEndKillAttemptText"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""...Quite unnecessary."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""...Cela n'était pas nécessaire."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""HardmodeOreTier1Text"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Your world has been blessed with Cobalt and Palladium!"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Votre monde a été béni avec du Cobalt et du Palladium!"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""HardmodeOreTier2Text"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Your world has been blessed with Mythril and Orichalcum!"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Votre monde a été béni avec du Mythril et de l'Orichalque!"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""HardmodeOreTier3Text"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Your world has been blessed with Adamantite and Titanium!"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Votre monde a été béni avec de l'Adamantite et du Titane!"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""HardmodeOreTier4Text"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""The hallow has been blessed with consecrated stone!"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Le sacré a été béni avec de la pierre consacrée!"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""MaliceText"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Malice is active; witness the horror!"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""La malice est active; soit témoin de l'horreur!"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""MaliceText2"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Malice is not active."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""La malice n'est plus active."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""ArmageddonDodgeDisable"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""All of your dodges are now disabled."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Toutes vos esquives sont désactivées."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""ArmageddonDodgeEnable"",
 		""type"": ""TRANSLATION"",
 		""englishName"": """",
@@ -51865,10 +53557,10 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""DefenseDamage"",
+		""id"": ""SandSharkText3"",
 		""type"": ""TRANSLATION"",
 		""englishName"": """",
-		""englishDesc"": ""Defense Damage"",
+		""englishDesc"": ""The desert sand shifts intensely!"",
 		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
@@ -51876,17 +53568,17 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": """",
-				""translatedDesc"": ""Dégats d'armure"",
+				""translatedDesc"": ""Le sable du désert fluctue intensément!"",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
 		]
 	},
 	{
-		""id"": ""Tier1ArsenalRecipeCondition"",
+		""id"": ""SandSharkText2"",
 		""type"": ""TRANSLATION"",
 		""englishName"": """",
-		""englishDesc"": ""View an unencrypted schematic from the lab near the Sunken Sea"",
+		""englishDesc"": ""An enormous apex predator approaches..."",
 		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
@@ -51894,17 +53586,17 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": """",
-				""translatedDesc"": ""Recherche un schéma décodé dans un laboratoire près de la mer coulée"",
+				""translatedDesc"": ""Un enorme prédateur apex s'approche..."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
 		]
 	},
 	{
-		""id"": ""Tier2ArsenalRecipeCondition"",
+		""id"": ""AprilFools"",
 		""type"": ""TRANSLATION"",
 		""englishName"": """",
-		""englishDesc"": ""Decrypt a schematic from the lab in the large planetoid in the sky"",
+		""englishDesc"": ""The LORDE is approaching..."",
 		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
@@ -51912,385 +53604,7 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": """",
-				""translatedDesc"": ""Décrypte un schéma dans le laboratoire dans la grande planétoïde dans le ciel"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""Tier3ArsenalRecipeCondition"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Decrypt a schematic from the lab deep within the jungle"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Décrypte un schéma dans le laboratoire dans les profondeurs de la jungle"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""Tier4ArsenalRecipeCondition"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Decrypt a schematic from the lab near the edges of the underworld"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Décrypte un schéma dans le laboratoire aux extrémités de l'enfer"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""Tier5ArsenalRecipeCondition"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Decrypt a schematic from the lab deep within the frozen caverns"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Décrypte un schéma dans le laboratoire dans les profondeurs des cavernes gelées"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""SunkenSeaSchematicRecipeCondition"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Place a schematic from the lab near the Sunken Sea in your inventory at least once"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Place le schéma du laboratoire de la mer coulée dans ton inventaire au moins une fois"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""PlanetoidSchematicRecipeCondition"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Place a schematic from the lab in the large planetoid in your inventory at least once"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Place le schéma du laboratoire du planétoïde dans ton inventaire au moins une fois"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""JungleSchematicRecipeCondition"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Place a schematic from the lab deep within the jungle in your inventory at least once"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Place le schéma du laboratoire de la jungle dans ton inventaire au moins une fois"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""UnderworldSchematicRecipeCondition"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Place a schematic from the lab near the edges of the underworld in your inventory at least once"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Place le schéma du laboratoire des enfers dans ton inventaire au moins une fois"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""IceSchematicRecipeCondition"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Place a schematic from the lab within the frozen caverns in your inventory at least once"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Place le schéma du laboratoire des cavernes gelées dans ton inventaire au moins une fois"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""SkyOreText"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""The ground is glittering with cyan light."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Le sol brille d'une lumière cyan."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""IceOreText"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""The ice caves are crackling with frigid energy."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Les cavernes de glace crépitent d'énergie frigide."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""PlantOreText"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Energized plant matter has formed in the underground."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""De la matière végétale énergisée s'est formée dans les souterrains."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""TreeOreText"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Fossilized tree bark is bursting through the jungle's mud."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""De l'écorce d'arbre fossilisée surgit de la boue de la jungle."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""AuricOreText"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""A godly aura has blessed the world's caverns."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Une aura divine a béni les cavernes du monde."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""FutureOreText"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""A cold and dark energy has materialized in space."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Une énergie froide et sombre s'est matérialisée dans l'espace."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""UglyBossText"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""The Sunken Sea trembles..."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""La Mer Ensevelie tremble..."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""SteelSkullBossText"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""A blood red inferno lingers in the night..."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Un enfer rouge sang subsiste la nuit..."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""WetWormBossText"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""The sulphuric sky darkens..."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Le ciel sulfurique s'assombrit..."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""PlantBossText"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""The ocean depths are trembling."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Les profondeurs de l'océan tremblent."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""BabyBossText"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""A plague has befallen the Jungle."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Une peste s'est répandue dans la jungle."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""MoonBossText"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""The profaned flame blazes fiercely!"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""La flame profanée flamboie férocement!"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""MoonBossText2"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Cosmic terrors are watching..."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Les terreurs cosmiques vous observent..."",
+				""translatedDesc"": ""Le LORDE approche..."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -52315,10 +53629,10 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""PlagueBossText2"",
+		""id"": ""HardmodeOreTier2Text"",
 		""type"": ""TRANSLATION"",
 		""englishName"": """",
-		""englishDesc"": ""MISSILES LAUNCHED, TARGETING ROUTINE INITIATED!!!"",
+		""englishDesc"": ""Your world has been blessed with Mythril and Orichalcum!"",
 		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
@@ -52326,25 +53640,7 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": """",
-				""translatedDesc"": ""MISSILES LANCÉS, ROUTINE DE CIBLAGE INITIÉE!!!"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""ProfanedBossText"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""The air is burning..."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""L'air s'embrase..."",
+				""translatedDesc"": ""Votre monde a été béni avec du Mythril et de l'Orichalque!"",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -52369,24 +53665,6 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""ProfanedBossText3"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""The calamitous beings have been inundated with bloodstone."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Les êtres calamiteux ont été inondés de pierre de sang."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
 		""id"": ""ProfanedBossText4"",
 		""type"": ""TRANSLATION"",
 		""englishName"": """",
@@ -52405,10 +53683,10 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""GhostBossText"",
+		""id"": ""ProfanedBossText3"",
 		""type"": ""TRANSLATION"",
 		""englishName"": """",
-		""englishDesc"": ""The abyssal spirits have been disturbed."",
+		""englishDesc"": ""The calamitous beings have been inundated with bloodstone."",
 		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
@@ -52416,17 +53694,17 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": """",
-				""translatedDesc"": ""Les esprits abyssaux ont été dérangés."",
+				""translatedDesc"": ""Les êtres calamiteux ont été inondés de pierre de sang."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
 		]
 	},
 	{
-		""id"": ""GhostBossText2"",
+		""id"": ""MagicLevelUpFinal"",
 		""type"": ""TRANSLATION"",
 		""englishName"": """",
-		""englishDesc"": ""Wails echo through the dilapidated dungeon halls..."",
+		""englishDesc"": ""Magic weapon proficiency maxed out!"",
 		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
@@ -52434,17 +53712,17 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": """",
-				""translatedDesc"": ""Des échos de gémissents traversent les salles dilapidés du donjon..."",
+				""translatedDesc"": ""Compétence magique maximisée!"",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
 		]
 	},
 	{
-		""id"": ""GhostBossText3"",
+		""id"": ""AcidRainStart"",
 		""type"": ""TRANSLATION"",
 		""englishName"": """",
-		""englishDesc"": ""Long-dead prisoners seek their zealous revenge..."",
+		""englishDesc"": ""A toxic downpour falls over the wasteland seas!"",
 		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
@@ -52452,17 +53730,17 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": """",
-				""translatedDesc"": ""Des prisonniers mort depuis longtemps réclament fervemment leur vengeance..."",
+				""translatedDesc"": ""Un déluge toxique s'abat sur les mers dévastées!"",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
 		]
 	},
 	{
-		""id"": ""GhostBossText4"",
+		""id"": ""BossRushStartText"",
 		""type"": ""TRANSLATION"",
 		""englishName"": """",
-		""englishDesc"": ""The souls released stir the acidic storms..."",
+		""englishDesc"": ""Hmm? Ah, another contender. Very well, may the ritual commence!"",
 		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
@@ -52470,25 +53748,7 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": """",
-				""translatedDesc"": ""Les âmes relâchées agitent les tempêtes acides..."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""EdgyBossText"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Don't get cocky, kid!"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Reste à ta place, gamin!"",
+				""translatedDesc"": ""Hmm? Ah, un autre prétendant. Très bien, que le rituel commence!"",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -52585,6 +53845,24 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
+		""id"": ""EdgyBossText8"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Are you honestly that bad at dodging?"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""T'es vraiment aussi mauvais à l'esquive?"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
 		""id"": ""EdgyBossText9"",
 		""type"": ""TRANSLATION"",
 		""englishName"": """",
@@ -52603,10 +53881,10 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""EdgyBossText10"",
+		""id"": ""CryogenBossText"",
 		""type"": ""TRANSLATION"",
 		""englishName"": """",
-		""englishDesc"": ""It's not over yet, kid!"",
+		""englishDesc"": ""Cryogen is derping out!"",
 		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
@@ -52614,17 +53892,17 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": """",
-				""translatedDesc"": ""C'est pas terminé, gamin!"",
+				""translatedDesc"": ""Cryogène part en vrille!"",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
 		]
 	},
 	{
-		""id"": ""EdgyBossText11"",
+		""id"": ""SCalSummonTextRematch"",
 		""type"": ""TRANSLATION"",
 		""englishName"": """",
-		""englishDesc"": ""A GOD DOES NOT FEAR DEATH!"",
+		""englishDesc"": ""If you’re looking for some fourth-degree burns, you’ve got the right person."",
 		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
@@ -52632,17 +53910,35 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": """",
-				""translatedDesc"": ""UN DIEU NE CRAINT PAS LA MORT!"",
+				""translatedDesc"": ""Si tu cherches a te brûler au 4ème degré, je suis la bonne personne."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
 		]
 	},
 	{
-		""id"": ""DoGBossText"",
+		""id"": ""DeathText"",
 		""type"": ""TRANSLATION"",
 		""englishName"": """",
-		""englishDesc"": ""The frigid moon shimmers brightly."",
+		""englishDesc"": ""Death is active; enjoy the fun."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Kastiel"",
+				""translatedName"": """",
+				""translatedDesc"": ""La Mort est activée, profites bien du fun."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""IceOreText"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""The ice caves are crackling with frigid energy."",
 		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
@@ -52650,7 +53946,7 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": """",
-				""translatedDesc"": ""La lune frigide scintille brillament."",
+				""translatedDesc"": ""Les cavernes de glace crépitent d'énergie frigide."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -52675,10 +53971,10 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""AstralText"",
+		""id"": ""UglyBossText"",
 		""type"": ""TRANSLATION"",
 		""englishName"": """",
-		""englishDesc"": ""A star has fallen from the heavens!"",
+		""englishDesc"": ""The Sunken Sea trembles..."",
 		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
@@ -52686,115 +53982,7 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": """",
-				""translatedDesc"": ""Une étoile est tombée des cieux!"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""AureusBossText"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""The astral enemies have been empowered!"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Les ennemis astraux ont été renforcés!"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""AureusBossText2"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""A faint ethereal click can be heard from the dungeon."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Un discret cliquetis éthéré peut-être entendu depuis le donjon."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""AstralBossText"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""The seal of the stars has been broken! You can now mine Astral Ore."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Le sceau stellaire a été brisée! Vous pouvez miner le Minerai Astral."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""DeusText"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""A star-spawned horror tunnels through the astral infection."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Une horreur née des étoiles creusent au travers de l'infection astrale."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""DeusAltarRejectNightText"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""The god of the stars rejects your offering. The ritual can only be performed at night."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Le dieu stellaire rejette ton offrande. Le rituel ne peut être accompli que la nuit."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""CalamitasBossText"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""You underestimate my power..."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Tu sous-estimes mes pouvoirs..."",
+				""translatedDesc"": ""La Mer Ensevelie tremble..."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -52837,10 +54025,10 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""SandSharkText"",
+		""id"": ""Tier3ArsenalRecipeCondition"",
 		""type"": ""TRANSLATION"",
 		""englishName"": """",
-		""englishDesc"": ""Something stirs in the warm desert sands..."",
+		""englishDesc"": ""Decrypt a schematic from the lab deep within the jungle"",
 		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
@@ -52848,259 +54036,7 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": """",
-				""translatedDesc"": ""Quelque chose s'agite dans les sables chauds du désert..."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""SandSharkText2"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""An enormous apex predator approaches..."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Un enorme prédateur apex s'approche..."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""SandSharkText3"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""The desert sand shifts intensely!"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Le sable du désert fluctue intensément!"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""CryogenBossText"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Cryogen is derping out!"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Cryogène part en vrille!"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""BloodMoonText"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""The Blood Moon is rising..."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""La lune sanglante se lève..."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""DargonBossText"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""The dark sun awaits."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Le sombresoleil attend."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""DargonBossText2"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""My dragon deems you an unworthy opponent. You must acquire the power of the dark sun to witness his true power."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Mon dragon semble juger que tu n'es pas un adversaire digne. Tu dois acquérir le pouvoir du sombresoleil pour libérer son véritable pouvoir."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""RevengeText"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Revengeance is active."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""La Revengeance est activée."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""RevengeText2"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Revengeance is not active."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""La Revengeance est désactivée."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""ArmageddonText"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Bosses will now kill you instantly."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Les boss vous tuerons en un coup."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""ArmageddonText2"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Bosses will no longer kill you instantly."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Les boss ne vous tuerons plus en un coup."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""ChangingTheRules"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""You cannot change the rules now."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Tu ne peux pas changer les règles maintenant."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""FlameText"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""The air is getting warmer around you."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""L'air se réchauffe autour de toi."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""BossRushStartText"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Hmm? Ah, another contender. Very well, may the ritual commence!"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Hmm? Ah, un autre prétendant. Très bien, que le rituel commence!"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""BossRushTierOneEndText"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Hmm? Oh, you're still alive. Unexpected, but don't get complacent just yet."",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Hmm? Oh, encore vivant. C'est innattendu, mais ne tombe pas déjà dans la complaisance."",
+				""translatedDesc"": ""Décrypte un schéma dans le laboratoire dans les profondeurs de la jungle"",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -53125,10 +54061,10 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""BossRushTierThreeEndText"",
+		""id"": ""AprilFools2"",
 		""type"": ""TRANSLATION"",
 		""englishName"": """",
-		""englishDesc"": ""Hmm? Your perseverance is truly a trait to behold. You've come further than even the demigods in such a short time."",
+		""englishDesc"": ""A boomer awaits..."",
 		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
@@ -53136,17 +54072,17 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": """",
-				""translatedDesc"": ""Hmm? Ta persévérence est vraiment d'un caractère saisissant. Tu es allé plus loin que les demi dieux eux-mêmes en si peu de temps."",
+				""translatedDesc"": ""Un Boomer attend..."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
 		]
 	},
 	{
-		""id"": ""BossRushTierThreeEndText2"",
+		""id"": ""AstralBossText"",
 		""type"": ""TRANSLATION"",
 		""englishName"": """",
-		""englishDesc"": ""May your skills remain sharp for the last challenges."",
+		""englishDesc"": ""The seal of the stars has been broken! You can now mine Astral Ore."",
 		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
@@ -53154,17 +54090,17 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": """",
-				""translatedDesc"": ""Que tes talents restent à leur pinacle pour les dernières épreuves."",
+				""translatedDesc"": ""Le sceau stellaire a été brisée! Vous pouvez miner le Minerai Astral."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
 		]
 	},
 	{
-		""id"": ""BossRushTierFourEndText"",
+		""id"": ""DraedonExoPhase1Text2"",
 		""type"": ""TRANSLATION"",
 		""englishName"": """",
-		""englishDesc"": ""Hmm? So you've made it to the final tier, a remarkable feat enviable by even the mightiest of the gods."",
+		""englishDesc"": ""Through no other method can I approach perfection."",
 		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
@@ -53172,17 +54108,17 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": """",
-				""translatedDesc"": ""Hmm? Alors tu as atteint le dernier niveau, Un fait remarquable, enviable par les plus puissants des dieux."",
+				""translatedDesc"": ""Par nulle autre méthode je peux approcher la perfection."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
 		]
 	},
 	{
-		""id"": ""BossRushTierFourEndText2"",
+		""id"": ""DraedonExoPhase1Text1"",
 		""type"": ""TRANSLATION"",
 		""englishName"": """",
-		""englishDesc"": ""Go forth and conquer 'til the ritual's end!"",
+		""englishDesc"": ""Designs improved with time and knowledge are the essence of my work."",
 		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
@@ -53190,17 +54126,17 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": """",
-				""translatedDesc"": ""Va et conquiert jusqu'a la fin du rituel!"",
+				""translatedDesc"": ""Les conceptions améliorées avec le temps et la connaissance son l'essence de mon travail."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
 		]
 	},
 	{
-		""id"": ""BossRushTierFiveEndText"",
+		""id"": ""DraedonEndText9"",
 		""type"": ""TRANSLATION"",
 		""englishName"": """",
-		""englishDesc"": ""Hmm? You expected a reward beyond this mere pebble? Patience, the true reward will become apparent in time..."",
+		""englishDesc"": ""I must acknowledge your triumph, but I will return now to my machinery."",
 		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
@@ -53208,187 +54144,7 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": """",
-				""translatedDesc"": ""Hmm? Tu t'attendais à une récompense au-delà de ce simple caillou? Patience, la véritable récompense t'apparaîtra en temps voulu..."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""MeleeLevelUp"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Melee weapon proficiency level up!"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Compétence de mêlée augmentée!"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""MeleeLevelUpFinal"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Melee weapon proficiency maxed out!"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Compétence de mêlée maximisée!"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""RangedLevelUp"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Ranged weapon proficiency level up!"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Compétence de distance augmentée!"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""RangedLevelUpFinal"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Ranged weapon proficiency maxed out!"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Compétence de distance maximisée!"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""MagicLevelUp"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Magic weapon proficiency level up!"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Compétence magique augmentée!"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""MagicLevelUpFinal"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Magic weapon proficiency maxed out!"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Compétence magique maximisée!"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""SummonLevelUp"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Summoner weapon proficiency level up!"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Compétence d'invocation augmentée!"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""SummonLevelUpFinal"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Summoner weapon proficiency maxed out!"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Compétence d'invocation maximisée!"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""RogueLevelUp"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Rogue weapon proficiency level up!"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Compétence de voleur augmentée!"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""RogueLevelUpFinal"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Rogue weapon proficiency maxed out!"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Compétence de voleur maximisée!"",
+				""translatedDesc"": ""Je dois reconaître to triomphe, mais je vais retourner à mes machines."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -53413,10 +54169,10 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""SandstormTrigger"",
+		""id"": ""SCalDesparationText1Rematch"",
 		""type"": ""TRANSLATION"",
 		""englishName"": """",
-		""englishDesc"": ""The desert wind is blowing furiously!"",
+		""englishDesc"": ""A terrific display, I concede this match to you."",
 		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
@@ -53424,17 +54180,17 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": """",
-				""translatedDesc"": ""Le vent du désert souffle furieusement!"",
+				""translatedDesc"": ""Incroyable performance, je te concede la victoire."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
 		]
 	},
 	{
-		""id"": ""ThirdSageBlessingText"",
+		""id"": ""DraedonEndText8"",
 		""type"": ""TRANSLATION"",
 		""englishName"": """",
-		""englishDesc"": ""You have been blessed by the Third Sage!"",
+		""englishDesc"": ""But you have managed before. You will find a way eventually."",
 		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
@@ -53442,7 +54198,403 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": """",
-				""translatedDesc"": ""Vous avez été béni par le Troisième Sage!"",
+				""translatedDesc"": ""Mais tu as déjà tant accompli. Tu finiras par trouver un moyen."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""DraedonEndText7"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""It is not a matter of spite, for I would wish nothing more than to observe such a conflict."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Ce n'ai pas que je te dédaigne, en fait, je ne souhaite rien de plus que d'observer votre affrontement."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""DraedonEndText6"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Now. You wish to reach the Tyrant. I cannot assist you in that."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Bien. Tu souhaites atteindre le Tyran. Je ne peux pas t'aider pour cela."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""DraedonEndText5"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""You have also spilled blood, but it may be enough to usher a new age... Of what, I do not know. But it is something I am eager to see."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Tu as aussi fais couler le sang, mais cela suffira peut-être pour amener une ère nouvelle... de quel genre, je ne sais pas. Mais j'ai hâte d'y être."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""DraedonEndText4"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""This land has become stale and stiff with blood that has been spilled until now."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Ce monde est devenu stagnant et pétrifié du sang qu'il a déversé jusqu'a lors."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""DraedonEndText3"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""...Excuse my introspection. I must gather my thoughts after that display."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""...pardonne mes élucubrations. Je dois organiser mes pensées après cette démonstration"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""DraedonEndText2"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Nearly as alien as I, to this land and its history."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Aussi étrange à ce monde et à son histoire que moi."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""DraedonEndText1"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""An unknown factor-a catalyst is what you are."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Un facteur inconnu, tu es une catalyste."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""DraedonEndKillAttemptText"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""...Quite unnecessary."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""...Cela n'était pas nécessaire."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SCalBH2Text"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""It wasn't too long ago you barely managed to defeat my doppelganger. Quite the failure, wasn't it?"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Il n'y a pas si longtemps que tu as à peine réussi a vaincre mon clone. Un échec retentissant, pas vrai?"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""MeleeLevelUp"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Melee weapon proficiency level up!"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Compétence de mêlée augmentée!"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""UnderworldSchematicRecipeCondition"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Place a schematic from the lab near the edges of the underworld in your inventory at least once"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Place le schéma du laboratoire des enfers dans ton inventaire au moins une fois"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""AureusBossText"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""The astral enemies have been empowered!"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Les ennemis astraux ont été renforcés!"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""Tier4ArsenalRecipeCondition"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Decrypt a schematic from the lab near the edges of the underworld"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Décrypte un schéma dans le laboratoire aux extrémités de l'enfer"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""GhostBossText2"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Wails echo through the dilapidated dungeon halls..."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Des échos de gémissents traversent les salles dilapidés du donjon..."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""GhostBossText3"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Long-dead prisoners seek their zealous revenge..."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Des prisonniers mort depuis longtemps réclament fervemment leur vengeance..."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""GhostBossText4"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""The souls released stir the acidic storms..."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Les âmes relâchées agitent les tempêtes acides..."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SCalBH4Text"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""It's absurd to even think of trying to get away. As long as you live, you will suffer."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Il est absurde de ne serait-ce que penser a s'enfuir. Aussi longtemps que tu vivras, tu souffriras."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SkyOreText"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""The ground is glittering with cyan light."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Le sol brille d'une lumière cyan."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SCalBH2TextRematch"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""You’ll still have to work hard for this victory."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Tu vas quand même devoir travailler dur pour obtenir la victoire."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""DraedonExoPhase4Text1"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Curious. Very curious."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Curieux. Très curieux."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""DraedonExoPhase4Text2"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""You progress steadily against more difficult challenges."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Tu progresses constamment face aux challenges de plus en plus ardus."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SCalSepulcher2Text"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Once the dust has settled and only one remains, if it is you, what value will this have had?!"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Une fois que tout sera fini et qu'il n'en restera qu'un, si c'est toi, qu'est-ce que tu auras gagné?!"",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -53467,10 +54619,10 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""AprilFools"",
+		""id"": ""EdgyBossText"",
 		""type"": ""TRANSLATION"",
 		""englishName"": """",
-		""englishDesc"": ""The LORDE is approaching..."",
+		""englishDesc"": ""Don't get cocky, kid!"",
 		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
@@ -53478,17 +54630,17 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": """",
-				""translatedDesc"": ""Le LORDE approche..."",
+				""translatedDesc"": ""Reste à ta place, gamin!"",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
 		]
 	},
 	{
-		""id"": ""AprilFools2"",
+		""id"": ""DraedonExoPhase3Text1"",
 		""type"": ""TRANSLATION"",
 		""englishName"": """",
-		""englishDesc"": ""A boomer awaits..."",
+		""englishDesc"": ""Ever since I was alerted to your presence, I have processed your battles in order to make my machines stronger."",
 		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
@@ -53496,17 +54648,17 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": """",
-				""translatedDesc"": ""Un Boomer attend..."",
+				""translatedDesc"": ""Depuis que j'ai été informé de ton existence, j'ai compilé tes données de combat pour rendre mes machines plus fortes."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
 		]
 	},
 	{
-		""id"": ""AcidRainStart"",
+		""id"": ""MeleeLevelUpFinal"",
 		""type"": ""TRANSLATION"",
 		""englishName"": """",
-		""englishDesc"": ""A toxic downpour falls over the wasteland seas!"",
+		""englishDesc"": ""Melee weapon proficiency maxed out!"",
 		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
@@ -53514,17 +54666,17 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": """",
-				""translatedDesc"": ""Un déluge toxique s'abat sur les mers dévastées!"",
+				""translatedDesc"": ""Compétence de mêlée maximisée!"",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
 		]
 	},
 	{
-		""id"": ""AcidRainEnd"",
+		""id"": ""DraedonExoPhase3Text2"",
 		""type"": ""TRANSLATION"",
 		""englishName"": """",
-		""englishDesc"": ""The sulphuric skies begin to clear..."",
+		""englishDesc"": ""Even now, I monitor your actions. Nothing should escape the bounds of my calculations."",
 		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
@@ -53532,7 +54684,1285 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": """",
-				""translatedDesc"": ""Les cieux sulfuriques commencent à s'éclaircir..."",
+				""translatedDesc"": ""Même maintenant, je monitore tes actions. Rien n'echappera à mes calculs."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""RevengeText"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Revengeance is active."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""La Revengeance est activée."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SCalDesparationText4Rematch"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""I can’t imagine what your future holds now."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Je n'arrive pas à imaginer ce que le futur te réserve."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""JungleSchematicRecipeCondition"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Place a schematic from the lab deep within the jungle in your inventory at least once"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Place le schéma du laboratoire de la jungle dans ton inventaire au moins une fois"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""MaliceText2"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Malice is not active."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""La malice n'est plus active."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""FutureOreText"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""A cold and dark energy has materialized in space."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Une énergie froide et sombre s'est matérialisée dans l'espace."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SCalAcceptanceText3"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""It will all be in your hands now."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Tout repose entre tes main désormais."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SCalAcceptanceText2"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""I have no more energy left to resent him, or you..."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Je n'ai plus la force de lui en vouloir, ni a lui, ni a toi..."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SCalAcceptanceText1"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Even if he has thrown all else away, his power remains."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Même s'il a abandonné tout le reste, son pouvoir demeure."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""DargonBossText"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""The dark sun awaits."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Le sombresoleil attend."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SummonLevelUp"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Summoner weapon proficiency level up!"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Compétence d'invocation augmentée!"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""MaliceText"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Malice is active; witness the horror!"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""La malice est active; soit témoin de l'horreur!"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""HardmodeOreTier3Text"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Your world has been blessed with Adamantite and Titanium!"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Votre monde a été béni avec de l'Adamantite et du Titane!"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""DefenseDamage"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Defense Damage"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Dégats d'armure"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""DraedonExoPhase5Text2"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""...I sought perfection. Fate must favor irony, for that must have been my first mistake."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""...J'ai recherché la perfection. Le sort est ironique, puisqu'il s'agit probablement ici de ma première erreur."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SteelSkullBossText"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""A blood red inferno lingers in the night..."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Un enfer rouge sang subsiste la nuit..."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""DraedonIntroductionText1"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""I have waited long for this moment."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""J'ai attendu ce moment depuis longtemps."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""DraedonIntroductionText2"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Your nature fascinates me, for I do not understand it."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Ta nature me fascine, parce que je ne la comprends pas."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""DraedonIntroductionText3"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""You will face my creations which have surpassed gods."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Tu affronteras mes créations qui ont surpassés les dieux."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""DraedonIntroductionText4"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""And you will show me your disposition through battle."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Et tu me montreras qui tu es vraiment par le combat."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""DraedonIntroductionText5"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Now, choose."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Maintenant, choisis."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""DraedonAresEnrageText"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""How foolish. You cannot escape."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Quelle idiotie. Tu ne peux pas fuir"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SunkenSeaSchematicRecipeCondition"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Place a schematic from the lab near the Sunken Sea in your inventory at least once"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Place le schéma du laboratoire de la mer coulée dans ton inventaire au moins une fois"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""MoonBossText"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""The profaned flame blazes fiercely!"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""La flame profanée flamboie férocement!"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SCalDesparationText4"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""And that path... also has no future."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Et cette voie... n'a aucun avenir."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SCalDesparationText1"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Just stop!"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Arrêtes!"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SCalDesparationText3"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Once you have bested me, you will only have one path forward."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Une fois que tu m'auras vaincue, tu n'auras plus qu'une seule voie a emprunter."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SCalDesparationText2"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""I have no future if I lose here."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Je n'ai aucun avenir si je perds ici."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SCalBrothersText"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Would you like to meet my family? Horrible, isn't it?"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Tu veux rencontrer ma famille? Horrible, pas vrai?"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SummonLevelUpFinal"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Summoner weapon proficiency maxed out!"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Compétence d'invocation maximisée!"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""HardmodeOreTier1Text"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Your world has been blessed with Cobalt and Palladium!"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Votre monde a été béni avec du Cobalt et du Palladium!"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""AstralText"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""A star has fallen from the heavens!"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Une étoile est tombée des cieux!"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""IceSchematicRecipeCondition"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Place a schematic from the lab within the frozen caverns in your inventory at least once"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Place le schéma du laboratoire des cavernes gelées dans ton inventaire au moins une fois"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SCalDesparationText3Rematch"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""I trust you will not make the same mistakes he did."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Je te fais confiance pour ne pas commetre les mêmes erreurs que lui."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SCalBH4TextRematch"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""I wonder if you’ve seen these in your nightmares since our first battle?"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Je me demande si tu as cauchemardé de ces choses depuis notre premier combat?"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""RogueLevelUp"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Rogue weapon proficiency level up!"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Compétence de voleur augmentée!"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""TreeOreText"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Fossilized tree bark is bursting through the jungle's mud."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""De l'écorce d'arbre fossilisée surgit de la boue de la jungle."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""DraedonExoPhase6Text1"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Absurd."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Absurde."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""DraedonExoPhase6Text2"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""I will no longer let my calculations impede my observation of this battle."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Je ne laisserai plus mes calculs déranger mon observation de cette bataille."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""PlagueBossText2"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""MISSILES LAUNCHED, TARGETING ROUTINE INITIATED!!!"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""MISSILES LANCÉS, ROUTINE DE CIBLAGE INITIÉE!!!"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""AureusBossText2"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""A faint ethereal click can be heard from the dungeon."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Un discret cliquetis éthéré peut-être entendu depuis le donjon."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""ThirdSageBlessingText"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""You have been blessed by the Third Sage!"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Vous avez été béni par le Troisième Sage!"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""Tier1ArsenalRecipeCondition"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""View an unencrypted schematic from the lab near the Sunken Sea"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Recherche un schéma décodé dans un laboratoire près de la mer coulée"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""DraedonExoPhase6Text3"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""I shall show you the full fury of my final machine."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Je vais te montrer la pleine furie de ma dernière machine."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""BabyBossText"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""A plague has befallen the Jungle."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Une peste s'est répandue dans la jungle."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""ArmageddonDodgeDisable"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""All of your dodges are now disabled."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Toutes vos esquives sont désactivées."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SandSharkText"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Something stirs in the warm desert sands..."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Quelque chose s'agite dans les sables chauds du désert..."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""ArmageddonText"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Bosses will now kill you instantly."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Les boss vous tuerons en un coup."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""CalamitasBossText"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""You underestimate my power..."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Tu sous-estimes mes pouvoirs..."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""DraedonExoPhase5Text1"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Your nature remains unknown to me. This will not do."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Ta nature me reste incomprise. Ce n'est pas acceptable."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""Tier2ArsenalRecipeCondition"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Decrypt a schematic from the lab in the large planetoid in the sky"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Décrypte un schéma dans le laboratoire dans la grande planétoïde dans le ciel"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""MoonBossText2"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Cosmic terrors are watching..."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Les terreurs cosmiques vous observent..."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""RangedLevelUp"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Ranged weapon proficiency level up!"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Compétence de distance augmentée!"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SCalPhase2TextRematch"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Here we go again."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Et on est repartis."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""FlameText"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""The air is getting warmer around you."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""L'air se réchauffe autour de toi."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SCalStartText"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""You should have just died..."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Tu devrais juste mourir..."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SCalBH5TextRematch"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Isn't this exciting?"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Qu'est-ce qu'on s'amuse!"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SCalBrothersTextRematch"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Empty shells of their former selves. I doubt even a scrap of their spirits remain."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Des carapaces vides de ce qu'ils étaient. Je doute qu'il ne reste serait-ce qu'un fragment de leurs esprits en eux."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""BossRushTierFiveEndText"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Hmm? You expected a reward beyond this mere pebble? Patience, the true reward will become apparent in time..."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Hmm? Tu t'attendais à une récompense au-delà de ce simple caillou? Patience, la véritable récompense t'apparaîtra en temps voulu..."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""WetWormBossText"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""The sulphuric sky darkens..."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Le ciel sulfurique s'assombrit..."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""RangedLevelUpFinal"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Ranged weapon proficiency maxed out!"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Compétence de distance maximisée!"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""RevengeText2"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Revengeance is not active."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""La Revengeance est désactivée."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SCalPhase2Text"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""You will suffer greatly."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Tu souffrira grandement."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""AuricOreText"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""A godly aura has blessed the world's caverns."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Une aura divine a béni les cavernes du monde."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SCalSummonText"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Do you enjoy going through hell?"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Ca t'amuse de passer l'enfer?"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""ChangingTheRules"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""You cannot change the rules now."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Tu ne peux pas changer les règles maintenant."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""BossRushTierThreeEndText2"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""May your skills remain sharp for the last challenges."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Que tes talents restent à leur pinacle pour les dernières épreuves."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""BloodMoonText"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""The Blood Moon is rising..."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""La lune sanglante se lève..."",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SCalStartTextRematch"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""When the time comes, would you like to join my creation?"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Quand le temps viendra, que dirais-tu de joindre mes créations?"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SandstormTrigger"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""The desert wind is blowing furiously!"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Le vent du désert souffle furieusement!"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""DeathText2"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""Death is not active; not fun enough for you?"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Kastiel"",
+				""translatedName"": """",
+				""translatedDesc"": ""La Mort est désactivée, pas assez fun pour toi?"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""SCalBH3Text"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""You've harnessed great power, but you wield it for no one but yourself."",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Tu as acquéri un grand pouvoir, mais tu ne t'en sers pas personne d'autre que toi-même."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -53542,15 +55972,15 @@ namespace CalamityFR.JSON
 		""id"": ""LeviathanStart"",
 		""type"": ""NPC"",
 		""englishName"": ""???"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""It seems to call out in an alluring voice, and tugs on comforting memories of the sea you never actually had."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Shedhatch"",
 				""translatedName"": ""???"",
-				""translatedBestiary"": ""It seems to call out in an alluring voice, and tugs on comforting memories of the sea you never actually had."",
+				""translatedBestiary"": ""Il semble appeler d'une voie attractive, et évoque des souvenirs réconfortants de la mer que vous n'avez jamais ressentis."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -53560,15 +55990,15 @@ namespace CalamityFR.JSON
 		""id"": ""DesertNuisanceHead"",
 		""type"": ""NPC"",
 		""englishName"": ""A Desert Nuisance"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""The starved spawn of the Desert Scourge. Like piranhas of the desert, they can swarm and tear apart smaller animals within seconds."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Shedhatch"",
 				""translatedName"": ""Nuisance du Désert"",
-				""translatedBestiary"": ""The starved spawn of the Desert Scourge. Like piranhas of the desert, they can swarm and tear apart smaller animals within seconds."",
+				""translatedBestiary"": ""Le scion affamé du Fléau du Désert. Tout comme les Piranha du désert, ils peuvent attaquer en masse et écarteler de plus petits animaux en quelques secondes."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -53578,15 +56008,15 @@ namespace CalamityFR.JSON
 		""id"": ""AcidEel"",
 		""type"": ""NPC"",
 		""englishName"": ""Acid Eel"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Along its spine runs an undulating dorsal fin which they can put to great use for their streamlined form, as they rush at prey underwater."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Shedhatch"",
 				""translatedName"": ""Anguille Acide"",
-				""translatedBestiary"": ""Along its spine runs an undulating dorsal fin which they can put to great use for their streamlined form, as they rush at prey underwater."",
+				""translatedBestiary"": ""Du long de sa colonne vertébrale court une nageoire dorsale ondulée qu'elle peut mettre à profit pour sa forme aérodynamique, quand elle chasse une proie sous l'eau."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -53596,15 +56026,15 @@ namespace CalamityFR.JSON
 		""id"": ""AdultEidolonWyrmHead"",
 		""type"": ""NPC"",
 		""englishName"": ""Adult Eidolon Wyrm"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Traces of them appear even in records going back to before the Golden Age of Dragons… They may very well be a glimpse into the full potential of nature."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Shedhatch"",
 				""translatedName"": ""Wyrm Eidolon Adulte"",
-				""translatedBestiary"": ""Traces of them appear even in records going back to before the Golden Age of Dragons… They may very well be a glimpse into the full potential of nature."",
+				""translatedBestiary"": ""Leurs traces apparaissent dans les documents d'archives datant d'avant l'âge d'or des dragons... Ils pourraient bien être un aperçu du plein potentiel de la nature."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -53614,267 +56044,15 @@ namespace CalamityFR.JSON
 		""id"": ""AeroSlime"",
 		""type"": ""NPC"",
 		""englishName"": ""Aero Slime"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Slimes take on the qualities of their environments and after feasting on aerialite ore, this slime has grown wings."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Shedhatch"",
 				""translatedName"": ""Gelée Aérienne"",
-				""translatedBestiary"": ""Slimes take on the qualities of their environments and after feasting on aerialite ore, this slime has grown wings."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""CrawlerAmber"",
-		""type"": ""NPC"",
-		""englishName"": ""Amber Crawler"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
-		""activeTranslation"": 1,
-		""englishBestiary"": ""A lizard, its back inundated with crystals. These provide protection, but they are easily spooked and can be harvested for the rare gems upon their backs."",
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Rampant d'Ambre"",
-				""translatedBestiary"": ""A lizard, its back inundated with crystals. These provide protection, but they are easily spooked and can be harvested for the rare gems upon their backs."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""CrawlerAmethyst"",
-		""type"": ""NPC"",
-		""englishName"": ""Amethyst Crawler"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
-		""activeTranslation"": 1,
-		""englishBestiary"": ""A lizard, its back inundated with crystals. These provide protection, but they are easily spooked and can be harvested for the rare gems upon their backs."",
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Rampant d'Améthyste"",
-				""translatedBestiary"": ""A lizard, its back inundated with crystals. These provide protection, but they are easily spooked and can be harvested for the rare gems upon their backs."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""Anahita"",
-		""type"": ""NPC"",
-		""englishName"": ""Anahita"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
-		""activeTranslation"": 1,
-		""englishBestiary"": ""Boasting flawless manipulation of water, this elemental was known for almost limitless strength in her home turf. However, those days are long gone."",
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Anahita"",
-				""translatedBestiary"": ""Boasting flawless manipulation of water, this elemental was known for almost limitless strength in her home turf. However, those days are long gone."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""AnthozoanCrab"",
-		""type"": ""NPC"",
-		""englishName"": ""Anthozoan Crab"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
-		""activeTranslation"": 1,
-		""englishBestiary"": ""A crab that has placed upon its back, a sturdy structure of stone. It is quite strong and displays this extraordinary strength by hurling boulders at those who encroach on its territory."",
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Crabe Anthozoaire"",
-				""translatedBestiary"": ""A crab that has placed upon its back, a sturdy structure of stone. It is quite strong and displays this extraordinary strength by hurling boulders at those who encroach on its territory."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""AquaticAberration"",
-		""type"": ""NPC"",
-		""englishName"": ""Aquatic Aberration"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
-		""activeTranslation"": 1,
-		""englishBestiary"": ""All head and stomach, they will gorge and guzzle upon vast schools of fish on their own."",
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Abérattion Aquatique"",
-				""translatedBestiary"": ""All head and stomach, they will gorge and guzzle upon vast schools of fish on their own."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""AquaticScourgeHead"",
-		""type"": ""NPC"",
-		""englishName"": ""Aquatic Scourge"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
-		""activeTranslation"": 1,
-		""englishBestiary"": ""A species of scourge which has had its exoskeleton hardened and tempered by years of diving through sulphuric waters for prey. Its own jaws are now imbued with the venom of those seas."",
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Fléau Aquatique"",
-				""translatedBestiary"": ""A species of scourge which has had its exoskeleton hardened and tempered by years of diving through sulphuric waters for prey. Its own jaws are now imbued with the venom of those seas."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""AquaticUrchin"",
-		""type"": ""NPC"",
-		""englishName"": ""Aquatic Urchin"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
-		""activeTranslation"": 1,
-		""englishBestiary"": ""A relative of its brethren in the far ocean, this one’s spines have been hardened by the sulphuric waters. They drip with the venom they inhabit, so it’s better to not be struck by them."",
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Oursin Aquatique"",
-				""translatedBestiary"": ""A relative of its brethren in the far ocean, this one’s spines have been hardened by the sulphuric waters. They drip with the venom they inhabit, so it’s better to not be struck by them."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""DILF"",
-		""type"": ""NPC"",
-		""englishName"": ""Archmage"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
-		""activeTranslation"": 1,
-		""englishBestiary"": ""His face shows great age, but also great wisdom. The Archmage once stood against the Jungle Tyrant and paid the price. He sells various frosty wares but of course, keeps the most powerful spells to himself."",
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Archimage"",
-				""translatedBestiary"": ""His face shows great age, but also great wisdom. The Archmage once stood against the Jungle Tyrant and paid the price. He sells various frosty wares but of course, keeps the most powerful spells to himself."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""Aries"",
-		""type"": ""NPC"",
-		""englishName"": ""Aries"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
-		""activeTranslation"": 1,
-		""englishBestiary"": ""Biologically, the creature suffers terribly. Its legs do not allow it to rest, constantly hopping across the infected landscape. It does not care as its mind is far gone. It continues this until death."",
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Aries"",
-				""translatedBestiary"": ""Biologically, the creature suffers terribly. Its legs do not allow it to rest, constantly hopping across the infected landscape. It does not care as its mind is far gone. It continues this until death."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""ArmoredDiggerHead"",
-		""type"": ""NPC"",
-		""englishName"": ""Armored Digger"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
-		""activeTranslation"": 1,
-		""englishBestiary"": ""These automated mechanical worms used to dig out the caverns so labs could be built. Thankfully, they are long past their once efficient state, and have not received maintenance in decades."",
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Creuseur Blindé"",
-				""translatedBestiary"": ""These automated mechanical worms used to dig out the caverns so labs could be built. Thankfully, they are long past their once efficient state, and have not received maintenance in decades."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""AstralProbe"",
-		""type"": ""NPC"",
-		""englishName"": ""Astral Probe"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
-		""activeTranslation"": 1,
-		""englishBestiary"": ""A small animal devoured by the astral infection. The virus retains and shares its experience with itself of devouring other, similar creatures and so, all form identical shells."",
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Sonde Astrale"",
-				""translatedBestiary"": ""A small animal devoured by the astral infection. The virus retains and shares its experience with itself of devouring other, similar creatures and so, all form identical shells."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""AstralSlime"",
-		""type"": ""NPC"",
-		""englishName"": ""Astral Slime"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
-		""activeTranslation"": 1,
-		""englishBestiary"": ""It does not show behavior different from any of its gelatinous folk, so this adaptive creature may have been the only one to fight the infection in its own way."",
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Gelée Astrale"",
-				""translatedBestiary"": ""It does not show behavior different from any of its gelatinous folk, so this adaptive creature may have been the only one to fight the infection in its own way."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""AstralachneaGround"",
-		""type"": ""NPC"",
-		""englishName"": ""Astralachnea"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
-		""activeTranslation"": 1,
-		""englishBestiary"": ""An arachnid taken over by the infection, it has lost its ability to spin webs and hosts a myriad of astral growths on its abdomen."",
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Astralaraignée"",
-				""translatedBestiary"": ""An arachnid taken over by the infection, it has lost its ability to spin webs and hosts a myriad of astral growths on its abdomen."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""AstrumAureus"",
-		""type"": ""NPC"",
-		""englishName"": ""Astrum Aureus"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
-		""activeTranslation"": 1,
-		""englishBestiary"": ""A multi-legged mechanical beast, its very existence speaks of the extent of control the astral virus has. Not even machinery can stand against it."",
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Astrum Aureus"",
-				""translatedBestiary"": ""A multi-legged mechanical beast, its very existence speaks of the extent of control the astral virus has. Not even machinery can stand against it."",
+				""translatedBestiary"": ""Les gelées adoptent les qualités de leur environnement et après s'être régalées de minerai d'Aérialite, cette gelée développe des ailes."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -53884,483 +56062,15 @@ namespace CalamityFR.JSON
 		""id"": ""AstrumDeusHead"",
 		""type"": ""NPC"",
 		""englishName"": ""Astrum Deus"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""The fragments of the star god’s corpse still hold some of their former power, and even after succumbing to a dark infection, then being torn apart by an upstart worm, they willfully seek to return to the stars."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Astrum Deus"",
-				""translatedBestiary"": ""The fragments of the star god’s corpse still hold some of their former power, and even after succumbing to a dark infection, then being torn apart by an upstart worm, they willfully seek to return to the stars."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""Atlas"",
-		""type"": ""NPC"",
-		""englishName"": ""Atlas"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
-		""activeTranslation"": 1,
-		""englishBestiary"": ""In its uncontrolled growth, one appendage wrested nutrients and materials from the other and brought it to the extremes of muscular strength. One blow is enough to pulverize a monolith."",
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Atlas"",
-				""translatedBestiary"": ""In its uncontrolled growth, one appendage wrested nutrients and materials from the other and brought it to the extremes of muscular strength. One blow is enough to pulverize a monolith."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""AuroraSpirit"",
-		""type"": ""NPC"",
-		""englishName"": ""Aurora Spirit"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
-		""activeTranslation"": 1,
-		""englishBestiary"": ""The souls of those who passed on in the heart of a blizzard. They now seek out others to freeze to death, to die as they did."",
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Esprit d'Aurore"",
-				""translatedBestiary"": ""The souls of those who passed on in the heart of a blizzard. They now seek out others to freeze to death, to die as they did."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""BabyFlakCrab"",
-		""type"": ""NPC"",
-		""englishName"": ""Baby Flak Crab"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
-		""activeTranslation"": 1,
-		""englishBestiary"": ""Curiously, these seem to be intelligent enough to imprint a sort of parent figure if captured at a young enough age. They will stick with you forever!"",
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bébé Crabe Flak"",
-				""translatedBestiary"": ""Curiously, these seem to be intelligent enough to imprint a sort of parent figure if captured at a young enough age. They will stick with you forever!"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""BabyGhostBell"",
-		""type"": ""NPC"",
-		""englishName"": ""Baby Ghost Bell"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
-		""activeTranslation"": 1,
-		""englishBestiary"": ""Like their adult counterparts, they shimmer gently, and would make great sources of light if the prisms around them didn’t already do so. Maybe if there was a way to bring one with you."",
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bébé Cloche Fantôme"",
-				""translatedBestiary"": ""Like their adult counterparts, they shimmer gently, and would make great sources of light if the prisms around them didn’t already do so. Maybe if there was a way to bring one with you."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""THIEF"",
-		""type"": ""NPC"",
-		""englishName"": ""Bandit"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
-		""activeTranslation"": 1,
-		""englishBestiary"": ""A kleptomaniac who is a bit of a coward when it comes to face-to-face fights. She’s rather good at getting herself both into and out of dicey situations."",
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bandit"",
-				""translatedBestiary"": ""A kleptomaniac who is a bit of a coward when it comes to face-to-face fights. She’s rather good at getting herself both into and out of dicey situations."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""BelchingCoral"",
-		""type"": ""NPC"",
-		""englishName"": ""Belching Coral"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
-		""activeTranslation"": 1,
-		""englishBestiary"": ""A rare species of coral, one which is able to process and draw nutrients from the waters of the sulphurous sea. During this process, a large amount of volatile gas is formed."",
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Corail Cracheur"",
-				""translatedBestiary"": ""A rare species of coral, one which is able to process and draw nutrients from the waters of the sulphurous sea. During this process, a large amount of volatile gas is formed."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""BigSightseer"",
-		""type"": ""NPC"",
-		""englishName"": ""Big Sightseer"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
-		""activeTranslation"": 1,
-		""englishBestiary"": ""Within their shells, the virus brews a potent chemical. When the seer approaches a foe, it spits this chemical out of its mandibles, hoping to melt the intruder’s flesh."",
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Gros Cherchevue"",
-				""translatedBestiary"": ""Within their shells, the virus brews a potent chemical. When the seer approaches a foe, it spits this chemical out of its mandibles, hoping to melt the intruder’s flesh."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""BlindedAngler"",
-		""type"": ""NPC"",
-		""englishName"": ""Blinded Angler"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
-		""activeTranslation"": 1,
-		""englishBestiary"": ""A species of angler which has lost any distinguishing feature on its head. Using primitive electroreception similar to sharks, it slowly and methodically hunts its prey."",
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Baudroie Aveuglée"",
-				""translatedBestiary"": ""A species of angler which has lost any distinguishing feature on its head. Using primitive electroreception similar to sharks, it slowly and methodically hunts its prey."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""Bloatfish"",
-		""type"": ""NPC"",
-		""englishName"": ""Bloatfish"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
-		""activeTranslation"": 1,
-		""englishBestiary"": ""Heavy, large fish which can easily resist the crushing pressure of the depths and any weapon which might attempt to pierce its tough skin."",
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Poisson Bouffi"",
-				""translatedBestiary"": ""Heavy, large fish which can easily resist the crushing pressure of the depths and any weapon which might attempt to pierce its tough skin."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""BloodwormNormal"",
-		""type"": ""NPC"",
-		""englishName"": ""Bloodworm"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
-		""activeTranslation"": 1,
-		""englishBestiary"": ""A ripe-looking worm large enough to curl around your arm. A fish would have to be either mad enough or wise enough, to go after one of these."",
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Ver de Sang"",
-				""translatedBestiary"": ""A ripe-looking worm large enough to curl around your arm. A fish would have to be either mad enough or wise enough, to go after one of these."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""BloomSlime"",
-		""type"": ""NPC"",
-		""englishName"": ""Bloom Slime"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
-		""activeTranslation"": 1,
-		""englishBestiary"": ""With the solar energy released from the profaned goddess’ destruction, uelibloom has sprouted in the jungle’s mud, and in the slimes which inhabit the biome."",
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Gelée de Floraison"",
-				""translatedBestiary"": ""With the solar energy released from the profaned goddess’ destruction, uelibloom has sprouted in the jungle’s mud, and in the slimes which inhabit the biome."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""BobbitWormHead"",
-		""type"": ""NPC"",
-		""englishName"": ""Bobbit Worm"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
-		""activeTranslation"": 1,
-		""englishBestiary"": ""An immense threat for those who dare venture into the depths. Nearly imperceptible when they choose to be, and lightning-fast when they attack, their jaws can cut through iron plates over half a foot thick."",
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Ver Bobbit"",
-				""translatedBestiary"": ""An immense threat for those who dare venture into the depths. Nearly imperceptible when they choose to be, and lightning-fast when they attack, their jaws can cut through iron plates over half a foot thick."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""Bohldohr"",
-		""type"": ""NPC"",
-		""englishName"": ""Bohldohr"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
-		""activeTranslation"": 1,
-		""englishBestiary"": ""A distant relative to the gem-covered lizards found within the caverns. This species instead covers itself with the smooth bricks of the Temple and curls into a ball for locomotion."",
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Bohldohr"",
-				""translatedBestiary"": ""A distant relative to the gem-covered lizards found within the caverns. This species instead covers itself with the smooth bricks of the Temple and curls into a ball for locomotion."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""BoxJellyfish"",
-		""type"": ""NPC"",
-		""englishName"": ""Box Jellyfish"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
-		""activeTranslation"": 1,
-		""englishBestiary"": ""These seemingly inept masses of gelatin are anything but harmless. Let even one of their trailing tentacles brush you, and you will be heavily envenomed."",
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Méduse-Boîte"",
-				""translatedBestiary"": ""These seemingly inept masses of gelatin are anything but harmless. Let even one of their trailing tentacles brush you, and you will be heavily envenomed."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""Brimling"",
-		""type"": ""NPC"",
-		""englishName"": ""Brimling"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
-		""activeTranslation"": 1,
-		""englishBestiary"": ""Fragments of the brimstone elemental which made their way into shells of slag, their eyes stare mindlessly into the distance, for targets to burn."",
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Soufrelin"",
-				""translatedBestiary"": ""Fragments of the brimstone elemental which made their way into shells of slag, their eyes stare mindlessly into the distance, for targets to burn."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""BrimstoneElemental"",
-		""type"": ""NPC"",
-		""englishName"": ""Brimstone Elemental"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
-		""activeTranslation"": 1,
-		""englishBestiary"": ""A fallen goddess, past her prime of faithful worshippers. She feels an intense hatred for any being with enough self awareness to pity her."",
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Élémentaire de soufre"",
-				""translatedBestiary"": ""A fallen goddess, past her prime of faithful worshippers. She feels an intense hatred for any being with enough self awareness to pity her."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""CalamitasClone"",
-		""type"": ""NPC"",
-		""englishName"": ""Calamitas"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
-		""activeTranslation"": 1,
-		""englishBestiary"": ""A mysterious burning form which only appears at night, wreathed in brimstone fire. It has a twisted mind and misplaced pride in its abilities."",
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Calamitas"",
-				""translatedBestiary"": ""A mysterious burning form which only appears at night, wreathed in brimstone fire. It has a twisted mind and misplaced pride in its abilities."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""CalamityEye"",
-		""type"": ""NPC"",
-		""englishName"": ""Calamity Eye"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
-		""activeTranslation"": 1,
-		""englishBestiary"": ""Though these enemies are only a little more threatening than a demon eye, some say that they originally burst from the sockets of those who used to inhabit the capital, when their souls were cursed by the red flames."",
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Oeil de Calamité"",
-				""translatedBestiary"": ""Though these enemies are only a little more threatening than a demon eye, some say that they originally burst from the sockets of those who used to inhabit the capital, when their souls were cursed by the red flames."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""Cataclysm"",
-		""type"": ""NPC"",
-		""englishName"": ""Cataclysm"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
-		""activeTranslation"": 1,
-		""englishBestiary"": ""A shade of itself, the only actions it seems to know are to burn and kill."",
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Cataclysme"",
-				""translatedBestiary"": ""A shade of itself, the only actions it seems to know are to burn and kill."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""SupremeCataclysm"",
-		""type"": ""NPC"",
-		""englishName"": ""Cataclysm"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
-		""activeTranslation"": 1,
-		""englishBestiary"": ""Despite retaining a humanoid form, it is not capable of any higher thoughts. It only knows violence."",
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Cataclysme"",
-				""translatedBestiary"": ""Despite retaining a humanoid form, it is not capable of any higher thoughts. It only knows violence."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""Catastrophe"",
-		""type"": ""NPC"",
-		""englishName"": ""Catastrophe"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
-		""activeTranslation"": 1,
-		""englishBestiary"": ""A violent, mindless construct. No good can come from raising the dead."",
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Catastrophe"",
-				""translatedBestiary"": ""A violent, mindless construct. No good can come from raising the dead."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""SupremeCatastrophe"",
-		""type"": ""NPC"",
-		""englishName"": ""Catastrophe"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
-		""activeTranslation"": 1,
-		""englishBestiary"": ""Calamitas’ necromancy is outmatched by no one, but no one can truly bring the departed back from the dead."",
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Catastrophe"",
-				""translatedBestiary"": ""Calamitas’ necromancy is outmatched by no one, but no one can truly bring the departed back from the dead."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""Catfish"",
-		""type"": ""NPC"",
-		""englishName"": ""Catfish"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
-		""activeTranslation"": 1,
-		""englishBestiary"": ""An animal which adapted to the toxic waters quite naturally. It uses its whiskers to find its way, and its prey in the murky depths."",
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Poisson-Chat"",
-				""translatedBestiary"": ""An animal which adapted to the toxic waters quite naturally. It uses its whiskers to find its way, and its prey in the murky depths."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""CeaselessVoid"",
-		""type"": ""NPC"",
-		""englishName"": ""Ceaseless Void"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
-		""activeTranslation"": 1,
-		""englishBestiary"": ""When the fabric of the universe is meddled with, especially by inexperienced beings, the risk of irreparable damage is very, very high."",
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Néant Incessant"",
-				""translatedBestiary"": ""When the fabric of the universe is meddled with, especially by inexperienced beings, the risk of irreparable damage is very, very high."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""ChaoticPuffer"",
-		""type"": ""NPC"",
-		""englishName"": ""Chaotic Puffer"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
-		""activeTranslation"": 1,
-		""englishBestiary"": ""Anarchistic little devils, they swallow large amounts of water to inflate their bristling bodies. The water within them boils and bursts out in a scalding rush when they are killed."",
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Poisson-globe Chaotique"",
-				""translatedBestiary"": ""Anarchistic little devils, they swallow large amounts of water to inflate their bristling bodies. The water within them boils and bursts out in a scalding rush when they are killed."",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""CharredSlime"",
-		""type"": ""NPC"",
-		""englishName"": ""Charred Slime"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
-		""activeTranslation"": 1,
-		""englishBestiary"": ""Lava slimes are the only ones that manage to survive in the heat of hell, having replaced their moisture with liquid rock. That said, their mannerisms are the same, and they seek out and devour anything they can."",
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": ""Gelée Calcinée"",
-				""translatedBestiary"": ""Lava slimes are the only ones that manage to survive in the heat of hell, having replaced their moisture with liquid rock. That said, their mannerisms are the same, and they seek out and devour anything they can."",
+				""translatedBestiary"": ""Les fragemnts du cadavre du dieu des etoiles detiennent encore une partie de leur ancien pouvoir, et même après avoir succombés à l'infection sombre, puis avoir été déchirées par un ver, ils cherchent volontairement à retourner vers les étoiles."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -54370,15 +56080,15 @@ namespace CalamityFR.JSON
 		""id"": ""Clam"",
 		""type"": ""NPC"",
 		""englishName"": ""Clam"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Sluggish mollusks filter what they can from the brackish water. Their shells are as hard as stone but contain delicate, succulent flesh."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Palourde"",
-				""translatedBestiary"": ""Sluggish mollusks filter what they can from the brackish water. Their shells are as hard as stone but contain delicate, succulent flesh."",
+				""translatedBestiary"": ""Les mollusques filtrent ce qu'ils peuvent de l'eau saumâtre. Leurs coquilles sont aussi dures que de la pierre mais contienne une chair délicate et succulente."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -54388,15 +56098,15 @@ namespace CalamityFR.JSON
 		""id"": ""ThiccWaifu"",
 		""type"": ""NPC"",
 		""englishName"": ""Cloud Elemental"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Once, outposts were created in the sky, for ease of worship towards the forces that occupied the clouds in order to please them. Now they lay abandoned and their deity angered."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Élémentaire de Nuage"",
-				""translatedBestiary"": ""Once, outposts were created in the sky, for ease of worship towards the forces that occupied the clouds in order to please them. Now they lay abandoned and their deity angered."",
+				""translatedBestiary"": ""Autrefois, des avant-poste étaient créés dans le ciel, pour faciliter le culte envers les forces qui occupaient les nuages afin de leur plaire. Maintenant, ils sont abandonnées et leur divinité est en colère."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -54406,15 +56116,15 @@ namespace CalamityFR.JSON
 		""id"": ""Cnidrion"",
 		""type"": ""NPC"",
 		""englishName"": ""Cnidrion"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""A confusing beast. They share qualities with many of the other desert creatures, yet seem to be able to store vast amounts of water in their bodies."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Cnidrion"",
-				""translatedBestiary"": ""A confusing beast. They share qualities with many of the other desert creatures, yet seem to be able to store vast amounts of water in their bodies."",
+				""translatedBestiary"": ""Une bête déroutante. Elle partage des qualités avec des nombreuses autres créatures du désert, mais semble être capable de stocker de grandes quantités d'eau dans son corps"",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -54424,15 +56134,15 @@ namespace CalamityFR.JSON
 		""id"": ""ColossalSquid"",
 		""type"": ""NPC"",
 		""englishName"": ""Colossal Squid"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""With crushing tentacles that stretch out to over twice the length of a grown man, and toxic black ink, these are formidable predators indeed."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Calamar Colossal"",
-				""translatedBestiary"": ""With crushing tentacles that stretch out to over twice the length of a grown man, and toxic black ink, these are formidable predators indeed."",
+				""translatedBestiary"": ""Avecc ses tentacules écransantes qui s'étendent sur plus de deux fois la longueur d'un homme adulte et son encre noire toxique, il s'agit bien la d'un redoutable prédateur."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -54442,15 +56152,15 @@ namespace CalamityFR.JSON
 		""id"": ""CorruptSlimeSpawn"",
 		""type"": ""NPC"",
 		""englishName"": ""Corrupt Slime Spawn"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""They rapidly flap their wings, created from membranes of gel and spines of hardened slime. They will incessantly hunt you down."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Rejeton de Gelée Corrompue"",
-				""translatedBestiary"": ""They rapidly flap their wings, created from membranes of gel and spines of hardened slime. They will incessantly hunt you down."",
+				""translatedBestiary"": ""Ils battent rapidement leurs ailes, créées à partir de membranes de gel et d'épines de bave durcie. Ils vous traqueront sans cesse."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -54460,15 +56170,15 @@ namespace CalamityFR.JSON
 		""id"": ""CosmicElemental"",
 		""type"": ""NPC"",
 		""englishName"": ""Cosmic Elemental"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""A curious construct, and though its origins are unknown, it has been decidedly proven that the core of its body leads to somewhere not of our world."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Élementaire Cosmique"",
-				""translatedBestiary"": ""A curious construct, and though its origins are unknown, it has been decidedly proven that the core of its body leads to somewhere not of our world."",
+				""translatedBestiary"": ""Une curieuse construction, et bien que ses origines soient inconnues, il a été définitivement prouvé que le noyau de son corps mène à un endroit n'est pas dans notre monde."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -54478,15 +56188,15 @@ namespace CalamityFR.JSON
 		""id"": ""CosmicGuardianHead"",
 		""type"": ""NPC"",
 		""englishName"": ""Cosmic Guardian"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""An interdimensional creation of the Devourer brought from its home dimension to aid it in battle. Nowhere near the strength of its sentinels."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Gardien Cosmique"",
-				""translatedBestiary"": ""An interdimensional creation of the Devourer brought from its home dimension to aid it in battle. Nowhere near the strength of its sentinels."",
+				""translatedBestiary"": ""Une créature interdimensionnelle du Dévoreur apportée de sa dimension d'origine pour l'aider au combat. Loin de la force de ses sentinelles."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -54496,15 +56206,15 @@ namespace CalamityFR.JSON
 		""id"": ""CosmicLantern"",
 		""type"": ""NPC"",
 		""englishName"": ""Cosmic Lantern"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""These lanterns allow their user to see through any darkness. They are not typically used for combat."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Lanterne Cosmique"",
-				""translatedBestiary"": ""These lanterns allow their user to see through any darkness. They are not typically used for combat."",
+				""translatedBestiary"": ""Ces lanternes permettent à leur utilisateur de voir à travers l'obscurités. Ils ne sont générament pas utilisé pour le combat"",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -54514,15 +56224,15 @@ namespace CalamityFR.JSON
 		""id"": ""CrabShroom"",
 		""type"": ""NPC"",
 		""englishName"": ""Crab Shroom"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Mushrooms that grow only on Crabulon’s shell, feasting off the nutrients in the husk. By jolting its body, it flings these off in defense."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Champicrabe"",
-				""translatedBestiary"": ""Mushrooms that grow only on Crabulon’s shell, feasting off the nutrients in the husk. By jolting its body, it flings these off in defense."",
+				""translatedBestiary"": ""Champignons qui ne poussent que sur la coquille de Crabulon, se régalant des nutriments contenus dans son enveloppe. En secouant son corps, il les jettes en défense"",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -54532,15 +56242,15 @@ namespace CalamityFR.JSON
 		""id"": ""Crabulon"",
 		""type"": ""NPC"",
 		""englishName"": ""Crabulon"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""In the bulbous growths of the fungal caverns it is not uncommon to find molted shells.They are far too large for any of the usual decapods of the mushrooms."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Crabulon"",
-				""translatedBestiary"": ""In the bulbous growths of the fungal caverns it is not uncommon to find molted shells.They are far too large for any of the usual decapods of the mushrooms."",
+				""translatedBestiary"": ""Dans les excroissances bulbeuses des cavernes fongiques, il n'est pas rare de trouver des coquilles qui ont muées. Elles sont beaucoup trop grosses pour l'un des décapodes habituels des champignons."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -54550,15 +56260,15 @@ namespace CalamityFR.JSON
 		""id"": ""CragmawMire"",
 		""type"": ""NPC"",
 		""englishName"": ""Cragmaw Mire"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Within its calcified shell which has formed against all logic in the sulphurous sea, a gelatinous body stirs. It is also host to a long grappling creature, which helps it grab prey in exchange for protection."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Machoire Rochefange"",
-				""translatedBestiary"": ""Within its calcified shell which has formed against all logic in the sulphurous sea, a gelatinous body stirs. It is also host to a long grappling creature, which helps it grab prey in exchange for protection."",
+				""translatedBestiary"": ""Dans sa coquille calcifiée, qui s'est formée contre toute attente dans la mer sulfureuse, un corps gélatineux s'agite. Il est également l'hôite d'une longue créature aggripante, qui l'aide à attraper une proie en écahnge d'une protection."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -54568,15 +56278,15 @@ namespace CalamityFR.JSON
 		""id"": ""CrimsonSlimeSpawn2"",
 		""type"": ""NPC"",
 		""englishName"": ""Crimson Slime Spawn"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Embedded in these slime’s bodies are shards of crimulan stone, which drip with a toxin meant to impair your vision."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Rejeton de Gelée Carmin"",
-				""translatedBestiary"": ""Embedded in these slime’s bodies are shards of crimulan stone, which drip with a toxin meant to impair your vision."",
+				""translatedBestiary"": ""Incrustés dans les corps de ces slimes se trouvent des éclats de pierre crimulienne, qui dégoulinent d'une toxine destinée à altérer votre vision."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -54586,15 +56296,15 @@ namespace CalamityFR.JSON
 		""id"": ""CrimsonSlimeSpawn"",
 		""type"": ""NPC"",
 		""englishName"": ""Crimson Slime Spawn"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Irritant globs of gel, which can rob you of your vision if they get on your eyes. Avoid these at all costs, as they can spell death against the Slime God."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Rejeton de Gelée Carmin"",
-				""translatedBestiary"": ""Irritant globs of gel, which can rob you of your vision if they get on your eyes. Avoid these at all costs, as they can spell death against the Slime God."",
+				""translatedBestiary"": ""Boules de gel irritantes qui peuvent vous priver de votre vision si elles entrent en contact avec vos yeux. Évitez-les à tout prix, car ils peuvent signifier la mort contre le Dieu des Gelées"",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -54604,15 +56314,15 @@ namespace CalamityFR.JSON
 		""id"": ""CrimulanBlightSlime"",
 		""type"": ""NPC"",
 		""englishName"": ""Crimulan Blight Slime"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Seemingly, these are slimes which have been given the blessing of a higher being, They seek out and devour but not for themselves, which is a rarity among slimes."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Gelée Carminée Trouble"",
-				""translatedBestiary"": ""Seemingly, these are slimes which have been given the blessing of a higher being, They seek out and devour but not for themselves, which is a rarity among slimes."",
+				""translatedBestiary"": ""Apparemment, ce sont des gelées qui ont reçu la bénédiction d'un être supérieur. Ils recherchent et dévorent mais pas pour eux, ce qui rare parmis les gelées"",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -54622,15 +56332,15 @@ namespace CalamityFR.JSON
 		""id"": ""SplitCrimulanSlimeGod"",
 		""type"": ""NPC"",
 		""englishName"": ""Crimulan Slime God"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Flanking their creator and serving as its body, these are concentrated, swirling masses of the world’s evils, each utilizing the rot and corrosion to eat away and assimilate those who oppose it."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Dieu des Gelées Carmine"",
-				""translatedBestiary"": ""Flanking their creator and serving as its body, these are concentrated, swirling masses of the world’s evils, each utilizing the rot and corrosion to eat away and assimilate those who oppose it."",
+				""translatedBestiary"": ""Flanquant leur créateur et servant de corps, ce sont des masses concentrées et tourbillonnantes des maux du monde, chacun utilisant la pourriture et la corrosion pour ronger et assimiler ceux qui s'y opposent."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -54640,15 +56350,15 @@ namespace CalamityFR.JSON
 		""id"": ""CryoSlime"",
 		""type"": ""NPC"",
 		""englishName"": ""Cryo Slime"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""When the release of Cryogen’s magic slightly thawed the frozen metal which rested underground, the resulting meltwater formed these. Remnants of the ore still reside within them."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Gelée Cryo"",
-				""translatedBestiary"": ""When the release of Cryogen’s magic slightly thawed the frozen metal which rested underground, the resulting meltwater formed these. Remnants of the ore still reside within them."",
+				""translatedBestiary"": ""Lorsque la magie Cryogen fut liberée, cela à dégelé le métal gelé qui reposait sous terre, l'eau de fonte résultate les a formés. Des restes de minerais y résident encore en eux"",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -54658,15 +56368,15 @@ namespace CalamityFR.JSON
 		""id"": ""Cryogen"",
 		""type"": ""NPC"",
 		""englishName"": ""Cryogen"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""A prismatic living ice crystal. Though typically glimpsed only through the harsh sleet of blizzards, on the rare days where it is seen during a sunny day, its body gleams a deadly, beautiful blue."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Cryogène"",
-				""translatedBestiary"": ""A prismatic living ice crystal. Though typically glimpsed only through the harsh sleet of blizzards, on the rare days where it is seen during a sunny day, its body gleams a deadly, beautiful blue."",
+				""translatedBestiary"": ""Un cristal de glace prismatique vivant. Bien qu'il ne soit généralement aperçu qu'au travers du grésil violent des blizzards, les rares jours où il fut apperçut pendant une journée ensoileillée, son corps reflétait un bleu magnifique et mortel."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -54676,15 +56386,15 @@ namespace CalamityFR.JSON
 		""id"": ""Cryon"",
 		""type"": ""NPC"",
 		""englishName"": ""Cryon"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Within the octahedron, one can find ancient runes engraved into ice that does not melt. Who could have created these?"",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Cryon"",
-				""translatedBestiary"": ""Within the octahedron, one can find ancient runes engraved into ice that does not melt. Who could have created these?"",
+				""translatedBestiary"": ""Dans l'octaèdre, on peut trouver des runes anciennes gravées dans de la glace qui ne fond pas. Qui a pu les créer ?"",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -54694,15 +56404,15 @@ namespace CalamityFR.JSON
 		""id"": ""CrawlerCrystal"",
 		""type"": ""NPC"",
 		""englishName"": ""Crystal Crawler"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""A lizard, its back inundated with crystals. These provide protection, but they are easily spooked and can be harvested for the rare gems upon their backs."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Rampant de Cristal"",
-				""translatedBestiary"": ""A lizard, its back inundated with crystals. These provide protection, but they are easily spooked and can be harvested for the rare gems upon their backs."",
+				""translatedBestiary"": ""Un lézard avec un dos remplis de cristaux. Ceux-ci offrent une protection, mais ils sont facilement effrayés et peuvent être récoltés pour les gemmes rares de leurs dos."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -54712,15 +56422,15 @@ namespace CalamityFR.JSON
 		""id"": ""CultistAssassin"",
 		""type"": ""NPC"",
 		""englishName"": ""Cultist Assassin"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""A devotee, their mind lost to the raging, hating fires of the brimstone flames. None have ever seen under their hood, and none ever should."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Assassin Cultiste"",
-				""translatedBestiary"": ""A devotee, their mind lost to the raging, hating fires of the brimstone flames. None have ever seen under their hood, and none ever should."",
+				""translatedBestiary"": ""Un dévot, l'esprit perdu dans les feux déchaînés et haineux des flammes du soufre. Personne n'a jamais vu sous son casque, et personne ne devrait jamais voir."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -54730,15 +56440,15 @@ namespace CalamityFR.JSON
 		""id"": ""Cuttlefish"",
 		""type"": ""NPC"",
 		""englishName"": ""Cuttlefish"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Should you feel something brush your legs in the depths of the abyss, it is likely that this is the culprit, tasting the waters for potential prey."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Seiche"",
-				""translatedBestiary"": ""Should you feel something brush your legs in the depths of the abyss, it is likely that this is the culprit, tasting the waters for potential prey."",
+				""translatedBestiary"": ""Si vous sentez quelque chose effleurer vos jambes dans les profondeurs de l'abîme, il est probable que ce soit le coupable, goûtant les eaux pour une proie potentielle."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -54748,15 +56458,15 @@ namespace CalamityFR.JSON
 		""id"": ""DankCreeper"",
 		""type"": ""NPC"",
 		""englishName"": ""Dank Creeper"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Though their core is the same as a hive blob, their armored shell of shadow scale prevents them from dying quite as easily. They also carry a noxious gas within them."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Rôdeur Humide"",
-				""translatedBestiary"": ""Though their core is the same as a hive blob, their armored shell of shadow scale prevents them from dying quite as easily. They also carry a noxious gas within them."",
+				""translatedBestiary"": ""Bien que leur noyau soit le même qu'une goutte de ruche, leur carapace blindée d'écailles d'ombre les empêche de mourir aussi facilement. Ils transportent également un gaz nocif en eux."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -54766,15 +56476,15 @@ namespace CalamityFR.JSON
 		""id"": ""DarkEnergy"",
 		""type"": ""NPC"",
 		""englishName"": ""Dark Energy"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""One of the many rifts created in the fabric of space by the Ceaseless Void. Some say you could even see a glimpse of another world if you gaze into it."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Énergie Noire"",
-				""translatedBestiary"": ""One of the many rifts created in the fabric of space by the Ceaseless Void. Some say you could even see a glimpse of another world if you gaze into it."",
+				""translatedBestiary"": ""L'une des nombreuses failles créées dans le tissu de l'espace par le vide incessant. Certains disent que vous pourriez même voir un aperçu d'un autre monde si vous le contemplez."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -54784,15 +56494,15 @@ namespace CalamityFR.JSON
 		""id"": ""DarkHeart"",
 		""type"": ""NPC"",
 		""englishName"": ""Dark Heart"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""It pulses with stagnant, stinking waters of corruption, and leaks as it flies overhead. Wherever those drops land, any organic matter nearby slowly corrodes."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Coeur des Ténèbres"",
-				""translatedBestiary"": ""It pulses with stagnant, stinking waters of corruption, and leaks as it flies overhead. Wherever those drops land, any organic matter nearby slowly corrodes."",
+				""translatedBestiary"": ""Il vibre d'eaux stagnantes et puantes de corruption et fuit lorsqu'il vole au-dessus de nos têtes. Partout où ces gouttes atterrissent, toute matière organique à proximité se corrode lentement"",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -54808,9 +56518,9 @@ namespace CalamityFR.JSON
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Fléau du Désert"",
-				""translatedBestiary"": ""If ever before you have peered out into the desert and seen entire dunes rise and fall like the waves of the sea, it is not unlikely that this is the culprit, as it bore through the sands below."",
+				""translatedBestiary"": ""Si vous avez déjà jeté un coup d'œil dans le désert et vu des dunes entières monter et descendre comme les vagues de la mer, il n'est pas improbable que ce soit le coupable, car il a traversé les sables ci-dessous."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -54820,15 +56530,15 @@ namespace CalamityFR.JSON
 		""id"": ""DespairStone"",
 		""type"": ""NPC"",
 		""englishName"": ""Despair Stone"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""A condensed, volatile stone of brimstone slag. It is said that the souls of many, fighting to get out from within, are what cause it to tear across the ground."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Pierre de Désespoir"",
-				""translatedBestiary"": ""A condensed, volatile stone of brimstone slag. It is said that the souls of many, fighting to get out from within, are what cause it to tear across the ground."",
+				""translatedBestiary"": ""Une pierre condensée et volatile de scories de soufre. On dit que les âmes de beaucoup, luttant pour sortir de l'intérieur, sont ce qui le fait déchirer le sol."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -54838,15 +56548,15 @@ namespace CalamityFR.JSON
 		""id"": ""DevilFish"",
 		""type"": ""NPC"",
 		""englishName"": ""Devil Fish"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""A sturdy fish, which has spent a long time seething in the Abyss. Males are easily identified by their forward-facing horns, and females by their curled horns."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Poisson-Diable"",
-				""translatedBestiary"": ""A sturdy fish, which has spent a long time seething in the Abyss. Males are easily identified by their forward-facing horns, and females by their curled horns."",
+				""translatedBestiary"": ""Un poisson robuste, qui a longtemps bouillonné dans les Abysses. Les mâles sont facilement identifiables par leurs cornes tournées vers l'avant et les femelles par leurs cornes recourbées."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -54856,15 +56566,15 @@ namespace CalamityFR.JSON
 		""id"": ""DevilFishAlt"",
 		""type"": ""NPC"",
 		""englishName"": ""Devil Fish"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""A sturdy fish, which has spent a long time seething in the Abyss. Males are easily identified by their forward-facing horns, and females by their curled horns."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Poisson-Diable"",
-				""translatedBestiary"": ""A sturdy fish, which has spent a long time seething in the Abyss. Males are easily identified by their forward-facing horns, and females by their curled horns."",
+				""translatedBestiary"": ""Un poisson robuste, qui a longtemps bouillonné dans les Abysses. Les mâles sont facilement identifiables par leurs cornes tournées vers l'avant et les femelles par leurs cornes recourbées."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -54874,15 +56584,15 @@ namespace CalamityFR.JSON
 		""id"": ""CrawlerDiamond"",
 		""type"": ""NPC"",
 		""englishName"": ""Diamond Crawler"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""A lizard, its back inundated with crystals. These provide protection, but they are easily spooked and can be harvested for the rare gems upon their backs."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Rampant de Diamant"",
-				""translatedBestiary"": ""A lizard, its back inundated with crystals. These provide protection, but they are easily spooked and can be harvested for the rare gems upon their backs."",
+				""translatedBestiary"": ""Un lézard, le dos remplit de cristaux. Ceux-ci offrent une protection, mais ils sont facilement effrayés et peuvent être récoltés pour les gemmes rares sur leur dos."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -55258,9 +56968,9 @@ namespace CalamityFR.JSON
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""VicThor"",
 				""translatedName"": ""Grand Requin des Sables"",
-				""translatedBestiary"": ""One wonders if there is a limit to the persistence of sharks in their quest to survive. In the very opposite of their usual climate, they have conquered too. It is a miracle that none yet have grown wings."",
+				""translatedBestiary"": ""On se demande s'il y a une limite à l'obstination des requins dans leur quête de survie. À l'opposé de leur climat habituel, ils ont aussi conquis. C'est un miracle qu'aucun n'ait encore poussé des ailes."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -55276,9 +56986,9 @@ namespace CalamityFR.JSON
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""VicThor"",
 				""translatedName"": ""Gardien Commandant"",
-				""translatedBestiary"": ""When it turns its burning spear towards anything, its simple mind has a clear goal. To entirely eradicate the enemy."",
+				""translatedBestiary"": ""Quand il tourne sa lance brûlante vers quoi que ce soit, son esprit simple a un objectif clair. Entièrement éradiquer l'ennemi."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -55294,9 +57004,9 @@ namespace CalamityFR.JSON
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""VicThor"",
 				""translatedName"": ""Gardien Défenseur"",
-				""translatedBestiary"": ""The body it has formed boasts of a stone shell hallowed and tempered by the flames of the sun. Very little can fully shatter its defense."",
+				""translatedBestiary"": ""Le corps qu'il a formé est possède une coquille de pierre scellée et tempérée par les flammes du soleil. Très peu de choses peuvent complètement briser sa défense."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -55312,9 +57022,9 @@ namespace CalamityFR.JSON
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""VicThor"",
 				""translatedName"": ""Gardien Soigneur"",
-				""translatedBestiary"": ""Its crystal which is displayed prominently on its body is able to restore damage done to its kin, and it draws that damage into flares which steal your life."",
+				""translatedBestiary"": ""Son cristal, qui est affiché bien en évidence sur son corps, est capable de restaurer les dommages causés à ses semblables, et il transforme ces dommages en éruptions qui vous volent votre vie."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -55330,9 +57040,9 @@ namespace CalamityFR.JSON
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""VicThor"",
 				""translatedName"": ""Anguille Engloutisseuse"",
-				""translatedBestiary"": ""Massive in length and in breadth, this eel resides in the deeper caverns of the abyss. Its jaws have the curious ability to hyperextend and swallow nearly any prey it sets its eyes upon."",
+				""translatedBestiary"": ""Massive en longueur et en largeur, cette anguille réside dans les cavernes les plus profondes des abysses. Ses mâchoires ont la curieuse capacité de s'allonger et d'avaler presque toutes les proies sur lesquelles elle pose les yeux."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -55348,9 +57058,9 @@ namespace CalamityFR.JSON
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""VicThor"",
 				""translatedName"": ""Hadarien"",
-				""translatedBestiary"": ""The membrane of their wings is particularly tough, for material so thin. It has been known to guard them against burns and projectiles as they mercilessly tear at their foes."",
+				""translatedBestiary"": ""La membrane de leurs ailes est particulièrement résistante, pour un matériau aussi fin. Elle est connue pour protéger contre les brûlures et les projectiles lorsqu'ils écartèlent impitoyablement leurs ennemis. "",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
