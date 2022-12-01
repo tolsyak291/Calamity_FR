@@ -346,7 +346,7 @@
 			"The Witch enrages while you are outside of the arena",
 			"Used for special crafting"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -356,7 +356,9 @@
 				"translatedTooltip": [
 					"Offrez les Cendres de Calamité a cet autel pour invoquer la Sorcière",
 					"Le faire créera une arène carrée faites de blocs, avec l'autel en son centre",
-					"Pendant le combat, les coeurs vous soignent pour moitié moins"
+					"Pendant le combat, les coeurs vous soignent pour moitié moins",
+					"La Sorcière enrage quand vous êtes en dehors de l'arène",
+					"Utilisé pour l'artisanat spécial"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -480,13 +482,16 @@
 		"englishTooltip": [
 			"A glimpse into what will be..."
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
 				"author": "Tolsyak",
 				"translatedName": "Relique du fléau aquatique",
+				"translatedTooltip": [
+					"Un aperçu de l'avenir..."
+				],
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -521,13 +526,13 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Aquatic Urchin"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
 				"author": "Tolsyak",
-				"translatedName": "Bannière de Oursin Aquatique",
+				"translatedName": "Bannière d'Oursin Aquatique",
 				"translatedTooltip": [
 					"{$CommonItemTooltip.BannerBonus}Oursin Aquatique"
 				],
@@ -545,7 +550,7 @@
 			"The sandstorm will happen shortly after the item is used",
 			"If used during a sandstorm, the sandstorm will stop some time afterward."
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -555,7 +560,7 @@
 				"translatedTooltip": [
 					"Invoque une tempête de sable",
 					"La tempête de sable arrivera peu après l'utilisation de l'objet",
-					"Non consommable"
+					"Si utilisé durant une tempête de sable, la tempête s'arrêtera peu après l'utilisation de l'objet"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -569,13 +574,13 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Aries"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
 				"author": "Tolsyak",
-				"translatedName": "Bannière de Aries",
+				"translatedName": "Bannière d'Aries",
 				"translatedTooltip": [
 					"{$CommonItemTooltip.BannerBonus}Aries"
 				],
@@ -591,7 +596,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Armored Digger"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -613,7 +618,7 @@
 		"englishTooltip": [
 			"Used for special crafting"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -635,7 +640,7 @@
 		"englishTooltip": [
 			"Counts as a lava source"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -659,7 +664,7 @@
 			"Enrages during the day",
 			"Not consumable"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -668,6 +673,7 @@
 				"translatedName": "Morceau Astral",
 				"translatedTooltip": [
 					"Invoque Astrum Aureus quand utilisé dans l'infection astrale la nuit",
+					"Enrage pendant la journée",
 					"Non consommable"
 				],
 				"proofRead": false,
@@ -682,7 +688,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Astral Probe"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -704,7 +710,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Astral Slime"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -726,7 +732,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Astralachnea"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -748,7 +754,7 @@
 		"englishTooltip": [
 			"A glimpse into what will be..."
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -756,7 +762,7 @@
 				"author": "Tolsyak",
 				"translatedName": "Relique d'Astrum Aureus",
 				"translatedTooltip": [
-					"Un aperçu de l'avenir.."
+					"Un aperçu de l'avenir..."
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -770,7 +776,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Atlas Banner"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -794,7 +800,7 @@
 			"Increases melee damage and melee crit by 5%",
 			"+5 melee armor penetration"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -818,7 +824,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Belching Coral"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -840,7 +846,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Big Sightseer"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -864,7 +870,7 @@
 			"Jets will fire bullets from your inventory",
 			"50% chance to not consume ammo"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -872,7 +878,9 @@
 				"author": "Tolsyak",
 				"translatedName": "Télécommande du Faucon Noir",
 				"translatedTooltip": [
-					"Invoque un jet du faucon noir pour combattre à vos côtés"
+					"Invoque un jet du faucon noir pour combattre à vos côtés",
+					"Le jet tirera des balles depuis votre inventaire",
+					"50% de chances de ne pas consommer de munitions"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -887,7 +895,7 @@
 			"Stacks up to 3",
 			"Stealth strikes release all stars at once with infinite piercing"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -895,7 +903,7 @@
 				"author": "Tolsyak",
 				"translatedName": "Étoile Flamboyante",
 				"translatedTooltip": [
-					"Se cumule 4 fois",
+					"Se cumule 3 fois",
 					"Les attaques furtives libèrent toutes les étoiles simultanément et transperçent indéfiniment"
 				],
 				"proofRead": false,
@@ -910,7 +918,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Blinded Angler"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -932,7 +940,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Bloatfish"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -955,7 +963,7 @@
 			"Summons The Old Duke if used as bait in the Sulphurous Sea",
 			"Enrages outside the Sulphurous Sea"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -963,7 +971,8 @@
 				"author": "Kastiel",
 				"translatedName": "Ver de Sang",
 				"translatedTooltip": [
-					"Invoque le Vieux Duc s'il est utilisé comme un appât dans dans la mer sulfurique"
+					"Invoque le Vieux Duc s'il est utilisé comme un appât dans dans la mer sulfurique",
+					"Enrage en dehors de la mer sulfurique"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -979,7 +988,7 @@
 			"Enrages outside the Underground Crimson",
 			"Not consumable"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -988,6 +997,7 @@
 				"translatedName": "Nourriture Sanglante pour Ver",
 				"translatedTooltip": [
 					"Invoque la Ruche du Perforateur quand utilisé dans le carmin",
+					"Enrage en dehors du carmin souterrain",
 					"Non consommable"
 				],
 				"proofRead": false,
@@ -1002,7 +1012,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Bloom Slime"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -1024,7 +1034,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Bobbit Worm"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -1046,7 +1056,7 @@
 		"englishTooltip": [
 			"Used for special crafting"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -1068,7 +1078,7 @@
 		"englishTooltip": [
 			"Counts as a honey source"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -1092,7 +1102,7 @@
 			"Receives a small boost in damage and velocity after bouncing off an enemy",
 			"Stealth strikes throw four at once"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -1100,9 +1110,9 @@
 				"author": "Tolsyak",
 				"translatedName": "Boule à Piques Rebondissante",
 				"translatedTooltip": [
-					"Lance une boule rebondissante qui ricoche sur les murs et les ennemis",
+					"Lance une boule très rebondissante qui ricoche sur les murs et les ennemis",
 					"Gagne un petit bonus aux dégâts et en vitesse quand elle rebondit sur un ennemi",
-					"Les attaques furtives augmentent le bonus de ricochet"
+					"Les attaques furtives lancent 4 balles d'un coup"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -1116,7 +1126,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Box Jellyfish"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -1138,7 +1148,7 @@
 		"englishTooltip": [
 			"A glimpse into what will be..."
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -1146,7 +1156,7 @@
 				"author": "Tolsyak",
 				"translatedName": "Relique d'Élémentaire de Soufre",
 				"translatedTooltip": [
-					"Un aperçu de l'avenir.."
+					"Un aperçu de l'avenir..."
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -1162,7 +1172,7 @@
 			"Right click to throw like a javelin that explodes on hit",
 			"Receives 33% benefit from melee speed bonuses"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -1171,7 +1181,8 @@
 				"translatedName": "Épée de soufre",
 				"translatedTooltip": [
 					"Invoque des geysers de soufre quand vous touchez",
-					"Clic droit pour lancer un javelot qui explose quand il touche"
+					"Clic droit pour lancer un javelot qui explose quand il touche",
+					"Reçoit 33% de la statistique de vitesse en mêlée"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -1185,7 +1196,7 @@
 		"englishTooltip": [
 			"A glimpse into what will be..."
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -1207,7 +1218,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Calamity Eye"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -1229,7 +1240,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Catfish"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -1251,7 +1262,7 @@
 		"englishTooltip": [
 			"A glimpse into what will be..."
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -1273,7 +1284,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Chaotic Puffer"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -1298,7 +1309,7 @@
 			"Enrages outside the Brimstone Crags",
 			"Not consumable"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -1306,7 +1317,9 @@
 				"author": "Tolsyak",
 				"translatedName": "Idole Calcinée",
 				"translatedTooltip": [
+					"A utiliser à vos risques et périls",
 					"Invoque l'Élémentaire de soufre quand utilisé dans les vestiges souffrés",
+					"Enrage en dehors des Vestiges Soufrés",
 					"Non consommable"
 				],
 				"proofRead": false,
@@ -1321,7 +1334,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Charred Slime"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -1343,7 +1356,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Clam"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -1365,7 +1378,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Cloud Elemental"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -1387,7 +1400,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Cnidrion"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -1410,7 +1423,7 @@
 			"Stealth strikes only expend 85% of your max stealth",
 			"6% increased rogue crit chance"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -1418,7 +1431,7 @@
 				"author": "Tolsyak",
 				"translatedName": "Pièce de Tromperie",
 				"translatedTooltip": [
-					"Les attaques furtives ne consomment que 75% de votre furtivité",
+					"Les attaques furtives ne consomment que 85% de votre furtivité",
 					"6% des coups critiques pour les dégâts de voleur"
 				],
 				"proofRead": false,
@@ -1433,7 +1446,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Colossal Squid"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -1461,7 +1474,7 @@
 			"[c/5C95A1:Knowledge is important, and the Old Sea Kingdom’s many scribes knew it had to be preserved at any cost.]",
 			"[c/5C95A1:Their libraries were much larger than most, because of the water-proof stone tablets occupying them.]"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -1469,7 +1482,13 @@
 				"author": "Tolsyak",
 				"translatedName": "Débiteur de Corail",
 				"translatedTooltip": [
-					"Convoque des éclats de corail qui se posent au sol et endommagent les ennemis"
+					"Tire une décharge d'éclat de corail a l'instar d'un fusil à pompe",
+					"Laissez le bouton de tir appuyé pour réduire l'étendue du tir",
+					"Une attaque complétement chargée tire un unique gros morceau de corail qui se colle aux ennemis",
+					"Attraper le morceau de corail après sa chute rend 150 mana",
+					"Le morceau de corail chargé en mana donne un amélioration d'état qui augmente les dégâts du corail et sa vitesse de convergence",
+					"[c/5C95A1:Le savoir est important, et les nombreux scribes du royaume de la vieille mer savait qu'il devait être préservé à tout prix.]",
+					"[c/5C95A1:Leurs bibliothèques étaient plus grandes que la plupart, à cause des tablettes en pierre étanche qui y étaient entreposées.]"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -1485,7 +1504,7 @@
 			"All rogue weapons inflict venom and spawn clouds on enemy hits",
 			"You release a ton of clouds everywhere on hit"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -1493,7 +1512,7 @@
 				"author": "Tolsyak",
 				"translatedName": "Colonne Vertébrale Corrosive",
 				"translatedTooltip": [
-					"10% d'augmentation du déplacement",
+					"5% d'augmentation du déplacement",
 					"Toutes les armes de voleur infligent le venin et créent des nuages quand ils touchent les ennemis",
 					"Vous relâchez une tonne de nuage partout quand vous êtes touché"
 				],
@@ -1511,7 +1530,7 @@
 			"Upon hitting an enemy, a barrage of offscreen objects home in on the enemy as well as raining stars",
 			"Receives 33% benefit from melee speed bonuses"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -1519,9 +1538,9 @@
 				"author": "Tolsyak",
 				"translatedName": "Surin Cosmique",
 				"translatedTooltip": [
-					"Ne sous-estimez vraiment pas le pouvoir des surins",
 					"Tire un rayon cosmique qui pourchasse les ennemis",
-					"Quand vous touchez un ennemi, un barrage d'objets venant d'en dehors de l'écran pourchassent l'ennemi en plus de faire pleuvoir des étoiles"
+					"Quand vous touchez un ennemi, un barrage d'objets venant d'en dehors de l'écran pourchassent l'ennemi en plus de faire pleuvoir des étoiles",
+					"Bénéficie de 33% de la statistique de vitesse en mêlée"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -1539,7 +1558,7 @@
 			"Alternates firing rockets and bullets",
 			"Rockets do not consume ammo"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -1547,7 +1566,11 @@
 				"author": "Tolsyak",
 				"translatedName": "Moteur Cosmique Vipère",
 				"translatedTooltip": [
-					"Invoque un vaisseau de combat pour abattre vos ennemis"
+					"Invoque un vaisseau de combat pour abattre vos ennemis",
+					"Ce vaisseau tire des munitions depuis votre inventaire",
+					"50% de chances de ne pas consommer de munitions",
+					"Alterne entre les balles et les roquettes",
+					"Les roquettes ne consomment pas de munitions"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -1561,7 +1584,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Cosmic Elemental"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -1583,7 +1606,7 @@
 		"englishTooltip": [
 			"Counts as a water source"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -1607,7 +1630,7 @@
 			"Grants the ability to dash; dashing into an attack will cause you to dodge it",
 			"After a successful dodge you must wait 30 seconds before you can dodge again"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -1617,9 +1640,7 @@
 				"translatedTooltip": [
 					"Les attaques de vraie mêlée font 10% de dégâts supplémentaires",
 					"Donne la possibilité de foncer, foncer dans une attaque vous permettra de l'esquiver",
-					"Après une esquive réussie, vous devez attendre 15s avant de pouvoir esquiver de nouveau",
-					"Ce temps de recharge est doublé si vous subissez le Chaos",
-					"Durant le temps de recharge, le Chaos dure deux fois plus longtemps"
+					"Après une esquive réussie, vous devez attendre 30s avant de pouvoir esquiver de nouveau"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -1633,7 +1654,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Crimulan Blight Slime"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -1657,7 +1678,7 @@
 			"Enrages outside the tundra",
 			"Not consumable"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -1666,6 +1687,7 @@
 				"translatedName": "Clé Cryo",
 				"translatedTooltip": [
 					"Invoque Cryogène quand utilisé dans la toundra",
+					"Enrage en dehors de la toundra",
 					"Ne se consomme pas"
 				],
 				"proofRead": false,
@@ -1680,7 +1702,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Cryo Slime"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -1702,7 +1724,7 @@
 		"englishTooltip": [
 			"A glimpse into what will be..."
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -1710,7 +1732,7 @@
 				"author": "Tolsyak",
 				"translatedName": "Relique de Cryogène",
 				"translatedTooltip": [
-					"Un aperçu de l'avenir.."
+					"Un aperçu de l'avenir..."
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -1724,7 +1746,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Cryon"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -1746,7 +1768,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Crystal Crawler"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -1768,7 +1790,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Cultist Assassin"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -1790,7 +1812,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Cuttlefish"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -1815,7 +1837,7 @@
 			"Stealth strikes only expend 50% of your max stealth",
 			"6% increased rogue damage, and 6% increased rogue crit chance"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -1823,9 +1845,8 @@
 				"author": "Tolsyak",
 				"translatedName": "Fourreau du Dieu Sombre",
 				"translatedTooltip": [
-					"+20 de furtivité maximum",
+					"+10 de furtivité maximum",
 					"La génération de furtivité lorsque vous êtes en mouvement est augmentée",
-					"Les attaques furtives ont 100% de chances de coup critique",
 					"Les coups critiques ne consomment que la moitié de votre furtivité",
 					"6% des dégâts et de chances de coup critique supplémentaires pour les dégâts de voleur"
 				],
@@ -1843,7 +1864,7 @@
 			"Enrages outside the Underground Mushroom biome",
 			"Not consumable"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -1852,6 +1873,7 @@
 				"translatedName": "Germe de Décapodite",
 				"translatedTooltip": [
 					"Invoque Crabulon quand utilisé dans un biome champignon",
+					"Enrage en dehors du biome champignon souterrain",
 					"Non consommable"
 				],
 				"proofRead": false,
@@ -1868,7 +1890,7 @@
 			"Allows you to decrypt the Planetoid schematic",
 			"Doing so allows you to learn how to craft new things"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -1877,7 +1899,7 @@
 				"translatedName": "Ordinateur de Décryptage",
 				"translatedTooltip": [
 					"Peut être placé sur le Briseur de Code",
-					"Vous permet de décrypter des schémas avancés",
+					"Vous permet de décrypter le schéma des planétoïdes,",
 					"Vous permettant ainsi de fabriquer de nouveaux objets"
 				],
 				"proofRead": false,
@@ -1894,7 +1916,7 @@
 			"Enrages outside the Desert",
 			"Not consumable"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -1903,6 +1925,7 @@
 				"translatedName": "Médaillon du Desert",
 				"translatedTooltip": [
 					"Invoque le Fléau du Désert quand utilisé dans le désert",
+					"Enrage en dehors du désert",
 					"Non consommable"
 				],
 				"proofRead": false,
@@ -1917,13 +1940,16 @@
 		"englishTooltip": [
 			"A glimpse into what will be..."
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
 				"author": "Tolsyak",
 				"translatedName": "Relique du Fléau du Désert",
+				"translatedTooltip": [
+					"Un aperçu de l'avenir..."
+				],
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -1936,7 +1962,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Despair Stone"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -1967,7 +1993,8 @@
 				"author": "Tolsyak",
 				"translatedName": "Dévastation",
 				"translatedTooltip": [
-					"Tire des décharges de galaxie qui explosent"
+					"Tire des décharges galactiques qui explosent",
+					"Bénéficie de 33% de la statistique de vitesse de mêlée"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -1984,7 +2011,7 @@
 			"Critical hits cause shadowflame explosions",
 			"Receives 33% benefit from melee speed bonuses"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -1994,7 +2021,8 @@
 				"translatedTooltip": [
 					"Tire un éventail de faux démoniaques",
 					"Des fourches se soulèvent des enfers pour empaler vos ennemis",
-					"Les coups critiques déclenchent des explosions d'ombreflamme"
+					"Les coups critiques déclenchent des explosions d'ombreflamme",
+					"Bénéficie de 33% de la statistique de vitesse de mêlée"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -2008,7 +2036,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Devil Fish"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -2030,7 +2058,7 @@
 		"englishTooltip": [
 			"A glimpse into what will be..."
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -2038,7 +2066,7 @@
 				"author": "Tolsyak",
 				"translatedName": "Relique du Dévoreur de Dieux",
 				"translatedTooltip": [
-					"Un aperçu de l'avenir.."
+					"Un aperçu de l'avenir..."
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -2052,7 +2080,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Diamond Crawler"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -2078,7 +2106,7 @@
 			"+10% max run speed and acceleration",
 			"Grants immunity to Dragonfire"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -2089,7 +2117,8 @@
 					"Seul un dragon vivant possède un véritable trésor",
 					"Les projectiles de voleur créent de lentes boules de feu sur leur trajet",
 					"Les attaques furtives créent une infernade à la disparition du projectile",
-					"+10% à votre accélération et votre vitesse de mouvement"
+					"+10% à votre accélération et votre vitesse de mouvement",
+					"Immunise au feu draconique"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -2103,7 +2132,7 @@
 		"englishTooltip": [
 			"A glimpse into what will be..."
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -2111,7 +2140,7 @@
 				"author": "Tolsyak",
 				"translatedName": "Relique de la Folie Draconique",
 				"translatedTooltip": [
-					"Un aperçu de l'avenir.."
+					"Un aperçu de l'avenir..."
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -2127,7 +2156,7 @@
 			"The faster it's spinning, the more times it hits before disappearing",
 			"Stealth Strikes make it emit short-ranged bubbles."
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -2153,7 +2182,7 @@
 			"Ranged weapons have a chance to fire mini swarmers",
 			"Grants immunity to Dragonfire and Electrified"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -2162,7 +2191,8 @@
 				"translatedName": "Transformateur de Cellules Souches",
 				"translatedTooltip": [
 					"+10% de vitesse de mouvement",
-					"Les armes à distance ont une chance de tirer des petits essaimeurs"
+					"Les armes à distance ont une chance de tirer des petits essaimeurs",
+					"Immunise au feu draconique et à l'électrisation"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -2176,7 +2206,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Earth Elemental"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -2198,7 +2228,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Ebonian Blight Slime"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -2229,7 +2259,7 @@
 			"Evading an attack grants full stealth but has a 90 second cooldown",
 			"This cooldown is shared with all other dodges and reflects"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -2238,12 +2268,11 @@
 				"translatedName": "Miroir d'Éclipse",
 				"translatedTooltip": [
 					"Son reflet ne montre rien que les ténèbres",
-					"+20 furtivité maximum",
+					"+10 furtivité maximum",
 					"+6% des dégâts et de chance de critique de voleur",
 					"Réduit grandement l'agressivité des ennemis, même dans les abysses",
-					"La furtivité se génère 20% plus rapidement quand vous êtes immobile",
+					"La furtivité se génère 25% plus rapidement quand vous êtes immobile",
 					"La génération de furtivité quand vous vous déplacez accélère exponentiellement si vous n'attaquez pas",
-					"Les attaques furtives ont 100% de chances de coup critique",
 					"Les attaques furtives ne consomment que 50% de votre furtivité",
 					"Permet d'esquiver les attaques dans une explosion de lumière de sombresoleil, infligeant des dégâts extrêmes dans une large zone",
 					"Esquiver une attaque maximise votre furtivité mais à un temps de recharge de 90s",
@@ -2261,7 +2290,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Eidolist"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -2283,7 +2312,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Juvenile Eidolon Wyrm"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -2307,7 +2336,7 @@
 			"Boosts melee speed by 10%, ranged velocity by 25%, rogue stealth regen by 10%, max minions by 2 and reduces mana cost by 15%",
 			"Grants immunity to Whispering Death"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -2316,7 +2345,8 @@
 				"translatedName": "Artefact d'Âme d'Eldritch",
 				"translatedTooltip": [
 					"Connaissance",
-					"Augmente la vitesse de corps à corps de 10%, la vitesse des projectiles à distance de 25%, les dégâts de voleurs de 15%, les emplacements de sbires max de 2 et réduit les coûts en mana de 15%"
+					"Augmente la vitesse de corps à corps de 10%, la vitesse des projectiles à distance de 25%, la vitesse de génération de la furtivité de 10%, les emplacements de sbires max de 2 et réduit les coûts en mana de 15%",
+					"Immunise à la mort susurrante"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -2331,7 +2361,7 @@
 			"Shoots a rainbow shiv that spawns additional shivs on hit",
 			"Receives 33% benefit from melee speed bonuses"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -2339,8 +2369,8 @@
 				"author": "Tolsyak",
 				"translatedName": "Surin des Élements",
 				"translatedTooltip": [
-					"Ne sous-estimez pas le pouvoir des surins",
-					"Tire un surin arc-en-ciel qui crée d'autres surins quand vous touchez"
+					"Tire un surin arc-en-ciel qui crée d'autres surins quand vous touchez",
+					"Bénéficie de 33% de la statistique de vitesse de mêlée"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -2359,7 +2389,7 @@
 			"Flight time: 240",
 			"Temporary immunity to lava and 10% increased movement speed"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -2368,7 +2398,7 @@
 				"translatedName": "Ailes Elysiennes",
 				"translatedTooltip": [
 					"Bénie par la flamme profanée",
-					"Vitesse Horizontale: 9.75",
+					"Vitesse Horizontale: 9.5",
 					"Multiplicateur d'accélération: 2.7",
 					"Très bonne vitesse verticale",
 					"Temps de vol: 240",
@@ -2386,7 +2416,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Emerald Crawler"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -2408,13 +2438,13 @@
 		"englishTooltip": [
 			"Requires a Codebreaker with a complex voltage regulation system to decrypt"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
 				"author": "Tolsyak",
-				"translatedName": "Plans Cryptés",
+				"translatedName": "Plans Cryptés (Glace)",
 				"translatedTooltip": [
 					"Requiert un Briseur de Code avec un système complexe de régulation de tension pour être décrypté"
 				],
@@ -2430,13 +2460,13 @@
 		"englishTooltip": [
 			"Requires a Codebreaker with a fine tuned, long range sensor to decrypt"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
 				"author": "Tolsyak",
-				"translatedName": "Plans Cryptés",
+				"translatedName": "Plans Cryptés (Jungle)",
 				"translatedTooltip": [
 					"Requiert un Briseur de Code avec un Senseur longue-portée bien réglé pour être décrypté"
 				],
@@ -2452,13 +2482,13 @@
 		"englishTooltip": [
 			"Requires a Codebreaker with a basic decryption computer to decrypt"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
 				"author": "Tolsyak",
-				"translatedName": "Plans Cryptés",
+				"translatedName": "Plans Cryptés (Planétoïde)",
 				"translatedTooltip": [
 					"Requiert un Briseur de Code avec un ordinateur de décryptage basique pour être décrypté"
 				],
@@ -2474,13 +2504,13 @@
 		"englishTooltip": [
 			"Requires a Codebreaker with a sophisticated display to decrypt"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
 				"author": "Tolsyak",
-				"translatedName": "Plans Cryptés",
+				"translatedName": "Plans Cryptés (Enfer)",
 				"translatedTooltip": [
 					"Requiert un Briseur de Code avec un système d'affichage sophistiqué pour être décrypté"
 				],
@@ -2497,7 +2527,7 @@
 			"Rogue projectiles explode into homing souls on death",
 			"10% increased rogue damage and +10 maximum stealth"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -2506,7 +2536,7 @@
 				"translatedName": "Extorqueur Ethéré",
 				"translatedTooltip": [
 					"Les projectiles de voleur explosent en âme à tête chercheuse",
-					"+10% de dégâts de voleur et +10 furtivité maximum mais régénération de vie réduite de 1"
+					"+10% de dégâts de voleur et +10 furtivité maximum"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -2520,7 +2550,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Eutrophic Ray"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -2542,7 +2572,7 @@
 		"englishTooltip": [
 			"Used for special crafting"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -2564,7 +2594,7 @@
 		"englishTooltip": [
 			"Counts as a water source"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -2588,7 +2618,7 @@
 			"Grants the ability to dash; dashing into an attack will cause you to dodge it",
 			"After a successful dodge you must wait 30 seconds before you can dodge again"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -2598,9 +2628,7 @@
 				"translatedTooltip": [
 					"Les attaques de vraie mêlée font 15% de dégâts supplémentaires",
 					"Donne la possibilité de foncer, foncer dans une attaque vous permettra de l'esquiver",
-					"Après une esquive réussie, vous devez attendre 13s avant de pouvoir esquiver de nouveau",
-					"Ce temps de recharge est doublé si vous subissez le Chaos",
-					"Durant le temps de recharge, le Chaos dure 50% plus longtemps"
+					"Après une esquive réussie, vous devez attendre 30s avant de pouvoir esquiver de nouveau"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -2614,7 +2642,7 @@
 		"englishTooltip": [
 			"Counts as a water, honey, and lava source"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -2640,7 +2668,7 @@
 			"Enemy hits from the blade during the dash result in massive damage and a rebound",
 			"Left clicks briefly after a rebound are far stronger and create explosions on enemy hits"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -2649,10 +2677,10 @@
 				"translatedName": "Exolame",
 				"translatedTooltip": [
 					"Ancienne lame de Draedon, l'expert en armements et armures de Yharim.",
-					"Tire un exo rayon qui pourchasse le joueur avant d'exploser",
-					"Frapper un ennemi avec la lame provoque l'apparition de plusieurs comètes",
-					"Toutes les attaques gèlent brièvement les ennemis",
-					"Les ennemis qui ont une vie très faible explosent en énergie givrée et gèlent les ennemis proches"
+					"Clic gauche pour relâcher de multiples rayons d'énergie à têtes chercheuses sur les ennemis et les découpent quand ils touchent",
+					"Clic droit pour charger dans la direction du curseur avec la lame",
+					"Les ennemis touchés avec la lame durant la charge subissent d'énormes dégâts et vous font rebondir",
+					"Les clics gauches peu après un rebond sont bien plus puissants et créent des explosions en touchant"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -2669,7 +2697,7 @@
 			"Enrages outside the Jungle",
 			"Not consumable"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -2679,6 +2707,7 @@
 				"translatedTooltip": [
 					"Attire l'expérience draconique ratée",
 					"Invoque la folie draconique quand utilisée dans la jungle",
+					"Enrage en dehors de la jungle",
 					"Non consommable"
 				],
 				"proofRead": false,
@@ -2696,7 +2725,7 @@
 			"Enrages during the day",
 			"Not consumable"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -2706,6 +2735,7 @@
 				"translatedTooltip": [
 					"Cette nuit va être horrifique...",
 					"Invoque Calamitas quand utilisé la nuit",
+					"Enrage le jour",
 					"Ne se consomme pas"
 				],
 				"proofRead": false,
@@ -2720,7 +2750,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Fearless Goldfish Warrior"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -2742,7 +2772,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Flak Crab"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -2765,7 +2795,7 @@
 			"Shoots a spread of 4 arrows",
 			"Wooden arrows are converted into bouncing obsidian bats"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -2773,7 +2803,7 @@
 				"author": "Tolsyak",
 				"translatedName": "Arc d'Éclataile",
 				"translatedTooltip": [
-					"Tire une volée de 5 flèches",
+					"Tire une volée de 4 flèches",
 					"Les flèches de bois deviennent des chauves-souris rebondissantes d'obsidienne"
 				],
 				"proofRead": false,
@@ -2788,7 +2818,7 @@
 		"englishTooltip": [
 			"Melee, Whip, and Rogue attacks inflict Armor Crunch on enemies"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -2796,8 +2826,7 @@
 				"author": "Tolsyak",
 				"translatedName": "Potion d'Effritement",
 				"translatedTooltip": [
-					"Augmente les dégâts et les chances de coup critique de mêlée et de voleur de 5%",
-					"Les attaques de mêlée et de voleur brisent l'armure"
+					"Les attaques de mêlée, de fouet et de voleur brisent l'armure"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -2811,7 +2840,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Flounder"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -2834,16 +2863,16 @@
 			"Summons five rainbow flowers over your head",
 			"The combined flowers consume three minion slots"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
 				"author": "",
-				"translatedName": "Flowers of Mortality",
+				"translatedName": "Fleurs de Mortalité",
 				"translatedTooltip": [
-					"Summons five rainbow flowers over your head ",
-					"The combined flowers consume two and a half minion slots"
+					"Invoque 5 fleurs irisées au-dessus de votre tête",
+					"Les fleurs occupent trois emplacements de sbires"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -2857,7 +2886,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Frogfish"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -2880,7 +2909,7 @@
 			"Various melee weapons emit mushrooms in true melee range",
 			"15% increased true melee damage"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -2888,7 +2917,7 @@
 				"author": "Tolsyak",
 				"translatedName": "Symbiote Fongique",
 				"translatedTooltip": [
-					"La plupart des armes de corps à corps émettent des champignons",
+					"La plupart des armes de corps à corps émettent des champignons au corps-à-corps",
 					"Les attaques de vraie mêlée font 15% de dégâts supplémentaires"
 				],
 				"proofRead": false,
@@ -2903,7 +2932,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Fusion Feeder"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -2927,7 +2956,7 @@
 			"Launches a barrage of comets from the sky",
 			"Receives 33% benefit from melee speed bonuses"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -2936,7 +2965,8 @@
 				"translatedName": "Lame Galactus",
 				"translatedTooltip": [
 					"Forgée avec la furie du chaos nucléaire",
-					"Lance un barrage de comètes depuis le ciel"
+					"Lance un barrage de comètes depuis le ciel",
+					"Bénéficie de 33% de la statistique de vitesse en mêlée"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -2953,7 +2983,7 @@
 			"Spawns planetoids on enemy hits",
 			"Receives 33% benefit from melee speed bonuses"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -2963,7 +2993,8 @@
 				"translatedTooltip": [
 					"Ne sous-estimez pas le pouvoir des petites épées de l'espace",
 					"Tire un croissant de lune à tête chercheuse",
-					"Créé des planétoïdes quand vous touchez"
+					"Créé des planétoïdes quand vous touchez",
+					"Bénéficie de 33% de la statistique de vitesse en mêlée"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -2977,7 +3008,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Gamma Slime"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -2999,7 +3030,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Ghost Bell"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -3021,7 +3052,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Giant Squid"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -3043,7 +3074,7 @@
 		"englishTooltip": [
 			"Decreases rogue attack speed by 15% but increases damage and crit by 12% and velocity by 25%"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -3051,7 +3082,7 @@
 				"author": "Tolsyak",
 				"translatedName": "Gants de Précision",
 				"translatedTooltip": [
-					"Réduit la vitesse d'attaque de voleur de 20% mais augmente les dégâts et les chances de coup critique de voleur de 12% et la vitesse des projectiles de 25%"
+					"Réduit la vitesse d'attaque de voleur de 15% mais augmente les dégâts et les chances de coup critique de voleur de 12% et la vitesse des projectiles de 25%"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -3066,7 +3097,7 @@
 			"Increases rogue attack speed by 15% but decreases damage by 10%",
 			"Adds inaccuracy to rogue weapons"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -3074,7 +3105,7 @@
 				"author": "Tolsyak",
 				"translatedName": "Gants d'Imprudence",
 				"translatedTooltip": [
-					"Augmente la vitesse d'attaque de voleur de 12% mais réduit les dégâts de 10%",
+					"Augmente la vitesse d'attaque de voleur de 15% mais réduit les dégâts de 10%",
 					"Ajoute de l'imprécision aux armes de voleur"
 				],
 				"proofRead": false,
@@ -3089,7 +3120,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Gnasher"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -3111,7 +3142,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Gulper Eel"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -3147,12 +3178,11 @@
 				"translatedName": "Ailes Hadariennes",
 				"translatedTooltip": [
 					"Alimenté par l'infection astrale",
-					"Restez appuyez sur bas durant le vol pour vous déplacer horizontalement, augmentant ainsi votre temps de vol",
+					"This line gets modified below",
 					"Vitesse Horizontale: 9",
 					"Multiplicateur d'accélération: 1.75",
 					"Bonne vitesse verticale",
-					"Temps de vol: 120",
-					"+10% de vitesse de mouvement et de saut si vous portez l'armure astrale"
+					"Temps de vol: 90"
 				],
 				"proofRead": false,
 				"proofReader": ""
@@ -3166,7 +3196,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Hadarian"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
@@ -3188,13 +3218,16 @@
 		"englishTooltip": [
 			"50% chance to not consume gel"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "Havoc's Breath",
+				"translatedTooltip": [
+					"50% de chances de ne pas consommer de gel"
+				],
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -3207,7 +3240,7 @@
 		"englishTooltip": [
 			"{$CommonItemTooltip.BannerBonus}Heat Spirit"
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
