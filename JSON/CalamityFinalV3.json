@@ -57327,15 +57327,15 @@
 		"id": "MirageJelly",
 		"type": "NPC",
 		"englishName": "Mirage Jelly",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "In the encapsulating darkness of the abyss, a drifting purple light that seems to ignore all physical boundaries is likely one of these. Many even doubt their existence and blame it on the rapture of the deep.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Gelée Mirage",
-				"translatedBestiary": "In the encapsulating darkness of the abyss, a drifting purple light that seems to ignore all physical boundaries is likely one of these. Many even doubt their existence and blame it on the rapture of the deep.",
+				"translatedBestiary": "Dans l'obscurité encapsulante de l'abîme, une lumière violette à la dérive qui semble ignorer toutes les frontières physiques est probablement l'une d'entre elles. Beaucoup doutent même de leurs existence et la blâment sur le ravissement des profondeurs.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -57345,15 +57345,15 @@
 		"id": "MorayEel",
 		"type": "NPC",
 		"englishName": "Moray Eel",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Their eyes gleam with hunger, and they inhabit the rocks of underwater structures when at rest, only occasionally roaming the open waters.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Murène",
-				"translatedBestiary": "Their eyes gleam with hunger, and they inhabit the rocks of underwater structures when at rest, only occasionally roaming the open waters.",
+				"translatedBestiary": "Leurs yeux brillent de faim et ils habitent les rochers des structures sous-marines lorsqu'ils se reposent, ne parcourant qu'occasionnellement les eaux libres.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -57363,15 +57363,15 @@
 		"id": "Nova",
 		"type": "NPC",
 		"englishName": "Nova",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "The process of forced biological mutation is potent with the astral virus, and the byproducts are volatile. Most creatures discharge this chemical gradually and lose that liability— but a Nova stores it.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Nova",
-				"translatedBestiary": "The process of forced biological mutation is potent with the astral virus, and the byproducts are volatile. Most creatures discharge this chemical gradually and lose that liability— but a Nova stores it.",
+				"translatedBestiary": "Le processus de mutation biologique forcée est puissant avec le virus astral, et les sous-produits sont volatils. La plupart des créatures déchargent ce produit chimique progressivement et perdent cette responsabilité, mais la Nova le stocke.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -57381,15 +57381,15 @@
 		"id": "NuclearTerror",
 		"type": "NPC",
 		"englishName": "Nuclear Terror",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Perhaps it was once just a simple crab or perhaps there are plenty of others like it, lurking in the depths. Any answer is sure to make you want to never set foot in the sulphurous sea again.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Terreur Nucléaire",
-				"translatedBestiary": "Perhaps it was once just a simple crab or perhaps there are plenty of others like it, lurking in the depths. Any answer is sure to make you want to never set foot in the sulphurous sea again.",
+				"translatedBestiary": "Peut-être n'était-ce autrefois qu'un simple crabe ou peut-être qu'il y en a beaucoup d'autres comme lui, cachés dans les profondeurs. Toutes réponses vous donnera envie de ne plus jamais remettre les pieds dans la mer sulfureuse.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -57405,9 +57405,9 @@
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Crapaud Nucléaire",
-				"translatedBestiary": "When threatened underwater they rapidly inflate and bob to the surface. As a last resort, they forcefully burst themselves. Their selfless goal is the prolonged survival of their kin.",
+				"translatedBestiary": "Lorsqu'ils sont menacés sous l'eau, ils se gonflent rapidement et remontent à la surface. En cas de dernier recours, ils s'éclatent de force. Leur objectif désintéressé est la survie prolongée de leurs proches.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -57417,15 +57417,15 @@
 		"id": "OarfishHead",
 		"type": "NPC",
 		"englishName": "Oarfish",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "A peculiar bony fish many have only ever seen as corpses washed up on a beach, but in their natural habitat, their red fins stream behind them, as they drift in the water column.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Poisson-Ruban",
-				"translatedBestiary": "A peculiar bony fish many have only ever seen as corpses washed up on a beach, but in their natural habitat, their red fins stream behind them, as they drift in the water column.",
+				"translatedBestiary": "Un poisson osseux particulier que beaucoup n'ont jamais vu que comme des cadavres échoués sur une plage, mais dans leur habitat naturel, leurs nageoires rouges coulent derrière eux, alors qu'ils dérivent dans la colonne d'eau.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -57435,15 +57435,15 @@
 		"id": "Orthocera",
 		"type": "NPC",
 		"englishName": "Orthocera",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Within the muck of the sulphurous sea, it is not uncommon to find creatures from ages past, their bodies entirely preserved. It seems that not all simply passed away.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Orthocère",
-				"translatedBestiary": "Within the muck of the sulphurous sea, it is not uncommon to find creatures from ages past, their bodies entirely preserved. It seems that not all simply passed away.",
+				"translatedBestiary": "Dans la boue de la mer sulfureuse, il n'est pas rare de trouver des créatures d'une époque ancienne, leurs corps entièrement préservés. Il semble que tous ne sont pas simplement décédés.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -57453,15 +57453,15 @@
 		"id": "OverloadedSoldier",
 		"type": "NPC",
 		"englishName": "Overloaded Soldier",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Phantoplasm bulges through the corroded armor in the place of rotting flesh, as this creature reanimated by vengeful spirits treks the caverns of the world.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Soldat Surchargé",
-				"translatedBestiary": "Phantoplasm bulges through the corroded armor in the place of rotting flesh, as this creature reanimated by vengeful spirits treks the caverns of the world.",
+				"translatedBestiary": "Le fantoplasme se gonfle à travers l'armure corrodée à la place de la chair en décomposition, alors que cette créature réanimée par des esprits vengeurs parcourt les cavernes du mondes.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -57477,9 +57477,9 @@
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Gelée Vivace",
-				"translatedBestiary": "Slimes, from their time spent wobbling about the undergrowth, are full of nutrients, which would well support plant life. Many accept these growths and have been seen to carry blossoms.",
+				"translatedBestiary": "Les gelée, de par leurs temps passé à vaciller dans les sous-bois, regorgent de nutriments, qui surporteraient bien la vie végétale. Beaucoup acceptent ces exroissances et ont été vus portant des fleurs.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -57489,15 +57489,15 @@
 		"id": "PerforatorCyst",
 		"type": "NPC",
 		"englishName": "Perforator Cyst",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "A pulsing patch of anarchistic eyes and teeth. It is the culmination of the crimson’s flesh and should be avoided at all costs.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Kyste de Perforateur",
-				"translatedBestiary": "A pulsing patch of anarchistic eyes and teeth. It is the culmination of the crimson’s flesh and should be avoided at all costs.",
+				"translatedBestiary": "Une tache palpitante d'yeux et de dents anarchistes. C'est l'aboutissement de la chair cramoisie et il doit être évité à tout prix.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -57513,9 +57513,9 @@
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Gelée Pestilentielle",
-				"translatedBestiary": "A slime infested by the nanobots of the plague. With no directive the plague can naturally apply to it, it simply continues its life, corroding anything which approaches.",
+				"translatedBestiary": "Une gelée infesté par les nanobots de la peste. En l'absence de directive, la peste peut naturellement s'appliquer à elle, elle continue simplement sa vie, corrodant tout ce qui s'approche.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -57525,15 +57525,15 @@
 		"id": "PhantomSpiritS",
 		"type": "NPC",
 		"englishName": "Phantom Spirit",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Spirits which turned upon one another, cannibalizing others in their mindless frustrated frenzies. There is precedent in the past, for spirits which have devoured enough of others, to grow astoundingly in power.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Esprit Fantôme",
-				"translatedBestiary": "Spirits which turned upon one another, cannibalizing others in their mindless frustrated frenzies. There is precedent in the past, for spirits which have devoured enough of others, to grow astoundingly in power.",
+				"translatedBestiary": "Des esprits qui se sont retournés les uns contre les autres, cannibalisant les autres dans leurs frénésies frustrées et insensées. Une rumeur ancienne dit que lorsque des esprits ont assez dévorés les autres, ils obtiennent plus de puissance.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -57549,9 +57549,9 @@
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Esprit Fantôme",
-				"translatedBestiary": "Spirits which turned upon one another, cannibalizing others in their mindless frustrated frenzies. There is precedent in the past, for spirits which have devoured enough of others, to grow astoundingly in power.",
+				"translatedBestiary": "Des esprits qui se sont retournés les uns contre les autres, cannibalisant les autres dans leurs frénésies frustrées et insensées. Une rumeur ancienne dit que lorsque des esprits ont assez dévorés les autres, ils obtiennent plus de puissance.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -57567,9 +57567,9 @@
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Esprit Fantôme",
-				"translatedBestiary": "Spirits which turned upon one another, cannibalizing others in their mindless frustrated frenzies. There is precedent in the past, for spirits which have devoured enough of others, to grow astoundingly in power.",
+				"translatedBestiary": "Des esprits qui se sont retournés les uns contre les autres, cannibalisant les autres dans leurs frénésies frustrées et insensées. Une rumeur ancienne dit que lorsque des esprits ont assez dévorés les autres, ils obtiennent plus de puissance.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -57579,15 +57579,15 @@
 		"id": "PhantomSpirit",
 		"type": "NPC",
 		"englishName": "Phantom Spirit",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit ",
 		"activeTranslation": 1,
 		"englishBestiary": "Spirits which turned upon one another, cannibalizing others in their mindless frustrated frenzies. There is precedent in the past, for spirits which have devoured enough of others, to grow astoundingly in power.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Esprit Fantôme",
-				"translatedBestiary": "Spirits which turned upon one another, cannibalizing others in their mindless frustrated frenzies. There is precedent in the past, for spirits which have devoured enough of others, to grow astoundingly in power.",
+				"translatedBestiary": "Des esprits qui se sont retournés les uns contre les autres, cannibalisant les autres dans leurs frénésies frustrées et insensées. Une rumeur ancienne dit que lorsque des esprits ont assez dévorés les autres, ils obtiennent plus de puissance.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -57603,9 +57603,9 @@
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Peggy",
-				"translatedBestiary": "Pigs are greedy little beasts. If they come across anything they could barely fathom as food, they will scarf it down in a blink.",
+				"translatedBestiary": "Les cochons sont de petites bêtes gourmandes. S'ils rencontrent quelque chose qu'ils peuvent à peine imaginer comme de la nourriture, ils le réduiront en un clin d'œil.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -57615,15 +57615,15 @@
 		"id": "PlagueChargerLarge",
 		"type": "NPC",
 		"englishName": "Plague Charger",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "While hornets on their own are known for aggressive defense of their territory, once they have been warped by the plague, their sense of their dominion reaches ever further.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Chargeur de Peste",
-				"translatedBestiary": "While hornets on their own are known for aggressive defense of their territory, once they have been warped by the plague, their sense of their dominion reaches ever further.",
+				"translatedBestiary": "Alors que les frelons sont connus pour leur défense agressive de leur territoire, une fois qu'ils ont été déformés par la peste, leur sens de leur domination va toujours plus loin.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -57633,15 +57633,15 @@
 		"id": "PlagueCharger",
 		"type": "NPC",
 		"englishName": "Plague Charger",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "While hornets on their own are known for aggressive defense of their territory, once they have been warped by the plague, their sense of their dominion reaches ever further.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Chargeur de Peste",
-				"translatedBestiary": "While hornets on their own are known for aggressive defense of their territory, once they have been warped by the plague, their sense of their dominion reaches ever further.",
+				"translatedBestiary": "Alors que les frelons sont connus pour leur défense agressive de leur territoire, une fois qu'ils ont été déformés par la peste, leur sens de leur domination va toujours plus loin.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -57651,15 +57651,15 @@
 		"id": "PlaguebringerMiniboss",
 		"type": "NPC",
 		"englishName": "Plaguebringer",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Queen Bees are reared upon royal honey, raising them into the matriarchs they are. If during the process, their growth is hijacked by the plague, they are left as only a pathetic reminder of what they could have been.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Colporte-Peste",
-				"translatedBestiary": "Queen Bees are reared upon royal honey, raising them into the matriarchs they are. If during the process, their growth is hijacked by the plague, they are left as only a pathetic reminder of what they could have been.",
+				"translatedBestiary": "Les reines des abeilles sont élevées sur du miel royal, les élevant dans les matriarches qu'elles sont. Si au cours du processus, leur croissance est détournée par la peste, il ne leur reste plus qu'un rappel pathétique de ce qu'ils auraient pu être.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -57669,15 +57669,15 @@
 		"id": "Plagueshell",
 		"type": "NPC",
 		"englishName": "Plagueshell",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "In truth, once a jungle tortoise has been touched by the plague, its original shell disintegrates, and the thorny shield it now wields is constructed entirely of reinforced nanobots.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Carapeste",
-				"translatedBestiary": "In truth, once a jungle tortoise has been touched by the plague, its original shell disintegrates, and the thorny shield it now wields is constructed entirely of reinforced nanobots.",
+				"translatedBestiary": "En vérité, une fois qu'une tortue de la jungle a été touchée par la peste, sa carapace d'origine se désintègre et le bouclier épineux qu'elle brandit maintenant deviens entièrement constitué de nanobots renforcés.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -57687,15 +57687,15 @@
 		"id": "Polterghast",
 		"type": "NPC",
 		"englishName": "Polterghast",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Screaming and crying, a cacophony of spirits in anguish tear through the narrow hallways of the dungeon, searching for more—alive or dead—to add to their numbers.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Épouvantôme",
-				"translatedBestiary": "Screaming and crying, a cacophony of spirits in anguish tear through the narrow hallways of the dungeon, searching for more—alive or dead—to add to their numbers.",
+				"translatedBestiary": "Criant et pleurant, une cacophonie d'esprits angoissés se déchire dans les couloirs étroits du donjon, à la recherche d'autres âmes – vivants ou morts – à ajouter à leur nombre.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -57705,15 +57705,15 @@
 		"id": "PrismBack",
 		"type": "NPC",
 		"englishName": "Prism-Back",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Rather slow swimmers, they are one of the few creatures that need to breach. They periodically swim to the upper layer of their habitat to lay their eggs.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Dos-Prisme",
-				"translatedBestiary": "Rather slow swimmers, they are one of the few creatures that need to breach. They periodically swim to the upper layer of their habitat to lay their eggs.",
+				"translatedBestiary": "Nageurs plutôt lents, ils font partie des rares créatures qui ont besoin de percer. Ils nagent périodiquement vers la couche supérieure de leur habitat pour pondre leurs œufs.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -57729,9 +57729,9 @@
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Énergie Profanée",
-				"translatedBestiary": "A living altar, close to the heart of the Profaned Goddess. From the crystal in its stand, flames lash out into the world, to burn the unfaithful.",
+				"translatedBestiary": "Un autel vivant, proche du cœur de la Déesse Profanée. Du cristal sur son support, des flammes jaillissent dans le monde, pour brûler les infidèles.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -57747,9 +57747,9 @@
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Providence, la Déesse Profanée",
-				"translatedBestiary": "A deity of stone and fire. Her flame burns for one reason alone— to cleanse the world of its sinful existence, and to purify those who live upon it.",
+				"translatedBestiary": "Une divinité de pierre et de feu. Sa flamme brûle pour une seule raison : nettoyer le monde de son existence pécheresse et purifier ceux qui y vivent.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -57759,15 +57759,15 @@
 		"id": "Radiator",
 		"type": "NPC",
 		"englishName": "Radiator",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Like many other sea slugs, it ingests toxins from its environments and displays them along its back in a flashy display. The toxins in the sulphurous sea however, are a bit more potent than others.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Radiateur",
-				"translatedBestiary": "Like many other sea slugs, it ingests toxins from its environments and displays them along its back in a flashy display. The toxins in the sulphurous sea however, are a bit more potent than others.",
+				"translatedBestiary": "Comme beaucoup d'autres limaces de mer, il ingère les toxines de son environnement et les affiche le long de son dos dans un affichage flashy. Les toxines de la mer sulfureuse sont cependant un peu plus puissantes que les autres.",
 				"proofRead": false,
 				"proofReader": ""
 			}
