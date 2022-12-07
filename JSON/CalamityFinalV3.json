@@ -601,7 +601,7 @@
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyal",
+				"author": "Tolsyak",
 				"translatedName": "Bannière de Creuseur Blindé",
 				"translatedTooltip": [
 					"{$CommonItemTooltip.BannerBonus}Creuseur Blindé"
@@ -3292,15 +3292,15 @@
 		"englishTooltip": [
 			"A glimpse into what will be..."
 		],
-		"state": "A retraduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Hive Mind Relic",
+				"author": "Tolsyak",
+				"translatedName": "Relique de l'Esprit de Ruche",
 				"translatedTooltip": [
-					"A glimpse into what will be.."
+					"Un aperçu de l'avenir.."
 				],
 				"proofRead": false,
 				"proofReader": ""
