@@ -56499,7 +56499,7 @@
 		"id": "DesertScourgeHead",
 		"type": "NPC",
 		"englishName": "Desert Scourge",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "If ever before you have peered out into the desert and seen entire dunes rise and fall like the waves of the sea, it is not unlikely that this is the culprit, as it bore through the sands below.",
 		"translations": [
@@ -56643,7 +56643,7 @@
 		"id": "Horse",
 		"type": "NPC",
 		"englishName": "Earth Elemental",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "It is civilization’s goal to wrest nature under its control. This is the result of one such conquest, an artificial elemental, run by clockwork gears.",
 		"translations": [
@@ -56931,7 +56931,7 @@
 		"id": "Gnasher",
 		"type": "NPC",
 		"englishName": "Gnasher",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "A turtle that has had its shell encrusted by the filth of the sulphurous sea. For an animal of its size, its jaws have a nearly unmatched biting strength.",
 		"translations": [
@@ -57399,7 +57399,7 @@
 		"id": "NuclearToad",
 		"type": "NPC",
 		"englishName": "Nuclear Toad",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "When threatened underwater they rapidly inflate and bob to the surface. As a last resort, they forcefully burst themselves. Their selfless goal is the prolonged survival of their kin.",
 		"translations": [
@@ -57471,7 +57471,7 @@
 		"id": "PerennialSlime",
 		"type": "NPC",
 		"englishName": "Perennial Slime",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Slimes, from their time spent wobbling about the undergrowth, are full of nutrients, which would well support plant life. Many accept these growths and have been seen to carry blossoms.",
 		"translations": [
@@ -57507,7 +57507,7 @@
 		"id": "PestilentSlime",
 		"type": "NPC",
 		"englishName": "Pestilent Slime",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "A slime infested by the nanobots of the plague. With no directive the plague can naturally apply to it, it simply continues its life, corroding anything which approaches.",
 		"translations": [
@@ -57543,7 +57543,7 @@
 		"id": "PhantomSpiritL",
 		"type": "NPC",
 		"englishName": "Phantom Spirit",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Spirits which turned upon one another, cannibalizing others in their mindless frustrated frenzies. There is precedent in the past, for spirits which have devoured enough of others, to grow astoundingly in power.",
 		"translations": [
@@ -57561,7 +57561,7 @@
 		"id": "PhantomSpiritM",
 		"type": "NPC",
 		"englishName": "Phantom Spirit",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Spirits which turned upon one another, cannibalizing others in their mindless frustrated frenzies. There is precedent in the past, for spirits which have devoured enough of others, to grow astoundingly in power.",
 		"translations": [
@@ -57597,7 +57597,7 @@
 		"id": "Piggy",
 		"type": "NPC",
 		"englishName": "Piggy",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit"
 		"activeTranslation": 1,
 		"englishBestiary": "Pigs are greedy little beasts. If they come across anything they could barely fathom as food, they will scarf it down in a blink.",
 		"translations": [
@@ -57723,7 +57723,7 @@
 		"id": "ProfanedEnergyBody",
 		"type": "NPC",
 		"englishName": "Profaned Energy",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "A living altar, close to the heart of the Profaned Goddess. From the crystal in its stand, flames lash out into the world, to burn the unfaithful.",
 		"translations": [
@@ -57741,7 +57741,7 @@
 		"id": "Providence",
 		"type": "NPC",
 		"englishName": "Providence, the Profaned Goddess",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "A deity of stone and fire. Her flame burns for one reason alone— to cleanse the world of its sinful existence, and to purify those who live upon it.",
 		"translations": [
@@ -57777,15 +57777,15 @@
 		"id": "RavagerBody",
 		"type": "NPC",
 		"englishName": "Ravager",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit ",
 		"activeTranslation": 1,
 		"englishBestiary": "Flames roar from what almost appear to be the parapets of a rotting fortress. You will know when it is approaching downwind, from the smell alone.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Ravageur",
-				"translatedBestiary": "Flames roar from what almost appear to be the parapets of a rotting fortress. You will know when it is approaching downwind, from the smell alone.",
+				"translatedBestiary": "Des flammes rugissent de ce qui semble presque être les parapets d'une forteresse en décomposition. Vous saurez quand il approche, rien qu'à l'odeur.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -57795,15 +57795,15 @@
 		"id": "ReaperShark",
 		"type": "NPC",
 		"englishName": "Reaper Shark",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Evolution is a strange mistress, especially in the depths of the abyss. To some, she grants a straightforward path to life, and to others, she grants arms.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Requin Faucheur",
-				"translatedBestiary": "Evolution is a strange mistress, especially in the depths of the abyss. To some, she grants a straightforward path to life, and to others, she grants arms.",
+				"translatedBestiary": "L'évolution est une maîtresse étrange, surtout dans les profondeurs de l'abîme. À certains, elle accorde un chemin vers la vie, et à d'autres, elle accorde des armes.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -57813,15 +57813,15 @@
 		"id": "RepairUnitCritter",
 		"type": "NPC",
 		"englishName": "Repair Unit",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Thanks to these little machines, the dusty labs still stand. It appears they're unable to deal with rust, though.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Unité de Réparation",
-				"translatedBestiary": "Thanks to these little machines, the dusty labs still stand. It appears they're unable to deal with rust, though.",
+				"translatedBestiary": "Grâce à ces petites machines, les labos poussiéreux tiennent encore debout. Cependant, il semble qu'ils soient incapables de faire face à la rouille.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -57831,15 +57831,15 @@
 		"id": "Rimehound",
 		"type": "NPC",
 		"englishName": "Rimehound",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "A large and bulky hound, its fur is frosted to the point of forming near-icicles. Being tackled by one is a painful experience.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Chien de Givre",
-				"translatedBestiary": "A large and bulky hound, its fur is frosted to the point of forming near-icicles. Being tackled by one is a painful experience.",
+				"translatedBestiary": "Un chien de chasse grand et volumineux, sa fourrure est givrée au point de former des quasi-glaçons. Être plaqué par un de ces quasi-glaçon est une expérience douloureuse.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -57849,15 +57849,15 @@
 		"id": "Rotdog",
 		"type": "NPC",
 		"englishName": "Rotdog",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Malicious animals, which attack with tough claws and strong jaws. Any wound from these will bleed heavily. Address the cut quickly.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Chien de Pourriture",
-				"translatedBestiary": "Malicious animals, which attack with tough claws and strong jaws. Any wound from these will bleed heavily. Address the cut quickly.",
+				"translatedBestiary": "Animal malveillant, qui attaque avec des griffes dures et des mâchoires fortes. Toute blessure de celui-ci saignera abondamment. Traitez la coupe rapidement.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -57867,15 +57867,15 @@
 		"id": "CrawlerRuby",
 		"type": "NPC",
 		"englishName": "Ruby Crawler",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "A lizard, its back inundated with crystals. These provide protection, but they are easily spooked and can be harvested for the rare gems upon their backs.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Rampant de Rubis",
-				"translatedBestiary": "A lizard, its back inundated with crystals. These provide protection, but they are easily spooked and can be harvested for the rare gems upon their backs.",
+				"translatedBestiary": "Un lézard, le dos inondé de cristaux. Ceux-ci offrent une protection, mais ils sont facilement effrayés et peuvent être récoltés pour les gemmes rares sur leur dos.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -57885,15 +57885,15 @@
 		"id": "CrawlerSapphire",
 		"type": "NPC",
 		"englishName": "Sapphire Crawler",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "A lizard, its back inundated with crystals. These provide protection, but they are easily spooked and can be harvested for the rare gems upon their backs.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Rampant de Saphir",
-				"translatedBestiary": "A lizard, its back inundated with crystals. These provide protection, but they are easily spooked and can be harvested for the rare gems upon their backs.",
+				"translatedBestiary": "Un lézard, le dos inondé de cristaux. Ceux-ci offrent une protection, mais ils sont facilement effrayés et peuvent être récoltés pour les gemmes rares sur leur dos.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -57903,15 +57903,15 @@
 		"id": "ScornEater",
 		"type": "NPC",
 		"englishName": "Scorn Eater",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "The brute force of the Profaned Goddess’ creations and devotees. Their jaws are filled to the brim with razor-sharp crystals and scorching holy flames.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Dévoreur de Mépris",
-				"translatedBestiary": "The brute force of the Profaned Goddess’ creations and devotees. Their jaws are filled to the brim with razor-sharp crystals and scorching holy flames.",
+				"translatedBestiary": "La force brute des créations et des dévots de la Déesse Profanée. Leurs mâchoires sont remplies à ras bord de cristaux acérés comme des rasoirs et de flammes sacrées-ment brûlantes.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -57921,15 +57921,15 @@
 		"id": "Scryllar",
 		"type": "NPC",
 		"englishName": "Scryllar",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Twisted detritus of those who once came to harvest the remains of the crags. The whispers got to them.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Scryllar",
-				"translatedBestiary": "Twisted detritus of those who once came to harvest the remains of the crags. The whispers got to them.",
+				"translatedBestiary": "Détritus tordus de ceux qui venaient autrefois récolter ici les restes des rochers. Les murmures les ont atteints.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -57939,15 +57939,15 @@
 		"id": "SeaFloaty",
 		"type": "NPC",
 		"englishName": "Sea Floaty",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Strange but mesmerizing creatures, they hide immediately at the sight of any predator. They do not seem to be fully developed.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Flotteur des Mers",
-				"translatedBestiary": "Strange but mesmerizing creatures, they hide immediately at the sight of any predator. They do not seem to be fully developed.",
+				"translatedBestiary": "Créatures étranges mais fascinantes, elles se cachent immédiatement à la vue de tout prédateur. Elles ne semblent pas être totalement développés.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -57957,15 +57957,15 @@
 		"id": "SEAHOE",
 		"type": "NPC",
 		"englishName": "Sea King",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "The Sea King of an ancient civilization long lost to the sands of time— and the desert. He is able to give useful advice on the world around you, having lived for so long. He also used to like clams.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Roi des mers",
-				"translatedBestiary": "The Sea King of an ancient civilization long lost to the sands of time— and the desert. He is able to give useful advice on the world around you, having lived for so long. He also used to like clams.",
+				"translatedBestiary": "Le Roi des mers d'une ancienne civilisation perdue depuis longtemps dans les sables du temps et du désert. Il est capable de donner des conseils utiles sur le monde qui vous entoure, ayant vécu si longtemps. Il aimait aussi les palourdes.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -57975,15 +57975,15 @@
 		"id": "SeaMinnow",
 		"type": "NPC",
 		"englishName": "Sea Minnow",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "While they are at the bottom of the food chain, they also make up eighty percent of the biomass in this sea. They nibble away at corpses that fall from the underground desert above.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Vairon de Mer",
-				"translatedBestiary": "While they are at the bottom of the food chain, they also make up eighty percent of the biomass in this sea. They nibble away at corpses that fall from the underground desert above.",
+				"translatedBestiary": "Bien qu'ils soient au bas de la chaîne alimentaire, ils représentent également quatre-vingts pour cent de la biomasse de cette mer. Ils grignotent les cadavres qui tombent du désert souterrain au-dessus.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -57993,15 +57993,15 @@
 		"id": "SeaSerpent1",
 		"type": "NPC",
 		"englishName": "Sea Serpent",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "These eels are largely passive and drift languidly through the still waters of the sunken sea. Should you provoke them, they can be stubborn attackers.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Serpent de Mer",
-				"translatedBestiary": "These eels are largely passive and drift languidly through the still waters of the sunken sea. Should you provoke them, they can be stubborn attackers.",
+				"translatedBestiary": "Ces anguilles sont en grande partie passives et dérivent langoureusement dans les eaux calmes de la mer engloutie. Si vous les provoquez, ils peuvent être des attaquants obstinés.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -58011,15 +58011,15 @@
 		"id": "SeaUrchin",
 		"type": "NPC",
 		"englishName": "Sea Urchin",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "A spiny animal that flings itself about in defense of its territory. If they fling themselves onto land—though relatively helpless—they can make their way back to the ocean.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Oursin de Mer",
-				"translatedBestiary": "A spiny animal that flings itself about in defense of its territory. If they fling themselves onto land—though relatively helpless—they can make their way back to the ocean.",
+				"translatedBestiary": "Animal épineux qui se promène pour défendre son territoire. S'ils se jettent sur terre, bien que relativement impuissants, ils peuvent retourner vers l'océan.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -58029,15 +58029,15 @@
 		"id": "SepulcherHead",
 		"type": "NPC",
 		"englishName": "Sepulcher",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "This might just be the vilest undead abomination in this realm. The Sepulcher itself is completely immune to physical damage, and can only be killed by destroying its many suspended organs.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Sépulcre",
-				"translatedBestiary": "This might just be the vilest undead abomination in this realm. The Sepulcher itself is completely immune to physical damage, and can only be killed by destroying its many suspended organs.",
+				"translatedBestiary": "C'est peut-être l'abomination mort-vivante la plus vile de ce royaume. Le Sépulcre est totalement immunisé contre les dommages physiques et ne peut être tué qu'en détruisant ses nombreux organes suspendus.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -58047,15 +58047,15 @@
 		"id": "ShockstormShuttle",
 		"type": "NPC",
 		"englishName": "Shockstorm Shuttle",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Proof of life in the stars, these were likely once weapons of war, now primitive to their original civilization. They continue to scour the cosmos for hospitable planets, which they attack.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Navette de Tempête de Choc",
-				"translatedBestiary": "Proof of life in the stars, these were likely once weapons of war, now primitive to their original civilization. They continue to scour the cosmos for hospitable planets, which they attack.",
+				"translatedBestiary": "Preuve de la vie dans les étoiles, il s'agissait probablement autrefois d'armes de guerre, aujourd'hui primitives de leur civilisation d'origine. Ils continuent de parcourir le cosmos à la recherche de planètes hospitalières, qu'ils attaquent.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -58065,15 +58065,15 @@
 		"id": "Signus",
 		"type": "NPC",
 		"englishName": "Signus, Envoy of the Devourer",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "A figure draped in dark robes and even darker history. No one knows the true form of this creature, though many rumors have been spread.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Signus, Émissaire du Dévoreur",
-				"translatedBestiary": "A figure draped in dark robes and even darker history. No one knows the true form of this creature, though many rumors have been spread.",
+				"translatedBestiary": "Une figure drapée dans des robes sombres et ayant une histoire encore plus sombre. Personne ne connaît la véritable forme de cette créature, bien que de nombreuses rumeurs se soient répandues..",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -58083,15 +58083,15 @@
 		"id": "Skyfin",
 		"type": "NPC",
 		"englishName": "Skyfin",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Their fins are highly adapted to both water and air, and should one of their reckless charges leave them briefly stranded on land, within a few moments, they will take to the air.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Nageoire Céleste",
-				"translatedBestiary": "Their fins are highly adapted to both water and air, and should one of their reckless charges leave them briefly stranded on land, within a few moments, they will take to the air.",
+				"translatedBestiary": "Leurs nageoires sont très adaptées à la fois à l'eau et à l'air, et si l'une de leurs charges imprudentes les laissait brièvement échouées sur terre, en quelques instants, elles prendraient l'air",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -58101,15 +58101,15 @@
 		"id": "SmallSightseer",
 		"type": "NPC",
 		"englishName": "Small Sightseer",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Within their shells, the virus brews a potent chemical. When the seer approaches a foe, it spits this chemical out of its mandibles, hoping to melt the intruder’s flesh.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Petit Cherchevue",
-				"translatedBestiary": "Within their shells, the virus brews a potent chemical. When the seer approaches a foe, it spits this chemical out of its mandibles, hoping to melt the intruder’s flesh.",
+				"translatedBestiary": "Dans leurs coquilles, le virus brasse un produit chimique puissant. Lorsque le Cherchevue s'approche d'un ennemi, il crache ce produit chimique de ses mandibules, dans l'espoir de faire fondre la chair de l'intrus.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -58119,15 +58119,15 @@
 		"id": "SoulSeeker",
 		"type": "NPC",
 		"englishName": "Soul Seeker",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Guardians were brought together by Calamitas to shield its body from blows. It is possible that they are soul slurpers empowered and enslaved by a different brand of magic than brimstone.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Cherche-Âme",
-				"translatedBestiary": "Guardians were brought together by Calamitas to shield its body from blows. It is possible that they are soul slurpers empowered and enslaved by a different brand of magic than brimstone.",
+				"translatedBestiary": "Des gardiens ont été réunis par Calamitas pour protéger son corps des coups. Il est possible qu'ils soient des aspirateurs d'âme habilités et asservis par une autre sorte de magie que le soufre.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -58137,15 +58137,15 @@
 		"id": "SoulSeekerSupreme",
 		"type": "NPC",
 		"englishName": "Soul Seeker",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Incomplete, ghoulish skulls, their forms are limited but their devotion boundless. It’s likely each yearns for a soul of their own to be complete, whether it’s given by Calamitas or ripped from the foe they kill.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Cherche-âme",
-				"translatedBestiary": "Incomplete, ghoulish skulls, their forms are limited but their devotion boundless. It’s likely each yearns for a soul of their own to be complete, whether it’s given by Calamitas or ripped from the foe they kill.",
+				"translatedBestiary": "Crânes incomplets, macabres, leurs formes sont limitées mais leur dévotion sans limite. Il est probable que chacun aspire jusqu'à ce que sa propre âme soit complète, qu'elle soit donnée par Calamitas ou arrachée à l'ennemi qu'ils tuent.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -58155,15 +58155,15 @@
 		"id": "SoulSlurper",
 		"type": "NPC",
 		"englishName": "Soul Slurper",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "The remnants of a soul which has feasted, been feasted upon, and torn into the souls of others. No one knows how the cycle begins, but you don’t want to find out yourself.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Aspire-Âme",
-				"translatedBestiary": "The remnants of a soul which has feasted, been feasted upon, and torn into the souls of others. No one knows how the cycle begins, but you don’t want to find out yourself.",
+				"translatedBestiary": "Les restes d'une âme qui s'est régalée, a été régalée et déchirée dans les âmes des autres. Personne ne sait comment le cycle commence, mais vous ne voulez pas le découvrir par vous-même.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -58173,15 +58173,15 @@
 		"id": "StellarCulex",
 		"type": "NPC",
 		"englishName": "Stellar Culex",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Many pincers line the face of this mutation. It will attempt to attach itself to other organic creatures, and lower its mouth to their flesh to feed.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Culex Stellaire",
-				"translatedBestiary": "Many pincers line the face of this mutation. It will attempt to attach itself to other organic creatures, and lower its mouth to their flesh to feed.",
+				"translatedBestiary": "De nombreuses pinces tapissent le visage de cette mutation. Il tentera de s'attacher à d'autres créatures organiques et abaissera sa bouche vers leur chair pour se nourrir.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -58191,15 +58191,15 @@
 		"id": "StormWeaverHead",
 		"type": "NPC",
 		"englishName": "Storm Weaver",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "It resides high up in the stratosphere, feasting on wyverns and storm swimmers alike, which give it powerful electrokinesis.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Tisse-Tempête",
-				"translatedBestiary": "It resides high up in the stratosphere, feasting on wyverns and storm swimmers alike, which give it powerful electrokinesis.",
+				"translatedBestiary": "Il réside haut dans la stratosphère, se régalant de vouivres et de nageurs de tempête, ce qui lui confère une puissante électrokinésie.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -58209,15 +58209,15 @@
 		"id": "Stormlion",
 		"type": "NPC",
 		"englishName": "Stormlion",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "What these appear to feed on are the electric storms that brew over deserts. When the skies darken, they reach upwards with their mandibles that act as lightning rods.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Fourmi-Tonnerre",
-				"translatedBestiary": "What these appear to feed on are the electric storms that brew over deserts. When the skies darken, they reach upwards with their mandibles that act as lightning rods.",
+				"translatedBestiary": "Ce dont ceux-ci semblent se nourrir, ce sont les orages électriques qui soufflent sur le désert. Lorsque le ciel s'assombrit, ils tendent vers le haut leurs mandibules qui agissent comme des paratonnerres.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -58227,15 +58227,15 @@
 		"id": "SulphurousSharkron",
 		"type": "NPC",
 		"englishName": "Sulphurous Sharkron",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Rotting, corpselike offspring of the Old Duke. In the Sulphurous Seas, even from birth, their appearances are wizened and decrepit.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Draquin Sulfureux",
-				"translatedBestiary": "Rotting, corpselike offspring of the Old Duke. In the Sulphurous Seas, even from birth, their appearances are wizened and decrepit.",
+				"translatedBestiary": "Progéniture pourrissante et cadavérique du Vieux Duc. Dans les Mers sulfureuses, même dès leur naissance, leurs apparences sont flétries et décrépites.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -58245,15 +58245,15 @@
 		"id": "SulphurousSkater",
 		"type": "NPC",
 		"englishName": "Sulphurous Skater",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "From below, the tips of their legs barely penetrate the surface of the water, and it is hard to distinguish their movements from the rain on the water’s surface.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Patineur Sulfureux",
-				"translatedBestiary": "From below, the tips of their legs barely penetrate the surface of the water, and it is hard to distinguish their movements from the rain on the water’s surface.",
+				"translatedBestiary": "D'en bas, le bout de leurs pattes pénètre à peine la surface de l'eau, et il est difficile de distinguer leurs mouvements de la pluie à la surface de l'eau.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -58263,15 +58263,15 @@
 		"id": "Sunskater",
 		"type": "NPC",
 		"englishName": "Sunskater",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Some creatures which skirt the edges of our atmosphere tend to absorb and channel the sun’s rays better than others. At any rate, this is a passive creature that means you no harm. You should return the favor.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Glisse-Soleil",
-				"translatedBestiary": "Some creatures which skirt the edges of our atmosphere tend to absorb and channel the sun’s rays better than others. At any rate, this is a passive creature that means you no harm. You should return the favor.",
+				"translatedBestiary": "Certaines créatures qui longent les bords de notre atmosphère ont tendance à mieux absorber et canaliser les rayons du soleil que d'autres. En tout cas, c'est une créature passive qui ne vous veut aucun mal. Vous devriez leur rendre la pareille.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -58281,15 +58281,15 @@
 		"id": "SupremeCalamitas",
 		"type": "NPC",
 		"englishName": "Supreme Calamitas",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "The Brimstone Witch's harsh life can be seen in the magic she casts. Volatile and powerful, yet just barely refined. Her temper is said to be fiery enough to burn down a kingdom.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Calamitas Suprême",
-				"translatedBestiary": "The Brimstone Witch's harsh life can be seen in the magic she casts. Volatile and powerful, yet just barely refined. Her temper is said to be fiery enough to burn down a kingdom.",
+				"translatedBestiary": "La dure vie de la sorcière Brimstone peut être vue dans la magie qu'elle lance. Volatil et puissant, mais à peine raffiné. On dit que son tempérament est suffisagement fougueux pour pouvoir incendier un royaume.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -58299,15 +58299,15 @@
 		"id": "DevourerofGodsHead",
 		"type": "NPC",
 		"englishName": "The Devourer of Gods",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Its otherworldly ego is known as well as its overwhelming power across the land, as in battle it boasts constantly. Admittedly it is one of the few able to back up its claims.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Le Dévoreur de Dieux",
-				"translatedBestiary": "Its otherworldly ego is known as well as its overwhelming power across the land, as in battle it boasts constantly. Admittedly it is one of the few able to back up its claims.",
+				"translatedBestiary": "Son ego d'un autre monde est connu ainsi que son pouvoir écrasant à travers le pays, car il se vante constamment de son style de combat. Même si, il est l'un des rares à pouvoir communiquer ses affirmations.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -58317,15 +58317,15 @@
 		"id": "Bumblefuck",
 		"type": "NPC",
 		"englishName": "The Dragonfolly",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Known across the land for the swarms that have gathered in the jungle, they are nearly feared above all else in the, as though they may not be quite as dangerous as other forces, they have no master.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "La Folie Draconique",
-				"translatedBestiary": "Known across the land for the swarms that have gathered in the jungle, they are nearly feared above all else in the, as though they may not be quite as dangerous as other forces, they have no master.",
+				"translatedBestiary": "Connus à travers le pays pour les essaims qui se sont rassemblés dans la jungle, ils sont presque redoutés par-dessus tout, comme s'ils n'étaient peut-être pas aussi dangereux que d'autres forces, ils n'ont pas de maître.",
 				"proofRead": false,
 				"proofReader": ""
 			}
