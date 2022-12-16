@@ -58335,15 +58335,15 @@
 		"id": "HiveMind",
 		"type": "NPC",
 		"englishName": "The Hive Mind",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "In the deep trenches of the corruption, infected creatures gather to manifest their own deity. Unlike other cases where smaller beings gather for protection, this is an entirely offensive maneuver.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Esprit de Ruche",
-				"translatedBestiary": "In the deep trenches of the corruption, infected creatures gather to manifest their own deity. Unlike other cases where smaller beings gather for protection, this is an entirely offensive maneuver.",
+				"translatedBestiary": "Dans les profondes tranchées de la corruption, des créatures infectées se rassemblent pour manifester leur propre divinité. Contrairement à d'autres cas où des êtres plus petits se rassemblent pour se protéger, il s'agit ici d'une manœuvre entièrement offensive.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -58353,15 +58353,15 @@
 		"id": "Leviathan",
 		"type": "NPC",
 		"englishName": "The Leviathan",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "A gargantuan marine reptile that has lurked the ocean depths for almost a millennium. It is unknown if she is the last of her kind, and as despicable as it is, let us pray that she is.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Le Leviathan",
-				"translatedBestiary": "A gargantuan marine reptile that has lurked the ocean depths for almost a millennium. It is unknown if she is the last of her kind, and as despicable as it is, let us pray that she is.",
+				"translatedBestiary": "Un gargantuesque reptile marin qui rôle dans les profondeurs de l'océan depuis près d'un millinéaire.On ne sait pas si il est le dernier de son espèce, et aussi méprisable soit-il, prions pourr qu'il le soit",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -58371,15 +58371,15 @@
 		"id": "OldDuke",
 		"type": "NPC",
 		"englishName": "The Old Duke",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Despite appearing old and decrepit, it clings to life. It does not seem native to the polluted sea, yet it has taken its place as its apex predator.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Le Vieux Duc",
-				"translatedBestiary": "Despite appearing old and decrepit, it clings to life. It does not seem native to the polluted sea, yet it has taken its place as its apex predator.",
+				"translatedBestiary": "D'apparence vieux et décrépit, il s'accroche à la vie. Il ne semble pas être originaire de la mer polluée, mais il a pris sa place en tant que prédateur suprême.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -58389,15 +58389,15 @@
 		"id": "PerforatorHeadLarge",
 		"type": "NPC",
 		"englishName": "The Perforator",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Each equipped with a deadly mouthpiece, the different ones are suited for different tasks. One to pierce, one to tear, and another, simply to devour.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Le Perforateur",
-				"translatedBestiary": "Each equipped with a deadly mouthpiece, the different ones are suited for different tasks. One to pierce, one to tear, and another, simply to devour.",
+				"translatedBestiary": "Chaque entrée est équipé d'un embout buccal mortel, qui sont adaptés à différentes tâches. Un à percer, un à déchirer, et un autre, tout simplement à dévorer.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -58407,15 +58407,15 @@
 		"id": "PerforatorHeadMedium",
 		"type": "NPC",
 		"englishName": "The Perforator",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Each equipped with a deadly mouthpiece, the different ones are suited for different tasks. One to pierce, one to tear, and another, simply to devour.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Le Perforateur",
-				"translatedBestiary": "Each equipped with a deadly mouthpiece, the different ones are suited for different tasks. One to pierce, one to tear, and another, simply to devour.",
+				"translatedBestiary": "Chaque entrée est équipé d'un embout buccal mortel, qui sont adaptés à différentes tâches. Un à percer, un à déchirer, et un autre, tout simplement à dévorer.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -58431,9 +58431,9 @@
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Le Perforateur",
-				"translatedBestiary": "Each equipped with a deadly mouthpiece, the different ones are suited for different tasks. One to pierce, one to tear, and another, simply to devour.",
+				"translatedBestiary": "Chaque entrée est équipé d'un embout buccal mortel, qui sont adaptés à différentes tâches. Un à percer, un à déchirer, et un autre, tout simplement à dévorer.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -58443,15 +58443,15 @@
 		"id": "PerforatorHive",
 		"type": "NPC",
 		"englishName": "The Perforator Hive",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Though birthed by the crimson, it is unknown whether they fully serve that creator. The worms of the hive frequently carve huge tunnels in the crimson’s flesh.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "La Ruche du Perforateur",
-				"translatedBestiary": "Though birthed by the crimson, it is unknown whether they fully serve that creator. The worms of the hive frequently carve huge tunnels in the crimson’s flesh.",
+				"translatedBestiary": "Bien qu'ils soient nés du cramoisi, on ne sait pas s'ils servent pleinement ce créateur. Les vers de la ruche creusent souvent d'immenses tunnels dans la chair cramoisie.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -58461,15 +58461,15 @@
 		"id": "PlaguebringerGoliath",
 		"type": "NPC",
 		"englishName": "The Plaguebringer Goliath",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Machinery and nanobots have nearly entirely eaten away at the form of this Queen Bee. One wonders if it would simply be more efficient to create one from the ground up.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Le Goliath Colporte-Peste",
-				"translatedBestiary": "Machinery and nanobots have nearly entirely eaten away at the form of this Queen Bee. One wonders if it would simply be more efficient to create one from the ground up.",
+				"translatedBestiary": "Les machines et les nanobots ont presque entièrement rongé la forme de cette Reine des Abeilles. On se demande s'il serait pas plus efficace d'en créer une à partir de zéro.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -58479,15 +58479,15 @@
 		"id": "SlimeGodCore",
 		"type": "NPC",
 		"englishName": "The Slime God",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "This creature could easily be confused for a giant amoeba. It seems to be developing past the limitations of an usual slime, thanks to all the compacted biomass it contains.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Le Dieu des Gelées",
-				"translatedBestiary": "This creature could easily be confused for a giant amoeba. It seems to be developing past the limitations of an usual slime, thanks to all the compacted biomass it contains.",
+				"translatedBestiary": "Cette créature pourrait facilement être confondue avec une amibe géante. Il semble se développer au-delà des limites d'une gelée habituelle, grâce à toute la biomasse compactée qu'il contient",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -58497,15 +58497,15 @@
 		"id": "CrawlerTopaz",
 		"type": "NPC",
 		"englishName": "Topaz Crawler",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "A lizard, its back inundated with crystals. These provide protection, but they are easily spooked and can be harvested for the rare gems upon their backs.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Rampant de Topaze",
-				"translatedBestiary": "A lizard, its back inundated with crystals. These provide protection, but they are easily spooked and can be harvested for the rare gems upon their backs.",
+				"translatedBestiary": "Un lézard, le dos inondé de cristaux. Ceux-ci offrent une protection, mais ils sont facilement effrayés et peuvent être récoltés pour les gemmes rares sur leur dos.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -58515,15 +58515,15 @@
 		"id": "ToxicMinnow",
 		"type": "NPC",
 		"englishName": "Toxic Minnow",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "It spends much of its time finding the most repulsive and disagreeable vegetation for animals to feast upon. Their bellies glow green as they process the chemicals to use in self-defense.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Fretin Toxique",
-				"translatedBestiary": "It spends much of its time finding the most repulsive and disagreeable vegetation for animals to feast upon. Their bellies glow green as they process the chemicals to use in self-defense.",
+				"translatedBestiary": "Il passe une grande partie de son temps à trouver la végétation la plus répugnante et la plus désagréable possible pour les animaux. Leurs ventres brillent en vert lorsqu'ils traitent les produits chimiques à utiliser en cas de légitime défense.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -58533,15 +58533,15 @@
 		"id": "Trasher",
 		"type": "NPC",
 		"englishName": "Trasher",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "A huge alligator adapted to a life of scavenging in the sulphurous sea. They scrape morsels of food from the bottom with their massive jaws. But do not be mistaken. They will also prey on weak and feeble creatures.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Déchiqueteur",
-				"translatedBestiary": "A huge alligator adapted to a life of scavenging in the sulphurous sea. They scrape morsels of food from the bottom with their massive jaws. But do not be mistaken. They will also prey on weak and feeble creatures.",
+				"translatedBestiary": "Un énorme alligator qui c'est adapté à une vie de charognard dans la mer sulfureuse. Ils grattent des morceaux de nourriture avec leurs mâchoires massives. Mais ne vous y trompez pas, ils s'attaqueront également aux créatures faibles.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -58551,15 +58551,15 @@
 		"id": "Trilobite",
 		"type": "NPC",
 		"englishName": "Trilobite",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Their shell is of notable hardness, and it carries the same weight as stone. It speaks of their strength, for them to be able to fling themselves about the way they do.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Trilobite",
-				"translatedBestiary": "Their shell is of notable hardness, and it carries the same weight as stone. It speaks of their strength, for them to be able to fling themselves about the way they do.",
+				"translatedBestiary": "Leur coquille est d'une dureté remarquable et pese le même poids que la pierre. Cela explique leurs force, de pouvoir se jeter comme ils le font.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -58569,15 +58569,15 @@
 		"id": "Twinkler",
 		"type": "NPC",
 		"englishName": "Twinkler",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "A rare case of the astral infection creating a harmless creature. They flicker rather prettily, and you’re not going to be the only one who thinks so. They make useful bait.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Scintilleur",
-				"translatedBestiary": "A rare case of the astral infection creating a harmless creature. They flicker rather prettily, and you’re not going to be the only one who thinks so. They make useful bait.",
+				"translatedBestiary": "Un cas rare d'infection astrale créant une créature inoffensive. Ils scintillent plutôt joliment, et vous ne serez pas le seul à le penser. Ils font des appâts utiles.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -58587,15 +58587,15 @@
 		"id": "Viperfish",
 		"type": "NPC",
 		"englishName": "Viperfish",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "A typically docile animal, it spends much of its time meandering about the rocky outcrops of the abyss. When approached it can become quite aggressive.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Poisson-Vipère",
-				"translatedBestiary": "A typically docile animal, it spends much of its time meandering about the rocky outcrops of the abyss. When approached it can become quite aggressive.",
+				"translatedBestiary": "Animal typiquement docile, il passe une grande partie de son temps à errer sur les affleurements rocheux des abysses. Attention cependant, lorsqu'on s'approche de lui, il peut devenir assez agressif.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -58605,15 +58605,15 @@
 		"id": "Viruling",
 		"type": "NPC",
 		"englishName": "Viruling",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Overtaken by the plague, derplings immediately lose their legs, as they are seen as only a hindrance. No longer will they gaily spring about.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Virulant",
-				"translatedBestiary": "Overtaken by the plague, derplings immediately lose their legs, as they are seen as only a hindrance. No longer will they gaily spring about.",
+				"translatedBestiary": "Rattrapés par la peste, les derplings perdent aussitôt leurs pattes, car elles ne sont plus utiles. Ils ne s'élanceront donc plus gaiement.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -58623,15 +58623,15 @@
 		"id": "WaterLeech",
 		"type": "NPC",
 		"englishName": "Water Leech",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "It can smell the scent of flesh from far distances and will eagerly squirm its way to the source. Once attached to the host, they rapidly intake blood and discharge venom, both of which heavily disadvantage its prey.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Sangsue d'Eau",
-				"translatedBestiary": "It can smell the scent of flesh from far distances and will eagerly squirm its way to the source. Once attached to the host, they rapidly intake blood and discharge venom, both of which heavily disadvantage its prey.",
+				"translatedBestiary": "Ils peuvent sentir l'odeur de la chair de loin et se tortiller avec impatience jusqu'à la source. Une fois attachés à l'hôte, ils absorbent rapidement du sang et libèrent du venin, ce qui désavantage fortement sa proie.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -58641,15 +58641,15 @@
 		"id": "WulfrumDrone",
 		"type": "NPC",
 		"englishName": "Wulfrum Drone",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Rotating their small frames, they swoop at potential intruders into a predefined territory that no longer exists. They wander without purpose.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Drone Wulfrum",
-				"translatedBestiary": "Rotating their small frames, they swoop at potential intruders into a predefined territory that no longer exists. They wander without purpose.",
+				"translatedBestiary": "En faisant tourner leurs petits cadres, ils fondent sur des intrus potentiels dans un territoire prédéfini qui n'existe plus. Ils errent sans but.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -58659,7 +58659,7 @@
 		"id": "WulfrumGyrator",
 		"type": "NPC",
 		"englishName": "Wulfrum Gyrator",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "An orb of wulfrum metal. How it travels is a mystery, though it likely has something to do with its gyroscopic spinning. They fling their bodies at enemies to attack.",
 		"translations": [
@@ -58667,7 +58667,7 @@
 				"id": 1,
 				"author": "Tolsyak",
 				"translatedName": "Gyrateur Wulfrum",
-				"translatedBestiary": "An orb of wulfrum metal. How it travels is a mystery, though it likely has something to do with its gyroscopic spinning. They fling their bodies at enemies to attack.",
+				"translatedBestiary": "Une orbe de métal wulfrum. La façon dont elle se déplace est un mystère, bien que cela ait probablement quelque chose à voir avec sa rotation gyroscopique. Elles jettent leurs corps sur les ennemis pour attaquer",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -58677,15 +58677,15 @@
 		"id": "WulfrumHovercraft",
 		"type": "NPC",
 		"englishName": "Wulfrum Hovercraft",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Traveling with propulsion that carries them over the ground with ease, they seek out trespassers, though their analysis likely has grown imperceptive with age.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Aéroglisseur Wulfrum",
-				"translatedBestiary": "Traveling with propulsion that carries them over the ground with ease, they seek out trespassers, though their analysis likely has grown imperceptive with age.",
+				"translatedBestiary": "Voyageant avec une propulsion qui les transporte facilement sur le sol, ils recherchent les intrus, bien que leur analyse soit probablement devenue incorrect avec l'âge.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -58695,15 +58695,15 @@
 		"id": "WulfrumPylon",
 		"type": "NPC",
 		"englishName": "Wulfrum Pylon",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "A stationary foe, though its function is far from harmless. Within its influence, other wulfrum creations become notably empowered, the curious energy within them, overflowing.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Pylône Wulfrum",
-				"translatedBestiary": "A stationary foe, though its function is far from harmless. Within its influence, other wulfrum creations become notably empowered, the curious energy within them, overflowing.",
+				"translatedBestiary": "Un ennemi fixe, même si sa fonction est loin d'être inoffensive. Sous son influence, d'autres créations wulfrum deviennent particulièrement puissantes, la curieuse énergie en leur sein, débordant.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -58713,15 +58713,15 @@
 		"id": "WulfrumRover",
 		"type": "NPC",
 		"englishName": "Wulfrum Rover",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "An aged automaton of unknown origins. With an incessant sense of duty and worn frame, they scour the land. Their lamps shine with curious energy.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "Vadrouilleur Wulfrum",
-				"translatedBestiary": "An aged automaton of unknown origins. With an incessant sense of duty and worn frame, they scour the land. Their lamps shine with curious energy.",
+				"translatedBestiary": "Un vieil automate d'origine inconnue. Avec un sens du devoir incessant et une carcasse usée, ils écument la terre. Leurs lampes brillent d'une curieuse énergie.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -58731,15 +58731,15 @@
 		"id": "AresBody",
 		"type": "NPC",
 		"englishName": "XF-09 Ares",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "While it is the most flamboyant of Draedon’s machines, it appears to be lacking some finish, though this trait does not compromise its killing potential whatsoever.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "XF-09 Ares",
-				"translatedBestiary": "While it is the most flamboyant of Draedon’s machines, it appears to be lacking some finish, though this trait does not compromise its killing potential whatsoever.",
+				"translatedBestiary": "Bien qu'il s'agisse de la plus flamboyante des machines de Draedon, il semble qu'elle manque de finition, bien que cela ne compromette en rien son potentiel de destruction.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -58749,15 +58749,15 @@
 		"id": "ThanatosHead",
 		"type": "NPC",
 		"englishName": "XM-05 Thanatos",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Under every armored plate on this machine lies an advanced weapon. This sacrifices the machine’s durability, but it makes it a very effective mass murderer.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "XM-05 Thanatos",
-				"translatedBestiary": "Under every armored plate on this machine lies an advanced weapon. This sacrifices the machine’s durability, but it makes it a very effective mass murderer.",
+				"translatedBestiary": "Sous chaque plaque blindée de cette machine se cache une arme avancée. Cela sacrifie la durabilité de la machine, mais cela en fait un tueur de masse très efficace.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -58767,15 +58767,15 @@
 		"id": "Artemis",
 		"type": "NPC",
 		"englishName": "XS-01 Artemis",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "The Exo Twins are the ultimate recon units. Capable of detecting various wavelengths of light unknown to us, nothing can hide.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "XS-01 Artemis",
-				"translatedBestiary": "The Exo Twins are the ultimate recon units. Capable of detecting various wavelengths of light unknown to us, nothing can hide.",
+				"translatedBestiary": "Les Exo Twins sont les unités de reconnaissance ultimes. Capable de détecter diverses longueurs d'onde de lumière qui nous sont inconnues, rien ne peut leurs échappées.",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -58785,15 +58785,15 @@
 		"id": "Apollo",
 		"type": "NPC",
 		"englishName": "XS-03 Apollo",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Within it, burns chemicals with the fury of Greek fire. Highly refined from the design of the eye-like twins before, it is now capable of outstanding mid-air movement.",
 		"translations": [
 			{
 				"id": 1,
-				"author": "Tolsyak",
+				"author": "Goffio",
 				"translatedName": "XS-03 Apollo",
-				"translatedBestiary": "Within it, burns chemicals with the fury of Greek fire. Highly refined from the design of the eye-like twins before, it is now capable of outstanding mid-air movement.",
+				"translatedBestiary": "En son sein, brûle des produits chimiques avec la fureur d'un feu grec. Très affiné par rapport à la conception de ses yeux rappellant les Exo Twins, il est désormais capable de mouvements exceptionnels dans les airs.",
 				"proofRead": false,
 				"proofReader": ""
 			}
