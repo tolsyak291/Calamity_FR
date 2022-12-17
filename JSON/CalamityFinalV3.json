@@ -58425,7 +58425,7 @@
 		"id": "PerforatorHeadSmall",
 		"type": "NPC",
 		"englishName": "The Perforator",
-		"state": "Traduit (Bestiaire Manquant)",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Each equipped with a deadly mouthpiece, the different ones are suited for different tasks. One to pierce, one to tear, and another, simply to devour.",
 		"translations": [
