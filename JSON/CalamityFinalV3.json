@@ -57597,7 +57597,7 @@
 		"id": "Piggy",
 		"type": "NPC",
 		"englishName": "Piggy",
-		"state": "Traduit"
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Pigs are greedy little beasts. If they come across anything they could barely fathom as food, they will scarf it down in a blink.",
 		"translations": [
