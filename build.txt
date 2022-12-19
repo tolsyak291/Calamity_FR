@@ -1,5 +1,5 @@
 displayName = Calamity French Translation
 author = Tolsyak
-version = 1.2.1
+version = 1.2.2
 homepage = https://forums.terraria.org/index.php?threads/calamity-mod-french-translation.106939/
 modReferences = CalamityMod

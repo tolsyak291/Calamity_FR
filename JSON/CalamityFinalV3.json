@@ -6166,14 +6166,14 @@
 		"type": "BUFF",
 		"englishName": "Ares' Cannons",
 		"englishDesc": "Pulse cannon not included",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Ares' Cannons",
-				"translatedDesc": "Pulse cannon not included"
+				"author": "Tolsyak",
+				"translatedName": "Canons d'Arès",
+				"translatedDesc": "Canon à implusion non inclus"
 			}
 		]
 	},
@@ -6182,14 +6182,14 @@
 		"type": "BUFF",
 		"englishName": "Marnite Lift",
 		"englishDesc": "Do you even..?",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Marnite Lift",
-				"translatedDesc": "Do you even..?"
+				"author": "Tolsyak",
+				"translatedName": "Soulevé de Marnite",
+				"translatedDesc": "Combien tu soul..?"
 			}
 		]
 	},
@@ -6198,14 +6198,14 @@
 		"type": "BUFF",
 		"englishName": "Moon Fist",
 		"englishDesc": "Catch these hands",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Moon Fist",
-				"translatedDesc": "Catch these hands"
+				"author": "Tolsyak",
+				"translatedName": "Poing de Lune",
+				"translatedDesc": "Attrape ces mains"
 			}
 		]
 	},
@@ -6214,14 +6214,14 @@
 		"type": "BUFF",
 		"englishName": "Puff Warrior",
 		"englishDesc": "It confidently and excitedly protects you",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Puff Warrior",
-				"translatedDesc": "It confidently and excitedly protects you"
+				"author": "Tolsyak",
+				"translatedName": "Champi-Guerrier",
+				"translatedDesc": "Il vous protège avec excitation et assurance"
 			}
 		]
 	},
@@ -10417,12 +10417,12 @@
 		"id": "Androomba",
 		"type": "NPC",
 		"englishName": "Androomba",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
+				"author": "Tolsyak",
 				"translatedName": "Androomba"
 			}
 		]
@@ -10431,13 +10431,13 @@
 		"id": "AndroombaFriendly",
 		"type": "NPC",
 		"englishName": "Androomba Pal",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Androomba Pal"
+				"author": "Tolsyak",
+				"translatedName": "Pote Androomba"
 			}
 		]
 	},
@@ -10445,13 +10445,13 @@
 		"id": "HiveEnemy",
 		"type": "NPC",
 		"englishName": "Hive",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Hive"
+				"author": "Tolsyak",
+				"translatedName": "Ruche"
 			}
 		]
 	},
@@ -10459,13 +10459,13 @@
 		"id": "Nanodroid",
 		"type": "NPC",
 		"englishName": "Nanodroid",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Nanodroid"
+				"author": "Tolsyak",
+				"translatedName": "Nanodroïde"
 			}
 		]
 	},
@@ -10473,13 +10473,13 @@
 		"id": "NanodroidDysfunctional",
 		"type": "NPC",
 		"englishName": "Nanodroid",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Nanodroid"
+				"author": "Tolsyak",
+				"translatedName": "Nanodroïde"
 			}
 		]
 	},
@@ -10487,13 +10487,13 @@
 		"id": "NanodroidPlagueGreen",
 		"type": "NPC",
 		"englishName": "Nanodroid",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Nanodroid"
+				"author": "Tolsyak",
+				"translatedName": "Nanodroïde"
 			}
 		]
 	},
@@ -10501,13 +10501,13 @@
 		"id": "NanodroidPlagueRed",
 		"type": "NPC",
 		"englishName": "Nanodroid",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Nanodroid"
+				"author": "Tolsyak",
+				"translatedName": "Nanodroïde"
 			}
 		]
 	},
@@ -10515,13 +10515,13 @@
 		"id": "WulfrumAmplifier",
 		"type": "NPC",
 		"englishName": "Wulfrum Amplifier",
-		"state": "A traduire",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
 			{
 				"id": 1,
-				"author": "",
-				"translatedName": "Wulfrum Amplifier"
+				"author": "Tolsyak",
+				"translatedName": "Amplificateur Wulfrum"
 			}
 		]
 	},
@@ -56625,7 +56625,7 @@
 		"id": "Draedon",
 		"type": "NPC",
 		"englishName": "Draedon",
-		"state": "Traduit ",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "The esteemed scientist himself. His AI is uploaded into a database, far from harm, and thus destroying his recon bodies achieves nothing.",
 		"translations": [
@@ -56697,7 +56697,7 @@
 		"id": "SplitEbonianSlimeGod",
 		"type": "NPC",
 		"englishName": "Ebonian Slime God",
-		"state": "Traduit ",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Flanking their creator and serving as its body, these are concentrated, swirling masses of the world’s evils, each utilizing the rot and corrosion to eat away and assimilate those who oppose it.",
 		"translations": [
@@ -57597,7 +57597,7 @@
 		"id": "PhantomSpirit",
 		"type": "NPC",
 		"englishName": "Phantom Spirit",
-		"state": "Traduit ",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Spirits which turned upon one another, cannibalizing others in their mindless frustrated frenzies. There is precedent in the past, for spirits which have devoured enough of others, to grow astoundingly in power.",
 		"translations": [
@@ -57795,7 +57795,7 @@
 		"id": "RavagerBody",
 		"type": "NPC",
 		"englishName": "Ravager",
-		"state": "Traduit ",
+		"state": "Traduit",
 		"activeTranslation": 1,
 		"englishBestiary": "Flames roar from what almost appear to be the parapets of a rotting fortress. You will know when it is approaching downwind, from the smell alone.",
 		"translations": [

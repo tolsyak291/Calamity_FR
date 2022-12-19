@@ -392,7 +392,7 @@ namespace CalamityFR.JSON
 			""The Witch enrages while you are outside of the arena"",
 			""Used for special crafting""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -402,7 +402,9 @@ namespace CalamityFR.JSON
 				""translatedTooltip"": [
 					""Offrez les Cendres de Calamité a cet autel pour invoquer la Sorcière"",
 					""Le faire créera une arène carrée faites de blocs, avec l'autel en son centre"",
-					""Pendant le combat, les coeurs vous soignent pour moitié moins""
+					""Pendant le combat, les coeurs vous soignent pour moitié moins"",
+					""La Sorcière enrage quand vous êtes en dehors de l'arène"",
+					""Utilisé pour l'artisanat spécial""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -526,13 +528,16 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""A glimpse into what will be...""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": ""Relique du fléau aquatique"",
+				""translatedTooltip"": [
+					""Un aperçu de l'avenir...""
+				],
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -567,13 +572,13 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Aquatic Urchin""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
 				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Oursin Aquatique"",
+				""translatedName"": ""Bannière d'Oursin Aquatique"",
 				""translatedTooltip"": [
 					""{$CommonItemTooltip.BannerBonus}Oursin Aquatique""
 				],
@@ -591,7 +596,7 @@ namespace CalamityFR.JSON
 			""The sandstorm will happen shortly after the item is used"",
 			""If used during a sandstorm, the sandstorm will stop some time afterward.""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -601,7 +606,7 @@ namespace CalamityFR.JSON
 				""translatedTooltip"": [
 					""Invoque une tempête de sable"",
 					""La tempête de sable arrivera peu après l'utilisation de l'objet"",
-					""Non consommable""
+					""Si utilisé durant une tempête de sable, la tempête s'arrêtera peu après l'utilisation de l'objet""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -615,13 +620,13 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Aries""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
 				""author"": ""Tolsyak"",
-				""translatedName"": ""Bannière de Aries"",
+				""translatedName"": ""Bannière d'Aries"",
 				""translatedTooltip"": [
 					""{$CommonItemTooltip.BannerBonus}Aries""
 				],
@@ -637,12 +642,12 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Armored Digger""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyal"",
+				""author"": ""Tolsyak"",
 				""translatedName"": ""Bannière de Creuseur Blindé"",
 				""translatedTooltip"": [
 					""{$CommonItemTooltip.BannerBonus}Creuseur Blindé""
@@ -659,7 +664,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""Used for special crafting""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -681,7 +686,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""Counts as a lava source""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -705,7 +710,7 @@ namespace CalamityFR.JSON
 			""Enrages during the day"",
 			""Not consumable""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -714,6 +719,7 @@ namespace CalamityFR.JSON
 				""translatedName"": ""Morceau Astral"",
 				""translatedTooltip"": [
 					""Invoque Astrum Aureus quand utilisé dans l'infection astrale la nuit"",
+					""Enrage pendant la journée"",
 					""Non consommable""
 				],
 				""proofRead"": false,
@@ -728,7 +734,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Astral Probe""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -750,7 +756,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Astral Slime""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -772,7 +778,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Astralachnea""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -794,7 +800,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""A glimpse into what will be...""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -802,7 +808,7 @@ namespace CalamityFR.JSON
 				""author"": ""Tolsyak"",
 				""translatedName"": ""Relique d'Astrum Aureus"",
 				""translatedTooltip"": [
-					""Un aperçu de l'avenir..""
+					""Un aperçu de l'avenir...""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -816,7 +822,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Atlas Banner""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -840,7 +846,7 @@ namespace CalamityFR.JSON
 			""Increases melee damage and melee crit by 5%"",
 			""+5 melee armor penetration""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -864,7 +870,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Belching Coral""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -886,7 +892,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Big Sightseer""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -910,7 +916,7 @@ namespace CalamityFR.JSON
 			""Jets will fire bullets from your inventory"",
 			""50% chance to not consume ammo""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -918,7 +924,9 @@ namespace CalamityFR.JSON
 				""author"": ""Tolsyak"",
 				""translatedName"": ""Télécommande du Faucon Noir"",
 				""translatedTooltip"": [
-					""Invoque un jet du faucon noir pour combattre à vos côtés""
+					""Invoque un jet du faucon noir pour combattre à vos côtés"",
+					""Le jet tirera des balles depuis votre inventaire"",
+					""50% de chances de ne pas consommer de munitions""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -933,7 +941,7 @@ namespace CalamityFR.JSON
 			""Stacks up to 3"",
 			""Stealth strikes release all stars at once with infinite piercing""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -941,7 +949,7 @@ namespace CalamityFR.JSON
 				""author"": ""Tolsyak"",
 				""translatedName"": ""Étoile Flamboyante"",
 				""translatedTooltip"": [
-					""Se cumule 4 fois"",
+					""Se cumule 3 fois"",
 					""Les attaques furtives libèrent toutes les étoiles simultanément et transperçent indéfiniment""
 				],
 				""proofRead"": false,
@@ -956,7 +964,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Blinded Angler""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -978,7 +986,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Bloatfish""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -1001,7 +1009,7 @@ namespace CalamityFR.JSON
 			""Summons The Old Duke if used as bait in the Sulphurous Sea"",
 			""Enrages outside the Sulphurous Sea""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -1009,7 +1017,8 @@ namespace CalamityFR.JSON
 				""author"": ""Kastiel"",
 				""translatedName"": ""Ver de Sang"",
 				""translatedTooltip"": [
-					""Invoque le Vieux Duc s'il est utilisé comme un appât dans dans la mer sulfurique""
+					""Invoque le Vieux Duc s'il est utilisé comme un appât dans dans la mer sulfurique"",
+					""Enrage en dehors de la mer sulfurique""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -1025,7 +1034,7 @@ namespace CalamityFR.JSON
 			""Enrages outside the Underground Crimson"",
 			""Not consumable""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -1034,6 +1043,7 @@ namespace CalamityFR.JSON
 				""translatedName"": ""Nourriture Sanglante pour Ver"",
 				""translatedTooltip"": [
 					""Invoque la Ruche du Perforateur quand utilisé dans le carmin"",
+					""Enrage en dehors du carmin souterrain"",
 					""Non consommable""
 				],
 				""proofRead"": false,
@@ -1048,7 +1058,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Bloom Slime""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -1070,7 +1080,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Bobbit Worm""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -1092,7 +1102,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""Used for special crafting""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -1114,7 +1124,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""Counts as a honey source""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -1138,7 +1148,7 @@ namespace CalamityFR.JSON
 			""Receives a small boost in damage and velocity after bouncing off an enemy"",
 			""Stealth strikes throw four at once""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -1146,9 +1156,9 @@ namespace CalamityFR.JSON
 				""author"": ""Tolsyak"",
 				""translatedName"": ""Boule à Piques Rebondissante"",
 				""translatedTooltip"": [
-					""Lance une boule rebondissante qui ricoche sur les murs et les ennemis"",
+					""Lance une boule très rebondissante qui ricoche sur les murs et les ennemis"",
 					""Gagne un petit bonus aux dégâts et en vitesse quand elle rebondit sur un ennemi"",
-					""Les attaques furtives augmentent le bonus de ricochet""
+					""Les attaques furtives lancent 4 balles d'un coup""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -1162,7 +1172,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Box Jellyfish""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -1184,7 +1194,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""A glimpse into what will be...""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -1192,7 +1202,7 @@ namespace CalamityFR.JSON
 				""author"": ""Tolsyak"",
 				""translatedName"": ""Relique d'Élémentaire de Soufre"",
 				""translatedTooltip"": [
-					""Un aperçu de l'avenir..""
+					""Un aperçu de l'avenir...""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -1208,7 +1218,7 @@ namespace CalamityFR.JSON
 			""Right click to throw like a javelin that explodes on hit"",
 			""Receives 33% benefit from melee speed bonuses""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -1217,7 +1227,8 @@ namespace CalamityFR.JSON
 				""translatedName"": ""Épée de soufre"",
 				""translatedTooltip"": [
 					""Invoque des geysers de soufre quand vous touchez"",
-					""Clic droit pour lancer un javelot qui explose quand il touche""
+					""Clic droit pour lancer un javelot qui explose quand il touche"",
+					""Reçoit 33% de la statistique de vitesse en mêlée""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -1231,7 +1242,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""A glimpse into what will be...""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -1253,7 +1264,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Calamity Eye""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -1275,7 +1286,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Catfish""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -1297,7 +1308,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""A glimpse into what will be...""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -1319,7 +1330,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Chaotic Puffer""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -1344,7 +1355,7 @@ namespace CalamityFR.JSON
 			""Enrages outside the Brimstone Crags"",
 			""Not consumable""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -1352,7 +1363,9 @@ namespace CalamityFR.JSON
 				""author"": ""Tolsyak"",
 				""translatedName"": ""Idole Calcinée"",
 				""translatedTooltip"": [
+					""A utiliser à vos risques et périls"",
 					""Invoque l'Élémentaire de soufre quand utilisé dans les vestiges souffrés"",
+					""Enrage en dehors des Vestiges Soufrés"",
 					""Non consommable""
 				],
 				""proofRead"": false,
@@ -1367,7 +1380,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Charred Slime""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -1389,7 +1402,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Clam""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -1411,7 +1424,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Cloud Elemental""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -1433,7 +1446,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Cnidrion""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -1456,7 +1469,7 @@ namespace CalamityFR.JSON
 			""Stealth strikes only expend 85% of your max stealth"",
 			""6% increased rogue crit chance""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -1464,7 +1477,7 @@ namespace CalamityFR.JSON
 				""author"": ""Tolsyak"",
 				""translatedName"": ""Pièce de Tromperie"",
 				""translatedTooltip"": [
-					""Les attaques furtives ne consomment que 75% de votre furtivité"",
+					""Les attaques furtives ne consomment que 85% de votre furtivité"",
 					""6% des coups critiques pour les dégâts de voleur""
 				],
 				""proofRead"": false,
@@ -1479,7 +1492,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Colossal Squid""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -1507,7 +1520,7 @@ namespace CalamityFR.JSON
 			""[c/5C95A1:Knowledge is important, and the Old Sea Kingdom’s many scribes knew it had to be preserved at any cost.]"",
 			""[c/5C95A1:Their libraries were much larger than most, because of the water-proof stone tablets occupying them.]""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -1515,7 +1528,13 @@ namespace CalamityFR.JSON
 				""author"": ""Tolsyak"",
 				""translatedName"": ""Débiteur de Corail"",
 				""translatedTooltip"": [
-					""Convoque des éclats de corail qui se posent au sol et endommagent les ennemis""
+					""Tire une décharge d'éclat de corail a l'instar d'un fusil à pompe"",
+					""Laissez le bouton de tir appuyé pour réduire l'étendue du tir"",
+					""Une attaque complétement chargée tire un unique gros morceau de corail qui se colle aux ennemis"",
+					""Attraper le morceau de corail après sa chute rend 150 mana"",
+					""Le morceau de corail chargé en mana donne un amélioration d'état qui augmente les dégâts du corail et sa vitesse de convergence"",
+					""[c/5C95A1:Le savoir est important, et les nombreux scribes du royaume de la vieille mer savait qu'il devait être préservé à tout prix.]"",
+					""[c/5C95A1:Leurs bibliothèques étaient plus grandes que la plupart, à cause des tablettes en pierre étanche qui y étaient entreposées.]""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -1531,7 +1550,7 @@ namespace CalamityFR.JSON
 			""All rogue weapons inflict venom and spawn clouds on enemy hits"",
 			""You release a ton of clouds everywhere on hit""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -1539,7 +1558,7 @@ namespace CalamityFR.JSON
 				""author"": ""Tolsyak"",
 				""translatedName"": ""Colonne Vertébrale Corrosive"",
 				""translatedTooltip"": [
-					""10% d'augmentation du déplacement"",
+					""5% d'augmentation du déplacement"",
 					""Toutes les armes de voleur infligent le venin et créent des nuages quand ils touchent les ennemis"",
 					""Vous relâchez une tonne de nuage partout quand vous êtes touché""
 				],
@@ -1557,7 +1576,7 @@ namespace CalamityFR.JSON
 			""Upon hitting an enemy, a barrage of offscreen objects home in on the enemy as well as raining stars"",
 			""Receives 33% benefit from melee speed bonuses""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -1565,9 +1584,9 @@ namespace CalamityFR.JSON
 				""author"": ""Tolsyak"",
 				""translatedName"": ""Surin Cosmique"",
 				""translatedTooltip"": [
-					""Ne sous-estimez vraiment pas le pouvoir des surins"",
 					""Tire un rayon cosmique qui pourchasse les ennemis"",
-					""Quand vous touchez un ennemi, un barrage d'objets venant d'en dehors de l'écran pourchassent l'ennemi en plus de faire pleuvoir des étoiles""
+					""Quand vous touchez un ennemi, un barrage d'objets venant d'en dehors de l'écran pourchassent l'ennemi en plus de faire pleuvoir des étoiles"",
+					""Bénéficie de 33% de la statistique de vitesse en mêlée""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -1585,7 +1604,7 @@ namespace CalamityFR.JSON
 			""Alternates firing rockets and bullets"",
 			""Rockets do not consume ammo""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -1593,7 +1612,11 @@ namespace CalamityFR.JSON
 				""author"": ""Tolsyak"",
 				""translatedName"": ""Moteur Cosmique Vipère"",
 				""translatedTooltip"": [
-					""Invoque un vaisseau de combat pour abattre vos ennemis""
+					""Invoque un vaisseau de combat pour abattre vos ennemis"",
+					""Ce vaisseau tire des munitions depuis votre inventaire"",
+					""50% de chances de ne pas consommer de munitions"",
+					""Alterne entre les balles et les roquettes"",
+					""Les roquettes ne consomment pas de munitions""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -1607,7 +1630,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Cosmic Elemental""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -1629,7 +1652,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""Counts as a water source""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -1653,7 +1676,7 @@ namespace CalamityFR.JSON
 			""Grants the ability to dash; dashing into an attack will cause you to dodge it"",
 			""After a successful dodge you must wait 30 seconds before you can dodge again""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -1663,9 +1686,7 @@ namespace CalamityFR.JSON
 				""translatedTooltip"": [
 					""Les attaques de vraie mêlée font 10% de dégâts supplémentaires"",
 					""Donne la possibilité de foncer, foncer dans une attaque vous permettra de l'esquiver"",
-					""Après une esquive réussie, vous devez attendre 15s avant de pouvoir esquiver de nouveau"",
-					""Ce temps de recharge est doublé si vous subissez le Chaos"",
-					""Durant le temps de recharge, le Chaos dure deux fois plus longtemps""
+					""Après une esquive réussie, vous devez attendre 30s avant de pouvoir esquiver de nouveau""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -1679,7 +1700,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Crimulan Blight Slime""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -1703,7 +1724,7 @@ namespace CalamityFR.JSON
 			""Enrages outside the tundra"",
 			""Not consumable""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -1712,6 +1733,7 @@ namespace CalamityFR.JSON
 				""translatedName"": ""Clé Cryo"",
 				""translatedTooltip"": [
 					""Invoque Cryogène quand utilisé dans la toundra"",
+					""Enrage en dehors de la toundra"",
 					""Ne se consomme pas""
 				],
 				""proofRead"": false,
@@ -1726,7 +1748,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Cryo Slime""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -1748,7 +1770,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""A glimpse into what will be...""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -1756,7 +1778,7 @@ namespace CalamityFR.JSON
 				""author"": ""Tolsyak"",
 				""translatedName"": ""Relique de Cryogène"",
 				""translatedTooltip"": [
-					""Un aperçu de l'avenir..""
+					""Un aperçu de l'avenir...""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -1770,7 +1792,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Cryon""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -1792,7 +1814,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Crystal Crawler""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -1814,7 +1836,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Cultist Assassin""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -1836,7 +1858,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Cuttlefish""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -1861,7 +1883,7 @@ namespace CalamityFR.JSON
 			""Stealth strikes only expend 50% of your max stealth"",
 			""6% increased rogue damage, and 6% increased rogue crit chance""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -1869,9 +1891,8 @@ namespace CalamityFR.JSON
 				""author"": ""Tolsyak"",
 				""translatedName"": ""Fourreau du Dieu Sombre"",
 				""translatedTooltip"": [
-					""+20 de furtivité maximum"",
+					""+10 de furtivité maximum"",
 					""La génération de furtivité lorsque vous êtes en mouvement est augmentée"",
-					""Les attaques furtives ont 100% de chances de coup critique"",
 					""Les coups critiques ne consomment que la moitié de votre furtivité"",
 					""6% des dégâts et de chances de coup critique supplémentaires pour les dégâts de voleur""
 				],
@@ -1889,7 +1910,7 @@ namespace CalamityFR.JSON
 			""Enrages outside the Underground Mushroom biome"",
 			""Not consumable""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -1898,6 +1919,7 @@ namespace CalamityFR.JSON
 				""translatedName"": ""Germe de Décapodite"",
 				""translatedTooltip"": [
 					""Invoque Crabulon quand utilisé dans un biome champignon"",
+					""Enrage en dehors du biome champignon souterrain"",
 					""Non consommable""
 				],
 				""proofRead"": false,
@@ -1914,7 +1936,7 @@ namespace CalamityFR.JSON
 			""Allows you to decrypt the Planetoid schematic"",
 			""Doing so allows you to learn how to craft new things""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -1923,7 +1945,7 @@ namespace CalamityFR.JSON
 				""translatedName"": ""Ordinateur de Décryptage"",
 				""translatedTooltip"": [
 					""Peut être placé sur le Briseur de Code"",
-					""Vous permet de décrypter des schémas avancés"",
+					""Vous permet de décrypter le schéma des planétoïdes,"",
 					""Vous permettant ainsi de fabriquer de nouveaux objets""
 				],
 				""proofRead"": false,
@@ -1940,7 +1962,7 @@ namespace CalamityFR.JSON
 			""Enrages outside the Desert"",
 			""Not consumable""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -1949,6 +1971,7 @@ namespace CalamityFR.JSON
 				""translatedName"": ""Médaillon du Desert"",
 				""translatedTooltip"": [
 					""Invoque le Fléau du Désert quand utilisé dans le désert"",
+					""Enrage en dehors du désert"",
 					""Non consommable""
 				],
 				""proofRead"": false,
@@ -1963,13 +1986,16 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""A glimpse into what will be...""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": ""Relique du Fléau du Désert"",
+				""translatedTooltip"": [
+					""Un aperçu de l'avenir...""
+				],
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -1982,7 +2008,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Despair Stone""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -2005,7 +2031,7 @@ namespace CalamityFR.JSON
 			""Fires galaxy blasts that explode"",
 			""Receives 33% benefit from melee speed bonuses""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -2013,7 +2039,8 @@ namespace CalamityFR.JSON
 				""author"": ""Tolsyak"",
 				""translatedName"": ""Dévastation"",
 				""translatedTooltip"": [
-					""Tire des décharges de galaxie qui explosent""
+					""Tire des décharges galactiques qui explosent"",
+					""Bénéficie de 33% de la statistique de vitesse de mêlée""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -2030,7 +2057,7 @@ namespace CalamityFR.JSON
 			""Critical hits cause shadowflame explosions"",
 			""Receives 33% benefit from melee speed bonuses""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -2040,7 +2067,8 @@ namespace CalamityFR.JSON
 				""translatedTooltip"": [
 					""Tire un éventail de faux démoniaques"",
 					""Des fourches se soulèvent des enfers pour empaler vos ennemis"",
-					""Les coups critiques déclenchent des explosions d'ombreflamme""
+					""Les coups critiques déclenchent des explosions d'ombreflamme"",
+					""Bénéficie de 33% de la statistique de vitesse de mêlée""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -2054,7 +2082,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Devil Fish""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -2076,7 +2104,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""A glimpse into what will be...""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -2084,7 +2112,7 @@ namespace CalamityFR.JSON
 				""author"": ""Tolsyak"",
 				""translatedName"": ""Relique du Dévoreur de Dieux"",
 				""translatedTooltip"": [
-					""Un aperçu de l'avenir..""
+					""Un aperçu de l'avenir...""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -2098,7 +2126,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Diamond Crawler""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -2124,7 +2152,7 @@ namespace CalamityFR.JSON
 			""+10% max run speed and acceleration"",
 			""Grants immunity to Dragonfire""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -2135,7 +2163,8 @@ namespace CalamityFR.JSON
 					""Seul un dragon vivant possède un véritable trésor"",
 					""Les projectiles de voleur créent de lentes boules de feu sur leur trajet"",
 					""Les attaques furtives créent une infernade à la disparition du projectile"",
-					""+10% à votre accélération et votre vitesse de mouvement""
+					""+10% à votre accélération et votre vitesse de mouvement"",
+					""Immunise au feu draconique""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -2149,7 +2178,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""A glimpse into what will be...""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -2157,7 +2186,7 @@ namespace CalamityFR.JSON
 				""author"": ""Tolsyak"",
 				""translatedName"": ""Relique de la Folie Draconique"",
 				""translatedTooltip"": [
-					""Un aperçu de l'avenir..""
+					""Un aperçu de l'avenir...""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -2173,7 +2202,7 @@ namespace CalamityFR.JSON
 			""The faster it's spinning, the more times it hits before disappearing"",
 			""Stealth Strikes make it emit short-ranged bubbles.""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -2199,7 +2228,7 @@ namespace CalamityFR.JSON
 			""Ranged weapons have a chance to fire mini swarmers"",
 			""Grants immunity to Dragonfire and Electrified""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -2208,7 +2237,8 @@ namespace CalamityFR.JSON
 				""translatedName"": ""Transformateur de Cellules Souches"",
 				""translatedTooltip"": [
 					""+10% de vitesse de mouvement"",
-					""Les armes à distance ont une chance de tirer des petits essaimeurs""
+					""Les armes à distance ont une chance de tirer des petits essaimeurs"",
+					""Immunise au feu draconique et à l'électrisation""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -2222,7 +2252,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Earth Elemental""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -2244,7 +2274,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Ebonian Blight Slime""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -2275,7 +2305,7 @@ namespace CalamityFR.JSON
 			""Evading an attack grants full stealth but has a 90 second cooldown"",
 			""This cooldown is shared with all other dodges and reflects""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -2284,12 +2314,11 @@ namespace CalamityFR.JSON
 				""translatedName"": ""Miroir d'Éclipse"",
 				""translatedTooltip"": [
 					""Son reflet ne montre rien que les ténèbres"",
-					""+20 furtivité maximum"",
+					""+10 furtivité maximum"",
 					""+6% des dégâts et de chance de critique de voleur"",
 					""Réduit grandement l'agressivité des ennemis, même dans les abysses"",
-					""La furtivité se génère 20% plus rapidement quand vous êtes immobile"",
+					""La furtivité se génère 25% plus rapidement quand vous êtes immobile"",
 					""La génération de furtivité quand vous vous déplacez accélère exponentiellement si vous n'attaquez pas"",
-					""Les attaques furtives ont 100% de chances de coup critique"",
 					""Les attaques furtives ne consomment que 50% de votre furtivité"",
 					""Permet d'esquiver les attaques dans une explosion de lumière de sombresoleil, infligeant des dégâts extrêmes dans une large zone"",
 					""Esquiver une attaque maximise votre furtivité mais à un temps de recharge de 90s"",
@@ -2307,7 +2336,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Eidolist""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -2329,7 +2358,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Juvenile Eidolon Wyrm""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -2353,7 +2382,7 @@ namespace CalamityFR.JSON
 			""Boosts melee speed by 10%, ranged velocity by 25%, rogue stealth regen by 10%, max minions by 2 and reduces mana cost by 15%"",
 			""Grants immunity to Whispering Death""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -2362,7 +2391,8 @@ namespace CalamityFR.JSON
 				""translatedName"": ""Artefact d'Âme d'Eldritch"",
 				""translatedTooltip"": [
 					""Connaissance"",
-					""Augmente la vitesse de corps à corps de 10%, la vitesse des projectiles à distance de 25%, les dégâts de voleurs de 15%, les emplacements de sbires max de 2 et réduit les coûts en mana de 15%""
+					""Augmente la vitesse de corps à corps de 10%, la vitesse des projectiles à distance de 25%, la vitesse de génération de la furtivité de 10%, les emplacements de sbires max de 2 et réduit les coûts en mana de 15%"",
+					""Immunise à la mort susurrante""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -2377,7 +2407,7 @@ namespace CalamityFR.JSON
 			""Shoots a rainbow shiv that spawns additional shivs on hit"",
 			""Receives 33% benefit from melee speed bonuses""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -2385,8 +2415,8 @@ namespace CalamityFR.JSON
 				""author"": ""Tolsyak"",
 				""translatedName"": ""Surin des Élements"",
 				""translatedTooltip"": [
-					""Ne sous-estimez pas le pouvoir des surins"",
-					""Tire un surin arc-en-ciel qui crée d'autres surins quand vous touchez""
+					""Tire un surin arc-en-ciel qui crée d'autres surins quand vous touchez"",
+					""Bénéficie de 33% de la statistique de vitesse de mêlée""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -2405,7 +2435,7 @@ namespace CalamityFR.JSON
 			""Flight time: 240"",
 			""Temporary immunity to lava and 10% increased movement speed""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -2414,7 +2444,7 @@ namespace CalamityFR.JSON
 				""translatedName"": ""Ailes Elysiennes"",
 				""translatedTooltip"": [
 					""Bénie par la flamme profanée"",
-					""Vitesse Horizontale: 9.75"",
+					""Vitesse Horizontale: 9.5"",
 					""Multiplicateur d'accélération: 2.7"",
 					""Très bonne vitesse verticale"",
 					""Temps de vol: 240"",
@@ -2432,7 +2462,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Emerald Crawler""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -2454,13 +2484,13 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""Requires a Codebreaker with a complex voltage regulation system to decrypt""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
 				""author"": ""Tolsyak"",
-				""translatedName"": ""Plans Cryptés"",
+				""translatedName"": ""Plans Cryptés (Glace)"",
 				""translatedTooltip"": [
 					""Requiert un Briseur de Code avec un système complexe de régulation de tension pour être décrypté""
 				],
@@ -2476,13 +2506,13 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""Requires a Codebreaker with a fine tuned, long range sensor to decrypt""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
 				""author"": ""Tolsyak"",
-				""translatedName"": ""Plans Cryptés"",
+				""translatedName"": ""Plans Cryptés (Jungle)"",
 				""translatedTooltip"": [
 					""Requiert un Briseur de Code avec un Senseur longue-portée bien réglé pour être décrypté""
 				],
@@ -2498,13 +2528,13 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""Requires a Codebreaker with a basic decryption computer to decrypt""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
 				""author"": ""Tolsyak"",
-				""translatedName"": ""Plans Cryptés"",
+				""translatedName"": ""Plans Cryptés (Planétoïde)"",
 				""translatedTooltip"": [
 					""Requiert un Briseur de Code avec un ordinateur de décryptage basique pour être décrypté""
 				],
@@ -2520,13 +2550,13 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""Requires a Codebreaker with a sophisticated display to decrypt""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
 				""author"": ""Tolsyak"",
-				""translatedName"": ""Plans Cryptés"",
+				""translatedName"": ""Plans Cryptés (Enfer)"",
 				""translatedTooltip"": [
 					""Requiert un Briseur de Code avec un système d'affichage sophistiqué pour être décrypté""
 				],
@@ -2543,7 +2573,7 @@ namespace CalamityFR.JSON
 			""Rogue projectiles explode into homing souls on death"",
 			""10% increased rogue damage and +10 maximum stealth""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -2552,7 +2582,7 @@ namespace CalamityFR.JSON
 				""translatedName"": ""Extorqueur Ethéré"",
 				""translatedTooltip"": [
 					""Les projectiles de voleur explosent en âme à tête chercheuse"",
-					""+10% de dégâts de voleur et +10 furtivité maximum mais régénération de vie réduite de 1""
+					""+10% de dégâts de voleur et +10 furtivité maximum""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -2566,7 +2596,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Eutrophic Ray""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -2588,7 +2618,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""Used for special crafting""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -2610,7 +2640,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""Counts as a water source""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -2634,7 +2664,7 @@ namespace CalamityFR.JSON
 			""Grants the ability to dash; dashing into an attack will cause you to dodge it"",
 			""After a successful dodge you must wait 30 seconds before you can dodge again""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -2644,9 +2674,7 @@ namespace CalamityFR.JSON
 				""translatedTooltip"": [
 					""Les attaques de vraie mêlée font 15% de dégâts supplémentaires"",
 					""Donne la possibilité de foncer, foncer dans une attaque vous permettra de l'esquiver"",
-					""Après une esquive réussie, vous devez attendre 13s avant de pouvoir esquiver de nouveau"",
-					""Ce temps de recharge est doublé si vous subissez le Chaos"",
-					""Durant le temps de recharge, le Chaos dure 50% plus longtemps""
+					""Après une esquive réussie, vous devez attendre 30s avant de pouvoir esquiver de nouveau""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -2660,7 +2688,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""Counts as a water, honey, and lava source""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -2686,7 +2714,7 @@ namespace CalamityFR.JSON
 			""Enemy hits from the blade during the dash result in massive damage and a rebound"",
 			""Left clicks briefly after a rebound are far stronger and create explosions on enemy hits""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -2695,10 +2723,10 @@ namespace CalamityFR.JSON
 				""translatedName"": ""Exolame"",
 				""translatedTooltip"": [
 					""Ancienne lame de Draedon, l'expert en armements et armures de Yharim."",
-					""Tire un exo rayon qui pourchasse le joueur avant d'exploser"",
-					""Frapper un ennemi avec la lame provoque l'apparition de plusieurs comètes"",
-					""Toutes les attaques gèlent brièvement les ennemis"",
-					""Les ennemis qui ont une vie très faible explosent en énergie givrée et gèlent les ennemis proches""
+					""Clic gauche pour relâcher de multiples rayons d'énergie à têtes chercheuses sur les ennemis et les découpent quand ils touchent"",
+					""Clic droit pour charger dans la direction du curseur avec la lame"",
+					""Les ennemis touchés avec la lame durant la charge subissent d'énormes dégâts et vous font rebondir"",
+					""Les clics gauches peu après un rebond sont bien plus puissants et créent des explosions en touchant""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -2715,7 +2743,7 @@ namespace CalamityFR.JSON
 			""Enrages outside the Jungle"",
 			""Not consumable""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -2725,6 +2753,7 @@ namespace CalamityFR.JSON
 				""translatedTooltip"": [
 					""Attire l'expérience draconique ratée"",
 					""Invoque la folie draconique quand utilisée dans la jungle"",
+					""Enrage en dehors de la jungle"",
 					""Non consommable""
 				],
 				""proofRead"": false,
@@ -2742,7 +2771,7 @@ namespace CalamityFR.JSON
 			""Enrages during the day"",
 			""Not consumable""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -2752,6 +2781,7 @@ namespace CalamityFR.JSON
 				""translatedTooltip"": [
 					""Cette nuit va être horrifique..."",
 					""Invoque Calamitas quand utilisé la nuit"",
+					""Enrage le jour"",
 					""Ne se consomme pas""
 				],
 				""proofRead"": false,
@@ -2766,7 +2796,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Fearless Goldfish Warrior""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -2788,7 +2818,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Flak Crab""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -2811,7 +2841,7 @@ namespace CalamityFR.JSON
 			""Shoots a spread of 4 arrows"",
 			""Wooden arrows are converted into bouncing obsidian bats""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -2819,7 +2849,7 @@ namespace CalamityFR.JSON
 				""author"": ""Tolsyak"",
 				""translatedName"": ""Arc d'Éclataile"",
 				""translatedTooltip"": [
-					""Tire une volée de 5 flèches"",
+					""Tire une volée de 4 flèches"",
 					""Les flèches de bois deviennent des chauves-souris rebondissantes d'obsidienne""
 				],
 				""proofRead"": false,
@@ -2834,7 +2864,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""Melee, Whip, and Rogue attacks inflict Armor Crunch on enemies""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -2842,8 +2872,7 @@ namespace CalamityFR.JSON
 				""author"": ""Tolsyak"",
 				""translatedName"": ""Potion d'Effritement"",
 				""translatedTooltip"": [
-					""Augmente les dégâts et les chances de coup critique de mêlée et de voleur de 5%"",
-					""Les attaques de mêlée et de voleur brisent l'armure""
+					""Les attaques de mêlée, de fouet et de voleur brisent l'armure""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -2857,7 +2886,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Flounder""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -2880,16 +2909,16 @@ namespace CalamityFR.JSON
 			""Summons five rainbow flowers over your head"",
 			""The combined flowers consume three minion slots""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
 				""author"": """",
-				""translatedName"": ""Flowers of Mortality"",
+				""translatedName"": ""Fleurs de Mortalité"",
 				""translatedTooltip"": [
-					""Summons five rainbow flowers over your head "",
-					""The combined flowers consume two and a half minion slots""
+					""Invoque 5 fleurs irisées au-dessus de votre tête"",
+					""Les fleurs occupent trois emplacements de sbires""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -2903,7 +2932,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Frogfish""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -2926,7 +2955,7 @@ namespace CalamityFR.JSON
 			""Various melee weapons emit mushrooms in true melee range"",
 			""15% increased true melee damage""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -2934,7 +2963,7 @@ namespace CalamityFR.JSON
 				""author"": ""Tolsyak"",
 				""translatedName"": ""Symbiote Fongique"",
 				""translatedTooltip"": [
-					""La plupart des armes de corps à corps émettent des champignons"",
+					""La plupart des armes de corps à corps émettent des champignons au corps-à-corps"",
 					""Les attaques de vraie mêlée font 15% de dégâts supplémentaires""
 				],
 				""proofRead"": false,
@@ -2949,7 +2978,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Fusion Feeder""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -2973,7 +3002,7 @@ namespace CalamityFR.JSON
 			""Launches a barrage of comets from the sky"",
 			""Receives 33% benefit from melee speed bonuses""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -2982,7 +3011,8 @@ namespace CalamityFR.JSON
 				""translatedName"": ""Lame Galactus"",
 				""translatedTooltip"": [
 					""Forgée avec la furie du chaos nucléaire"",
-					""Lance un barrage de comètes depuis le ciel""
+					""Lance un barrage de comètes depuis le ciel"",
+					""Bénéficie de 33% de la statistique de vitesse en mêlée""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -2999,7 +3029,7 @@ namespace CalamityFR.JSON
 			""Spawns planetoids on enemy hits"",
 			""Receives 33% benefit from melee speed bonuses""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -3009,7 +3039,8 @@ namespace CalamityFR.JSON
 				""translatedTooltip"": [
 					""Ne sous-estimez pas le pouvoir des petites épées de l'espace"",
 					""Tire un croissant de lune à tête chercheuse"",
-					""Créé des planétoïdes quand vous touchez""
+					""Créé des planétoïdes quand vous touchez"",
+					""Bénéficie de 33% de la statistique de vitesse en mêlée""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -3023,7 +3054,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Gamma Slime""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -3045,7 +3076,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Ghost Bell""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -3067,7 +3098,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Giant Squid""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -3089,7 +3120,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""Decreases rogue attack speed by 15% but increases damage and crit by 12% and velocity by 25%""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -3097,7 +3128,7 @@ namespace CalamityFR.JSON
 				""author"": ""Tolsyak"",
 				""translatedName"": ""Gants de Précision"",
 				""translatedTooltip"": [
-					""Réduit la vitesse d'attaque de voleur de 20% mais augmente les dégâts et les chances de coup critique de voleur de 12% et la vitesse des projectiles de 25%""
+					""Réduit la vitesse d'attaque de voleur de 15% mais augmente les dégâts et les chances de coup critique de voleur de 12% et la vitesse des projectiles de 25%""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -3112,7 +3143,7 @@ namespace CalamityFR.JSON
 			""Increases rogue attack speed by 15% but decreases damage by 10%"",
 			""Adds inaccuracy to rogue weapons""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -3120,7 +3151,7 @@ namespace CalamityFR.JSON
 				""author"": ""Tolsyak"",
 				""translatedName"": ""Gants d'Imprudence"",
 				""translatedTooltip"": [
-					""Augmente la vitesse d'attaque de voleur de 12% mais réduit les dégâts de 10%"",
+					""Augmente la vitesse d'attaque de voleur de 15% mais réduit les dégâts de 10%"",
 					""Ajoute de l'imprécision aux armes de voleur""
 				],
 				""proofRead"": false,
@@ -3135,7 +3166,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Gnasher""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -3157,7 +3188,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Gulper Eel""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -3193,12 +3224,11 @@ namespace CalamityFR.JSON
 				""translatedName"": ""Ailes Hadariennes"",
 				""translatedTooltip"": [
 					""Alimenté par l'infection astrale"",
-					""Restez appuyez sur bas durant le vol pour vous déplacer horizontalement, augmentant ainsi votre temps de vol"",
+					""This line gets modified below"",
 					""Vitesse Horizontale: 9"",
 					""Multiplicateur d'accélération: 1.75"",
 					""Bonne vitesse verticale"",
-					""Temps de vol: 120"",
-					""+10% de vitesse de mouvement et de saut si vous portez l'armure astrale""
+					""Temps de vol: 90""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -3212,7 +3242,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Hadarian""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -3234,13 +3264,16 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""50% chance to not consume gel""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": """",
+				""author"": ""Tolsyak"",
 				""translatedName"": ""Havoc's Breath"",
+				""translatedTooltip"": [
+					""50% de chances de ne pas consommer de gel""
+				],
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -3253,7 +3286,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Heat Spirit""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -3305,15 +3338,15 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""A glimpse into what will be...""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": """",
-				""translatedName"": ""Hive Mind Relic"",
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Relique de l'Esprit de Ruche"",
 				""translatedTooltip"": [
-					""A glimpse into what will be..""
+					""Un aperçu de l'avenir..""
 				],
 				""proofRead"": false,
 				""proofReader"": """"
@@ -3327,7 +3360,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Hive""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -3349,7 +3382,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Ice Clasper""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -3371,7 +3404,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Impious Immolator""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -3443,7 +3476,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Irradiated Slime""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -3492,7 +3525,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Laserfish""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -3616,7 +3649,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Luminous Corvina""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -3638,7 +3671,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Mantis""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -3660,7 +3693,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Mantis Shrimp""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -3702,7 +3735,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Melter""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -3774,7 +3807,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Mirage Jelly""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -3866,7 +3899,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Moray Eel""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -3959,7 +3992,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Nova""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -3981,7 +4014,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Nuclear Toad""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -4003,7 +4036,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Oarfish""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -4110,7 +4143,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Orthocera""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -4154,7 +4187,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Overloaded Soldier""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -4200,7 +4233,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Perennial Slime""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -4244,7 +4277,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Pestilent Slime""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -4266,7 +4299,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Phantom Spirit""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -4312,7 +4345,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Piggy""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -4334,7 +4367,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Plague Charger""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -4400,7 +4433,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Plaguebringer""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -4422,7 +4455,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Plagueshell""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -4620,7 +4653,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Profaned Energy""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -4664,7 +4697,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Radiator""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -4708,7 +4741,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Reaper Shark""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -4754,7 +4787,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Ruby Crawler""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -4851,7 +4884,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Sapphire Crawler""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -4902,7 +4935,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Scorn Eater""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -4924,7 +4957,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Scryllar""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -4969,7 +5002,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Sea Floaty""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -4991,7 +5024,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Sea Minnow""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -5013,7 +5046,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Sea Serpent""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -5035,7 +5068,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Sea Urchin""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -5110,7 +5143,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Shockstorm Shuttle""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -5221,7 +5254,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Skyfin""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -5243,7 +5276,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Small Sightseer""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -5265,7 +5298,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Soul Slurper""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -5386,7 +5419,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Stellar Culex""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -5454,7 +5487,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Stormlion""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -5525,7 +5558,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Sunskater""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -5681,7 +5714,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Topaz Crawler""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -5729,7 +5762,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Toxic Minnow""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -5751,7 +5784,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Trasher""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -5795,7 +5828,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Trilobite""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -5817,7 +5850,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Viperfish""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -5863,7 +5896,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Viruling""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -5952,7 +5985,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Water Leech""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -6071,7 +6104,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Wulfrum Drone""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -6093,7 +6126,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Wulfrum Gyrator""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -6115,7 +6148,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Wulfrum Hovercraft""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -6137,7 +6170,7 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Wulfrum Rover""
 		],
-		""state"": ""A retraduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
@@ -6179,14 +6212,14 @@ namespace CalamityFR.JSON
 		""type"": ""BUFF"",
 		""englishName"": ""Ares' Cannons"",
 		""englishDesc"": ""Pulse cannon not included"",
-		""state"": ""A traduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": """",
-				""translatedName"": ""Ares' Cannons"",
-				""translatedDesc"": ""Pulse cannon not included""
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Canons d'Arès"",
+				""translatedDesc"": ""Canon à implusion non inclus""
 			}
 		]
 	},
@@ -6195,14 +6228,14 @@ namespace CalamityFR.JSON
 		""type"": ""BUFF"",
 		""englishName"": ""Marnite Lift"",
 		""englishDesc"": ""Do you even..?"",
-		""state"": ""A traduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": """",
-				""translatedName"": ""Marnite Lift"",
-				""translatedDesc"": ""Do you even..?""
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Soulevé de Marnite"",
+				""translatedDesc"": ""Combien tu soul..?""
 			}
 		]
 	},
@@ -6211,14 +6244,14 @@ namespace CalamityFR.JSON
 		""type"": ""BUFF"",
 		""englishName"": ""Moon Fist"",
 		""englishDesc"": ""Catch these hands"",
-		""state"": ""A traduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": """",
-				""translatedName"": ""Moon Fist"",
-				""translatedDesc"": ""Catch these hands""
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Poing de Lune"",
+				""translatedDesc"": ""Attrape ces mains""
 			}
 		]
 	},
@@ -6227,14 +6260,14 @@ namespace CalamityFR.JSON
 		""type"": ""BUFF"",
 		""englishName"": ""Puff Warrior"",
 		""englishDesc"": ""It confidently and excitedly protects you"",
-		""state"": ""A traduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": """",
-				""translatedName"": ""Puff Warrior"",
-				""translatedDesc"": ""It confidently and excitedly protects you""
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Champi-Guerrier"",
+				""translatedDesc"": ""Il vous protège avec excitation et assurance""
 			}
 		]
 	},
@@ -10371,15 +10404,15 @@ namespace CalamityFR.JSON
 		""englishTooltip"": [
 			""{$CommonItemTooltip.BannerBonus}Wulfrum Amplifier""
 		],
-		""state"": ""A traduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
 				""author"": """",
-				""translatedName"": ""WulfrumAmplifierBanner"",
+				""translatedName"": ""Bannière d'Amplificateur Wulfrum"",
 				""translatedTooltip"": [
-					""{$CommonItemTooltip.BannerBonus}Wulfrum Amplifier""
+					""{$CommonItemTooltip.BannerBonus}Amplificateur Wulfrum""
 				]
 			}
 		]
@@ -10430,12 +10463,12 @@ namespace CalamityFR.JSON
 		""id"": ""Androomba"",
 		""type"": ""NPC"",
 		""englishName"": ""Androomba"",
-		""state"": ""A traduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": """",
+				""author"": ""Tolsyak"",
 				""translatedName"": ""Androomba""
 			}
 		]
@@ -10444,13 +10477,13 @@ namespace CalamityFR.JSON
 		""id"": ""AndroombaFriendly"",
 		""type"": ""NPC"",
 		""englishName"": ""Androomba Pal"",
-		""state"": ""A traduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": """",
-				""translatedName"": ""Androomba Pal""
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Pote Androomba""
 			}
 		]
 	},
@@ -10458,13 +10491,13 @@ namespace CalamityFR.JSON
 		""id"": ""HiveEnemy"",
 		""type"": ""NPC"",
 		""englishName"": ""Hive"",
-		""state"": ""A traduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": """",
-				""translatedName"": ""Hive""
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Ruche""
 			}
 		]
 	},
@@ -10472,13 +10505,13 @@ namespace CalamityFR.JSON
 		""id"": ""Nanodroid"",
 		""type"": ""NPC"",
 		""englishName"": ""Nanodroid"",
-		""state"": ""A traduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": """",
-				""translatedName"": ""Nanodroid""
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Nanodroïde""
 			}
 		]
 	},
@@ -10486,13 +10519,13 @@ namespace CalamityFR.JSON
 		""id"": ""NanodroidDysfunctional"",
 		""type"": ""NPC"",
 		""englishName"": ""Nanodroid"",
-		""state"": ""A traduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": """",
-				""translatedName"": ""Nanodroid""
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Nanodroïde""
 			}
 		]
 	},
@@ -10500,13 +10533,13 @@ namespace CalamityFR.JSON
 		""id"": ""NanodroidPlagueGreen"",
 		""type"": ""NPC"",
 		""englishName"": ""Nanodroid"",
-		""state"": ""A traduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": """",
-				""translatedName"": ""Nanodroid""
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Nanodroïde""
 			}
 		]
 	},
@@ -10514,13 +10547,13 @@ namespace CalamityFR.JSON
 		""id"": ""NanodroidPlagueRed"",
 		""type"": ""NPC"",
 		""englishName"": ""Nanodroid"",
-		""state"": ""A traduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": """",
-				""translatedName"": ""Nanodroid""
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Nanodroïde""
 			}
 		]
 	},
@@ -10528,13 +10561,13 @@ namespace CalamityFR.JSON
 		""id"": ""WulfrumAmplifier"",
 		""type"": ""NPC"",
 		""englishName"": ""Wulfrum Amplifier"",
-		""state"": ""A traduire"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": """",
-				""translatedName"": ""Wulfrum Amplifier""
+				""author"": ""Tolsyak"",
+				""translatedName"": ""Amplificateur Wulfrum""
 			}
 		]
 	},
@@ -51933,7 +51966,7 @@ namespace CalamityFR.JSON
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"", 
+				""author"": ""Tolsyak"",
 				""translatedName"": ""Démon"",
 				""proofRead"": false,
 				""proofReader"": """"
@@ -53758,42 +53791,6 @@ namespace CalamityFR.JSON
 		""id"": ""EdgyBossText3"",
 		""type"": ""TRANSLATION"",
 		""englishName"": """",
-		""englishDesc"": ""A fatal mistake!"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Une erreur fatale!"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""EdgyBossText4"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
-		""englishDesc"": ""Good luck recovering from that!"",
-		""state"": ""Traduit"",
-		""activeTranslation"": 1,
-		""translations"": [
-			{
-				""id"": 1,
-				""author"": ""Tolsyak"",
-				""translatedName"": """",
-				""translatedDesc"": ""Bonne chance pour récupérer de ça!"",
-				""proofRead"": false,
-				""proofReader"": """"
-			}
-		]
-	},
-	{
-		""id"": ""EdgyBossText5"",
-		""type"": ""TRANSLATION"",
-		""englishName"": """",
 		""englishDesc"": ""Delicious..."",
 		""state"": ""Traduit"",
 		""activeTranslation"": 1,
@@ -53809,7 +53806,7 @@ namespace CalamityFR.JSON
 		]
 	},
 	{
-		""id"": ""EdgyBossText6"",
+		""id"": ""EdgyBossText4"",
 		""type"": ""TRANSLATION"",
 		""englishName"": """",
 		""englishDesc"": ""Did that hurt?"",
@@ -53820,7 +53817,43 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": """",
-				""translatedDesc"": ""Ca t'a fait mal?"",
+				""translatedDesc"": ""Ca t'as fait mal?"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""EdgyBossText5"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""It's not over yet!"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Ce n'est pas encore terminé!"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""EdgyBossText6"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""A GOD DOES NOT FEAR DEATH!"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""UN DIEU NE CRAINT PAS LA MORT!"",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -53830,7 +53863,7 @@ namespace CalamityFR.JSON
 		""id"": ""EdgyBossText7"",
 		""type"": ""TRANSLATION"",
 		""englishName"": """",
-		""englishDesc"": ""Nothing personal, kid."",
+		""englishDesc"": ""You are no god... but I shall feast upon your essence regardless!"",
 		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
@@ -53838,7 +53871,7 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": """",
-				""translatedDesc"": ""Rien de personnel, gamin."",
+				""translatedDesc"": ""Tu n'es pas un dieu...mais peu importe, je devorerais ton âme!"",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -54622,7 +54655,7 @@ namespace CalamityFR.JSON
 		""id"": ""EdgyBossText"",
 		""type"": ""TRANSLATION"",
 		""englishName"": """",
-		""englishDesc"": ""Don't get cocky, kid!"",
+		""englishDesc"": ""Don't get cocky"",
 		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""translations"": [
@@ -54630,7 +54663,25 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": """",
-				""translatedDesc"": ""Reste à ta place, gamin!"",
+				""translatedDesc"": ""Reste à ta place"",
+				""proofRead"": false,
+				""proofReader"": """"
+			}
+		]
+	},
+	{
+		""id"": ""EdgyBossText2"",
+		""type"": ""TRANSLATION"",
+		""englishName"": """",
+		""englishDesc"": ""A fatal mistake!"",
+		""state"": ""Traduit"",
+		""activeTranslation"": 1,
+		""translations"": [
+			{
+				""id"": 1,
+				""author"": ""Tolsyak"",
+				""translatedName"": """",
+				""translatedDesc"": ""Une erreur fatale!"",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -56512,7 +56563,7 @@ namespace CalamityFR.JSON
 		""id"": ""DesertScourgeHead"",
 		""type"": ""NPC"",
 		""englishName"": ""Desert Scourge"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""If ever before you have peered out into the desert and seen entire dunes rise and fall like the waves of the sea, it is not unlikely that this is the culprit, as it bore through the sands below."",
 		""translations"": [
@@ -56602,15 +56653,15 @@ namespace CalamityFR.JSON
 		""id"": ""WildBumblefuck"",
 		""type"": ""NPC"",
 		""englishName"": ""Draconic Swarmer"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Though these creatures may look adorable, they are a vicious invasive species. If not dealt with quickly, they may drive the nearby fauna to extinction."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Essaimeur Draconique"",
-				""translatedBestiary"": ""Though these creatures may look adorable, they are a vicious invasive species. If not dealt with quickly, they may drive the nearby fauna to extinction."",
+				""translatedBestiary"": ""Bien que ces créatures puissent sembler adorables, elles sont une espèce envahissante viciseuse. Si ils ne sont pas traités rapidement, ils peuvent entraîner l'extinction de la faune environnante"",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -56620,15 +56671,15 @@ namespace CalamityFR.JSON
 		""id"": ""Draedon"",
 		""type"": ""NPC"",
 		""englishName"": ""Draedon"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""The esteemed scientist himself. His AI is uploaded into a database, far from harm, and thus destroying his recon bodies achieves nothing."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Draedon"",
-				""translatedBestiary"": ""The esteemed scientist himself. His AI is uploaded into a database, far from harm, and thus destroying his recon bodies achieves nothing."",
+				""translatedBestiary"": ""Il se considère lui même comme un scientifique. Son IA est télécharge dans une base de donnée, loin du mal, et ainsi détruire ses corps de reconnaissance n'apporte rien."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -56638,15 +56689,15 @@ namespace CalamityFR.JSON
 		""id"": ""FAP"",
 		""type"": ""NPC"",
 		""englishName"": ""Drunk Princess"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""No one knows where she came from, but no one minds her either. She’s a good person to share a drink with, given you don’t make her mad."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Princesse Ivre"",
-				""translatedBestiary"": ""No one knows where she came from, but no one minds her either. She’s a good person to share a drink with, given you don’t make her mad."",
+				""translatedBestiary"": ""Personne ne sait d'où elle vient, mais personne ne s'en soucie non plus. C'est une bonne personne avec qui partager un verre, tant que vous ne la rendez pas folle."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -56656,15 +56707,15 @@ namespace CalamityFR.JSON
 		""id"": ""Horse"",
 		""type"": ""NPC"",
 		""englishName"": ""Earth Elemental"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""It is civilization’s goal to wrest nature under its control. This is the result of one such conquest, an artificial elemental, run by clockwork gears."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Élémentaire de Terre"",
-				""translatedBestiary"": ""It is civilization’s goal to wrest nature under its control. This is the result of one such conquest, an artificial elemental, run by clockwork gears."",
+				""translatedBestiary"": ""C'est le but de la civisilation de prendre la nature sous son contrôle. Cet élémentaire est le résultat d'une de ces conquêtes, dirigé par des engranages d'horlogerie."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -56674,15 +56725,15 @@ namespace CalamityFR.JSON
 		""id"": ""EbonianBlightSlime"",
 		""type"": ""NPC"",
 		""englishName"": ""Ebonian Blight Slime"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Seemingly, these are slimes which have been given the blessing of a higher being, They seek out and devour but not for themselves, which is a rarity among slimes."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Gelée de Fléau d'Ébène"",
-				""translatedBestiary"": ""Seemingly, these are slimes which have been given the blessing of a higher being, They seek out and devour but not for themselves, which is a rarity among slimes."",
+				""translatedBestiary"": ""Apparemment,ce sont des gelées qui ont reçu la bénédiction d'un être supérieur. Ils recherchent et dévorent mais pas pour eux-même, ce qui est rare parmi les gelées."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -56692,15 +56743,15 @@ namespace CalamityFR.JSON
 		""id"": ""SplitEbonianSlimeGod"",
 		""type"": ""NPC"",
 		""englishName"": ""Ebonian Slime God"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Flanking their creator and serving as its body, these are concentrated, swirling masses of the world’s evils, each utilizing the rot and corrosion to eat away and assimilate those who oppose it."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Dieu des Gelées d'Ébène"",
-				""translatedBestiary"": ""Flanking their creator and serving as its body, these are concentrated, swirling masses of the world’s evils, each utilizing the rot and corrosion to eat away and assimilate those who oppose it."",
+				""translatedBestiary"": ""Accompagnant leur créateur et servant  de corps à ce dernier, ce sont des masses concentrées et tourbillonnantes des maux du monde, chacun utilisant la pourriture et la corrosion pour ronger et assimiler ceux qui s'y oppose."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -56710,15 +56761,15 @@ namespace CalamityFR.JSON
 		""id"": ""Eidolist"",
 		""type"": ""NPC"",
 		""englishName"": ""Eidolist"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Highly skilled in the art of spellcasting, these mysterious creatures seem to stand guard like sentinels in watch over something. Approach one close enough and you may be able to make out garbled whispers."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Eidoliste"",
-				""translatedBestiary"": ""Highly skilled in the art of spellcasting, these mysterious creatures seem to stand guard like sentinels in watch over something. Approach one close enough and you may be able to make out garbled whispers."",
+				""translatedBestiary"": ""Hautement habiles dans l'art de lancer des sorts, ces créatures mystérieuses semblent monter la garde comme des sentinelles pour surveiller quelque chose. Approchez-vous suffisamment près et vous pourrez entendre des chuchotements brouillés."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -56728,15 +56779,15 @@ namespace CalamityFR.JSON
 		""id"": ""EidolonWyrmHead"",
 		""type"": ""NPC"",
 		""englishName"": ""Eidolon Wyrm"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Among any creature ever witnessed, it is these that stray furthest from our understanding. Such grand might, such mystery…"",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Wyrm Eidolon"",
-				""translatedBestiary"": ""Among any creature ever witnessed, it is these that stray furthest from our understanding. Such grand might, such mystery…"",
+				""translatedBestiary"": ""Parmis toutes les créatures jamais observées, ce sont celles-ci qui s'éloignent le plus de notre compréhension. Une telle puissance, un tel mystère..."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -56746,15 +56797,15 @@ namespace CalamityFR.JSON
 		""id"": ""CrawlerEmerald"",
 		""type"": ""NPC"",
 		""englishName"": ""Emerald Crawler"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""A lizard, its back inundated with crystals. These provide protection, but they are easily spooked and can be harvested for the rare gems upon their backs."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Rampant d'Émeraude"",
-				""translatedBestiary"": ""A lizard, its back inundated with crystals. These provide protection, but they are easily spooked and can be harvested for the rare gems upon their backs."",
+				""translatedBestiary"": ""Un lézard, le dos inondé de cristaux. Ceux-ci offrent une protection, mais ils sont facilement effrayés et peuvent être récoltés pour les gemmes rares sur leurs dos."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -56764,15 +56815,15 @@ namespace CalamityFR.JSON
 		""id"": ""EutrophicRay"",
 		""type"": ""NPC"",
 		""englishName"": ""Eutrophic Ray"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""A stingray that spends much of its time docile on the rocky floors of the sunken sea’s pools. It stores its energy, and when endangered, can release it in short bursts of speed."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Raie Eutrophique"",
-				""translatedBestiary"": ""A stingray that spends much of its time docile on the rocky floors of the sunken sea’s pools. It stores its energy, and when endangered, can release it in short bursts of speed."",
+				""translatedBestiary"": ""Une raie pastenague qui passe une grande partie de son temps docile sur les fonds rocheux des bassins de la mer engloutie. Il stocke son énergié et, lorsqu'il est en danger, peut la libérer en de courtes accélérations."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -56782,15 +56833,15 @@ namespace CalamityFR.JSON
 		""id"": ""FearlessGoldfishWarrior"",
 		""type"": ""NPC"",
 		""englishName"": ""Fearless Goldfish Warrior"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""With its tin hat upon its head and a dagger that gleams as gold as it does, it marches out into the rain, ready for battle."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Guerrier Poisson Doré Sans Peur"",
-				""translatedBestiary"": ""With its tin hat upon its head and a dagger that gleams as gold as it does, it marches out into the rain, ready for battle."",
+				""translatedBestiary"": ""Avec son chapeau en étain sur la tête et un poignard qui brille comme lui, il marche sous la pluie, prêt au combat."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -56800,15 +56851,15 @@ namespace CalamityFR.JSON
 		""id"": ""FlakCrab"",
 		""type"": ""NPC"",
 		""englishName"": ""Flak Crab"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""A normal crab by all means, except for its shell. It has learned to gather the water around it to expel forcefully through its funnel after treatment. It is a dangerous concoction."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Crabe Flak"",
-				""translatedBestiary"": ""A normal crab by all means, except for its shell. It has learned to gather the water around it to expel forcefully through its funnel after treatment. It is a dangerous concoction."",
+				""translatedBestiary"": ""Un crabe normal sous toutes ses aspects à l'exception de sa carapace. Il a appris à recueilir l'eau autour de lui pour l'expulser avec force par son entonnoir après traitement. C'est une dangereuse préparation."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -56818,15 +56869,15 @@ namespace CalamityFR.JSON
 		""id"": ""Flounder"",
 		""type"": ""NPC"",
 		""englishName"": ""Flounder"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""These creatures do not seek out their food, but rather wait for their meals to come to them. Watch your step if you venture down into the sulphurous sea."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Sole"",
-				""translatedBestiary"": ""These creatures do not seek out their food, but rather wait for their meals to come to them. Watch your step if you venture down into the sulphurous sea."",
+				""translatedBestiary"": ""Ces créatures ne recherchent pas leur nourriture, mais attendent plutôt que leur repas vienne à elles. Faites attention si vous vous aventurez dans la mer sulfureuse."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -56836,15 +56887,15 @@ namespace CalamityFR.JSON
 		""id"": ""Frogfish"",
 		""type"": ""NPC"",
 		""englishName"": ""Frogfish"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Ambush predators that lay in wait for their prey. They are not particularly strong, and if you come across one, are dispatched with ease."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Poisson-Grenouille"",
-				""translatedBestiary"": ""Ambush predators that lay in wait for their prey. They are not particularly strong, and if you come across one, are dispatched with ease."",
+				""translatedBestiary"": ""Des prédateurs embusqués qui guettent leurs proies. Ils ne sont pas particulièrement solide, et si vous en rencontrez un, ils sont expédiés facilement."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -56854,15 +56905,15 @@ namespace CalamityFR.JSON
 		""id"": ""FusionFeeder"",
 		""type"": ""NPC"",
 		""englishName"": ""Fusion Feeder"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""A sand shark that has been taken by the astral infection. Unfamiliar with the origins of the virus, its mind is flooded with information gathered throughout the cosmos, and it thirsts for the plasma of distant stars."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Dévoreur de Fusion"",
-				""translatedBestiary"": ""A sand shark that has been taken by the astral infection. Unfamiliar with the origins of the virus, its mind is flooded with information gathered throughout the cosmos, and it thirsts for the plasma of distant stars."",
+				""translatedBestiary"": ""Un requin de sable qui a été touché par l'infection astrale. Ne connaissant pas les origines du virus, son esprit est inondé d'informations recueillies dans tout le cosmos, et il a soif du plasma d'étoiles lointaines."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -56872,15 +56923,15 @@ namespace CalamityFR.JSON
 		""id"": ""GammaSlime"",
 		""type"": ""NPC"",
 		""englishName"": ""Gamma Slime"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""As the toxins in the water of the sulphurous sea worsen, and the clouds which draw from it grow more hazardous, the slimes become ever more potent."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Gelée Gamma"",
-				""translatedBestiary"": ""As the toxins in the water of the sulphurous sea worsen, and the clouds which draw from it grow more hazardous, the slimes become ever more potent."",
+				""translatedBestiary"": ""Au fur et à mesure que les toxines dans l'eau de la mer sulfureuse s'aggravent et que les nuages ​​​​qui en tirent deviennent plus dangereux, les gelées deviennent de plus en plus puissantes."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -56890,15 +56941,15 @@ namespace CalamityFR.JSON
 		""id"": ""GhostBell"",
 		""type"": ""NPC"",
 		""englishName"": ""Ghost Bell"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Ethereal jellyfish that drift in the still water of the sunken sea. Their bodies are curiously charged with an electric current."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Cloche Fantôme"",
-				""translatedBestiary"": ""Ethereal jellyfish that drift in the still water of the sunken sea. Their bodies are curiously charged with an electric current."",
+				""translatedBestiary"": ""Des méduses éthérées qui dérivent dans l'eau calme de la mer engloutie. Leurs corps sont curieusement chargés d'un courant électrique."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -56908,15 +56959,15 @@ namespace CalamityFR.JSON
 		""id"": ""GiantClam"",
 		""type"": ""NPC"",
 		""englishName"": ""Giant Clam"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""This oversized clam is large enough to entrap a person or two whole. Thankfully, it has only taken turf in the lowest regions of the sunken sea."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Palourde Géante"",
-				""translatedBestiary"": ""This oversized clam is large enough to entrap a person or two whole. Thankfully, it has only taken turf in the lowest regions of the sunken sea."",
+				""translatedBestiary"": ""Cette palourde surdimensionnée est assez grande pour piéger une personne ou deux. Heureusement, il n'a pris terrain que dans les régions les plus basses de la mer engloutie."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -56926,15 +56977,15 @@ namespace CalamityFR.JSON
 		""id"": ""GiantSquid"",
 		""type"": ""NPC"",
 		""englishName"": ""Giant Squid"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""A massive squid, having gained its size from the abundance of prey and little competition in its habitat. Its eyes are specially adapted to seeking out prey in the darkness."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Calamar Géant"",
-				""translatedBestiary"": ""A massive squid, having gained its size from the abundance of prey and little competition in its habitat. Its eyes are specially adapted to seeking out prey in the darkness."",
+				""translatedBestiary"": ""Un calmar massif, ayant gagné sa taille grâce à l'abondance de proies et au peu de concurrence dans son habitat. Ses yeux sont spécialement adaptés à la recherche de proies dans l'obscurité."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -56944,15 +56995,15 @@ namespace CalamityFR.JSON
 		""id"": ""Gnasher"",
 		""type"": ""NPC"",
 		""englishName"": ""Gnasher"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""A turtle that has had its shell encrusted by the filth of the sulphurous sea. For an animal of its size, its jaws have a nearly unmatched biting strength."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Grinceur"",
-				""translatedBestiary"": ""A turtle that has had its shell encrusted by the filth of the sulphurous sea. For an animal of its size, its jaws have a nearly unmatched biting strength."",
+				""translatedBestiary"": ""Une tortue dont la carapace a été incrustée par les immondices de la mer sulfureuse. Pour un animal de sa taille, ses mâchoires ont une force presque inégalée."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -56962,7 +57013,7 @@ namespace CalamityFR.JSON
 		""id"": ""GreatSandShark"",
 		""type"": ""NPC"",
 		""englishName"": ""Great Sand Shark"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""One wonders if there is a limit to the persistence of sharks in their quest to survive. In the very opposite of their usual climate, they have conquered too. It is a miracle that none yet have grown wings."",
 		""translations"": [
@@ -56980,7 +57031,7 @@ namespace CalamityFR.JSON
 		""id"": ""ProfanedGuardianCommander"",
 		""type"": ""NPC"",
 		""englishName"": ""Guardian Commander"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""When it turns its burning spear towards anything, its simple mind has a clear goal. To entirely eradicate the enemy."",
 		""translations"": [
@@ -56998,7 +57049,7 @@ namespace CalamityFR.JSON
 		""id"": ""ProfanedGuardianDefender"",
 		""type"": ""NPC"",
 		""englishName"": ""Guardian Defender"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""The body it has formed boasts of a stone shell hallowed and tempered by the flames of the sun. Very little can fully shatter its defense."",
 		""translations"": [
@@ -57016,7 +57067,7 @@ namespace CalamityFR.JSON
 		""id"": ""ProfanedGuardianHealer"",
 		""type"": ""NPC"",
 		""englishName"": ""Guardian Healer"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Its crystal which is displayed prominently on its body is able to restore damage done to its kin, and it draws that damage into flares which steal your life."",
 		""translations"": [
@@ -57034,7 +57085,7 @@ namespace CalamityFR.JSON
 		""id"": ""GulperEelHead"",
 		""type"": ""NPC"",
 		""englishName"": ""Gulper Eel"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Massive in length and in breadth, this eel resides in the deeper caverns of the abyss. Its jaws have the curious ability to hyperextend and swallow nearly any prey it sets its eyes upon."",
 		""translations"": [
@@ -57052,7 +57103,7 @@ namespace CalamityFR.JSON
 		""id"": ""Hadarian"",
 		""type"": ""NPC"",
 		""englishName"": ""Hadarian"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""The membrane of their wings is particularly tough, for material so thin. It has been known to guard them against burns and projectiles as they mercilessly tear at their foes."",
 		""translations"": [
@@ -57070,15 +57121,15 @@ namespace CalamityFR.JSON
 		""id"": ""HeatSpirit"",
 		""type"": ""NPC"",
 		""englishName"": ""Heat Spirit"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""A human spirit, its mind lost to the blazing orange fires of its dwelling. It seeks out and attempts to eliminate any source of moisture it can detect entering the hellscape."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Esprit de Chaleur"",
-				""translatedBestiary"": ""A human spirit, its mind lost to the blazing orange fires of its dwelling. It seeks out and attempts to eliminate any source of moisture it can detect entering the hellscape."",
+				""translatedBestiary"": ""Un esprit humain qui a perdu son esprit dans les feux orange flamboyants de sa demeure. Il recherche et tente d'éliminer toute source d'humidité qu'il peut détecter entrant dans le paysage infernal."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57088,15 +57139,15 @@ namespace CalamityFR.JSON
 		""id"": ""Hive"",
 		""type"": ""NPC"",
 		""englishName"": ""Hive"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""These seem to erupt from the caverns of the astral itself. The flesh of their hosts twists into a spiral and countless bodies make up the pulsing flesh of the hive."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Ruche"",
-				""translatedBestiary"": ""These seem to erupt from the caverns of the astral itself. The flesh of their hosts twists into a spiral and countless bodies make up the pulsing flesh of the hive."",
+				""translatedBestiary"": ""Celles-ci semblent jaillir des cavernes de l'astral lui-même. La chair de leurs hôtes se tord en spirale et d'innombrables corps composent la chair palpitante de la ruche."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57106,15 +57157,15 @@ namespace CalamityFR.JSON
 		""id"": ""HiveBlob"",
 		""type"": ""NPC"",
 		""englishName"": ""Hive Blob"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""A ball of flesh and rotting matter, it is flung out by the hive mind towards its enemies as fodder, to wear down any who stand in their way."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Goutte de Ruche"",
-				""translatedBestiary"": ""A ball of flesh and rotting matter, it is flung out by the hive mind towards its enemies as fodder, to wear down any who stand in their way."",
+				""translatedBestiary"": ""Une boule de chair et de matière en décomposition, elle est jetée par l'esprit de la ruche vers ses ennemis comme du gourrage, pour épuiser tous ceux qui se dressent sur leur chemin."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57124,15 +57175,15 @@ namespace CalamityFR.JSON
 		""id"": ""HiveCyst"",
 		""type"": ""NPC"",
 		""englishName"": ""Hive Cyst"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""The blemish of a colonial superorganism, the mass of organic matter pulses like a heart. The growth is the result of the corruption’s beings forming together."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Kyste de Ruche"",
-				""translatedBestiary"": ""The blemish of a colonial superorganism, the mass of organic matter pulses like a heart. The growth is the result of the corruption’s beings forming together."",
+				""translatedBestiary"": ""Terreur d'un superorganisme colonial, la masse de matière organique bat comme un cœur. La croissance est le résultat des êtres de la corruption qui se forment ensemble."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57142,15 +57193,15 @@ namespace CalamityFR.JSON
 		""id"": ""Hiveling"",
 		""type"": ""NPC"",
 		""englishName"": ""Hiveling"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""A small creature, one entirely original to the astral infection, save for a tiny core of organic material it takes from the host Hive. They are easily squashed but swarm if endangered."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Pestelin"",
-				""translatedBestiary"": ""A small creature, one entirely original to the astral infection, save for a tiny core of organic material it takes from the host Hive. They are easily squashed but swarm if endangered."",
+				""translatedBestiary"": ""Une petite créature, entièrement originaire de l'infection astrale, à l'expception d'un minuscule noyau de matière organique qu'elle prélève sur la ruche hôte. Ils sont facilement écrasés mais pullulent s'ils sont en danger."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57160,15 +57211,15 @@ namespace CalamityFR.JSON
 		""id"": ""IceClasper"",
 		""type"": ""NPC"",
 		""englishName"": ""Ice Clasper"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""An enemy which knows no bounds in hunting its prey. In blizzards where visibility is low, they have been known to glaciate and capture travelers. What happens to the victims is unknown."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Claspeur de Glace"",
-				""translatedBestiary"": ""An enemy which knows no bounds in hunting its prey. In blizzards where visibility is low, they have been known to glaciate and capture travelers. What happens to the victims is unknown."",
+				""translatedBestiary"": ""Un ennemi qui ne connaît pas de limites dans la chasse à sa proie. Dans les blizzards où la visibilité est faible, ils sont connus pour glacer et capturer les voyageurs. Ce qu'il advient des victimes est inconnu."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57178,15 +57229,15 @@ namespace CalamityFR.JSON
 		""id"": ""ImpiousImmolator"",
 		""type"": ""NPC"",
 		""englishName"": ""Impious Immolator"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""A burning spirit, with no regard or acknowledgment for its surroundings. Anyone who intrudes upon the Profaned Goddess’ holy grounds will be turned to ash."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Immolateur Impie"",
-				""translatedBestiary"": ""A burning spirit, with no regard or acknowledgment for its surroundings. Anyone who intrudes upon the Profaned Goddess’ holy grounds will be turned to ash."",
+				""translatedBestiary"": ""Un esprit brûlant, sans égard ni reconnaissance pour son environnement. Quiconque empiète sur les terres sacrées de la Déesse Profanée sera réduit en cendres."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57196,15 +57247,15 @@ namespace CalamityFR.JSON
 		""id"": ""IrradiatedSlime"",
 		""type"": ""NPC"",
 		""englishName"": ""Irradiated Slime"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Encrusted with gunk that evaporates slowly from the sulphurous sea, these slimes actually form in the upper atmosphere’s acidic rain, before falling back to the earth."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Gelée Irradiée"",
-				""translatedBestiary"": ""Encrusted with gunk that evaporates slowly from the sulphurous sea, these slimes actually form in the upper atmosphere’s acidic rain, before falling back to the earth."",
+				""translatedBestiary"": ""Incrustées de crasse qui s'évapore lentement de la mer sulfureuse, ces gelées se forment en réalité sous les pluies acides de la haute atmosphère, avant de retomber sur la terre."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57214,15 +57265,15 @@ namespace CalamityFR.JSON
 		""id"": ""Yharon"",
 		""type"": ""NPC"",
 		""englishName"": ""Jungle Dragon, Yharon"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Perhaps… the last of its kind. It could decimate this Jungle in an instant if it wished, however, it seems to take great care in not doing so."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Dragon de la Jungle, Yharon"",
-				""translatedBestiary"": ""Perhaps… the last of its kind. It could decimate this Jungle in an instant if it wished, however, it seems to take great care in not doing so."",
+				""translatedBestiary"": ""Peut-être… le dernier du genre. Il pourrait décimer cette Jungle en un instant s'il le souhaitait, cependant, il semble prendre grand soin de ne pas le faire."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57232,15 +57283,15 @@ namespace CalamityFR.JSON
 		""id"": ""Laserfish"",
 		""type"": ""NPC"",
 		""englishName"": ""Laserfish"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Its eyes are blinded by bacteria that gather in large sacs on its head. As it swims through the waters, relying on primitive echolocation, the bacteria are able to release concussive blasts to clear its path."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Poisson-Laser"",
-				""translatedBestiary"": ""Its eyes are blinded by bacteria that gather in large sacs on its head. As it swims through the waters, relying on primitive echolocation, the bacteria are able to release concussive blasts to clear its path."",
+				""translatedBestiary"": ""Ses yeux sont aveuglés par des bactéries qui se rassemblent dans de grands sacs sur sa tête. Alors qu'elle nage dans les eaux, en s'appuyant sur l'écholocation primitive, la bactérie est capable de libérer des explosions commotionnelles pour se frayer un chemin."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57250,15 +57301,15 @@ namespace CalamityFR.JSON
 		""id"": ""LuminousCorvina"",
 		""type"": ""NPC"",
 		""englishName"": ""Luminous Corvina"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""This fish has a peculiar defense mechanism. When a threat such as yourself enters its field of view, it releases a shrill pulse alerting others to not its presence— but yours."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Corvina Lumineuse"",
-				""translatedBestiary"": ""This fish has a peculiar defense mechanism. When a threat such as yourself enters its field of view, it releases a shrill pulse alerting others to not its presence— but yours."",
+				""translatedBestiary"": ""TCe poisson a un mécanisme de défense particulier. Lorsqu'une menace telle que vous entre dans son champ de vision, elle émet une impulsion stridente alertant les autres non pas de sa présence, mais de la vôtre."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57268,15 +57319,15 @@ namespace CalamityFR.JSON
 		""id"": ""Mantis"",
 		""type"": ""NPC"",
 		""englishName"": ""Mantis"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""A nimble mutation of the astral infection, its many legs allow it to quickly traverse nearly any terrain the infection devours. By swinging its front claws at high speeds, it releases harmful blades of energy."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Mante"",
-				""translatedBestiary"": ""A nimble mutation of the astral infection, its many legs allow it to quickly traverse nearly any terrain the infection devours. By swinging its front claws at high speeds, it releases harmful blades of energy."",
+				""translatedBestiary"": ""Mutation agile de l'infection astrale, ses nombreuses pattes lui permettent de traverser rapidement presque tous les terrains dévorés par l'infection. En balançant ses griffes avant à grande vitesse, il libère des lames d'énergie nocives."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57286,7 +57337,7 @@ namespace CalamityFR.JSON
 		""id"": ""MantisShrimp"",
 		""type"": ""NPC"",
 		""englishName"": ""Mantis Shrimp"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Should it land a blow with its rounded front claws, it will tear your flesh and shatter your bones. Needless to say, avoid this at all costs."",
 		""translations"": [
@@ -57294,7 +57345,7 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": ""Mante Crevette"",
-				""translatedBestiary"": ""Should it land a blow with its rounded front claws, it will tear your flesh and shatter your bones. Needless to say, avoid this at all costs."",
+				""translatedBestiary"": ""S'il porte un coup avec ses griffes avant arrondies, il vous déchirera la chair et brisera vos os. Inutile de dire qu'il faut éviter cela à tout prix."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57304,15 +57355,15 @@ namespace CalamityFR.JSON
 		""id"": ""Mauler"",
 		""type"": ""NPC"",
 		""englishName"": ""Mauler"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Sharks are perhaps one of the most resilient and well-adapted species in our planet’s history. It is no surprise that one of these apex predators has come to thrive in these seas."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Mutilateur"",
-				""translatedBestiary"": ""Sharks are perhaps one of the most resilient and well-adapted species in our planet’s history. It is no surprise that one of these apex predators has come to thrive in these seas."",
+				""translatedBestiary"": ""Les requins sont peut-être l'une des espèces les plus résistantes et les mieux adaptées de l'histoire de notre planète. Il n'est pas surprenant que l'un de ces grands prédateurs ait prospéré dans ces mers."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57322,15 +57373,15 @@ namespace CalamityFR.JSON
 		""id"": ""Melter"",
 		""type"": ""NPC"",
 		""englishName"": ""Melter"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Its face is warped and softened by the corrosive effects of the plague nanobots, and it seeks to share that uncomfortable fate with others under both its own will, and the plague’s."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Fondeur"",
-				""translatedBestiary"": ""Its face is warped and softened by the corrosive effects of the plague nanobots, and it seeks to share that uncomfortable fate with others under both its own will, and the plague’s."",
+				""translatedBestiary"": ""Son visage est déformé et adouci par les effets corrosifs des nanorobots de la peste, et il cherche à partager ce destin inconfortable avec les autres sous sa propre volonté et celle de la peste."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57340,15 +57391,15 @@ namespace CalamityFR.JSON
 		""id"": ""MirageJelly"",
 		""type"": ""NPC"",
 		""englishName"": ""Mirage Jelly"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""In the encapsulating darkness of the abyss, a drifting purple light that seems to ignore all physical boundaries is likely one of these. Many even doubt their existence and blame it on the rapture of the deep."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Gelée Mirage"",
-				""translatedBestiary"": ""In the encapsulating darkness of the abyss, a drifting purple light that seems to ignore all physical boundaries is likely one of these. Many even doubt their existence and blame it on the rapture of the deep."",
+				""translatedBestiary"": ""Dans l'obscurité encapsulante de l'abîme, une lumière violette à la dérive qui semble ignorer toutes les frontières physiques est probablement l'une d'entre elles. Beaucoup doutent même de leurs existence et la blâment sur le ravissement des profondeurs."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57358,15 +57409,15 @@ namespace CalamityFR.JSON
 		""id"": ""MorayEel"",
 		""type"": ""NPC"",
 		""englishName"": ""Moray Eel"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Their eyes gleam with hunger, and they inhabit the rocks of underwater structures when at rest, only occasionally roaming the open waters."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Murène"",
-				""translatedBestiary"": ""Their eyes gleam with hunger, and they inhabit the rocks of underwater structures when at rest, only occasionally roaming the open waters."",
+				""translatedBestiary"": ""Leurs yeux brillent de faim et ils habitent les rochers des structures sous-marines lorsqu'ils se reposent, ne parcourant qu'occasionnellement les eaux libres."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57376,15 +57427,15 @@ namespace CalamityFR.JSON
 		""id"": ""Nova"",
 		""type"": ""NPC"",
 		""englishName"": ""Nova"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""The process of forced biological mutation is potent with the astral virus, and the byproducts are volatile. Most creatures discharge this chemical gradually and lose that liability— but a Nova stores it."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Nova"",
-				""translatedBestiary"": ""The process of forced biological mutation is potent with the astral virus, and the byproducts are volatile. Most creatures discharge this chemical gradually and lose that liability— but a Nova stores it."",
+				""translatedBestiary"": ""Le processus de mutation biologique forcée est puissant avec le virus astral, et les sous-produits sont volatils. La plupart des créatures déchargent ce produit chimique progressivement et perdent cette responsabilité, mais la Nova le stocke."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57394,15 +57445,15 @@ namespace CalamityFR.JSON
 		""id"": ""NuclearTerror"",
 		""type"": ""NPC"",
 		""englishName"": ""Nuclear Terror"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Perhaps it was once just a simple crab or perhaps there are plenty of others like it, lurking in the depths. Any answer is sure to make you want to never set foot in the sulphurous sea again."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Terreur Nucléaire"",
-				""translatedBestiary"": ""Perhaps it was once just a simple crab or perhaps there are plenty of others like it, lurking in the depths. Any answer is sure to make you want to never set foot in the sulphurous sea again."",
+				""translatedBestiary"": ""Peut-être n'était-ce autrefois qu'un simple crabe ou peut-être qu'il y en a beaucoup d'autres comme lui, cachés dans les profondeurs. Toutes réponses vous donnera envie de ne plus jamais remettre les pieds dans la mer sulfureuse."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57412,15 +57463,15 @@ namespace CalamityFR.JSON
 		""id"": ""NuclearToad"",
 		""type"": ""NPC"",
 		""englishName"": ""Nuclear Toad"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""When threatened underwater they rapidly inflate and bob to the surface. As a last resort, they forcefully burst themselves. Their selfless goal is the prolonged survival of their kin."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Crapaud Nucléaire"",
-				""translatedBestiary"": ""When threatened underwater they rapidly inflate and bob to the surface. As a last resort, they forcefully burst themselves. Their selfless goal is the prolonged survival of their kin."",
+				""translatedBestiary"": ""Lorsqu'ils sont menacés sous l'eau, ils se gonflent rapidement et remontent à la surface. En cas de dernier recours, ils s'éclatent de force. Leur objectif désintéressé est la survie prolongée de leurs proches."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57430,15 +57481,15 @@ namespace CalamityFR.JSON
 		""id"": ""OarfishHead"",
 		""type"": ""NPC"",
 		""englishName"": ""Oarfish"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""A peculiar bony fish many have only ever seen as corpses washed up on a beach, but in their natural habitat, their red fins stream behind them, as they drift in the water column."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Poisson-Ruban"",
-				""translatedBestiary"": ""A peculiar bony fish many have only ever seen as corpses washed up on a beach, but in their natural habitat, their red fins stream behind them, as they drift in the water column."",
+				""translatedBestiary"": ""Un poisson osseux particulier que beaucoup n'ont jamais vu que comme des cadavres échoués sur une plage, mais dans leur habitat naturel, leurs nageoires rouges coulent derrière eux, alors qu'ils dérivent dans la colonne d'eau."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57448,15 +57499,15 @@ namespace CalamityFR.JSON
 		""id"": ""Orthocera"",
 		""type"": ""NPC"",
 		""englishName"": ""Orthocera"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Within the muck of the sulphurous sea, it is not uncommon to find creatures from ages past, their bodies entirely preserved. It seems that not all simply passed away."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Orthocère"",
-				""translatedBestiary"": ""Within the muck of the sulphurous sea, it is not uncommon to find creatures from ages past, their bodies entirely preserved. It seems that not all simply passed away."",
+				""translatedBestiary"": ""Dans la boue de la mer sulfureuse, il n'est pas rare de trouver des créatures d'une époque ancienne, leurs corps entièrement préservés. Il semble que tous ne sont pas simplement décédés."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57466,15 +57517,15 @@ namespace CalamityFR.JSON
 		""id"": ""OverloadedSoldier"",
 		""type"": ""NPC"",
 		""englishName"": ""Overloaded Soldier"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Phantoplasm bulges through the corroded armor in the place of rotting flesh, as this creature reanimated by vengeful spirits treks the caverns of the world."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Soldat Surchargé"",
-				""translatedBestiary"": ""Phantoplasm bulges through the corroded armor in the place of rotting flesh, as this creature reanimated by vengeful spirits treks the caverns of the world."",
+				""translatedBestiary"": ""Le fantoplasme se gonfle à travers l'armure corrodée à la place de la chair en décomposition, alors que cette créature réanimée par des esprits vengeurs parcourt les cavernes du mondes."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57484,15 +57535,15 @@ namespace CalamityFR.JSON
 		""id"": ""PerennialSlime"",
 		""type"": ""NPC"",
 		""englishName"": ""Perennial Slime"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Slimes, from their time spent wobbling about the undergrowth, are full of nutrients, which would well support plant life. Many accept these growths and have been seen to carry blossoms."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Gelée Vivace"",
-				""translatedBestiary"": ""Slimes, from their time spent wobbling about the undergrowth, are full of nutrients, which would well support plant life. Many accept these growths and have been seen to carry blossoms."",
+				""translatedBestiary"": ""Les gelée, de par leurs temps passé à vaciller dans les sous-bois, regorgent de nutriments, qui surporteraient bien la vie végétale. Beaucoup acceptent ces exroissances et ont été vus portant des fleurs."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57502,15 +57553,15 @@ namespace CalamityFR.JSON
 		""id"": ""PerforatorCyst"",
 		""type"": ""NPC"",
 		""englishName"": ""Perforator Cyst"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""A pulsing patch of anarchistic eyes and teeth. It is the culmination of the crimson’s flesh and should be avoided at all costs."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Kyste de Perforateur"",
-				""translatedBestiary"": ""A pulsing patch of anarchistic eyes and teeth. It is the culmination of the crimson’s flesh and should be avoided at all costs."",
+				""translatedBestiary"": ""Une tache palpitante d'yeux et de dents anarchistes. C'est l'aboutissement de la chair cramoisie et il doit être évité à tout prix."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57520,15 +57571,15 @@ namespace CalamityFR.JSON
 		""id"": ""PestilentSlime"",
 		""type"": ""NPC"",
 		""englishName"": ""Pestilent Slime"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""A slime infested by the nanobots of the plague. With no directive the plague can naturally apply to it, it simply continues its life, corroding anything which approaches."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Gelée Pestilentielle"",
-				""translatedBestiary"": ""A slime infested by the nanobots of the plague. With no directive the plague can naturally apply to it, it simply continues its life, corroding anything which approaches."",
+				""translatedBestiary"": ""Une gelée infesté par les nanobots de la peste. En l'absence de directive, la peste peut naturellement s'appliquer à elle, elle continue simplement sa vie, corrodant tout ce qui s'approche."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57538,15 +57589,15 @@ namespace CalamityFR.JSON
 		""id"": ""PhantomSpiritS"",
 		""type"": ""NPC"",
 		""englishName"": ""Phantom Spirit"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Spirits which turned upon one another, cannibalizing others in their mindless frustrated frenzies. There is precedent in the past, for spirits which have devoured enough of others, to grow astoundingly in power."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Esprit Fantôme"",
-				""translatedBestiary"": ""Spirits which turned upon one another, cannibalizing others in their mindless frustrated frenzies. There is precedent in the past, for spirits which have devoured enough of others, to grow astoundingly in power."",
+				""translatedBestiary"": ""Des esprits qui se sont retournés les uns contre les autres, cannibalisant les autres dans leurs frénésies frustrées et insensées. Une rumeur ancienne dit que lorsque des esprits ont assez dévorés les autres, ils obtiennent plus de puissance."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57556,15 +57607,15 @@ namespace CalamityFR.JSON
 		""id"": ""PhantomSpiritL"",
 		""type"": ""NPC"",
 		""englishName"": ""Phantom Spirit"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Spirits which turned upon one another, cannibalizing others in their mindless frustrated frenzies. There is precedent in the past, for spirits which have devoured enough of others, to grow astoundingly in power."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Esprit Fantôme"",
-				""translatedBestiary"": ""Spirits which turned upon one another, cannibalizing others in their mindless frustrated frenzies. There is precedent in the past, for spirits which have devoured enough of others, to grow astoundingly in power."",
+				""translatedBestiary"": ""Des esprits qui se sont retournés les uns contre les autres, cannibalisant les autres dans leurs frénésies frustrées et insensées. Une rumeur ancienne dit que lorsque des esprits ont assez dévorés les autres, ils obtiennent plus de puissance."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57574,15 +57625,15 @@ namespace CalamityFR.JSON
 		""id"": ""PhantomSpiritM"",
 		""type"": ""NPC"",
 		""englishName"": ""Phantom Spirit"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Spirits which turned upon one another, cannibalizing others in their mindless frustrated frenzies. There is precedent in the past, for spirits which have devoured enough of others, to grow astoundingly in power."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Esprit Fantôme"",
-				""translatedBestiary"": ""Spirits which turned upon one another, cannibalizing others in their mindless frustrated frenzies. There is precedent in the past, for spirits which have devoured enough of others, to grow astoundingly in power."",
+				""translatedBestiary"": ""Des esprits qui se sont retournés les uns contre les autres, cannibalisant les autres dans leurs frénésies frustrées et insensées. Une rumeur ancienne dit que lorsque des esprits ont assez dévorés les autres, ils obtiennent plus de puissance."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57592,15 +57643,15 @@ namespace CalamityFR.JSON
 		""id"": ""PhantomSpirit"",
 		""type"": ""NPC"",
 		""englishName"": ""Phantom Spirit"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Spirits which turned upon one another, cannibalizing others in their mindless frustrated frenzies. There is precedent in the past, for spirits which have devoured enough of others, to grow astoundingly in power."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Esprit Fantôme"",
-				""translatedBestiary"": ""Spirits which turned upon one another, cannibalizing others in their mindless frustrated frenzies. There is precedent in the past, for spirits which have devoured enough of others, to grow astoundingly in power."",
+				""translatedBestiary"": ""Des esprits qui se sont retournés les uns contre les autres, cannibalisant les autres dans leurs frénésies frustrées et insensées. Une rumeur ancienne dit que lorsque des esprits ont assez dévorés les autres, ils obtiennent plus de puissance."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57610,15 +57661,15 @@ namespace CalamityFR.JSON
 		""id"": ""Piggy"",
 		""type"": ""NPC"",
 		""englishName"": ""Piggy"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Pigs are greedy little beasts. If they come across anything they could barely fathom as food, they will scarf it down in a blink."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Peggy"",
-				""translatedBestiary"": ""Pigs are greedy little beasts. If they come across anything they could barely fathom as food, they will scarf it down in a blink."",
+				""translatedBestiary"": ""Les cochons sont de petites bêtes gourmandes. S'ils rencontrent quelque chose qu'ils peuvent à peine imaginer comme de la nourriture, ils le réduiront en un clin d'œil."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57628,15 +57679,15 @@ namespace CalamityFR.JSON
 		""id"": ""PlagueChargerLarge"",
 		""type"": ""NPC"",
 		""englishName"": ""Plague Charger"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""While hornets on their own are known for aggressive defense of their territory, once they have been warped by the plague, their sense of their dominion reaches ever further."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Chargeur de Peste"",
-				""translatedBestiary"": ""While hornets on their own are known for aggressive defense of their territory, once they have been warped by the plague, their sense of their dominion reaches ever further."",
+				""translatedBestiary"": ""Alors que les frelons sont connus pour leur défense agressive de leur territoire, une fois qu'ils ont été déformés par la peste, leur sens de leur domination va toujours plus loin."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57646,15 +57697,15 @@ namespace CalamityFR.JSON
 		""id"": ""PlagueCharger"",
 		""type"": ""NPC"",
 		""englishName"": ""Plague Charger"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""While hornets on their own are known for aggressive defense of their territory, once they have been warped by the plague, their sense of their dominion reaches ever further."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Chargeur de Peste"",
-				""translatedBestiary"": ""While hornets on their own are known for aggressive defense of their territory, once they have been warped by the plague, their sense of their dominion reaches ever further."",
+				""translatedBestiary"": ""Alors que les frelons sont connus pour leur défense agressive de leur territoire, une fois qu'ils ont été déformés par la peste, leur sens de leur domination va toujours plus loin."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57664,15 +57715,15 @@ namespace CalamityFR.JSON
 		""id"": ""PlaguebringerMiniboss"",
 		""type"": ""NPC"",
 		""englishName"": ""Plaguebringer"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Queen Bees are reared upon royal honey, raising them into the matriarchs they are. If during the process, their growth is hijacked by the plague, they are left as only a pathetic reminder of what they could have been."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Colporte-Peste"",
-				""translatedBestiary"": ""Queen Bees are reared upon royal honey, raising them into the matriarchs they are. If during the process, their growth is hijacked by the plague, they are left as only a pathetic reminder of what they could have been."",
+				""translatedBestiary"": ""Les reines des abeilles sont élevées sur du miel royal, les élevant dans les matriarches qu'elles sont. Si au cours du processus, leur croissance est détournée par la peste, il ne leur reste plus qu'un rappel pathétique de ce qu'ils auraient pu être."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57682,15 +57733,15 @@ namespace CalamityFR.JSON
 		""id"": ""Plagueshell"",
 		""type"": ""NPC"",
 		""englishName"": ""Plagueshell"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""In truth, once a jungle tortoise has been touched by the plague, its original shell disintegrates, and the thorny shield it now wields is constructed entirely of reinforced nanobots."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Carapeste"",
-				""translatedBestiary"": ""In truth, once a jungle tortoise has been touched by the plague, its original shell disintegrates, and the thorny shield it now wields is constructed entirely of reinforced nanobots."",
+				""translatedBestiary"": ""En vérité, une fois qu'une tortue de la jungle a été touchée par la peste, sa carapace d'origine se désintègre et le bouclier épineux qu'elle brandit maintenant deviens entièrement constitué de nanobots renforcés."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57700,15 +57751,15 @@ namespace CalamityFR.JSON
 		""id"": ""Polterghast"",
 		""type"": ""NPC"",
 		""englishName"": ""Polterghast"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Screaming and crying, a cacophony of spirits in anguish tear through the narrow hallways of the dungeon, searching for more—alive or dead—to add to their numbers."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Épouvantôme"",
-				""translatedBestiary"": ""Screaming and crying, a cacophony of spirits in anguish tear through the narrow hallways of the dungeon, searching for more—alive or dead—to add to their numbers."",
+				""translatedBestiary"": ""Criant et pleurant, une cacophonie d'esprits angoissés se déchire dans les couloirs étroits du donjon, à la recherche d'autres âmes – vivants ou morts – à ajouter à leur nombre."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57718,15 +57769,15 @@ namespace CalamityFR.JSON
 		""id"": ""PrismBack"",
 		""type"": ""NPC"",
 		""englishName"": ""Prism-Back"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Rather slow swimmers, they are one of the few creatures that need to breach. They periodically swim to the upper layer of their habitat to lay their eggs."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Dos-Prisme"",
-				""translatedBestiary"": ""Rather slow swimmers, they are one of the few creatures that need to breach. They periodically swim to the upper layer of their habitat to lay their eggs."",
+				""translatedBestiary"": ""Nageurs plutôt lents, ils font partie des rares créatures qui ont besoin de percer. Ils nagent périodiquement vers la couche supérieure de leur habitat pour pondre leurs œufs."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57736,15 +57787,15 @@ namespace CalamityFR.JSON
 		""id"": ""ProfanedEnergyBody"",
 		""type"": ""NPC"",
 		""englishName"": ""Profaned Energy"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""A living altar, close to the heart of the Profaned Goddess. From the crystal in its stand, flames lash out into the world, to burn the unfaithful."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Énergie Profanée"",
-				""translatedBestiary"": ""A living altar, close to the heart of the Profaned Goddess. From the crystal in its stand, flames lash out into the world, to burn the unfaithful."",
+				""translatedBestiary"": ""Un autel vivant, proche du cœur de la Déesse Profanée. Du cristal sur son support, des flammes jaillissent dans le monde, pour brûler les infidèles."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57754,15 +57805,15 @@ namespace CalamityFR.JSON
 		""id"": ""Providence"",
 		""type"": ""NPC"",
 		""englishName"": ""Providence, the Profaned Goddess"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""A deity of stone and fire. Her flame burns for one reason alone— to cleanse the world of its sinful existence, and to purify those who live upon it."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Providence, la Déesse Profanée"",
-				""translatedBestiary"": ""A deity of stone and fire. Her flame burns for one reason alone— to cleanse the world of its sinful existence, and to purify those who live upon it."",
+				""translatedBestiary"": ""Une divinité de pierre et de feu. Sa flamme brûle pour une seule raison : nettoyer le monde de son existence pécheresse et purifier ceux qui y vivent."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57772,15 +57823,15 @@ namespace CalamityFR.JSON
 		""id"": ""Radiator"",
 		""type"": ""NPC"",
 		""englishName"": ""Radiator"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Like many other sea slugs, it ingests toxins from its environments and displays them along its back in a flashy display. The toxins in the sulphurous sea however, are a bit more potent than others."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Radiateur"",
-				""translatedBestiary"": ""Like many other sea slugs, it ingests toxins from its environments and displays them along its back in a flashy display. The toxins in the sulphurous sea however, are a bit more potent than others."",
+				""translatedBestiary"": ""Comme beaucoup d'autres limaces de mer, il ingère les toxines de son environnement et les affiche le long de son dos dans un affichage flashy. Les toxines de la mer sulfureuse sont cependant un peu plus puissantes que les autres."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57790,15 +57841,15 @@ namespace CalamityFR.JSON
 		""id"": ""RavagerBody"",
 		""type"": ""NPC"",
 		""englishName"": ""Ravager"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Flames roar from what almost appear to be the parapets of a rotting fortress. You will know when it is approaching downwind, from the smell alone."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Ravageur"",
-				""translatedBestiary"": ""Flames roar from what almost appear to be the parapets of a rotting fortress. You will know when it is approaching downwind, from the smell alone."",
+				""translatedBestiary"": ""Des flammes rugissent de ce qui semble presque être les parapets d'une forteresse en décomposition. Vous saurez quand il approche, rien qu'à l'odeur."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57808,15 +57859,15 @@ namespace CalamityFR.JSON
 		""id"": ""ReaperShark"",
 		""type"": ""NPC"",
 		""englishName"": ""Reaper Shark"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Evolution is a strange mistress, especially in the depths of the abyss. To some, she grants a straightforward path to life, and to others, she grants arms."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Requin Faucheur"",
-				""translatedBestiary"": ""Evolution is a strange mistress, especially in the depths of the abyss. To some, she grants a straightforward path to life, and to others, she grants arms."",
+				""translatedBestiary"": ""L'évolution est une maîtresse étrange, surtout dans les profondeurs de l'abîme. À certains, elle accorde un chemin vers la vie, et à d'autres, elle accorde des armes."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57826,15 +57877,15 @@ namespace CalamityFR.JSON
 		""id"": ""RepairUnitCritter"",
 		""type"": ""NPC"",
 		""englishName"": ""Repair Unit"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Thanks to these little machines, the dusty labs still stand. It appears they're unable to deal with rust, though."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Unité de Réparation"",
-				""translatedBestiary"": ""Thanks to these little machines, the dusty labs still stand. It appears they're unable to deal with rust, though."",
+				""translatedBestiary"": ""Grâce à ces petites machines, les labos poussiéreux tiennent encore debout. Cependant, il semble qu'ils soient incapables de faire face à la rouille."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57844,15 +57895,15 @@ namespace CalamityFR.JSON
 		""id"": ""Rimehound"",
 		""type"": ""NPC"",
 		""englishName"": ""Rimehound"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""A large and bulky hound, its fur is frosted to the point of forming near-icicles. Being tackled by one is a painful experience."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Chien de Givre"",
-				""translatedBestiary"": ""A large and bulky hound, its fur is frosted to the point of forming near-icicles. Being tackled by one is a painful experience."",
+				""translatedBestiary"": ""Un chien de chasse grand et volumineux, sa fourrure est givrée au point de former des quasi-glaçons. Être plaqué par un de ces quasi-glaçon est une expérience douloureuse."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57862,15 +57913,15 @@ namespace CalamityFR.JSON
 		""id"": ""Rotdog"",
 		""type"": ""NPC"",
 		""englishName"": ""Rotdog"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Malicious animals, which attack with tough claws and strong jaws. Any wound from these will bleed heavily. Address the cut quickly."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Chien de Pourriture"",
-				""translatedBestiary"": ""Malicious animals, which attack with tough claws and strong jaws. Any wound from these will bleed heavily. Address the cut quickly."",
+				""translatedBestiary"": ""Animal malveillant, qui attaque avec des griffes dures et des mâchoires fortes. Toute blessure de celui-ci saignera abondamment. Traitez la coupe rapidement."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57880,15 +57931,15 @@ namespace CalamityFR.JSON
 		""id"": ""CrawlerRuby"",
 		""type"": ""NPC"",
 		""englishName"": ""Ruby Crawler"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""A lizard, its back inundated with crystals. These provide protection, but they are easily spooked and can be harvested for the rare gems upon their backs."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Rampant de Rubis"",
-				""translatedBestiary"": ""A lizard, its back inundated with crystals. These provide protection, but they are easily spooked and can be harvested for the rare gems upon their backs."",
+				""translatedBestiary"": ""Un lézard, le dos inondé de cristaux. Ceux-ci offrent une protection, mais ils sont facilement effrayés et peuvent être récoltés pour les gemmes rares sur leur dos."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57898,15 +57949,15 @@ namespace CalamityFR.JSON
 		""id"": ""CrawlerSapphire"",
 		""type"": ""NPC"",
 		""englishName"": ""Sapphire Crawler"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""A lizard, its back inundated with crystals. These provide protection, but they are easily spooked and can be harvested for the rare gems upon their backs."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Rampant de Saphir"",
-				""translatedBestiary"": ""A lizard, its back inundated with crystals. These provide protection, but they are easily spooked and can be harvested for the rare gems upon their backs."",
+				""translatedBestiary"": ""Un lézard, le dos inondé de cristaux. Ceux-ci offrent une protection, mais ils sont facilement effrayés et peuvent être récoltés pour les gemmes rares sur leur dos."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57916,15 +57967,15 @@ namespace CalamityFR.JSON
 		""id"": ""ScornEater"",
 		""type"": ""NPC"",
 		""englishName"": ""Scorn Eater"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""The brute force of the Profaned Goddess’ creations and devotees. Their jaws are filled to the brim with razor-sharp crystals and scorching holy flames."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Dévoreur de Mépris"",
-				""translatedBestiary"": ""The brute force of the Profaned Goddess’ creations and devotees. Their jaws are filled to the brim with razor-sharp crystals and scorching holy flames."",
+				""translatedBestiary"": ""La force brute des créations et des dévots de la Déesse Profanée. Leurs mâchoires sont remplies à ras bord de cristaux acérés comme des rasoirs et de flammes sacrées-ment brûlantes."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57934,15 +57985,15 @@ namespace CalamityFR.JSON
 		""id"": ""Scryllar"",
 		""type"": ""NPC"",
 		""englishName"": ""Scryllar"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Twisted detritus of those who once came to harvest the remains of the crags. The whispers got to them."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Scryllar"",
-				""translatedBestiary"": ""Twisted detritus of those who once came to harvest the remains of the crags. The whispers got to them."",
+				""translatedBestiary"": ""Détritus tordus de ceux qui venaient autrefois récolter ici les restes des rochers. Les murmures les ont atteints."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57952,15 +58003,15 @@ namespace CalamityFR.JSON
 		""id"": ""SeaFloaty"",
 		""type"": ""NPC"",
 		""englishName"": ""Sea Floaty"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Strange but mesmerizing creatures, they hide immediately at the sight of any predator. They do not seem to be fully developed."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Flotteur des Mers"",
-				""translatedBestiary"": ""Strange but mesmerizing creatures, they hide immediately at the sight of any predator. They do not seem to be fully developed."",
+				""translatedBestiary"": ""Créatures étranges mais fascinantes, elles se cachent immédiatement à la vue de tout prédateur. Elles ne semblent pas être totalement développés."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57970,15 +58021,15 @@ namespace CalamityFR.JSON
 		""id"": ""SEAHOE"",
 		""type"": ""NPC"",
 		""englishName"": ""Sea King"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""The Sea King of an ancient civilization long lost to the sands of time— and the desert. He is able to give useful advice on the world around you, having lived for so long. He also used to like clams."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Roi des mers"",
-				""translatedBestiary"": ""The Sea King of an ancient civilization long lost to the sands of time— and the desert. He is able to give useful advice on the world around you, having lived for so long. He also used to like clams."",
+				""translatedBestiary"": ""Le Roi des mers d'une ancienne civilisation perdue depuis longtemps dans les sables du temps et du désert. Il est capable de donner des conseils utiles sur le monde qui vous entoure, ayant vécu si longtemps. Il aimait aussi les palourdes."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -57988,15 +58039,15 @@ namespace CalamityFR.JSON
 		""id"": ""SeaMinnow"",
 		""type"": ""NPC"",
 		""englishName"": ""Sea Minnow"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""While they are at the bottom of the food chain, they also make up eighty percent of the biomass in this sea. They nibble away at corpses that fall from the underground desert above."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Vairon de Mer"",
-				""translatedBestiary"": ""While they are at the bottom of the food chain, they also make up eighty percent of the biomass in this sea. They nibble away at corpses that fall from the underground desert above."",
+				""translatedBestiary"": ""Bien qu'ils soient au bas de la chaîne alimentaire, ils représentent également quatre-vingts pour cent de la biomasse de cette mer. Ils grignotent les cadavres qui tombent du désert souterrain au-dessus."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -58006,15 +58057,15 @@ namespace CalamityFR.JSON
 		""id"": ""SeaSerpent1"",
 		""type"": ""NPC"",
 		""englishName"": ""Sea Serpent"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""These eels are largely passive and drift languidly through the still waters of the sunken sea. Should you provoke them, they can be stubborn attackers."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Serpent de Mer"",
-				""translatedBestiary"": ""These eels are largely passive and drift languidly through the still waters of the sunken sea. Should you provoke them, they can be stubborn attackers."",
+				""translatedBestiary"": ""Ces anguilles sont en grande partie passives et dérivent langoureusement dans les eaux calmes de la mer engloutie. Si vous les provoquez, ils peuvent être des attaquants obstinés."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -58024,15 +58075,15 @@ namespace CalamityFR.JSON
 		""id"": ""SeaUrchin"",
 		""type"": ""NPC"",
 		""englishName"": ""Sea Urchin"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""A spiny animal that flings itself about in defense of its territory. If they fling themselves onto land—though relatively helpless—they can make their way back to the ocean."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Oursin de Mer"",
-				""translatedBestiary"": ""A spiny animal that flings itself about in defense of its territory. If they fling themselves onto land—though relatively helpless—they can make their way back to the ocean."",
+				""translatedBestiary"": ""Animal épineux qui se promène pour défendre son territoire. S'ils se jettent sur terre, bien que relativement impuissants, ils peuvent retourner vers l'océan."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -58042,15 +58093,15 @@ namespace CalamityFR.JSON
 		""id"": ""SepulcherHead"",
 		""type"": ""NPC"",
 		""englishName"": ""Sepulcher"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""This might just be the vilest undead abomination in this realm. The Sepulcher itself is completely immune to physical damage, and can only be killed by destroying its many suspended organs."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Sépulcre"",
-				""translatedBestiary"": ""This might just be the vilest undead abomination in this realm. The Sepulcher itself is completely immune to physical damage, and can only be killed by destroying its many suspended organs."",
+				""translatedBestiary"": ""C'est peut-être l'abomination mort-vivante la plus vile de ce royaume. Le Sépulcre est totalement immunisé contre les dommages physiques et ne peut être tué qu'en détruisant ses nombreux organes suspendus."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -58060,15 +58111,15 @@ namespace CalamityFR.JSON
 		""id"": ""ShockstormShuttle"",
 		""type"": ""NPC"",
 		""englishName"": ""Shockstorm Shuttle"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Proof of life in the stars, these were likely once weapons of war, now primitive to their original civilization. They continue to scour the cosmos for hospitable planets, which they attack."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Navette de Tempête de Choc"",
-				""translatedBestiary"": ""Proof of life in the stars, these were likely once weapons of war, now primitive to their original civilization. They continue to scour the cosmos for hospitable planets, which they attack."",
+				""translatedBestiary"": ""Preuve de la vie dans les étoiles, il s'agissait probablement autrefois d'armes de guerre, aujourd'hui primitives de leur civilisation d'origine. Ils continuent de parcourir le cosmos à la recherche de planètes hospitalières, qu'ils attaquent."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -58078,15 +58129,15 @@ namespace CalamityFR.JSON
 		""id"": ""Signus"",
 		""type"": ""NPC"",
 		""englishName"": ""Signus, Envoy of the Devourer"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""A figure draped in dark robes and even darker history. No one knows the true form of this creature, though many rumors have been spread."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Signus, Émissaire du Dévoreur"",
-				""translatedBestiary"": ""A figure draped in dark robes and even darker history. No one knows the true form of this creature, though many rumors have been spread."",
+				""translatedBestiary"": ""Une figure drapée dans des robes sombres et ayant une histoire encore plus sombre. Personne ne connaît la véritable forme de cette créature, bien que de nombreuses rumeurs se soient répandues.."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -58096,15 +58147,15 @@ namespace CalamityFR.JSON
 		""id"": ""Skyfin"",
 		""type"": ""NPC"",
 		""englishName"": ""Skyfin"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Their fins are highly adapted to both water and air, and should one of their reckless charges leave them briefly stranded on land, within a few moments, they will take to the air."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Nageoire Céleste"",
-				""translatedBestiary"": ""Their fins are highly adapted to both water and air, and should one of their reckless charges leave them briefly stranded on land, within a few moments, they will take to the air."",
+				""translatedBestiary"": ""Leurs nageoires sont très adaptées à la fois à l'eau et à l'air, et si l'une de leurs charges imprudentes les laissait brièvement échouées sur terre, en quelques instants, elles prendraient l'air"",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -58114,15 +58165,15 @@ namespace CalamityFR.JSON
 		""id"": ""SmallSightseer"",
 		""type"": ""NPC"",
 		""englishName"": ""Small Sightseer"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Within their shells, the virus brews a potent chemical. When the seer approaches a foe, it spits this chemical out of its mandibles, hoping to melt the intruder’s flesh."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Petit Cherchevue"",
-				""translatedBestiary"": ""Within their shells, the virus brews a potent chemical. When the seer approaches a foe, it spits this chemical out of its mandibles, hoping to melt the intruder’s flesh."",
+				""translatedBestiary"": ""Dans leurs coquilles, le virus brasse un produit chimique puissant. Lorsque le Cherchevue s'approche d'un ennemi, il crache ce produit chimique de ses mandibules, dans l'espoir de faire fondre la chair de l'intrus."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -58132,15 +58183,15 @@ namespace CalamityFR.JSON
 		""id"": ""SoulSeeker"",
 		""type"": ""NPC"",
 		""englishName"": ""Soul Seeker"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Guardians were brought together by Calamitas to shield its body from blows. It is possible that they are soul slurpers empowered and enslaved by a different brand of magic than brimstone."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Cherche-Âme"",
-				""translatedBestiary"": ""Guardians were brought together by Calamitas to shield its body from blows. It is possible that they are soul slurpers empowered and enslaved by a different brand of magic than brimstone."",
+				""translatedBestiary"": ""Des gardiens ont été réunis par Calamitas pour protéger son corps des coups. Il est possible qu'ils soient des aspirateurs d'âme habilités et asservis par une autre sorte de magie que le soufre."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -58150,15 +58201,15 @@ namespace CalamityFR.JSON
 		""id"": ""SoulSeekerSupreme"",
 		""type"": ""NPC"",
 		""englishName"": ""Soul Seeker"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Incomplete, ghoulish skulls, their forms are limited but their devotion boundless. It’s likely each yearns for a soul of their own to be complete, whether it’s given by Calamitas or ripped from the foe they kill."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Cherche-âme"",
-				""translatedBestiary"": ""Incomplete, ghoulish skulls, their forms are limited but their devotion boundless. It’s likely each yearns for a soul of their own to be complete, whether it’s given by Calamitas or ripped from the foe they kill."",
+				""translatedBestiary"": ""Crânes incomplets, macabres, leurs formes sont limitées mais leur dévotion sans limite. Il est probable que chacun aspire jusqu'à ce que sa propre âme soit complète, qu'elle soit donnée par Calamitas ou arrachée à l'ennemi qu'ils tuent."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -58168,15 +58219,15 @@ namespace CalamityFR.JSON
 		""id"": ""SoulSlurper"",
 		""type"": ""NPC"",
 		""englishName"": ""Soul Slurper"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""The remnants of a soul which has feasted, been feasted upon, and torn into the souls of others. No one knows how the cycle begins, but you don’t want to find out yourself."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Aspire-Âme"",
-				""translatedBestiary"": ""The remnants of a soul which has feasted, been feasted upon, and torn into the souls of others. No one knows how the cycle begins, but you don’t want to find out yourself."",
+				""translatedBestiary"": ""Les restes d'une âme qui s'est régalée, a été régalée et déchirée dans les âmes des autres. Personne ne sait comment le cycle commence, mais vous ne voulez pas le découvrir par vous-même."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -58186,15 +58237,15 @@ namespace CalamityFR.JSON
 		""id"": ""StellarCulex"",
 		""type"": ""NPC"",
 		""englishName"": ""Stellar Culex"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Many pincers line the face of this mutation. It will attempt to attach itself to other organic creatures, and lower its mouth to their flesh to feed."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Culex Stellaire"",
-				""translatedBestiary"": ""Many pincers line the face of this mutation. It will attempt to attach itself to other organic creatures, and lower its mouth to their flesh to feed."",
+				""translatedBestiary"": ""De nombreuses pinces tapissent le visage de cette mutation. Il tentera de s'attacher à d'autres créatures organiques et abaissera sa bouche vers leur chair pour se nourrir."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -58204,15 +58255,15 @@ namespace CalamityFR.JSON
 		""id"": ""StormWeaverHead"",
 		""type"": ""NPC"",
 		""englishName"": ""Storm Weaver"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""It resides high up in the stratosphere, feasting on wyverns and storm swimmers alike, which give it powerful electrokinesis."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Tisse-Tempête"",
-				""translatedBestiary"": ""It resides high up in the stratosphere, feasting on wyverns and storm swimmers alike, which give it powerful electrokinesis."",
+				""translatedBestiary"": ""Il réside haut dans la stratosphère, se régalant de vouivres et de nageurs de tempête, ce qui lui confère une puissante électrokinésie."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -58222,15 +58273,15 @@ namespace CalamityFR.JSON
 		""id"": ""Stormlion"",
 		""type"": ""NPC"",
 		""englishName"": ""Stormlion"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""What these appear to feed on are the electric storms that brew over deserts. When the skies darken, they reach upwards with their mandibles that act as lightning rods."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Fourmi-Tonnerre"",
-				""translatedBestiary"": ""What these appear to feed on are the electric storms that brew over deserts. When the skies darken, they reach upwards with their mandibles that act as lightning rods."",
+				""translatedBestiary"": ""Ce dont ceux-ci semblent se nourrir, ce sont les orages électriques qui soufflent sur le désert. Lorsque le ciel s'assombrit, ils tendent vers le haut leurs mandibules qui agissent comme des paratonnerres."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -58240,15 +58291,15 @@ namespace CalamityFR.JSON
 		""id"": ""SulphurousSharkron"",
 		""type"": ""NPC"",
 		""englishName"": ""Sulphurous Sharkron"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Rotting, corpselike offspring of the Old Duke. In the Sulphurous Seas, even from birth, their appearances are wizened and decrepit."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Draquin Sulfureux"",
-				""translatedBestiary"": ""Rotting, corpselike offspring of the Old Duke. In the Sulphurous Seas, even from birth, their appearances are wizened and decrepit."",
+				""translatedBestiary"": ""Progéniture pourrissante et cadavérique du Vieux Duc. Dans les Mers sulfureuses, même dès leur naissance, leurs apparences sont flétries et décrépites."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -58258,15 +58309,15 @@ namespace CalamityFR.JSON
 		""id"": ""SulphurousSkater"",
 		""type"": ""NPC"",
 		""englishName"": ""Sulphurous Skater"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""From below, the tips of their legs barely penetrate the surface of the water, and it is hard to distinguish their movements from the rain on the water’s surface."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Patineur Sulfureux"",
-				""translatedBestiary"": ""From below, the tips of their legs barely penetrate the surface of the water, and it is hard to distinguish their movements from the rain on the water’s surface."",
+				""translatedBestiary"": ""D'en bas, le bout de leurs pattes pénètre à peine la surface de l'eau, et il est difficile de distinguer leurs mouvements de la pluie à la surface de l'eau."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -58276,15 +58327,15 @@ namespace CalamityFR.JSON
 		""id"": ""Sunskater"",
 		""type"": ""NPC"",
 		""englishName"": ""Sunskater"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Some creatures which skirt the edges of our atmosphere tend to absorb and channel the sun’s rays better than others. At any rate, this is a passive creature that means you no harm. You should return the favor."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Glisse-Soleil"",
-				""translatedBestiary"": ""Some creatures which skirt the edges of our atmosphere tend to absorb and channel the sun’s rays better than others. At any rate, this is a passive creature that means you no harm. You should return the favor."",
+				""translatedBestiary"": ""Certaines créatures qui longent les bords de notre atmosphère ont tendance à mieux absorber et canaliser les rayons du soleil que d'autres. En tout cas, c'est une créature passive qui ne vous veut aucun mal. Vous devriez leur rendre la pareille."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -58294,15 +58345,15 @@ namespace CalamityFR.JSON
 		""id"": ""SupremeCalamitas"",
 		""type"": ""NPC"",
 		""englishName"": ""Supreme Calamitas"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""The Brimstone Witch's harsh life can be seen in the magic she casts. Volatile and powerful, yet just barely refined. Her temper is said to be fiery enough to burn down a kingdom."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Calamitas Suprême"",
-				""translatedBestiary"": ""The Brimstone Witch's harsh life can be seen in the magic she casts. Volatile and powerful, yet just barely refined. Her temper is said to be fiery enough to burn down a kingdom."",
+				""translatedBestiary"": ""La dure vie de la sorcière Brimstone peut être vue dans la magie qu'elle lance. Volatil et puissant, mais à peine raffiné. On dit que son tempérament est suffisagement fougueux pour pouvoir incendier un royaume."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -58312,15 +58363,15 @@ namespace CalamityFR.JSON
 		""id"": ""DevourerofGodsHead"",
 		""type"": ""NPC"",
 		""englishName"": ""The Devourer of Gods"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Its otherworldly ego is known as well as its overwhelming power across the land, as in battle it boasts constantly. Admittedly it is one of the few able to back up its claims."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Le Dévoreur de Dieux"",
-				""translatedBestiary"": ""Its otherworldly ego is known as well as its overwhelming power across the land, as in battle it boasts constantly. Admittedly it is one of the few able to back up its claims."",
+				""translatedBestiary"": ""Son ego d'un autre monde est connu ainsi que son pouvoir écrasant à travers le pays, car il se vante constamment de son style de combat. Même si, il est l'un des rares à pouvoir communiquer ses affirmations."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -58330,15 +58381,15 @@ namespace CalamityFR.JSON
 		""id"": ""Bumblefuck"",
 		""type"": ""NPC"",
 		""englishName"": ""The Dragonfolly"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Known across the land for the swarms that have gathered in the jungle, they are nearly feared above all else in the, as though they may not be quite as dangerous as other forces, they have no master."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""La Folie Draconique"",
-				""translatedBestiary"": ""Known across the land for the swarms that have gathered in the jungle, they are nearly feared above all else in the, as though they may not be quite as dangerous as other forces, they have no master."",
+				""translatedBestiary"": ""Connus à travers le pays pour les essaims qui se sont rassemblés dans la jungle, ils sont presque redoutés par-dessus tout, comme s'ils n'étaient peut-être pas aussi dangereux que d'autres forces, ils n'ont pas de maître."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -58348,15 +58399,15 @@ namespace CalamityFR.JSON
 		""id"": ""HiveMind"",
 		""type"": ""NPC"",
 		""englishName"": ""The Hive Mind"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""In the deep trenches of the corruption, infected creatures gather to manifest their own deity. Unlike other cases where smaller beings gather for protection, this is an entirely offensive maneuver."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Esprit de Ruche"",
-				""translatedBestiary"": ""In the deep trenches of the corruption, infected creatures gather to manifest their own deity. Unlike other cases where smaller beings gather for protection, this is an entirely offensive maneuver."",
+				""translatedBestiary"": ""Dans les profondes tranchées de la corruption, des créatures infectées se rassemblent pour manifester leur propre divinité. Contrairement à d'autres cas où des êtres plus petits se rassemblent pour se protéger, il s'agit ici d'une manœuvre entièrement offensive."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -58366,15 +58417,15 @@ namespace CalamityFR.JSON
 		""id"": ""Leviathan"",
 		""type"": ""NPC"",
 		""englishName"": ""The Leviathan"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""A gargantuan marine reptile that has lurked the ocean depths for almost a millennium. It is unknown if she is the last of her kind, and as despicable as it is, let us pray that she is."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Le Leviathan"",
-				""translatedBestiary"": ""A gargantuan marine reptile that has lurked the ocean depths for almost a millennium. It is unknown if she is the last of her kind, and as despicable as it is, let us pray that she is."",
+				""translatedBestiary"": ""Un gargantuesque reptile marin qui rôle dans les profondeurs de l'océan depuis près d'un millinéaire.On ne sait pas si il est le dernier de son espèce, et aussi méprisable soit-il, prions pourr qu'il le soit"",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -58384,15 +58435,15 @@ namespace CalamityFR.JSON
 		""id"": ""OldDuke"",
 		""type"": ""NPC"",
 		""englishName"": ""The Old Duke"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Despite appearing old and decrepit, it clings to life. It does not seem native to the polluted sea, yet it has taken its place as its apex predator."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Le Vieux Duc"",
-				""translatedBestiary"": ""Despite appearing old and decrepit, it clings to life. It does not seem native to the polluted sea, yet it has taken its place as its apex predator."",
+				""translatedBestiary"": ""D'apparence vieux et décrépit, il s'accroche à la vie. Il ne semble pas être originaire de la mer polluée, mais il a pris sa place en tant que prédateur suprême."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -58402,15 +58453,15 @@ namespace CalamityFR.JSON
 		""id"": ""PerforatorHeadLarge"",
 		""type"": ""NPC"",
 		""englishName"": ""The Perforator"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Each equipped with a deadly mouthpiece, the different ones are suited for different tasks. One to pierce, one to tear, and another, simply to devour."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Le Perforateur"",
-				""translatedBestiary"": ""Each equipped with a deadly mouthpiece, the different ones are suited for different tasks. One to pierce, one to tear, and another, simply to devour."",
+				""translatedBestiary"": ""Chaque entrée est équipé d'un embout buccal mortel, qui sont adaptés à différentes tâches. Un à percer, un à déchirer, et un autre, tout simplement à dévorer."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -58420,15 +58471,15 @@ namespace CalamityFR.JSON
 		""id"": ""PerforatorHeadMedium"",
 		""type"": ""NPC"",
 		""englishName"": ""The Perforator"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Each equipped with a deadly mouthpiece, the different ones are suited for different tasks. One to pierce, one to tear, and another, simply to devour."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Le Perforateur"",
-				""translatedBestiary"": ""Each equipped with a deadly mouthpiece, the different ones are suited for different tasks. One to pierce, one to tear, and another, simply to devour."",
+				""translatedBestiary"": ""Chaque entrée est équipé d'un embout buccal mortel, qui sont adaptés à différentes tâches. Un à percer, un à déchirer, et un autre, tout simplement à dévorer."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -58438,15 +58489,15 @@ namespace CalamityFR.JSON
 		""id"": ""PerforatorHeadSmall"",
 		""type"": ""NPC"",
 		""englishName"": ""The Perforator"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Each equipped with a deadly mouthpiece, the different ones are suited for different tasks. One to pierce, one to tear, and another, simply to devour."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Le Perforateur"",
-				""translatedBestiary"": ""Each equipped with a deadly mouthpiece, the different ones are suited for different tasks. One to pierce, one to tear, and another, simply to devour."",
+				""translatedBestiary"": ""Chaque entrée est équipé d'un embout buccal mortel, qui sont adaptés à différentes tâches. Un à percer, un à déchirer, et un autre, tout simplement à dévorer."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -58456,15 +58507,15 @@ namespace CalamityFR.JSON
 		""id"": ""PerforatorHive"",
 		""type"": ""NPC"",
 		""englishName"": ""The Perforator Hive"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Though birthed by the crimson, it is unknown whether they fully serve that creator. The worms of the hive frequently carve huge tunnels in the crimson’s flesh."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""La Ruche du Perforateur"",
-				""translatedBestiary"": ""Though birthed by the crimson, it is unknown whether they fully serve that creator. The worms of the hive frequently carve huge tunnels in the crimson’s flesh."",
+				""translatedBestiary"": ""Bien qu'ils soient nés du cramoisi, on ne sait pas s'ils servent pleinement ce créateur. Les vers de la ruche creusent souvent d'immenses tunnels dans la chair cramoisie."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -58474,15 +58525,15 @@ namespace CalamityFR.JSON
 		""id"": ""PlaguebringerGoliath"",
 		""type"": ""NPC"",
 		""englishName"": ""The Plaguebringer Goliath"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Machinery and nanobots have nearly entirely eaten away at the form of this Queen Bee. One wonders if it would simply be more efficient to create one from the ground up."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Le Goliath Colporte-Peste"",
-				""translatedBestiary"": ""Machinery and nanobots have nearly entirely eaten away at the form of this Queen Bee. One wonders if it would simply be more efficient to create one from the ground up."",
+				""translatedBestiary"": ""Les machines et les nanobots ont presque entièrement rongé la forme de cette Reine des Abeilles. On se demande s'il serait pas plus efficace d'en créer une à partir de zéro."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -58492,15 +58543,15 @@ namespace CalamityFR.JSON
 		""id"": ""SlimeGodCore"",
 		""type"": ""NPC"",
 		""englishName"": ""The Slime God"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""This creature could easily be confused for a giant amoeba. It seems to be developing past the limitations of an usual slime, thanks to all the compacted biomass it contains."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Le Dieu des Gelées"",
-				""translatedBestiary"": ""This creature could easily be confused for a giant amoeba. It seems to be developing past the limitations of an usual slime, thanks to all the compacted biomass it contains."",
+				""translatedBestiary"": ""Cette créature pourrait facilement être confondue avec une amibe géante. Il semble se développer au-delà des limites d'une gelée habituelle, grâce à toute la biomasse compactée qu'il contient"",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -58510,15 +58561,15 @@ namespace CalamityFR.JSON
 		""id"": ""CrawlerTopaz"",
 		""type"": ""NPC"",
 		""englishName"": ""Topaz Crawler"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""A lizard, its back inundated with crystals. These provide protection, but they are easily spooked and can be harvested for the rare gems upon their backs."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Rampant de Topaze"",
-				""translatedBestiary"": ""A lizard, its back inundated with crystals. These provide protection, but they are easily spooked and can be harvested for the rare gems upon their backs."",
+				""translatedBestiary"": ""Un lézard, le dos inondé de cristaux. Ceux-ci offrent une protection, mais ils sont facilement effrayés et peuvent être récoltés pour les gemmes rares sur leur dos."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -58528,15 +58579,15 @@ namespace CalamityFR.JSON
 		""id"": ""ToxicMinnow"",
 		""type"": ""NPC"",
 		""englishName"": ""Toxic Minnow"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""It spends much of its time finding the most repulsive and disagreeable vegetation for animals to feast upon. Their bellies glow green as they process the chemicals to use in self-defense."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Fretin Toxique"",
-				""translatedBestiary"": ""It spends much of its time finding the most repulsive and disagreeable vegetation for animals to feast upon. Their bellies glow green as they process the chemicals to use in self-defense."",
+				""translatedBestiary"": ""Il passe une grande partie de son temps à trouver la végétation la plus répugnante et la plus désagréable possible pour les animaux. Leurs ventres brillent en vert lorsqu'ils traitent les produits chimiques à utiliser en cas de légitime défense."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -58546,15 +58597,15 @@ namespace CalamityFR.JSON
 		""id"": ""Trasher"",
 		""type"": ""NPC"",
 		""englishName"": ""Trasher"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""A huge alligator adapted to a life of scavenging in the sulphurous sea. They scrape morsels of food from the bottom with their massive jaws. But do not be mistaken. They will also prey on weak and feeble creatures."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Déchiqueteur"",
-				""translatedBestiary"": ""A huge alligator adapted to a life of scavenging in the sulphurous sea. They scrape morsels of food from the bottom with their massive jaws. But do not be mistaken. They will also prey on weak and feeble creatures."",
+				""translatedBestiary"": ""Un énorme alligator qui c'est adapté à une vie de charognard dans la mer sulfureuse. Ils grattent des morceaux de nourriture avec leurs mâchoires massives. Mais ne vous y trompez pas, ils s'attaqueront également aux créatures faibles."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -58564,15 +58615,15 @@ namespace CalamityFR.JSON
 		""id"": ""Trilobite"",
 		""type"": ""NPC"",
 		""englishName"": ""Trilobite"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Their shell is of notable hardness, and it carries the same weight as stone. It speaks of their strength, for them to be able to fling themselves about the way they do."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Trilobite"",
-				""translatedBestiary"": ""Their shell is of notable hardness, and it carries the same weight as stone. It speaks of their strength, for them to be able to fling themselves about the way they do."",
+				""translatedBestiary"": ""Leur coquille est d'une dureté remarquable et pese le même poids que la pierre. Cela explique leurs force, de pouvoir se jeter comme ils le font."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -58582,15 +58633,15 @@ namespace CalamityFR.JSON
 		""id"": ""Twinkler"",
 		""type"": ""NPC"",
 		""englishName"": ""Twinkler"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""A rare case of the astral infection creating a harmless creature. They flicker rather prettily, and you’re not going to be the only one who thinks so. They make useful bait."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Scintilleur"",
-				""translatedBestiary"": ""A rare case of the astral infection creating a harmless creature. They flicker rather prettily, and you’re not going to be the only one who thinks so. They make useful bait."",
+				""translatedBestiary"": ""Un cas rare d'infection astrale créant une créature inoffensive. Ils scintillent plutôt joliment, et vous ne serez pas le seul à le penser. Ils font des appâts utiles."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -58600,15 +58651,15 @@ namespace CalamityFR.JSON
 		""id"": ""Viperfish"",
 		""type"": ""NPC"",
 		""englishName"": ""Viperfish"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""A typically docile animal, it spends much of its time meandering about the rocky outcrops of the abyss. When approached it can become quite aggressive."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Poisson-Vipère"",
-				""translatedBestiary"": ""A typically docile animal, it spends much of its time meandering about the rocky outcrops of the abyss. When approached it can become quite aggressive."",
+				""translatedBestiary"": ""Animal typiquement docile, il passe une grande partie de son temps à errer sur les affleurements rocheux des abysses. Attention cependant, lorsqu'on s'approche de lui, il peut devenir assez agressif."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -58618,15 +58669,15 @@ namespace CalamityFR.JSON
 		""id"": ""Viruling"",
 		""type"": ""NPC"",
 		""englishName"": ""Viruling"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Overtaken by the plague, derplings immediately lose their legs, as they are seen as only a hindrance. No longer will they gaily spring about."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Virulant"",
-				""translatedBestiary"": ""Overtaken by the plague, derplings immediately lose their legs, as they are seen as only a hindrance. No longer will they gaily spring about."",
+				""translatedBestiary"": ""Rattrapés par la peste, les derplings perdent aussitôt leurs pattes, car elles ne sont plus utiles. Ils ne s'élanceront donc plus gaiement."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -58636,15 +58687,15 @@ namespace CalamityFR.JSON
 		""id"": ""WaterLeech"",
 		""type"": ""NPC"",
 		""englishName"": ""Water Leech"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""It can smell the scent of flesh from far distances and will eagerly squirm its way to the source. Once attached to the host, they rapidly intake blood and discharge venom, both of which heavily disadvantage its prey."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Sangsue d'Eau"",
-				""translatedBestiary"": ""It can smell the scent of flesh from far distances and will eagerly squirm its way to the source. Once attached to the host, they rapidly intake blood and discharge venom, both of which heavily disadvantage its prey."",
+				""translatedBestiary"": ""Ils peuvent sentir l'odeur de la chair de loin et se tortiller avec impatience jusqu'à la source. Une fois attachés à l'hôte, ils absorbent rapidement du sang et libèrent du venin, ce qui désavantage fortement sa proie."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -58654,15 +58705,15 @@ namespace CalamityFR.JSON
 		""id"": ""WulfrumDrone"",
 		""type"": ""NPC"",
 		""englishName"": ""Wulfrum Drone"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Rotating their small frames, they swoop at potential intruders into a predefined territory that no longer exists. They wander without purpose."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Drone Wulfrum"",
-				""translatedBestiary"": ""Rotating their small frames, they swoop at potential intruders into a predefined territory that no longer exists. They wander without purpose."",
+				""translatedBestiary"": ""En faisant tourner leurs petits cadres, ils fondent sur des intrus potentiels dans un territoire prédéfini qui n'existe plus. Ils errent sans but."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -58672,7 +58723,7 @@ namespace CalamityFR.JSON
 		""id"": ""WulfrumGyrator"",
 		""type"": ""NPC"",
 		""englishName"": ""Wulfrum Gyrator"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""An orb of wulfrum metal. How it travels is a mystery, though it likely has something to do with its gyroscopic spinning. They fling their bodies at enemies to attack."",
 		""translations"": [
@@ -58680,7 +58731,7 @@ namespace CalamityFR.JSON
 				""id"": 1,
 				""author"": ""Tolsyak"",
 				""translatedName"": ""Gyrateur Wulfrum"",
-				""translatedBestiary"": ""An orb of wulfrum metal. How it travels is a mystery, though it likely has something to do with its gyroscopic spinning. They fling their bodies at enemies to attack."",
+				""translatedBestiary"": ""Une orbe de métal wulfrum. La façon dont elle se déplace est un mystère, bien que cela ait probablement quelque chose à voir avec sa rotation gyroscopique. Elles jettent leurs corps sur les ennemis pour attaquer"",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -58690,15 +58741,15 @@ namespace CalamityFR.JSON
 		""id"": ""WulfrumHovercraft"",
 		""type"": ""NPC"",
 		""englishName"": ""Wulfrum Hovercraft"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Traveling with propulsion that carries them over the ground with ease, they seek out trespassers, though their analysis likely has grown imperceptive with age."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Aéroglisseur Wulfrum"",
-				""translatedBestiary"": ""Traveling with propulsion that carries them over the ground with ease, they seek out trespassers, though their analysis likely has grown imperceptive with age."",
+				""translatedBestiary"": ""Voyageant avec une propulsion qui les transporte facilement sur le sol, ils recherchent les intrus, bien que leur analyse soit probablement devenue incorrect avec l'âge."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -58708,15 +58759,15 @@ namespace CalamityFR.JSON
 		""id"": ""WulfrumPylon"",
 		""type"": ""NPC"",
 		""englishName"": ""Wulfrum Pylon"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""A stationary foe, though its function is far from harmless. Within its influence, other wulfrum creations become notably empowered, the curious energy within them, overflowing."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Pylône Wulfrum"",
-				""translatedBestiary"": ""A stationary foe, though its function is far from harmless. Within its influence, other wulfrum creations become notably empowered, the curious energy within them, overflowing."",
+				""translatedBestiary"": ""Un ennemi fixe, même si sa fonction est loin d'être inoffensive. Sous son influence, d'autres créations wulfrum deviennent particulièrement puissantes, la curieuse énergie en leur sein, débordant."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -58726,15 +58777,15 @@ namespace CalamityFR.JSON
 		""id"": ""WulfrumRover"",
 		""type"": ""NPC"",
 		""englishName"": ""Wulfrum Rover"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""An aged automaton of unknown origins. With an incessant sense of duty and worn frame, they scour the land. Their lamps shine with curious energy."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""Vadrouilleur Wulfrum"",
-				""translatedBestiary"": ""An aged automaton of unknown origins. With an incessant sense of duty and worn frame, they scour the land. Their lamps shine with curious energy."",
+				""translatedBestiary"": ""Un vieil automate d'origine inconnue. Avec un sens du devoir incessant et une carcasse usée, ils écument la terre. Leurs lampes brillent d'une curieuse énergie."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -58744,15 +58795,15 @@ namespace CalamityFR.JSON
 		""id"": ""AresBody"",
 		""type"": ""NPC"",
 		""englishName"": ""XF-09 Ares"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""While it is the most flamboyant of Draedon’s machines, it appears to be lacking some finish, though this trait does not compromise its killing potential whatsoever."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""XF-09 Ares"",
-				""translatedBestiary"": ""While it is the most flamboyant of Draedon’s machines, it appears to be lacking some finish, though this trait does not compromise its killing potential whatsoever."",
+				""translatedBestiary"": ""Bien qu'il s'agisse de la plus flamboyante des machines de Draedon, il semble qu'elle manque de finition, bien que cela ne compromette en rien son potentiel de destruction."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -58762,15 +58813,15 @@ namespace CalamityFR.JSON
 		""id"": ""ThanatosHead"",
 		""type"": ""NPC"",
 		""englishName"": ""XM-05 Thanatos"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Under every armored plate on this machine lies an advanced weapon. This sacrifices the machine’s durability, but it makes it a very effective mass murderer."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""XM-05 Thanatos"",
-				""translatedBestiary"": ""Under every armored plate on this machine lies an advanced weapon. This sacrifices the machine’s durability, but it makes it a very effective mass murderer."",
+				""translatedBestiary"": ""Sous chaque plaque blindée de cette machine se cache une arme avancée. Cela sacrifie la durabilité de la machine, mais cela en fait un tueur de masse très efficace."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -58780,15 +58831,15 @@ namespace CalamityFR.JSON
 		""id"": ""Artemis"",
 		""type"": ""NPC"",
 		""englishName"": ""XS-01 Artemis"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""The Exo Twins are the ultimate recon units. Capable of detecting various wavelengths of light unknown to us, nothing can hide."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""XS-01 Artemis"",
-				""translatedBestiary"": ""The Exo Twins are the ultimate recon units. Capable of detecting various wavelengths of light unknown to us, nothing can hide."",
+				""translatedBestiary"": ""Les Exo Twins sont les unités de reconnaissance ultimes. Capable de détecter diverses longueurs d'onde de lumière qui nous sont inconnues, rien ne peut leurs échappées."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
@@ -58798,15 +58849,15 @@ namespace CalamityFR.JSON
 		""id"": ""Apollo"",
 		""type"": ""NPC"",
 		""englishName"": ""XS-03 Apollo"",
-		""state"": ""Traduit (Bestiaire Manquant)"",
+		""state"": ""Traduit"",
 		""activeTranslation"": 1,
 		""englishBestiary"": ""Within it, burns chemicals with the fury of Greek fire. Highly refined from the design of the eye-like twins before, it is now capable of outstanding mid-air movement."",
 		""translations"": [
 			{
 				""id"": 1,
-				""author"": ""Tolsyak"",
+				""author"": ""Goffio"",
 				""translatedName"": ""XS-03 Apollo"",
-				""translatedBestiary"": ""Within it, burns chemicals with the fury of Greek fire. Highly refined from the design of the eye-like twins before, it is now capable of outstanding mid-air movement."",
+				""translatedBestiary"": ""En son sein, brûle des produits chimiques avec la fureur d'un feu grec. Très affiné par rapport à la conception de ses yeux rappellant les Exo Twins, il est désormais capable de mouvements exceptionnels dans les airs."",
 				""proofRead"": false,
 				""proofReader"": """"
 			}
