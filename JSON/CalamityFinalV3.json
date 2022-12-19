@@ -53745,42 +53745,6 @@
 		"id": "EdgyBossText3",
 		"type": "TRANSLATION",
 		"englishName": "",
-		"englishDesc": "A fatal mistake!",
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "",
-				"translatedDesc": "Une erreur fatale!",
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "EdgyBossText4",
-		"type": "TRANSLATION",
-		"englishName": "",
-		"englishDesc": "Good luck recovering from that!",
-		"state": "Traduit",
-		"activeTranslation": 1,
-		"translations": [
-			{
-				"id": 1,
-				"author": "Tolsyak",
-				"translatedName": "",
-				"translatedDesc": "Bonne chance pour récupérer de ça!",
-				"proofRead": false,
-				"proofReader": ""
-			}
-		]
-	},
-	{
-		"id": "EdgyBossText5",
-		"type": "TRANSLATION",
-		"englishName": "",
 		"englishDesc": "Delicious...",
 		"state": "Traduit",
 		"activeTranslation": 1,
@@ -53796,7 +53760,7 @@
 		]
 	},
 	{
-		"id": "EdgyBossText6",
+		"id": "EdgyBossText4",
 		"type": "TRANSLATION",
 		"englishName": "",
 		"englishDesc": "Did that hurt?",
@@ -53807,7 +53771,43 @@
 				"id": 1,
 				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "Ca t'a fait mal?",
+				"translatedDesc": "Ca t'as fait mal?",
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "EdgyBossText5",
+		"type": "TRANSLATION",
+		"englishName": "",
+		"englishDesc": "It's not over yet!",
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "",
+				"translatedDesc": "Ce n'est pas encore terminé!",
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "EdgyBossText6",
+		"type": "TRANSLATION",
+		"englishName": "",
+		"englishDesc": "A GOD DOES NOT FEAR DEATH!",
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "",
+				"translatedDesc": "UN DIEU NE CRAINT PAS LA MORT!",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -53817,7 +53817,7 @@
 		"id": "EdgyBossText7",
 		"type": "TRANSLATION",
 		"englishName": "",
-		"englishDesc": "Nothing personal, kid.",
+		"englishDesc": "You are no god... but I shall feast upon your essence regardless!",
 		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
@@ -53825,7 +53825,7 @@
 				"id": 1,
 				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "Rien de personnel, gamin.",
+				"translatedDesc": "Tu n'es pas un dieu...mais peu importe, je devorerais ton âme!",
 				"proofRead": false,
 				"proofReader": ""
 			}
@@ -54609,7 +54609,7 @@
 		"id": "EdgyBossText",
 		"type": "TRANSLATION",
 		"englishName": "",
-		"englishDesc": "Don't get cocky, kid!",
+		"englishDesc": "Don't get cocky",
 		"state": "Traduit",
 		"activeTranslation": 1,
 		"translations": [
@@ -54617,7 +54617,25 @@
 				"id": 1,
 				"author": "Tolsyak",
 				"translatedName": "",
-				"translatedDesc": "Reste à ta place, gamin!",
+				"translatedDesc": "Reste à ta place",
+				"proofRead": false,
+				"proofReader": ""
+			}
+		]
+	},
+	{
+		"id": "EdgyBossText2",
+		"type": "TRANSLATION",
+		"englishName": "",
+		"englishDesc": "A fatal mistake!",
+		"state": "Traduit",
+		"activeTranslation": 1,
+		"translations": [
+			{
+				"id": 1,
+				"author": "Tolsyak",
+				"translatedName": "",
+				"translatedDesc": "Une erreur fatale!",
 				"proofRead": false,
 				"proofReader": ""
 			}
