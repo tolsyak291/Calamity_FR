@@ -891,10 +891,10 @@ public class CalamityGlobalItem_FR : GlobalItem
 		{
 			return "ReaverTank";
 		}
-		if (head.type == ModContent.ItemType<ShroomiteVisage>() && body.type == 1549 && legs.type == 1550)
+		/*if (head.type == ModContent.ItemType<ShroomiteVisage>() && body.type == 1549 && legs.type == 1550)
 		{
 			return "ShroomiteCalam";
-		}
+		}*/
 		if (head.type == ModContent.ItemType<SilvaHeadSummon>() && body.type == ModContent.ItemType<SilvaArmor>() && legs.type == ModContent.ItemType<SilvaLeggings>())
 		{
 			return "SilvaSummon";
@@ -1455,14 +1455,14 @@ public class CalamityGlobalItem_FR : GlobalItem
 				line.Text = line.Text.Replace("Only gives 37 seconds of Potion Sickness", "Provoque seulement 37s de potion affaiblie");
 			}
 		}
-		if (item.type == ModContent.ItemType<KnowledgeKingSlime>())
+		/*if (item.type == ModContent.ItemType<KnowledgeKingSlime>())
 		{
 			foreach (TooltipLine line in tooltips)
 			{
 				line.Text = line.Text.Replace("Favorite this item to gain 5% increased movement speed and 2% increased jump speed.", "Favorisez cet objet pour gagner 5% de vitesse de mouvement et 2% de vitesse de saut.");
 				line.Text = line.Text.Replace("Favorite this item to gain 5% increased movement speed.", "Favorisez cet objet pour gagner 5% de vitesse de mouvement.");
 			}
-		}
+		}*/
 		/*if (item.type == ModContent.ItemType<RevengeanceModeItem>())
 		{
 			foreach (TooltipLine line in tooltips)

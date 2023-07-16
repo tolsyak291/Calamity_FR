@@ -1,6 +1,8 @@
 Traduction française non-officielle du mod Calamity
 Unofficial Calamity mod french translation
 
+1.2.3 : MaJ pour la compatibilité
+
 A l'exception du texte impossible à traduire, tout le contenu depuis la v1.4 + une partie du contenu des versions supérieures (v1.5,2 et +) sont traduits.
 Merci aux traducteurs m'ayant aidé sur ce projet, en particulier Goffio qui s'est occupé de la plus grosse partie du bestiaire.
 
